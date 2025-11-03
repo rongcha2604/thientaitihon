@@ -9,7 +9,7 @@
    git init
    git add .
    git commit -m "Initial commit"
-   git remote add origin <your-github-repo-url>
+   git remote add origin https://github.com/Dragon-Love-AI/ThienTaiNhi.git
    git push -u origin main
    ```
 
