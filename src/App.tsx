@@ -5,6 +5,8 @@ import { loadManifest, loadSubjectByLevel, pickPathByLevel } from "./lib/loader"
 import SelectorPanel from "./components/SelectorPanel";
 import QuizPlayer from "./components/QuizPlayer";
 import BackgroundParticles from "./components/BackgroundParticles";
+import SoundToggle from "./components/SoundToggle";
+import { useSound } from "./hooks/useSound";
 
 export default function App() {
   const [manifest, setManifest] = useState<Manifest | null>(null);
@@ -13,6 +15,9 @@ export default function App() {
   const [level, setLevel] = useState<Level | "">("");
   const [bundle, setBundle] = useState<SubjectBundle | null>(null);
   const [loading, setLoading] = useState(false);
+  
+  // Sound settings (có thể lưu vào localStorage sau)
+  const { enabled: soundEnabled, toggle: toggleSound } = useSound({ enabled: true, volume: 0.3 });
 
   useEffect(() => {
     loadManifest().then(setManifest);
@@ -41,6 +46,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-primary-gradient relative overflow-hidden">
+      <SoundToggle enabled={soundEnabled} onToggle={toggleSound} />
       <BackgroundParticles count={30} />
       
       {/* Animated gradient overlay */}
