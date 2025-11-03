@@ -1,0 +1,5351 @@
+{
+  "meta": {
+    "grade": 1,
+    "subject": "Toán",
+    "language": "vi",
+    "created_date": "2025-11-03",
+    "level": "medium"
+  },
+  "topics": [
+    {
+      "id": "MATH1_MEDIUM_01",
+      "name": "Chủ đề 1",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m01Q01",
+          "question": "63 + 23 = ?",
+          "options": [
+            "85",
+            "88",
+            "86",
+            "76"
+          ],
+          "answer_index": 2,
+          "answer_text": "86",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m01Q02",
+          "question": "41 + 35 = ?",
+          "options": [
+            "78",
+            "75",
+            "76",
+            "66"
+          ],
+          "answer_index": 2,
+          "answer_text": "76",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m01Q03",
+          "question": "4 × 4 = ?",
+          "options": [
+            "16",
+            "12",
+            "18",
+            "14"
+          ],
+          "answer_index": 0,
+          "answer_text": "16",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m01Q04",
+          "question": "39 + 45 = ?",
+          "options": [
+            "74",
+            "84",
+            "86",
+            "83"
+          ],
+          "answer_index": 1,
+          "answer_text": "84",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m01Q05",
+          "question": "49 : 7 = ?",
+          "options": [
+            "8",
+            "46",
+            "6",
+            "7"
+          ],
+          "answer_index": 3,
+          "answer_text": "7",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m01Q06",
+          "question": "38 + 59 = ?",
+          "options": [
+            "99",
+            "96",
+            "87",
+            "97"
+          ],
+          "answer_index": 3,
+          "answer_text": "97",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m01Q07",
+          "question": "4 × 3 = ?",
+          "options": [
+            "12",
+            "10",
+            "8",
+            "14"
+          ],
+          "answer_index": 0,
+          "answer_text": "12",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m01Q08",
+          "question": "Chu vi hình vuông cạnh 4 cm là ?",
+          "options": [
+            "5",
+            "20",
+            "16",
+            "12"
+          ],
+          "answer_index": 2,
+          "answer_text": "16",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m01Q09",
+          "question": "4 × 4 = ?",
+          "options": [
+            "14",
+            "16",
+            "12",
+            "18"
+          ],
+          "answer_index": 1,
+          "answer_text": "16",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m01Q10",
+          "question": "9 × 9 = ?",
+          "options": [
+            "81",
+            "79",
+            "72",
+            "83"
+          ],
+          "answer_index": 0,
+          "answer_text": "81",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m01Q11",
+          "question": "10 : 2 = ?",
+          "options": [
+            "6",
+            "5",
+            "2",
+            "4"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m01Q12",
+          "question": "16 : 8 = ?",
+          "options": [
+            "1",
+            "8",
+            "2",
+            "3"
+          ],
+          "answer_index": 2,
+          "answer_text": "2",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m01Q13",
+          "question": "65 - 33 = ?",
+          "options": [
+            "42",
+            "30",
+            "32",
+            "33"
+          ],
+          "answer_index": 2,
+          "answer_text": "32",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m01Q14",
+          "question": "67 - 35 = ?",
+          "options": [
+            "33",
+            "32",
+            "30",
+            "42"
+          ],
+          "answer_index": 1,
+          "answer_text": "32",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m01Q15",
+          "question": "8 : 2 = ?",
+          "options": [
+            "3",
+            "2",
+            "4",
+            "5"
+          ],
+          "answer_index": 2,
+          "answer_text": "4",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m01Q16",
+          "question": "2 × 7 = ?",
+          "options": [
+            "14",
+            "12",
+            "39",
+            "16"
+          ],
+          "answer_index": 0,
+          "answer_text": "14",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m01Q17",
+          "question": "7 × 4 = ?",
+          "options": [
+            "21",
+            "26",
+            "28",
+            "30"
+          ],
+          "answer_index": 2,
+          "answer_text": "28",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m01Q18",
+          "question": "54 : 9 = ?",
+          "options": [
+            "9",
+            "6",
+            "5",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "6",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m01Q19",
+          "question": "Chu vi HCN 8cm×17cm là ?",
+          "options": [
+            "33",
+            "136",
+            "50",
+            "25"
+          ],
+          "answer_index": 2,
+          "answer_text": "50",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m01Q20",
+          "question": "75 - 28 = ?",
+          "options": [
+            "45",
+            "48",
+            "47",
+            "57"
+          ],
+          "answer_index": 2,
+          "answer_text": "47",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_02",
+      "name": "Chủ đề 2",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m02Q01",
+          "question": "3 × 2 = ?",
+          "options": [
+            "3",
+            "6",
+            "4",
+            "8"
+          ],
+          "answer_index": 1,
+          "answer_text": "6",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m02Q02",
+          "question": "16 : 8 = ?",
+          "options": [
+            "2",
+            "3",
+            "1",
+            "8"
+          ],
+          "answer_index": 0,
+          "answer_text": "2",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m02Q03",
+          "question": "18 : 9 = ?",
+          "options": [
+            "9",
+            "3",
+            "1",
+            "2"
+          ],
+          "answer_index": 3,
+          "answer_text": "2",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m02Q04",
+          "question": "8 : 2 = ?",
+          "options": [
+            "2",
+            "5",
+            "3",
+            "4"
+          ],
+          "answer_index": 3,
+          "answer_text": "4",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m02Q05",
+          "question": "25 + 50 = ?",
+          "options": [
+            "77",
+            "74",
+            "65",
+            "75"
+          ],
+          "answer_index": 3,
+          "answer_text": "75",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m02Q06",
+          "question": "47 + 39 = ?",
+          "options": [
+            "76",
+            "88",
+            "85",
+            "86"
+          ],
+          "answer_index": 3,
+          "answer_text": "86",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m02Q07",
+          "question": "Chu vi hình vuông cạnh 4 cm là ?",
+          "options": [
+            "20",
+            "12",
+            "16",
+            "31"
+          ],
+          "answer_index": 2,
+          "answer_text": "16",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m02Q08",
+          "question": "7 × 5 = ?",
+          "options": [
+            "35",
+            "28",
+            "37",
+            "33"
+          ],
+          "answer_index": 0,
+          "answer_text": "35",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m02Q09",
+          "question": "4 × 5 = ?",
+          "options": [
+            "16",
+            "20",
+            "18",
+            "22"
+          ],
+          "answer_index": 1,
+          "answer_text": "20",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m02Q10",
+          "question": "75 + 53 = ?",
+          "options": [
+            "118",
+            "130",
+            "128",
+            "127"
+          ],
+          "answer_index": 2,
+          "answer_text": "128",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m02Q11",
+          "question": "Chu vi HCN 18cm×15cm là ?",
+          "options": [
+            "270",
+            "51",
+            "33",
+            "66"
+          ],
+          "answer_index": 3,
+          "answer_text": "66",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m02Q12",
+          "question": "48 + 51 = ?",
+          "options": [
+            "99",
+            "101",
+            "98",
+            "89"
+          ],
+          "answer_index": 0,
+          "answer_text": "99",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m02Q13",
+          "question": "79 - 32 = ?",
+          "options": [
+            "48",
+            "47",
+            "57",
+            "45"
+          ],
+          "answer_index": 1,
+          "answer_text": "47",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m02Q14",
+          "question": "70 + 67 = ?",
+          "options": [
+            "139",
+            "136",
+            "137",
+            "127"
+          ],
+          "answer_index": 2,
+          "answer_text": "137",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m02Q15",
+          "question": "45 : 9 = ?",
+          "options": [
+            "5",
+            "4",
+            "6",
+            "9"
+          ],
+          "answer_index": 0,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m02Q16",
+          "question": "17 + 35 = ?",
+          "options": [
+            "51",
+            "54",
+            "52",
+            "42"
+          ],
+          "answer_index": 2,
+          "answer_text": "52",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m02Q17",
+          "question": "Chu vi HCN 7cm×19cm là ?",
+          "options": [
+            "52",
+            "26",
+            "133",
+            "33"
+          ],
+          "answer_index": 0,
+          "answer_text": "52",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m02Q18",
+          "question": "4 × 2 = ?",
+          "options": [
+            "6",
+            "8",
+            "4",
+            "10"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m02Q19",
+          "question": "7 × 2 = ?",
+          "options": [
+            "7",
+            "16",
+            "12",
+            "14"
+          ],
+          "answer_index": 3,
+          "answer_text": "14",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m02Q20",
+          "question": "14 : 2 = ?",
+          "options": [
+            "8",
+            "2",
+            "6",
+            "7"
+          ],
+          "answer_index": 3,
+          "answer_text": "7",
+          "explanation": "Vì b×thương = số bị chia."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_03",
+      "name": "Chủ đề 3",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m03Q01",
+          "question": "Chu vi HCN 5cm×4cm là ?",
+          "options": [
+            "20",
+            "14",
+            "9",
+            "18"
+          ],
+          "answer_index": 3,
+          "answer_text": "18",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m03Q02",
+          "question": "30 : 5 = ?",
+          "options": [
+            "12",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 2,
+          "answer_text": "6",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m03Q03",
+          "question": "8 × 3 = ?",
+          "options": [
+            "16",
+            "22",
+            "24",
+            "26"
+          ],
+          "answer_index": 2,
+          "answer_text": "24",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m03Q04",
+          "question": "8 × 5 = ?",
+          "options": [
+            "42",
+            "38",
+            "40",
+            "32"
+          ],
+          "answer_index": 2,
+          "answer_text": "40",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m03Q05",
+          "question": "30 + 69 = ?",
+          "options": [
+            "99",
+            "101",
+            "98",
+            "89"
+          ],
+          "answer_index": 0,
+          "answer_text": "99",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m03Q06",
+          "question": "Chu vi HCN 19cm×11cm là ?",
+          "options": [
+            "209",
+            "30",
+            "60",
+            "49"
+          ],
+          "answer_index": 2,
+          "answer_text": "60",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m03Q07",
+          "question": "51 - 34 = ?",
+          "options": [
+            "18",
+            "27",
+            "15",
+            "17"
+          ],
+          "answer_index": 3,
+          "answer_text": "17",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m03Q08",
+          "question": "75 - 18 = ?",
+          "options": [
+            "67",
+            "57",
+            "58",
+            "55"
+          ],
+          "answer_index": 1,
+          "answer_text": "57",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m03Q09",
+          "question": "73 + 22 = ?",
+          "options": [
+            "97",
+            "94",
+            "95",
+            "85"
+          ],
+          "answer_index": 2,
+          "answer_text": "95",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m03Q10",
+          "question": "56 - 38 = ?",
+          "options": [
+            "19",
+            "28",
+            "16",
+            "18"
+          ],
+          "answer_index": 3,
+          "answer_text": "18",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m03Q11",
+          "question": "49 + 74 = ?",
+          "options": [
+            "125",
+            "122",
+            "123",
+            "113"
+          ],
+          "answer_index": 2,
+          "answer_text": "123",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m03Q12",
+          "question": "40 : 5 = ?",
+          "options": [
+            "8",
+            "5",
+            "9",
+            "7"
+          ],
+          "answer_index": 0,
+          "answer_text": "8",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m03Q13",
+          "question": "26 + 87 = ?",
+          "options": [
+            "103",
+            "115",
+            "113",
+            "112"
+          ],
+          "answer_index": 2,
+          "answer_text": "113",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m03Q14",
+          "question": "Chu vi hình vuông cạnh 2 cm là ?",
+          "options": [
+            "10",
+            "6",
+            "8",
+            "4"
+          ],
+          "answer_index": 2,
+          "answer_text": "8",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m03Q15",
+          "question": "15 : 3 = ?",
+          "options": [
+            "5",
+            "3",
+            "6",
+            "4"
+          ],
+          "answer_index": 0,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m03Q16",
+          "question": "Chu vi HCN 6cm×13cm là ?",
+          "options": [
+            "78",
+            "25",
+            "38",
+            "19"
+          ],
+          "answer_index": 2,
+          "answer_text": "38",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m03Q17",
+          "question": "Chu vi HCN 15cm×9cm là ?",
+          "options": [
+            "135",
+            "39",
+            "48",
+            "24"
+          ],
+          "answer_index": 2,
+          "answer_text": "48",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m03Q18",
+          "question": "9 × 5 = ?",
+          "options": [
+            "45",
+            "43",
+            "36",
+            "47"
+          ],
+          "answer_index": 0,
+          "answer_text": "45",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m03Q19",
+          "question": "68 - 23 = ?",
+          "options": [
+            "46",
+            "55",
+            "45",
+            "43"
+          ],
+          "answer_index": 2,
+          "answer_text": "45",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m03Q20",
+          "question": "18 : 6 = ?",
+          "options": [
+            "3",
+            "2",
+            "4",
+            "6"
+          ],
+          "answer_index": 0,
+          "answer_text": "3",
+          "explanation": "Vì b×thương = số bị chia."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_04",
+      "name": "Chủ đề 4",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m04Q01",
+          "question": "Chu vi hình vuông cạnh 14 cm là ?",
+          "options": [
+            "42",
+            "56",
+            "70",
+            "52"
+          ],
+          "answer_index": 1,
+          "answer_text": "56",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m04Q02",
+          "question": "58 - 17 = ?",
+          "options": [
+            "39",
+            "41",
+            "42",
+            "51"
+          ],
+          "answer_index": 1,
+          "answer_text": "41",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m04Q03",
+          "question": "5 × 3 = ?",
+          "options": [
+            "15",
+            "13",
+            "10",
+            "17"
+          ],
+          "answer_index": 0,
+          "answer_text": "15",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m04Q04",
+          "question": "68 + 59 = ?",
+          "options": [
+            "129",
+            "127",
+            "126",
+            "117"
+          ],
+          "answer_index": 1,
+          "answer_text": "127",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m04Q05",
+          "question": "Chu vi hình vuông cạnh 14 cm là ?",
+          "options": [
+            "52",
+            "42",
+            "56",
+            "70"
+          ],
+          "answer_index": 2,
+          "answer_text": "56",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m04Q06",
+          "question": "78 + 89 = ?",
+          "options": [
+            "169",
+            "166",
+            "157",
+            "167"
+          ],
+          "answer_index": 3,
+          "answer_text": "167",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m04Q07",
+          "question": "90 + 58 = ?",
+          "options": [
+            "148",
+            "147",
+            "138",
+            "150"
+          ],
+          "answer_index": 0,
+          "answer_text": "148",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m04Q08",
+          "question": "6 × 8 = ?",
+          "options": [
+            "42",
+            "50",
+            "48",
+            "46"
+          ],
+          "answer_index": 2,
+          "answer_text": "48",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m04Q09",
+          "question": "Chu vi hình vuông cạnh 18 cm là ?",
+          "options": [
+            "68",
+            "90",
+            "54",
+            "72"
+          ],
+          "answer_index": 3,
+          "answer_text": "72",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m04Q10",
+          "question": "Chu vi HCN 13cm×8cm là ?",
+          "options": [
+            "42",
+            "104",
+            "21",
+            "34"
+          ],
+          "answer_index": 0,
+          "answer_text": "42",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m04Q11",
+          "question": "8 × 4 = ?",
+          "options": [
+            "30",
+            "24",
+            "34",
+            "32"
+          ],
+          "answer_index": 3,
+          "answer_text": "32",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m04Q12",
+          "question": "81 : 9 = ?",
+          "options": [
+            "36",
+            "10",
+            "8",
+            "9"
+          ],
+          "answer_index": 3,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m04Q13",
+          "question": "6 : 2 = ?",
+          "options": [
+            "2",
+            "3",
+            "0",
+            "4"
+          ],
+          "answer_index": 1,
+          "answer_text": "3",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m04Q14",
+          "question": "5 × 8 = ?",
+          "options": [
+            "35",
+            "38",
+            "40",
+            "42"
+          ],
+          "answer_index": 2,
+          "answer_text": "40",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m04Q15",
+          "question": "Chu vi HCN 3cm×20cm là ?",
+          "options": [
+            "46",
+            "26",
+            "60",
+            "23"
+          ],
+          "answer_index": 0,
+          "answer_text": "46",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m04Q16",
+          "question": "90 - 19 = ?",
+          "options": [
+            "81",
+            "69",
+            "71",
+            "72"
+          ],
+          "answer_index": 2,
+          "answer_text": "71",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m04Q17",
+          "question": "30 + 25 = ?",
+          "options": [
+            "54",
+            "45",
+            "57",
+            "55"
+          ],
+          "answer_index": 3,
+          "answer_text": "55",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m04Q18",
+          "question": "2 × 9 = ?",
+          "options": [
+            "3",
+            "16",
+            "20",
+            "18"
+          ],
+          "answer_index": 3,
+          "answer_text": "18",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m04Q19",
+          "question": "5 × 7 = ?",
+          "options": [
+            "30",
+            "35",
+            "33",
+            "37"
+          ],
+          "answer_index": 1,
+          "answer_text": "35",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m04Q20",
+          "question": "14 : 7 = ?",
+          "options": [
+            "2",
+            "1",
+            "3",
+            "7"
+          ],
+          "answer_index": 0,
+          "answer_text": "2",
+          "explanation": "Vì b×thương = số bị chia."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_05",
+      "name": "Chủ đề 5",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m05Q01",
+          "question": "Chu vi HCN 14cm×10cm là ?",
+          "options": [
+            "48",
+            "38",
+            "24",
+            "140"
+          ],
+          "answer_index": 0,
+          "answer_text": "48",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m05Q02",
+          "question": "81 - 39 = ?",
+          "options": [
+            "42",
+            "52",
+            "43",
+            "40"
+          ],
+          "answer_index": 0,
+          "answer_text": "42",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m05Q03",
+          "question": "92 - 15 = ?",
+          "options": [
+            "77",
+            "75",
+            "87",
+            "78"
+          ],
+          "answer_index": 0,
+          "answer_text": "77",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m05Q04",
+          "question": "Chu vi HCN 9cm×13cm là ?",
+          "options": [
+            "44",
+            "22",
+            "31",
+            "117"
+          ],
+          "answer_index": 0,
+          "answer_text": "44",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m05Q05",
+          "question": "44 + 78 = ?",
+          "options": [
+            "121",
+            "112",
+            "124",
+            "122"
+          ],
+          "answer_index": 3,
+          "answer_text": "122",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m05Q06",
+          "question": "Chu vi HCN 3cm×6cm là ?",
+          "options": [
+            "20",
+            "9",
+            "12",
+            "18"
+          ],
+          "answer_index": 3,
+          "answer_text": "18",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m05Q07",
+          "question": "24 : 8 = ?",
+          "options": [
+            "4",
+            "8",
+            "2",
+            "3"
+          ],
+          "answer_index": 3,
+          "answer_text": "3",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m05Q08",
+          "question": "Chu vi hình vuông cạnh 10 cm là ?",
+          "options": [
+            "30",
+            "36",
+            "50",
+            "40"
+          ],
+          "answer_index": 3,
+          "answer_text": "40",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m05Q09",
+          "question": "2 × 9 = ?",
+          "options": [
+            "16",
+            "49",
+            "18",
+            "20"
+          ],
+          "answer_index": 2,
+          "answer_text": "18",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m05Q10",
+          "question": "5 × 7 = ?",
+          "options": [
+            "37",
+            "33",
+            "30",
+            "35"
+          ],
+          "answer_index": 3,
+          "answer_text": "35",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m05Q11",
+          "question": "6 × 2 = ?",
+          "options": [
+            "6",
+            "14",
+            "10",
+            "12"
+          ],
+          "answer_index": 3,
+          "answer_text": "12",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m05Q12",
+          "question": "24 : 4 = ?",
+          "options": [
+            "4",
+            "7",
+            "6",
+            "5"
+          ],
+          "answer_index": 2,
+          "answer_text": "6",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m05Q13",
+          "question": "75 + 80 = ?",
+          "options": [
+            "155",
+            "157",
+            "145",
+            "154"
+          ],
+          "answer_index": 0,
+          "answer_text": "155",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m05Q14",
+          "question": "Chu vi hình vuông cạnh 14 cm là ?",
+          "options": [
+            "56",
+            "42",
+            "52",
+            "70"
+          ],
+          "answer_index": 0,
+          "answer_text": "56",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m05Q15",
+          "question": "45 : 9 = ?",
+          "options": [
+            "9",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer_index": 2,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m05Q16",
+          "question": "8 × 2 = ?",
+          "options": [
+            "8",
+            "14",
+            "18",
+            "16"
+          ],
+          "answer_index": 3,
+          "answer_text": "16",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m05Q17",
+          "question": "5 × 7 = ?",
+          "options": [
+            "35",
+            "33",
+            "37",
+            "30"
+          ],
+          "answer_index": 0,
+          "answer_text": "35",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m05Q18",
+          "question": "24 : 3 = ?",
+          "options": [
+            "3",
+            "8",
+            "9",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m05Q19",
+          "question": "29 + 46 = ?",
+          "options": [
+            "75",
+            "74",
+            "65",
+            "77"
+          ],
+          "answer_index": 0,
+          "answer_text": "75",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m05Q20",
+          "question": "Chu vi HCN 4cm×12cm là ?",
+          "options": [
+            "48",
+            "20",
+            "32",
+            "16"
+          ],
+          "answer_index": 2,
+          "answer_text": "32",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_06",
+      "name": "Chủ đề 6",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m06Q01",
+          "question": "33 + 64 = ?",
+          "options": [
+            "87",
+            "99",
+            "96",
+            "97"
+          ],
+          "answer_index": 3,
+          "answer_text": "97",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m06Q02",
+          "question": "Chu vi HCN 4cm×8cm là ?",
+          "options": [
+            "12",
+            "16",
+            "32",
+            "24"
+          ],
+          "answer_index": 3,
+          "answer_text": "24",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m06Q03",
+          "question": "45 : 5 = ?",
+          "options": [
+            "8",
+            "9",
+            "5",
+            "10"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m06Q04",
+          "question": "43 + 99 = ?",
+          "options": [
+            "132",
+            "142",
+            "144",
+            "141"
+          ],
+          "answer_index": 1,
+          "answer_text": "142",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m06Q05",
+          "question": "88 - 19 = ?",
+          "options": [
+            "70",
+            "79",
+            "69",
+            "67"
+          ],
+          "answer_index": 2,
+          "answer_text": "69",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m06Q06",
+          "question": "56 - 16 = ?",
+          "options": [
+            "50",
+            "38",
+            "40",
+            "41"
+          ],
+          "answer_index": 2,
+          "answer_text": "40",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m06Q07",
+          "question": "2 × 4 = ?",
+          "options": [
+            "50",
+            "8",
+            "10",
+            "6"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m06Q08",
+          "question": "96 - 25 = ?",
+          "options": [
+            "81",
+            "71",
+            "72",
+            "69"
+          ],
+          "answer_index": 1,
+          "answer_text": "71",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m06Q09",
+          "question": "3 × 2 = ?",
+          "options": [
+            "3",
+            "4",
+            "8",
+            "6"
+          ],
+          "answer_index": 3,
+          "answer_text": "6",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m06Q10",
+          "question": "48 : 6 = ?",
+          "options": [
+            "8",
+            "9",
+            "6",
+            "7"
+          ],
+          "answer_index": 0,
+          "answer_text": "8",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m06Q11",
+          "question": "45 + 90 = ?",
+          "options": [
+            "125",
+            "135",
+            "134",
+            "137"
+          ],
+          "answer_index": 1,
+          "answer_text": "135",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m06Q12",
+          "question": "23 + 47 = ?",
+          "options": [
+            "60",
+            "70",
+            "72",
+            "69"
+          ],
+          "answer_index": 1,
+          "answer_text": "70",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m06Q13",
+          "question": "18 : 6 = ?",
+          "options": [
+            "3",
+            "2",
+            "4",
+            "6"
+          ],
+          "answer_index": 0,
+          "answer_text": "3",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m06Q14",
+          "question": "4 : 2 = ?",
+          "options": [
+            "2",
+            "1",
+            "3",
+            "26"
+          ],
+          "answer_index": 0,
+          "answer_text": "2",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m06Q15",
+          "question": "82 + 47 = ?",
+          "options": [
+            "128",
+            "131",
+            "119",
+            "129"
+          ],
+          "answer_index": 3,
+          "answer_text": "129",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m06Q16",
+          "question": "7 × 7 = ?",
+          "options": [
+            "47",
+            "51",
+            "49",
+            "42"
+          ],
+          "answer_index": 2,
+          "answer_text": "49",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m06Q17",
+          "question": "72 - 10 = ?",
+          "options": [
+            "63",
+            "62",
+            "60",
+            "72"
+          ],
+          "answer_index": 1,
+          "answer_text": "62",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m06Q18",
+          "question": "45 : 5 = ?",
+          "options": [
+            "8",
+            "10",
+            "5",
+            "9"
+          ],
+          "answer_index": 3,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m06Q19",
+          "question": "52 - 22 = ?",
+          "options": [
+            "28",
+            "31",
+            "30",
+            "40"
+          ],
+          "answer_index": 2,
+          "answer_text": "30",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m06Q20",
+          "question": "Chu vi hình vuông cạnh 7 cm là ?",
+          "options": [
+            "21",
+            "28",
+            "24",
+            "35"
+          ],
+          "answer_index": 1,
+          "answer_text": "28",
+          "explanation": "Chu vi HV = 4×cạnh."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_07",
+      "name": "Chủ đề 7",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m07Q01",
+          "question": "3 × 4 = ?",
+          "options": [
+            "10",
+            "9",
+            "12",
+            "14"
+          ],
+          "answer_index": 2,
+          "answer_text": "12",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m07Q02",
+          "question": "45 + 97 = ?",
+          "options": [
+            "141",
+            "144",
+            "142",
+            "132"
+          ],
+          "answer_index": 2,
+          "answer_text": "142",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m07Q03",
+          "question": "32 + 58 = ?",
+          "options": [
+            "89",
+            "80",
+            "92",
+            "90"
+          ],
+          "answer_index": 3,
+          "answer_text": "90",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m07Q04",
+          "question": "58 - 15 = ?",
+          "options": [
+            "41",
+            "43",
+            "53",
+            "44"
+          ],
+          "answer_index": 1,
+          "answer_text": "43",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m07Q05",
+          "question": "15 : 5 = ?",
+          "options": [
+            "5",
+            "4",
+            "3",
+            "2"
+          ],
+          "answer_index": 2,
+          "answer_text": "3",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m07Q06",
+          "question": "Chu vi HCN 16cm×7cm là ?",
+          "options": [
+            "112",
+            "46",
+            "23",
+            "39"
+          ],
+          "answer_index": 1,
+          "answer_text": "46",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m07Q07",
+          "question": "18 : 2 = ?",
+          "options": [
+            "8",
+            "2",
+            "9",
+            "10"
+          ],
+          "answer_index": 2,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m07Q08",
+          "question": "91 - 20 = ?",
+          "options": [
+            "81",
+            "69",
+            "72",
+            "71"
+          ],
+          "answer_index": 3,
+          "answer_text": "71",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m07Q09",
+          "question": "6 × 4 = ?",
+          "options": [
+            "24",
+            "26",
+            "18",
+            "22"
+          ],
+          "answer_index": 0,
+          "answer_text": "24",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m07Q10",
+          "question": "98 + 20 = ?",
+          "options": [
+            "118",
+            "108",
+            "117",
+            "120"
+          ],
+          "answer_index": 0,
+          "answer_text": "118",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m07Q11",
+          "question": "5 × 3 = ?",
+          "options": [
+            "15",
+            "10",
+            "17",
+            "13"
+          ],
+          "answer_index": 0,
+          "answer_text": "15",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m07Q12",
+          "question": "6 × 3 = ?",
+          "options": [
+            "12",
+            "16",
+            "20",
+            "18"
+          ],
+          "answer_index": 3,
+          "answer_text": "18",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m07Q13",
+          "question": "6 × 5 = ?",
+          "options": [
+            "30",
+            "28",
+            "32",
+            "24"
+          ],
+          "answer_index": 0,
+          "answer_text": "30",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m07Q14",
+          "question": "Chu vi hình vuông cạnh 14 cm là ?",
+          "options": [
+            "42",
+            "56",
+            "70",
+            "52"
+          ],
+          "answer_index": 1,
+          "answer_text": "56",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m07Q15",
+          "question": "89 - 34 = ?",
+          "options": [
+            "65",
+            "53",
+            "56",
+            "55"
+          ],
+          "answer_index": 3,
+          "answer_text": "55",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m07Q16",
+          "question": "60 - 29 = ?",
+          "options": [
+            "29",
+            "32",
+            "31",
+            "41"
+          ],
+          "answer_index": 2,
+          "answer_text": "31",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m07Q17",
+          "question": "12 : 2 = ?",
+          "options": [
+            "7",
+            "6",
+            "2",
+            "5"
+          ],
+          "answer_index": 1,
+          "answer_text": "6",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m07Q18",
+          "question": "Chu vi HCN 9cm×15cm là ?",
+          "options": [
+            "135",
+            "48",
+            "33",
+            "24"
+          ],
+          "answer_index": 1,
+          "answer_text": "48",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m07Q19",
+          "question": "15 + 15 = ?",
+          "options": [
+            "30",
+            "29",
+            "20",
+            "32"
+          ],
+          "answer_index": 0,
+          "answer_text": "30",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m07Q20",
+          "question": "6 : 2 = ?",
+          "options": [
+            "4",
+            "3",
+            "27",
+            "2"
+          ],
+          "answer_index": 1,
+          "answer_text": "3",
+          "explanation": "Vì b×thương = số bị chia."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_08",
+      "name": "Chủ đề 8",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m08Q01",
+          "question": "72 : 9 = ?",
+          "options": [
+            "8",
+            "7",
+            "17",
+            "9"
+          ],
+          "answer_index": 0,
+          "answer_text": "8",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m08Q02",
+          "question": "60 - 33 = ?",
+          "options": [
+            "28",
+            "27",
+            "25",
+            "37"
+          ],
+          "answer_index": 1,
+          "answer_text": "27",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m08Q03",
+          "question": "48 - 29 = ?",
+          "options": [
+            "29",
+            "19",
+            "17",
+            "20"
+          ],
+          "answer_index": 1,
+          "answer_text": "19",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m08Q04",
+          "question": "32 : 8 = ?",
+          "options": [
+            "4",
+            "8",
+            "5",
+            "3"
+          ],
+          "answer_index": 0,
+          "answer_text": "4",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m08Q05",
+          "question": "62 + 27 = ?",
+          "options": [
+            "91",
+            "88",
+            "79",
+            "89"
+          ],
+          "answer_index": 3,
+          "answer_text": "89",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m08Q06",
+          "question": "6 × 9 = ?",
+          "options": [
+            "52",
+            "48",
+            "54",
+            "56"
+          ],
+          "answer_index": 2,
+          "answer_text": "54",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m08Q07",
+          "question": "75 + 44 = ?",
+          "options": [
+            "118",
+            "121",
+            "109",
+            "119"
+          ],
+          "answer_index": 3,
+          "answer_text": "119",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m08Q08",
+          "question": "35 + 83 = ?",
+          "options": [
+            "117",
+            "108",
+            "118",
+            "120"
+          ],
+          "answer_index": 2,
+          "answer_text": "118",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m08Q09",
+          "question": "Chu vi HCN 14cm×6cm là ?",
+          "options": [
+            "40",
+            "84",
+            "34",
+            "20"
+          ],
+          "answer_index": 0,
+          "answer_text": "40",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m08Q10",
+          "question": "10 : 5 = ?",
+          "options": [
+            "2",
+            "5",
+            "1",
+            "3"
+          ],
+          "answer_index": 0,
+          "answer_text": "2",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m08Q11",
+          "question": "8 × 9 = ?",
+          "options": [
+            "74",
+            "64",
+            "72",
+            "70"
+          ],
+          "answer_index": 2,
+          "answer_text": "72",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m08Q12",
+          "question": "54 : 6 = ?",
+          "options": [
+            "9",
+            "6",
+            "10",
+            "8"
+          ],
+          "answer_index": 0,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m08Q13",
+          "question": "83 + 31 = ?",
+          "options": [
+            "114",
+            "113",
+            "104",
+            "116"
+          ],
+          "answer_index": 0,
+          "answer_text": "114",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m08Q14",
+          "question": "52 + 24 = ?",
+          "options": [
+            "76",
+            "75",
+            "78",
+            "66"
+          ],
+          "answer_index": 0,
+          "answer_text": "76",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m08Q15",
+          "question": "8 × 9 = ?",
+          "options": [
+            "72",
+            "70",
+            "74",
+            "64"
+          ],
+          "answer_index": 0,
+          "answer_text": "72",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m08Q16",
+          "question": "3 × 3 = ?",
+          "options": [
+            "6",
+            "7",
+            "11",
+            "9"
+          ],
+          "answer_index": 3,
+          "answer_text": "9",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m08Q17",
+          "question": "Chu vi hình vuông cạnh 6 cm là ?",
+          "options": [
+            "30",
+            "18",
+            "24",
+            "20"
+          ],
+          "answer_index": 2,
+          "answer_text": "24",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m08Q18",
+          "question": "92 + 44 = ?",
+          "options": [
+            "136",
+            "138",
+            "126",
+            "135"
+          ],
+          "answer_index": 0,
+          "answer_text": "136",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m08Q19",
+          "question": "7 × 8 = ?",
+          "options": [
+            "49",
+            "56",
+            "58",
+            "54"
+          ],
+          "answer_index": 1,
+          "answer_text": "56",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m08Q20",
+          "question": "36 + 76 = ?",
+          "options": [
+            "102",
+            "114",
+            "112",
+            "111"
+          ],
+          "answer_index": 2,
+          "answer_text": "112",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_09",
+      "name": "Chủ đề 9",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m09Q01",
+          "question": "47 - 38 = ?",
+          "options": [
+            "10",
+            "19",
+            "7",
+            "9"
+          ],
+          "answer_index": 3,
+          "answer_text": "9",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m09Q02",
+          "question": "61 - 24 = ?",
+          "options": [
+            "47",
+            "37",
+            "35",
+            "38"
+          ],
+          "answer_index": 1,
+          "answer_text": "37",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m09Q03",
+          "question": "2 × 7 = ?",
+          "options": [
+            "16",
+            "14",
+            "45",
+            "12"
+          ],
+          "answer_index": 1,
+          "answer_text": "14",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m09Q04",
+          "question": "85 + 19 = ?",
+          "options": [
+            "104",
+            "94",
+            "103",
+            "106"
+          ],
+          "answer_index": 0,
+          "answer_text": "104",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m09Q05",
+          "question": "93 - 11 = ?",
+          "options": [
+            "82",
+            "80",
+            "92",
+            "83"
+          ],
+          "answer_index": 0,
+          "answer_text": "82",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m09Q06",
+          "question": "6 × 8 = ?",
+          "options": [
+            "42",
+            "48",
+            "50",
+            "46"
+          ],
+          "answer_index": 1,
+          "answer_text": "48",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m09Q07",
+          "question": "36 : 4 = ?",
+          "options": [
+            "10",
+            "9",
+            "4",
+            "8"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m09Q08",
+          "question": "10 : 2 = ?",
+          "options": [
+            "5",
+            "2",
+            "6",
+            "4"
+          ],
+          "answer_index": 0,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m09Q09",
+          "question": "50 - 27 = ?",
+          "options": [
+            "33",
+            "24",
+            "23",
+            "21"
+          ],
+          "answer_index": 2,
+          "answer_text": "23",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m09Q10",
+          "question": "61 - 31 = ?",
+          "options": [
+            "31",
+            "30",
+            "28",
+            "40"
+          ],
+          "answer_index": 1,
+          "answer_text": "30",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m09Q11",
+          "question": "9 : 3 = ?",
+          "options": [
+            "2",
+            "4",
+            "32",
+            "3"
+          ],
+          "answer_index": 3,
+          "answer_text": "3",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m09Q12",
+          "question": "92 - 23 = ?",
+          "options": [
+            "69",
+            "70",
+            "67",
+            "79"
+          ],
+          "answer_index": 0,
+          "answer_text": "69",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m09Q13",
+          "question": "5 × 7 = ?",
+          "options": [
+            "33",
+            "37",
+            "30",
+            "35"
+          ],
+          "answer_index": 3,
+          "answer_text": "35",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m09Q14",
+          "question": "Chu vi HCN 7cm×5cm là ?",
+          "options": [
+            "12",
+            "24",
+            "35",
+            "19"
+          ],
+          "answer_index": 1,
+          "answer_text": "24",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m09Q15",
+          "question": "8 × 7 = ?",
+          "options": [
+            "48",
+            "54",
+            "58",
+            "56"
+          ],
+          "answer_index": 3,
+          "answer_text": "56",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m09Q16",
+          "question": "9 × 7 = ?",
+          "options": [
+            "61",
+            "63",
+            "54",
+            "65"
+          ],
+          "answer_index": 1,
+          "answer_text": "63",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m09Q17",
+          "question": "8 × 2 = ?",
+          "options": [
+            "16",
+            "8",
+            "14",
+            "18"
+          ],
+          "answer_index": 0,
+          "answer_text": "16",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m09Q18",
+          "question": "Chu vi hình vuông cạnh 7 cm là ?",
+          "options": [
+            "28",
+            "21",
+            "24",
+            "35"
+          ],
+          "answer_index": 0,
+          "answer_text": "28",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m09Q19",
+          "question": "33 + 96 = ?",
+          "options": [
+            "119",
+            "128",
+            "131",
+            "129"
+          ],
+          "answer_index": 3,
+          "answer_text": "129",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m09Q20",
+          "question": "15 : 5 = ?",
+          "options": [
+            "5",
+            "4",
+            "2",
+            "3"
+          ],
+          "answer_index": 3,
+          "answer_text": "3",
+          "explanation": "Vì b×thương = số bị chia."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_10",
+      "name": "Chủ đề 10",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m10Q01",
+          "question": "91 - 19 = ?",
+          "options": [
+            "72",
+            "70",
+            "73",
+            "82"
+          ],
+          "answer_index": 0,
+          "answer_text": "72",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m10Q02",
+          "question": "10 : 2 = ?",
+          "options": [
+            "2",
+            "5",
+            "4",
+            "6"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m10Q03",
+          "question": "30 + 68 = ?",
+          "options": [
+            "97",
+            "100",
+            "88",
+            "98"
+          ],
+          "answer_index": 3,
+          "answer_text": "98",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m10Q04",
+          "question": "69 - 24 = ?",
+          "options": [
+            "45",
+            "43",
+            "46",
+            "55"
+          ],
+          "answer_index": 0,
+          "answer_text": "45",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m10Q05",
+          "question": "81 + 68 = ?",
+          "options": [
+            "149",
+            "151",
+            "148",
+            "139"
+          ],
+          "answer_index": 0,
+          "answer_text": "149",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m10Q06",
+          "question": "63 - 29 = ?",
+          "options": [
+            "32",
+            "35",
+            "44",
+            "34"
+          ],
+          "answer_index": 3,
+          "answer_text": "34",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m10Q07",
+          "question": "37 + 86 = ?",
+          "options": [
+            "122",
+            "113",
+            "125",
+            "123"
+          ],
+          "answer_index": 3,
+          "answer_text": "123",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m10Q08",
+          "question": "66 - 29 = ?",
+          "options": [
+            "37",
+            "35",
+            "47",
+            "38"
+          ],
+          "answer_index": 0,
+          "answer_text": "37",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m10Q09",
+          "question": "Chu vi hình vuông cạnh 11 cm là ?",
+          "options": [
+            "55",
+            "40",
+            "33",
+            "44"
+          ],
+          "answer_index": 3,
+          "answer_text": "44",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m10Q10",
+          "question": "28 : 4 = ?",
+          "options": [
+            "8",
+            "6",
+            "4",
+            "7"
+          ],
+          "answer_index": 3,
+          "answer_text": "7",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m10Q11",
+          "question": "Chu vi HCN 17cm×5cm là ?",
+          "options": [
+            "39",
+            "44",
+            "22",
+            "85"
+          ],
+          "answer_index": 1,
+          "answer_text": "44",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m10Q12",
+          "question": "89 - 19 = ?",
+          "options": [
+            "68",
+            "80",
+            "71",
+            "70"
+          ],
+          "answer_index": 3,
+          "answer_text": "70",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m10Q13",
+          "question": "24 : 4 = ?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 2,
+          "answer_text": "6",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m10Q14",
+          "question": "18 : 2 = ?",
+          "options": [
+            "8",
+            "10",
+            "9",
+            "2"
+          ],
+          "answer_index": 2,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m10Q15",
+          "question": "59 + 49 = ?",
+          "options": [
+            "108",
+            "110",
+            "98",
+            "107"
+          ],
+          "answer_index": 0,
+          "answer_text": "108",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m10Q16",
+          "question": "Chu vi HCN 16cm×17cm là ?",
+          "options": [
+            "33",
+            "49",
+            "272",
+            "66"
+          ],
+          "answer_index": 3,
+          "answer_text": "66",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m10Q17",
+          "question": "12 : 3 = ?",
+          "options": [
+            "4",
+            "38",
+            "5",
+            "3"
+          ],
+          "answer_index": 0,
+          "answer_text": "4",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m10Q18",
+          "question": "42 + 98 = ?",
+          "options": [
+            "139",
+            "140",
+            "142",
+            "130"
+          ],
+          "answer_index": 1,
+          "answer_text": "140",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m10Q19",
+          "question": "36 : 9 = ?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "9"
+          ],
+          "answer_index": 1,
+          "answer_text": "4",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m10Q20",
+          "question": "61 + 36 = ?",
+          "options": [
+            "96",
+            "99",
+            "97",
+            "87"
+          ],
+          "answer_index": 2,
+          "answer_text": "97",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_11",
+      "name": "Chủ đề 11",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m11Q01",
+          "question": "75 + 31 = ?",
+          "options": [
+            "105",
+            "96",
+            "106",
+            "108"
+          ],
+          "answer_index": 2,
+          "answer_text": "106",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m11Q02",
+          "question": "7 × 8 = ?",
+          "options": [
+            "58",
+            "54",
+            "56",
+            "49"
+          ],
+          "answer_index": 2,
+          "answer_text": "56",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m11Q03",
+          "question": "9 × 7 = ?",
+          "options": [
+            "54",
+            "65",
+            "63",
+            "61"
+          ],
+          "answer_index": 2,
+          "answer_text": "63",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m11Q04",
+          "question": "Chu vi hình vuông cạnh 13 cm là ?",
+          "options": [
+            "39",
+            "48",
+            "65",
+            "52"
+          ],
+          "answer_index": 3,
+          "answer_text": "52",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m11Q05",
+          "question": "35 : 5 = ?",
+          "options": [
+            "8",
+            "6",
+            "5",
+            "7"
+          ],
+          "answer_index": 3,
+          "answer_text": "7",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m11Q06",
+          "question": "63 - 13 = ?",
+          "options": [
+            "51",
+            "60",
+            "50",
+            "48"
+          ],
+          "answer_index": 2,
+          "answer_text": "50",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m11Q07",
+          "question": "Chu vi HCN 15cm×13cm là ?",
+          "options": [
+            "43",
+            "28",
+            "56",
+            "195"
+          ],
+          "answer_index": 2,
+          "answer_text": "56",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m11Q08",
+          "question": "2 × 9 = ?",
+          "options": [
+            "48",
+            "20",
+            "18",
+            "16"
+          ],
+          "answer_index": 2,
+          "answer_text": "18",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m11Q09",
+          "question": "52 - 22 = ?",
+          "options": [
+            "40",
+            "30",
+            "31",
+            "28"
+          ],
+          "answer_index": 1,
+          "answer_text": "30",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m11Q10",
+          "question": "2 × 9 = ?",
+          "options": [
+            "31",
+            "16",
+            "18",
+            "20"
+          ],
+          "answer_index": 2,
+          "answer_text": "18",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m11Q11",
+          "question": "48 + 23 = ?",
+          "options": [
+            "71",
+            "70",
+            "61",
+            "73"
+          ],
+          "answer_index": 0,
+          "answer_text": "71",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m11Q12",
+          "question": "Chu vi HCN 8cm×13cm là ?",
+          "options": [
+            "29",
+            "21",
+            "42",
+            "104"
+          ],
+          "answer_index": 2,
+          "answer_text": "42",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m11Q13",
+          "question": "54 : 6 = ?",
+          "options": [
+            "6",
+            "8",
+            "10",
+            "9"
+          ],
+          "answer_index": 3,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m11Q14",
+          "question": "45 - 38 = ?",
+          "options": [
+            "8",
+            "7",
+            "5",
+            "17"
+          ],
+          "answer_index": 1,
+          "answer_text": "7",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m11Q15",
+          "question": "52 + 51 = ?",
+          "options": [
+            "103",
+            "93",
+            "102",
+            "105"
+          ],
+          "answer_index": 0,
+          "answer_text": "103",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m11Q16",
+          "question": "91 + 68 = ?",
+          "options": [
+            "161",
+            "149",
+            "158",
+            "159"
+          ],
+          "answer_index": 3,
+          "answer_text": "159",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m11Q17",
+          "question": "63 : 7 = ?",
+          "options": [
+            "10",
+            "9",
+            "7",
+            "8"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m11Q18",
+          "question": "54 + 67 = ?",
+          "options": [
+            "121",
+            "120",
+            "111",
+            "123"
+          ],
+          "answer_index": 0,
+          "answer_text": "121",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m11Q19",
+          "question": "42 : 6 = ?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "1"
+          ],
+          "answer_index": 1,
+          "answer_text": "7",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m11Q20",
+          "question": "9 × 8 = ?",
+          "options": [
+            "74",
+            "63",
+            "70",
+            "72"
+          ],
+          "answer_index": 3,
+          "answer_text": "72",
+          "explanation": "Dùng bảng nhân."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_12",
+      "name": "Chủ đề 12",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m12Q01",
+          "question": "52 + 53 = ?",
+          "options": [
+            "95",
+            "107",
+            "105",
+            "104"
+          ],
+          "answer_index": 2,
+          "answer_text": "105",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m12Q02",
+          "question": "76 + 91 = ?",
+          "options": [
+            "166",
+            "157",
+            "169",
+            "167"
+          ],
+          "answer_index": 3,
+          "answer_text": "167",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m12Q03",
+          "question": "2 × 9 = ?",
+          "options": [
+            "20",
+            "34",
+            "18",
+            "16"
+          ],
+          "answer_index": 2,
+          "answer_text": "18",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m12Q04",
+          "question": "66 + 86 = ?",
+          "options": [
+            "154",
+            "151",
+            "152",
+            "142"
+          ],
+          "answer_index": 2,
+          "answer_text": "152",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m12Q05",
+          "question": "48 : 6 = ?",
+          "options": [
+            "8",
+            "6",
+            "9",
+            "7"
+          ],
+          "answer_index": 0,
+          "answer_text": "8",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m12Q06",
+          "question": "4 : 2 = ?",
+          "options": [
+            "3",
+            "1",
+            "2",
+            "38"
+          ],
+          "answer_index": 2,
+          "answer_text": "2",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m12Q07",
+          "question": "89 + 36 = ?",
+          "options": [
+            "115",
+            "124",
+            "125",
+            "127"
+          ],
+          "answer_index": 2,
+          "answer_text": "125",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m12Q08",
+          "question": "96 + 54 = ?",
+          "options": [
+            "152",
+            "149",
+            "150",
+            "140"
+          ],
+          "answer_index": 2,
+          "answer_text": "150",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m12Q09",
+          "question": "97 - 33 = ?",
+          "options": [
+            "64",
+            "65",
+            "62",
+            "74"
+          ],
+          "answer_index": 0,
+          "answer_text": "64",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m12Q10",
+          "question": "67 + 74 = ?",
+          "options": [
+            "140",
+            "131",
+            "143",
+            "141"
+          ],
+          "answer_index": 3,
+          "answer_text": "141",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m12Q11",
+          "question": "71 + 76 = ?",
+          "options": [
+            "149",
+            "147",
+            "137",
+            "146"
+          ],
+          "answer_index": 1,
+          "answer_text": "147",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m12Q12",
+          "question": "89 + 63 = ?",
+          "options": [
+            "154",
+            "151",
+            "152",
+            "142"
+          ],
+          "answer_index": 2,
+          "answer_text": "152",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m12Q13",
+          "question": "57 - 27 = ?",
+          "options": [
+            "28",
+            "31",
+            "40",
+            "30"
+          ],
+          "answer_index": 3,
+          "answer_text": "30",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m12Q14",
+          "question": "72 : 8 = ?",
+          "options": [
+            "10",
+            "8",
+            "9",
+            "33"
+          ],
+          "answer_index": 2,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m12Q15",
+          "question": "82 + 44 = ?",
+          "options": [
+            "128",
+            "116",
+            "126",
+            "125"
+          ],
+          "answer_index": 2,
+          "answer_text": "126",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m12Q16",
+          "question": "42 : 7 = ?",
+          "options": [
+            "5",
+            "7",
+            "19",
+            "6"
+          ],
+          "answer_index": 3,
+          "answer_text": "6",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m12Q17",
+          "question": "86 - 36 = ?",
+          "options": [
+            "51",
+            "60",
+            "48",
+            "50"
+          ],
+          "answer_index": 3,
+          "answer_text": "50",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m12Q18",
+          "question": "46 + 30 = ?",
+          "options": [
+            "78",
+            "66",
+            "75",
+            "76"
+          ],
+          "answer_index": 3,
+          "answer_text": "76",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m12Q19",
+          "question": "54 : 6 = ?",
+          "options": [
+            "9",
+            "6",
+            "10",
+            "8"
+          ],
+          "answer_index": 0,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m12Q20",
+          "question": "Chu vi HCN 19cm×13cm là ?",
+          "options": [
+            "32",
+            "51",
+            "64",
+            "247"
+          ],
+          "answer_index": 2,
+          "answer_text": "64",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_13",
+      "name": "Chủ đề 13",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m13Q01",
+          "question": "51 - 17 = ?",
+          "options": [
+            "32",
+            "35",
+            "44",
+            "34"
+          ],
+          "answer_index": 3,
+          "answer_text": "34",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m13Q02",
+          "question": "3 × 2 = ?",
+          "options": [
+            "8",
+            "3",
+            "4",
+            "6"
+          ],
+          "answer_index": 3,
+          "answer_text": "6",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m13Q03",
+          "question": "Chu vi HCN 18cm×4cm là ?",
+          "options": [
+            "72",
+            "44",
+            "22",
+            "40"
+          ],
+          "answer_index": 1,
+          "answer_text": "44",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m13Q04",
+          "question": "8 × 7 = ?",
+          "options": [
+            "54",
+            "48",
+            "58",
+            "56"
+          ],
+          "answer_index": 3,
+          "answer_text": "56",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m13Q05",
+          "question": "72 : 8 = ?",
+          "options": [
+            "9",
+            "10",
+            "13",
+            "8"
+          ],
+          "answer_index": 0,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m13Q06",
+          "question": "Chu vi HCN 8cm×3cm là ?",
+          "options": [
+            "24",
+            "11",
+            "22",
+            "19"
+          ],
+          "answer_index": 2,
+          "answer_text": "22",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m13Q07",
+          "question": "54 - 23 = ?",
+          "options": [
+            "41",
+            "31",
+            "29",
+            "32"
+          ],
+          "answer_index": 1,
+          "answer_text": "31",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m13Q08",
+          "question": "Chu vi hình vuông cạnh 11 cm là ?",
+          "options": [
+            "55",
+            "44",
+            "40",
+            "33"
+          ],
+          "answer_index": 1,
+          "answer_text": "44",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m13Q09",
+          "question": "3 × 7 = ?",
+          "options": [
+            "19",
+            "18",
+            "23",
+            "21"
+          ],
+          "answer_index": 3,
+          "answer_text": "21",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m13Q10",
+          "question": "27 : 9 = ?",
+          "options": [
+            "4",
+            "3",
+            "2",
+            "9"
+          ],
+          "answer_index": 1,
+          "answer_text": "3",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m13Q11",
+          "question": "Chu vi HCN 8cm×14cm là ?",
+          "options": [
+            "112",
+            "30",
+            "44",
+            "22"
+          ],
+          "answer_index": 2,
+          "answer_text": "44",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m13Q12",
+          "question": "9 × 9 = ?",
+          "options": [
+            "72",
+            "83",
+            "81",
+            "79"
+          ],
+          "answer_index": 2,
+          "answer_text": "81",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m13Q13",
+          "question": "16 : 8 = ?",
+          "options": [
+            "8",
+            "2",
+            "1",
+            "3"
+          ],
+          "answer_index": 1,
+          "answer_text": "2",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m13Q14",
+          "question": "Chu vi hình vuông cạnh 10 cm là ?",
+          "options": [
+            "30",
+            "36",
+            "50",
+            "40"
+          ],
+          "answer_index": 3,
+          "answer_text": "40",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m13Q15",
+          "question": "Chu vi hình vuông cạnh 14 cm là ?",
+          "options": [
+            "70",
+            "42",
+            "52",
+            "56"
+          ],
+          "answer_index": 3,
+          "answer_text": "56",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m13Q16",
+          "question": "2 × 7 = ?",
+          "options": [
+            "14",
+            "39",
+            "16",
+            "12"
+          ],
+          "answer_index": 0,
+          "answer_text": "14",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m13Q17",
+          "question": "60 - 10 = ?",
+          "options": [
+            "50",
+            "60",
+            "51",
+            "48"
+          ],
+          "answer_index": 0,
+          "answer_text": "50",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m13Q18",
+          "question": "9 × 6 = ?",
+          "options": [
+            "45",
+            "52",
+            "54",
+            "56"
+          ],
+          "answer_index": 2,
+          "answer_text": "54",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m13Q19",
+          "question": "6 × 4 = ?",
+          "options": [
+            "24",
+            "22",
+            "18",
+            "26"
+          ],
+          "answer_index": 0,
+          "answer_text": "24",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m13Q20",
+          "question": "59 + 31 = ?",
+          "options": [
+            "80",
+            "90",
+            "92",
+            "89"
+          ],
+          "answer_index": 1,
+          "answer_text": "90",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_14",
+      "name": "Chủ đề 14",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m14Q01",
+          "question": "Chu vi HCN 8cm×6cm là ?",
+          "options": [
+            "28",
+            "48",
+            "14",
+            "22"
+          ],
+          "answer_index": 0,
+          "answer_text": "28",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m14Q02",
+          "question": "64 - 20 = ?",
+          "options": [
+            "54",
+            "45",
+            "44",
+            "42"
+          ],
+          "answer_index": 2,
+          "answer_text": "44",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m14Q03",
+          "question": "6 : 3 = ?",
+          "options": [
+            "1",
+            "3",
+            "16",
+            "2"
+          ],
+          "answer_index": 3,
+          "answer_text": "2",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m14Q04",
+          "question": "9 × 8 = ?",
+          "options": [
+            "70",
+            "72",
+            "63",
+            "74"
+          ],
+          "answer_index": 1,
+          "answer_text": "72",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m14Q05",
+          "question": "7 × 3 = ?",
+          "options": [
+            "23",
+            "14",
+            "19",
+            "21"
+          ],
+          "answer_index": 3,
+          "answer_text": "21",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m14Q06",
+          "question": "Chu vi HCN 7cm×10cm là ?",
+          "options": [
+            "70",
+            "17",
+            "24",
+            "34"
+          ],
+          "answer_index": 3,
+          "answer_text": "34",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m14Q07",
+          "question": "81 : 9 = ?",
+          "options": [
+            "9",
+            "8",
+            "10",
+            "1"
+          ],
+          "answer_index": 0,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m14Q08",
+          "question": "98 + 82 = ?",
+          "options": [
+            "182",
+            "170",
+            "179",
+            "180"
+          ],
+          "answer_index": 3,
+          "answer_text": "180",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m14Q09",
+          "question": "4 × 8 = ?",
+          "options": [
+            "30",
+            "32",
+            "28",
+            "34"
+          ],
+          "answer_index": 1,
+          "answer_text": "32",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m14Q10",
+          "question": "36 : 6 = ?",
+          "options": [
+            "44",
+            "6",
+            "5",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "6",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m14Q11",
+          "question": "35 : 7 = ?",
+          "options": [
+            "7",
+            "6",
+            "5",
+            "4"
+          ],
+          "answer_index": 2,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m14Q12",
+          "question": "90 + 77 = ?",
+          "options": [
+            "169",
+            "157",
+            "166",
+            "167"
+          ],
+          "answer_index": 3,
+          "answer_text": "167",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m14Q13",
+          "question": "93 + 57 = ?",
+          "options": [
+            "150",
+            "152",
+            "149",
+            "140"
+          ],
+          "answer_index": 0,
+          "answer_text": "150",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m14Q14",
+          "question": "45 - 17 = ?",
+          "options": [
+            "29",
+            "26",
+            "38",
+            "28"
+          ],
+          "answer_index": 3,
+          "answer_text": "28",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m14Q15",
+          "question": "71 - 28 = ?",
+          "options": [
+            "43",
+            "41",
+            "44",
+            "53"
+          ],
+          "answer_index": 0,
+          "answer_text": "43",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m14Q16",
+          "question": "Chu vi HCN 13cm×12cm là ?",
+          "options": [
+            "50",
+            "38",
+            "25",
+            "156"
+          ],
+          "answer_index": 0,
+          "answer_text": "50",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m14Q17",
+          "question": "74 + 18 = ?",
+          "options": [
+            "91",
+            "92",
+            "82",
+            "94"
+          ],
+          "answer_index": 1,
+          "answer_text": "92",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m14Q18",
+          "question": "84 - 14 = ?",
+          "options": [
+            "68",
+            "70",
+            "80",
+            "71"
+          ],
+          "answer_index": 1,
+          "answer_text": "70",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m14Q19",
+          "question": "58 - 14 = ?",
+          "options": [
+            "45",
+            "42",
+            "44",
+            "54"
+          ],
+          "answer_index": 2,
+          "answer_text": "44",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m14Q20",
+          "question": "Chu vi hình vuông cạnh 13 cm là ?",
+          "options": [
+            "48",
+            "65",
+            "52",
+            "39"
+          ],
+          "answer_index": 2,
+          "answer_text": "52",
+          "explanation": "Chu vi HV = 4×cạnh."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_15",
+      "name": "Chủ đề 15",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m15Q01",
+          "question": "2 × 2 = ?",
+          "options": [
+            "6",
+            "22",
+            "2",
+            "4"
+          ],
+          "answer_index": 3,
+          "answer_text": "4",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m15Q02",
+          "question": "67 - 17 = ?",
+          "options": [
+            "48",
+            "60",
+            "50",
+            "51"
+          ],
+          "answer_index": 2,
+          "answer_text": "50",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m15Q03",
+          "question": "Chu vi hình vuông cạnh 6 cm là ?",
+          "options": [
+            "30",
+            "18",
+            "24",
+            "20"
+          ],
+          "answer_index": 2,
+          "answer_text": "24",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m15Q04",
+          "question": "15 : 3 = ?",
+          "options": [
+            "6",
+            "5",
+            "4",
+            "3"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m15Q05",
+          "question": "Chu vi HCN 20cm×10cm là ?",
+          "options": [
+            "30",
+            "200",
+            "60",
+            "50"
+          ],
+          "answer_index": 2,
+          "answer_text": "60",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m15Q06",
+          "question": "52 - 13 = ?",
+          "options": [
+            "37",
+            "39",
+            "40",
+            "49"
+          ],
+          "answer_index": 1,
+          "answer_text": "39",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m15Q07",
+          "question": "Chu vi HCN 19cm×14cm là ?",
+          "options": [
+            "266",
+            "33",
+            "66",
+            "52"
+          ],
+          "answer_index": 2,
+          "answer_text": "66",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m15Q08",
+          "question": "95 + 74 = ?",
+          "options": [
+            "168",
+            "171",
+            "169",
+            "159"
+          ],
+          "answer_index": 2,
+          "answer_text": "169",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m15Q09",
+          "question": "72 + 86 = ?",
+          "options": [
+            "148",
+            "160",
+            "158",
+            "157"
+          ],
+          "answer_index": 2,
+          "answer_text": "158",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m15Q10",
+          "question": "70 - 12 = ?",
+          "options": [
+            "58",
+            "59",
+            "68",
+            "56"
+          ],
+          "answer_index": 0,
+          "answer_text": "58",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m15Q11",
+          "question": "6 : 3 = ?",
+          "options": [
+            "1",
+            "8",
+            "2",
+            "3"
+          ],
+          "answer_index": 2,
+          "answer_text": "2",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m15Q12",
+          "question": "Chu vi hình vuông cạnh 6 cm là ?",
+          "options": [
+            "20",
+            "24",
+            "18",
+            "30"
+          ],
+          "answer_index": 1,
+          "answer_text": "24",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m15Q13",
+          "question": "18 : 9 = ?",
+          "options": [
+            "2",
+            "9",
+            "3",
+            "1"
+          ],
+          "answer_index": 0,
+          "answer_text": "2",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m15Q14",
+          "question": "93 - 25 = ?",
+          "options": [
+            "68",
+            "66",
+            "78",
+            "69"
+          ],
+          "answer_index": 0,
+          "answer_text": "68",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m15Q15",
+          "question": "43 - 24 = ?",
+          "options": [
+            "19",
+            "17",
+            "20",
+            "29"
+          ],
+          "answer_index": 0,
+          "answer_text": "19",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m15Q16",
+          "question": "58 - 18 = ?",
+          "options": [
+            "38",
+            "40",
+            "41",
+            "50"
+          ],
+          "answer_index": 1,
+          "answer_text": "40",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m15Q17",
+          "question": "6 × 3 = ?",
+          "options": [
+            "12",
+            "18",
+            "20",
+            "16"
+          ],
+          "answer_index": 1,
+          "answer_text": "18",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m15Q18",
+          "question": "9 × 3 = ?",
+          "options": [
+            "29",
+            "27",
+            "25",
+            "18"
+          ],
+          "answer_index": 1,
+          "answer_text": "27",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m15Q19",
+          "question": "63 + 73 = ?",
+          "options": [
+            "135",
+            "138",
+            "136",
+            "126"
+          ],
+          "answer_index": 2,
+          "answer_text": "136",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m15Q20",
+          "question": "Chu vi HCN 7cm×17cm là ?",
+          "options": [
+            "119",
+            "24",
+            "31",
+            "48"
+          ],
+          "answer_index": 3,
+          "answer_text": "48",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_16",
+      "name": "Chủ đề 16",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m16Q01",
+          "question": "Chu vi hình vuông cạnh 15 cm là ?",
+          "options": [
+            "45",
+            "75",
+            "56",
+            "60"
+          ],
+          "answer_index": 3,
+          "answer_text": "60",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m16Q02",
+          "question": "93 + 24 = ?",
+          "options": [
+            "116",
+            "117",
+            "119",
+            "107"
+          ],
+          "answer_index": 1,
+          "answer_text": "117",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m16Q03",
+          "question": "2 × 2 = ?",
+          "options": [
+            "12",
+            "4",
+            "2",
+            "6"
+          ],
+          "answer_index": 1,
+          "answer_text": "4",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m16Q04",
+          "question": "77 - 12 = ?",
+          "options": [
+            "66",
+            "75",
+            "65",
+            "63"
+          ],
+          "answer_index": 2,
+          "answer_text": "65",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m16Q05",
+          "question": "75 - 21 = ?",
+          "options": [
+            "55",
+            "54",
+            "52",
+            "64"
+          ],
+          "answer_index": 1,
+          "answer_text": "54",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m16Q06",
+          "question": "25 : 5 = ?",
+          "options": [
+            "4",
+            "6",
+            "5",
+            "1"
+          ],
+          "answer_index": 2,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m16Q07",
+          "question": "8 : 4 = ?",
+          "options": [
+            "2",
+            "1",
+            "4",
+            "3"
+          ],
+          "answer_index": 0,
+          "answer_text": "2",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m16Q08",
+          "question": "51 - 29 = ?",
+          "options": [
+            "22",
+            "32",
+            "20",
+            "23"
+          ],
+          "answer_index": 0,
+          "answer_text": "22",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m16Q09",
+          "question": "Chu vi HCN 11cm×9cm là ?",
+          "options": [
+            "99",
+            "40",
+            "31",
+            "20"
+          ],
+          "answer_index": 1,
+          "answer_text": "40",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m16Q10",
+          "question": "Chu vi hình vuông cạnh 19 cm là ?",
+          "options": [
+            "95",
+            "72",
+            "57",
+            "76"
+          ],
+          "answer_index": 3,
+          "answer_text": "76",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m16Q11",
+          "question": "3 × 2 = ?",
+          "options": [
+            "3",
+            "8",
+            "6",
+            "4"
+          ],
+          "answer_index": 2,
+          "answer_text": "6",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m16Q12",
+          "question": "39 + 33 = ?",
+          "options": [
+            "74",
+            "72",
+            "71",
+            "62"
+          ],
+          "answer_index": 1,
+          "answer_text": "72",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m16Q13",
+          "question": "2 × 4 = ?",
+          "options": [
+            "38",
+            "8",
+            "10",
+            "6"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m16Q14",
+          "question": "Chu vi HCN 6cm×15cm là ?",
+          "options": [
+            "27",
+            "90",
+            "42",
+            "21"
+          ],
+          "answer_index": 2,
+          "answer_text": "42",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m16Q15",
+          "question": "86 - 37 = ?",
+          "options": [
+            "59",
+            "49",
+            "47",
+            "50"
+          ],
+          "answer_index": 1,
+          "answer_text": "49",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m16Q16",
+          "question": "63 - 13 = ?",
+          "options": [
+            "48",
+            "51",
+            "50",
+            "60"
+          ],
+          "answer_index": 2,
+          "answer_text": "50",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m16Q17",
+          "question": "Chu vi HCN 20cm×4cm là ?",
+          "options": [
+            "44",
+            "48",
+            "24",
+            "80"
+          ],
+          "answer_index": 1,
+          "answer_text": "48",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m16Q18",
+          "question": "3 × 9 = ?",
+          "options": [
+            "24",
+            "25",
+            "27",
+            "29"
+          ],
+          "answer_index": 2,
+          "answer_text": "27",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m16Q19",
+          "question": "88 + 65 = ?",
+          "options": [
+            "155",
+            "153",
+            "152",
+            "143"
+          ],
+          "answer_index": 1,
+          "answer_text": "153",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m16Q20",
+          "question": "Chu vi hình vuông cạnh 9 cm là ?",
+          "options": [
+            "27",
+            "32",
+            "36",
+            "45"
+          ],
+          "answer_index": 2,
+          "answer_text": "36",
+          "explanation": "Chu vi HV = 4×cạnh."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_17",
+      "name": "Chủ đề 17",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m17Q01",
+          "question": "82 - 12 = ?",
+          "options": [
+            "80",
+            "70",
+            "68",
+            "71"
+          ],
+          "answer_index": 1,
+          "answer_text": "70",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m17Q02",
+          "question": "Chu vi HCN 18cm×18cm là ?",
+          "options": [
+            "72",
+            "36",
+            "54",
+            "324"
+          ],
+          "answer_index": 0,
+          "answer_text": "72",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m17Q03",
+          "question": "Chu vi HCN 9cm×11cm là ?",
+          "options": [
+            "29",
+            "99",
+            "20",
+            "40"
+          ],
+          "answer_index": 3,
+          "answer_text": "40",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m17Q04",
+          "question": "Chu vi hình vuông cạnh 8 cm là ?",
+          "options": [
+            "32",
+            "28",
+            "24",
+            "40"
+          ],
+          "answer_index": 0,
+          "answer_text": "32",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m17Q05",
+          "question": "36 : 9 = ?",
+          "options": [
+            "9",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer_index": 2,
+          "answer_text": "4",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m17Q06",
+          "question": "Chu vi HCN 8cm×15cm là ?",
+          "options": [
+            "120",
+            "23",
+            "46",
+            "31"
+          ],
+          "answer_index": 2,
+          "answer_text": "46",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m17Q07",
+          "question": "55 + 90 = ?",
+          "options": [
+            "145",
+            "147",
+            "135",
+            "144"
+          ],
+          "answer_index": 0,
+          "answer_text": "145",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m17Q08",
+          "question": "Chu vi HCN 20cm×14cm là ?",
+          "options": [
+            "280",
+            "54",
+            "68",
+            "34"
+          ],
+          "answer_index": 2,
+          "answer_text": "68",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m17Q09",
+          "question": "81 : 9 = ?",
+          "options": [
+            "9",
+            "10",
+            "47",
+            "8"
+          ],
+          "answer_index": 0,
+          "answer_text": "9",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m17Q10",
+          "question": "4 × 2 = ?",
+          "options": [
+            "4",
+            "10",
+            "8",
+            "6"
+          ],
+          "answer_index": 2,
+          "answer_text": "8",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m17Q11",
+          "question": "76 - 26 = ?",
+          "options": [
+            "48",
+            "50",
+            "60",
+            "51"
+          ],
+          "answer_index": 1,
+          "answer_text": "50",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m17Q12",
+          "question": "10 : 2 = ?",
+          "options": [
+            "6",
+            "4",
+            "5",
+            "2"
+          ],
+          "answer_index": 2,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m17Q13",
+          "question": "94 - 21 = ?",
+          "options": [
+            "73",
+            "83",
+            "74",
+            "71"
+          ],
+          "answer_index": 0,
+          "answer_text": "73",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m17Q14",
+          "question": "93 + 84 = ?",
+          "options": [
+            "176",
+            "177",
+            "179",
+            "167"
+          ],
+          "answer_index": 1,
+          "answer_text": "177",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m17Q15",
+          "question": "Chu vi HCN 13cm×9cm là ?",
+          "options": [
+            "35",
+            "44",
+            "117",
+            "22"
+          ],
+          "answer_index": 1,
+          "answer_text": "44",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m17Q16",
+          "question": "71 - 21 = ?",
+          "options": [
+            "60",
+            "50",
+            "51",
+            "48"
+          ],
+          "answer_index": 1,
+          "answer_text": "50",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m17Q17",
+          "question": "25 : 5 = ?",
+          "options": [
+            "5",
+            "6",
+            "28",
+            "4"
+          ],
+          "answer_index": 0,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m17Q18",
+          "question": "Chu vi HCN 17cm×18cm là ?",
+          "options": [
+            "35",
+            "52",
+            "70",
+            "306"
+          ],
+          "answer_index": 2,
+          "answer_text": "70",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m17Q19",
+          "question": "6 × 8 = ?",
+          "options": [
+            "48",
+            "50",
+            "46",
+            "42"
+          ],
+          "answer_index": 0,
+          "answer_text": "48",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m17Q20",
+          "question": "Chu vi HCN 11cm×15cm là ?",
+          "options": [
+            "52",
+            "26",
+            "165",
+            "37"
+          ],
+          "answer_index": 0,
+          "answer_text": "52",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_18",
+      "name": "Chủ đề 18",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m18Q01",
+          "question": "32 : 4 = ?",
+          "options": [
+            "4",
+            "9",
+            "8",
+            "7"
+          ],
+          "answer_index": 2,
+          "answer_text": "8",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m18Q02",
+          "question": "60 + 30 = ?",
+          "options": [
+            "89",
+            "80",
+            "92",
+            "90"
+          ],
+          "answer_index": 3,
+          "answer_text": "90",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m18Q03",
+          "question": "2 × 4 = ?",
+          "options": [
+            "10",
+            "31",
+            "6",
+            "8"
+          ],
+          "answer_index": 3,
+          "answer_text": "8",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m18Q04",
+          "question": "60 - 10 = ?",
+          "options": [
+            "60",
+            "48",
+            "51",
+            "50"
+          ],
+          "answer_index": 3,
+          "answer_text": "50",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m18Q05",
+          "question": "45 : 9 = ?",
+          "options": [
+            "4",
+            "6",
+            "9",
+            "5"
+          ],
+          "answer_index": 3,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m18Q06",
+          "question": "49 : 7 = ?",
+          "options": [
+            "30",
+            "8",
+            "6",
+            "7"
+          ],
+          "answer_index": 3,
+          "answer_text": "7",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m18Q07",
+          "question": "25 : 5 = ?",
+          "options": [
+            "5",
+            "6",
+            "4",
+            "10"
+          ],
+          "answer_index": 0,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m18Q08",
+          "question": "77 - 11 = ?",
+          "options": [
+            "67",
+            "76",
+            "64",
+            "66"
+          ],
+          "answer_index": 3,
+          "answer_text": "66",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m18Q09",
+          "question": "38 + 57 = ?",
+          "options": [
+            "94",
+            "95",
+            "97",
+            "85"
+          ],
+          "answer_index": 1,
+          "answer_text": "95",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m18Q10",
+          "question": "40 - 32 = ?",
+          "options": [
+            "18",
+            "9",
+            "8",
+            "6"
+          ],
+          "answer_index": 2,
+          "answer_text": "8",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m18Q11",
+          "question": "70 - 24 = ?",
+          "options": [
+            "56",
+            "46",
+            "44",
+            "47"
+          ],
+          "answer_index": 1,
+          "answer_text": "46",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m18Q12",
+          "question": "3 × 3 = ?",
+          "options": [
+            "7",
+            "11",
+            "6",
+            "9"
+          ],
+          "answer_index": 3,
+          "answer_text": "9",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m18Q13",
+          "question": "84 + 18 = ?",
+          "options": [
+            "102",
+            "104",
+            "92",
+            "101"
+          ],
+          "answer_index": 0,
+          "answer_text": "102",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m18Q14",
+          "question": "4 × 9 = ?",
+          "options": [
+            "38",
+            "36",
+            "32",
+            "34"
+          ],
+          "answer_index": 1,
+          "answer_text": "36",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m18Q15",
+          "question": "10 : 5 = ?",
+          "options": [
+            "1",
+            "3",
+            "5",
+            "2"
+          ],
+          "answer_index": 3,
+          "answer_text": "2",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m18Q16",
+          "question": "Chu vi hình vuông cạnh 19 cm là ?",
+          "options": [
+            "72",
+            "76",
+            "57",
+            "95"
+          ],
+          "answer_index": 1,
+          "answer_text": "76",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m18Q17",
+          "question": "8 × 9 = ?",
+          "options": [
+            "64",
+            "70",
+            "72",
+            "74"
+          ],
+          "answer_index": 2,
+          "answer_text": "72",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m18Q18",
+          "question": "18 : 6 = ?",
+          "options": [
+            "3",
+            "2",
+            "4",
+            "6"
+          ],
+          "answer_index": 0,
+          "answer_text": "3",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m18Q19",
+          "question": "21 : 7 = ?",
+          "options": [
+            "7",
+            "3",
+            "2",
+            "4"
+          ],
+          "answer_index": 1,
+          "answer_text": "3",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m18Q20",
+          "question": "2 × 9 = ?",
+          "options": [
+            "18",
+            "20",
+            "19",
+            "16"
+          ],
+          "answer_index": 0,
+          "answer_text": "18",
+          "explanation": "Dùng bảng nhân."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_19",
+      "name": "Chủ đề 19",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m19Q01",
+          "question": "10 : 2 = ?",
+          "options": [
+            "5",
+            "4",
+            "2",
+            "6"
+          ],
+          "answer_index": 0,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m19Q02",
+          "question": "Chu vi hình vuông cạnh 13 cm là ?",
+          "options": [
+            "48",
+            "65",
+            "39",
+            "52"
+          ],
+          "answer_index": 3,
+          "answer_text": "52",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m19Q03",
+          "question": "Chu vi hình vuông cạnh 11 cm là ?",
+          "options": [
+            "44",
+            "33",
+            "55",
+            "40"
+          ],
+          "answer_index": 0,
+          "answer_text": "44",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m19Q04",
+          "question": "60 + 34 = ?",
+          "options": [
+            "96",
+            "84",
+            "93",
+            "94"
+          ],
+          "answer_index": 3,
+          "answer_text": "94",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m19Q05",
+          "question": "87 - 10 = ?",
+          "options": [
+            "77",
+            "87",
+            "75",
+            "78"
+          ],
+          "answer_index": 0,
+          "answer_text": "77",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m19Q06",
+          "question": "2 × 9 = ?",
+          "options": [
+            "20",
+            "42",
+            "18",
+            "16"
+          ],
+          "answer_index": 2,
+          "answer_text": "18",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m19Q07",
+          "question": "72 + 44 = ?",
+          "options": [
+            "115",
+            "106",
+            "118",
+            "116"
+          ],
+          "answer_index": 3,
+          "answer_text": "116",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m19Q08",
+          "question": "8 : 2 = ?",
+          "options": [
+            "2",
+            "5",
+            "4",
+            "3"
+          ],
+          "answer_index": 2,
+          "answer_text": "4",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m19Q09",
+          "question": "58 - 26 = ?",
+          "options": [
+            "32",
+            "30",
+            "33",
+            "42"
+          ],
+          "answer_index": 0,
+          "answer_text": "32",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m19Q10",
+          "question": "Chu vi HCN 18cm×16cm là ?",
+          "options": [
+            "68",
+            "288",
+            "34",
+            "52"
+          ],
+          "answer_index": 0,
+          "answer_text": "68",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m19Q11",
+          "question": "45 - 36 = ?",
+          "options": [
+            "19",
+            "9",
+            "7",
+            "10"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m19Q12",
+          "question": "99 + 51 = ?",
+          "options": [
+            "140",
+            "150",
+            "152",
+            "149"
+          ],
+          "answer_index": 1,
+          "answer_text": "150",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m19Q13",
+          "question": "Chu vi hình vuông cạnh 13 cm là ?",
+          "options": [
+            "39",
+            "65",
+            "52",
+            "48"
+          ],
+          "answer_index": 2,
+          "answer_text": "52",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m19Q14",
+          "question": "2 × 4 = ?",
+          "options": [
+            "8",
+            "10",
+            "6",
+            "20"
+          ],
+          "answer_index": 0,
+          "answer_text": "8",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m19Q15",
+          "question": "69 + 88 = ?",
+          "options": [
+            "147",
+            "156",
+            "159",
+            "157"
+          ],
+          "answer_index": 3,
+          "answer_text": "157",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m19Q16",
+          "question": "54 : 9 = ?",
+          "options": [
+            "9",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 2,
+          "answer_text": "6",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m19Q17",
+          "question": "40 : 5 = ?",
+          "options": [
+            "5",
+            "8",
+            "7",
+            "9"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m19Q18",
+          "question": "9 × 4 = ?",
+          "options": [
+            "38",
+            "34",
+            "27",
+            "36"
+          ],
+          "answer_index": 3,
+          "answer_text": "36",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m19Q19",
+          "question": "98 + 34 = ?",
+          "options": [
+            "122",
+            "134",
+            "131",
+            "132"
+          ],
+          "answer_index": 3,
+          "answer_text": "132",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m19Q20",
+          "question": "Chu vi HCN 8cm×19cm là ?",
+          "options": [
+            "27",
+            "35",
+            "152",
+            "54"
+          ],
+          "answer_index": 3,
+          "answer_text": "54",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_MEDIUM_20",
+      "name": "Chủ đề 20",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M1m20Q01",
+          "question": "42 : 7 = ?",
+          "options": [
+            "6",
+            "7",
+            "42",
+            "5"
+          ],
+          "answer_index": 0,
+          "answer_text": "6",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m20Q02",
+          "question": "89 + 92 = ?",
+          "options": [
+            "181",
+            "183",
+            "180",
+            "171"
+          ],
+          "answer_index": 0,
+          "answer_text": "181",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m20Q03",
+          "question": "87 + 88 = ?",
+          "options": [
+            "175",
+            "165",
+            "177",
+            "174"
+          ],
+          "answer_index": 0,
+          "answer_text": "175",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m20Q04",
+          "question": "Chu vi hình vuông cạnh 13 cm là ?",
+          "options": [
+            "65",
+            "39",
+            "52",
+            "48"
+          ],
+          "answer_index": 2,
+          "answer_text": "52",
+          "explanation": "Chu vi HV = 4×cạnh."
+        },
+        {
+          "id": "M1m20Q05",
+          "question": "25 : 5 = ?",
+          "options": [
+            "5",
+            "48",
+            "6",
+            "4"
+          ],
+          "answer_index": 0,
+          "answer_text": "5",
+          "explanation": "Vì b×thương = số bị chia."
+        },
+        {
+          "id": "M1m20Q06",
+          "question": "9 × 5 = ?",
+          "options": [
+            "47",
+            "43",
+            "45",
+            "36"
+          ],
+          "answer_index": 2,
+          "answer_text": "45",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m20Q07",
+          "question": "Chu vi HCN 7cm×11cm là ?",
+          "options": [
+            "18",
+            "25",
+            "36",
+            "77"
+          ],
+          "answer_index": 2,
+          "answer_text": "36",
+          "explanation": "Chu vi HCN = 2×(dài+rộng)."
+        },
+        {
+          "id": "M1m20Q08",
+          "question": "96 + 82 = ?",
+          "options": [
+            "178",
+            "177",
+            "180",
+            "168"
+          ],
+          "answer_index": 0,
+          "answer_text": "178",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m20Q09",
+          "question": "78 - 21 = ?",
+          "options": [
+            "57",
+            "67",
+            "58",
+            "55"
+          ],
+          "answer_index": 0,
+          "answer_text": "57",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m20Q10",
+          "question": "52 - 23 = ?",
+          "options": [
+            "30",
+            "27",
+            "29",
+            "39"
+          ],
+          "answer_index": 2,
+          "answer_text": "29",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m20Q11",
+          "question": "34 + 53 = ?",
+          "options": [
+            "87",
+            "89",
+            "86",
+            "77"
+          ],
+          "answer_index": 0,
+          "answer_text": "87",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m20Q12",
+          "question": "61 - 19 = ?",
+          "options": [
+            "43",
+            "52",
+            "42",
+            "40"
+          ],
+          "answer_index": 2,
+          "answer_text": "42",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m20Q13",
+          "question": "65 - 31 = ?",
+          "options": [
+            "44",
+            "32",
+            "35",
+            "34"
+          ],
+          "answer_index": 3,
+          "answer_text": "34",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m20Q14",
+          "question": "4 × 8 = ?",
+          "options": [
+            "34",
+            "28",
+            "32",
+            "30"
+          ],
+          "answer_index": 2,
+          "answer_text": "32",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m20Q15",
+          "question": "8 × 9 = ?",
+          "options": [
+            "74",
+            "70",
+            "72",
+            "64"
+          ],
+          "answer_index": 2,
+          "answer_text": "72",
+          "explanation": "Dùng bảng nhân."
+        },
+        {
+          "id": "M1m20Q16",
+          "question": "18 + 61 = ?",
+          "options": [
+            "79",
+            "69",
+            "78",
+            "81"
+          ],
+          "answer_index": 0,
+          "answer_text": "79",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m20Q17",
+          "question": "77 + 24 = ?",
+          "options": [
+            "103",
+            "100",
+            "101",
+            "91"
+          ],
+          "answer_index": 2,
+          "answer_text": "101",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m20Q18",
+          "question": "95 + 25 = ?",
+          "options": [
+            "120",
+            "110",
+            "122",
+            "119"
+          ],
+          "answer_index": 0,
+          "answer_text": "120",
+          "explanation": "Cộng theo cột; nhớ nếu >9."
+        },
+        {
+          "id": "M1m20Q19",
+          "question": "83 - 29 = ?",
+          "options": [
+            "54",
+            "52",
+            "64",
+            "55"
+          ],
+          "answer_index": 0,
+          "answer_text": "54",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        },
+        {
+          "id": "M1m20Q20",
+          "question": "57 - 26 = ?",
+          "options": [
+            "31",
+            "41",
+            "32",
+            "29"
+          ],
+          "answer_index": 0,
+          "answer_text": "31",
+          "explanation": "Trừ theo cột; mượn nếu cần."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5351 @@
+{
+  "meta": {
+    "grade": 1,
+    "subject": "Toán",
+    "language": "vi",
+    "created_date": "2025-11-03",
+    "level": "hard"
+  },
+  "topics": [
+    {
+      "id": "MATH1_HARD_01",
+      "name": "Chủ đề 1",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h01Q01",
+          "question": "2 hộp, mỗi hộp 17 bút. Bán 7 bút. Còn lại?",
+          "options": [
+            "27",
+            "34",
+            "29",
+            "41"
+          ],
+          "answer_index": 0,
+          "answer_text": "27",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h01Q02",
+          "question": "9 : 2 = ? dư ?",
+          "options": [
+            "3 dư 2",
+            "4 dư 0",
+            "4 dư 1",
+            "5 dư 0"
+          ],
+          "answer_index": 2,
+          "answer_text": "4 dư 1",
+          "explanation": "9 = 2×4 + 1 ⇒ thương 4, dư 1."
+        },
+        {
+          "id": "M1h01Q03",
+          "question": "So sánh: 6×3 __ 6×7",
+          "options": [
+            "1",
+            "<",
+            "=",
+            ">"
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h01Q04",
+          "question": "So sánh: 3×4 __ 3×9",
+          "options": [
+            "<",
+            "10",
+            ">",
+            "="
+          ],
+          "answer_index": 0,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h01Q05",
+          "question": "2 hộp, mỗi hộp 19 bút. Bán 6 bút. Còn lại?",
+          "options": [
+            "38",
+            "44",
+            "32",
+            "34"
+          ],
+          "answer_index": 2,
+          "answer_text": "32",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h01Q06",
+          "question": "So sánh: 4×3 __ 4×9",
+          "options": [
+            ">",
+            "<",
+            "=",
+            "16"
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h01Q07",
+          "question": "4 hộp, mỗi hộp 29 bút. Bán 20 bút. Còn lại?",
+          "options": [
+            "136",
+            "116",
+            "98",
+            "96"
+          ],
+          "answer_index": 3,
+          "answer_text": "96",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h01Q08",
+          "question": "So sánh: 2×2 __ 2×6",
+          "options": [
+            "36",
+            "=",
+            ">",
+            "<"
+          ],
+          "answer_index": 3,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h01Q09",
+          "question": "5 hộp, mỗi hộp 19 bút. Bán 15 bút. Còn lại?",
+          "options": [
+            "80",
+            "82",
+            "95",
+            "110"
+          ],
+          "answer_index": 0,
+          "answer_text": "80",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h01Q10",
+          "question": "So sánh: 2×7 __ 2×2",
+          "options": [
+            "44",
+            "=",
+            "<",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h01Q11",
+          "question": "26 : 3 = ? dư ?",
+          "options": [
+            "8 dư 0",
+            "7 dư 3",
+            "9 dư 1",
+            "8 dư 2"
+          ],
+          "answer_index": 3,
+          "answer_text": "8 dư 2",
+          "explanation": "26 = 3×8 + 2 ⇒ thương 8, dư 2."
+        },
+        {
+          "id": "M1h01Q12",
+          "question": "So sánh: 5×9 __ 5×9",
+          "options": [
+            "27",
+            "=",
+            "<",
+            ">"
+          ],
+          "answer_index": 1,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h01Q13",
+          "question": "Tính: 3+8×6 = ?",
+          "options": [
+            "51",
+            "30",
+            "66",
+            "53"
+          ],
+          "answer_index": 0,
+          "answer_text": "51",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h01Q14",
+          "question": "So sánh: 2×9 __ 2×4",
+          "options": [
+            "=",
+            "17",
+            ">",
+            "<"
+          ],
+          "answer_index": 2,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h01Q15",
+          "question": "19 : 2 = ? dư ?",
+          "options": [
+            "10 dư 0",
+            "9 dư 0",
+            "8 dư 2",
+            "9 dư 1"
+          ],
+          "answer_index": 3,
+          "answer_text": "9 dư 1",
+          "explanation": "19 = 2×9 + 1 ⇒ thương 9, dư 1."
+        },
+        {
+          "id": "M1h01Q16",
+          "question": "9 hộp, mỗi hộp 16 bút. Bán 6 bút. Còn lại?",
+          "options": [
+            "144",
+            "138",
+            "150",
+            "140"
+          ],
+          "answer_index": 1,
+          "answer_text": "138",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h01Q17",
+          "question": "So sánh: 3×4 __ 3×4",
+          "options": [
+            "<",
+            "29",
+            "=",
+            ">"
+          ],
+          "answer_index": 2,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h01Q18",
+          "question": "4 hộp, mỗi hộp 25 bút. Bán 10 bút. Còn lại?",
+          "options": [
+            "100",
+            "92",
+            "90",
+            "110"
+          ],
+          "answer_index": 2,
+          "answer_text": "90",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h01Q19",
+          "question": "Tính: 5+7×8 = ?",
+          "options": [
+            "43",
+            "63",
+            "61",
+            "96"
+          ],
+          "answer_index": 2,
+          "answer_text": "61",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h01Q20",
+          "question": "3 hộp, mỗi hộp 40 bút. Bán 14 bút. Còn lại?",
+          "options": [
+            "120",
+            "108",
+            "134",
+            "106"
+          ],
+          "answer_index": 3,
+          "answer_text": "106",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_02",
+      "name": "Chủ đề 2",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h02Q01",
+          "question": "25 : 4 = ? dư ?",
+          "options": [
+            "5 dư 2",
+            "6 dư 0",
+            "7 dư 0",
+            "6 dư 1"
+          ],
+          "answer_index": 3,
+          "answer_text": "6 dư 1",
+          "explanation": "25 = 4×6 + 1 ⇒ thương 6, dư 1."
+        },
+        {
+          "id": "M1h02Q02",
+          "question": "27 : 7 = ? dư ?",
+          "options": [
+            "3 dư 4",
+            "4 dư 5",
+            "2 dư 7",
+            "3 dư 6"
+          ],
+          "answer_index": 3,
+          "answer_text": "3 dư 6",
+          "explanation": "27 = 7×3 + 6 ⇒ thương 3, dư 6."
+        },
+        {
+          "id": "M1h02Q03",
+          "question": "31 : 5 = ? dư ?",
+          "options": [
+            "5 dư 2",
+            "6 dư 1",
+            "7 dư 0",
+            "6 dư 0"
+          ],
+          "answer_index": 1,
+          "answer_text": "6 dư 1",
+          "explanation": "31 = 5×6 + 1 ⇒ thương 6, dư 1."
+        },
+        {
+          "id": "M1h02Q04",
+          "question": "So sánh: 9×2 __ 9×4",
+          "options": [
+            ">",
+            "20",
+            "=",
+            "<"
+          ],
+          "answer_index": 3,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h02Q05",
+          "question": "So sánh: 5×9 __ 5×6",
+          "options": [
+            "=",
+            "10",
+            "<",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h02Q06",
+          "question": "3 hộp, mỗi hộp 39 bút. Bán 7 bút. Còn lại?",
+          "options": [
+            "110",
+            "117",
+            "124",
+            "112"
+          ],
+          "answer_index": 0,
+          "answer_text": "110",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h02Q07",
+          "question": "80 : 9 = ? dư ?",
+          "options": [
+            "8 dư 8",
+            "8 dư 6",
+            "9 dư 7",
+            "7 dư 9"
+          ],
+          "answer_index": 0,
+          "answer_text": "8 dư 8",
+          "explanation": "80 = 9×8 + 8 ⇒ thương 8, dư 8."
+        },
+        {
+          "id": "M1h02Q08",
+          "question": "So sánh: 4×6 __ 4×9",
+          "options": [
+            "31",
+            ">",
+            "<",
+            "="
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h02Q09",
+          "question": "So sánh: 5×4 __ 5×9",
+          "options": [
+            "<",
+            "13",
+            ">",
+            "="
+          ],
+          "answer_index": 0,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h02Q10",
+          "question": "20 : 7 = ? dư ?",
+          "options": [
+            "3 dư 5",
+            "2 dư 4",
+            "2 dư 6",
+            "1 dư 7"
+          ],
+          "answer_index": 2,
+          "answer_text": "2 dư 6",
+          "explanation": "20 = 7×2 + 6 ⇒ thương 2, dư 6."
+        },
+        {
+          "id": "M1h02Q11",
+          "question": "So sánh: 2×6 __ 2×9",
+          "options": [
+            "13",
+            "=",
+            ">",
+            "<"
+          ],
+          "answer_index": 3,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h02Q12",
+          "question": "So sánh: 2×5 __ 2×2",
+          "options": [
+            "41",
+            "=",
+            "<",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h02Q13",
+          "question": "26 : 6 = ? dư ?",
+          "options": [
+            "4 dư 2",
+            "4 dư 0",
+            "5 dư 1",
+            "3 dư 3"
+          ],
+          "answer_index": 0,
+          "answer_text": "4 dư 2",
+          "explanation": "26 = 6×4 + 2 ⇒ thương 4, dư 2."
+        },
+        {
+          "id": "M1h02Q14",
+          "question": "9 hộp, mỗi hộp 21 bút. Bán 13 bút. Còn lại?",
+          "options": [
+            "176",
+            "178",
+            "202",
+            "189"
+          ],
+          "answer_index": 0,
+          "answer_text": "176",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h02Q15",
+          "question": "5 hộp, mỗi hộp 21 bút. Bán 17 bút. Còn lại?",
+          "options": [
+            "88",
+            "90",
+            "105",
+            "122"
+          ],
+          "answer_index": 0,
+          "answer_text": "88",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h02Q16",
+          "question": "44 : 6 = ? dư ?",
+          "options": [
+            "7 dư 0",
+            "8 dư 1",
+            "7 dư 2",
+            "6 dư 3"
+          ],
+          "answer_index": 2,
+          "answer_text": "7 dư 2",
+          "explanation": "44 = 6×7 + 2 ⇒ thương 7, dư 2."
+        },
+        {
+          "id": "M1h02Q17",
+          "question": "So sánh: 9×7 __ 9×7",
+          "options": [
+            ">",
+            "<",
+            "20",
+            "="
+          ],
+          "answer_index": 3,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h02Q18",
+          "question": "So sánh: 7×6 __ 7×2",
+          "options": [
+            "27",
+            ">",
+            "<",
+            "="
+          ],
+          "answer_index": 1,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h02Q19",
+          "question": "So sánh: 3×6 __ 3×9",
+          "options": [
+            "3",
+            ">",
+            "<",
+            "="
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h02Q20",
+          "question": "10 : 3 = ? dư ?",
+          "options": [
+            "4 dư 0",
+            "2 dư 2",
+            "3 dư 1",
+            "3 dư 0"
+          ],
+          "answer_index": 2,
+          "answer_text": "3 dư 1",
+          "explanation": "10 = 3×3 + 1 ⇒ thương 3, dư 1."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_03",
+      "name": "Chủ đề 3",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h03Q01",
+          "question": "23 : 6 = ? dư ?",
+          "options": [
+            "4 dư 4",
+            "2 dư 6",
+            "3 dư 3",
+            "3 dư 5"
+          ],
+          "answer_index": 3,
+          "answer_text": "3 dư 5",
+          "explanation": "23 = 6×3 + 5 ⇒ thương 3, dư 5."
+        },
+        {
+          "id": "M1h03Q02",
+          "question": "Tính: 3+2×7 = ?",
+          "options": [
+            "17",
+            "13",
+            "35",
+            "19"
+          ],
+          "answer_index": 0,
+          "answer_text": "17",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h03Q03",
+          "question": "25 : 8 = ? dư ?",
+          "options": [
+            "4 dư 0",
+            "2 dư 2",
+            "3 dư 0",
+            "3 dư 1"
+          ],
+          "answer_index": 3,
+          "answer_text": "3 dư 1",
+          "explanation": "25 = 8×3 + 1 ⇒ thương 3, dư 1."
+        },
+        {
+          "id": "M1h03Q04",
+          "question": "So sánh: 5×5 __ 5×5",
+          "options": [
+            "<",
+            "=",
+            "25",
+            ">"
+          ],
+          "answer_index": 1,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h03Q05",
+          "question": "9 hộp, mỗi hộp 10 bút. Bán 7 bút. Còn lại?",
+          "options": [
+            "85",
+            "97",
+            "90",
+            "83"
+          ],
+          "answer_index": 3,
+          "answer_text": "83",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h03Q06",
+          "question": "52 : 9 = ? dư ?",
+          "options": [
+            "4 dư 8",
+            "6 dư 6",
+            "5 dư 7",
+            "5 dư 5"
+          ],
+          "answer_index": 2,
+          "answer_text": "5 dư 7",
+          "explanation": "52 = 9×5 + 7 ⇒ thương 5, dư 7."
+        },
+        {
+          "id": "M1h03Q07",
+          "question": "7 hộp, mỗi hộp 12 bút. Bán 9 bút. Còn lại?",
+          "options": [
+            "84",
+            "75",
+            "93",
+            "77"
+          ],
+          "answer_index": 1,
+          "answer_text": "75",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h03Q08",
+          "question": "So sánh: 6×8 __ 6×2",
+          "options": [
+            "<",
+            "=",
+            ">",
+            "30"
+          ],
+          "answer_index": 2,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h03Q09",
+          "question": "So sánh: 6×2 __ 6×3",
+          "options": [
+            "=",
+            ">",
+            "<",
+            "41"
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h03Q10",
+          "question": "39 : 9 = ? dư ?",
+          "options": [
+            "5 dư 2",
+            "3 dư 4",
+            "4 dư 3",
+            "4 dư 1"
+          ],
+          "answer_index": 2,
+          "answer_text": "4 dư 3",
+          "explanation": "39 = 9×4 + 3 ⇒ thương 4, dư 3."
+        },
+        {
+          "id": "M1h03Q11",
+          "question": "Tính: 4+1×4 = ?",
+          "options": [
+            "20",
+            "15",
+            "10",
+            "8"
+          ],
+          "answer_index": 3,
+          "answer_text": "8",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h03Q12",
+          "question": "5 hộp, mỗi hộp 35 bút. Bán 14 bút. Còn lại?",
+          "options": [
+            "175",
+            "161",
+            "163",
+            "189"
+          ],
+          "answer_index": 1,
+          "answer_text": "161",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h03Q13",
+          "question": "So sánh: 5×9 __ 5×3",
+          "options": [
+            "16",
+            "=",
+            "<",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h03Q14",
+          "question": "25 : 4 = ? dư ?",
+          "options": [
+            "5 dư 2",
+            "6 dư 1",
+            "7 dư 0",
+            "6 dư 0"
+          ],
+          "answer_index": 1,
+          "answer_text": "6 dư 1",
+          "explanation": "25 = 4×6 + 1 ⇒ thương 6, dư 1."
+        },
+        {
+          "id": "M1h03Q15",
+          "question": "So sánh: 8×8 __ 8×7",
+          "options": [
+            "<",
+            "11",
+            ">",
+            "="
+          ],
+          "answer_index": 2,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h03Q16",
+          "question": "So sánh: 2×2 __ 2×9",
+          "options": [
+            "=",
+            "<",
+            ">",
+            "39"
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h03Q17",
+          "question": "So sánh: 5×9 __ 5×9",
+          "options": [
+            "22",
+            ">",
+            "=",
+            "<"
+          ],
+          "answer_index": 2,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h03Q18",
+          "question": "Tính: 3+6×3 = ?",
+          "options": [
+            "23",
+            "27",
+            "21",
+            "26"
+          ],
+          "answer_index": 2,
+          "answer_text": "21",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h03Q19",
+          "question": "58 : 6 = ? dư ?",
+          "options": [
+            "8 dư 5",
+            "9 dư 2",
+            "10 dư 3",
+            "9 dư 4"
+          ],
+          "answer_index": 3,
+          "answer_text": "9 dư 4",
+          "explanation": "58 = 6×9 + 4 ⇒ thương 9, dư 4."
+        },
+        {
+          "id": "M1h03Q20",
+          "question": "9 hộp, mỗi hộp 32 bút. Bán 5 bút. Còn lại?",
+          "options": [
+            "283",
+            "288",
+            "293",
+            "285"
+          ],
+          "answer_index": 0,
+          "answer_text": "283",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_04",
+      "name": "Chủ đề 4",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h04Q01",
+          "question": "6 hộp, mỗi hộp 40 bút. Bán 12 bút. Còn lại?",
+          "options": [
+            "252",
+            "230",
+            "228",
+            "240"
+          ],
+          "answer_index": 2,
+          "answer_text": "228",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h04Q02",
+          "question": "Tính: 6+8×1 = ?",
+          "options": [
+            "16",
+            "20",
+            "14",
+            "49"
+          ],
+          "answer_index": 2,
+          "answer_text": "14",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h04Q03",
+          "question": "So sánh: 9×7 __ 9×3",
+          "options": [
+            "=",
+            ">",
+            "<",
+            "44"
+          ],
+          "answer_index": 1,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h04Q04",
+          "question": "So sánh: 4×6 __ 4×8",
+          "options": [
+            ">",
+            "=",
+            "<",
+            "16"
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h04Q05",
+          "question": "42 : 5 = ? dư ?",
+          "options": [
+            "7 dư 3",
+            "9 dư 1",
+            "8 dư 2",
+            "8 dư 0"
+          ],
+          "answer_index": 2,
+          "answer_text": "8 dư 2",
+          "explanation": "42 = 5×8 + 2 ⇒ thương 8, dư 2."
+        },
+        {
+          "id": "M1h04Q06",
+          "question": "8 : 3 = ? dư ?",
+          "options": [
+            "2 dư 0",
+            "2 dư 2",
+            "3 dư 1",
+            "1 dư 3"
+          ],
+          "answer_index": 1,
+          "answer_text": "2 dư 2",
+          "explanation": "8 = 3×2 + 2 ⇒ thương 2, dư 2."
+        },
+        {
+          "id": "M1h04Q07",
+          "question": "So sánh: 6×6 __ 6×6",
+          "options": [
+            "9",
+            "=",
+            "<",
+            ">"
+          ],
+          "answer_index": 1,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h04Q08",
+          "question": "6 hộp, mỗi hộp 33 bút. Bán 13 bút. Còn lại?",
+          "options": [
+            "198",
+            "187",
+            "185",
+            "211"
+          ],
+          "answer_index": 2,
+          "answer_text": "185",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h04Q09",
+          "question": "7 hộp, mỗi hộp 18 bút. Bán 16 bút. Còn lại?",
+          "options": [
+            "112",
+            "142",
+            "110",
+            "126"
+          ],
+          "answer_index": 2,
+          "answer_text": "110",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h04Q10",
+          "question": "So sánh: 9×5 __ 9×3",
+          "options": [
+            "32",
+            "=",
+            "<",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h04Q11",
+          "question": "8 : 3 = ? dư ?",
+          "options": [
+            "3 dư 1",
+            "2 dư 2",
+            "2 dư 0",
+            "1 dư 3"
+          ],
+          "answer_index": 1,
+          "answer_text": "2 dư 2",
+          "explanation": "8 = 3×2 + 2 ⇒ thương 2, dư 2."
+        },
+        {
+          "id": "M1h04Q12",
+          "question": "22 : 4 = ? dư ?",
+          "options": [
+            "6 dư 1",
+            "4 dư 3",
+            "5 dư 0",
+            "5 dư 2"
+          ],
+          "answer_index": 3,
+          "answer_text": "5 dư 2",
+          "explanation": "22 = 4×5 + 2 ⇒ thương 5, dư 2."
+        },
+        {
+          "id": "M1h04Q13",
+          "question": "18 : 5 = ? dư ?",
+          "options": [
+            "2 dư 4",
+            "4 dư 2",
+            "3 dư 1",
+            "3 dư 3"
+          ],
+          "answer_index": 3,
+          "answer_text": "3 dư 3",
+          "explanation": "18 = 5×3 + 3 ⇒ thương 3, dư 3."
+        },
+        {
+          "id": "M1h04Q14",
+          "question": "8 hộp, mỗi hộp 15 bút. Bán 15 bút. Còn lại?",
+          "options": [
+            "107",
+            "105",
+            "135",
+            "120"
+          ],
+          "answer_index": 1,
+          "answer_text": "105",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h04Q15",
+          "question": "14 : 3 = ? dư ?",
+          "options": [
+            "4 dư 0",
+            "4 dư 2",
+            "5 dư 1",
+            "3 dư 3"
+          ],
+          "answer_index": 1,
+          "answer_text": "4 dư 2",
+          "explanation": "14 = 3×4 + 2 ⇒ thương 4, dư 2."
+        },
+        {
+          "id": "M1h04Q16",
+          "question": "Tính: 4+8×4 = ?",
+          "options": [
+            "38",
+            "5",
+            "36",
+            "48"
+          ],
+          "answer_index": 2,
+          "answer_text": "36",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h04Q17",
+          "question": "33 : 8 = ? dư ?",
+          "options": [
+            "4 dư 0",
+            "3 dư 2",
+            "4 dư 1",
+            "5 dư 0"
+          ],
+          "answer_index": 2,
+          "answer_text": "4 dư 1",
+          "explanation": "33 = 8×4 + 1 ⇒ thương 4, dư 1."
+        },
+        {
+          "id": "M1h04Q18",
+          "question": "11 : 3 = ? dư ?",
+          "options": [
+            "3 dư 0",
+            "4 dư 1",
+            "3 dư 2",
+            "2 dư 3"
+          ],
+          "answer_index": 2,
+          "answer_text": "3 dư 2",
+          "explanation": "11 = 3×3 + 2 ⇒ thương 3, dư 2."
+        },
+        {
+          "id": "M1h04Q19",
+          "question": "59 : 6 = ? dư ?",
+          "options": [
+            "9 dư 5",
+            "8 dư 6",
+            "10 dư 4",
+            "9 dư 3"
+          ],
+          "answer_index": 0,
+          "answer_text": "9 dư 5",
+          "explanation": "59 = 6×9 + 5 ⇒ thương 9, dư 5."
+        },
+        {
+          "id": "M1h04Q20",
+          "question": "7 hộp, mỗi hộp 34 bút. Bán 11 bút. Còn lại?",
+          "options": [
+            "227",
+            "229",
+            "249",
+            "238"
+          ],
+          "answer_index": 0,
+          "answer_text": "227",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_05",
+      "name": "Chủ đề 5",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h05Q01",
+          "question": "12 : 5 = ? dư ?",
+          "options": [
+            "2 dư 2",
+            "2 dư 0",
+            "1 dư 3",
+            "3 dư 1"
+          ],
+          "answer_index": 0,
+          "answer_text": "2 dư 2",
+          "explanation": "12 = 5×2 + 2 ⇒ thương 2, dư 2."
+        },
+        {
+          "id": "M1h05Q02",
+          "question": "So sánh: 5×9 __ 5×5",
+          "options": [
+            ">",
+            "37",
+            "<",
+            "="
+          ],
+          "answer_index": 0,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h05Q03",
+          "question": "9 hộp, mỗi hộp 12 bút. Bán 11 bút. Còn lại?",
+          "options": [
+            "99",
+            "108",
+            "97",
+            "119"
+          ],
+          "answer_index": 2,
+          "answer_text": "97",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h05Q04",
+          "question": "16 : 7 = ? dư ?",
+          "options": [
+            "2 dư 2",
+            "1 dư 3",
+            "2 dư 0",
+            "3 dư 1"
+          ],
+          "answer_index": 0,
+          "answer_text": "2 dư 2",
+          "explanation": "16 = 7×2 + 2 ⇒ thương 2, dư 2."
+        },
+        {
+          "id": "M1h05Q05",
+          "question": "28 : 5 = ? dư ?",
+          "options": [
+            "5 dư 1",
+            "6 dư 2",
+            "5 dư 3",
+            "4 dư 4"
+          ],
+          "answer_index": 2,
+          "answer_text": "5 dư 3",
+          "explanation": "28 = 5×5 + 3 ⇒ thương 5, dư 3."
+        },
+        {
+          "id": "M1h05Q06",
+          "question": "Tính: 1+4×1 = ?",
+          "options": [
+            "7",
+            "20",
+            "5",
+            "36"
+          ],
+          "answer_index": 2,
+          "answer_text": "5",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h05Q07",
+          "question": "5 : 2 = ? dư ?",
+          "options": [
+            "2 dư 1",
+            "3 dư 0",
+            "2 dư 0",
+            "1 dư 2"
+          ],
+          "answer_index": 0,
+          "answer_text": "2 dư 1",
+          "explanation": "5 = 2×2 + 1 ⇒ thương 2, dư 1."
+        },
+        {
+          "id": "M1h05Q08",
+          "question": "54 : 7 = ? dư ?",
+          "options": [
+            "7 dư 3",
+            "8 dư 4",
+            "7 dư 5",
+            "6 dư 6"
+          ],
+          "answer_index": 2,
+          "answer_text": "7 dư 5",
+          "explanation": "54 = 7×7 + 5 ⇒ thương 7, dư 5."
+        },
+        {
+          "id": "M1h05Q09",
+          "question": "So sánh: 7×2 __ 7×4",
+          "options": [
+            "38",
+            ">",
+            "<",
+            "="
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h05Q10",
+          "question": "So sánh: 7×5 __ 7×5",
+          "options": [
+            "=",
+            "6",
+            "<",
+            ">"
+          ],
+          "answer_index": 0,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h05Q11",
+          "question": "5 hộp, mỗi hộp 12 bút. Bán 6 bút. Còn lại?",
+          "options": [
+            "60",
+            "54",
+            "66",
+            "56"
+          ],
+          "answer_index": 1,
+          "answer_text": "54",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h05Q12",
+          "question": "So sánh: 6×4 __ 6×5",
+          "options": [
+            ">",
+            "2",
+            "=",
+            "<"
+          ],
+          "answer_index": 3,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h05Q13",
+          "question": "31 : 5 = ? dư ?",
+          "options": [
+            "6 dư 1",
+            "6 dư 0",
+            "5 dư 2",
+            "7 dư 0"
+          ],
+          "answer_index": 0,
+          "answer_text": "6 dư 1",
+          "explanation": "31 = 5×6 + 1 ⇒ thương 6, dư 1."
+        },
+        {
+          "id": "M1h05Q14",
+          "question": "So sánh: 3×2 __ 3×8",
+          "options": [
+            "=",
+            "39",
+            "<",
+            ">"
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h05Q15",
+          "question": "2 hộp, mỗi hộp 33 bút. Bán 17 bút. Còn lại?",
+          "options": [
+            "51",
+            "66",
+            "83",
+            "49"
+          ],
+          "answer_index": 3,
+          "answer_text": "49",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h05Q16",
+          "question": "So sánh: 4×2 __ 4×6",
+          "options": [
+            "48",
+            ">",
+            "<",
+            "="
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h05Q17",
+          "question": "So sánh: 4×8 __ 4×7",
+          "options": [
+            ">",
+            "=",
+            "<",
+            "47"
+          ],
+          "answer_index": 0,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h05Q18",
+          "question": "27 : 6 = ? dư ?",
+          "options": [
+            "5 dư 2",
+            "4 dư 1",
+            "4 dư 3",
+            "3 dư 4"
+          ],
+          "answer_index": 2,
+          "answer_text": "4 dư 3",
+          "explanation": "27 = 6×4 + 3 ⇒ thương 4, dư 3."
+        },
+        {
+          "id": "M1h05Q19",
+          "question": "9 hộp, mỗi hộp 25 bút. Bán 17 bút. Còn lại?",
+          "options": [
+            "208",
+            "210",
+            "225",
+            "242"
+          ],
+          "answer_index": 0,
+          "answer_text": "208",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h05Q20",
+          "question": "Tính: 2+3×5 = ?",
+          "options": [
+            "19",
+            "11",
+            "17",
+            "25"
+          ],
+          "answer_index": 2,
+          "answer_text": "17",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_06",
+      "name": "Chủ đề 6",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h06Q01",
+          "question": "39 : 6 = ? dư ?",
+          "options": [
+            "5 dư 4",
+            "7 dư 2",
+            "6 dư 3",
+            "6 dư 1"
+          ],
+          "answer_index": 2,
+          "answer_text": "6 dư 3",
+          "explanation": "39 = 6×6 + 3 ⇒ thương 6, dư 3."
+        },
+        {
+          "id": "M1h06Q02",
+          "question": "So sánh: 8×9 __ 8×7",
+          "options": [
+            "=",
+            "40",
+            "<",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h06Q03",
+          "question": "Tính: 7+1×5 = ?",
+          "options": [
+            "40",
+            "12",
+            "14",
+            "41"
+          ],
+          "answer_index": 1,
+          "answer_text": "12",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h06Q04",
+          "question": "8 hộp, mỗi hộp 33 bút. Bán 7 bút. Còn lại?",
+          "options": [
+            "271",
+            "264",
+            "257",
+            "259"
+          ],
+          "answer_index": 2,
+          "answer_text": "257",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h06Q05",
+          "question": "29 : 4 = ? dư ?",
+          "options": [
+            "7 dư 0",
+            "8 dư 0",
+            "7 dư 1",
+            "6 dư 2"
+          ],
+          "answer_index": 2,
+          "answer_text": "7 dư 1",
+          "explanation": "29 = 4×7 + 1 ⇒ thương 7, dư 1."
+        },
+        {
+          "id": "M1h06Q06",
+          "question": "Tính: 6+6×2 = ?",
+          "options": [
+            "38",
+            "18",
+            "20",
+            "24"
+          ],
+          "answer_index": 1,
+          "answer_text": "18",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h06Q07",
+          "question": "So sánh: 2×3 __ 2×7",
+          "options": [
+            ">",
+            "=",
+            "<",
+            "39"
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h06Q08",
+          "question": "So sánh: 6×2 __ 6×5",
+          "options": [
+            "29",
+            "<",
+            ">",
+            "="
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h06Q09",
+          "question": "So sánh: 6×3 __ 6×6",
+          "options": [
+            "35",
+            ">",
+            "=",
+            "<"
+          ],
+          "answer_index": 3,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h06Q10",
+          "question": "Tính: 6+9×2 = ?",
+          "options": [
+            "56",
+            "24",
+            "26",
+            "30"
+          ],
+          "answer_index": 1,
+          "answer_text": "24",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h06Q11",
+          "question": "So sánh: 9×2 __ 9×8",
+          "options": [
+            ">",
+            "34",
+            "<",
+            "="
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h06Q12",
+          "question": "11 : 3 = ? dư ?",
+          "options": [
+            "3 dư 2",
+            "2 dư 3",
+            "3 dư 0",
+            "4 dư 1"
+          ],
+          "answer_index": 0,
+          "answer_text": "3 dư 2",
+          "explanation": "11 = 3×3 + 2 ⇒ thương 3, dư 2."
+        },
+        {
+          "id": "M1h06Q13",
+          "question": "So sánh: 3×8 __ 3×7",
+          "options": [
+            "40",
+            "<",
+            ">",
+            "="
+          ],
+          "answer_index": 2,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h06Q14",
+          "question": "38 : 5 = ? dư ?",
+          "options": [
+            "6 dư 4",
+            "8 dư 2",
+            "7 dư 1",
+            "7 dư 3"
+          ],
+          "answer_index": 3,
+          "answer_text": "7 dư 3",
+          "explanation": "38 = 5×7 + 3 ⇒ thương 7, dư 3."
+        },
+        {
+          "id": "M1h06Q15",
+          "question": "29 : 4 = ? dư ?",
+          "options": [
+            "6 dư 2",
+            "7 dư 1",
+            "8 dư 0",
+            "7 dư 0"
+          ],
+          "answer_index": 1,
+          "answer_text": "7 dư 1",
+          "explanation": "29 = 4×7 + 1 ⇒ thương 7, dư 1."
+        },
+        {
+          "id": "M1h06Q16",
+          "question": "6 hộp, mỗi hộp 14 bút. Bán 12 bút. Còn lại?",
+          "options": [
+            "84",
+            "72",
+            "74",
+            "96"
+          ],
+          "answer_index": 1,
+          "answer_text": "72",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h06Q17",
+          "question": "19 : 7 = ? dư ?",
+          "options": [
+            "3 dư 4",
+            "2 dư 5",
+            "1 dư 6",
+            "2 dư 3"
+          ],
+          "answer_index": 1,
+          "answer_text": "2 dư 5",
+          "explanation": "19 = 7×2 + 5 ⇒ thương 2, dư 5."
+        },
+        {
+          "id": "M1h06Q18",
+          "question": "So sánh: 7×8 __ 7×6",
+          "options": [
+            "17",
+            "<",
+            ">",
+            "="
+          ],
+          "answer_index": 2,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h06Q19",
+          "question": "35 : 9 = ? dư ?",
+          "options": [
+            "3 dư 8",
+            "3 dư 6",
+            "4 dư 7",
+            "2 dư 9"
+          ],
+          "answer_index": 0,
+          "answer_text": "3 dư 8",
+          "explanation": "35 = 9×3 + 8 ⇒ thương 3, dư 8."
+        },
+        {
+          "id": "M1h06Q20",
+          "question": "Tính: 9+1×1 = ?",
+          "options": [
+            "33",
+            "2",
+            "12",
+            "10"
+          ],
+          "answer_index": 3,
+          "answer_text": "10",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_07",
+      "name": "Chủ đề 7",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h07Q01",
+          "question": "64 : 7 = ? dư ?",
+          "options": [
+            "9 dư 0",
+            "9 dư 1",
+            "10 dư 0",
+            "8 dư 2"
+          ],
+          "answer_index": 1,
+          "answer_text": "9 dư 1",
+          "explanation": "64 = 7×9 + 1 ⇒ thương 9, dư 1."
+        },
+        {
+          "id": "M1h07Q02",
+          "question": "7 : 3 = ? dư ?",
+          "options": [
+            "2 dư 0",
+            "2 dư 1",
+            "3 dư 0",
+            "1 dư 2"
+          ],
+          "answer_index": 1,
+          "answer_text": "2 dư 1",
+          "explanation": "7 = 3×2 + 1 ⇒ thương 2, dư 1."
+        },
+        {
+          "id": "M1h07Q03",
+          "question": "12 : 5 = ? dư ?",
+          "options": [
+            "2 dư 2",
+            "1 dư 3",
+            "3 dư 1",
+            "2 dư 0"
+          ],
+          "answer_index": 0,
+          "answer_text": "2 dư 2",
+          "explanation": "12 = 5×2 + 2 ⇒ thương 2, dư 2."
+        },
+        {
+          "id": "M1h07Q04",
+          "question": "7 hộp, mỗi hộp 12 bút. Bán 6 bút. Còn lại?",
+          "options": [
+            "80",
+            "90",
+            "84",
+            "78"
+          ],
+          "answer_index": 3,
+          "answer_text": "78",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h07Q05",
+          "question": "11 : 2 = ? dư ?",
+          "options": [
+            "5 dư 1",
+            "5 dư 0",
+            "4 dư 2",
+            "6 dư 0"
+          ],
+          "answer_index": 0,
+          "answer_text": "5 dư 1",
+          "explanation": "11 = 2×5 + 1 ⇒ thương 5, dư 1."
+        },
+        {
+          "id": "M1h07Q06",
+          "question": "So sánh: 5×2 __ 5×9",
+          "options": [
+            ">",
+            "=",
+            "<",
+            "5"
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h07Q07",
+          "question": "23 : 3 = ? dư ?",
+          "options": [
+            "7 dư 0",
+            "8 dư 1",
+            "7 dư 2",
+            "6 dư 3"
+          ],
+          "answer_index": 2,
+          "answer_text": "7 dư 2",
+          "explanation": "23 = 3×7 + 2 ⇒ thương 7, dư 2."
+        },
+        {
+          "id": "M1h07Q08",
+          "question": "20 : 3 = ? dư ?",
+          "options": [
+            "7 dư 1",
+            "5 dư 3",
+            "6 dư 2",
+            "6 dư 0"
+          ],
+          "answer_index": 2,
+          "answer_text": "6 dư 2",
+          "explanation": "20 = 3×6 + 2 ⇒ thương 6, dư 2."
+        },
+        {
+          "id": "M1h07Q09",
+          "question": "29 : 7 = ? dư ?",
+          "options": [
+            "4 dư 0",
+            "5 dư 0",
+            "4 dư 1",
+            "3 dư 2"
+          ],
+          "answer_index": 2,
+          "answer_text": "4 dư 1",
+          "explanation": "29 = 7×4 + 1 ⇒ thương 4, dư 1."
+        },
+        {
+          "id": "M1h07Q10",
+          "question": "4 hộp, mỗi hộp 15 bút. Bán 16 bút. Còn lại?",
+          "options": [
+            "76",
+            "44",
+            "46",
+            "60"
+          ],
+          "answer_index": 1,
+          "answer_text": "44",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h07Q11",
+          "question": "So sánh: 2×3 __ 2×8",
+          "options": [
+            "=",
+            ">",
+            "<",
+            "44"
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h07Q12",
+          "question": "So sánh: 5×3 __ 5×7",
+          "options": [
+            ">",
+            "=",
+            "39",
+            "<"
+          ],
+          "answer_index": 3,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h07Q13",
+          "question": "2 hộp, mỗi hộp 33 bút. Bán 15 bút. Còn lại?",
+          "options": [
+            "51",
+            "66",
+            "81",
+            "53"
+          ],
+          "answer_index": 0,
+          "answer_text": "51",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h07Q14",
+          "question": "87 : 9 = ? dư ?",
+          "options": [
+            "10 dư 5",
+            "9 dư 4",
+            "8 dư 7",
+            "9 dư 6"
+          ],
+          "answer_index": 3,
+          "answer_text": "9 dư 6",
+          "explanation": "87 = 9×9 + 6 ⇒ thương 9, dư 6."
+        },
+        {
+          "id": "M1h07Q15",
+          "question": "12 : 5 = ? dư ?",
+          "options": [
+            "3 dư 1",
+            "2 dư 0",
+            "1 dư 3",
+            "2 dư 2"
+          ],
+          "answer_index": 3,
+          "answer_text": "2 dư 2",
+          "explanation": "12 = 5×2 + 2 ⇒ thương 2, dư 2."
+        },
+        {
+          "id": "M1h07Q16",
+          "question": "So sánh: 8×3 __ 8×8",
+          "options": [
+            ">",
+            "=",
+            "39",
+            "<"
+          ],
+          "answer_index": 3,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h07Q17",
+          "question": "8 hộp, mỗi hộp 23 bút. Bán 7 bút. Còn lại?",
+          "options": [
+            "179",
+            "191",
+            "184",
+            "177"
+          ],
+          "answer_index": 3,
+          "answer_text": "177",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h07Q18",
+          "question": "So sánh: 6×9 __ 6×7",
+          "options": [
+            "=",
+            "<",
+            ">",
+            "25"
+          ],
+          "answer_index": 2,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h07Q19",
+          "question": "Tính: 8+3×1 = ?",
+          "options": [
+            "11",
+            "13",
+            "17",
+            "25"
+          ],
+          "answer_index": 0,
+          "answer_text": "11",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h07Q20",
+          "question": "So sánh: 7×4 __ 7×8",
+          "options": [
+            "32",
+            "<",
+            "=",
+            ">"
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_08",
+      "name": "Chủ đề 8",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h08Q01",
+          "question": "So sánh: 5×7 __ 5×2",
+          "options": [
+            ">",
+            "=",
+            "<",
+            "16"
+          ],
+          "answer_index": 0,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h08Q02",
+          "question": "5 hộp, mỗi hộp 40 bút. Bán 10 bút. Còn lại?",
+          "options": [
+            "192",
+            "200",
+            "190",
+            "210"
+          ],
+          "answer_index": 2,
+          "answer_text": "190",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h08Q03",
+          "question": "3 hộp, mỗi hộp 24 bút. Bán 20 bút. Còn lại?",
+          "options": [
+            "92",
+            "72",
+            "52",
+            "54"
+          ],
+          "answer_index": 2,
+          "answer_text": "52",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h08Q04",
+          "question": "So sánh: 8×7 __ 8×3",
+          "options": [
+            "10",
+            "<",
+            ">",
+            "="
+          ],
+          "answer_index": 2,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h08Q05",
+          "question": "So sánh: 8×6 __ 8×2",
+          "options": [
+            ">",
+            "=",
+            "3",
+            "<"
+          ],
+          "answer_index": 0,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h08Q06",
+          "question": "Tính: 8+9×6 = ?",
+          "options": [
+            "78",
+            "64",
+            "62",
+            "102"
+          ],
+          "answer_index": 2,
+          "answer_text": "62",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h08Q07",
+          "question": "Tính: 7+7×1 = ?",
+          "options": [
+            "0",
+            "16",
+            "50",
+            "14"
+          ],
+          "answer_index": 3,
+          "answer_text": "14",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h08Q08",
+          "question": "So sánh: 7×4 __ 7×9",
+          "options": [
+            "=",
+            ">",
+            "<",
+            "48"
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h08Q09",
+          "question": "5 hộp, mỗi hộp 31 bút. Bán 15 bút. Còn lại?",
+          "options": [
+            "170",
+            "142",
+            "155",
+            "140"
+          ],
+          "answer_index": 3,
+          "answer_text": "140",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h08Q10",
+          "question": "So sánh: 6×4 __ 6×3",
+          "options": [
+            "28",
+            ">",
+            "<",
+            "="
+          ],
+          "answer_index": 1,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h08Q11",
+          "question": "8 hộp, mỗi hộp 28 bút. Bán 16 bút. Còn lại?",
+          "options": [
+            "208",
+            "210",
+            "240",
+            "224"
+          ],
+          "answer_index": 0,
+          "answer_text": "208",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h08Q12",
+          "question": "6 hộp, mỗi hộp 27 bút. Bán 18 bút. Còn lại?",
+          "options": [
+            "144",
+            "162",
+            "180",
+            "146"
+          ],
+          "answer_index": 0,
+          "answer_text": "144",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h08Q13",
+          "question": "6 hộp, mỗi hộp 38 bút. Bán 20 bút. Còn lại?",
+          "options": [
+            "248",
+            "208",
+            "228",
+            "210"
+          ],
+          "answer_index": 1,
+          "answer_text": "208",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h08Q14",
+          "question": "20 : 3 = ? dư ?",
+          "options": [
+            "7 dư 1",
+            "5 dư 3",
+            "6 dư 0",
+            "6 dư 2"
+          ],
+          "answer_index": 3,
+          "answer_text": "6 dư 2",
+          "explanation": "20 = 3×6 + 2 ⇒ thương 6, dư 2."
+        },
+        {
+          "id": "M1h08Q15",
+          "question": "6 hộp, mỗi hộp 14 bút. Bán 19 bút. Còn lại?",
+          "options": [
+            "84",
+            "65",
+            "67",
+            "103"
+          ],
+          "answer_index": 1,
+          "answer_text": "65",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h08Q16",
+          "question": "Tính: 7+7×7 = ?",
+          "options": [
+            "98",
+            "58",
+            "50",
+            "56"
+          ],
+          "answer_index": 3,
+          "answer_text": "56",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h08Q17",
+          "question": "16 : 3 = ? dư ?",
+          "options": [
+            "5 dư 1",
+            "6 dư 0",
+            "4 dư 2",
+            "5 dư 0"
+          ],
+          "answer_index": 0,
+          "answer_text": "5 dư 1",
+          "explanation": "16 = 3×5 + 1 ⇒ thương 5, dư 1."
+        },
+        {
+          "id": "M1h08Q18",
+          "question": "Tính: 2+9×5 = ?",
+          "options": [
+            "47",
+            "49",
+            "23",
+            "55"
+          ],
+          "answer_index": 0,
+          "answer_text": "47",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h08Q19",
+          "question": "So sánh: 9×6 __ 9×6",
+          "options": [
+            ">",
+            "<",
+            "=",
+            "7"
+          ],
+          "answer_index": 2,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h08Q20",
+          "question": "So sánh: 2×3 __ 2×5",
+          "options": [
+            "<",
+            ">",
+            "39",
+            "="
+          ],
+          "answer_index": 0,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_09",
+      "name": "Chủ đề 9",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h09Q01",
+          "question": "So sánh: 5×4 __ 5×7",
+          "options": [
+            "16",
+            ">",
+            "<",
+            "="
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h09Q02",
+          "question": "So sánh: 4×9 __ 4×6",
+          "options": [
+            "=",
+            "<",
+            "37",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h09Q03",
+          "question": "7 : 3 = ? dư ?",
+          "options": [
+            "2 dư 0",
+            "1 dư 2",
+            "2 dư 1",
+            "3 dư 0"
+          ],
+          "answer_index": 2,
+          "answer_text": "2 dư 1",
+          "explanation": "7 = 3×2 + 1 ⇒ thương 2, dư 1."
+        },
+        {
+          "id": "M1h09Q04",
+          "question": "49 : 5 = ? dư ?",
+          "options": [
+            "8 dư 5",
+            "9 dư 2",
+            "9 dư 4",
+            "10 dư 3"
+          ],
+          "answer_index": 2,
+          "answer_text": "9 dư 4",
+          "explanation": "49 = 5×9 + 4 ⇒ thương 9, dư 4."
+        },
+        {
+          "id": "M1h09Q05",
+          "question": "4 hộp, mỗi hộp 18 bút. Bán 16 bút. Còn lại?",
+          "options": [
+            "88",
+            "72",
+            "56",
+            "58"
+          ],
+          "answer_index": 2,
+          "answer_text": "56",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h09Q06",
+          "question": "82 : 9 = ? dư ?",
+          "options": [
+            "10 dư 0",
+            "9 dư 1",
+            "9 dư 0",
+            "8 dư 2"
+          ],
+          "answer_index": 1,
+          "answer_text": "9 dư 1",
+          "explanation": "82 = 9×9 + 1 ⇒ thương 9, dư 1."
+        },
+        {
+          "id": "M1h09Q07",
+          "question": "Tính: 2+8×2 = ?",
+          "options": [
+            "41",
+            "13",
+            "20",
+            "18"
+          ],
+          "answer_index": 3,
+          "answer_text": "18",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h09Q08",
+          "question": "So sánh: 8×4 __ 8×5",
+          "options": [
+            ">",
+            "<",
+            "42",
+            "="
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h09Q09",
+          "question": "Tính: 2+7×4 = ?",
+          "options": [
+            "30",
+            "32",
+            "18",
+            "36"
+          ],
+          "answer_index": 0,
+          "answer_text": "30",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h09Q10",
+          "question": "23 : 9 = ? dư ?",
+          "options": [
+            "2 dư 5",
+            "1 dư 6",
+            "2 dư 3",
+            "3 dư 4"
+          ],
+          "answer_index": 0,
+          "answer_text": "2 dư 5",
+          "explanation": "23 = 9×2 + 5 ⇒ thương 2, dư 5."
+        },
+        {
+          "id": "M1h09Q11",
+          "question": "So sánh: 6×8 __ 6×3",
+          "options": [
+            "<",
+            ">",
+            "=",
+            "32"
+          ],
+          "answer_index": 1,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h09Q12",
+          "question": "57 : 9 = ? dư ?",
+          "options": [
+            "5 dư 4",
+            "7 dư 2",
+            "6 dư 3",
+            "6 dư 1"
+          ],
+          "answer_index": 2,
+          "answer_text": "6 dư 3",
+          "explanation": "57 = 9×6 + 3 ⇒ thương 6, dư 3."
+        },
+        {
+          "id": "M1h09Q13",
+          "question": "9 hộp, mỗi hộp 38 bút. Bán 5 bút. Còn lại?",
+          "options": [
+            "339",
+            "347",
+            "337",
+            "342"
+          ],
+          "answer_index": 2,
+          "answer_text": "337",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h09Q14",
+          "question": "6 hộp, mỗi hộp 25 bút. Bán 17 bút. Còn lại?",
+          "options": [
+            "150",
+            "133",
+            "167",
+            "135"
+          ],
+          "answer_index": 1,
+          "answer_text": "133",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h09Q15",
+          "question": "So sánh: 5×6 __ 5×7",
+          "options": [
+            "=",
+            ">",
+            "<",
+            "12"
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h09Q16",
+          "question": "So sánh: 6×3 __ 6×6",
+          "options": [
+            "20",
+            "<",
+            ">",
+            "="
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h09Q17",
+          "question": "84 : 9 = ? dư ?",
+          "options": [
+            "10 dư 2",
+            "9 dư 3",
+            "8 dư 4",
+            "9 dư 1"
+          ],
+          "answer_index": 1,
+          "answer_text": "9 dư 3",
+          "explanation": "84 = 9×9 + 3 ⇒ thương 9, dư 3."
+        },
+        {
+          "id": "M1h09Q18",
+          "question": "2 hộp, mỗi hộp 21 bút. Bán 8 bút. Còn lại?",
+          "options": [
+            "50",
+            "42",
+            "36",
+            "34"
+          ],
+          "answer_index": 3,
+          "answer_text": "34",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h09Q19",
+          "question": "51 : 7 = ? dư ?",
+          "options": [
+            "8 dư 1",
+            "6 dư 3",
+            "7 dư 0",
+            "7 dư 2"
+          ],
+          "answer_index": 3,
+          "answer_text": "7 dư 2",
+          "explanation": "51 = 7×7 + 2 ⇒ thương 7, dư 2."
+        },
+        {
+          "id": "M1h09Q20",
+          "question": "9 hộp, mỗi hộp 27 bút. Bán 11 bút. Còn lại?",
+          "options": [
+            "232",
+            "243",
+            "254",
+            "234"
+          ],
+          "answer_index": 0,
+          "answer_text": "232",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_10",
+      "name": "Chủ đề 10",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h10Q01",
+          "question": "45 : 7 = ? dư ?",
+          "options": [
+            "5 dư 4",
+            "6 dư 3",
+            "6 dư 1",
+            "7 dư 2"
+          ],
+          "answer_index": 1,
+          "answer_text": "6 dư 3",
+          "explanation": "45 = 7×6 + 3 ⇒ thương 6, dư 3."
+        },
+        {
+          "id": "M1h10Q02",
+          "question": "Tính: 1+2×3 = ?",
+          "options": [
+            "7",
+            "1",
+            "5",
+            "9"
+          ],
+          "answer_index": 0,
+          "answer_text": "7",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h10Q03",
+          "question": "So sánh: 6×9 __ 6×9",
+          "options": [
+            "21",
+            ">",
+            "=",
+            "<"
+          ],
+          "answer_index": 2,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h10Q04",
+          "question": "33 : 4 = ? dư ?",
+          "options": [
+            "9 dư 0",
+            "8 dư 1",
+            "7 dư 2",
+            "8 dư 0"
+          ],
+          "answer_index": 1,
+          "answer_text": "8 dư 1",
+          "explanation": "33 = 4×8 + 1 ⇒ thương 8, dư 1."
+        },
+        {
+          "id": "M1h10Q05",
+          "question": "5 hộp, mỗi hộp 25 bút. Bán 13 bút. Còn lại?",
+          "options": [
+            "112",
+            "125",
+            "138",
+            "114"
+          ],
+          "answer_index": 0,
+          "answer_text": "112",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h10Q06",
+          "question": "So sánh: 2×7 __ 2×9",
+          "options": [
+            "29",
+            "=",
+            ">",
+            "<"
+          ],
+          "answer_index": 3,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h10Q07",
+          "question": "3 hộp, mỗi hộp 34 bút. Bán 13 bút. Còn lại?",
+          "options": [
+            "102",
+            "89",
+            "91",
+            "115"
+          ],
+          "answer_index": 1,
+          "answer_text": "89",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h10Q08",
+          "question": "So sánh: 3×6 __ 3×7",
+          "options": [
+            "17",
+            "<",
+            ">",
+            "="
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h10Q09",
+          "question": "2 hộp, mỗi hộp 25 bút. Bán 12 bút. Còn lại?",
+          "options": [
+            "50",
+            "62",
+            "40",
+            "38"
+          ],
+          "answer_index": 3,
+          "answer_text": "38",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h10Q10",
+          "question": "7 hộp, mỗi hộp 35 bút. Bán 8 bút. Còn lại?",
+          "options": [
+            "237",
+            "245",
+            "239",
+            "253"
+          ],
+          "answer_index": 0,
+          "answer_text": "237",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h10Q11",
+          "question": "Tính: 2+5×9 = ?",
+          "options": [
+            "63",
+            "49",
+            "19",
+            "47"
+          ],
+          "answer_index": 3,
+          "answer_text": "47",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h10Q12",
+          "question": "74 : 9 = ? dư ?",
+          "options": [
+            "8 dư 2",
+            "7 dư 3",
+            "9 dư 1",
+            "8 dư 0"
+          ],
+          "answer_index": 0,
+          "answer_text": "8 dư 2",
+          "explanation": "74 = 9×8 + 2 ⇒ thương 8, dư 2."
+        },
+        {
+          "id": "M1h10Q13",
+          "question": "16 : 6 = ? dư ?",
+          "options": [
+            "1 dư 5",
+            "2 dư 2",
+            "3 dư 3",
+            "2 dư 4"
+          ],
+          "answer_index": 3,
+          "answer_text": "2 dư 4",
+          "explanation": "16 = 6×2 + 4 ⇒ thương 2, dư 4."
+        },
+        {
+          "id": "M1h10Q14",
+          "question": "29 : 7 = ? dư ?",
+          "options": [
+            "3 dư 2",
+            "5 dư 0",
+            "4 dư 1",
+            "4 dư 0"
+          ],
+          "answer_index": 2,
+          "answer_text": "4 dư 1",
+          "explanation": "29 = 7×4 + 1 ⇒ thương 4, dư 1."
+        },
+        {
+          "id": "M1h10Q15",
+          "question": "So sánh: 2×5 __ 2×5",
+          "options": [
+            "<",
+            ">",
+            "=",
+            "20"
+          ],
+          "answer_index": 2,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h10Q16",
+          "question": "7 : 2 = ? dư ?",
+          "options": [
+            "2 dư 2",
+            "3 dư 0",
+            "3 dư 1",
+            "4 dư 0"
+          ],
+          "answer_index": 2,
+          "answer_text": "3 dư 1",
+          "explanation": "7 = 2×3 + 1 ⇒ thương 3, dư 1."
+        },
+        {
+          "id": "M1h10Q17",
+          "question": "Tính: 9+2×4 = ?",
+          "options": [
+            "19",
+            "22",
+            "44",
+            "17"
+          ],
+          "answer_index": 3,
+          "answer_text": "17",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h10Q18",
+          "question": "So sánh: 4×7 __ 4×5",
+          "options": [
+            "23",
+            ">",
+            "<",
+            "="
+          ],
+          "answer_index": 1,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h10Q19",
+          "question": "So sánh: 2×9 __ 2×3",
+          "options": [
+            "=",
+            "10",
+            "<",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h10Q20",
+          "question": "4 hộp, mỗi hộp 40 bút. Bán 9 bút. Còn lại?",
+          "options": [
+            "160",
+            "151",
+            "153",
+            "169"
+          ],
+          "answer_index": 1,
+          "answer_text": "151",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_11",
+      "name": "Chủ đề 11",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h11Q01",
+          "question": "So sánh: 9×9 __ 9×5",
+          "options": [
+            "=",
+            "12",
+            ">",
+            "<"
+          ],
+          "answer_index": 2,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h11Q02",
+          "question": "So sánh: 6×8 __ 6×6",
+          "options": [
+            "=",
+            ">",
+            "<",
+            "27"
+          ],
+          "answer_index": 1,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h11Q03",
+          "question": "41 : 5 = ? dư ?",
+          "options": [
+            "9 dư 0",
+            "8 dư 1",
+            "7 dư 2",
+            "8 dư 0"
+          ],
+          "answer_index": 1,
+          "answer_text": "8 dư 1",
+          "explanation": "41 = 5×8 + 1 ⇒ thương 8, dư 1."
+        },
+        {
+          "id": "M1h11Q04",
+          "question": "28 : 9 = ? dư ?",
+          "options": [
+            "3 dư 0",
+            "3 dư 1",
+            "2 dư 2",
+            "4 dư 0"
+          ],
+          "answer_index": 1,
+          "answer_text": "3 dư 1",
+          "explanation": "28 = 9×3 + 1 ⇒ thương 3, dư 1."
+        },
+        {
+          "id": "M1h11Q05",
+          "question": "Tính: 6+6×1 = ?",
+          "options": [
+            "43",
+            "12",
+            "14",
+            "37"
+          ],
+          "answer_index": 1,
+          "answer_text": "12",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h11Q06",
+          "question": "8 hộp, mỗi hộp 24 bút. Bán 15 bút. Còn lại?",
+          "options": [
+            "177",
+            "179",
+            "192",
+            "207"
+          ],
+          "answer_index": 0,
+          "answer_text": "177",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h11Q07",
+          "question": "Tính: 7+5×8 = ?",
+          "options": [
+            "47",
+            "96",
+            "49",
+            "43"
+          ],
+          "answer_index": 0,
+          "answer_text": "47",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h11Q08",
+          "question": "So sánh: 5×8 __ 5×4",
+          "options": [
+            "31",
+            "<",
+            "=",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h11Q09",
+          "question": "So sánh: 8×2 __ 8×4",
+          "options": [
+            ">",
+            "<",
+            "=",
+            "27"
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h11Q10",
+          "question": "66 : 7 = ? dư ?",
+          "options": [
+            "10 dư 2",
+            "8 dư 4",
+            "9 dư 1",
+            "9 dư 3"
+          ],
+          "answer_index": 3,
+          "answer_text": "9 dư 3",
+          "explanation": "66 = 7×9 + 3 ⇒ thương 9, dư 3."
+        },
+        {
+          "id": "M1h11Q11",
+          "question": "Tính: 8+2×1 = ?",
+          "options": [
+            "10",
+            "20",
+            "17",
+            "12"
+          ],
+          "answer_index": 0,
+          "answer_text": "10",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h11Q12",
+          "question": "Tính: 7+1×2 = ?",
+          "options": [
+            "11",
+            "9",
+            "43",
+            "16"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h11Q13",
+          "question": "Tính: 3+3×1 = ?",
+          "options": [
+            "10",
+            "6",
+            "8",
+            "33"
+          ],
+          "answer_index": 1,
+          "answer_text": "6",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h11Q14",
+          "question": "29 : 3 = ? dư ?",
+          "options": [
+            "9 dư 2",
+            "9 dư 0",
+            "10 dư 1",
+            "8 dư 3"
+          ],
+          "answer_index": 0,
+          "answer_text": "9 dư 2",
+          "explanation": "29 = 3×9 + 2 ⇒ thương 9, dư 2."
+        },
+        {
+          "id": "M1h11Q15",
+          "question": "15 : 2 = ? dư ?",
+          "options": [
+            "7 dư 0",
+            "7 dư 1",
+            "6 dư 2",
+            "8 dư 0"
+          ],
+          "answer_index": 1,
+          "answer_text": "7 dư 1",
+          "explanation": "15 = 2×7 + 1 ⇒ thương 7, dư 1."
+        },
+        {
+          "id": "M1h11Q16",
+          "question": "30 : 4 = ? dư ?",
+          "options": [
+            "7 dư 2",
+            "8 dư 1",
+            "7 dư 0",
+            "6 dư 3"
+          ],
+          "answer_index": 0,
+          "answer_text": "7 dư 2",
+          "explanation": "30 = 4×7 + 2 ⇒ thương 7, dư 2."
+        },
+        {
+          "id": "M1h11Q17",
+          "question": "5 hộp, mỗi hộp 10 bút. Bán 8 bút. Còn lại?",
+          "options": [
+            "58",
+            "50",
+            "42",
+            "44"
+          ],
+          "answer_index": 2,
+          "answer_text": "42",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h11Q18",
+          "question": "21 : 6 = ? dư ?",
+          "options": [
+            "3 dư 3",
+            "4 dư 2",
+            "3 dư 1",
+            "2 dư 4"
+          ],
+          "answer_index": 0,
+          "answer_text": "3 dư 3",
+          "explanation": "21 = 6×3 + 3 ⇒ thương 3, dư 3."
+        },
+        {
+          "id": "M1h11Q19",
+          "question": "13 : 2 = ? dư ?",
+          "options": [
+            "7 dư 0",
+            "6 dư 0",
+            "5 dư 2",
+            "6 dư 1"
+          ],
+          "answer_index": 3,
+          "answer_text": "6 dư 1",
+          "explanation": "13 = 2×6 + 1 ⇒ thương 6, dư 1."
+        },
+        {
+          "id": "M1h11Q20",
+          "question": "Tính: 4+4×6 = ?",
+          "options": [
+            "48",
+            "28",
+            "30",
+            "22"
+          ],
+          "answer_index": 1,
+          "answer_text": "28",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_12",
+      "name": "Chủ đề 12",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h12Q01",
+          "question": "23 : 5 = ? dư ?",
+          "options": [
+            "4 dư 1",
+            "4 dư 3",
+            "3 dư 4",
+            "5 dư 2"
+          ],
+          "answer_index": 1,
+          "answer_text": "4 dư 3",
+          "explanation": "23 = 5×4 + 3 ⇒ thương 4, dư 3."
+        },
+        {
+          "id": "M1h12Q02",
+          "question": "Tính: 7+5×6 = ?",
+          "options": [
+            "41",
+            "39",
+            "37",
+            "72"
+          ],
+          "answer_index": 2,
+          "answer_text": "37",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h12Q03",
+          "question": "3 hộp, mỗi hộp 26 bút. Bán 20 bút. Còn lại?",
+          "options": [
+            "58",
+            "98",
+            "78",
+            "60"
+          ],
+          "answer_index": 0,
+          "answer_text": "58",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h12Q04",
+          "question": "4 hộp, mỗi hộp 36 bút. Bán 11 bút. Còn lại?",
+          "options": [
+            "144",
+            "155",
+            "133",
+            "135"
+          ],
+          "answer_index": 2,
+          "answer_text": "133",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h12Q05",
+          "question": "52 : 7 = ? dư ?",
+          "options": [
+            "7 dư 1",
+            "7 dư 3",
+            "6 dư 4",
+            "8 dư 2"
+          ],
+          "answer_index": 1,
+          "answer_text": "7 dư 3",
+          "explanation": "52 = 7×7 + 3 ⇒ thương 7, dư 3."
+        },
+        {
+          "id": "M1h12Q06",
+          "question": "51 : 8 = ? dư ?",
+          "options": [
+            "7 dư 2",
+            "6 dư 3",
+            "5 dư 4",
+            "6 dư 1"
+          ],
+          "answer_index": 1,
+          "answer_text": "6 dư 3",
+          "explanation": "51 = 8×6 + 3 ⇒ thương 6, dư 3."
+        },
+        {
+          "id": "M1h12Q07",
+          "question": "Tính: 3+1×9 = ?",
+          "options": [
+            "12",
+            "14",
+            "23",
+            "36"
+          ],
+          "answer_index": 0,
+          "answer_text": "12",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h12Q08",
+          "question": "9 hộp, mỗi hộp 20 bút. Bán 6 bút. Còn lại?",
+          "options": [
+            "176",
+            "174",
+            "186",
+            "180"
+          ],
+          "answer_index": 1,
+          "answer_text": "174",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h12Q09",
+          "question": "Tính: 9+3×9 = ?",
+          "options": [
+            "38",
+            "3",
+            "108",
+            "36"
+          ],
+          "answer_index": 3,
+          "answer_text": "36",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h12Q10",
+          "question": "So sánh: 2×4 __ 2×2",
+          "options": [
+            "9",
+            "=",
+            "<",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h12Q11",
+          "question": "Tính: 7+5×3 = ?",
+          "options": [
+            "22",
+            "24",
+            "38",
+            "36"
+          ],
+          "answer_index": 0,
+          "answer_text": "22",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h12Q12",
+          "question": "Tính: 5+9×4 = ?",
+          "options": [
+            "56",
+            "49",
+            "43",
+            "41"
+          ],
+          "answer_index": 3,
+          "answer_text": "41",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h12Q13",
+          "question": "17 : 4 = ? dư ?",
+          "options": [
+            "4 dư 1",
+            "5 dư 0",
+            "4 dư 0",
+            "3 dư 2"
+          ],
+          "answer_index": 0,
+          "answer_text": "4 dư 1",
+          "explanation": "17 = 4×4 + 1 ⇒ thương 4, dư 1."
+        },
+        {
+          "id": "M1h12Q14",
+          "question": "Tính: 4+8×6 = ?",
+          "options": [
+            "54",
+            "52",
+            "72",
+            "38"
+          ],
+          "answer_index": 1,
+          "answer_text": "52",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h12Q15",
+          "question": "Tính: 3+9×1 = ?",
+          "options": [
+            "12",
+            "28",
+            "14",
+            "47"
+          ],
+          "answer_index": 0,
+          "answer_text": "12",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h12Q16",
+          "question": "6 hộp, mỗi hộp 26 bút. Bán 20 bút. Còn lại?",
+          "options": [
+            "136",
+            "138",
+            "176",
+            "156"
+          ],
+          "answer_index": 0,
+          "answer_text": "136",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h12Q17",
+          "question": "Tính: 4+3×4 = ?",
+          "options": [
+            "18",
+            "22",
+            "28",
+            "16"
+          ],
+          "answer_index": 3,
+          "answer_text": "16",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h12Q18",
+          "question": "5 hộp, mỗi hộp 14 bút. Bán 13 bút. Còn lại?",
+          "options": [
+            "83",
+            "59",
+            "57",
+            "70"
+          ],
+          "answer_index": 2,
+          "answer_text": "57",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h12Q19",
+          "question": "7 hộp, mỗi hộp 22 bút. Bán 16 bút. Còn lại?",
+          "options": [
+            "154",
+            "138",
+            "170",
+            "140"
+          ],
+          "answer_index": 1,
+          "answer_text": "138",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h12Q20",
+          "question": "Tính: 6+3×3 = ?",
+          "options": [
+            "15",
+            "17",
+            "21",
+            "27"
+          ],
+          "answer_index": 0,
+          "answer_text": "15",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_13",
+      "name": "Chủ đề 13",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h13Q01",
+          "question": "Tính: 7+2×7 = ?",
+          "options": [
+            "23",
+            "21",
+            "37",
+            "63"
+          ],
+          "answer_index": 1,
+          "answer_text": "21",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h13Q02",
+          "question": "So sánh: 9×2 __ 9×6",
+          "options": [
+            "=",
+            "27",
+            ">",
+            "<"
+          ],
+          "answer_index": 3,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h13Q03",
+          "question": "9 : 4 = ? dư ?",
+          "options": [
+            "2 dư 1",
+            "1 dư 2",
+            "2 dư 0",
+            "3 dư 0"
+          ],
+          "answer_index": 0,
+          "answer_text": "2 dư 1",
+          "explanation": "9 = 4×2 + 1 ⇒ thương 2, dư 1."
+        },
+        {
+          "id": "M1h13Q04",
+          "question": "6 hộp, mỗi hộp 38 bút. Bán 17 bút. Còn lại?",
+          "options": [
+            "245",
+            "213",
+            "211",
+            "228"
+          ],
+          "answer_index": 2,
+          "answer_text": "211",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h13Q05",
+          "question": "4 hộp, mỗi hộp 18 bút. Bán 8 bút. Còn lại?",
+          "options": [
+            "66",
+            "72",
+            "64",
+            "80"
+          ],
+          "answer_index": 2,
+          "answer_text": "64",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h13Q06",
+          "question": "So sánh: 5×2 __ 5×7",
+          "options": [
+            ">",
+            "22",
+            "=",
+            "<"
+          ],
+          "answer_index": 3,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h13Q07",
+          "question": "11 : 4 = ? dư ?",
+          "options": [
+            "1 dư 4",
+            "3 dư 2",
+            "2 dư 1",
+            "2 dư 3"
+          ],
+          "answer_index": 3,
+          "answer_text": "2 dư 3",
+          "explanation": "11 = 4×2 + 3 ⇒ thương 2, dư 3."
+        },
+        {
+          "id": "M1h13Q08",
+          "question": "8 : 3 = ? dư ?",
+          "options": [
+            "1 dư 3",
+            "3 dư 1",
+            "2 dư 0",
+            "2 dư 2"
+          ],
+          "answer_index": 3,
+          "answer_text": "2 dư 2",
+          "explanation": "8 = 3×2 + 2 ⇒ thương 2, dư 2."
+        },
+        {
+          "id": "M1h13Q09",
+          "question": "So sánh: 6×6 __ 6×5",
+          "options": [
+            "=",
+            "<",
+            "6",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h13Q10",
+          "question": "5 hộp, mỗi hộp 16 bút. Bán 20 bút. Còn lại?",
+          "options": [
+            "100",
+            "62",
+            "60",
+            "80"
+          ],
+          "answer_index": 2,
+          "answer_text": "60",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h13Q11",
+          "question": "38 : 5 = ? dư ?",
+          "options": [
+            "6 dư 4",
+            "7 dư 1",
+            "8 dư 2",
+            "7 dư 3"
+          ],
+          "answer_index": 3,
+          "answer_text": "7 dư 3",
+          "explanation": "38 = 5×7 + 3 ⇒ thương 7, dư 3."
+        },
+        {
+          "id": "M1h13Q12",
+          "question": "So sánh: 3×9 __ 3×4",
+          "options": [
+            "=",
+            "<",
+            ">",
+            "23"
+          ],
+          "answer_index": 2,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h13Q13",
+          "question": "Tính: 6+5×8 = ?",
+          "options": [
+            "48",
+            "88",
+            "38",
+            "46"
+          ],
+          "answer_index": 3,
+          "answer_text": "46",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h13Q14",
+          "question": "So sánh: 9×2 __ 9×8",
+          "options": [
+            "=",
+            "15",
+            "<",
+            ">"
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h13Q15",
+          "question": "Tính: 9+1×5 = ?",
+          "options": [
+            "14",
+            "10",
+            "50",
+            "16"
+          ],
+          "answer_index": 0,
+          "answer_text": "14",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h13Q16",
+          "question": "Tính: 5+8×7 = ?",
+          "options": [
+            "47",
+            "63",
+            "61",
+            "91"
+          ],
+          "answer_index": 2,
+          "answer_text": "61",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h13Q17",
+          "question": "Tính: 1+8×4 = ?",
+          "options": [
+            "35",
+            "12",
+            "33",
+            "36"
+          ],
+          "answer_index": 2,
+          "answer_text": "33",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h13Q18",
+          "question": "37 : 6 = ? dư ?",
+          "options": [
+            "6 dư 0",
+            "6 dư 1",
+            "7 dư 0",
+            "5 dư 2"
+          ],
+          "answer_index": 1,
+          "answer_text": "6 dư 1",
+          "explanation": "37 = 6×6 + 1 ⇒ thương 6, dư 1."
+        },
+        {
+          "id": "M1h13Q19",
+          "question": "5 hộp, mỗi hộp 32 bút. Bán 6 bút. Còn lại?",
+          "options": [
+            "154",
+            "166",
+            "156",
+            "160"
+          ],
+          "answer_index": 0,
+          "answer_text": "154",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h13Q20",
+          "question": "14 : 4 = ? dư ?",
+          "options": [
+            "4 dư 1",
+            "3 dư 2",
+            "2 dư 3",
+            "3 dư 0"
+          ],
+          "answer_index": 1,
+          "answer_text": "3 dư 2",
+          "explanation": "14 = 4×3 + 2 ⇒ thương 3, dư 2."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_14",
+      "name": "Chủ đề 14",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h14Q01",
+          "question": "Tính: 4+2×5 = ?",
+          "options": [
+            "13",
+            "16",
+            "14",
+            "30"
+          ],
+          "answer_index": 2,
+          "answer_text": "14",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h14Q02",
+          "question": "Tính: 7+4×9 = ?",
+          "options": [
+            "99",
+            "45",
+            "37",
+            "43"
+          ],
+          "answer_index": 3,
+          "answer_text": "43",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h14Q03",
+          "question": "So sánh: 7×5 __ 7×7",
+          "options": [
+            "46",
+            "=",
+            ">",
+            "<"
+          ],
+          "answer_index": 3,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h14Q04",
+          "question": "4 hộp, mỗi hộp 20 bút. Bán 14 bút. Còn lại?",
+          "options": [
+            "94",
+            "80",
+            "66",
+            "68"
+          ],
+          "answer_index": 2,
+          "answer_text": "66",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h14Q05",
+          "question": "9 hộp, mỗi hộp 24 bút. Bán 16 bút. Còn lại?",
+          "options": [
+            "216",
+            "232",
+            "200",
+            "202"
+          ],
+          "answer_index": 2,
+          "answer_text": "200",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h14Q06",
+          "question": "Tính: 9+5×9 = ?",
+          "options": [
+            "126",
+            "17",
+            "54",
+            "56"
+          ],
+          "answer_index": 2,
+          "answer_text": "54",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h14Q07",
+          "question": "5 : 2 = ? dư ?",
+          "options": [
+            "2 dư 1",
+            "1 dư 2",
+            "2 dư 0",
+            "3 dư 0"
+          ],
+          "answer_index": 0,
+          "answer_text": "2 dư 1",
+          "explanation": "5 = 2×2 + 1 ⇒ thương 2, dư 1."
+        },
+        {
+          "id": "M1h14Q08",
+          "question": "So sánh: 4×5 __ 4×5",
+          "options": [
+            "=",
+            "<",
+            "43",
+            ">"
+          ],
+          "answer_index": 0,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h14Q09",
+          "question": "So sánh: 2×6 __ 2×2",
+          "options": [
+            "27",
+            ">",
+            "=",
+            "<"
+          ],
+          "answer_index": 1,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h14Q10",
+          "question": "15 : 6 = ? dư ?",
+          "options": [
+            "1 dư 4",
+            "2 dư 3",
+            "2 dư 1",
+            "3 dư 2"
+          ],
+          "answer_index": 1,
+          "answer_text": "2 dư 3",
+          "explanation": "15 = 6×2 + 3 ⇒ thương 2, dư 3."
+        },
+        {
+          "id": "M1h14Q11",
+          "question": "Tính: 6+8×3 = ?",
+          "options": [
+            "51",
+            "42",
+            "32",
+            "30"
+          ],
+          "answer_index": 3,
+          "answer_text": "30",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h14Q12",
+          "question": "29 : 9 = ? dư ?",
+          "options": [
+            "3 dư 0",
+            "2 dư 3",
+            "4 dư 1",
+            "3 dư 2"
+          ],
+          "answer_index": 3,
+          "answer_text": "3 dư 2",
+          "explanation": "29 = 9×3 + 2 ⇒ thương 3, dư 2."
+        },
+        {
+          "id": "M1h14Q13",
+          "question": "Tính: 8+4×4 = ?",
+          "options": [
+            "48",
+            "36",
+            "26",
+            "24"
+          ],
+          "answer_index": 3,
+          "answer_text": "24",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h14Q14",
+          "question": "7 hộp, mỗi hộp 18 bút. Bán 7 bút. Còn lại?",
+          "options": [
+            "126",
+            "121",
+            "119",
+            "133"
+          ],
+          "answer_index": 2,
+          "answer_text": "119",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h14Q15",
+          "question": "Tính: 2+8×1 = ?",
+          "options": [
+            "12",
+            "32",
+            "17",
+            "10"
+          ],
+          "answer_index": 3,
+          "answer_text": "10",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h14Q16",
+          "question": "9 hộp, mỗi hộp 17 bút. Bán 19 bút. Còn lại?",
+          "options": [
+            "153",
+            "172",
+            "136",
+            "134"
+          ],
+          "answer_index": 3,
+          "answer_text": "134",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h14Q17",
+          "question": "Tính: 6+3×6 = ?",
+          "options": [
+            "26",
+            "24",
+            "8",
+            "54"
+          ],
+          "answer_index": 1,
+          "answer_text": "24",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h14Q18",
+          "question": "5 hộp, mỗi hộp 21 bút. Bán 10 bút. Còn lại?",
+          "options": [
+            "95",
+            "105",
+            "115",
+            "97"
+          ],
+          "answer_index": 0,
+          "answer_text": "95",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h14Q19",
+          "question": "9 hộp, mỗi hộp 38 bút. Bán 10 bút. Còn lại?",
+          "options": [
+            "352",
+            "332",
+            "334",
+            "342"
+          ],
+          "answer_index": 1,
+          "answer_text": "332",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h14Q20",
+          "question": "Tính: 4+2×8 = ?",
+          "options": [
+            "22",
+            "48",
+            "20",
+            "16"
+          ],
+          "answer_index": 2,
+          "answer_text": "20",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_15",
+      "name": "Chủ đề 15",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h15Q01",
+          "question": "6 hộp, mỗi hộp 17 bút. Bán 6 bút. Còn lại?",
+          "options": [
+            "96",
+            "108",
+            "98",
+            "102"
+          ],
+          "answer_index": 0,
+          "answer_text": "96",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h15Q02",
+          "question": "So sánh: 5×4 __ 5×7",
+          "options": [
+            "<",
+            "=",
+            ">",
+            "0"
+          ],
+          "answer_index": 0,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h15Q03",
+          "question": "So sánh: 8×8 __ 8×4",
+          "options": [
+            ">",
+            "=",
+            "4",
+            "<"
+          ],
+          "answer_index": 0,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h15Q04",
+          "question": "Tính: 1+1×3 = ?",
+          "options": [
+            "50",
+            "4",
+            "6",
+            "23"
+          ],
+          "answer_index": 1,
+          "answer_text": "4",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h15Q05",
+          "question": "Tính: 4+4×7 = ?",
+          "options": [
+            "23",
+            "34",
+            "56",
+            "32"
+          ],
+          "answer_index": 3,
+          "answer_text": "32",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h15Q06",
+          "question": "84 : 9 = ? dư ?",
+          "options": [
+            "10 dư 2",
+            "9 dư 3",
+            "9 dư 1",
+            "8 dư 4"
+          ],
+          "answer_index": 1,
+          "answer_text": "9 dư 3",
+          "explanation": "84 = 9×9 + 3 ⇒ thương 9, dư 3."
+        },
+        {
+          "id": "M1h15Q07",
+          "question": "So sánh: 9×4 __ 9×5",
+          "options": [
+            "<",
+            "=",
+            "35",
+            ">"
+          ],
+          "answer_index": 0,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h15Q08",
+          "question": "41 : 6 = ? dư ?",
+          "options": [
+            "5 dư 6",
+            "7 dư 4",
+            "6 dư 3",
+            "6 dư 5"
+          ],
+          "answer_index": 3,
+          "answer_text": "6 dư 5",
+          "explanation": "41 = 6×6 + 5 ⇒ thương 6, dư 5."
+        },
+        {
+          "id": "M1h15Q09",
+          "question": "44 : 9 = ? dư ?",
+          "options": [
+            "5 dư 7",
+            "3 dư 9",
+            "4 dư 6",
+            "4 dư 8"
+          ],
+          "answer_index": 3,
+          "answer_text": "4 dư 8",
+          "explanation": "44 = 9×4 + 8 ⇒ thương 4, dư 8."
+        },
+        {
+          "id": "M1h15Q10",
+          "question": "49 : 8 = ? dư ?",
+          "options": [
+            "6 dư 1",
+            "6 dư 0",
+            "5 dư 2",
+            "7 dư 0"
+          ],
+          "answer_index": 0,
+          "answer_text": "6 dư 1",
+          "explanation": "49 = 8×6 + 1 ⇒ thương 6, dư 1."
+        },
+        {
+          "id": "M1h15Q11",
+          "question": "So sánh: 7×9 __ 7×3",
+          "options": [
+            "<",
+            ">",
+            "45",
+            "="
+          ],
+          "answer_index": 1,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h15Q12",
+          "question": "6 hộp, mỗi hộp 15 bút. Bán 20 bút. Còn lại?",
+          "options": [
+            "110",
+            "70",
+            "72",
+            "90"
+          ],
+          "answer_index": 1,
+          "answer_text": "70",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h15Q13",
+          "question": "So sánh: 4×2 __ 4×2",
+          "options": [
+            "=",
+            ">",
+            "<",
+            "41"
+          ],
+          "answer_index": 0,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h15Q14",
+          "question": "Tính: 8+8×5 = ?",
+          "options": [
+            "48",
+            "50",
+            "80",
+            "69"
+          ],
+          "answer_index": 0,
+          "answer_text": "48",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h15Q15",
+          "question": "6 hộp, mỗi hộp 35 bút. Bán 19 bút. Còn lại?",
+          "options": [
+            "210",
+            "193",
+            "229",
+            "191"
+          ],
+          "answer_index": 3,
+          "answer_text": "191",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h15Q16",
+          "question": "So sánh: 4×3 __ 4×9",
+          "options": [
+            "15",
+            ">",
+            "<",
+            "="
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h15Q17",
+          "question": "16 : 6 = ? dư ?",
+          "options": [
+            "1 dư 5",
+            "3 dư 3",
+            "2 dư 2",
+            "2 dư 4"
+          ],
+          "answer_index": 3,
+          "answer_text": "2 dư 4",
+          "explanation": "16 = 6×2 + 4 ⇒ thương 2, dư 4."
+        },
+        {
+          "id": "M1h15Q18",
+          "question": "So sánh: 7×3 __ 7×9",
+          "options": [
+            ">",
+            "<",
+            "19",
+            "="
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h15Q19",
+          "question": "Tính: 7+3×1 = ?",
+          "options": [
+            "22",
+            "12",
+            "47",
+            "10"
+          ],
+          "answer_index": 3,
+          "answer_text": "10",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h15Q20",
+          "question": "4 hộp, mỗi hộp 36 bút. Bán 7 bút. Còn lại?",
+          "options": [
+            "151",
+            "144",
+            "137",
+            "139"
+          ],
+          "answer_index": 2,
+          "answer_text": "137",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_16",
+      "name": "Chủ đề 16",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h16Q01",
+          "question": "Tính: 6+3×9 = ?",
+          "options": [
+            "27",
+            "81",
+            "33",
+            "35"
+          ],
+          "answer_index": 2,
+          "answer_text": "33",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h16Q02",
+          "question": "66 : 7 = ? dư ?",
+          "options": [
+            "9 dư 1",
+            "9 dư 3",
+            "10 dư 2",
+            "8 dư 4"
+          ],
+          "answer_index": 1,
+          "answer_text": "9 dư 3",
+          "explanation": "66 = 7×9 + 3 ⇒ thương 9, dư 3."
+        },
+        {
+          "id": "M1h16Q03",
+          "question": "So sánh: 2×7 __ 2×9",
+          "options": [
+            "<",
+            ">",
+            "=",
+            "49"
+          ],
+          "answer_index": 0,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h16Q04",
+          "question": "Tính: 9+9×1 = ?",
+          "options": [
+            "20",
+            "12",
+            "18",
+            "82"
+          ],
+          "answer_index": 2,
+          "answer_text": "18",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h16Q05",
+          "question": "Tính: 6+9×5 = ?",
+          "options": [
+            "51",
+            "53",
+            "75",
+            "59"
+          ],
+          "answer_index": 0,
+          "answer_text": "51",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h16Q06",
+          "question": "17 : 7 = ? dư ?",
+          "options": [
+            "2 dư 3",
+            "3 dư 2",
+            "1 dư 4",
+            "2 dư 1"
+          ],
+          "answer_index": 0,
+          "answer_text": "2 dư 3",
+          "explanation": "17 = 7×2 + 3 ⇒ thương 2, dư 3."
+        },
+        {
+          "id": "M1h16Q07",
+          "question": "2 hộp, mỗi hộp 27 bút. Bán 17 bút. Còn lại?",
+          "options": [
+            "54",
+            "39",
+            "71",
+            "37"
+          ],
+          "answer_index": 3,
+          "answer_text": "37",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h16Q08",
+          "question": "11 : 3 = ? dư ?",
+          "options": [
+            "4 dư 1",
+            "2 dư 3",
+            "3 dư 0",
+            "3 dư 2"
+          ],
+          "answer_index": 3,
+          "answer_text": "3 dư 2",
+          "explanation": "11 = 3×3 + 2 ⇒ thương 3, dư 2."
+        },
+        {
+          "id": "M1h16Q09",
+          "question": "4 hộp, mỗi hộp 37 bút. Bán 19 bút. Còn lại?",
+          "options": [
+            "131",
+            "129",
+            "167",
+            "148"
+          ],
+          "answer_index": 1,
+          "answer_text": "129",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h16Q10",
+          "question": "7 hộp, mỗi hộp 17 bút. Bán 14 bút. Còn lại?",
+          "options": [
+            "105",
+            "119",
+            "133",
+            "107"
+          ],
+          "answer_index": 0,
+          "answer_text": "105",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h16Q11",
+          "question": "5 hộp, mỗi hộp 30 bút. Bán 9 bút. Còn lại?",
+          "options": [
+            "150",
+            "141",
+            "143",
+            "159"
+          ],
+          "answer_index": 1,
+          "answer_text": "141",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h16Q12",
+          "question": "5 hộp, mỗi hộp 19 bút. Bán 18 bút. Còn lại?",
+          "options": [
+            "95",
+            "113",
+            "79",
+            "77"
+          ],
+          "answer_index": 3,
+          "answer_text": "77",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h16Q13",
+          "question": "12 : 5 = ? dư ?",
+          "options": [
+            "3 dư 1",
+            "2 dư 2",
+            "2 dư 0",
+            "1 dư 3"
+          ],
+          "answer_index": 1,
+          "answer_text": "2 dư 2",
+          "explanation": "12 = 5×2 + 2 ⇒ thương 2, dư 2."
+        },
+        {
+          "id": "M1h16Q14",
+          "question": "Tính: 5+2×3 = ?",
+          "options": [
+            "21",
+            "47",
+            "13",
+            "11"
+          ],
+          "answer_index": 3,
+          "answer_text": "11",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h16Q15",
+          "question": "4 hộp, mỗi hộp 27 bút. Bán 15 bút. Còn lại?",
+          "options": [
+            "95",
+            "123",
+            "93",
+            "108"
+          ],
+          "answer_index": 2,
+          "answer_text": "93",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h16Q16",
+          "question": "7 hộp, mỗi hộp 35 bút. Bán 7 bút. Còn lại?",
+          "options": [
+            "238",
+            "240",
+            "252",
+            "245"
+          ],
+          "answer_index": 0,
+          "answer_text": "238",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h16Q17",
+          "question": "29 : 3 = ? dư ?",
+          "options": [
+            "9 dư 2",
+            "10 dư 1",
+            "9 dư 0",
+            "8 dư 3"
+          ],
+          "answer_index": 0,
+          "answer_text": "9 dư 2",
+          "explanation": "29 = 3×9 + 2 ⇒ thương 9, dư 2."
+        },
+        {
+          "id": "M1h16Q18",
+          "question": "So sánh: 5×6 __ 5×7",
+          "options": [
+            "<",
+            "=",
+            ">",
+            "45"
+          ],
+          "answer_index": 0,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h16Q19",
+          "question": "So sánh: 9×9 __ 9×2",
+          "options": [
+            ">",
+            "42",
+            "=",
+            "<"
+          ],
+          "answer_index": 0,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h16Q20",
+          "question": "2 hộp, mỗi hộp 30 bút. Bán 5 bút. Còn lại?",
+          "options": [
+            "60",
+            "65",
+            "55",
+            "57"
+          ],
+          "answer_index": 2,
+          "answer_text": "55",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_17",
+      "name": "Chủ đề 17",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h17Q01",
+          "question": "4 hộp, mỗi hộp 20 bút. Bán 17 bút. Còn lại?",
+          "options": [
+            "80",
+            "63",
+            "97",
+            "65"
+          ],
+          "answer_index": 1,
+          "answer_text": "63",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h17Q02",
+          "question": "6 hộp, mỗi hộp 28 bút. Bán 11 bút. Còn lại?",
+          "options": [
+            "179",
+            "157",
+            "168",
+            "159"
+          ],
+          "answer_index": 1,
+          "answer_text": "157",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h17Q03",
+          "question": "8 hộp, mỗi hộp 23 bút. Bán 14 bút. Còn lại?",
+          "options": [
+            "170",
+            "198",
+            "172",
+            "184"
+          ],
+          "answer_index": 0,
+          "answer_text": "170",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h17Q04",
+          "question": "29 : 3 = ? dư ?",
+          "options": [
+            "9 dư 0",
+            "8 dư 3",
+            "10 dư 1",
+            "9 dư 2"
+          ],
+          "answer_index": 3,
+          "answer_text": "9 dư 2",
+          "explanation": "29 = 3×9 + 2 ⇒ thương 9, dư 2."
+        },
+        {
+          "id": "M1h17Q05",
+          "question": "So sánh: 9×2 __ 9×9",
+          "options": [
+            "44",
+            "<",
+            "=",
+            ">"
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h17Q06",
+          "question": "5 hộp, mỗi hộp 19 bút. Bán 5 bút. Còn lại?",
+          "options": [
+            "90",
+            "100",
+            "95",
+            "92"
+          ],
+          "answer_index": 0,
+          "answer_text": "90",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h17Q07",
+          "question": "Tính: 9+3×1 = ?",
+          "options": [
+            "30",
+            "28",
+            "12",
+            "14"
+          ],
+          "answer_index": 2,
+          "answer_text": "12",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h17Q08",
+          "question": "60 : 8 = ? dư ?",
+          "options": [
+            "6 dư 5",
+            "8 dư 3",
+            "7 dư 4",
+            "7 dư 2"
+          ],
+          "answer_index": 2,
+          "answer_text": "7 dư 4",
+          "explanation": "60 = 8×7 + 4 ⇒ thương 7, dư 4."
+        },
+        {
+          "id": "M1h17Q09",
+          "question": "9 hộp, mỗi hộp 16 bút. Bán 11 bút. Còn lại?",
+          "options": [
+            "133",
+            "155",
+            "144",
+            "135"
+          ],
+          "answer_index": 0,
+          "answer_text": "133",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h17Q10",
+          "question": "11 : 5 = ? dư ?",
+          "options": [
+            "1 dư 2",
+            "3 dư 0",
+            "2 dư 0",
+            "2 dư 1"
+          ],
+          "answer_index": 3,
+          "answer_text": "2 dư 1",
+          "explanation": "11 = 5×2 + 1 ⇒ thương 2, dư 1."
+        },
+        {
+          "id": "M1h17Q11",
+          "question": "9 hộp, mỗi hộp 12 bút. Bán 18 bút. Còn lại?",
+          "options": [
+            "126",
+            "90",
+            "92",
+            "108"
+          ],
+          "answer_index": 1,
+          "answer_text": "90",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h17Q12",
+          "question": "So sánh: 7×9 __ 7×9",
+          "options": [
+            ">",
+            "<",
+            "=",
+            "16"
+          ],
+          "answer_index": 2,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h17Q13",
+          "question": "Tính: 5+5×2 = ?",
+          "options": [
+            "17",
+            "20",
+            "15",
+            "27"
+          ],
+          "answer_index": 2,
+          "answer_text": "15",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h17Q14",
+          "question": "Tính: 8+1×7 = ?",
+          "options": [
+            "63",
+            "42",
+            "15",
+            "17"
+          ],
+          "answer_index": 2,
+          "answer_text": "15",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h17Q15",
+          "question": "25 : 3 = ? dư ?",
+          "options": [
+            "8 dư 0",
+            "9 dư 0",
+            "7 dư 2",
+            "8 dư 1"
+          ],
+          "answer_index": 3,
+          "answer_text": "8 dư 1",
+          "explanation": "25 = 3×8 + 1 ⇒ thương 8, dư 1."
+        },
+        {
+          "id": "M1h17Q16",
+          "question": "8 hộp, mỗi hộp 31 bút. Bán 16 bút. Còn lại?",
+          "options": [
+            "234",
+            "264",
+            "248",
+            "232"
+          ],
+          "answer_index": 3,
+          "answer_text": "232",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h17Q17",
+          "question": "So sánh: 4×3 __ 4×4",
+          "options": [
+            ">",
+            "=",
+            "<",
+            "41"
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h17Q18",
+          "question": "Tính: 9+1×4 = ?",
+          "options": [
+            "15",
+            "36",
+            "13",
+            "40"
+          ],
+          "answer_index": 2,
+          "answer_text": "13",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h17Q19",
+          "question": "4 hộp, mỗi hộp 11 bút. Bán 17 bút. Còn lại?",
+          "options": [
+            "27",
+            "44",
+            "29",
+            "61"
+          ],
+          "answer_index": 0,
+          "answer_text": "27",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h17Q20",
+          "question": "Tính: 8+5×5 = ?",
+          "options": [
+            "65",
+            "45",
+            "35",
+            "33"
+          ],
+          "answer_index": 3,
+          "answer_text": "33",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_18",
+      "name": "Chủ đề 18",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h18Q01",
+          "question": "2 hộp, mỗi hộp 37 bút. Bán 6 bút. Còn lại?",
+          "options": [
+            "70",
+            "68",
+            "80",
+            "74"
+          ],
+          "answer_index": 1,
+          "answer_text": "68",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h18Q02",
+          "question": "So sánh: 2×6 __ 2×3",
+          "options": [
+            "<",
+            "17",
+            ">",
+            "="
+          ],
+          "answer_index": 2,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h18Q03",
+          "question": "13 : 5 = ? dư ?",
+          "options": [
+            "3 dư 2",
+            "2 dư 3",
+            "1 dư 4",
+            "2 dư 1"
+          ],
+          "answer_index": 1,
+          "answer_text": "2 dư 3",
+          "explanation": "13 = 5×2 + 3 ⇒ thương 2, dư 3."
+        },
+        {
+          "id": "M1h18Q04",
+          "question": "Tính: 4+5×2 = ?",
+          "options": [
+            "18",
+            "16",
+            "14",
+            "22"
+          ],
+          "answer_index": 2,
+          "answer_text": "14",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h18Q05",
+          "question": "So sánh: 6×9 __ 6×6",
+          "options": [
+            "=",
+            "9",
+            ">",
+            "<"
+          ],
+          "answer_index": 2,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h18Q06",
+          "question": "Tính: 1+1×2 = ?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "18"
+          ],
+          "answer_index": 0,
+          "answer_text": "3",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h18Q07",
+          "question": "So sánh: 6×5 __ 6×5",
+          "options": [
+            ">",
+            "35",
+            "<",
+            "="
+          ],
+          "answer_index": 3,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h18Q08",
+          "question": "19 : 2 = ? dư ?",
+          "options": [
+            "9 dư 1",
+            "8 dư 2",
+            "10 dư 0",
+            "9 dư 0"
+          ],
+          "answer_index": 0,
+          "answer_text": "9 dư 1",
+          "explanation": "19 = 2×9 + 1 ⇒ thương 9, dư 1."
+        },
+        {
+          "id": "M1h18Q09",
+          "question": "So sánh: 4×9 __ 4×5",
+          "options": [
+            "<",
+            "44",
+            "=",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h18Q10",
+          "question": "Tính: 7+5×8 = ?",
+          "options": [
+            "96",
+            "49",
+            "47",
+            "43"
+          ],
+          "answer_index": 2,
+          "answer_text": "47",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h18Q11",
+          "question": "Tính: 4+5×6 = ?",
+          "options": [
+            "36",
+            "34",
+            "54",
+            "26"
+          ],
+          "answer_index": 1,
+          "answer_text": "34",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h18Q12",
+          "question": "44 : 6 = ? dư ?",
+          "options": [
+            "7 dư 2",
+            "6 dư 3",
+            "8 dư 1",
+            "7 dư 0"
+          ],
+          "answer_index": 0,
+          "answer_text": "7 dư 2",
+          "explanation": "44 = 6×7 + 2 ⇒ thương 7, dư 2."
+        },
+        {
+          "id": "M1h18Q13",
+          "question": "25 : 4 = ? dư ?",
+          "options": [
+            "5 dư 2",
+            "7 dư 0",
+            "6 dư 0",
+            "6 dư 1"
+          ],
+          "answer_index": 3,
+          "answer_text": "6 dư 1",
+          "explanation": "25 = 4×6 + 1 ⇒ thương 6, dư 1."
+        },
+        {
+          "id": "M1h18Q14",
+          "question": "13 : 3 = ? dư ?",
+          "options": [
+            "4 dư 0",
+            "4 dư 1",
+            "3 dư 2",
+            "5 dư 0"
+          ],
+          "answer_index": 1,
+          "answer_text": "4 dư 1",
+          "explanation": "13 = 3×4 + 1 ⇒ thương 4, dư 1."
+        },
+        {
+          "id": "M1h18Q15",
+          "question": "So sánh: 7×8 __ 7×3",
+          "options": [
+            "=",
+            "<",
+            ">",
+            "22"
+          ],
+          "answer_index": 2,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h18Q16",
+          "question": "Tính: 4+3×4 = ?",
+          "options": [
+            "16",
+            "36",
+            "28",
+            "18"
+          ],
+          "answer_index": 0,
+          "answer_text": "16",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h18Q17",
+          "question": "41 : 9 = ? dư ?",
+          "options": [
+            "3 dư 6",
+            "4 dư 5",
+            "5 dư 4",
+            "4 dư 3"
+          ],
+          "answer_index": 1,
+          "answer_text": "4 dư 5",
+          "explanation": "41 = 9×4 + 5 ⇒ thương 4, dư 5."
+        },
+        {
+          "id": "M1h18Q18",
+          "question": "5 : 2 = ? dư ?",
+          "options": [
+            "2 dư 1",
+            "2 dư 0",
+            "1 dư 2",
+            "3 dư 0"
+          ],
+          "answer_index": 0,
+          "answer_text": "2 dư 1",
+          "explanation": "5 = 2×2 + 1 ⇒ thương 2, dư 1."
+        },
+        {
+          "id": "M1h18Q19",
+          "question": "26 : 5 = ? dư ?",
+          "options": [
+            "5 dư 1",
+            "4 dư 2",
+            "6 dư 0",
+            "5 dư 0"
+          ],
+          "answer_index": 0,
+          "answer_text": "5 dư 1",
+          "explanation": "26 = 5×5 + 1 ⇒ thương 5, dư 1."
+        },
+        {
+          "id": "M1h18Q20",
+          "question": "So sánh: 4×2 __ 4×9",
+          "options": [
+            "9",
+            "<",
+            "=",
+            ">"
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_19",
+      "name": "Chủ đề 19",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h19Q01",
+          "question": "25 : 3 = ? dư ?",
+          "options": [
+            "9 dư 0",
+            "8 dư 0",
+            "7 dư 2",
+            "8 dư 1"
+          ],
+          "answer_index": 3,
+          "answer_text": "8 dư 1",
+          "explanation": "25 = 3×8 + 1 ⇒ thương 8, dư 1."
+        },
+        {
+          "id": "M1h19Q02",
+          "question": "So sánh: 6×9 __ 6×9",
+          "options": [
+            ">",
+            "<",
+            "=",
+            "44"
+          ],
+          "answer_index": 2,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h19Q03",
+          "question": "Tính: 2+2×9 = ?",
+          "options": [
+            "36",
+            "13",
+            "20",
+            "22"
+          ],
+          "answer_index": 2,
+          "answer_text": "20",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h19Q04",
+          "question": "So sánh: 2×4 __ 2×9",
+          "options": [
+            "21",
+            "<",
+            ">",
+            "="
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h19Q05",
+          "question": "So sánh: 7×7 __ 7×9",
+          "options": [
+            "<",
+            ">",
+            "=",
+            "44"
+          ],
+          "answer_index": 0,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h19Q06",
+          "question": "So sánh: 3×7 __ 3×2",
+          "options": [
+            "48",
+            "=",
+            "<",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h19Q07",
+          "question": "8 hộp, mỗi hộp 12 bút. Bán 16 bút. Còn lại?",
+          "options": [
+            "80",
+            "82",
+            "112",
+            "96"
+          ],
+          "answer_index": 0,
+          "answer_text": "80",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h19Q08",
+          "question": "So sánh: 8×4 __ 8×6",
+          "options": [
+            "<",
+            ">",
+            "=",
+            "38"
+          ],
+          "answer_index": 0,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h19Q09",
+          "question": "3 hộp, mỗi hộp 17 bút. Bán 7 bút. Còn lại?",
+          "options": [
+            "44",
+            "51",
+            "46",
+            "58"
+          ],
+          "answer_index": 0,
+          "answer_text": "44",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h19Q10",
+          "question": "2 hộp, mỗi hộp 26 bút. Bán 14 bút. Còn lại?",
+          "options": [
+            "66",
+            "38",
+            "40",
+            "52"
+          ],
+          "answer_index": 1,
+          "answer_text": "38",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h19Q11",
+          "question": "So sánh: 9×4 __ 9×8",
+          "options": [
+            "=",
+            ">",
+            "36",
+            "<"
+          ],
+          "answer_index": 3,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h19Q12",
+          "question": "2 hộp, mỗi hộp 27 bút. Bán 6 bút. Còn lại?",
+          "options": [
+            "48",
+            "50",
+            "60",
+            "54"
+          ],
+          "answer_index": 0,
+          "answer_text": "48",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h19Q13",
+          "question": "2 hộp, mỗi hộp 19 bút. Bán 17 bút. Còn lại?",
+          "options": [
+            "55",
+            "23",
+            "21",
+            "38"
+          ],
+          "answer_index": 2,
+          "answer_text": "21",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h19Q14",
+          "question": "4 hộp, mỗi hộp 37 bút. Bán 11 bút. Còn lại?",
+          "options": [
+            "137",
+            "159",
+            "139",
+            "148"
+          ],
+          "answer_index": 0,
+          "answer_text": "137",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h19Q15",
+          "question": "46 : 7 = ? dư ?",
+          "options": [
+            "7 dư 3",
+            "6 dư 2",
+            "5 dư 5",
+            "6 dư 4"
+          ],
+          "answer_index": 3,
+          "answer_text": "6 dư 4",
+          "explanation": "46 = 7×6 + 4 ⇒ thương 6, dư 4."
+        },
+        {
+          "id": "M1h19Q16",
+          "question": "So sánh: 6×3 __ 6×5",
+          "options": [
+            "=",
+            "<",
+            "16",
+            ">"
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h19Q17",
+          "question": "So sánh: 5×3 __ 5×3",
+          "options": [
+            "23",
+            ">",
+            "=",
+            "<"
+          ],
+          "answer_index": 2,
+          "answer_text": "=",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h19Q18",
+          "question": "So sánh: 3×8 __ 3×3",
+          "options": [
+            "=",
+            "<",
+            "15",
+            ">"
+          ],
+          "answer_index": 3,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h19Q19",
+          "question": "6 hộp, mỗi hộp 36 bút. Bán 9 bút. Còn lại?",
+          "options": [
+            "209",
+            "207",
+            "216",
+            "225"
+          ],
+          "answer_index": 1,
+          "answer_text": "207",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h19Q20",
+          "question": "Tính: 2+2×7 = ?",
+          "options": [
+            "28",
+            "11",
+            "16",
+            "18"
+          ],
+          "answer_index": 2,
+          "answer_text": "16",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        }
+      ]
+    },
+    {
+      "id": "MATH1_HARD_20",
+      "name": "Chủ đề 20",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M1h20Q01",
+          "question": "5 hộp, mỗi hộp 25 bút. Bán 12 bút. Còn lại?",
+          "options": [
+            "113",
+            "137",
+            "125",
+            "115"
+          ],
+          "answer_index": 0,
+          "answer_text": "113",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h20Q02",
+          "question": "So sánh: 2×6 __ 2×7",
+          "options": [
+            "=",
+            "40",
+            "<",
+            ">"
+          ],
+          "answer_index": 2,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h20Q03",
+          "question": "7 hộp, mỗi hộp 18 bút. Bán 10 bút. Còn lại?",
+          "options": [
+            "116",
+            "136",
+            "118",
+            "126"
+          ],
+          "answer_index": 0,
+          "answer_text": "116",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h20Q04",
+          "question": "Tính: 1+1×4 = ?",
+          "options": [
+            "5",
+            "8",
+            "7",
+            "34"
+          ],
+          "answer_index": 0,
+          "answer_text": "5",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h20Q05",
+          "question": "Tính: 9+1×5 = ?",
+          "options": [
+            "16",
+            "14",
+            "0",
+            "50"
+          ],
+          "answer_index": 1,
+          "answer_text": "14",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h20Q06",
+          "question": "9 : 2 = ? dư ?",
+          "options": [
+            "3 dư 2",
+            "4 dư 1",
+            "4 dư 0",
+            "5 dư 0"
+          ],
+          "answer_index": 1,
+          "answer_text": "4 dư 1",
+          "explanation": "9 = 2×4 + 1 ⇒ thương 4, dư 1."
+        },
+        {
+          "id": "M1h20Q07",
+          "question": "9 hộp, mỗi hộp 37 bút. Bán 15 bút. Còn lại?",
+          "options": [
+            "348",
+            "320",
+            "318",
+            "333"
+          ],
+          "answer_index": 2,
+          "answer_text": "318",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h20Q08",
+          "question": "So sánh: 9×7 __ 9×6",
+          "options": [
+            "38",
+            "=",
+            ">",
+            "<"
+          ],
+          "answer_index": 2,
+          "answer_text": ">",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h20Q09",
+          "question": "6 hộp, mỗi hộp 13 bút. Bán 10 bút. Còn lại?",
+          "options": [
+            "78",
+            "70",
+            "88",
+            "68"
+          ],
+          "answer_index": 3,
+          "answer_text": "68",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h20Q10",
+          "question": "49 : 5 = ? dư ?",
+          "options": [
+            "8 dư 5",
+            "9 dư 2",
+            "10 dư 3",
+            "9 dư 4"
+          ],
+          "answer_index": 3,
+          "answer_text": "9 dư 4",
+          "explanation": "49 = 5×9 + 4 ⇒ thương 9, dư 4."
+        },
+        {
+          "id": "M1h20Q11",
+          "question": "Tính: 5+1×4 = ?",
+          "options": [
+            "24",
+            "11",
+            "9",
+            "5"
+          ],
+          "answer_index": 2,
+          "answer_text": "9",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h20Q12",
+          "question": "So sánh: 8×3 __ 8×7",
+          "options": [
+            "43",
+            "<",
+            "=",
+            ">"
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "Cùng thừa số a; so b với c để suy ra dấu."
+        },
+        {
+          "id": "M1h20Q13",
+          "question": "9 hộp, mỗi hộp 19 bút. Bán 20 bút. Còn lại?",
+          "options": [
+            "171",
+            "153",
+            "191",
+            "151"
+          ],
+          "answer_index": 3,
+          "answer_text": "151",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h20Q14",
+          "question": "34 : 4 = ? dư ?",
+          "options": [
+            "7 dư 3",
+            "8 dư 0",
+            "8 dư 2",
+            "9 dư 1"
+          ],
+          "answer_index": 2,
+          "answer_text": "8 dư 2",
+          "explanation": "34 = 4×8 + 2 ⇒ thương 8, dư 2."
+        },
+        {
+          "id": "M1h20Q15",
+          "question": "Tính: 9+2×8 = ?",
+          "options": [
+            "25",
+            "27",
+            "26",
+            "88"
+          ],
+          "answer_index": 0,
+          "answer_text": "25",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h20Q16",
+          "question": "7 hộp, mỗi hộp 40 bút. Bán 14 bút. Còn lại?",
+          "options": [
+            "266",
+            "294",
+            "280",
+            "268"
+          ],
+          "answer_index": 0,
+          "answer_text": "266",
+          "explanation": "Bước 1: x×y; Bước 2: trừ số đã bán."
+        },
+        {
+          "id": "M1h20Q17",
+          "question": "28 : 9 = ? dư ?",
+          "options": [
+            "2 dư 2",
+            "4 dư 0",
+            "3 dư 1",
+            "3 dư 0"
+          ],
+          "answer_index": 2,
+          "answer_text": "3 dư 1",
+          "explanation": "28 = 9×3 + 1 ⇒ thương 3, dư 1."
+        },
+        {
+          "id": "M1h20Q18",
+          "question": "Tính: 1+6×6 = ?",
+          "options": [
+            "37",
+            "39",
+            "42",
+            "12"
+          ],
+          "answer_index": 0,
+          "answer_text": "37",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h20Q19",
+          "question": "Tính: 2+9×6 = ?",
+          "options": [
+            "58",
+            "24",
+            "66",
+            "56"
+          ],
+          "answer_index": 3,
+          "answer_text": "56",
+          "explanation": "Ưu tiên nhân trước, cộng sau."
+        },
+        {
+          "id": "M1h20Q20",
+          "question": "67 : 7 = ? dư ?",
+          "options": [
+            "8 dư 5",
+            "9 dư 2",
+            "9 dư 4",
+            "10 dư 3"
+          ],
+          "answer_index": 2,
+          "answer_text": "9 dư 4",
+          "explanation": "67 = 7×9 + 4 ⇒ thương 9, dư 4."
+        }
+      ]
+    }
+  ]
+}

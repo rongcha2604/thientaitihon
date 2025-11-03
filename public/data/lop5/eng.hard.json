@@ -1,0 +1,5351 @@
+{
+  "meta": {
+    "grade": 5,
+    "subject": "English",
+    "language": "en",
+    "created_date": "2025-11-03",
+    "level": "hard"
+  },
+  "topics": [
+    {
+      "id": "ENG5_HARD_01",
+      "name": "Colors",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h01Q01",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dress",
+            "dresses",
+            "dresss",
+            "dressing"
+          ],
+          "answer_index": 1,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h01Q02",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "father",
+            "table",
+            "cat",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h01Q03",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "cat",
+            "happy",
+            "book",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h01Q04",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "table",
+            "cat",
+            "happy",
+            "book"
+          ],
+          "answer_index": 2,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h01Q05",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "the",
+            "13",
+            "a",
+            "an"
+          ],
+          "answer_index": 2,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h01Q06",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "book",
+            "cat",
+            "table",
+            "mother"
+          ],
+          "answer_index": 3,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h01Q07",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dresss",
+            "dressing",
+            "dress",
+            "dresses"
+          ],
+          "answer_index": 3,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h01Q08",
+          "question": "Choose the article: __ apple",
+          "options": [
+            "an",
+            "39",
+            "the",
+            "a"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h01Q09",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "behind",
+            "in",
+            "on"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h01Q10",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "under",
+            "behind",
+            "on"
+          ],
+          "answer_index": 3,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h01Q11",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "apple",
+            "green",
+            "desk",
+            "car"
+          ],
+          "answer_index": 1,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "E5h01Q12",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cats",
+            "cat",
+            "32",
+            "cating"
+          ],
+          "answer_index": 0,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h01Q13",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "a",
+            "46",
+            "an",
+            "the"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h01Q14",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "a",
+            "the",
+            "an",
+            "25"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h01Q15",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "book",
+            "big",
+            "table",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "E5h01Q16",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "big",
+            "book",
+            "table",
+            "cat"
+          ],
+          "answer_index": 0,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "E5h01Q17",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cat",
+            "cats",
+            "cating",
+            "15"
+          ],
+          "answer_index": 1,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h01Q18",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "a",
+            "47",
+            "an",
+            "the"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h01Q19",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "desk",
+            "car",
+            "red",
+            "apple"
+          ],
+          "answer_index": 2,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h01Q20",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "apple",
+            "blue",
+            "desk",
+            "car"
+          ],
+          "answer_index": 1,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_02",
+      "name": "Numbers",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h02Q01",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "behind",
+            "on",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h02Q02",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "table",
+            "cat",
+            "father",
+            "book"
+          ],
+          "answer_index": 2,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h02Q03",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "apple",
+            "car",
+            "yellow",
+            "desk"
+          ],
+          "answer_index": 2,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "E5h02Q04",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "cat",
+            "happy",
+            "book",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h02Q05",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "behind",
+            "under",
+            "in"
+          ],
+          "answer_index": 3,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h02Q06",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "7",
+            "a",
+            "an",
+            "the"
+          ],
+          "answer_index": 1,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h02Q07",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "in",
+            "behind",
+            "on"
+          ],
+          "answer_index": 1,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h02Q08",
+          "question": "Plural of 'box' is __",
+          "options": [
+            "boxing",
+            "box",
+            "boxs",
+            "boxes"
+          ],
+          "answer_index": 3,
+          "answer_text": "boxes",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h02Q09",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "apple",
+            "car",
+            "red",
+            "desk"
+          ],
+          "answer_index": 2,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h02Q10",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "behind",
+            "in",
+            "on"
+          ],
+          "answer_index": 3,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h02Q11",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "an",
+            "the",
+            "24",
+            "a"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h02Q12",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "in",
+            "under",
+            "on"
+          ],
+          "answer_index": 1,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h02Q13",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "2",
+            "a",
+            "an",
+            "the"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h02Q14",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "on",
+            "behind",
+            "in"
+          ],
+          "answer_index": 3,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h02Q15",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "book",
+            "cat",
+            "small",
+            "table"
+          ],
+          "answer_index": 2,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h02Q16",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "cat",
+            "small",
+            "table",
+            "book"
+          ],
+          "answer_index": 1,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h02Q17",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dressing",
+            "dress",
+            "dresses",
+            "dresss"
+          ],
+          "answer_index": 2,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h02Q18",
+          "question": "Which is a color meaning 'black'?",
+          "options": [
+            "black",
+            "apple",
+            "desk",
+            "car"
+          ],
+          "answer_index": 0,
+          "answer_text": "black",
+          "explanation": "'black' is a color."
+        },
+        {
+          "id": "E5h02Q19",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "the",
+            "a",
+            "38",
+            "an"
+          ],
+          "answer_index": 3,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h02Q20",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "a",
+            "28",
+            "the",
+            "an"
+          ],
+          "answer_index": 3,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_03",
+      "name": "Family",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h03Q01",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "a",
+            "the",
+            "an",
+            "47"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h03Q02",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "behind",
+            "on",
+            "in"
+          ],
+          "answer_index": 2,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h03Q03",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "busing",
+            "buss",
+            "bus",
+            "buses"
+          ],
+          "answer_index": 3,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h03Q04",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "under",
+            "on",
+            "in"
+          ],
+          "answer_index": 3,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h03Q05",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "book",
+            "mother",
+            "cat",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h03Q06",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "46"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h03Q07",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "car",
+            "yellow",
+            "desk",
+            "apple"
+          ],
+          "answer_index": 1,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "E5h03Q08",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "a",
+            "39",
+            "the",
+            "an"
+          ],
+          "answer_index": 0,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h03Q09",
+          "question": "Choose the article: __ apple",
+          "options": [
+            "45",
+            "an",
+            "a",
+            "the"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h03Q10",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafs",
+            "leaf",
+            "leafing",
+            "leaves"
+          ],
+          "answer_index": 3,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h03Q11",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "green",
+            "apple",
+            "desk",
+            "car"
+          ],
+          "answer_index": 0,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "E5h03Q12",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cats",
+            "4",
+            "cat",
+            "cating"
+          ],
+          "answer_index": 0,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h03Q13",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "table",
+            "cat",
+            "happy",
+            "book"
+          ],
+          "answer_index": 2,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h03Q14",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leaf",
+            "leafing",
+            "leaves",
+            "leafs"
+          ],
+          "answer_index": 2,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h03Q15",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "book",
+            "cat",
+            "table",
+            "mother"
+          ],
+          "answer_index": 3,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h03Q16",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "cat",
+            "table",
+            "father",
+            "book"
+          ],
+          "answer_index": 2,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h03Q17",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "car",
+            "apple",
+            "desk",
+            "yellow"
+          ],
+          "answer_index": 3,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "E5h03Q18",
+          "question": "Which is a color meaning 'black'?",
+          "options": [
+            "car",
+            "black",
+            "desk",
+            "apple"
+          ],
+          "answer_index": 1,
+          "answer_text": "black",
+          "explanation": "'black' is a color."
+        },
+        {
+          "id": "E5h03Q19",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cats",
+            "cating",
+            "20",
+            "cat"
+          ],
+          "answer_index": 0,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h03Q20",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "table",
+            "cat",
+            "father",
+            "book"
+          ],
+          "answer_index": 2,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_04",
+      "name": "School objects",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h04Q01",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "35",
+            "a",
+            "an",
+            "the"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h04Q02",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "on",
+            "in",
+            "under"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h04Q03",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "in",
+            "under",
+            "on"
+          ],
+          "answer_index": 3,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h04Q04",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "in",
+            "under",
+            "behind"
+          ],
+          "answer_index": 1,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h04Q05",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "under",
+            "on",
+            "in"
+          ],
+          "answer_index": 2,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h04Q06",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafing",
+            "leaves",
+            "leafs",
+            "leaf"
+          ],
+          "answer_index": 1,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h04Q07",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "cat",
+            "happy",
+            "table",
+            "book"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h04Q08",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "in",
+            "under",
+            "behind"
+          ],
+          "answer_index": 0,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h04Q09",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "book",
+            "big",
+            "cat",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "E5h04Q10",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dress",
+            "dressing",
+            "dresses",
+            "dresss"
+          ],
+          "answer_index": 2,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h04Q11",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafs",
+            "leafing",
+            "leaves",
+            "leaf"
+          ],
+          "answer_index": 2,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h04Q12",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "34"
+          ],
+          "answer_index": 0,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h04Q13",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "book",
+            "cat",
+            "table",
+            "small"
+          ],
+          "answer_index": 3,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h04Q14",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "table",
+            "mother",
+            "cat",
+            "book"
+          ],
+          "answer_index": 1,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h04Q15",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "table",
+            "book",
+            "happy",
+            "cat"
+          ],
+          "answer_index": 2,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h04Q16",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "book",
+            "table",
+            "cat",
+            "mother"
+          ],
+          "answer_index": 3,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h04Q17",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "behind",
+            "under",
+            "on"
+          ],
+          "answer_index": 3,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h04Q18",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "an",
+            "a",
+            "46",
+            "the"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h04Q19",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "desk",
+            "red",
+            "car",
+            "apple"
+          ],
+          "answer_index": 1,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h04Q20",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "cat",
+            "table",
+            "book",
+            "small"
+          ],
+          "answer_index": 3,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_05",
+      "name": "Animals",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h05Q01",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafing",
+            "leafs",
+            "leaves",
+            "leaf"
+          ],
+          "answer_index": 2,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h05Q02",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "in",
+            "under",
+            "behind"
+          ],
+          "answer_index": 0,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h05Q03",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "on",
+            "behind",
+            "under"
+          ],
+          "answer_index": 1,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h05Q04",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "happy",
+            "book",
+            "cat",
+            "table"
+          ],
+          "answer_index": 0,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h05Q05",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "bus",
+            "buss",
+            "busing",
+            "buses"
+          ],
+          "answer_index": 3,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h05Q06",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "green",
+            "desk",
+            "car",
+            "apple"
+          ],
+          "answer_index": 0,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "E5h05Q07",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "green",
+            "apple",
+            "car",
+            "desk"
+          ],
+          "answer_index": 0,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "E5h05Q08",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leaves",
+            "leaf",
+            "leafing",
+            "leafs"
+          ],
+          "answer_index": 0,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h05Q09",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "an",
+            "the",
+            "a",
+            "33"
+          ],
+          "answer_index": 2,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h05Q10",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "in",
+            "behind",
+            "on"
+          ],
+          "answer_index": 1,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h05Q11",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "table",
+            "book",
+            "cat",
+            "small"
+          ],
+          "answer_index": 3,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h05Q12",
+          "question": "Choose the article: __ apple",
+          "options": [
+            "an",
+            "the",
+            "29",
+            "a"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h05Q13",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafs",
+            "leaves",
+            "leaf",
+            "leafing"
+          ],
+          "answer_index": 1,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h05Q14",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "book",
+            "big",
+            "cat",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "E5h05Q15",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "a",
+            "an",
+            "26",
+            "the"
+          ],
+          "answer_index": 0,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h05Q16",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "table",
+            "cat",
+            "book",
+            "mother"
+          ],
+          "answer_index": 3,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h05Q17",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "table",
+            "book",
+            "cat",
+            "mother"
+          ],
+          "answer_index": 3,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h05Q18",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dress",
+            "dressing",
+            "dresss",
+            "dresses"
+          ],
+          "answer_index": 3,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h05Q19",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "father",
+            "cat",
+            "table",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h05Q20",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cating",
+            "cats",
+            "cat",
+            "29"
+          ],
+          "answer_index": 1,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_06",
+      "name": "Food & Drinks",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h06Q01",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "under",
+            "in",
+            "on"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h06Q02",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "0",
+            "a",
+            "the",
+            "an"
+          ],
+          "answer_index": 3,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h06Q03",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leaves",
+            "leaf",
+            "leafs",
+            "leafing"
+          ],
+          "answer_index": 0,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h06Q04",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "small",
+            "table",
+            "cat",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h06Q05",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dresss",
+            "dressing",
+            "dresses",
+            "dress"
+          ],
+          "answer_index": 2,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h06Q06",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "20",
+            "cats",
+            "cat",
+            "cating"
+          ],
+          "answer_index": 1,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h06Q07",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "table",
+            "father",
+            "book",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h06Q08",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "under",
+            "on",
+            "behind"
+          ],
+          "answer_index": 2,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h06Q09",
+          "question": "Which is a color meaning 'white'?",
+          "options": [
+            "car",
+            "apple",
+            "desk",
+            "white"
+          ],
+          "answer_index": 3,
+          "answer_text": "white",
+          "explanation": "'white' is a color."
+        },
+        {
+          "id": "E5h06Q10",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "buss",
+            "bus",
+            "busing",
+            "buses"
+          ],
+          "answer_index": 3,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h06Q11",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "father",
+            "cat",
+            "book",
+            "table"
+          ],
+          "answer_index": 0,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h06Q12",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "cat",
+            "book",
+            "mother",
+            "table"
+          ],
+          "answer_index": 2,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h06Q13",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "an",
+            "31",
+            "the",
+            "a"
+          ],
+          "answer_index": 3,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h06Q14",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "47",
+            "cat",
+            "cating",
+            "cats"
+          ],
+          "answer_index": 3,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h06Q15",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "table",
+            "mother",
+            "book",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h06Q16",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "desk",
+            "car",
+            "apple",
+            "red"
+          ],
+          "answer_index": 3,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h06Q17",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "desk",
+            "apple",
+            "yellow",
+            "car"
+          ],
+          "answer_index": 2,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "E5h06Q18",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "cat",
+            "table",
+            "father",
+            "book"
+          ],
+          "answer_index": 2,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h06Q19",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cat",
+            "cats",
+            "cating",
+            "21"
+          ],
+          "answer_index": 1,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h06Q20",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "small",
+            "book",
+            "cat",
+            "table"
+          ],
+          "answer_index": 0,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_07",
+      "name": "Clothes",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h07Q01",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "apple",
+            "blue",
+            "car",
+            "desk"
+          ],
+          "answer_index": 1,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "E5h07Q02",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "table",
+            "cat",
+            "book",
+            "mother"
+          ],
+          "answer_index": 3,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h07Q03",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "small",
+            "cat",
+            "table",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h07Q04",
+          "question": "Plural of 'box' is __",
+          "options": [
+            "boxs",
+            "boxing",
+            "box",
+            "boxes"
+          ],
+          "answer_index": 3,
+          "answer_text": "boxes",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h07Q05",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cat",
+            "cats",
+            "43",
+            "cating"
+          ],
+          "answer_index": 1,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h07Q06",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "apple",
+            "car",
+            "desk",
+            "yellow"
+          ],
+          "answer_index": 3,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "E5h07Q07",
+          "question": "Choose the article: __ apple",
+          "options": [
+            "an",
+            "the",
+            "a",
+            "45"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h07Q08",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "apple",
+            "desk",
+            "car",
+            "red"
+          ],
+          "answer_index": 3,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h07Q09",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "on",
+            "in",
+            "behind"
+          ],
+          "answer_index": 1,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h07Q10",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "on",
+            "under",
+            "in"
+          ],
+          "answer_index": 2,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h07Q11",
+          "question": "Which is a color meaning 'black'?",
+          "options": [
+            "apple",
+            "black",
+            "desk",
+            "car"
+          ],
+          "answer_index": 1,
+          "answer_text": "black",
+          "explanation": "'black' is a color."
+        },
+        {
+          "id": "E5h07Q12",
+          "question": "Plural of 'box' is __",
+          "options": [
+            "boxs",
+            "box",
+            "boxes",
+            "boxing"
+          ],
+          "answer_index": 2,
+          "answer_text": "boxes",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h07Q13",
+          "question": "Which is a color meaning 'black'?",
+          "options": [
+            "desk",
+            "car",
+            "apple",
+            "black"
+          ],
+          "answer_index": 3,
+          "answer_text": "black",
+          "explanation": "'black' is a color."
+        },
+        {
+          "id": "E5h07Q14",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cat",
+            "cating",
+            "cats",
+            "4"
+          ],
+          "answer_index": 2,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h07Q15",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "the",
+            "a",
+            "23",
+            "an"
+          ],
+          "answer_index": 3,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h07Q16",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "an",
+            "20",
+            "a",
+            "the"
+          ],
+          "answer_index": 2,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h07Q17",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "table",
+            "happy",
+            "book",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h07Q18",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "in",
+            "on",
+            "under"
+          ],
+          "answer_index": 2,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h07Q19",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "book",
+            "table",
+            "cat",
+            "happy"
+          ],
+          "answer_index": 3,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h07Q20",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "buses",
+            "bus",
+            "buss",
+            "busing"
+          ],
+          "answer_index": 0,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_08",
+      "name": "Weather",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h08Q01",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "cat",
+            "table",
+            "book",
+            "happy"
+          ],
+          "answer_index": 3,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h08Q02",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "apple",
+            "car",
+            "green",
+            "desk"
+          ],
+          "answer_index": 2,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "E5h08Q03",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "table",
+            "book",
+            "small",
+            "cat"
+          ],
+          "answer_index": 2,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h08Q04",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cats",
+            "cat",
+            "cating",
+            "10"
+          ],
+          "answer_index": 0,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h08Q05",
+          "question": "Choose the article: __ apple",
+          "options": [
+            "39",
+            "the",
+            "an",
+            "a"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h08Q06",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "desk",
+            "apple",
+            "car",
+            "red"
+          ],
+          "answer_index": 3,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h08Q07",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "13",
+            "the",
+            "a",
+            "an"
+          ],
+          "answer_index": 3,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h08Q08",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cats",
+            "cat",
+            "cating",
+            "18"
+          ],
+          "answer_index": 0,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h08Q09",
+          "question": "Which is a color meaning 'white'?",
+          "options": [
+            "desk",
+            "apple",
+            "car",
+            "white"
+          ],
+          "answer_index": 3,
+          "answer_text": "white",
+          "explanation": "'white' is a color."
+        },
+        {
+          "id": "E5h08Q10",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "car",
+            "desk",
+            "blue",
+            "apple"
+          ],
+          "answer_index": 2,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "E5h08Q11",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dresses",
+            "dress",
+            "dressing",
+            "dresss"
+          ],
+          "answer_index": 0,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h08Q12",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafs",
+            "leaf",
+            "leafing",
+            "leaves"
+          ],
+          "answer_index": 3,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h08Q13",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "book",
+            "cat",
+            "table",
+            "big"
+          ],
+          "answer_index": 3,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "E5h08Q14",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "table",
+            "cat",
+            "small",
+            "book"
+          ],
+          "answer_index": 2,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h08Q15",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "a",
+            "an",
+            "47",
+            "the"
+          ],
+          "answer_index": 0,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h08Q16",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "car",
+            "blue",
+            "apple",
+            "desk"
+          ],
+          "answer_index": 1,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "E5h08Q17",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "in",
+            "under",
+            "on"
+          ],
+          "answer_index": 3,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h08Q18",
+          "question": "Choose the article: __ apple",
+          "options": [
+            "the",
+            "32",
+            "an",
+            "a"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h08Q19",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "36",
+            "a",
+            "the",
+            "an"
+          ],
+          "answer_index": 3,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h08Q20",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "the",
+            "an",
+            "32",
+            "a"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_09",
+      "name": "Days",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h09Q01",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "the",
+            "a",
+            "26",
+            "an"
+          ],
+          "answer_index": 1,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h09Q02",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "the",
+            "37",
+            "a",
+            "an"
+          ],
+          "answer_index": 3,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h09Q03",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "16",
+            "an",
+            "the",
+            "a"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h09Q04",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "under",
+            "in",
+            "behind"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h09Q05",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "a",
+            "36",
+            "the",
+            "an"
+          ],
+          "answer_index": 3,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h09Q06",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "a",
+            "32",
+            "an",
+            "the"
+          ],
+          "answer_index": 0,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h09Q07",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leaf",
+            "leafs",
+            "leaves",
+            "leafing"
+          ],
+          "answer_index": 2,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h09Q08",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "an",
+            "49",
+            "a",
+            "the"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h09Q09",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "table",
+            "father",
+            "book",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h09Q10",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "on",
+            "in",
+            "behind"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h09Q11",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "father",
+            "table",
+            "cat",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h09Q12",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "desk",
+            "apple",
+            "car",
+            "green"
+          ],
+          "answer_index": 3,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "E5h09Q13",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "apple",
+            "car",
+            "yellow",
+            "desk"
+          ],
+          "answer_index": 2,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "E5h09Q14",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "desk",
+            "car",
+            "apple",
+            "green"
+          ],
+          "answer_index": 3,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "E5h09Q15",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "on",
+            "in",
+            "under"
+          ],
+          "answer_index": 3,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h09Q16",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "small",
+            "table",
+            "book",
+            "cat"
+          ],
+          "answer_index": 0,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h09Q17",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "desk",
+            "apple",
+            "car",
+            "yellow"
+          ],
+          "answer_index": 3,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "E5h09Q18",
+          "question": "Plural of 'box' is __",
+          "options": [
+            "boxs",
+            "box",
+            "boxes",
+            "boxing"
+          ],
+          "answer_index": 2,
+          "answer_text": "boxes",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h09Q19",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "the",
+            "an",
+            "a",
+            "24"
+          ],
+          "answer_index": 2,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h09Q20",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "table",
+            "happy",
+            "cat",
+            "book"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_10",
+      "name": "Months",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h10Q01",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "behind",
+            "on",
+            "in"
+          ],
+          "answer_index": 3,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h10Q02",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "on",
+            "behind",
+            "under"
+          ],
+          "answer_index": 3,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h10Q03",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "in",
+            "on",
+            "behind"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h10Q04",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "under",
+            "on",
+            "in"
+          ],
+          "answer_index": 2,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h10Q05",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafing",
+            "leaf",
+            "leafs",
+            "leaves"
+          ],
+          "answer_index": 3,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h10Q06",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafing",
+            "leaf",
+            "leafs",
+            "leaves"
+          ],
+          "answer_index": 3,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h10Q07",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "car",
+            "apple",
+            "green",
+            "desk"
+          ],
+          "answer_index": 2,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "E5h10Q08",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "apple",
+            "desk",
+            "car",
+            "blue"
+          ],
+          "answer_index": 3,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "E5h10Q09",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "car",
+            "red",
+            "desk",
+            "apple"
+          ],
+          "answer_index": 1,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h10Q10",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "behind",
+            "under",
+            "on"
+          ],
+          "answer_index": 3,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h10Q11",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "36",
+            "cats",
+            "cat",
+            "cating"
+          ],
+          "answer_index": 1,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h10Q12",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "cat",
+            "table",
+            "book",
+            "small"
+          ],
+          "answer_index": 3,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h10Q13",
+          "question": "Which is a color meaning 'black'?",
+          "options": [
+            "apple",
+            "car",
+            "black",
+            "desk"
+          ],
+          "answer_index": 2,
+          "answer_text": "black",
+          "explanation": "'black' is a color."
+        },
+        {
+          "id": "E5h10Q14",
+          "question": "Plural of 'box' is __",
+          "options": [
+            "box",
+            "boxing",
+            "boxs",
+            "boxes"
+          ],
+          "answer_index": 3,
+          "answer_text": "boxes",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h10Q15",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "cat",
+            "father",
+            "book",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h10Q16",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "bus",
+            "buss",
+            "buses",
+            "busing"
+          ],
+          "answer_index": 2,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h10Q17",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "table",
+            "happy",
+            "cat",
+            "book"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h10Q18",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "25",
+            "a",
+            "an",
+            "the"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h10Q19",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "the",
+            "a",
+            "an",
+            "9"
+          ],
+          "answer_index": 1,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h10Q20",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "car",
+            "apple",
+            "desk",
+            "red"
+          ],
+          "answer_index": 3,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_11",
+      "name": "Prepositions",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h11Q01",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "an",
+            "the",
+            "0",
+            "a"
+          ],
+          "answer_index": 3,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h11Q02",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "car",
+            "apple",
+            "desk",
+            "red"
+          ],
+          "answer_index": 3,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h11Q03",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "a",
+            "the",
+            "37",
+            "an"
+          ],
+          "answer_index": 0,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h11Q04",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "car",
+            "apple",
+            "desk",
+            "red"
+          ],
+          "answer_index": 3,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h11Q05",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leaves",
+            "leaf",
+            "leafs",
+            "leafing"
+          ],
+          "answer_index": 0,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h11Q06",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "under",
+            "behind",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h11Q07",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "41",
+            "cat",
+            "cating",
+            "cats"
+          ],
+          "answer_index": 3,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h11Q08",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "table",
+            "book",
+            "father",
+            "cat"
+          ],
+          "answer_index": 2,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h11Q09",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "an",
+            "a",
+            "the",
+            "46"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h11Q10",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "under",
+            "behind",
+            "on"
+          ],
+          "answer_index": 0,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h11Q11",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "cat",
+            "table",
+            "big",
+            "book"
+          ],
+          "answer_index": 2,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "E5h11Q12",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "cat",
+            "book",
+            "father",
+            "table"
+          ],
+          "answer_index": 2,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h11Q13",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "apple",
+            "blue",
+            "desk",
+            "car"
+          ],
+          "answer_index": 1,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "E5h11Q14",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "behind",
+            "on",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h11Q15",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "mother",
+            "table",
+            "cat",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h11Q16",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dresss",
+            "dress",
+            "dresses",
+            "dressing"
+          ],
+          "answer_index": 2,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h11Q17",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "an",
+            "a",
+            "the",
+            "0"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h11Q18",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dressing",
+            "dresss",
+            "dresses",
+            "dress"
+          ],
+          "answer_index": 2,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h11Q19",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "yellow",
+            "desk",
+            "car",
+            "apple"
+          ],
+          "answer_index": 0,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "E5h11Q20",
+          "question": "Which is a color meaning 'black'?",
+          "options": [
+            "apple",
+            "desk",
+            "car",
+            "black"
+          ],
+          "answer_index": 3,
+          "answer_text": "black",
+          "explanation": "'black' is a color."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_12",
+      "name": "A/An",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h12Q01",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cating",
+            "cat",
+            "cats",
+            "38"
+          ],
+          "answer_index": 2,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h12Q02",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "blue",
+            "apple",
+            "desk",
+            "car"
+          ],
+          "answer_index": 0,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "E5h12Q03",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "on",
+            "under",
+            "in"
+          ],
+          "answer_index": 2,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h12Q04",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "under",
+            "in",
+            "on"
+          ],
+          "answer_index": 3,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h12Q05",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "27",
+            "an",
+            "a",
+            "the"
+          ],
+          "answer_index": 2,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h12Q06",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "table",
+            "father",
+            "cat",
+            "book"
+          ],
+          "answer_index": 1,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h12Q07",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "green",
+            "desk",
+            "apple",
+            "car"
+          ],
+          "answer_index": 0,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "E5h12Q08",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "on",
+            "behind",
+            "in"
+          ],
+          "answer_index": 3,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h12Q09",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "the",
+            "a",
+            "an",
+            "15"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h12Q10",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "on",
+            "behind",
+            "under"
+          ],
+          "answer_index": 3,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h12Q11",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "desk",
+            "blue",
+            "apple",
+            "car"
+          ],
+          "answer_index": 1,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "E5h12Q12",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "apple",
+            "car",
+            "desk",
+            "red"
+          ],
+          "answer_index": 3,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h12Q13",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "the",
+            "0",
+            "an",
+            "a"
+          ],
+          "answer_index": 3,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h12Q14",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "behind",
+            "on",
+            "in"
+          ],
+          "answer_index": 3,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h12Q15",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "apple",
+            "desk",
+            "car",
+            "red"
+          ],
+          "answer_index": 3,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h12Q16",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "behind",
+            "on",
+            "under"
+          ],
+          "answer_index": 2,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h12Q17",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "bus",
+            "buses",
+            "buss",
+            "busing"
+          ],
+          "answer_index": 1,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h12Q18",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "happy",
+            "cat",
+            "table",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h12Q19",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "father",
+            "table",
+            "book",
+            "cat"
+          ],
+          "answer_index": 0,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h12Q20",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dresses",
+            "dressing",
+            "dresss",
+            "dress"
+          ],
+          "answer_index": 0,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_13",
+      "name": "This/That",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h13Q01",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "apple",
+            "desk",
+            "green",
+            "car"
+          ],
+          "answer_index": 2,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "E5h13Q02",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "cat",
+            "big",
+            "book",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "E5h13Q03",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "under",
+            "in",
+            "behind"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h13Q04",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "a",
+            "an",
+            "34",
+            "the"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h13Q05",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "apple",
+            "car",
+            "yellow",
+            "desk"
+          ],
+          "answer_index": 2,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "E5h13Q06",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "apple",
+            "yellow",
+            "desk",
+            "car"
+          ],
+          "answer_index": 1,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "E5h13Q07",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "an",
+            "a",
+            "the",
+            "29"
+          ],
+          "answer_index": 1,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h13Q08",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "a",
+            "an",
+            "36",
+            "the"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h13Q09",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "in",
+            "behind",
+            "under"
+          ],
+          "answer_index": 3,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h13Q10",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cats",
+            "cating",
+            "cat",
+            "1"
+          ],
+          "answer_index": 0,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h13Q11",
+          "question": "Which is a color meaning 'black'?",
+          "options": [
+            "black",
+            "apple",
+            "desk",
+            "car"
+          ],
+          "answer_index": 0,
+          "answer_text": "black",
+          "explanation": "'black' is a color."
+        },
+        {
+          "id": "E5h13Q12",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "table",
+            "cat",
+            "book",
+            "father"
+          ],
+          "answer_index": 3,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h13Q13",
+          "question": "Which is a color meaning 'black'?",
+          "options": [
+            "car",
+            "apple",
+            "desk",
+            "black"
+          ],
+          "answer_index": 3,
+          "answer_text": "black",
+          "explanation": "'black' is a color."
+        },
+        {
+          "id": "E5h13Q14",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "happy",
+            "cat",
+            "table",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h13Q15",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "10",
+            "an",
+            "a",
+            "the"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h13Q16",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "cat",
+            "book",
+            "mother",
+            "table"
+          ],
+          "answer_index": 2,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h13Q17",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "an",
+            "the",
+            "a",
+            "22"
+          ],
+          "answer_index": 2,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h13Q18",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "cat",
+            "big",
+            "table",
+            "book"
+          ],
+          "answer_index": 1,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "E5h13Q19",
+          "question": "Which is a color meaning 'white'?",
+          "options": [
+            "apple",
+            "white",
+            "car",
+            "desk"
+          ],
+          "answer_index": 1,
+          "answer_text": "white",
+          "explanation": "'white' is a color."
+        },
+        {
+          "id": "E5h13Q20",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "buses",
+            "busing",
+            "bus",
+            "buss"
+          ],
+          "answer_index": 0,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_14",
+      "name": "Simple verbs",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h14Q01",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "the",
+            "an",
+            "12",
+            "a"
+          ],
+          "answer_index": 3,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h14Q02",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cats",
+            "cat",
+            "6",
+            "cating"
+          ],
+          "answer_index": 0,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h14Q03",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "in",
+            "under",
+            "on"
+          ],
+          "answer_index": 2,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h14Q04",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "bus",
+            "busing",
+            "buses",
+            "buss"
+          ],
+          "answer_index": 2,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h14Q05",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "on",
+            "in",
+            "behind"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h14Q06",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "bus",
+            "buses",
+            "busing",
+            "buss"
+          ],
+          "answer_index": 1,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h14Q07",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "book",
+            "mother",
+            "table",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h14Q08",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "green",
+            "car",
+            "desk",
+            "apple"
+          ],
+          "answer_index": 0,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "E5h14Q09",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "small",
+            "cat",
+            "book",
+            "table"
+          ],
+          "answer_index": 0,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h14Q10",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "on",
+            "in",
+            "behind"
+          ],
+          "answer_index": 1,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h14Q11",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "buss",
+            "busing",
+            "buses",
+            "bus"
+          ],
+          "answer_index": 2,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h14Q12",
+          "question": "Which is a color meaning 'white'?",
+          "options": [
+            "desk",
+            "apple",
+            "white",
+            "car"
+          ],
+          "answer_index": 2,
+          "answer_text": "white",
+          "explanation": "'white' is a color."
+        },
+        {
+          "id": "E5h14Q13",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "on",
+            "under",
+            "behind"
+          ],
+          "answer_index": 1,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h14Q14",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "in",
+            "under",
+            "on"
+          ],
+          "answer_index": 2,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h14Q15",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafs",
+            "leafing",
+            "leaf",
+            "leaves"
+          ],
+          "answer_index": 3,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h14Q16",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "under",
+            "in",
+            "on"
+          ],
+          "answer_index": 3,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h14Q17",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "the",
+            "a",
+            "an",
+            "42"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h14Q18",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "father",
+            "cat",
+            "book",
+            "table"
+          ],
+          "answer_index": 0,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h14Q19",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafing",
+            "leafs",
+            "leaves",
+            "leaf"
+          ],
+          "answer_index": 2,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h14Q20",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "an",
+            "the",
+            "30",
+            "a"
+          ],
+          "answer_index": 3,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_15",
+      "name": "Feelings",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h15Q01",
+          "question": "Which is a color meaning 'black'?",
+          "options": [
+            "black",
+            "desk",
+            "apple",
+            "car"
+          ],
+          "answer_index": 0,
+          "answer_text": "black",
+          "explanation": "'black' is a color."
+        },
+        {
+          "id": "E5h15Q02",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "buss",
+            "busing",
+            "buses",
+            "bus"
+          ],
+          "answer_index": 2,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h15Q03",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "behind",
+            "on",
+            "under"
+          ],
+          "answer_index": 2,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h15Q04",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "the",
+            "an",
+            "39",
+            "a"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h15Q05",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "car",
+            "desk",
+            "apple",
+            "red"
+          ],
+          "answer_index": 3,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h15Q06",
+          "question": "Choose the article: __ apple",
+          "options": [
+            "39",
+            "an",
+            "a",
+            "the"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h15Q07",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "desk",
+            "green",
+            "car",
+            "apple"
+          ],
+          "answer_index": 1,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "E5h15Q08",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "under",
+            "behind",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h15Q09",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "the",
+            "a",
+            "an",
+            "44"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h15Q10",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "the",
+            "an",
+            "a",
+            "16"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h15Q11",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "car",
+            "apple",
+            "desk",
+            "red"
+          ],
+          "answer_index": 3,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h15Q12",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dress",
+            "dresses",
+            "dressing",
+            "dresss"
+          ],
+          "answer_index": 1,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h15Q13",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "buses",
+            "buss",
+            "busing",
+            "bus"
+          ],
+          "answer_index": 0,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h15Q14",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "10",
+            "cat",
+            "cating",
+            "cats"
+          ],
+          "answer_index": 3,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h15Q15",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dressing",
+            "dresses",
+            "dress",
+            "dresss"
+          ],
+          "answer_index": 1,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h15Q16",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "small",
+            "cat",
+            "table",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h15Q17",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "car",
+            "apple",
+            "desk",
+            "yellow"
+          ],
+          "answer_index": 3,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "E5h15Q18",
+          "question": "Plural of 'box' is __",
+          "options": [
+            "boxes",
+            "box",
+            "boxs",
+            "boxing"
+          ],
+          "answer_index": 0,
+          "answer_text": "boxes",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h15Q19",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "small",
+            "table",
+            "book",
+            "cat"
+          ],
+          "answer_index": 0,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h15Q20",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "behind",
+            "under",
+            "in"
+          ],
+          "answer_index": 3,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_16",
+      "name": "Body parts",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h16Q01",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dressing",
+            "dress",
+            "dresses",
+            "dresss"
+          ],
+          "answer_index": 2,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h16Q02",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "book",
+            "father",
+            "table",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h16Q03",
+          "question": "Choose the article: __ apple",
+          "options": [
+            "a",
+            "3",
+            "an",
+            "the"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h16Q04",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "in",
+            "under",
+            "on"
+          ],
+          "answer_index": 1,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h16Q05",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "an",
+            "22",
+            "a",
+            "the"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h16Q06",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "desk",
+            "car",
+            "red",
+            "apple"
+          ],
+          "answer_index": 2,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h16Q07",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "42"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h16Q08",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "apple",
+            "desk",
+            "red",
+            "car"
+          ],
+          "answer_index": 2,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h16Q09",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "an",
+            "38",
+            "the",
+            "a"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h16Q10",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "happy",
+            "table",
+            "cat",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h16Q11",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "34",
+            "the",
+            "an",
+            "a"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h16Q12",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "car",
+            "apple",
+            "desk",
+            "blue"
+          ],
+          "answer_index": 3,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "E5h16Q13",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "mother",
+            "cat",
+            "table",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h16Q14",
+          "question": "Which is a color meaning 'black'?",
+          "options": [
+            "black",
+            "car",
+            "apple",
+            "desk"
+          ],
+          "answer_index": 0,
+          "answer_text": "black",
+          "explanation": "'black' is a color."
+        },
+        {
+          "id": "E5h16Q15",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "red",
+            "apple",
+            "desk",
+            "car"
+          ],
+          "answer_index": 0,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h16Q16",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "on",
+            "behind",
+            "under"
+          ],
+          "answer_index": 1,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h16Q17",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "under",
+            "in",
+            "on"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h16Q18",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "book",
+            "cat",
+            "table",
+            "big"
+          ],
+          "answer_index": 3,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "E5h16Q19",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "the",
+            "11",
+            "an",
+            "a"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h16Q20",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dresses",
+            "dress",
+            "dresss",
+            "dressing"
+          ],
+          "answer_index": 0,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_17",
+      "name": "Rooms",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h17Q01",
+          "question": "Choose the article: __ apple",
+          "options": [
+            "30",
+            "the",
+            "an",
+            "a"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h17Q02",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "cat",
+            "big",
+            "table",
+            "book"
+          ],
+          "answer_index": 1,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "E5h17Q03",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "mother",
+            "table",
+            "cat",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h17Q04",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "table",
+            "happy",
+            "book",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h17Q05",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "44",
+            "the",
+            "a",
+            "an"
+          ],
+          "answer_index": 3,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h17Q06",
+          "question": "Which is a color meaning 'white'?",
+          "options": [
+            "white",
+            "car",
+            "desk",
+            "apple"
+          ],
+          "answer_index": 0,
+          "answer_text": "white",
+          "explanation": "'white' is a color."
+        },
+        {
+          "id": "E5h17Q07",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "in",
+            "on",
+            "under"
+          ],
+          "answer_index": 3,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h17Q08",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dresses",
+            "dress",
+            "dresss",
+            "dressing"
+          ],
+          "answer_index": 0,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h17Q09",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "table",
+            "happy",
+            "book",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h17Q10",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "book",
+            "mother",
+            "table",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h17Q11",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "cat",
+            "book",
+            "happy",
+            "table"
+          ],
+          "answer_index": 2,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h17Q12",
+          "question": "Which is a color meaning 'white'?",
+          "options": [
+            "car",
+            "white",
+            "desk",
+            "apple"
+          ],
+          "answer_index": 1,
+          "answer_text": "white",
+          "explanation": "'white' is a color."
+        },
+        {
+          "id": "E5h17Q13",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "on",
+            "under",
+            "behind"
+          ],
+          "answer_index": 1,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h17Q14",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "under",
+            "on",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h17Q15",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "desk",
+            "red",
+            "apple",
+            "car"
+          ],
+          "answer_index": 1,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h17Q16",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "on",
+            "in",
+            "under"
+          ],
+          "answer_index": 1,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h17Q17",
+          "question": "Which is a color meaning 'white'?",
+          "options": [
+            "car",
+            "desk",
+            "white",
+            "apple"
+          ],
+          "answer_index": 2,
+          "answer_text": "white",
+          "explanation": "'white' is a color."
+        },
+        {
+          "id": "E5h17Q18",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "book",
+            "table",
+            "cat",
+            "father"
+          ],
+          "answer_index": 3,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h17Q19",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "table",
+            "cat",
+            "book",
+            "father"
+          ],
+          "answer_index": 3,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h17Q20",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "yellow",
+            "car",
+            "desk",
+            "apple"
+          ],
+          "answer_index": 0,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_18",
+      "name": "Fruits",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h18Q01",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "on",
+            "under",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h18Q02",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "red",
+            "apple",
+            "desk",
+            "car"
+          ],
+          "answer_index": 0,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h18Q03",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "book",
+            "happy",
+            "cat",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h18Q04",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "under",
+            "on",
+            "in"
+          ],
+          "answer_index": 3,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h18Q05",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "in",
+            "on",
+            "under"
+          ],
+          "answer_index": 3,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h18Q06",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "apple",
+            "desk",
+            "car",
+            "yellow"
+          ],
+          "answer_index": 3,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "E5h18Q07",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "on",
+            "in",
+            "under"
+          ],
+          "answer_index": 3,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h18Q08",
+          "question": "Which is a color meaning 'white'?",
+          "options": [
+            "white",
+            "car",
+            "desk",
+            "apple"
+          ],
+          "answer_index": 0,
+          "answer_text": "white",
+          "explanation": "'white' is a color."
+        },
+        {
+          "id": "E5h18Q09",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dressing",
+            "dresss",
+            "dress",
+            "dresses"
+          ],
+          "answer_index": 3,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h18Q10",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "in",
+            "on",
+            "under"
+          ],
+          "answer_index": 1,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h18Q11",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "on",
+            "in",
+            "under"
+          ],
+          "answer_index": 1,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h18Q12",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "car",
+            "apple",
+            "red",
+            "desk"
+          ],
+          "answer_index": 2,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h18Q13",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "25"
+          ],
+          "answer_index": 0,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h18Q14",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "an",
+            "11",
+            "the",
+            "a"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h18Q15",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "11",
+            "an",
+            "a",
+            "the"
+          ],
+          "answer_index": 2,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h18Q16",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "yellow",
+            "desk",
+            "apple",
+            "car"
+          ],
+          "answer_index": 0,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "E5h18Q17",
+          "question": "Plural of 'box' is __",
+          "options": [
+            "box",
+            "boxing",
+            "boxs",
+            "boxes"
+          ],
+          "answer_index": 3,
+          "answer_text": "boxes",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h18Q18",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "table",
+            "book",
+            "happy",
+            "cat"
+          ],
+          "answer_index": 2,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h18Q19",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "table",
+            "mother",
+            "book",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h18Q20",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dresses",
+            "dressing",
+            "dresss",
+            "dress"
+          ],
+          "answer_index": 0,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_19",
+      "name": "Transportation",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h19Q01",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "on",
+            "in",
+            "behind"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h19Q02",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cating",
+            "cats",
+            "5",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h19Q03",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "on",
+            "under",
+            "behind"
+          ],
+          "answer_index": 2,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h19Q04",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "small",
+            "table",
+            "book",
+            "cat"
+          ],
+          "answer_index": 0,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h19Q05",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "on",
+            "in",
+            "behind"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h19Q06",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "mother",
+            "book",
+            "table",
+            "cat"
+          ],
+          "answer_index": 0,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h19Q07",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "desk",
+            "car",
+            "red",
+            "apple"
+          ],
+          "answer_index": 2,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h19Q08",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "cat",
+            "book",
+            "happy",
+            "table"
+          ],
+          "answer_index": 2,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h19Q09",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "an",
+            "a",
+            "0",
+            "the"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h19Q10",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "an",
+            "50",
+            "a",
+            "the"
+          ],
+          "answer_index": 2,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h19Q11",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "a",
+            "44",
+            "the",
+            "an"
+          ],
+          "answer_index": 0,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h19Q12",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "table",
+            "cat",
+            "book",
+            "big"
+          ],
+          "answer_index": 3,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "E5h19Q13",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "the",
+            "an",
+            "24",
+            "a"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h19Q14",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "the",
+            "9",
+            "an",
+            "a"
+          ],
+          "answer_index": 3,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h19Q15",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "desk",
+            "car",
+            "apple",
+            "blue"
+          ],
+          "answer_index": 3,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "E5h19Q16",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "desk",
+            "apple",
+            "car",
+            "blue"
+          ],
+          "answer_index": 3,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "E5h19Q17",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "18"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h19Q18",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "the",
+            "14",
+            "an",
+            "a"
+          ],
+          "answer_index": 3,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h19Q19",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "car",
+            "red",
+            "apple",
+            "desk"
+          ],
+          "answer_index": 1,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "E5h19Q20",
+          "question": "Choose the article: __ apple",
+          "options": [
+            "an",
+            "15",
+            "the",
+            "a"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_20",
+      "name": "Hobbies",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5h20Q01",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "blue",
+            "car",
+            "apple",
+            "desk"
+          ],
+          "answer_index": 0,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "E5h20Q02",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "behind",
+            "on",
+            "in"
+          ],
+          "answer_index": 2,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h20Q03",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "buses",
+            "buss",
+            "busing",
+            "bus"
+          ],
+          "answer_index": 0,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h20Q04",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "under",
+            "on",
+            "behind"
+          ],
+          "answer_index": 2,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "E5h20Q05",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cating",
+            "cats",
+            "cat",
+            "33"
+          ],
+          "answer_index": 1,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h20Q06",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "book",
+            "table",
+            "happy",
+            "cat"
+          ],
+          "answer_index": 2,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "E5h20Q07",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "the",
+            "an",
+            "37",
+            "a"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h20Q08",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafing",
+            "leaf",
+            "leaves",
+            "leafs"
+          ],
+          "answer_index": 2,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h20Q09",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "book",
+            "table",
+            "cat",
+            "father"
+          ],
+          "answer_index": 3,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h20Q10",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "cat",
+            "father",
+            "table",
+            "book"
+          ],
+          "answer_index": 1,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h20Q11",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "a",
+            "an",
+            "22",
+            "the"
+          ],
+          "answer_index": 0,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h20Q12",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "mother",
+            "cat",
+            "table",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "E5h20Q13",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "an",
+            "a",
+            "14",
+            "the"
+          ],
+          "answer_index": 1,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h20Q14",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "book",
+            "cat",
+            "table",
+            "father"
+          ],
+          "answer_index": 3,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h20Q15",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "book",
+            "table",
+            "father",
+            "cat"
+          ],
+          "answer_index": 2,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "E5h20Q16",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "book",
+            "big",
+            "table",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "E5h20Q17",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "book",
+            "small",
+            "cat",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "E5h20Q18",
+          "question": "Choose the article: __ apple",
+          "options": [
+            "the",
+            "an",
+            "2",
+            "a"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "E5h20Q19",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cat",
+            "cating",
+            "41",
+            "cats"
+          ],
+          "answer_index": 3,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "E5h20Q20",
+          "question": "Plural of 'bus' is __",
+          "options": [
+            "bus",
+            "buses",
+            "busing",
+            "buss"
+          ],
+          "answer_index": 1,
+          "answer_text": "buses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        }
+      ]
+    }
+  ]
+}

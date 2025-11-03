@@ -1,0 +1,5351 @@
+{
+  "meta": {
+    "grade": 1,
+    "subject": "Khoa học Tự Nhiên",
+    "language": "vi",
+    "created_date": "2025-11-03",
+    "level": "hard"
+  },
+  "topics": [
+    {
+      "id": "SCI1_HARD_01",
+      "name": "Các giác quan",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h01Q01",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Có",
+            "Đúng",
+            "Sai",
+            "Không"
+          ],
+          "answer_index": 2,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h01Q02",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "da",
+            "mũi",
+            "mắt",
+            "tai"
+          ],
+          "answer_index": 3,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h01Q03",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Có",
+            "Đúng",
+            "Không",
+            "Sai"
+          ],
+          "answer_index": 1,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h01Q04",
+          "question": "Giác quan nào nhận biết 'mùi hương'?",
+          "options": [
+            "da",
+            "mũi",
+            "tai",
+            "mắt"
+          ],
+          "answer_index": 1,
+          "answer_text": "mũi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h01Q05",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h01Q06",
+          "question": "Giác quan nào nhận biết 'mùi hương'?",
+          "options": [
+            "tai",
+            "mắt",
+            "da",
+            "mũi"
+          ],
+          "answer_index": 3,
+          "answer_text": "mũi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h01Q07",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Có",
+            "Không",
+            "Đúng",
+            "Sai"
+          ],
+          "answer_index": 2,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h01Q08",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Không",
+            "Đúng",
+            "Có",
+            "Sai"
+          ],
+          "answer_index": 1,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h01Q09",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hoa hồng",
+            "Hòn đá",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h01Q10",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h01Q11",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Chim sẻ",
+            "Hòn đá",
+            "Hoa hồng"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h01Q12",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h01Q13",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h01Q14",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Bim bim",
+            "Chuối và sữa",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h01Q15",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "mắt",
+            "mũi",
+            "da",
+            "tai"
+          ],
+          "answer_index": 3,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h01Q16",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Có",
+            "Sai",
+            "Đúng",
+            "Không"
+          ],
+          "answer_index": 2,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h01Q17",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h01Q18",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hòn đá",
+            "Cái bàn",
+            "Hoa hồng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h01Q19",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Chim sẻ",
+            "Hoa hồng",
+            "Hòn đá"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h01Q20",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Không",
+            "Sai",
+            "Đúng",
+            "Có"
+          ],
+          "answer_index": 2,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_02",
+      "name": "Cơ thể khoẻ mạnh",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h02Q01",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Sai",
+            "Có",
+            "Đúng",
+            "Không"
+          ],
+          "answer_index": 2,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h02Q02",
+          "question": "Giác quan nào nhận biết 'mùi hương'?",
+          "options": [
+            "da",
+            "mắt",
+            "tai",
+            "mũi"
+          ],
+          "answer_index": 3,
+          "answer_text": "mũi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h02Q03",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h02Q04",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h02Q05",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Không",
+            "Có",
+            "Sai",
+            "Đúng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h02Q06",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên",
+            "Bim bim"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h02Q07",
+          "question": "Giác quan nào nhận biết 'vị ngọt'?",
+          "options": [
+            "mắt",
+            "mũi",
+            "lưỡi",
+            "tai"
+          ],
+          "answer_index": 2,
+          "answer_text": "lưỡi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h02Q08",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Có",
+            "Sai",
+            "Đúng",
+            "Không"
+          ],
+          "answer_index": 1,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h02Q09",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h02Q10",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "mắt",
+            "da",
+            "mũi",
+            "tai"
+          ],
+          "answer_index": 0,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h02Q11",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "mắt",
+            "tai",
+            "da",
+            "mũi"
+          ],
+          "answer_index": 2,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h02Q12",
+          "question": "Giác quan nào nhận biết 'vị ngọt'?",
+          "options": [
+            "lưỡi",
+            "tai",
+            "mũi",
+            "mắt"
+          ],
+          "answer_index": 0,
+          "answer_text": "lưỡi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h02Q13",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "da",
+            "mắt",
+            "mũi",
+            "tai"
+          ],
+          "answer_index": 0,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h02Q14",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "mũi",
+            "tai",
+            "da",
+            "mắt"
+          ],
+          "answer_index": 3,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h02Q15",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h02Q16",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Sai",
+            "Đúng",
+            "Có",
+            "Không"
+          ],
+          "answer_index": 1,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h02Q17",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "tai",
+            "da",
+            "mũi",
+            "mắt"
+          ],
+          "answer_index": 1,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h02Q18",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "mắt",
+            "mũi",
+            "da",
+            "tai"
+          ],
+          "answer_index": 0,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h02Q19",
+          "question": "Giác quan nào nhận biết 'vị ngọt'?",
+          "options": [
+            "tai",
+            "mắt",
+            "lưỡi",
+            "mũi"
+          ],
+          "answer_index": 2,
+          "answer_text": "lưỡi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h02Q20",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "da",
+            "tai",
+            "mắt",
+            "mũi"
+          ],
+          "answer_index": 0,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_03",
+      "name": "Vệ sinh cá nhân",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h03Q01",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hòn đá",
+            "Hoa hồng",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h03Q02",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "da",
+            "mũi",
+            "mắt",
+            "tai"
+          ],
+          "answer_index": 2,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h03Q03",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Chạy nhanh qua",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h03Q04",
+          "question": "Giác quan nào nhận biết 'mùi hương'?",
+          "options": [
+            "da",
+            "mũi",
+            "tai",
+            "mắt"
+          ],
+          "answer_index": 1,
+          "answer_text": "mũi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h03Q05",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Chim sẻ",
+            "Cái bàn",
+            "Hòn đá"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h03Q06",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Không cần quan sát",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h03Q07",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "mũi",
+            "tai",
+            "mắt",
+            "da"
+          ],
+          "answer_index": 2,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h03Q08",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Khoai tây chiên",
+            "Bim bim"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h03Q09",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Không",
+            "Có",
+            "Sai",
+            "Đúng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h03Q10",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Cái bàn",
+            "Chim sẻ",
+            "Hòn đá"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h03Q11",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "tai",
+            "da",
+            "mũi",
+            "mắt"
+          ],
+          "answer_index": 0,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h03Q12",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h03Q13",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h03Q14",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Chim sẻ",
+            "Cái bàn",
+            "Hoa hồng"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h03Q15",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Sai",
+            "Không",
+            "Đúng",
+            "Có"
+          ],
+          "answer_index": 0,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h03Q16",
+          "question": "Giác quan nào nhận biết 'vị ngọt'?",
+          "options": [
+            "tai",
+            "mắt",
+            "lưỡi",
+            "mũi"
+          ],
+          "answer_index": 2,
+          "answer_text": "lưỡi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h03Q17",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 0,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h03Q18",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Có",
+            "Không",
+            "Sai",
+            "Đúng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h03Q19",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Hoa hồng",
+            "Chim sẻ",
+            "Cái bàn"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h03Q20",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hòn đá",
+            "Chim sẻ",
+            "Hoa hồng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_04",
+      "name": "An toàn đường",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h04Q01",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "tai",
+            "mũi",
+            "mắt",
+            "da"
+          ],
+          "answer_index": 0,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h04Q02",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi",
+            "Không cần quan sát"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h04Q03",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Bim bim",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h04Q04",
+          "question": "Giác quan nào nhận biết 'vị ngọt'?",
+          "options": [
+            "tai",
+            "lưỡi",
+            "mắt",
+            "mũi"
+          ],
+          "answer_index": 1,
+          "answer_text": "lưỡi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h04Q05",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Không",
+            "Sai",
+            "Có",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h04Q06",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hoa hồng",
+            "Hòn đá",
+            "Cái bàn"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h04Q07",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Có",
+            "Không",
+            "Sai",
+            "Đúng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h04Q08",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên",
+            "Bim bim"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h04Q09",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Đúng",
+            "Không",
+            "Sai",
+            "Có"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h04Q10",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Cái bàn",
+            "Hòn đá",
+            "Hoa hồng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h04Q11",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Khoai tây chiên",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h04Q12",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "da",
+            "tai",
+            "mũi",
+            "mắt"
+          ],
+          "answer_index": 3,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h04Q13",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Hoa hồng",
+            "Cái bàn",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h04Q14",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "da",
+            "mắt",
+            "mũi",
+            "tai"
+          ],
+          "answer_index": 0,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h04Q15",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Bim bim",
+            "Khoai tây chiên",
+            "Kẹo và nước ngọt"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h04Q16",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Chim sẻ",
+            "Hoa hồng",
+            "Cái bàn"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h04Q17",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h04Q18",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h04Q19",
+          "question": "Giác quan nào nhận biết 'mùi hương'?",
+          "options": [
+            "da",
+            "mắt",
+            "tai",
+            "mũi"
+          ],
+          "answer_index": 3,
+          "answer_text": "mũi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h04Q20",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Hòn đá",
+            "Chim sẻ",
+            "Cái bàn"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_05",
+      "name": "Thực vật & động vật",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h05Q01",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h05Q02",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h05Q03",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h05Q04",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Đúng",
+            "Không",
+            "Sai",
+            "Có"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h05Q05",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Sai",
+            "Có",
+            "Đúng",
+            "Không"
+          ],
+          "answer_index": 2,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h05Q06",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Cái bàn",
+            "Chim sẻ",
+            "Hoa hồng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h05Q07",
+          "question": "Giác quan nào nhận biết 'vị ngọt'?",
+          "options": [
+            "mắt",
+            "lưỡi",
+            "mũi",
+            "tai"
+          ],
+          "answer_index": 1,
+          "answer_text": "lưỡi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h05Q08",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h05Q09",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "tai",
+            "da",
+            "mắt",
+            "mũi"
+          ],
+          "answer_index": 2,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h05Q10",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Cái bàn",
+            "Hòn đá",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h05Q11",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Hoa hồng",
+            "Chim sẻ",
+            "Cái bàn"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h05Q12",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h05Q13",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h05Q14",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hoa hồng",
+            "Cái bàn",
+            "Hòn đá"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h05Q15",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h05Q16",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hoa hồng",
+            "Chim sẻ",
+            "Hòn đá"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h05Q17",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Có",
+            "Đúng",
+            "Sai",
+            "Không"
+          ],
+          "answer_index": 2,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h05Q18",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Bim bim",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h05Q19",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Bim bim",
+            "Khoai tây chiên",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h05Q20",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hoa hồng",
+            "Hòn đá",
+            "Cái bàn"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_06",
+      "name": "Nhu cầu của cây",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h06Q01",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Có",
+            "Không",
+            "Sai",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h06Q02",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "mũi",
+            "mắt",
+            "tai",
+            "da"
+          ],
+          "answer_index": 1,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h06Q03",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h06Q04",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Hoa hồng",
+            "Cái bàn",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h06Q05",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Khoai tây chiên",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h06Q06",
+          "question": "Giác quan nào nhận biết 'vị ngọt'?",
+          "options": [
+            "mắt",
+            "lưỡi",
+            "mũi",
+            "tai"
+          ],
+          "answer_index": 1,
+          "answer_text": "lưỡi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h06Q07",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "da",
+            "tai",
+            "mũi",
+            "mắt"
+          ],
+          "answer_index": 1,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h06Q08",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên",
+            "Chuối và sữa",
+            "Bim bim"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h06Q09",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "tai",
+            "mắt",
+            "da",
+            "mũi"
+          ],
+          "answer_index": 1,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h06Q10",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Chim sẻ",
+            "Hoa hồng",
+            "Hòn đá"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h06Q11",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Có",
+            "Sai",
+            "Không",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h06Q12",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Hòn đá",
+            "Cái bàn",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h06Q13",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "mắt",
+            "tai",
+            "mũi",
+            "da"
+          ],
+          "answer_index": 3,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h06Q14",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Có",
+            "Không",
+            "Đúng",
+            "Sai"
+          ],
+          "answer_index": 3,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h06Q15",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Cái bàn",
+            "Hoa hồng",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h06Q16",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Sai",
+            "Đúng",
+            "Có",
+            "Không"
+          ],
+          "answer_index": 0,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h06Q17",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Đúng",
+            "Có",
+            "Sai",
+            "Không"
+          ],
+          "answer_index": 2,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h06Q18",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Bim bim",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h06Q19",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Cái bàn",
+            "Chim sẻ",
+            "Hòn đá"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h06Q20",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_07",
+      "name": "Nhu cầu của người",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h07Q01",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h07Q02",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "da",
+            "mũi",
+            "mắt",
+            "tai"
+          ],
+          "answer_index": 3,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h07Q03",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Không",
+            "Có",
+            "Đúng",
+            "Sai"
+          ],
+          "answer_index": 3,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h07Q04",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua",
+            "Không cần quan sát",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 0,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h07Q05",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "mũi",
+            "da",
+            "tai",
+            "mắt"
+          ],
+          "answer_index": 3,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h07Q06",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "mắt",
+            "tai",
+            "da",
+            "mũi"
+          ],
+          "answer_index": 2,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h07Q07",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hòn đá",
+            "Hoa hồng",
+            "Cái bàn"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h07Q08",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hoa hồng",
+            "Hòn đá",
+            "Cái bàn"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h07Q09",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Sai",
+            "Không",
+            "Có",
+            "Đúng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h07Q10",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hòn đá",
+            "Hoa hồng",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h07Q11",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Cái bàn",
+            "Hoa hồng",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h07Q12",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "mắt",
+            "da",
+            "tai",
+            "mũi"
+          ],
+          "answer_index": 0,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h07Q13",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h07Q14",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "mắt",
+            "mũi",
+            "da",
+            "tai"
+          ],
+          "answer_index": 2,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h07Q15",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h07Q16",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hòn đá",
+            "Chim sẻ",
+            "Hoa hồng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h07Q17",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Khoai tây chiên",
+            "Bim bim"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h07Q18",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h07Q19",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Chim sẻ",
+            "Cái bàn",
+            "Hoa hồng"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h07Q20",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_08",
+      "name": "Môi trường",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h08Q01",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Khoai tây chiên",
+            "Bim bim"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h08Q02",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h08Q03",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h08Q04",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h08Q05",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h08Q06",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Chuối và sữa",
+            "Khoai tây chiên",
+            "Kẹo và nước ngọt"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h08Q07",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Bim bim",
+            "Chuối và sữa",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h08Q08",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "da",
+            "mắt",
+            "tai",
+            "mũi"
+          ],
+          "answer_index": 1,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h08Q09",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Chim sẻ",
+            "Cái bàn",
+            "Hòn đá"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h08Q10",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Không",
+            "Có",
+            "Đúng",
+            "Sai"
+          ],
+          "answer_index": 2,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h08Q11",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hòn đá",
+            "Chim sẻ",
+            "Hoa hồng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h08Q12",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Bim bim",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h08Q13",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Cái bàn",
+            "Chim sẻ",
+            "Hòn đá"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h08Q14",
+          "question": "Giác quan nào nhận biết 'vị ngọt'?",
+          "options": [
+            "mắt",
+            "mũi",
+            "tai",
+            "lưỡi"
+          ],
+          "answer_index": 3,
+          "answer_text": "lưỡi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h08Q15",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Cái bàn",
+            "Hoa hồng",
+            "Hòn đá"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h08Q16",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "mũi",
+            "tai",
+            "da",
+            "mắt"
+          ],
+          "answer_index": 3,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h08Q17",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên",
+            "Bim bim",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h08Q18",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Cái bàn",
+            "Chim sẻ",
+            "Hòn đá"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h08Q19",
+          "question": "Giác quan nào nhận biết 'mùi hương'?",
+          "options": [
+            "mũi",
+            "da",
+            "tai",
+            "mắt"
+          ],
+          "answer_index": 0,
+          "answer_text": "mũi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h08Q20",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "tai",
+            "mũi",
+            "da",
+            "mắt"
+          ],
+          "answer_index": 2,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_09",
+      "name": "Thời tiết & Mùa",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h09Q01",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên",
+            "Chuối và sữa",
+            "Bim bim"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h09Q02",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h09Q03",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hòn đá",
+            "Chim sẻ",
+            "Hoa hồng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h09Q04",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h09Q05",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h09Q06",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h09Q07",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Bim bim"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h09Q08",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Cái bàn",
+            "Hòn đá",
+            "Hoa hồng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h09Q09",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hoa hồng",
+            "Hòn đá",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h09Q10",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Có",
+            "Không",
+            "Đúng",
+            "Sai"
+          ],
+          "answer_index": 2,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h09Q11",
+          "question": "Giác quan nào nhận biết 'vị ngọt'?",
+          "options": [
+            "mắt",
+            "mũi",
+            "tai",
+            "lưỡi"
+          ],
+          "answer_index": 3,
+          "answer_text": "lưỡi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h09Q12",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Chuối và sữa",
+            "Bim bim",
+            "Kẹo và nước ngọt"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h09Q13",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Bim bim",
+            "Chuối và sữa",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h09Q14",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Cái bàn",
+            "Hòn đá",
+            "Hoa hồng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h09Q15",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua",
+            "Không cần quan sát",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 0,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h09Q16",
+          "question": "Giác quan nào nhận biết 'vị ngọt'?",
+          "options": [
+            "mắt",
+            "lưỡi",
+            "mũi",
+            "tai"
+          ],
+          "answer_index": 1,
+          "answer_text": "lưỡi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h09Q17",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Chim sẻ",
+            "Hoa hồng",
+            "Hòn đá"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h09Q18",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h09Q19",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Có",
+            "Đúng",
+            "Sai",
+            "Không"
+          ],
+          "answer_index": 2,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h09Q20",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Hòn đá",
+            "Cái bàn",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_10",
+      "name": "Nước & Không khí",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h10Q01",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h10Q02",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Không",
+            "Đúng",
+            "Sai",
+            "Có"
+          ],
+          "answer_index": 1,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h10Q03",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Sai",
+            "Đúng",
+            "Không",
+            "Có"
+          ],
+          "answer_index": 0,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h10Q04",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Có",
+            "Không",
+            "Đúng",
+            "Sai"
+          ],
+          "answer_index": 3,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h10Q05",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Khoai tây chiên",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h10Q06",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Hoa hồng",
+            "Cái bàn",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h10Q07",
+          "question": "Giác quan nào nhận biết 'mùi hương'?",
+          "options": [
+            "mắt",
+            "tai",
+            "da",
+            "mũi"
+          ],
+          "answer_index": 3,
+          "answer_text": "mũi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h10Q08",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Đúng",
+            "Sai",
+            "Không",
+            "Có"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h10Q09",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "mắt",
+            "tai",
+            "mũi",
+            "da"
+          ],
+          "answer_index": 3,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h10Q10",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Có",
+            "Không",
+            "Sai",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h10Q11",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hoa hồng",
+            "Cái bàn",
+            "Hòn đá"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h10Q12",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "tai",
+            "da",
+            "mũi",
+            "mắt"
+          ],
+          "answer_index": 0,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h10Q13",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Không cần quan sát"
+          ],
+          "answer_index": 0,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h10Q14",
+          "question": "Giác quan nào nhận biết 'mùi hương'?",
+          "options": [
+            "tai",
+            "mắt",
+            "mũi",
+            "da"
+          ],
+          "answer_index": 2,
+          "answer_text": "mũi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h10Q15",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hoa hồng",
+            "Hòn đá",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h10Q16",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h10Q17",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 0,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h10Q18",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "mắt",
+            "da",
+            "tai",
+            "mũi"
+          ],
+          "answer_index": 2,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h10Q19",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Đúng",
+            "Sai",
+            "Có",
+            "Không"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h10Q20",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Chim sẻ",
+            "Hòn đá",
+            "Hoa hồng"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_11",
+      "name": "Chất rắn/lỏng/khí",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h11Q01",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "mũi",
+            "da",
+            "tai",
+            "mắt"
+          ],
+          "answer_index": 1,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h11Q02",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Chạy nhanh qua",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h11Q03",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Cái bàn",
+            "Hoa hồng",
+            "Hòn đá"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h11Q04",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h11Q05",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "da",
+            "tai",
+            "mắt",
+            "mũi"
+          ],
+          "answer_index": 0,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h11Q06",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Hoa hồng",
+            "Cái bàn",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h11Q07",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Hoa hồng",
+            "Cái bàn",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h11Q08",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Hòn đá",
+            "Chim sẻ",
+            "Cái bàn"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h11Q09",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Hòn đá",
+            "Chim sẻ",
+            "Cái bàn"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h11Q10",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Khoai tây chiên",
+            "Bim bim",
+            "Kẹo và nước ngọt"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h11Q11",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hoa hồng",
+            "Hòn đá",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h11Q12",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h11Q13",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hòn đá",
+            "Cái bàn",
+            "Hoa hồng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h11Q14",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hòn đá",
+            "Chim sẻ",
+            "Hoa hồng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h11Q15",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "mũi",
+            "tai",
+            "mắt",
+            "da"
+          ],
+          "answer_index": 3,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h11Q16",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Bim bim",
+            "Chuối và sữa",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h11Q17",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Sai",
+            "Có",
+            "Không",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h11Q18",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Sai",
+            "Không",
+            "Đúng",
+            "Có"
+          ],
+          "answer_index": 0,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h11Q19",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h11Q20",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Khoai tây chiên",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_12",
+      "name": "Bảo vệ môi trường",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h12Q01",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Cái bàn",
+            "Hoa hồng",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h12Q02",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "da",
+            "mũi",
+            "mắt",
+            "tai"
+          ],
+          "answer_index": 3,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h12Q03",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hoa hồng",
+            "Hòn đá",
+            "Cái bàn"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h12Q04",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hoa hồng",
+            "Hòn đá",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h12Q05",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Chim sẻ",
+            "Hoa hồng",
+            "Hòn đá"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h12Q06",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Sai",
+            "Không",
+            "Có",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h12Q07",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h12Q08",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Không",
+            "Đúng",
+            "Sai",
+            "Có"
+          ],
+          "answer_index": 1,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h12Q09",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "mũi",
+            "mắt",
+            "tai",
+            "da"
+          ],
+          "answer_index": 1,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h12Q10",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Đúng",
+            "Không",
+            "Có",
+            "Sai"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h12Q11",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Không cần quan sát"
+          ],
+          "answer_index": 0,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h12Q12",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Không",
+            "Đúng",
+            "Sai",
+            "Có"
+          ],
+          "answer_index": 1,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h12Q13",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "mũi",
+            "tai",
+            "da",
+            "mắt"
+          ],
+          "answer_index": 1,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h12Q14",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Sai",
+            "Không",
+            "Đúng",
+            "Có"
+          ],
+          "answer_index": 0,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h12Q15",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Có",
+            "Đúng",
+            "Không",
+            "Sai"
+          ],
+          "answer_index": 3,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h12Q16",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Cái bàn",
+            "Chim sẻ",
+            "Hoa hồng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h12Q17",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi",
+            "Không cần quan sát"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h12Q18",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h12Q19",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Chim sẻ",
+            "Hòn đá",
+            "Hoa hồng"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h12Q20",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Nhắm mắt đi",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_13",
+      "name": "Tiết kiệm năng lượng",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h13Q01",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Chim sẻ",
+            "Hòn đá",
+            "Hoa hồng"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h13Q02",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Cái bàn",
+            "Chim sẻ",
+            "Hoa hồng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h13Q03",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Không cần quan sát"
+          ],
+          "answer_index": 0,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h13Q04",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "da",
+            "tai",
+            "mắt",
+            "mũi"
+          ],
+          "answer_index": 2,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h13Q05",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Không",
+            "Sai",
+            "Đúng",
+            "Có"
+          ],
+          "answer_index": 1,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h13Q06",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Có",
+            "Sai",
+            "Không",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h13Q07",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Không",
+            "Đúng",
+            "Sai",
+            "Có"
+          ],
+          "answer_index": 2,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h13Q08",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h13Q09",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Có",
+            "Sai",
+            "Không",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h13Q10",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h13Q11",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Sai",
+            "Không",
+            "Đúng",
+            "Có"
+          ],
+          "answer_index": 2,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h13Q12",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Kẹo và nước ngọt",
+            "Bim bim",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h13Q13",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Không",
+            "Có",
+            "Sai",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h13Q14",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Không",
+            "Có",
+            "Đúng",
+            "Sai"
+          ],
+          "answer_index": 2,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h13Q15",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi",
+            "Không cần quan sát"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h13Q16",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Hoa hồng",
+            "Cái bàn",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h13Q17",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Có",
+            "Đúng",
+            "Không",
+            "Sai"
+          ],
+          "answer_index": 3,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h13Q18",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Đúng",
+            "Có",
+            "Sai",
+            "Không"
+          ],
+          "answer_index": 2,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h13Q19",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Nhắm mắt đi",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h13Q20",
+          "question": "Giác quan nào nhận biết 'vị ngọt'?",
+          "options": [
+            "mắt",
+            "tai",
+            "mũi",
+            "lưỡi"
+          ],
+          "answer_index": 3,
+          "answer_text": "lưỡi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_14",
+      "name": "Vòng đời",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h14Q01",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 0,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h14Q02",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Không",
+            "Có",
+            "Sai",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h14Q03",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "da",
+            "mắt",
+            "mũi",
+            "tai"
+          ],
+          "answer_index": 0,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h14Q04",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "mắt",
+            "tai",
+            "da",
+            "mũi"
+          ],
+          "answer_index": 1,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h14Q05",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Hòn đá",
+            "Chim sẻ",
+            "Cái bàn"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h14Q06",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Đúng",
+            "Không",
+            "Có",
+            "Sai"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h14Q07",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Hoa hồng",
+            "Chim sẻ",
+            "Cái bàn"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h14Q08",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Có",
+            "Đúng",
+            "Sai",
+            "Không"
+          ],
+          "answer_index": 1,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h14Q09",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi",
+            "Không cần quan sát"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h14Q10",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h14Q11",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h14Q12",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Không",
+            "Có",
+            "Đúng",
+            "Sai"
+          ],
+          "answer_index": 3,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h14Q13",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Chạy nhanh qua",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h14Q14",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h14Q15",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên",
+            "Bim bim"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h14Q16",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên",
+            "Bim bim"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h14Q17",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h14Q18",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Cái bàn",
+            "Hoa hồng",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h14Q19",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "tai",
+            "da",
+            "mũi",
+            "mắt"
+          ],
+          "answer_index": 0,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h14Q20",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Sai",
+            "Không",
+            "Đúng",
+            "Có"
+          ],
+          "answer_index": 0,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_15",
+      "name": "Thức ăn lành mạnh",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h15Q01",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Có",
+            "Sai",
+            "Không",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h15Q02",
+          "question": "Giác quan nào nhận biết 'mùi hương'?",
+          "options": [
+            "mũi",
+            "da",
+            "tai",
+            "mắt"
+          ],
+          "answer_index": 0,
+          "answer_text": "mũi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h15Q03",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h15Q04",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h15Q05",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Khoai tây chiên",
+            "Bim bim",
+            "Kẹo và nước ngọt"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h15Q06",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Không",
+            "Đúng",
+            "Có",
+            "Sai"
+          ],
+          "answer_index": 1,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h15Q07",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h15Q08",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h15Q09",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Khoai tây chiên",
+            "Bim bim"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h15Q10",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Đúng",
+            "Có",
+            "Không",
+            "Sai"
+          ],
+          "answer_index": 3,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h15Q11",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h15Q12",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Đúng",
+            "Sai",
+            "Không",
+            "Có"
+          ],
+          "answer_index": 1,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h15Q13",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Cái bàn",
+            "Hòn đá",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h15Q14",
+          "question": "Giác quan nào nhận biết 'mùi hương'?",
+          "options": [
+            "mũi",
+            "da",
+            "tai",
+            "mắt"
+          ],
+          "answer_index": 0,
+          "answer_text": "mũi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h15Q15",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h15Q16",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Sai",
+            "Không",
+            "Có",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h15Q17",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Có",
+            "Không",
+            "Sai",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h15Q18",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hòn đá",
+            "Cái bàn",
+            "Hoa hồng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h15Q19",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Hoa hồng",
+            "Cái bàn",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h15Q20",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 0,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_16",
+      "name": "Phân loại đồ vật",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h16Q01",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hòn đá",
+            "Hoa hồng",
+            "Cái bàn"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h16Q02",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hòn đá",
+            "Cái bàn",
+            "Hoa hồng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h16Q03",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h16Q04",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h16Q05",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Khoai tây chiên",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h16Q06",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h16Q07",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "tai",
+            "mắt",
+            "mũi",
+            "da"
+          ],
+          "answer_index": 3,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h16Q08",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Hoa hồng",
+            "Chim sẻ",
+            "Cái bàn"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h16Q09",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h16Q10",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Đúng",
+            "Có",
+            "Không",
+            "Sai"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h16Q11",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h16Q12",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hoa hồng",
+            "Cái bàn",
+            "Hòn đá"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h16Q13",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Khoai tây chiên",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h16Q14",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "mũi",
+            "mắt",
+            "tai",
+            "da"
+          ],
+          "answer_index": 3,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h16Q15",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h16Q16",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Chim sẻ",
+            "Hoa hồng",
+            "Hòn đá"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h16Q17",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h16Q18",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Hoa hồng",
+            "Chim sẻ",
+            "Cái bàn"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h16Q19",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Chim sẻ",
+            "Hòn đá",
+            "Cái bàn"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h16Q20",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_17",
+      "name": "Nam châm cơ bản",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h17Q01",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h17Q02",
+          "question": "Giác quan nào nhận biết 'mùi hương'?",
+          "options": [
+            "mắt",
+            "mũi",
+            "tai",
+            "da"
+          ],
+          "answer_index": 1,
+          "answer_text": "mũi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h17Q03",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Không",
+            "Có",
+            "Sai",
+            "Đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h17Q04",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h17Q05",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Kẹo và nước ngọt",
+            "Bim bim",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h17Q06",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Không",
+            "Sai",
+            "Có",
+            "Đúng"
+          ],
+          "answer_index": 1,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h17Q07",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h17Q08",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "tai",
+            "da",
+            "mắt",
+            "mũi"
+          ],
+          "answer_index": 0,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h17Q09",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "da",
+            "tai",
+            "mũi",
+            "mắt"
+          ],
+          "answer_index": 3,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h17Q10",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "da",
+            "mũi",
+            "mắt",
+            "tai"
+          ],
+          "answer_index": 3,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h17Q11",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "mũi",
+            "da",
+            "tai",
+            "mắt"
+          ],
+          "answer_index": 2,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h17Q12",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Không",
+            "Đúng",
+            "Có",
+            "Sai"
+          ],
+          "answer_index": 3,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h17Q13",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Khoai tây chiên",
+            "Bim bim"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h17Q14",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Cái bàn",
+            "Hòn đá",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h17Q15",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h17Q16",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "mắt",
+            "da",
+            "mũi",
+            "tai"
+          ],
+          "answer_index": 3,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h17Q17",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Bim bim",
+            "Chuối và sữa",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h17Q18",
+          "question": "Giác quan nào nhận biết 'mùi hương'?",
+          "options": [
+            "tai",
+            "mắt",
+            "da",
+            "mũi"
+          ],
+          "answer_index": 3,
+          "answer_text": "mũi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h17Q19",
+          "question": "Giác quan nào nhận biết 'vị ngọt'?",
+          "options": [
+            "mắt",
+            "mũi",
+            "tai",
+            "lưỡi"
+          ],
+          "answer_index": 3,
+          "answer_text": "lưỡi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h17Q20",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_18",
+      "name": "Mạch pin đơn giản",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h18Q01",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Cái bàn",
+            "Hòn đá",
+            "Hoa hồng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h18Q02",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Bim bim"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h18Q03",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hoa hồng",
+            "Chim sẻ",
+            "Hòn đá"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h18Q04",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "da",
+            "mũi",
+            "mắt",
+            "tai"
+          ],
+          "answer_index": 0,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h18Q05",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Cái bàn",
+            "Hòn đá",
+            "Hoa hồng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h18Q06",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hòn đá",
+            "Hoa hồng",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h18Q07",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "mũi",
+            "mắt",
+            "tai",
+            "da"
+          ],
+          "answer_index": 2,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h18Q08",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h18Q09",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Khoai tây chiên",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h18Q10",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Không cần quan sát",
+            "Nhắm mắt đi",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h18Q11",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Bim bim"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h18Q12",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi",
+            "Chạy nhanh qua",
+            "Không cần quan sát"
+          ],
+          "answer_index": 0,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h18Q13",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h18Q14",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h18Q15",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Bim bim",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h18Q16",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Bim bim",
+            "Khoai tây chiên",
+            "Kẹo và nước ngọt"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h18Q17",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hoa hồng",
+            "Cái bàn",
+            "Hòn đá"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h18Q18",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên",
+            "Bim bim"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h18Q19",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi",
+            "Chạy nhanh qua",
+            "Không cần quan sát"
+          ],
+          "answer_index": 0,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h18Q20",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Đúng",
+            "Không",
+            "Có",
+            "Sai"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_19",
+      "name": "Âm thanh to/nhỏ",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h19Q01",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Không",
+            "Đúng",
+            "Có",
+            "Sai"
+          ],
+          "answer_index": 1,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h19Q02",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Nhắm mắt đi",
+            "Không cần quan sát"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h19Q03",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Khoai tây chiên",
+            "Bim bim"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h19Q04",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hoa hồng",
+            "Hòn đá",
+            "Cái bàn"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h19Q05",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát",
+            "Nhắm mắt đi",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 0,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h19Q06",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "tai",
+            "da",
+            "mắt",
+            "mũi"
+          ],
+          "answer_index": 1,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h19Q07",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Không",
+            "Đúng",
+            "Có",
+            "Sai"
+          ],
+          "answer_index": 1,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h19Q08",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hòn đá",
+            "Cái bàn",
+            "Chim sẻ",
+            "Hoa hồng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h19Q09",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Đúng",
+            "Không",
+            "Có",
+            "Sai"
+          ],
+          "answer_index": 3,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h19Q10",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hoa hồng",
+            "Hòn đá",
+            "Cái bàn"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h19Q11",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Đúng",
+            "Sai",
+            "Có",
+            "Không"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h19Q12",
+          "question": "Giác quan nào nhận biết 'bề mặt mềm'?",
+          "options": [
+            "da",
+            "tai",
+            "mũi",
+            "mắt"
+          ],
+          "answer_index": 0,
+          "answer_text": "da",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h19Q13",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h19Q14",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Đúng",
+            "Có",
+            "Không",
+            "Sai"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h19Q15",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "mũi",
+            "mắt",
+            "tai",
+            "da"
+          ],
+          "answer_index": 2,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h19Q16",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Cái bàn",
+            "Hoa hồng",
+            "Hòn đá"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h19Q17",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h19Q18",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Chuối và sữa",
+            "Bim bim",
+            "Khoai tây chiên",
+            "Kẹo và nước ngọt"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h19Q19",
+          "question": "Giác quan nào nhận biết 'vị ngọt'?",
+          "options": [
+            "tai",
+            "mắt",
+            "mũi",
+            "lưỡi"
+          ],
+          "answer_index": 3,
+          "answer_text": "lưỡi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h19Q20",
+          "question": "Giác quan nào nhận biết 'ánh sáng'?",
+          "options": [
+            "da",
+            "mũi",
+            "tai",
+            "mắt"
+          ],
+          "answer_index": 3,
+          "answer_text": "mắt",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        }
+      ]
+    },
+    {
+      "id": "SCI1_HARD_20",
+      "name": "Ôn tập",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "S1h20Q01",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "mũi",
+            "mắt",
+            "tai",
+            "da"
+          ],
+          "answer_index": 2,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h20Q02",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Đúng",
+            "Không",
+            "Có",
+            "Sai"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h20Q03",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Khoai tây chiên",
+            "Kẹo và nước ngọt",
+            "Bim bim",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h20Q04",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Hoa hồng",
+            "Cái bàn",
+            "Hòn đá",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h20Q05",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Chim sẻ",
+            "Hoa hồng",
+            "Hòn đá",
+            "Cái bàn"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h20Q06",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hoa hồng",
+            "Chim sẻ",
+            "Hòn đá"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h20Q07",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hoa hồng",
+            "Hòn đá",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h20Q08",
+          "question": "Đúng hay Sai: Cây cần ánh sáng",
+          "options": [
+            "Sai",
+            "Không",
+            "Đúng",
+            "Có"
+          ],
+          "answer_index": 2,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h20Q09",
+          "question": "Cái nào là động vật?",
+          "options": [
+            "Cái bàn",
+            "Hòn đá",
+            "Hoa hồng",
+            "Chim sẻ"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chim sẻ",
+          "explanation": "Động vật khác với thực vật & vật vô tri."
+        },
+        {
+          "id": "S1h20Q10",
+          "question": "Giác quan nào nhận biết 'âm thanh'?",
+          "options": [
+            "mũi",
+            "mắt",
+            "da",
+            "tai"
+          ],
+          "answer_index": 3,
+          "answer_text": "tai",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h20Q11",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 1,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h20Q12",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Bim bim",
+            "Kẹo và nước ngọt",
+            "Chuối và sữa",
+            "Khoai tây chiên"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h20Q13",
+          "question": "Đúng hay Sai: Uống đủ nước giúp khỏe mạnh",
+          "options": [
+            "Không",
+            "Sai",
+            "Đúng",
+            "Có"
+          ],
+          "answer_index": 2,
+          "answer_text": "Đúng",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h20Q14",
+          "question": "Bữa sáng nào lành mạnh hơn?",
+          "options": [
+            "Kẹo và nước ngọt",
+            "Khoai tây chiên",
+            "Bim bim",
+            "Chuối và sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Chuối và sữa",
+          "explanation": "Ưu tiên trái cây, sữa; hạn chế đồ quá ngọt/chiên."
+        },
+        {
+          "id": "S1h20Q15",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Nhắm mắt đi",
+            "Không cần quan sát",
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Chạy nhanh qua"
+          ],
+          "answer_index": 2,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h20Q16",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Chạy nhanh qua",
+            "Không cần quan sát",
+            "Nhắm mắt đi",
+            "Quan sát đèn tín hiệu và nhìn hai bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        },
+        {
+          "id": "S1h20Q17",
+          "question": "Giác quan nào nhận biết 'mùi hương'?",
+          "options": [
+            "mũi",
+            "tai",
+            "mắt",
+            "da"
+          ],
+          "answer_index": 0,
+          "answer_text": "mũi",
+          "explanation": "Mỗi giác quan cảm nhận một loại kích thích."
+        },
+        {
+          "id": "S1h20Q18",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Đúng",
+            "Có",
+            "Sai",
+            "Không"
+          ],
+          "answer_index": 2,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h20Q19",
+          "question": "Đúng hay Sai: Qua đường không cần nhìn đèn tín hiệu",
+          "options": [
+            "Sai",
+            "Có",
+            "Không",
+            "Đúng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Sai",
+          "explanation": "Áp dụng quy tắc sức khỏe & an toàn cơ bản."
+        },
+        {
+          "id": "S1h20Q20",
+          "question": "Khi qua đường, em nên làm gì trước?",
+          "options": [
+            "Quan sát đèn tín hiệu và nhìn hai bên",
+            "Không cần quan sát",
+            "Chạy nhanh qua",
+            "Nhắm mắt đi"
+          ],
+          "answer_index": 0,
+          "answer_text": "Quan sát đèn tín hiệu và nhìn hai bên",
+          "explanation": "Quan sát để đảm bảo an toàn."
+        }
+      ]
+    }
+  ]
+}
