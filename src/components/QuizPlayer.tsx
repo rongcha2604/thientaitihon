@@ -1,5 +1,5 @@
 import { useMemo, useState, useEffect, useCallback, lazy, Suspense } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import type { SubjectBundle, Question } from "../types";
 import QuestionCard from "./QuestionCard";
 import ScoreDisplay from "./ScoreDisplay";
@@ -45,8 +45,7 @@ export default function QuizPlayer({ bundle, onNewQuiz }: Props) {
   }
 
   const q = questions[idx];
-  // const isCorrect = picked !== null && Number(picked) === q.answer_index;
-  const correctIdx = q.answer_index ?? q.options.findIndex(opt => opt === q.answer);
+  const correctIdx = q.answer_index ?? 0;
   const isCorrect = picked !== null && picked === correctIdx;
   const isLastQuestion = idx === questions.length - 1;
 
@@ -81,7 +80,7 @@ export default function QuizPlayer({ bundle, onNewQuiz }: Props) {
       
       // Tính toán lại isCorrect bên trong timeout để tránh stale state
       const currentQuestion = questions[idx];
-      const correctIndex = currentQuestion.answer_index ?? currentQuestion.options.findIndex(opt => opt === currentQuestion.answer);
+      const correctIndex = currentQuestion.answer_index ?? 0;
       const isCorrectPick = (i === correctIndex);
 
       if (isCorrectPick) {
@@ -123,7 +122,7 @@ export default function QuizPlayer({ bundle, onNewQuiz }: Props) {
       exit={{ opacity: 0, y: -20 }}
       className="relative"
     >
-      <ScoreDisplay score={score} streak={streak} points={points} />
+      <ScoreDisplay score={score} total={questions.length} streak={streak} points={points} />
       {/* <ProgressBar current={idx + 1} total={questions.length} /> */}
 
       <QuestionCard
@@ -139,7 +138,8 @@ export default function QuizPlayer({ bundle, onNewQuiz }: Props) {
       />
 
       {showResultsModal && (
-        <ResultsModal
+        <Suspense fallback={<div className="text-white">Loading...</div>}>
+          <ResultsModal
             isOpen={showResultsModal}
             score={score}
             total={questions.length}
@@ -149,7 +149,8 @@ export default function QuizPlayer({ bundle, onNewQuiz }: Props) {
             onNewQuiz={onNewQuiz}
             onClose={handleCloseResults}
           />
-        )}
+        </Suspense>
+      )}
     </motion.div>
   );
 }
