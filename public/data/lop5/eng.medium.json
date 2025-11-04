@@ -1,0 +1,1319 @@
+{
+  "meta": {
+    "grade": 5,
+    "subject": "English",
+    "language": "en",
+    "created_date": "2025-11-04",
+    "level": "medium",
+    "curriculum": "Generated based on common Grade 5 topics (CTGDPT 2018)"
+  },
+  "topics": [
+    {
+      "id": "ENG5_MEDIUM_ALL",
+      "name": "General English Practice",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "ENG5MV001",
+          "question": "Which word is related to 'activities'?",
+          "options": [
+            "playing football",
+            "taxi",
+            "difficult",
+            "played"
+          ],
+          "answer_index": 0,
+          "answer_text": "playing football",
+          "explanation": "'playing football' is related to activities."
+        },
+        {
+          "id": "ENG5MG002",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "big",
+            "as big",
+            "the biggest",
+            "bigger"
+          ],
+          "answer_index": 3,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MV003",
+          "question": "Which word is related to 'weather'?",
+          "options": [
+            "short",
+            "car",
+            "sunny",
+            "cloudy"
+          ],
+          "answer_index": 2,
+          "answer_text": "sunny",
+          "explanation": "'sunny' is related to weather."
+        },
+        {
+          "id": "ENG5MG004",
+          "question": "She is ___ now.",
+          "options": [
+            "readed",
+            "reading",
+            "reads",
+            "read"
+          ],
+          "answer_index": 1,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MV005",
+          "question": "Which word is related to 'time expressions'?",
+          "options": [
+            "singer",
+            "will play",
+            "Vietnamese",
+            "today"
+          ],
+          "answer_index": 3,
+          "answer_text": "today",
+          "explanation": "'today' is related to time expressions."
+        },
+        {
+          "id": "ENG5MG006",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "as big",
+            "the biggest",
+            "bigger",
+            "big"
+          ],
+          "answer_index": 2,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MV007",
+          "question": "Which word is related to 'activities'?",
+          "options": [
+            "difficult",
+            "car",
+            "bike",
+            "reading books"
+          ],
+          "answer_index": 3,
+          "answer_text": "reading books",
+          "explanation": "'reading books' is related to activities."
+        },
+        {
+          "id": "ENG5MV008",
+          "question": "Which word is related to 'adjectives'?",
+          "options": [
+            "new",
+            "will study",
+            "car",
+            "young"
+          ],
+          "answer_index": 0,
+          "answer_text": "new",
+          "explanation": "'new' is related to adjectives."
+        },
+        {
+          "id": "ENG5MG009",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "played",
+            "playing",
+            "am playing",
+            "play"
+          ],
+          "answer_index": 0,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past simple' grammar point."
+        },
+        {
+          "id": "ENG5MG010",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "played",
+            "playing",
+            "play",
+            "am playing"
+          ],
+          "answer_index": 0,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past simple' grammar point."
+        },
+        {
+          "id": "ENG5MV011",
+          "question": "Which word is related to 'weather'?",
+          "options": [
+            "windy",
+            "tall",
+            "today",
+            "longer"
+          ],
+          "answer_index": 0,
+          "answer_text": "windy",
+          "explanation": "'windy' is related to weather."
+        },
+        {
+          "id": "ENG5MV012",
+          "question": "Which word is related to 'adjectives'?",
+          "options": [
+            "beautiful",
+            "tall",
+            "will go",
+            "better"
+          ],
+          "answer_index": 0,
+          "answer_text": "beautiful",
+          "explanation": "'beautiful' is related to adjectives."
+        },
+        {
+          "id": "ENG5MG013",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "bigger",
+            "big",
+            "as big",
+            "the biggest"
+          ],
+          "answer_index": 0,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MV014",
+          "question": "Which word is related to 'activities'?",
+          "options": [
+            "smaller",
+            "singing",
+            "will play",
+            "saw"
+          ],
+          "answer_index": 1,
+          "answer_text": "singing",
+          "explanation": "'singing' is related to activities."
+        },
+        {
+          "id": "ENG5MG015",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "as big",
+            "the biggest",
+            "big",
+            "bigger"
+          ],
+          "answer_index": 3,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MG016",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "play",
+            "am playing",
+            "playing",
+            "played"
+          ],
+          "answer_index": 3,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past simple' grammar point."
+        },
+        {
+          "id": "ENG5MV017",
+          "question": "Which word is related to 'activities'?",
+          "options": [
+            "playing football",
+            "will study",
+            "played",
+            "park"
+          ],
+          "answer_index": 0,
+          "answer_text": "playing football",
+          "explanation": "'playing football' is related to activities."
+        },
+        {
+          "id": "ENG5MV018",
+          "question": "Which word is related to 'adjectives'?",
+          "options": [
+            "saw",
+            "old",
+            "easy",
+            "will visit"
+          ],
+          "answer_index": 1,
+          "answer_text": "old",
+          "explanation": "'old' is related to adjectives."
+        },
+        {
+          "id": "ENG5MG019",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "big",
+            "bigger",
+            "the biggest",
+            "as big"
+          ],
+          "answer_index": 1,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MV020",
+          "question": "Which word is related to 'activities'?",
+          "options": [
+            "watching TV",
+            "swimming",
+            "playing football",
+            "short"
+          ],
+          "answer_index": 1,
+          "answer_text": "swimming",
+          "explanation": "'swimming' is related to activities."
+        },
+        {
+          "id": "ENG5MV021",
+          "question": "Which word is related to 'activities'?",
+          "options": [
+            "singing",
+            "playing football",
+            "tall",
+            "will study"
+          ],
+          "answer_index": 0,
+          "answer_text": "singing",
+          "explanation": "'singing' is related to activities."
+        },
+        {
+          "id": "ENG5MG022",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "the biggest",
+            "big",
+            "bigger",
+            "as big"
+          ],
+          "answer_index": 2,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MG023",
+          "question": "She is ___ now.",
+          "options": [
+            "reads",
+            "reading",
+            "readed",
+            "read"
+          ],
+          "answer_index": 1,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MV024",
+          "question": "Which word is related to 'time expressions'?",
+          "options": [
+            "difficult",
+            "short",
+            "better",
+            "tomorrow"
+          ],
+          "answer_index": 3,
+          "answer_text": "tomorrow",
+          "explanation": "'tomorrow' is related to time expressions."
+        },
+        {
+          "id": "ENG5MG025",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "play",
+            "am playing",
+            "playing",
+            "played"
+          ],
+          "answer_index": 3,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past simple' grammar point."
+        },
+        {
+          "id": "ENG5MV026",
+          "question": "Which word is related to 'adjectives'?",
+          "options": [
+            "visited",
+            "young",
+            "short",
+            "Science"
+          ],
+          "answer_index": 1,
+          "answer_text": "young",
+          "explanation": "'young' is related to adjectives."
+        },
+        {
+          "id": "ENG5MG027",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "playing",
+            "play",
+            "am playing",
+            "played"
+          ],
+          "answer_index": 3,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past simple' grammar point."
+        },
+        {
+          "id": "ENG5MG028",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "am playing",
+            "playing",
+            "play",
+            "played"
+          ],
+          "answer_index": 3,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past simple' grammar point."
+        },
+        {
+          "id": "ENG5MV029",
+          "question": "Which word is related to 'time expressions'?",
+          "options": [
+            "school",
+            "played",
+            "evening",
+            "car"
+          ],
+          "answer_index": 2,
+          "answer_text": "evening",
+          "explanation": "'evening' is related to time expressions."
+        },
+        {
+          "id": "ENG5MV030",
+          "question": "Which word is related to 'time expressions'?",
+          "options": [
+            "afternoon",
+            "snowy",
+            "tomorrow",
+            "singer"
+          ],
+          "answer_index": 0,
+          "answer_text": "afternoon",
+          "explanation": "'afternoon' is related to time expressions."
+        },
+        {
+          "id": "ENG5MG031",
+          "question": "She is ___ now.",
+          "options": [
+            "reading",
+            "read",
+            "reads",
+            "readed"
+          ],
+          "answer_index": 0,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MV032",
+          "question": "Which word is related to 'time expressions'?",
+          "options": [
+            "played",
+            "will help",
+            "tomorrow",
+            "shorter"
+          ],
+          "answer_index": 2,
+          "answer_text": "tomorrow",
+          "explanation": "'tomorrow' is related to time expressions."
+        },
+        {
+          "id": "ENG5MG033",
+          "question": "She is ___ now.",
+          "options": [
+            "read",
+            "reads",
+            "readed",
+            "reading"
+          ],
+          "answer_index": 3,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MG034",
+          "question": "She is ___ now.",
+          "options": [
+            "readed",
+            "reading",
+            "reads",
+            "read"
+          ],
+          "answer_index": 1,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MG035",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "swim",
+            "climb",
+            "fly",
+            "run"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can cant' grammar point."
+        },
+        {
+          "id": "ENG5MG036",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "fly",
+            "swim",
+            "run",
+            "climb"
+          ],
+          "answer_index": 0,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can cant' grammar point."
+        },
+        {
+          "id": "ENG5MV037",
+          "question": "Which word is related to 'time expressions'?",
+          "options": [
+            "boring",
+            "evening",
+            "singer",
+            "visited"
+          ],
+          "answer_index": 1,
+          "answer_text": "evening",
+          "explanation": "'evening' is related to time expressions."
+        },
+        {
+          "id": "ENG5MG038",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "playing",
+            "am playing",
+            "played",
+            "play"
+          ],
+          "answer_index": 2,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past simple' grammar point."
+        },
+        {
+          "id": "ENG5MV039",
+          "question": "Which word is related to 'weather'?",
+          "options": [
+            "interesting",
+            "will play",
+            "bike",
+            "windy"
+          ],
+          "answer_index": 3,
+          "answer_text": "windy",
+          "explanation": "'windy' is related to weather."
+        },
+        {
+          "id": "ENG5MV040",
+          "question": "Which word is related to 'activities'?",
+          "options": [
+            "sunny",
+            "reading books",
+            "Maths",
+            "windy"
+          ],
+          "answer_index": 1,
+          "answer_text": "reading books",
+          "explanation": "'reading books' is related to activities."
+        },
+        {
+          "id": "ENG5MV041",
+          "question": "Which word is related to 'adjectives'?",
+          "options": [
+            "today",
+            "big",
+            "small",
+            "young"
+          ],
+          "answer_index": 2,
+          "answer_text": "small",
+          "explanation": "'small' is related to adjectives."
+        },
+        {
+          "id": "ENG5MV042",
+          "question": "Which word is related to 'time expressions'?",
+          "options": [
+            "played",
+            "afternoon",
+            "morning",
+            "Art"
+          ],
+          "answer_index": 1,
+          "answer_text": "afternoon",
+          "explanation": "'afternoon' is related to time expressions."
+        },
+        {
+          "id": "ENG5MV043",
+          "question": "Which word is related to 'activities'?",
+          "options": [
+            "will help",
+            "boring",
+            "Art",
+            "swimming"
+          ],
+          "answer_index": 3,
+          "answer_text": "swimming",
+          "explanation": "'swimming' is related to activities."
+        },
+        {
+          "id": "ENG5MG044",
+          "question": "She is ___ now.",
+          "options": [
+            "reading",
+            "readed",
+            "reads",
+            "read"
+          ],
+          "answer_index": 0,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MG045",
+          "question": "She is ___ now.",
+          "options": [
+            "reading",
+            "read",
+            "reads",
+            "readed"
+          ],
+          "answer_index": 0,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MV046",
+          "question": "Which word is related to 'activities'?",
+          "options": [
+            "visited",
+            "will go",
+            "watching TV",
+            "windy"
+          ],
+          "answer_index": 2,
+          "answer_text": "watching TV",
+          "explanation": "'watching TV' is related to activities."
+        },
+        {
+          "id": "ENG5MG047",
+          "question": "She is ___ now.",
+          "options": [
+            "reading",
+            "read",
+            "readed",
+            "reads"
+          ],
+          "answer_index": 0,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MV048",
+          "question": "Which word is related to 'time expressions'?",
+          "options": [
+            "yesterday",
+            "small",
+            "watching TV",
+            "difficult"
+          ],
+          "answer_index": 0,
+          "answer_text": "yesterday",
+          "explanation": "'yesterday' is related to time expressions."
+        },
+        {
+          "id": "ENG5MV049",
+          "question": "Which word is related to 'weather'?",
+          "options": [
+            "rainy",
+            "short",
+            "will help",
+            "windy"
+          ],
+          "answer_index": 3,
+          "answer_text": "windy",
+          "explanation": "'windy' is related to weather."
+        },
+        {
+          "id": "ENG5MV050",
+          "question": "Which word is related to 'activities'?",
+          "options": [
+            "playing football",
+            "did",
+            "morning",
+            "will visit"
+          ],
+          "answer_index": 0,
+          "answer_text": "playing football",
+          "explanation": "'playing football' is related to activities."
+        },
+        {
+          "id": "ENG5MG051",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "fly",
+            "run",
+            "swim",
+            "climb"
+          ],
+          "answer_index": 0,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can cant' grammar point."
+        },
+        {
+          "id": "ENG5MV052",
+          "question": "Which word is related to 'weather'?",
+          "options": [
+            "sunny",
+            "long",
+            "tomorrow",
+            "singer"
+          ],
+          "answer_index": 0,
+          "answer_text": "sunny",
+          "explanation": "'sunny' is related to weather."
+        },
+        {
+          "id": "ENG5MG053",
+          "question": "She is ___ now.",
+          "options": [
+            "reading",
+            "readed",
+            "reads",
+            "read"
+          ],
+          "answer_index": 0,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MG054",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "as big",
+            "bigger",
+            "big",
+            "the biggest"
+          ],
+          "answer_index": 1,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MV055",
+          "question": "Which word is related to 'time expressions'?",
+          "options": [
+            "afternoon",
+            "old",
+            "tomorrow",
+            "important"
+          ],
+          "answer_index": 2,
+          "answer_text": "tomorrow",
+          "explanation": "'tomorrow' is related to time expressions."
+        },
+        {
+          "id": "ENG5MG056",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "fly",
+            "run",
+            "climb",
+            "swim"
+          ],
+          "answer_index": 0,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can cant' grammar point."
+        },
+        {
+          "id": "ENG5MG057",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "climb",
+            "fly",
+            "run",
+            "swim"
+          ],
+          "answer_index": 1,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can cant' grammar point."
+        },
+        {
+          "id": "ENG5MG058",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "big",
+            "the biggest",
+            "bigger",
+            "as big"
+          ],
+          "answer_index": 2,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MG059",
+          "question": "She is ___ now.",
+          "options": [
+            "reading",
+            "reads",
+            "readed",
+            "read"
+          ],
+          "answer_index": 0,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MG060",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "the biggest",
+            "as big",
+            "bigger",
+            "big"
+          ],
+          "answer_index": 2,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MV061",
+          "question": "Which word is related to 'weather'?",
+          "options": [
+            "motorbike",
+            "snowy",
+            "afternoon",
+            "singer"
+          ],
+          "answer_index": 1,
+          "answer_text": "snowy",
+          "explanation": "'snowy' is related to weather."
+        },
+        {
+          "id": "ENG5MG062",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "bigger",
+            "as big",
+            "big",
+            "the biggest"
+          ],
+          "answer_index": 0,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MG063",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "am playing",
+            "playing",
+            "played",
+            "play"
+          ],
+          "answer_index": 2,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past simple' grammar point."
+        },
+        {
+          "id": "ENG5MG064",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "am playing",
+            "play",
+            "playing",
+            "played"
+          ],
+          "answer_index": 3,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past simple' grammar point."
+        },
+        {
+          "id": "ENG5MV065",
+          "question": "Which word is related to 'activities'?",
+          "options": [
+            "taller",
+            "ate",
+            "watching TV",
+            "library"
+          ],
+          "answer_index": 2,
+          "answer_text": "watching TV",
+          "explanation": "'watching TV' is related to activities."
+        },
+        {
+          "id": "ENG5MV066",
+          "question": "Which word is related to 'weather'?",
+          "options": [
+            "English",
+            "cloudy",
+            "school",
+            "tall"
+          ],
+          "answer_index": 1,
+          "answer_text": "cloudy",
+          "explanation": "'cloudy' is related to weather."
+        },
+        {
+          "id": "ENG5MG067",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "climb",
+            "fly",
+            "swim",
+            "run"
+          ],
+          "answer_index": 1,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can cant' grammar point."
+        },
+        {
+          "id": "ENG5MG068",
+          "question": "She is ___ now.",
+          "options": [
+            "read",
+            "reading",
+            "reads",
+            "readed"
+          ],
+          "answer_index": 1,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MG069",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "as big",
+            "bigger",
+            "big",
+            "the biggest"
+          ],
+          "answer_index": 1,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MG070",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "run",
+            "swim",
+            "climb",
+            "fly"
+          ],
+          "answer_index": 3,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can cant' grammar point."
+        },
+        {
+          "id": "ENG5MG071",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "as big",
+            "bigger",
+            "big",
+            "the biggest"
+          ],
+          "answer_index": 1,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MV072",
+          "question": "Which word is related to 'adjectives'?",
+          "options": [
+            "will help",
+            "old",
+            "visited",
+            "Art"
+          ],
+          "answer_index": 1,
+          "answer_text": "old",
+          "explanation": "'old' is related to adjectives."
+        },
+        {
+          "id": "ENG5MV073",
+          "question": "Which word is related to 'adjectives'?",
+          "options": [
+            "tall",
+            "listening to music",
+            "Maths",
+            "zoo"
+          ],
+          "answer_index": 0,
+          "answer_text": "tall",
+          "explanation": "'tall' is related to adjectives."
+        },
+        {
+          "id": "ENG5MG074",
+          "question": "She is ___ now.",
+          "options": [
+            "readed",
+            "reads",
+            "read",
+            "reading"
+          ],
+          "answer_index": 3,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MG075",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "played",
+            "playing",
+            "am playing",
+            "play"
+          ],
+          "answer_index": 0,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past simple' grammar point."
+        },
+        {
+          "id": "ENG5MV076",
+          "question": "Which word is related to 'weather'?",
+          "options": [
+            "driver",
+            "Music",
+            "smaller",
+            "sunny"
+          ],
+          "answer_index": 3,
+          "answer_text": "sunny",
+          "explanation": "'sunny' is related to weather."
+        },
+        {
+          "id": "ENG5MV077",
+          "question": "Which word is related to 'adjectives'?",
+          "options": [
+            "boring",
+            "will help",
+            "short",
+            "zoo"
+          ],
+          "answer_index": 2,
+          "answer_text": "short",
+          "explanation": "'short' is related to adjectives."
+        },
+        {
+          "id": "ENG5MG078",
+          "question": "She is ___ now.",
+          "options": [
+            "read",
+            "reads",
+            "reading",
+            "readed"
+          ],
+          "answer_index": 2,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MV079",
+          "question": "Which word is related to 'time expressions'?",
+          "options": [
+            "tomorrow",
+            "easy",
+            "reading books",
+            "will play"
+          ],
+          "answer_index": 0,
+          "answer_text": "tomorrow",
+          "explanation": "'tomorrow' is related to time expressions."
+        },
+        {
+          "id": "ENG5MG080",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "climb",
+            "swim",
+            "run",
+            "fly"
+          ],
+          "answer_index": 3,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can cant' grammar point."
+        },
+        {
+          "id": "ENG5MG081",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "bigger",
+            "the biggest",
+            "big",
+            "as big"
+          ],
+          "answer_index": 0,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MG082",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "play",
+            "playing",
+            "am playing",
+            "played"
+          ],
+          "answer_index": 3,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past simple' grammar point."
+        },
+        {
+          "id": "ENG5MG083",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "fly",
+            "run",
+            "climb",
+            "swim"
+          ],
+          "answer_index": 0,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can cant' grammar point."
+        },
+        {
+          "id": "ENG5MG084",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "run",
+            "swim",
+            "climb",
+            "fly"
+          ],
+          "answer_index": 3,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can cant' grammar point."
+        },
+        {
+          "id": "ENG5MG085",
+          "question": "She is ___ now.",
+          "options": [
+            "reading",
+            "reads",
+            "readed",
+            "read"
+          ],
+          "answer_index": 0,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MV086",
+          "question": "Which word is related to 'adjectives'?",
+          "options": [
+            "went",
+            "beautiful",
+            "singing",
+            "small"
+          ],
+          "answer_index": 3,
+          "answer_text": "small",
+          "explanation": "'small' is related to adjectives."
+        },
+        {
+          "id": "ENG5MG087",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "run",
+            "fly",
+            "climb",
+            "swim"
+          ],
+          "answer_index": 1,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can cant' grammar point."
+        },
+        {
+          "id": "ENG5MG088",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "playing",
+            "am playing",
+            "play",
+            "played"
+          ],
+          "answer_index": 3,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past simple' grammar point."
+        },
+        {
+          "id": "ENG5MV089",
+          "question": "Which word is related to 'adjectives'?",
+          "options": [
+            "big",
+            "playing football",
+            "bike",
+            "did"
+          ],
+          "answer_index": 0,
+          "answer_text": "big",
+          "explanation": "'big' is related to adjectives."
+        },
+        {
+          "id": "ENG5MV090",
+          "question": "Which word is related to 'adjectives'?",
+          "options": [
+            "playing football",
+            "long",
+            "will study",
+            "will help"
+          ],
+          "answer_index": 1,
+          "answer_text": "long",
+          "explanation": "'long' is related to adjectives."
+        },
+        {
+          "id": "ENG5MV091",
+          "question": "Which word is related to 'activities'?",
+          "options": [
+            "beautiful",
+            "Maths",
+            "old",
+            "swimming"
+          ],
+          "answer_index": 3,
+          "answer_text": "swimming",
+          "explanation": "'swimming' is related to activities."
+        },
+        {
+          "id": "ENG5MG092",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "big",
+            "as big",
+            "bigger",
+            "the biggest"
+          ],
+          "answer_index": 2,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG5MV093",
+          "question": "Which word is related to 'weather'?",
+          "options": [
+            "beautiful",
+            "listening to music",
+            "park",
+            "snowy"
+          ],
+          "answer_index": 3,
+          "answer_text": "snowy",
+          "explanation": "'snowy' is related to weather."
+        },
+        {
+          "id": "ENG5MV094",
+          "question": "Which word is related to 'time expressions'?",
+          "options": [
+            "student",
+            "evening",
+            "morning",
+            "hospital"
+          ],
+          "answer_index": 2,
+          "answer_text": "morning",
+          "explanation": "'morning' is related to time expressions."
+        },
+        {
+          "id": "ENG5MG095",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "playing",
+            "am playing",
+            "play",
+            "played"
+          ],
+          "answer_index": 3,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past simple' grammar point."
+        },
+        {
+          "id": "ENG5MG096",
+          "question": "She is ___ now.",
+          "options": [
+            "reading",
+            "read",
+            "readed",
+            "reads"
+          ],
+          "answer_index": 0,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        },
+        {
+          "id": "ENG5MV097",
+          "question": "Which word is related to 'adjectives'?",
+          "options": [
+            "big",
+            "motorbike",
+            "yesterday",
+            "small"
+          ],
+          "answer_index": 3,
+          "answer_text": "small",
+          "explanation": "'small' is related to adjectives."
+        },
+        {
+          "id": "ENG5MG098",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "climb",
+            "fly",
+            "run",
+            "swim"
+          ],
+          "answer_index": 1,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can cant' grammar point."
+        },
+        {
+          "id": "ENG5MG099",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "swim",
+            "run",
+            "climb",
+            "fly"
+          ],
+          "answer_index": 3,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can cant' grammar point."
+        },
+        {
+          "id": "ENG5MG100",
+          "question": "She is ___ now.",
+          "options": [
+            "reading",
+            "read",
+            "readed",
+            "reads"
+          ],
+          "answer_index": 0,
+          "answer_text": "reading",
+          "explanation": "This question tests the 'present continuous' grammar point."
+        }
+      ]
+    }
+  ]
+}
