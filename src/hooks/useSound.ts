@@ -157,17 +157,16 @@ export function useSound(config: SoundConfig = { enabled: true, volume: 0.3 }) {
     checkAndPreload(AUDIO_FILES.wrong, 'wrong');
   }, [enabled, config.volume]);
 
-  // Tạo AudioContext khi enabled
-  useEffect(() => {
-    if (enabled && !audioContextRef.current) {
-      audioContextRef.current = createAudioContext();
+  // Helper: Resume AudioContext nếu bị suspended (browser policy)
+  const resumeAudioContext = async (ctx: AudioContext): Promise<void> => {
+    if (ctx.state === "suspended") {
+      try {
+        await ctx.resume();
+      } catch (error) {
+        // Ignore resume errors silently
+      }
     }
-    
-    // Resume context nếu bị suspend (browser policy)
-    if (audioContextRef.current && audioContextRef.current.state === "suspended") {
-      audioContextRef.current.resume();
-    }
-  }, [enabled]);
+  };
 
   // Play MP3 file (tiếng người thật) - Random selection
   const playRandomMP3 = (type: 'correct' | 'wrong') => {
@@ -191,33 +190,40 @@ export function useSound(config: SoundConfig = { enabled: true, volume: 0.3 }) {
     return false; // Failed to play
   };
 
-  const play = (soundName: string) => {
+  const play = async (soundName: string) => {
     if (!enabled) return;
     
     try {
+      // Helper: Get or create AudioContext and resume if needed
+      const getAudioContext = async (): Promise<AudioContext | null> => {
+        let ctx = audioContextRef.current;
+        if (!ctx) {
+          ctx = createAudioContext();
+          if (!ctx) return null;
+          audioContextRef.current = ctx;
+        }
+        // Resume context nếu bị suspended (user gesture required)
+        await resumeAudioContext(ctx);
+        return ctx;
+      };
+
       switch (soundName) {
         case "click":
           // Short beep - Always use Web Audio
-          let ctx = audioContextRef.current;
-          if (!ctx) {
-            ctx = createAudioContext();
-            if (!ctx) return;
-            audioContextRef.current = ctx;
+          const ctxClick = await getAudioContext();
+          if (ctxClick) {
+            playTone(ctxClick, 800, 0.15, config.volume, "sine");
           }
-          playTone(ctx, 800, 0.15, config.volume, "sine");
           break;
 
         case "correct":
           // Try MP3 first (tiếng người thật), fallback to Web Audio
           if (!playRandomMP3('correct')) {
             // Fallback: Victory Fanfare
-            let ctx = audioContextRef.current;
-            if (!ctx) {
-              ctx = createAudioContext();
-              if (!ctx) return;
-              audioContextRef.current = ctx;
+            const ctxCorrect = await getAudioContext();
+            if (ctxCorrect) {
+              playVictoryFanfare(ctxCorrect, config.volume);
             }
-            playVictoryFanfare(ctx, config.volume);
           }
           break;
 
@@ -225,25 +231,19 @@ export function useSound(config: SoundConfig = { enabled: true, volume: 0.3 }) {
           // Try MP3 first (tiếng người thật), fallback to Web Audio
           if (!playRandomMP3('wrong')) {
             // Fallback: Gentle Encouragement
-            let ctx = audioContextRef.current;
-            if (!ctx) {
-              ctx = createAudioContext();
-              if (!ctx) return;
-              audioContextRef.current = ctx;
+            const ctxWrong = await getAudioContext();
+            if (ctxWrong) {
+              playEncouragement(ctxWrong, config.volume);
             }
-            playEncouragement(ctx, config.volume);
           }
           break;
 
         case "success":
           // Pleasant chord - Always use Web Audio
-          let ctxSuccess = audioContextRef.current;
-          if (!ctxSuccess) {
-            ctxSuccess = createAudioContext();
-            if (!ctxSuccess) return;
-            audioContextRef.current = ctxSuccess;
+          const ctxSuccess = await getAudioContext();
+          if (ctxSuccess) {
+            playChord(ctxSuccess, [523.25, 659.25, 783.99], 0.8, config.volume); // C, E, G
           }
-          playChord(ctxSuccess, [523.25, 659.25, 783.99], 0.8, config.volume); // C, E, G
           break;
 
         default:

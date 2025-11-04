@@ -36,11 +36,11 @@ export function getSubjectIcon(subjectId: string): string {
     case "math":
       return "🔢";
     case "vie":
+    case "vietnamese":
       return "📚";
     case "eng":
+    case "english":
       return "🔤";
-    case "sci":
-      return "🔬";
     default:
       return "📖";
   }

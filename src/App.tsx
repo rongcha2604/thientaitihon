@@ -20,7 +20,12 @@ export default function App() {
   const { enabled: soundEnabled, toggle: toggleSound } = useSound({ enabled: true, volume: 0.3 });
 
   useEffect(() => {
-    loadManifest().then(setManifest);
+    loadManifest()
+      .then(setManifest)
+      .catch((error) => {
+        console.error("Failed to load manifest:", error);
+        // Có thể hiển thị thông báo lỗi cho user nếu cần
+      });
   }, []);
 
   async function onStart() {
@@ -32,6 +37,9 @@ export default function App() {
     try {
       const b = await loadSubjectByLevel(path);
       setBundle(b);
+    } catch (error) {
+      console.error("Failed to load subject:", error);
+      // Có thể hiển thị thông báo lỗi cho user nếu cần
     } finally {
       setLoading(false);
     }

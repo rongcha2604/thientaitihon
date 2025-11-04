@@ -15,19 +15,20 @@ interface Props {
   onNext: () => void;
   isLastQuestion: boolean;
   isAutoLoading?: boolean;
+  correctIdx: number;
 }
 
-export default function QuestionCard({ 
-  q, 
-  picked, 
-  onPick, 
-  showResult, 
+export default function QuestionCard({
+  q,
+  picked,
+  onPick,
+  showResult,
   isCorrect,
   onNext,
   isLastQuestion,
-  isAutoLoading = false
+  isAutoLoading = false,
+  correctIdx
 }: Props) {
-  const correctIdx = q.answer_index;
   const [showFireworks, setShowFireworks] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
   const [showBubbles, setShowBubbles] = useState(false);

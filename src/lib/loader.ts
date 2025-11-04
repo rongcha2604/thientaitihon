@@ -4,6 +4,19 @@ import type { Manifest, SubjectBundle, Level } from "../types";
 export async function loadManifest(): Promise<Manifest> {
   const res = await fetch("/manifest.json", { cache: "no-store" });
   if (!res.ok) throw new Error(`Failed to load manifest: ${res.status}`);
+  
+  // Check Content-Type để đảm bảo là JSON
+  const contentType = res.headers.get("content-type");
+  if (!contentType || !contentType.includes("application/json")) {
+    // Clone response để read text mà không consume body
+    const clonedRes = res.clone();
+    const text = await clonedRes.text();
+    if (text.trim().startsWith("<!doctype") || text.trim().startsWith("<!DOCTYPE")) {
+      throw new Error(`Expected JSON but received HTML (404 page?). URL: /manifest.json`);
+    }
+    throw new Error(`Expected JSON but received ${contentType}. URL: /manifest.json`);
+  }
+  
   return res.json();
 }
 
@@ -11,6 +24,19 @@ export async function loadManifest(): Promise<Manifest> {
 export async function loadSubjectByLevel(path: string): Promise<SubjectBundle> {
   const res = await fetch(path, { cache: "no-store" });
   if (!res.ok) throw new Error(`Failed to load subject: ${res.status} ${path}`);
+  
+  // Check Content-Type để đảm bảo là JSON
+  const contentType = res.headers.get("content-type");
+  if (!contentType || !contentType.includes("application/json")) {
+    // Clone response để read text mà không consume body
+    const clonedRes = res.clone();
+    const text = await clonedRes.text();
+    if (text.trim().startsWith("<!doctype") || text.trim().startsWith("<!DOCTYPE")) {
+      throw new Error(`Expected JSON but received HTML (404 page?). URL: ${path}`);
+    }
+    throw new Error(`Expected JSON but received ${contentType}. URL: ${path}`);
+  }
+  
   const data = await res.json();
   const ok = !!(data?.meta?.grade && data?.meta?.subject && data?.meta?.language && data?.meta?.created_date);
   if (!ok) throw new Error(`No valid file with meta in ${path}`);

@@ -45,7 +45,9 @@ export default function QuizPlayer({ bundle, onNewQuiz }: Props) {
   }
 
   const q = questions[idx];
-  const isCorrect = picked !== null && picked === q.answer_index;
+  // const isCorrect = picked !== null && Number(picked) === q.answer_index;
+  const correctIdx = q.answer_index ?? q.options.findIndex(opt => opt === q.answer);
+  const isCorrect = picked !== null && picked === correctIdx;
   const isLastQuestion = idx === questions.length - 1;
 
   useEffect(() => {
@@ -63,7 +65,7 @@ export default function QuizPlayer({ bundle, onNewQuiz }: Props) {
         setShowResult(false);
       }, 2500); // 2.5 giây để bé xem "Chính xác"
       
-      return () => clearTimeout(timer);
+      return () => clearTimeout(timer); // Cleanup khi component unmount hoặc re-render
     }
   }, [showResult, isCorrect, isLastQuestion, idx]);
 
@@ -74,11 +76,15 @@ export default function QuizPlayer({ bundle, onNewQuiz }: Props) {
     play("click");
     
     // Tự động check sau 500ms
-    const correctAnswerIndex = questions[idx].answer_index;
     setTimeout(() => {
       setShowResult(true);
       
-      if (i === correctAnswerIndex) {
+      // Tính toán lại isCorrect bên trong timeout để tránh stale state
+      const currentQuestion = questions[idx];
+      const correctIndex = currentQuestion.answer_index ?? currentQuestion.options.findIndex(opt => opt === currentQuestion.answer);
+      const isCorrectPick = (i === correctIndex);
+
+      if (isCorrectPick) {
         addCorrect();
         play("correct");
       } else {
@@ -114,45 +120,26 @@ export default function QuizPlayer({ bundle, onNewQuiz }: Props) {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="max-w-4xl mx-auto space-y-6"
+      exit={{ opacity: 0, y: -20 }}
+      className="relative"
     >
-      <div className="bg-white rounded-xl p-4 shadow-md">
-        <div className="flex items-center justify-between">
-          <div className="text-sm text-gray-600">
-            <span className="font-semibold">Lớp {bundle.meta.grade}</span> •{" "}
-            <span className="font-semibold">{bundle.meta.subject}</span> •{" "}
-            <span className="font-semibold">{bundle.meta.level ?? "all"}</span>
-          </div>
-          <div className="text-sm font-semibold text-kid-primary">
-            Câu {idx + 1}/{questions.length}
-          </div>
-        </div>
-      </div>
+      <ScoreDisplay score={score} streak={streak} points={points} />
+      {/* <ProgressBar current={idx + 1} total={questions.length} /> */}
 
-      <ScoreDisplay
-        score={score}
-        total={questions.length}
-        points={points}
-        streak={streak}
+      <QuestionCard
+        key={idx}
+        q={q}
+        picked={picked}
+        onPick={onPick}
+        showResult={showResult}
+        isCorrect={isCorrect}
+        onNext={onNext}
+        isLastQuestion={isLastQuestion}
+        correctIdx={correctIdx}
       />
 
-      <AnimatePresence mode="wait">
-        <QuestionCard
-          key={idx}
-          q={q}
-          picked={picked}
-          onPick={onPick}
-          showResult={showResult}
-          isCorrect={isCorrect}
-          onNext={onNext}
-          isLastQuestion={isLastQuestion}
-          isAutoLoading={showResult && isCorrect && !isLastQuestion}
-        />
-      </AnimatePresence>
-
-      <Suspense fallback={null}>
-        {showResultsModal && (
-          <ResultsModal
+      {showResultsModal && (
+        <ResultsModal
             isOpen={showResultsModal}
             score={score}
             total={questions.length}
@@ -163,7 +150,6 @@ export default function QuizPlayer({ bundle, onNewQuiz }: Props) {
             onClose={handleCloseResults}
           />
         )}
-      </Suspense>
     </motion.div>
   );
 }

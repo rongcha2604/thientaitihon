@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface Sparkle {
-  id: number;
+  id: string;
   x: number;
   y: number;
   delay: number;
@@ -35,7 +35,7 @@ export default function Sparkles({ isActive, x, y, count = 20 }: Props) {
       const sparkleY = y + Math.sin(angle) * distance;
       
       newSparkles.push({
-        id: Date.now() + i,
+        id: `sparkle-${Date.now()}-${i}-${Math.random().toString(36).substr(2, 9)}`,
         x: sparkleX,
         y: sparkleY,
         delay: Math.random() * 0.3,

@@ -73,7 +73,7 @@ export default function SelectorPanel({
             <option value="">-- Chọn Môn --</option>
             {subjects.map((s) => (
               <option key={s.id} value={s.id}>
-                {getSubjectIcon(s.id)} {s.name_vi}
+                {getSubjectIcon(s.id)} {s.name || s.name_vi || s.id}
               </option>
             ))}
           </select>

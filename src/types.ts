@@ -9,15 +9,16 @@ export interface GradeEntry {
   subjects: SubjectEntry[];
 }
 export interface SubjectEntry {
-  id: "math" | "vie" | "eng" | "sci";
-  name_vi: string;
+  id: "math" | "vie" | "eng" | "vietnamese" | "english" | string;
+  name_vi?: string;
+  name?: string;
   paths: string[]; // [easy, medium, hard]
 }
 
 export interface SubjectBundle {
   meta: {
     grade: number;
-    subject: string;       // "Toán" | "Tiếng Việt" | "English" | "Khoa học Tự Nhiên"
+    subject: string;       // "Toán" | "Tiếng Việt" | "English"
     language: "vi" | "en" | "vi+en";
     created_date: string;
     level?: Level;

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface Bubble {
-  id: number;
+  id: string;
   x: number;
   size: number;
   duration: number;
@@ -38,7 +38,7 @@ export default function Bubbles({ isActive, count = 15 }: Props) {
     
     for (let i = 0; i < count; i++) {
       newBubbles.push({
-        id: Date.now() + i,
+        id: `bubble-${Date.now()}-${i}-${Math.random().toString(36).substr(2, 9)}`,
         x: Math.random() * screenWidth,
         size: 20 + Math.random() * 40,
         duration: 2 + Math.random() * 3,

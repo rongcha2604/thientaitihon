@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface ConfettiPiece {
-  id: number;
+  id: string;
   x: number;
   y: number;
   rotation: number;
@@ -46,7 +46,7 @@ export default function ConfettiParticles({ isActive, count = 60 }: Props) {
         const speed = 3 + Math.random() * 5;
         
         newPieces.push({
-          id: Date.now() + i + Math.random() * 1000,
+          id: `confetti-${Date.now()}-${i}-${Math.random().toString(36).substr(2, 9)}`,
           x: source.x + (Math.random() - 0.5) * 100,
           y: source.y,
           rotation: Math.random() * 360,

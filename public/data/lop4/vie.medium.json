@@ -4,555 +4,21 @@
     "subject": "Tiếng Việt",
     "language": "vi",
     "created_date": "2025-11-03",
-    "level": "medium"
+    "level": "medium",
+    "curriculum": "CTGDPT 2018 – Chuẩn 2025"
   },
   "topics": [
     {
-      "id": "VIE4_MEDIUM_01",
-      "name": "Vần & âm",
-      "difficulty": "medium",
+      "id": "VIE1E_SUM",
+      "name": "Tổng hợp 70 câu hỏi chọn lọc",
       "questions": [
         {
-          "id": "V4m01Q01",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "xấu",
-            "buồn",
-            "mau",
-            "chậm"
-          ],
-          "answer_index": 2,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m01Q02",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Ngã",
-            "ngã",
-            "NGÃ",
-            "ngả"
-          ],
-          "answer_index": 1,
-          "answer_text": "ngã",
-          "explanation": "Chính tả đúng là 'ngã'."
-        },
-        {
-          "id": "V4m01Q03",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhỏ",
-            "xanh",
-            "nhanh",
-            "đẹp"
-          ],
-          "answer_index": 0,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m01Q04",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m01Q05",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "hớn hở",
-            "xấu",
-            "buồn",
-            "chậm"
-          ],
-          "answer_index": 0,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m01Q06",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé vui",
-            "bé  vui",
-            "bé vui!",
-            "bévui"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m01Q07",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "đẹp",
-            "xanh",
-            "nhanh",
-            "nhỏ"
-          ],
-          "answer_index": 3,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m01Q08",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "buồn",
-            "nhanh",
-            "đẹp",
-            "xanh"
-          ],
-          "answer_index": 0,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m01Q09",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "chậm",
-            "mau",
-            "buồn",
-            "xấu"
-          ],
-          "answer_index": 1,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m01Q10",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "xanh",
-            "đẹp",
-            "nhanh",
-            "buồn"
-          ],
-          "answer_index": 3,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m01Q11",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em đi, học.",
-            "Em, đi học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m01Q12",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "chậm",
-            "buồn",
-            "xinh",
-            "xấu"
-          ],
-          "answer_index": 2,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m01Q13",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé đẹp!",
-            "béđẹp",
-            "bé đẹp",
-            "bé  đẹp"
-          ],
-          "answer_index": 2,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m01Q14",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em đi học.",
-            "Em đi, học.",
-            "Em, đi học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m01Q15",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "xấu",
-            "xinh",
-            "buồn",
-            "chậm"
-          ],
-          "answer_index": 1,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m01Q16",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé vui",
-            "bévui",
-            "bé  vui",
-            "bé vui!"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m01Q17",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé cao!",
-            "bé  cao",
-            "bécao",
-            "bé cao"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m01Q18",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m01Q19",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m01Q20",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "xinh",
-            "chậm",
-            "xấu",
-            "buồn"
-          ],
-          "answer_index": 0,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_02",
-      "name": "Ghép tiếng",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m02Q01",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé ngoan",
-            "béngoan",
-            "bé ngoan!",
-            "bé  ngoan"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m02Q02",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "thấp",
-            "đẹp",
-            "nhanh",
-            "xanh"
-          ],
-          "answer_index": 0,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m02Q03",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  vui",
-            "bévui",
-            "bé vui!",
-            "bé vui"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m02Q04",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "đẹp",
-            "nhanh",
-            "thấp",
-            "xanh"
-          ],
-          "answer_index": 2,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m02Q05",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Trường",
-            "chường",
-            "TRƯỜNG",
-            "trường"
-          ],
-          "answer_index": 3,
-          "answer_text": "trường",
-          "explanation": "Chính tả đúng là 'trường'."
-        },
-        {
-          "id": "V4m02Q06",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "xấu",
-            "chậm",
-            "buồn",
-            "hớn hở"
-          ],
-          "answer_index": 3,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m02Q07",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé ngoan!",
-            "bé ngoan",
-            "bé  ngoan",
-            "béngoan"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m02Q08",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em, đi học.",
-            "Em đi, học.",
-            "Em đi học",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m02Q09",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học",
-            "Em, đi học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m02Q10",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em đi, học.",
-            "Em đi học.",
-            "Em, đi học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m02Q11",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m02Q12",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "LÀM",
-            "nàm",
-            "làm",
-            "Làm"
-          ],
-          "answer_index": 2,
-          "answer_text": "làm",
-          "explanation": "Chính tả đúng là 'làm'."
-        },
-        {
-          "id": "V4m02Q13",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học.",
-            "Em đi, học.",
-            "Em, đi học.",
-            "Em đi học"
-          ],
-          "answer_index": 0,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m02Q14",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 0,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m02Q15",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "buồn",
-            "chậm",
-            "xấu",
-            "hớn hở"
-          ],
-          "answer_index": 3,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m02Q16",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "đẹp",
-            "buồn",
-            "xanh",
-            "nhanh"
-          ],
-          "answer_index": 1,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m02Q17",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bécao",
-            "bé  cao",
-            "bé cao!",
-            "bé cao"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m02Q18",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "buồn",
-            "đẹp",
-            "nhanh",
-            "xanh"
-          ],
-          "answer_index": 0,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m02Q19",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "đẹp",
-            "nhanh",
-            "nhỏ",
-            "xanh"
-          ],
-          "answer_index": 2,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m02Q20",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sữa",
-            "sứa",
-            "SỮA",
-            "Sữa"
-          ],
-          "answer_index": 0,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_03",
-      "name": "Dấu câu cơ bản",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m03Q01",
+          "id": "VIE4M06Q16",
           "question": "Chọn viết đúng:",
           "options": [
             "trường",
-            "TRƯỜNG",
             "chường",
+            "TRƯỜNG",
             "Trường"
           ],
           "answer_index": 0,
@@ -560,2944 +26,85 @@
           "explanation": "Chính tả đúng là 'trường'."
         },
         {
-          "id": "V4m03Q02",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "xinh",
-            "buồn",
-            "chậm",
-            "xấu"
-          ],
-          "answer_index": 0,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m03Q03",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "xanh",
-            "nhanh",
-            "đẹp",
-            "nhỏ"
-          ],
-          "answer_index": 3,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m03Q04",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học.",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 0,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m03Q05",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em, đi học.",
-            "Em đi học",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m03Q06",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em, đi học.",
-            "Em đi học.",
-            "Em đi, học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m03Q07",
+          "id": "VIE4M07Q07",
           "question": "Từ đồng nghĩa với 'nhanh' là?",
           "options": [
-            "chậm",
-            "buồn",
             "mau",
-            "xấu"
-          ],
-          "answer_index": 2,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m03Q08",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "ngã",
-            "Ngã",
-            "NGÃ",
-            "ngả"
-          ],
-          "answer_index": 0,
-          "answer_text": "ngã",
-          "explanation": "Chính tả đúng là 'ngã'."
-        },
-        {
-          "id": "V4m03Q09",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "chậm",
-            "mau",
-            "buồn",
-            "xấu"
-          ],
-          "answer_index": 1,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m03Q10",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "xanh",
-            "buồn",
-            "đẹp",
-            "nhanh"
-          ],
-          "answer_index": 1,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m03Q11",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng.",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m03Q12",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học.",
-            "Em, đi học.",
-            "Em đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m03Q13",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em, đi học.",
-            "Em đi học.",
-            "Em đi, học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m03Q14",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "buồn",
-            "đẹp",
-            "xanh",
-            "nhanh"
-          ],
-          "answer_index": 0,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m03Q15",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  cao",
-            "bécao",
-            "bé cao",
-            "bé cao!"
-          ],
-          "answer_index": 2,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m03Q16",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "thấp",
-            "nhanh",
-            "đẹp",
-            "xanh"
-          ],
-          "answer_index": 0,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m03Q17",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học.",
-            "Em đi học",
-            "Em, đi học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m03Q18",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhanh",
-            "đẹp",
-            "nhỏ",
-            "xanh"
-          ],
-          "answer_index": 2,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m03Q19",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "xinh",
-            "chậm",
-            "xấu",
-            "buồn"
-          ],
-          "answer_index": 0,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m03Q20",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhanh",
-            "xanh",
-            "đẹp",
-            "nhỏ"
-          ],
-          "answer_index": 3,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_04",
-      "name": "Từ đồng nghĩa",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m04Q01",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
             "xấu",
             "chậm",
-            "mau",
             "buồn"
-          ],
-          "answer_index": 2,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m04Q02",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học",
-            "Em, đi học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m04Q03",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "chậm",
-            "mau",
-            "xấu",
-            "buồn"
-          ],
-          "answer_index": 1,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m04Q04",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "xấu",
-            "mau",
-            "chậm",
-            "buồn"
-          ],
-          "answer_index": 1,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m04Q05",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m04Q06",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "béngoan",
-            "bé  ngoan",
-            "bé ngoan!",
-            "bé ngoan"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m04Q07",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em, đi học.",
-            "Em đi học.",
-            "Em đi, học.",
-            "Em đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m04Q08",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng.",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m04Q09",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Sữa",
-            "SỮA",
-            "sữa",
-            "sứa"
-          ],
-          "answer_index": 2,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m04Q10",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m04Q11",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em, đi học.",
-            "Em đi học",
-            "Em đi, học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m04Q12",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "chậm",
-            "xấu",
-            "xinh",
-            "buồn"
-          ],
-          "answer_index": 2,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m04Q13",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "nhanh",
-            "buồn",
-            "đẹp",
-            "xanh"
-          ],
-          "answer_index": 1,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m04Q14",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Lúc sáng bé đi học",
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m04Q15",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "chậm",
-            "xấu",
-            "mau",
-            "buồn"
-          ],
-          "answer_index": 2,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m04Q16",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m04Q17",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "buồn",
-            "mau",
-            "chậm",
-            "xấu"
-          ],
-          "answer_index": 1,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m04Q18",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "đẹp",
-            "thấp",
-            "xanh",
-            "nhanh"
-          ],
-          "answer_index": 1,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m04Q19",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhanh",
-            "nhỏ",
-            "xanh",
-            "đẹp"
-          ],
-          "answer_index": 1,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m04Q20",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 0,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_05",
-      "name": "Từ trái nghĩa",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m05Q01",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé vui",
-            "bévui",
-            "bé vui!",
-            "bé  vui"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m05Q02",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Lúc sáng bé đi học",
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m05Q03",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "nhanh",
-            "xanh",
-            "đẹp",
-            "buồn"
-          ],
-          "answer_index": 3,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m05Q04",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Trường",
-            "chường",
-            "TRƯỜNG",
-            "trường"
-          ],
-          "answer_index": 3,
-          "answer_text": "trường",
-          "explanation": "Chính tả đúng là 'trường'."
-        },
-        {
-          "id": "V4m05Q05",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "nhanh",
-            "thấp",
-            "đẹp",
-            "xanh"
-          ],
-          "answer_index": 1,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m05Q06",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé vui!",
-            "bévui",
-            "bé  vui",
-            "bé vui"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m05Q07",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học.",
-            "Em, đi học.",
-            "Em đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m05Q08",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "thấp",
-            "nhanh",
-            "xanh",
-            "đẹp"
-          ],
-          "answer_index": 0,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m05Q09",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em đi, học.",
-            "Em, đi học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m05Q10",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé cao",
-            "bé  cao",
-            "bé cao!",
-            "bécao"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m05Q11",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "nhanh",
-            "đẹp",
-            "thấp",
-            "xanh"
-          ],
-          "answer_index": 2,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m05Q12",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "béngoan",
-            "bé  ngoan",
-            "bé ngoan!",
-            "bé ngoan"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m05Q13",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 0,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m05Q14",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Trường",
-            "trường",
-            "chường",
-            "TRƯỜNG"
-          ],
-          "answer_index": 1,
-          "answer_text": "trường",
-          "explanation": "Chính tả đúng là 'trường'."
-        },
-        {
-          "id": "V4m05Q15",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em, đi học.",
-            "Em đi học",
-            "Em đi học.",
-            "Em đi, học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m05Q16",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m05Q17",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m05Q18",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em, đi học.",
-            "Em đi học.",
-            "Em đi, học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m05Q19",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "chậm",
-            "buồn",
-            "hớn hở",
-            "xấu"
-          ],
-          "answer_index": 2,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m05Q20",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_06",
-      "name": "Phân biệt l/n",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m06Q01",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Sữa",
-            "sữa",
-            "SỮA",
-            "sứa"
-          ],
-          "answer_index": 1,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m06Q02",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em, đi học.",
-            "Em đi học",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m06Q03",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "xấu",
-            "mau",
-            "chậm",
-            "buồn"
-          ],
-          "answer_index": 1,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m06Q04",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Sữa",
-            "SỮA",
-            "sữa",
-            "sứa"
-          ],
-          "answer_index": 2,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m06Q05",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m06Q06",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "mau",
-            "buồn",
-            "chậm",
-            "xấu"
           ],
           "answer_index": 0,
           "answer_text": "mau",
           "explanation": "'mau' ≈ 'nhanh'."
         },
         {
-          "id": "V4m06Q07",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé cao!",
-            "bé  cao",
-            "bécao",
-            "bé cao"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m06Q08",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "LÀM",
-            "làm",
-            "Làm",
-            "nàm"
-          ],
-          "answer_index": 1,
-          "answer_text": "làm",
-          "explanation": "Chính tả đúng là 'làm'."
-        },
-        {
-          "id": "V4m06Q09",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "béngoan",
-            "bé  ngoan",
-            "bé ngoan",
-            "bé ngoan!"
-          ],
-          "answer_index": 2,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m06Q10",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em, đi học.",
-            "Em đi, học.",
-            "Em đi học",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m06Q11",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m06Q12",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "nhanh",
-            "đẹp",
-            "buồn",
-            "xanh"
-          ],
-          "answer_index": 2,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m06Q13",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em đi, học.",
-            "Em, đi học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m06Q14",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em đi, học.",
-            "Em, đi học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m06Q15",
+          "id": "VIE4M18Q10",
           "question": "Chọn viết đúng:",
           "options": [
             "làm",
-            "LÀM",
-            "Làm",
-            "nàm"
-          ],
-          "answer_index": 0,
-          "answer_text": "làm",
-          "explanation": "Chính tả đúng là 'làm'."
-        },
-        {
-          "id": "V4m06Q16",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé đẹp",
-            "bé đẹp!",
-            "béđẹp",
-            "bé  đẹp"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m06Q17",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  đẹp",
-            "bé đẹp",
-            "béđẹp",
-            "bé đẹp!"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m06Q18",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "buồn",
-            "xanh",
-            "đẹp",
-            "nhanh"
-          ],
-          "answer_index": 0,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m06Q19",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé đẹp",
-            "bé  đẹp",
-            "béđẹp",
-            "bé đẹp!"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m06Q20",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_07",
-      "name": "Phân biệt ch/tr",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m07Q01",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m07Q02",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sữa",
-            "SỮA",
-            "sứa",
-            "Sữa"
-          ],
-          "answer_index": 0,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m07Q03",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "chậm",
-            "buồn",
-            "xấu",
-            "xinh"
-          ],
-          "answer_index": 3,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m07Q04",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "chậm",
-            "xấu",
-            "xinh",
-            "buồn"
-          ],
-          "answer_index": 2,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m07Q05",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em đi học.",
-            "Em đi, học.",
-            "Em, đi học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m07Q06",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  đẹp",
-            "béđẹp",
-            "bé đẹp!",
-            "bé đẹp"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m07Q07",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "đẹp",
-            "nhỏ",
-            "nhanh",
-            "xanh"
-          ],
-          "answer_index": 1,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m07Q08",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em đi, học.",
-            "Em, đi học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m07Q09",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé ngoan",
-            "béngoan",
-            "bé  ngoan",
-            "bé ngoan!"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m07Q10",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m07Q11",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học.",
-            "Em đi học",
-            "Em đi, học.",
-            "Em, đi học."
-          ],
-          "answer_index": 0,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m07Q12",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "hớn hở",
-            "buồn",
-            "xấu",
-            "chậm"
-          ],
-          "answer_index": 0,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m07Q13",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "béđẹp",
-            "bé  đẹp",
-            "bé đẹp!",
-            "bé đẹp"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m07Q14",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học.",
-            "Em, đi học.",
-            "Em đi, học.",
-            "Em đi học"
-          ],
-          "answer_index": 0,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m07Q15",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sứa",
-            "sữa",
-            "SỮA",
-            "Sữa"
-          ],
-          "answer_index": 1,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m07Q16",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m07Q17",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "làm",
-            "Làm",
-            "LÀM",
-            "nàm"
-          ],
-          "answer_index": 0,
-          "answer_text": "làm",
-          "explanation": "Chính tả đúng là 'làm'."
-        },
-        {
-          "id": "V4m07Q18",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "xanh",
-            "đẹp",
-            "buồn",
-            "nhanh"
-          ],
-          "answer_index": 2,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m07Q19",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em, đi học.",
-            "Em đi học.",
-            "Em đi, học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m07Q20",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Sữa",
-            "SỮA",
-            "sữa",
-            "sứa"
-          ],
-          "answer_index": 2,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_08",
-      "name": "Phân biệt s/x",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m08Q01",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  cao",
-            "bé cao",
-            "bé cao!",
-            "bécao"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m08Q02",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé vui",
-            "bé  vui",
-            "bévui",
-            "bé vui!"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m08Q03",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé đẹp",
-            "bé  đẹp",
-            "bé đẹp!",
-            "béđẹp"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m08Q04",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sinh",
-            "xinh",
-            "XINH",
-            "Xinh"
-          ],
-          "answer_index": 1,
-          "answer_text": "xinh",
-          "explanation": "Chính tả đúng là 'xinh'."
-        },
-        {
-          "id": "V4m08Q05",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em, đi học.",
-            "Em đi học",
-            "Em đi, học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m08Q06",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé đẹp",
-            "bé  đẹp",
-            "béđẹp",
-            "bé đẹp!"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m08Q07",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "ngã",
-            "ngả",
-            "NGÃ",
-            "Ngã"
-          ],
-          "answer_index": 0,
-          "answer_text": "ngã",
-          "explanation": "Chính tả đúng là 'ngã'."
-        },
-        {
-          "id": "V4m08Q08",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé vui!",
-            "bé vui",
-            "bévui",
-            "bé  vui"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m08Q09",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhanh",
-            "nhỏ",
-            "xanh",
-            "đẹp"
-          ],
-          "answer_index": 1,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m08Q10",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học.",
-            "Em đi, học.",
-            "Em, đi học.",
-            "Em đi học"
-          ],
-          "answer_index": 0,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m08Q11",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m08Q12",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em, đi học.",
-            "Em đi, học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m08Q13",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé vui",
-            "bé  vui",
-            "bévui",
-            "bé vui!"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m08Q14",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sứa",
-            "Sữa",
-            "sữa",
-            "SỮA"
-          ],
-          "answer_index": 2,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m08Q15",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Xinh",
-            "xinh",
-            "sinh",
-            "XINH"
-          ],
-          "answer_index": 1,
-          "answer_text": "xinh",
-          "explanation": "Chính tả đúng là 'xinh'."
-        },
-        {
-          "id": "V4m08Q16",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em, đi học.",
-            "Em đi học.",
-            "Em đi học",
-            "Em đi, học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m08Q17",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m08Q18",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sứa",
-            "SỮA",
-            "Sữa",
-            "sữa"
-          ],
-          "answer_index": 3,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m08Q19",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  vui",
-            "bé vui!",
-            "bé vui",
-            "bévui"
-          ],
-          "answer_index": 2,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m08Q20",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "thấp",
-            "nhanh",
-            "xanh",
-            "đẹp"
-          ],
-          "answer_index": 0,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_09",
-      "name": "Dấu hỏi/ngã",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m09Q01",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  đẹp",
-            "bé đẹp!",
-            "béđẹp",
-            "bé đẹp"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m09Q02",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "béngoan",
-            "bé ngoan",
-            "bé  ngoan",
-            "bé ngoan!"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m09Q03",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "xanh",
-            "buồn",
-            "đẹp",
-            "nhanh"
-          ],
-          "answer_index": 1,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m09Q04",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "xấu",
-            "buồn",
-            "hớn hở",
-            "chậm"
-          ],
-          "answer_index": 2,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m09Q05",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em đi học.",
-            "Em đi, học.",
-            "Em, đi học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m09Q06",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "đẹp",
-            "nhanh",
-            "xanh",
-            "thấp"
-          ],
-          "answer_index": 3,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m09Q07",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m09Q08",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em, đi học.",
-            "Em đi học",
-            "Em đi học.",
-            "Em đi, học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m09Q09",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "chậm",
-            "xấu",
-            "buồn",
-            "mau"
-          ],
-          "answer_index": 3,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m09Q10",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m09Q11",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "nhanh",
-            "buồn",
-            "đẹp",
-            "xanh"
-          ],
-          "answer_index": 1,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m09Q12",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m09Q13",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé đẹp!",
-            "bé  đẹp",
-            "béđẹp",
-            "bé đẹp"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m09Q14",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé ngoan!",
-            "bé  ngoan",
-            "bé ngoan",
-            "béngoan"
-          ],
-          "answer_index": 2,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m09Q15",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em, đi học.",
-            "Em đi học.",
-            "Em đi, học.",
-            "Em đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m09Q16",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m09Q17",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "xanh",
-            "buồn",
-            "đẹp",
-            "nhanh"
-          ],
-          "answer_index": 1,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m09Q18",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "đẹp",
-            "xanh",
-            "nhanh",
-            "buồn"
-          ],
-          "answer_index": 3,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m09Q19",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bévui",
-            "bé vui!",
-            "bé  vui",
-            "bé vui"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m09Q20",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_10",
-      "name": "Câu kể",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m10Q01",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Ngã",
-            "ngả",
-            "ngã",
-            "NGÃ"
-          ],
-          "answer_index": 2,
-          "answer_text": "ngã",
-          "explanation": "Chính tả đúng là 'ngã'."
-        },
-        {
-          "id": "V4m10Q02",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "xanh",
-            "đẹp",
-            "nhanh",
-            "thấp"
-          ],
-          "answer_index": 3,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m10Q03",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé vui!",
-            "bé  vui",
-            "bévui",
-            "bé vui"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m10Q04",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m10Q05",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhỏ",
-            "nhanh",
-            "xanh",
-            "đẹp"
-          ],
-          "answer_index": 0,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m10Q06",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "đẹp",
-            "xanh",
-            "buồn",
-            "nhanh"
-          ],
-          "answer_index": 2,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m10Q07",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "buồn",
-            "xấu",
-            "chậm",
-            "xinh"
-          ],
-          "answer_index": 3,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m10Q08",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "thấp",
-            "đẹp",
-            "xanh",
-            "nhanh"
-          ],
-          "answer_index": 0,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m10Q09",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  cao",
-            "bé cao",
-            "bé cao!",
-            "bécao"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m10Q10",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "TRƯỜNG",
-            "chường",
-            "Trường",
-            "trường"
-          ],
-          "answer_index": 3,
-          "answer_text": "trường",
-          "explanation": "Chính tả đúng là 'trường'."
-        },
-        {
-          "id": "V4m10Q11",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 0,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m10Q12",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "LÀM",
-            "Làm",
-            "làm",
-            "nàm"
-          ],
-          "answer_index": 2,
-          "answer_text": "làm",
-          "explanation": "Chính tả đúng là 'làm'."
-        },
-        {
-          "id": "V4m10Q13",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "đẹp",
-            "thấp",
-            "nhanh",
-            "xanh"
-          ],
-          "answer_index": 1,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m10Q14",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé cao!",
-            "bé  cao",
-            "bécao",
-            "bé cao"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m10Q15",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "nhanh",
-            "xanh",
-            "thấp",
-            "đẹp"
-          ],
-          "answer_index": 2,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m10Q16",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "ngã",
-            "Ngã",
-            "ngả",
-            "NGÃ"
-          ],
-          "answer_index": 0,
-          "answer_text": "ngã",
-          "explanation": "Chính tả đúng là 'ngã'."
-        },
-        {
-          "id": "V4m10Q17",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhỏ",
-            "xanh",
-            "đẹp",
-            "nhanh"
-          ],
-          "answer_index": 0,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m10Q18",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé ngoan",
-            "bé  ngoan",
-            "béngoan",
-            "bé ngoan!"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m10Q19",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "béđẹp",
-            "bé đẹp",
-            "bé  đẹp",
-            "bé đẹp!"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m10Q20",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "xanh",
-            "đẹp",
-            "nhanh",
-            "thấp"
-          ],
-          "answer_index": 3,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_11",
-      "name": "Câu hỏi",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m11Q01",
-          "question": "Chọn viết đúng:",
-          "options": [
             "nàm",
-            "làm",
-            "Làm",
-            "LÀM"
-          ],
-          "answer_index": 1,
-          "answer_text": "làm",
-          "explanation": "Chính tả đúng là 'làm'."
-        },
-        {
-          "id": "V4m11Q02",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sứa",
-            "Sữa",
-            "sữa",
-            "SỮA"
-          ],
-          "answer_index": 2,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m11Q03",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé cao!",
-            "bécao",
-            "bé  cao",
-            "bé cao"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m11Q04",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "thấp",
-            "nhanh",
-            "xanh",
-            "đẹp"
-          ],
-          "answer_index": 0,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m11Q05",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em, đi học.",
-            "Em đi, học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m11Q06",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  vui",
-            "bé vui",
-            "bé vui!",
-            "bévui"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m11Q07",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m11Q08",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "mau",
-            "buồn",
-            "xấu",
-            "chậm"
-          ],
-          "answer_index": 0,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m11Q09",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học",
-            "Em, đi học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m11Q10",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em, đi học.",
-            "Em đi học.",
-            "Em đi, học.",
-            "Em đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m11Q11",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "chậm",
-            "xấu",
-            "buồn",
-            "hớn hở"
-          ],
-          "answer_index": 3,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m11Q12",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m11Q13",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m11Q14",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "xanh",
-            "nhanh",
-            "đẹp",
-            "buồn"
-          ],
-          "answer_index": 3,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m11Q15",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "mau",
-            "chậm",
-            "xấu",
-            "buồn"
-          ],
-          "answer_index": 0,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m11Q16",
-          "question": "Chọn viết đúng:",
-          "options": [
             "LÀM",
-            "nàm",
-            "làm",
             "Làm"
           ],
-          "answer_index": 2,
+          "answer_index": 0,
           "answer_text": "làm",
           "explanation": "Chính tả đúng là 'làm'."
         },
         {
-          "id": "V4m11Q17",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "hớn hở",
-            "chậm",
-            "xấu",
-            "buồn"
-          ],
-          "answer_index": 0,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m11Q18",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em, đi học.",
-            "Em đi học",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m11Q19",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sinh",
-            "XINH",
-            "Xinh",
-            "xinh"
-          ],
-          "answer_index": 3,
-          "answer_text": "xinh",
-          "explanation": "Chính tả đúng là 'xinh'."
-        },
-        {
-          "id": "V4m11Q20",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "xanh",
-            "buồn",
-            "nhanh",
-            "đẹp"
-          ],
-          "answer_index": 1,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_12",
-      "name": "Điền từ",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m12Q01",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Lúc sáng bé đi học",
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m12Q02",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  ngoan",
-            "bé ngoan!",
-            "bé ngoan",
-            "béngoan"
-          ],
-          "answer_index": 2,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m12Q03",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  vui",
-            "bévui",
-            "bé vui!",
-            "bé vui"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m12Q04",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sữa",
-            "SỮA",
-            "sứa",
-            "Sữa"
-          ],
-          "answer_index": 0,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m12Q05",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "béđẹp",
-            "bé  đẹp",
-            "bé đẹp",
-            "bé đẹp!"
-          ],
-          "answer_index": 2,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m12Q06",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé cao!",
-            "bé cao",
-            "bé  cao",
-            "bécao"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m12Q07",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m12Q08",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m12Q09",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "đẹp",
-            "xanh",
-            "nhỏ",
-            "nhanh"
-          ],
-          "answer_index": 2,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m12Q10",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé cao",
-            "bécao",
-            "bé  cao",
-            "bé cao!"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m12Q11",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "buồn",
-            "chậm",
-            "hớn hở",
-            "xấu"
-          ],
-          "answer_index": 2,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m12Q12",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "ngã",
-            "ngả",
-            "NGÃ",
-            "Ngã"
-          ],
-          "answer_index": 0,
-          "answer_text": "ngã",
-          "explanation": "Chính tả đúng là 'ngã'."
-        },
-        {
-          "id": "V4m12Q13",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 0,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m12Q14",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "ngả",
-            "ngã",
-            "NGÃ",
-            "Ngã"
-          ],
-          "answer_index": 1,
-          "answer_text": "ngã",
-          "explanation": "Chính tả đúng là 'ngã'."
-        },
-        {
-          "id": "V4m12Q15",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Làm",
-            "nàm",
-            "làm",
-            "LÀM"
-          ],
-          "answer_index": 2,
-          "answer_text": "làm",
-          "explanation": "Chính tả đúng là 'làm'."
-        },
-        {
-          "id": "V4m12Q16",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học.",
-            "Em, đi học.",
-            "Em đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m12Q17",
+          "id": "VIE4M08Q19",
           "question": "Chọn câu viết đúng: 'em di hoc'",
           "options": [
             "Em đi học.",
             "Em đi học",
-            "Em đi, học.",
-            "Em, đi học."
-          ],
-          "answer_index": 0,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m12Q18",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  cao",
-            "bé cao!",
-            "bé cao",
-            "bécao"
-          ],
-          "answer_index": 2,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m12Q19",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
             "Em, đi học.",
-            "Em đi học",
-            "Em đi học.",
             "Em đi, học."
           ],
-          "answer_index": 2,
+          "answer_index": 0,
           "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
+          "explanation": "Viết hoa chữ đầu, chấm cuối câu."
         },
         {
-          "id": "V4m12Q20",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học.",
-            "Em đi học",
-            "Em, đi học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_13",
-      "name": "Từ chỉ hoạt động",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m13Q01",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học",
-            "Em đi học.",
-            "Em, đi học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m13Q02",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  cao",
-            "bé cao",
-            "bé cao!",
-            "bécao"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m13Q03",
+          "id": "VIE4M16Q12",
           "question": "Từ trái nghĩa với 'cao' là?",
           "options": [
-            "đẹp",
             "thấp",
-            "xanh",
-            "nhanh"
+            "đẹp",
+            "nhanh",
+            "xanh"
           ],
-          "answer_index": 1,
+          "answer_index": 0,
           "answer_text": "thấp",
           "explanation": "'thấp' trái nghĩa với 'cao'."
         },
         {
-          "id": "V4m13Q04",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
+          "id": "VIE4M14Q04",
+          "question": "Từ đồng nghĩa với 'nhanh' là?",
           "options": [
-            "Em, đi học.",
-            "Em đi, học.",
-            "Em đi học.",
-            "Em đi học"
-          ],
-          "answer_index": 2,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m13Q05",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "chậm",
-            "buồn",
+            "mau",
             "xấu",
-            "xinh"
+            "chậm",
+            "buồn"
           ],
-          "answer_index": 3,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
+          "answer_index": 0,
+          "answer_text": "mau",
+          "explanation": "'mau' ≈ 'nhanh'."
         },
         {
-          "id": "V4m13Q06",
+          "id": "VIE4M02Q20",
           "question": "Từ trái nghĩa với 'vui' là?",
           "options": [
+            "buồn",
             "đẹp",
             "nhanh",
-            "xanh",
-            "buồn"
-          ],
-          "answer_index": 3,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m13Q07",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sinh",
-            "Xinh",
-            "xinh",
-            "XINH"
-          ],
-          "answer_index": 2,
-          "answer_text": "xinh",
-          "explanation": "Chính tả đúng là 'xinh'."
-        },
-        {
-          "id": "V4m13Q08",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "hớn hở",
-            "xấu",
-            "chậm",
-            "buồn"
-          ],
-          "answer_index": 0,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m13Q09",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m13Q10",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sữa",
-            "Sữa",
-            "sứa",
-            "SỮA"
-          ],
-          "answer_index": 0,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m13Q11",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sữa",
-            "sứa",
-            "SỮA",
-            "Sữa"
-          ],
-          "answer_index": 0,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m13Q12",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "đẹp",
-            "nhanh",
-            "nhỏ",
             "xanh"
           ],
-          "answer_index": 2,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m13Q13",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "xinh",
-            "buồn",
-            "chậm",
-            "xấu"
-          ],
           "answer_index": 0,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m13Q14",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "béđẹp",
-            "bé đẹp",
-            "bé đẹp!",
-            "bé  đẹp"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m13Q15",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "mau",
-            "buồn",
-            "chậm",
-            "xấu"
-          ],
-          "answer_index": 0,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m13Q16",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "chậm",
-            "mau",
-            "xấu",
-            "buồn"
-          ],
-          "answer_index": 1,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m13Q17",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m13Q18",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "xanh",
-            "đẹp",
-            "nhanh",
-            "buồn"
-          ],
-          "answer_index": 3,
           "answer_text": "buồn",
           "explanation": "'buồn' trái nghĩa với 'vui'."
         },
         {
-          "id": "V4m13Q19",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "chậm",
-            "xinh",
-            "xấu",
-            "buồn"
-          ],
-          "answer_index": 1,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m13Q20",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học",
-            "Em đi học.",
-            "Em, đi học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_14",
-      "name": "Từ chỉ đặc điểm",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m14Q01",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học.",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 0,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m14Q02",
+          "id": "VIE4M17Q05",
           "question": "Chọn câu viết đúng: 'em di hoc'",
           "options": [
             "Em đi học.",
@@ -3507,1278 +114,184 @@
           ],
           "answer_index": 0,
           "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
+          "explanation": "Viết hoa chữ đầu, chấm cuối câu."
         },
         {
-          "id": "V4m14Q03",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhỏ",
-            "xanh",
-            "nhanh",
-            "đẹp"
-          ],
-          "answer_index": 0,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m14Q04",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "nhanh",
-            "đẹp",
-            "buồn",
-            "xanh"
-          ],
-          "answer_index": 2,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m14Q05",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "ngả",
-            "Ngã",
-            "ngã",
-            "NGÃ"
-          ],
-          "answer_index": 2,
-          "answer_text": "ngã",
-          "explanation": "Chính tả đúng là 'ngã'."
-        },
-        {
-          "id": "V4m14Q06",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Ngã",
-            "ngả",
-            "ngã",
-            "NGÃ"
-          ],
-          "answer_index": 2,
-          "answer_text": "ngã",
-          "explanation": "Chính tả đúng là 'ngã'."
-        },
-        {
-          "id": "V4m14Q07",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "ngả",
-            "ngã",
-            "Ngã",
-            "NGÃ"
-          ],
-          "answer_index": 1,
-          "answer_text": "ngã",
-          "explanation": "Chính tả đúng là 'ngã'."
-        },
-        {
-          "id": "V4m14Q08",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 0,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m14Q09",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sinh",
-            "XINH",
-            "xinh",
-            "Xinh"
-          ],
-          "answer_index": 2,
-          "answer_text": "xinh",
-          "explanation": "Chính tả đúng là 'xinh'."
-        },
-        {
-          "id": "V4m14Q10",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé ngoan",
-            "bé ngoan!",
-            "béngoan",
-            "bé  ngoan"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m14Q11",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "xanh",
-            "đẹp",
-            "nhanh",
-            "buồn"
-          ],
-          "answer_index": 3,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m14Q12",
+          "id": "VIE4M04Q17",
           "question": "Từ trái nghĩa với 'cao' là?",
           "options": [
+            "thấp",
             "đẹp",
-            "xanh",
             "nhanh",
-            "thấp"
+            "xanh"
           ],
-          "answer_index": 3,
+          "answer_index": 0,
           "answer_text": "thấp",
           "explanation": "'thấp' trái nghĩa với 'cao'."
         },
         {
-          "id": "V4m14Q13",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhỏ",
-            "đẹp",
-            "xanh",
-            "nhanh"
-          ],
-          "answer_index": 0,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m14Q14",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bévui",
-            "bé vui!",
-            "bé  vui",
-            "bé vui"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m14Q15",
+          "id": "VIE4M09Q19",
           "question": "Chọn viết đúng:",
           "options": [
-            "sứa",
-            "Sữa",
-            "sữa",
-            "SỮA"
-          ],
-          "answer_index": 2,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m14Q16",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "chậm",
-            "xấu",
-            "xinh",
-            "buồn"
-          ],
-          "answer_index": 2,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m14Q17",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé ngoan!",
-            "bé  ngoan",
-            "bé ngoan",
-            "béngoan"
-          ],
-          "answer_index": 2,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m14Q18",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bévui",
-            "bé  vui",
-            "bé vui!",
-            "bé vui"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m14Q19",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "xinh",
-            "XINH",
-            "Xinh",
-            "sinh"
-          ],
-          "answer_index": 0,
-          "answer_text": "xinh",
-          "explanation": "Chính tả đúng là 'xinh'."
-        },
-        {
-          "id": "V4m14Q20",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sinh",
-            "Xinh",
-            "XINH",
-            "xinh"
-          ],
-          "answer_index": 3,
-          "answer_text": "xinh",
-          "explanation": "Chính tả đúng là 'xinh'."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_15",
-      "name": "Đặt câu",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m15Q01",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "hớn hở",
-            "buồn",
-            "chậm",
-            "xấu"
-          ],
-          "answer_index": 0,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m15Q02",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m15Q03",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Ngã",
-            "NGÃ",
             "ngã",
-            "ngả"
+            "ngả",
+            "NGÃ",
+            "Ngã"
           ],
-          "answer_index": 2,
+          "answer_index": 0,
           "answer_text": "ngã",
           "explanation": "Chính tả đúng là 'ngã'."
         },
         {
-          "id": "V4m15Q04",
-          "question": "Từ đồng nghĩa với 'vui' là?",
+          "id": "VIE4M05Q05",
+          "question": "Từ đồng nghĩa với 'nhanh' là?",
           "options": [
-            "buồn",
-            "chậm",
+            "mau",
             "xấu",
-            "hớn hở"
+            "chậm",
+            "buồn"
           ],
-          "answer_index": 3,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
+          "answer_index": 0,
+          "answer_text": "mau",
+          "explanation": "'mau' ≈ 'nhanh'."
         },
         {
-          "id": "V4m15Q05",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m15Q06",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m15Q07",
+          "id": "VIE4M17Q12",
           "question": "Từ trái nghĩa với 'to' là?",
           "options": [
             "nhỏ",
-            "xanh",
             "đẹp",
-            "nhanh"
+            "nhanh",
+            "xanh"
           ],
           "answer_index": 0,
           "answer_text": "nhỏ",
           "explanation": "'nhỏ' trái nghĩa với 'to'."
         },
         {
-          "id": "V4m15Q08",
-          "question": "Điền đúng: 'bé __'",
+          "id": "VIE4M03Q10",
+          "question": "Từ trái nghĩa với 'vui' là?",
           "options": [
-            "bé  ngoan",
-            "bé ngoan",
-            "bé ngoan!",
-            "béngoan"
+            "buồn",
+            "đẹp",
+            "nhanh",
+            "xanh"
           ],
-          "answer_index": 1,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
+          "answer_index": 0,
+          "answer_text": "buồn",
+          "explanation": "'buồn' trái nghĩa với 'vui'."
         },
         {
-          "id": "V4m15Q09",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bécao",
-            "bé  cao",
-            "bé cao",
-            "bé cao!"
-          ],
-          "answer_index": 2,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m15Q10",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học.",
-            "Em đi học",
-            "Em, đi học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m15Q11",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé vui!",
-            "bévui",
-            "bé  vui",
-            "bé vui"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m15Q12",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m15Q13",
-          "question": "Chọn viết đúng:",
+          "id": "VIE4M13Q12",
+          "question": "Từ đồng nghĩa với 'đẹp' là?",
           "options": [
             "xinh",
-            "XINH",
-            "Xinh",
-            "sinh"
+            "xấu",
+            "chậm",
+            "buồn"
           ],
           "answer_index": 0,
           "answer_text": "xinh",
-          "explanation": "Chính tả đúng là 'xinh'."
-        },
-        {
-          "id": "V4m15Q14",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m15Q15",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Xinh",
-            "xinh",
-            "sinh",
-            "XINH"
-          ],
-          "answer_index": 1,
-          "answer_text": "xinh",
-          "explanation": "Chính tả đúng là 'xinh'."
-        },
-        {
-          "id": "V4m15Q16",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "xấu",
-            "xinh",
-            "buồn",
-            "chậm"
-          ],
-          "answer_index": 1,
-          "answer_text": "xinh",
           "explanation": "'xinh' ≈ 'đẹp'."
         },
         {
-          "id": "V4m15Q17",
+          "id": "VIE4M15Q07",
           "question": "Từ đồng nghĩa với 'đẹp' là?",
           "options": [
-            "buồn",
             "xinh",
             "xấu",
-            "chậm"
-          ],
-          "answer_index": 1,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m15Q18",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "buồn",
-            "hớn hở",
             "chậm",
-            "xấu"
+            "buồn"
           ],
-          "answer_index": 1,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
+          "answer_index": 0,
+          "answer_text": "xinh",
+          "explanation": "'xinh' ≈ 'đẹp'."
         },
         {
-          "id": "V4m15Q19",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé đẹp!",
-            "bé đẹp",
-            "bé  đẹp",
-            "béđẹp"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m15Q20",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "đẹp",
-            "xanh",
-            "buồn",
-            "nhanh"
-          ],
-          "answer_index": 2,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_16",
-      "name": "Chọn tranh hợp câu",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m16Q01",
+          "id": "VIE4M15Q20",
           "question": "Chọn câu viết đúng: 'em di hoc'",
           "options": [
             "Em đi học.",
-            "Em, đi học.",
             "Em đi học",
+            "Em, đi học.",
             "Em đi, học."
           ],
           "answer_index": 0,
           "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
+          "explanation": "Viết hoa chữ đầu, chấm cuối câu."
         },
         {
-          "id": "V4m16Q02",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m16Q03",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "hớn hở",
-            "chậm",
-            "xấu",
-            "buồn"
-          ],
-          "answer_index": 0,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m16Q04",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em, đi học.",
-            "Em đi học.",
-            "Em đi, học.",
-            "Em đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m16Q05",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m16Q06",
+          "id": "VIE4M05Q13",
           "question": "Chọn viết đúng:",
           "options": [
-            "nàm",
-            "Làm",
-            "LÀM",
-            "làm"
-          ],
-          "answer_index": 3,
-          "answer_text": "làm",
-          "explanation": "Chính tả đúng là 'làm'."
-        },
-        {
-          "id": "V4m16Q07",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bécao",
-            "bé cao!",
-            "bé  cao",
-            "bé cao"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m16Q08",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "béngoan",
-            "bé ngoan",
-            "bé ngoan!",
-            "bé  ngoan"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m16Q09",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em, đi học.",
-            "Em đi, học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m16Q10",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "xấu",
-            "chậm",
-            "xinh",
-            "buồn"
-          ],
-          "answer_index": 2,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m16Q11",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "nàm",
-            "LÀM",
-            "làm",
-            "Làm"
-          ],
-          "answer_index": 2,
-          "answer_text": "làm",
-          "explanation": "Chính tả đúng là 'làm'."
-        },
-        {
-          "id": "V4m16Q12",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "nhanh",
-            "buồn",
-            "xanh",
-            "đẹp"
-          ],
-          "answer_index": 1,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m16Q13",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  ngoan",
-            "bé ngoan!",
-            "béngoan",
-            "bé ngoan"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m16Q14",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhanh",
-            "đẹp",
-            "nhỏ",
-            "xanh"
-          ],
-          "answer_index": 2,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m16Q15",
-          "question": "Chọn viết đúng:",
-          "options": [
+            "trường",
             "chường",
             "TRƯỜNG",
-            "Trường",
-            "trường"
+            "Trường"
           ],
-          "answer_index": 3,
+          "answer_index": 0,
           "answer_text": "trường",
           "explanation": "Chính tả đúng là 'trường'."
         },
         {
-          "id": "V4m16Q16",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sữa",
-            "SỮA",
-            "sứa",
-            "Sữa"
-          ],
-          "answer_index": 0,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m16Q17",
+          "id": "VIE4M12Q01",
           "question": "Điền đúng: 'bé __'",
           "options": [
+            "bé vui",
+            "bévui",
             "bé  vui",
-            "bé vui",
-            "bé vui!",
-            "bévui"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m16Q18",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 0,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m16Q19",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bévui",
-            "bé vui!",
-            "bé vui",
-            "bé  vui"
-          ],
-          "answer_index": 2,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m16Q20",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 0,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_17",
-      "name": "Lỗi chính tả",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m17Q01",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé ngoan!",
-            "bé  ngoan",
-            "béngoan",
-            "bé ngoan"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m17Q02",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học",
-            "Em, đi học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m17Q03",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m17Q04",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhanh",
-            "đẹp",
-            "xanh",
-            "nhỏ"
-          ],
-          "answer_index": 3,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m17Q05",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé ngoan!",
-            "bé ngoan",
-            "bé  ngoan",
-            "béngoan"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m17Q06",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "xanh",
-            "đẹp",
-            "nhanh",
-            "buồn"
-          ],
-          "answer_index": 3,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m17Q07",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "chậm",
-            "xấu",
-            "xinh",
-            "buồn"
-          ],
-          "answer_index": 2,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m17Q08",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m17Q09",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "SỮA",
-            "Sữa",
-            "sứa",
-            "sữa"
-          ],
-          "answer_index": 3,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m17Q10",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "nhanh",
-            "đẹp",
-            "buồn",
-            "xanh"
-          ],
-          "answer_index": 2,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m17Q11",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "buồn",
-            "xấu",
-            "hớn hở",
-            "chậm"
-          ],
-          "answer_index": 2,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m17Q12",
-          "question": "Từ đồng nghĩa với 'vui' là?",
-          "options": [
-            "buồn",
-            "hớn hở",
-            "chậm",
-            "xấu"
-          ],
-          "answer_index": 1,
-          "answer_text": "hớn hở",
-          "explanation": "'hớn hở' ≈ 'vui'."
-        },
-        {
-          "id": "V4m17Q13",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 0,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m17Q14",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé đẹp",
-            "bé đẹp!",
-            "bé  đẹp",
-            "béđẹp"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m17Q15",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé đẹp",
-            "bé  đẹp",
-            "béđẹp",
-            "bé đẹp!"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m17Q16",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học",
-            "Em, đi học.",
-            "Em đi học."
-          ],
-          "answer_index": 3,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m17Q17",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "làm",
-            "LÀM",
-            "Làm",
-            "nàm"
-          ],
-          "answer_index": 0,
-          "answer_text": "làm",
-          "explanation": "Chính tả đúng là 'làm'."
-        },
-        {
-          "id": "V4m17Q18",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "xanh",
-            "buồn",
-            "đẹp",
-            "nhanh"
-          ],
-          "answer_index": 1,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m17Q19",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "béngoan",
-            "bé  ngoan",
-            "bé ngoan!",
-            "bé ngoan"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m17Q20",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em, đi học.",
-            "Em đi học.",
-            "Em đi học"
-          ],
-          "answer_index": 2,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_18",
-      "name": "Đoạn văn: ý chính",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m18Q01",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "nhanh",
-            "xanh",
-            "đẹp",
-            "buồn"
-          ],
-          "answer_index": 3,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m18Q02",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học",
-            "Em, đi học.",
-            "Em đi học.",
-            "Em đi, học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m18Q03",
-          "question": "Từ trái nghĩa với 'vui' là?",
-          "options": [
-            "nhanh",
-            "xanh",
-            "đẹp",
-            "buồn"
-          ],
-          "answer_index": 3,
-          "answer_text": "buồn",
-          "explanation": "'buồn' trái nghĩa với 'vui'."
-        },
-        {
-          "id": "V4m18Q04",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m18Q05",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "xinh",
-            "xấu",
-            "buồn",
-            "chậm"
-          ],
-          "answer_index": 0,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m18Q06",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé ngoan",
-            "bé  ngoan",
-            "béngoan",
-            "bé ngoan!"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m18Q07",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bécao",
-            "bé cao!",
-            "bé cao",
-            "bé  cao"
-          ],
-          "answer_index": 2,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m18Q08",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé cao!",
-            "bécao",
-            "bé  cao",
-            "bé cao"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m18Q09",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bévui",
-            "bé vui",
-            "bé vui!",
-            "bé  vui"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
-        },
-        {
-          "id": "V4m18Q10",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé vui",
-            "bé  vui",
-            "bévui",
             "bé vui!"
           ],
           "answer_index": 0,
           "answer_text": "bé vui",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé vui'."
+          "explanation": "Đúng chính tả và khoảng cách."
         },
         {
-          "id": "V4m18Q11",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhỏ",
-            "xanh",
-            "nhanh",
-            "đẹp"
-          ],
-          "answer_index": 0,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m18Q12",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  cao",
-            "bé cao!",
-            "bécao",
-            "bé cao"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m18Q13",
-          "question": "Chọn viết đúng:",
+          "id": "VIE4M12Q17",
+          "question": "Từ đồng nghĩa với 'đẹp' là?",
           "options": [
             "xinh",
-            "XINH",
-            "Xinh",
-            "sinh"
+            "xấu",
+            "chậm",
+            "buồn"
           ],
           "answer_index": 0,
           "answer_text": "xinh",
-          "explanation": "Chính tả đúng là 'xinh'."
+          "explanation": "'xinh' ≈ 'đẹp'."
         },
         {
-          "id": "V4m18Q14",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học.",
-            "Bé học đi lúc sáng."
-          ],
-          "answer_index": 0,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m18Q15",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "thấp",
-            "đẹp",
-            "nhanh",
-            "xanh"
-          ],
-          "answer_index": 0,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m18Q16",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "mau",
-            "chậm",
-            "buồn",
-            "xấu"
-          ],
-          "answer_index": 0,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m18Q17",
+          "id": "VIE4M06Q18",
           "question": "Chọn viết đúng:",
           "options": [
-            "nàm",
-            "làm",
-            "Làm",
-            "LÀM"
+            "trường",
+            "chường",
+            "TRƯỜNG",
+            "Trường"
           ],
-          "answer_index": 1,
-          "answer_text": "làm",
-          "explanation": "Chính tả đúng là 'làm'."
+          "answer_index": 0,
+          "answer_text": "trường",
+          "explanation": "Chính tả đúng là 'trường'."
         },
         {
-          "id": "V4m18Q18",
+          "id": "VIE4M06Q17",
+          "question": "Chọn câu viết đúng: 'em di hoc'",
+          "options": [
+            "Em đi học.",
+            "Em đi học",
+            "Em, đi học.",
+            "Em đi, học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Em đi học.",
+          "explanation": "Viết hoa chữ đầu, chấm cuối câu."
+        },
+        {
+          "id": "VIE4M04Q18",
           "question": "Từ đồng nghĩa với 'vui' là?",
           "options": [
             "hớn hở",
-            "chậm",
             "xấu",
+            "chậm",
             "buồn"
           ],
           "answer_index": 0,
@@ -4786,325 +299,12 @@
           "explanation": "'hớn hở' ≈ 'vui'."
         },
         {
-          "id": "V4m18Q19",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhanh",
-            "nhỏ",
-            "đẹp",
-            "xanh"
-          ],
-          "answer_index": 1,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m18Q20",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng.",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_19",
-      "name": "Sắp xếp câu",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m19Q01",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "béngoan",
-            "bé  ngoan",
-            "bé ngoan!",
-            "bé ngoan"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m19Q02",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học.",
-            "Em đi học",
-            "Em, đi học."
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m19Q03",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  ngoan",
-            "bé ngoan!",
-            "béngoan",
-            "bé ngoan"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m19Q04",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé cao",
-            "bé cao!",
-            "bé  cao",
-            "bécao"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m19Q05",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "xấu",
-            "chậm",
-            "xinh",
-            "buồn"
-          ],
-          "answer_index": 2,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m19Q06",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Lúc sáng bé đi học",
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m19Q07",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Bé học đi lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 0,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m19Q08",
-          "question": "Từ trái nghĩa với 'cao' là?",
-          "options": [
-            "xanh",
-            "nhanh",
-            "thấp",
-            "đẹp"
-          ],
-          "answer_index": 2,
-          "answer_text": "thấp",
-          "explanation": "'thấp' trái nghĩa với 'cao'."
-        },
-        {
-          "id": "V4m19Q09",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "béngoan",
-            "bé ngoan!",
-            "bé  ngoan",
-            "bé ngoan"
-          ],
-          "answer_index": 3,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
-        },
-        {
-          "id": "V4m19Q10",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
-          "options": [
-            "chậm",
-            "xấu",
-            "buồn",
-            "mau"
-          ],
-          "answer_index": 3,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
-        },
-        {
-          "id": "V4m19Q11",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi, học.",
-            "Em đi học.",
-            "Em, đi học.",
-            "Em đi học"
-          ],
-          "answer_index": 1,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m19Q12",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé đi lúc sáng học.",
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng."
-          ],
-          "answer_index": 3,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m19Q13",
+          "id": "VIE4M13Q09",
           "question": "Chọn viết đúng:",
           "options": [
-            "Xinh",
+            "xinh",
             "sinh",
-            "xinh",
-            "XINH"
-          ],
-          "answer_index": 2,
-          "answer_text": "xinh",
-          "explanation": "Chính tả đúng là 'xinh'."
-        },
-        {
-          "id": "V4m19Q14",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé  đẹp",
-            "bé đẹp",
-            "béđẹp",
-            "bé đẹp!"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        },
-        {
-          "id": "V4m19Q15",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé cao!",
-            "bé cao",
-            "bécao",
-            "bé  cao"
-          ],
-          "answer_index": 1,
-          "answer_text": "bé cao",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé cao'."
-        },
-        {
-          "id": "V4m19Q16",
-          "question": "Chọn câu viết đúng: 'em di hoc'",
-          "options": [
-            "Em đi học.",
-            "Em, đi học.",
-            "Em đi học",
-            "Em đi, học."
-          ],
-          "answer_index": 0,
-          "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
-        },
-        {
-          "id": "V4m19Q17",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Lúc sáng bé đi học",
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng.",
-            "Bé đi lúc sáng học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m19Q18",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "TRƯỜNG",
-            "Trường",
-            "trường",
-            "chường"
-          ],
-          "answer_index": 2,
-          "answer_text": "trường",
-          "explanation": "Chính tả đúng là 'trường'."
-        },
-        {
-          "id": "V4m19Q19",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "xấu",
-            "chậm",
-            "buồn",
-            "xinh"
-          ],
-          "answer_index": 3,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m19Q20",
-          "question": "Điền đúng: 'bé __'",
-          "options": [
-            "bé đẹp",
-            "bé  đẹp",
-            "béđẹp",
-            "bé đẹp!"
-          ],
-          "answer_index": 0,
-          "answer_text": "bé đẹp",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé đẹp'."
-        }
-      ]
-    },
-    {
-      "id": "VIE4_MEDIUM_20",
-      "name": "Ôn tổng hợp",
-      "difficulty": "medium",
-      "questions": [
-        {
-          "id": "V4m20Q01",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "sứa",
-            "sữa",
-            "SỮA",
-            "Sữa"
-          ],
-          "answer_index": 1,
-          "answer_text": "sữa",
-          "explanation": "Chính tả đúng là 'sữa'."
-        },
-        {
-          "id": "V4m20Q02",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "xinh",
             "XINH",
-            "sinh",
             "Xinh"
           ],
           "answer_index": 0,
@@ -5112,189 +312,254 @@
           "explanation": "Chính tả đúng là 'xinh'."
         },
         {
-          "id": "V4m20Q03",
-          "question": "Sắp xếp thành câu đúng nghĩa",
+          "id": "VIE4M20Q03",
+          "question": "Chọn viết đúng:",
           "options": [
-            "Bé đi lúc sáng học.",
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học",
-            "Bé học đi lúc sáng."
+            "xinh",
+            "sinh",
+            "XINH",
+            "Xinh"
           ],
-          "answer_index": 1,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
+          "answer_index": 0,
+          "answer_text": "xinh",
+          "explanation": "Chính tả đúng là 'xinh'."
         },
         {
-          "id": "V4m20Q04",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
+          "id": "VIE4M03Q13",
+          "question": "Từ trái nghĩa với 'to' là?",
           "options": [
-            "xấu",
-            "mau",
-            "buồn",
-            "chậm"
+            "nhỏ",
+            "đẹp",
+            "nhanh",
+            "xanh"
           ],
-          "answer_index": 1,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
+          "answer_index": 0,
+          "answer_text": "nhỏ",
+          "explanation": "'nhỏ' trái nghĩa với 'to'."
         },
         {
-          "id": "V4m20Q05",
+          "id": "VIE4M07Q17",
+          "question": "Chọn câu viết đúng: 'em di hoc'",
+          "options": [
+            "Em đi học.",
+            "Em đi học",
+            "Em, đi học.",
+            "Em đi, học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Em đi học.",
+          "explanation": "Viết hoa chữ đầu, chấm cuối câu."
+        },
+        {
+          "id": "VIE4M16Q02",
           "question": "Từ trái nghĩa với 'cao' là?",
           "options": [
-            "nhanh",
+            "thấp",
             "đẹp",
-            "xanh",
-            "thấp"
+            "nhanh",
+            "xanh"
           ],
-          "answer_index": 3,
+          "answer_index": 0,
           "answer_text": "thấp",
           "explanation": "'thấp' trái nghĩa với 'cao'."
         },
         {
-          "id": "V4m20Q06",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "buồn",
-            "xinh",
-            "chậm",
-            "xấu"
-          ],
-          "answer_index": 1,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m20Q07",
+          "id": "VIE4M14Q16",
           "question": "Từ đồng nghĩa với 'vui' là?",
           "options": [
             "hớn hở",
+            "xấu",
             "chậm",
-            "buồn",
-            "xấu"
+            "buồn"
           ],
           "answer_index": 0,
           "answer_text": "hớn hở",
           "explanation": "'hớn hở' ≈ 'vui'."
         },
         {
-          "id": "V4m20Q08",
-          "question": "Từ đồng nghĩa với 'nhanh' là?",
+          "id": "VIE4M14Q09",
+          "question": "Chọn viết đúng:",
           "options": [
-            "buồn",
-            "chậm",
-            "mau",
-            "xấu"
+            "trường",
+            "chường",
+            "TRƯỜNG",
+            "Trường"
           ],
-          "answer_index": 2,
-          "answer_text": "mau",
-          "explanation": "'mau' ≈ 'nhanh'."
+          "answer_index": 0,
+          "answer_text": "trường",
+          "explanation": "Chính tả đúng là 'trường'."
         },
         {
-          "id": "V4m20Q09",
+          "id": "VIE4M05Q14",
+          "question": "Chọn viết đúng:",
+          "options": [
+            "trường",
+            "chường",
+            "TRƯỜNG",
+            "Trường"
+          ],
+          "answer_index": 0,
+          "answer_text": "trường",
+          "explanation": "Chính tả đúng là 'trường'."
+        },
+        {
+          "id": "VIE4M15Q02",
+          "question": "Từ đồng nghĩa với 'đẹp' là?",
+          "options": [
+            "xinh",
+            "xấu",
+            "chậm",
+            "buồn"
+          ],
+          "answer_index": 0,
+          "answer_text": "xinh",
+          "explanation": "'xinh' ≈ 'đẹp'."
+        },
+        {
+          "id": "VIE4M16Q01",
+          "question": "Điền đúng: 'bé __'",
+          "options": [
+            "bé đẹp",
+            "béđẹp",
+            "bé  đẹp",
+            "bé đẹp!"
+          ],
+          "answer_index": 0,
+          "answer_text": "bé đẹp",
+          "explanation": "Đúng chính tả và khoảng cách."
+        },
+        {
+          "id": "VIE4M20Q15",
+          "question": "Chọn câu viết đúng: 'em di hoc'",
+          "options": [
+            "Em đi học.",
+            "Em đi học",
+            "Em, đi học.",
+            "Em đi, học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Em đi học.",
+          "explanation": "Viết hoa chữ đầu, chấm cuối câu."
+        },
+        {
+          "id": "VIE4M13Q02",
           "question": "Sắp xếp thành câu đúng nghĩa",
           "options": [
+            "Bé đi học lúc sáng.",
             "Bé học đi lúc sáng.",
             "Lúc sáng bé đi học",
-            "Bé đi học lúc sáng.",
             "Bé đi lúc sáng học."
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m20Q10",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi lúc sáng học.",
-            "Bé học đi lúc sáng.",
-            "Bé đi học lúc sáng.",
-            "Lúc sáng bé đi học"
-          ],
-          "answer_index": 2,
-          "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
-        },
-        {
-          "id": "V4m20Q11",
-          "question": "Sắp xếp thành câu đúng nghĩa",
-          "options": [
-            "Bé đi học lúc sáng.",
-            "Bé đi lúc sáng học.",
-            "Bé học đi lúc sáng.",
-            "Lúc sáng bé đi học"
           ],
           "answer_index": 0,
           "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
+          "explanation": "Trật tự: Chủ ngữ → Vị ngữ → Trạng ngữ."
         },
         {
-          "id": "V4m20Q12",
+          "id": "VIE4M01Q07",
+          "question": "Từ trái nghĩa với 'vui' là?",
+          "options": [
+            "buồn",
+            "đẹp",
+            "nhanh",
+            "xanh"
+          ],
+          "answer_index": 0,
+          "answer_text": "buồn",
+          "explanation": "'buồn' trái nghĩa với 'vui'."
+        },
+        {
+          "id": "VIE4M13Q17",
+          "question": "Từ đồng nghĩa với 'đẹp' là?",
+          "options": [
+            "xinh",
+            "xấu",
+            "chậm",
+            "buồn"
+          ],
+          "answer_index": 0,
+          "answer_text": "xinh",
+          "explanation": "'xinh' ≈ 'đẹp'."
+        },
+        {
+          "id": "VIE4M13Q11",
+          "question": "Điền đúng: 'bé __'",
+          "options": [
+            "bé cao",
+            "bécao",
+            "bé  cao",
+            "bé cao!"
+          ],
+          "answer_index": 0,
+          "answer_text": "bé cao",
+          "explanation": "Đúng chính tả và khoảng cách."
+        },
+        {
+          "id": "VIE4M02Q06",
+          "question": "Chọn câu viết đúng: 'em di hoc'",
+          "options": [
+            "Em đi học.",
+            "Em đi học",
+            "Em, đi học.",
+            "Em đi, học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Em đi học.",
+          "explanation": "Viết hoa chữ đầu, chấm cuối câu."
+        },
+        {
+          "id": "VIE4M05Q08",
+          "question": "Sắp xếp thành câu đúng nghĩa",
+          "options": [
+            "Bé đi học lúc sáng.",
+            "Bé học đi lúc sáng.",
+            "Lúc sáng bé đi học",
+            "Bé đi lúc sáng học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Bé đi học lúc sáng.",
+          "explanation": "Trật tự: Chủ ngữ → Vị ngữ → Trạng ngữ."
+        },
+        {
+          "id": "VIE4M17Q20",
+          "question": "Từ trái nghĩa với 'vui' là?",
+          "options": [
+            "buồn",
+            "đẹp",
+            "nhanh",
+            "xanh"
+          ],
+          "answer_index": 0,
+          "answer_text": "buồn",
+          "explanation": "'buồn' trái nghĩa với 'vui'."
+        },
+        {
+          "id": "VIE4M13Q04",
           "question": "Từ trái nghĩa với 'cao' là?",
           "options": [
-            "đẹp",
-            "xanh",
             "thấp",
-            "nhanh"
+            "đẹp",
+            "nhanh",
+            "xanh"
           ],
-          "answer_index": 2,
+          "answer_index": 0,
           "answer_text": "thấp",
           "explanation": "'thấp' trái nghĩa với 'cao'."
         },
         {
-          "id": "V4m20Q13",
-          "question": "Từ trái nghĩa với 'to' là?",
+          "id": "VIE4M09Q20",
+          "question": "Chọn câu viết đúng: 'em di hoc'",
           "options": [
-            "nhanh",
-            "nhỏ",
-            "xanh",
-            "đẹp"
-          ],
-          "answer_index": 1,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
-        },
-        {
-          "id": "V4m20Q14",
-          "question": "Chọn viết đúng:",
-          "options": [
-            "Làm",
-            "LÀM",
-            "làm",
-            "nàm"
-          ],
-          "answer_index": 2,
-          "answer_text": "làm",
-          "explanation": "Chính tả đúng là 'làm'."
-        },
-        {
-          "id": "V4m20Q15",
-          "question": "Từ trái nghĩa với 'to' là?",
-          "options": [
-            "nhỏ",
-            "nhanh",
-            "xanh",
-            "đẹp"
+            "Em đi học.",
+            "Em đi học",
+            "Em, đi học.",
+            "Em đi, học."
           ],
           "answer_index": 0,
-          "answer_text": "nhỏ",
-          "explanation": "'nhỏ' trái nghĩa với 'to'."
+          "answer_text": "Em đi học.",
+          "explanation": "Viết hoa chữ đầu, chấm cuối câu."
         },
         {
-          "id": "V4m20Q16",
-          "question": "Từ đồng nghĩa với 'đẹp' là?",
-          "options": [
-            "chậm",
-            "xấu",
-            "xinh",
-            "buồn"
-          ],
-          "answer_index": 2,
-          "answer_text": "xinh",
-          "explanation": "'xinh' ≈ 'đẹp'."
-        },
-        {
-          "id": "V4m20Q17",
+          "id": "VIE4M12Q13",
           "question": "Sắp xếp thành câu đúng nghĩa",
           "options": [
             "Bé đi học lúc sáng.",
@@ -5304,46 +569,358 @@
           ],
           "answer_index": 0,
           "answer_text": "Bé đi học lúc sáng.",
-          "explanation": "Trật tự tự nhiên: Chủ ngữ → Vị ngữ → Trạng ngữ."
+          "explanation": "Trật tự: Chủ ngữ → Vị ngữ → Trạng ngữ."
         },
         {
-          "id": "V4m20Q18",
+          "id": "VIE4M18Q06",
           "question": "Từ đồng nghĩa với 'đẹp' là?",
           "options": [
-            "buồn",
             "xinh",
             "xấu",
-            "chậm"
+            "chậm",
+            "buồn"
           ],
-          "answer_index": 1,
+          "answer_index": 0,
           "answer_text": "xinh",
           "explanation": "'xinh' ≈ 'đẹp'."
         },
         {
-          "id": "V4m20Q19",
+          "id": "VIE4M16Q11",
           "question": "Điền đúng: 'bé __'",
           "options": [
-            "bé  ngoan",
-            "béngoan",
-            "bé ngoan",
-            "bé ngoan!"
+            "bé vui",
+            "bévui",
+            "bé  vui",
+            "bé vui!"
           ],
-          "answer_index": 2,
-          "answer_text": "bé ngoan",
-          "explanation": "Đúng chính tả và khoảng cách: 'bé ngoan'."
+          "answer_index": 0,
+          "answer_text": "bé vui",
+          "explanation": "Đúng chính tả và khoảng cách."
         },
         {
-          "id": "V4m20Q20",
+          "id": "VIE4M01Q10",
           "question": "Chọn câu viết đúng: 'em di hoc'",
           "options": [
             "Em đi học.",
+            "Em đi học",
             "Em, đi học.",
-            "Em đi, học.",
-            "Em đi học"
+            "Em đi, học."
           ],
           "answer_index": 0,
           "answer_text": "Em đi học.",
-          "explanation": "Viết hoa chữ đầu và chấm cuối câu."
+          "explanation": "Viết hoa chữ đầu, chấm cuối câu."
+        },
+        {
+          "id": "VIE4M14Q08",
+          "question": "Sắp xếp thành câu đúng nghĩa",
+          "options": [
+            "Bé đi học lúc sáng.",
+            "Bé học đi lúc sáng.",
+            "Lúc sáng bé đi học",
+            "Bé đi lúc sáng học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Bé đi học lúc sáng.",
+          "explanation": "Trật tự: Chủ ngữ → Vị ngữ → Trạng ngữ."
+        },
+        {
+          "id": "VIE4M06Q15",
+          "question": "Chọn viết đúng:",
+          "options": [
+            "sữa",
+            "sứa",
+            "SỮA",
+            "Sữa"
+          ],
+          "answer_index": 0,
+          "answer_text": "sữa",
+          "explanation": "Chính tả đúng là 'sữa'."
+        },
+        {
+          "id": "VIE4M08Q20",
+          "question": "Từ trái nghĩa với 'vui' là?",
+          "options": [
+            "buồn",
+            "đẹp",
+            "nhanh",
+            "xanh"
+          ],
+          "answer_index": 0,
+          "answer_text": "buồn",
+          "explanation": "'buồn' trái nghĩa với 'vui'."
+        },
+        {
+          "id": "VIE4M20Q19",
+          "question": "Chọn viết đúng:",
+          "options": [
+            "ngã",
+            "ngả",
+            "NGÃ",
+            "Ngã"
+          ],
+          "answer_index": 0,
+          "answer_text": "ngã",
+          "explanation": "Chính tả đúng là 'ngã'."
+        },
+        {
+          "id": "VIE4M01Q20",
+          "question": "Điền đúng: 'bé __'",
+          "options": [
+            "bé đẹp",
+            "béđẹp",
+            "bé  đẹp",
+            "bé đẹp!"
+          ],
+          "answer_index": 0,
+          "answer_text": "bé đẹp",
+          "explanation": "Đúng chính tả và khoảng cách."
+        },
+        {
+          "id": "VIE4M18Q09",
+          "question": "Sắp xếp thành câu đúng nghĩa",
+          "options": [
+            "Bé đi học lúc sáng.",
+            "Bé học đi lúc sáng.",
+            "Lúc sáng bé đi học",
+            "Bé đi lúc sáng học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Bé đi học lúc sáng.",
+          "explanation": "Trật tự: Chủ ngữ → Vị ngữ → Trạng ngữ."
+        },
+        {
+          "id": "VIE4M17Q14",
+          "question": "Chọn câu viết đúng: 'em di hoc'",
+          "options": [
+            "Em đi học.",
+            "Em đi học",
+            "Em, đi học.",
+            "Em đi, học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Em đi học.",
+          "explanation": "Viết hoa chữ đầu, chấm cuối câu."
+        },
+        {
+          "id": "VIE4M02Q09",
+          "question": "Chọn câu viết đúng: 'em di hoc'",
+          "options": [
+            "Em đi học.",
+            "Em đi học",
+            "Em, đi học.",
+            "Em đi, học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Em đi học.",
+          "explanation": "Viết hoa chữ đầu, chấm cuối câu."
+        },
+        {
+          "id": "VIE4M04Q11",
+          "question": "Sắp xếp thành câu đúng nghĩa",
+          "options": [
+            "Bé đi học lúc sáng.",
+            "Bé học đi lúc sáng.",
+            "Lúc sáng bé đi học",
+            "Bé đi lúc sáng học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Bé đi học lúc sáng.",
+          "explanation": "Trật tự: Chủ ngữ → Vị ngữ → Trạng ngữ."
+        },
+        {
+          "id": "VIE4M03Q12",
+          "question": "Điền đúng: 'bé __'",
+          "options": [
+            "bé đẹp",
+            "béđẹp",
+            "bé  đẹp",
+            "bé đẹp!"
+          ],
+          "answer_index": 0,
+          "answer_text": "bé đẹp",
+          "explanation": "Đúng chính tả và khoảng cách."
+        },
+        {
+          "id": "VIE4M05Q03",
+          "question": "Chọn câu viết đúng: 'em di hoc'",
+          "options": [
+            "Em đi học.",
+            "Em đi học",
+            "Em, đi học.",
+            "Em đi, học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Em đi học.",
+          "explanation": "Viết hoa chữ đầu, chấm cuối câu."
+        },
+        {
+          "id": "VIE4M11Q11",
+          "question": "Sắp xếp thành câu đúng nghĩa",
+          "options": [
+            "Bé đi học lúc sáng.",
+            "Bé học đi lúc sáng.",
+            "Lúc sáng bé đi học",
+            "Bé đi lúc sáng học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Bé đi học lúc sáng.",
+          "explanation": "Trật tự: Chủ ngữ → Vị ngữ → Trạng ngữ."
+        },
+        {
+          "id": "VIE4M13Q05",
+          "question": "Điền đúng: 'bé __'",
+          "options": [
+            "bé vui",
+            "bévui",
+            "bé  vui",
+            "bé vui!"
+          ],
+          "answer_index": 0,
+          "answer_text": "bé vui",
+          "explanation": "Đúng chính tả và khoảng cách."
+        },
+        {
+          "id": "VIE4M13Q10",
+          "question": "Chọn viết đúng:",
+          "options": [
+            "sữa",
+            "sứa",
+            "SỮA",
+            "Sữa"
+          ],
+          "answer_index": 0,
+          "answer_text": "sữa",
+          "explanation": "Chính tả đúng là 'sữa'."
+        },
+        {
+          "id": "VIE4M04Q16",
+          "question": "Chọn câu viết đúng: 'em di hoc'",
+          "options": [
+            "Em đi học.",
+            "Em đi học",
+            "Em, đi học.",
+            "Em đi, học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Em đi học.",
+          "explanation": "Viết hoa chữ đầu, chấm cuối câu."
+        },
+        {
+          "id": "VIE4M03Q04",
+          "question": "Từ trái nghĩa với 'to' là?",
+          "options": [
+            "nhỏ",
+            "đẹp",
+            "nhanh",
+            "xanh"
+          ],
+          "answer_index": 0,
+          "answer_text": "nhỏ",
+          "explanation": "'nhỏ' trái nghĩa với 'to'."
+        },
+        {
+          "id": "VIE4M16Q04",
+          "question": "Từ đồng nghĩa với 'vui' là?",
+          "options": [
+            "hớn hở",
+            "xấu",
+            "chậm",
+            "buồn"
+          ],
+          "answer_index": 0,
+          "answer_text": "hớn hở",
+          "explanation": "'hớn hở' ≈ 'vui'."
+        },
+        {
+          "id": "VIE4M04Q08",
+          "question": "Chọn viết đúng:",
+          "options": [
+            "sữa",
+            "sứa",
+            "SỮA",
+            "Sữa"
+          ],
+          "answer_index": 0,
+          "answer_text": "sữa",
+          "explanation": "Chính tả đúng là 'sữa'."
+        },
+        {
+          "id": "VIE4M18Q19",
+          "question": "Sắp xếp thành câu đúng nghĩa",
+          "options": [
+            "Bé đi học lúc sáng.",
+            "Bé học đi lúc sáng.",
+            "Lúc sáng bé đi học",
+            "Bé đi lúc sáng học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Bé đi học lúc sáng.",
+          "explanation": "Trật tự: Chủ ngữ → Vị ngữ → Trạng ngữ."
+        },
+        {
+          "id": "VIE4M04Q05",
+          "question": "Từ trái nghĩa với 'cao' là?",
+          "options": [
+            "thấp",
+            "đẹp",
+            "nhanh",
+            "xanh"
+          ],
+          "answer_index": 0,
+          "answer_text": "thấp",
+          "explanation": "'thấp' trái nghĩa với 'cao'."
+        },
+        {
+          "id": "VIE4M09Q04",
+          "question": "Điền đúng: 'bé __'",
+          "options": [
+            "bé ngoan",
+            "béngoan",
+            "bé  ngoan",
+            "bé ngoan!"
+          ],
+          "answer_index": 0,
+          "answer_text": "bé ngoan",
+          "explanation": "Đúng chính tả và khoảng cách."
+        },
+        {
+          "id": "VIE4M07Q06",
+          "question": "Từ đồng nghĩa với 'vui' là?",
+          "options": [
+            "hớn hở",
+            "xấu",
+            "chậm",
+            "buồn"
+          ],
+          "answer_index": 0,
+          "answer_text": "hớn hở",
+          "explanation": "'hớn hở' ≈ 'vui'."
+        },
+        {
+          "id": "VIE4M08Q06",
+          "question": "Sắp xếp thành câu đúng nghĩa",
+          "options": [
+            "Bé đi học lúc sáng.",
+            "Bé học đi lúc sáng.",
+            "Lúc sáng bé đi học",
+            "Bé đi lúc sáng học."
+          ],
+          "answer_index": 0,
+          "answer_text": "Bé đi học lúc sáng.",
+          "explanation": "Trật tự: Chủ ngữ → Vị ngữ → Trạng ngữ."
+        },
+        {
+          "id": "VIE4M17Q01",
+          "question": "Điền đúng: 'bé __'",
+          "options": [
+            "bé vui",
+            "bévui",
+            "bé  vui",
+            "bé vui!"
+          ],
+          "answer_index": 0,
+          "answer_text": "bé vui",
+          "explanation": "Đúng chính tả và khoảng cách."
         }
       ]
     }

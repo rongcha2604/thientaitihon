@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface Particle {
-  id: number;
+  id: string;
   x: number;
   y: number;
   vx: number;
@@ -55,7 +55,7 @@ export default function Fireworks({ isActive, onComplete }: Props) {
           const vy = Math.sin(randomAngle) * speed;
           
           burstParticles.push({
-            id: Date.now() + j + i * 1000,
+            id: `firework-${Date.now()}-${i}-${j}-${Math.random().toString(36).substr(2, 9)}`,
             x: centerX + Math.cos(angle) * 50,
             y: centerY + Math.sin(angle) * 50,
             vx,
