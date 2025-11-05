@@ -20,7 +20,8 @@
             "ngày hè",
             "tươi đẹp"
           ],
-          "answer": "Những ngày hè tươi đẹp"
+          "answer_index": 1,
+          "answer_text": "Những ngày hè tươi đẹp"
         },
         {
           "question": "Trong các từ sau, đâu là nhóm chỉ toàn danh từ?",
@@ -30,7 +31,8 @@
             "gieo, ngày mới, lên nương",
             "lên nương, cô bé, mùa hè"
           ],
-          "answer": "niềm vui, nỗi buồn, tình yêu"
+          "answer_index": 1,
+          "answer_text": "niềm vui, nỗi buồn, tình yêu"
         },
         {
           "question": "Mục 'Luyện từ và câu' ở Bài 3 và Bài 4 (Tuần 2) tập trung vào loại từ nào?",
@@ -40,7 +42,8 @@
             "Trạng từ",
             "Danh từ"
           ],
-          "answer": "Danh từ"
+          "answer_index": 3,
+          "answer_text": "Danh từ"
         },
         {
           "question": "Mục đích của việc 'Lập dàn ý cho bài văn kể chuyện' là gì?",
@@ -50,7 +53,8 @@
             "Để sắp xếp các ý một cách logic trước khi viết.",
             "Để rèn luyện chữ viết cho đẹp."
           ],
-          "answer": "Để sắp xếp các ý một cách logic trước khi viết."
+          "answer_index": 2,
+          "answer_text": "Để sắp xếp các ý một cách logic trước khi viết."
         },
         {
           "question": "Trong bài 'Điều ước của vua Mi-đát', nhà vua đã học được bài học gì?",
@@ -60,7 +64,8 @@
             "Quyền lực có thể mua được mọi thứ.",
             "Mọi điều ước đều trở thành hiện thực."
           ],
-          "answer": "Tình cảm gia đình và những điều bình dị mới là quý nhất."
+          "answer_index": 1,
+          "answer_text": "Tình cảm gia đình và những điều bình dị mới là quý nhất."
         },
         {
           "question": "Thành phần chính của câu bao gồm những gì?",
@@ -70,12 +75,19 @@
             "Trạng ngữ và Chủ ngữ",
             "Tất cả các từ trong câu"
           ],
-          "answer": "Chủ ngữ và Vị ngữ"
+          "answer_index": 0,
+          "answer_text": "Chủ ngữ và Vị ngữ"
         },
         {
           "question": "Trong câu 'Những đóa hoa đồng thoại nở rộ trong vườn.', bộ phận nào là vị ngữ?",
-          "options": ["Những đóa hoa đồng thoại", "nở rộ trong vườn", "trong vườn", "nở rộ"],
-          "answer": "nở rộ trong vườn"
+          "options": [
+            "Những đóa hoa đồng thoại",
+            "nở rộ trong vườn",
+            "trong vườn",
+            "nở rộ"
+          ],
+          "answer_index": 1,
+          "answer_text": "nở rộ trong vườn"
         },
         {
           "question": "Phân biệt 'danh từ chung' và 'danh từ riêng' dựa vào quy tắc nào?",
@@ -85,7 +97,8 @@
             "Dựa vào độ dài của từ",
             "Không có quy tắc nào"
           ],
-          "answer": "Dựa vào cách viết hoa"
+          "answer_index": 0,
+          "answer_text": "Dựa vào cách viết hoa"
         },
         {
           "question": "Tại sao việc 'Quan sát, tìm ý cho bài văn miêu tả cây cối' lại quan trọng?",
@@ -95,7 +108,8 @@
             "Để sao chép y hệt bài văn mẫu",
             "Để không cần phải viết bài"
           ],
-          "answer": "Để tìm ra những chi tiết đặc sắc, giúp bài văn trở nên sinh động và chân thực"
+          "answer_index": 1,
+          "answer_text": "Để tìm ra những chi tiết đặc sắc, giúp bài văn trở nên sinh động và chân thực"
         },
         {
           "question": "Câu 'Lên nương' là một câu đơn hay câu ghép?",
@@ -105,12 +119,19 @@
             "Câu đơn (rút gọn chủ ngữ)",
             "Câu cảm thán"
           ],
-          "answer": "Câu đơn (rút gọn chủ ngữ)"
+          "answer_index": 2,
+          "answer_text": "Câu đơn (rút gọn chủ ngữ)"
         },
         {
           "question": "Chủ ngữ trong câu 'Bác sĩ của nhân dân luôn hết lòng vì người bệnh.' là gì?",
-          "options": ["Bác sĩ của nhân dân", "luôn hết lòng", "vì người bệnh", "hết lòng vì người bệnh"],
-          "answer": "Bác sĩ của nhân dân"
+          "options": [
+            "Bác sĩ của nhân dân",
+            "luôn hết lòng",
+            "vì người bệnh",
+            "hết lòng vì người bệnh"
+          ],
+          "answer_index": 0,
+          "answer_text": "Bác sĩ của nhân dân"
         },
         {
           "question": "Đâu là điểm chung giữa 'Lập dàn ý cho bài văn kể chuyện' và 'Lập dàn ý cho bài văn miêu tả cây cối'?",
@@ -120,7 +141,8 @@
             "Đều giúp sắp xếp các ý tưởng theo một bố cục rõ ràng (Mở bài, Thân bài, Kết bài)",
             "Không có điểm chung nào"
           ],
-          "answer": "Đều giúp sắp xếp các ý tưởng theo một bố cục rõ ràng (Mở bài, Thân bài, Kết bài)"
+          "answer_index": 2,
+          "answer_text": "Đều giúp sắp xếp các ý tưởng theo một bố cục rõ ràng (Mở bài, Thân bài, Kết bài)"
         },
         {
           "question": "Hành động 'gieo ngày mới' trong bài đọc cùng tên có thể được hiểu theo nghĩa bóng là gì?",
@@ -130,12 +152,19 @@
             "Mang đến những khởi đầu tốt đẹp, niềm hy vọng cho tương lai",
             "Đi ngủ sớm để đón ngày mới"
           ],
-          "answer": "Mang đến những khởi đầu tốt đẹp, niềm hy vọng cho tương lai"
+          "answer_index": 2,
+          "answer_text": "Mang đến những khởi đầu tốt đẹp, niềm hy vọng cho tương lai"
         },
         {
           "question": "Tìm động từ trong câu: 'Cô bé ấy đã lớn lên và trở thành một người tốt.'",
-          "options": ["lớn lên, trở thành", "cô bé, người tốt", "đã, và", "ấy, một"],
-          "answer": "lớn lên, trở thành"
+          "options": [
+            "lớn lên, trở thành",
+            "cô bé, người tốt",
+            "đã, và",
+            "ấy, một"
+          ],
+          "answer_index": 0,
+          "answer_text": "lớn lên, trở thành"
         },
         {
           "question": "Trong các nhóm từ sau, nhóm nào chỉ gồm các danh từ riêng?",
@@ -145,7 +174,8 @@
             "An, Lan, Hà Nội, Việt Nam",
             "niềm vui, nỗi buồn, hạnh phúc"
           ],
-          "answer": "An, Lan, Hà Nội, Việt Nam"
+          "answer_index": 2,
+          "answer_text": "An, Lan, Hà Nội, Việt Nam"
         },
         {
           "question": "Mở bài trong văn miêu tả cây cối thường có nhiệm vụ gì?",
@@ -155,7 +185,8 @@
             "Giới thiệu bao quát về cái cây định tả (tên cây, vị trí...)",
             "Tả chi tiết từng bộ phận của cây"
           ],
-          "answer": "Giới thiệu bao quát về cái cây định tả (tên cây, vị trí...)"
+          "answer_index": 2,
+          "answer_text": "Giới thiệu bao quát về cái cây định tả (tên cây, vị trí...)"
         },
         {
           "question": "Chủ đề 'lòng nhân ái' được thể hiện qua bài học nào?",
@@ -165,7 +196,8 @@
             "Bài 1: Cuộc phiêu lưu của bồ công anh",
             "Bài 4: Lên nương"
           ],
-          "answer": "Bài 2: Bác sĩ của nhân dân"
+          "answer_index": 0,
+          "answer_text": "Bài 2: Bác sĩ của nhân dân"
         },
         {
           "question": "Vị ngữ trong câu 'Cuộc phiêu lưu của bồ công anh rất thú vị.' là gì?",
@@ -175,7 +207,8 @@
             "của bồ công anh",
             "thú vị"
           ],
-          "answer": "rất thú vị"
+          "answer_index": 1,
+          "answer_text": "rất thú vị"
         },
         {
           "question": "Từ 'xôn xao' trong 'Xôn xao mùa hè' thuộc loại từ gì và miêu tả điều gì?",
@@ -185,7 +218,8 @@
             "Tính từ, gợi tả âm thanh và không khí rộn ràng, náo nhiệt",
             "Trạng từ, chỉ thời gian"
           ],
-          "answer": "Tính từ, gợi tả âm thanh và không khí rộn ràng, náo nhiệt"
+          "answer_index": 2,
+          "answer_text": "Tính từ, gợi tả âm thanh và không khí rộn ràng, náo nhiệt"
         },
         {
           "question": "Tại sao cần 'Viết đoạn kết bài cho bài văn miêu tả cây cối'?",
@@ -195,12 +229,19 @@
             "Để bắt đầu tả một cái cây khác",
             "Vì đó là yêu cầu bắt buộc của cô giáo"
           ],
-          "answer": "Để khẳng định lại cảm xúc, suy nghĩ của người viết về cái cây và khép lại bài văn"
+          "answer_index": 1,
+          "answer_text": "Để khẳng định lại cảm xúc, suy nghĩ của người viết về cái cây và khép lại bài văn"
         },
         {
           "question": "Trong câu 'Bình minh trên biển thật tráng lệ', đâu là chủ ngữ?",
-          "options": ["Bình minh", "trên biển", "Bình minh trên biển", "thật tráng lệ"],
-          "answer": "Bình minh trên biển"
+          "options": [
+            "Bình minh",
+            "trên biển",
+            "Bình minh trên biển",
+            "thật tráng lệ"
+          ],
+          "answer_index": 2,
+          "answer_text": "Bình minh trên biển"
         },
         {
           "question": "Dựa vào mục lục, em hãy cho biết tác giả tập trung vào những kỹ năng nào của môn Tiếng Việt?",
@@ -210,7 +251,8 @@
             "Cả 4 kỹ năng: Đọc, Viết, Nói và nghe, cùng với Luyện từ và câu",
             "Chỉ có Nói và nghe"
           ],
-          "answer": "Cả 4 kỹ năng: Đọc, Viết, Nói và nghe, cùng với Luyện từ và câu"
+          "answer_index": 2,
+          "answer_text": "Cả 4 kỹ năng: Đọc, Viết, Nói và nghe, cùng với Luyện từ và câu"
         },
         {
           "question": "Từ 'lạc quan' trong bài 'Món ngon mùa nước nổi' có nghĩa là gì?",
@@ -220,7 +262,8 @@
             "Giỏi nấu ăn",
             "Thích đi du lịch"
           ],
-          "answer": "Luôn tin tưởng vào những điều tốt đẹp ở tương lai"
+          "answer_index": 1,
+          "answer_text": "Luôn tin tưởng vào những điều tốt đẹp ở tương lai"
         },
         {
           "question": "Trong văn kể chuyện, phần thân bài thường có nhiệm vụ gì?",
@@ -230,7 +273,8 @@
             "Kể lại diễn biến chính của các sự việc",
             "Kết thúc câu chuyện"
           ],
-          "answer": "Kể lại diễn biến chính của các sự việc"
+          "answer_index": 2,
+          "answer_text": "Kể lại diễn biến chính của các sự việc"
         },
         {
           "question": "Xác định các cặp danh từ chung - danh từ riêng tương ứng.",
@@ -240,7 +284,8 @@
             "sông - núi, vua - quan, bạn - thầy",
             "sông - cá, vua - vàng, bạn - học"
           ],
-          "answer": "sông - Cửu Long, vua - Mi-đát, bạn - An"
+          "answer_index": 0,
+          "answer_text": "sông - Cửu Long, vua - Mi-đát, bạn - An"
         },
         {
           "question": "Thành phần chính của câu 'Trong ảnh bình minh, mặt trời từ từ nhô lên.' là gì?",
@@ -250,7 +295,8 @@
             "mặt trời",
             "từ từ nhô lên"
           ],
-          "answer": "mặt trời / từ từ nhô lên"
+          "answer_index": 1,
+          "answer_text": "mặt trời / từ từ nhô lên"
         },
         {
           "question": "Mục 'Luyện từ và câu' ở Tuần 20 và 21 có điểm gì chung?",
@@ -260,7 +306,8 @@
             "Đều luyện tập về chủ ngữ",
             "Đều học về động từ"
           ],
-          "answer": "Đều luyện tập về chủ ngữ"
+          "answer_index": 2,
+          "answer_text": "Đều luyện tập về chủ ngữ"
         },
         {
           "question": "Việc 'Trao đổi về việc xây dựng tủ sách của lớp em' (Bài 2) nhằm mục đích gì?",
@@ -270,7 +317,8 @@
             "Rèn luyện kỹ năng viết",
             "Rèn luyện kỹ năng tính toán"
           ],
-          "answer": "Rèn luyện kỹ năng làm việc nhóm và trình bày ý kiến"
+          "answer_index": 1,
+          "answer_text": "Rèn luyện kỹ năng làm việc nhóm và trình bày ý kiến"
         },
         {
           "question": "Tìm vị ngữ trong câu: 'Những ngày hè tươi đẹp mang lại nhiều niềm vui.'",
@@ -280,7 +328,8 @@
             "nhiều niềm vui",
             "mang lại"
           ],
-          "answer": "mang lại nhiều niềm vui"
+          "answer_index": 1,
+          "answer_text": "mang lại nhiều niềm vui"
         },
         {
           "question": "Bài đọc 'Cô bé ấy đã lớn' có thể nói về sự thay đổi gì của nhân vật?",
@@ -290,17 +339,30 @@
             "Sự thay đổi về trang phục",
             "Sự thay đổi về nơi ở"
           ],
-          "answer": "Sự trưởng thành trong suy nghĩ và hành động"
+          "answer_index": 1,
+          "answer_text": "Sự trưởng thành trong suy nghĩ và hành động"
         },
         {
           "question": "Câu 'Hãy viết một đoạn văn!' thuộc loại câu gì?",
-          "options": ["Câu kể", "Câu hỏi", "Câu cảm", "Câu cầu khiến"],
-          "answer": "Câu cầu khiến"
+          "options": [
+            "Câu kể",
+            "Câu hỏi",
+            "Câu cảm",
+            "Câu cầu khiến"
+          ],
+          "answer_index": 3,
+          "answer_text": "Câu cầu khiến"
         },
         {
           "question": "Đâu là thành phần phụ trong câu?",
-          "options": ["Chủ ngữ", "Vị ngữ", "Trạng ngữ", "Cả chủ ngữ và vị ngữ"],
-          "answer": "Trạng ngữ"
+          "options": [
+            "Chủ ngữ",
+            "Vị ngữ",
+            "Trạng ngữ",
+            "Cả chủ ngữ và vị ngữ"
+          ],
+          "answer_index": 2,
+          "answer_text": "Trạng ngữ"
         },
         {
           "question": "Trong bài văn miêu tả, phần thân bài thường làm gì?",
@@ -310,7 +372,8 @@
             "Tả chi tiết từng bộ phận, đặc điểm của đối tượng",
             "Kể một câu chuyện liên quan"
           ],
-          "answer": "Tả chi tiết từng bộ phận, đặc điểm của đối tượng"
+          "answer_index": 2,
+          "answer_text": "Tả chi tiết từng bộ phận, đặc điểm của đối tượng"
         },
         {
           "question": "Sự khác nhau cơ bản giữa kết bài mở rộng và kết bài không mở rộng là gì?",
@@ -320,7 +383,8 @@
             "Kết bài không mở rộng không có trong bài văn",
             "Không có sự khác biệt"
           ],
-          "answer": "Kết bài mở rộng có nêu thêm cảm xúc, suy nghĩ, liên tưởng của người viết"
+          "answer_index": 1,
+          "answer_text": "Kết bài mở rộng có nêu thêm cảm xúc, suy nghĩ, liên tưởng của người viết"
         },
         {
           "question": "Từ 'đồng thoại' trong 'Đoá hoa đồng thoại' có nghĩa là gì?",
@@ -330,7 +394,8 @@
             "Một bài hát về đồng quê",
             "Một điệu múa dân gian"
           ],
-          "answer": "Truyện viết cho trẻ em, có các loài vật, đồ vật được nhân cách hóa"
+          "answer_index": 1,
+          "answer_text": "Truyện viết cho trẻ em, có các loài vật, đồ vật được nhân cách hóa"
         },
         {
           "question": "Dựa vào tên các bài học, hãy cho biết tuần 2 và tuần 3 có điểm gì chung trong phần 'Viết'?",
@@ -340,12 +405,19 @@
             "Đều viết thư",
             "Đều không có phần 'Viết'"
           ],
-          "answer": "Đều tập trung vào các phần của bài văn kể chuyện (dàn ý, mở bài, kết bài, đoạn văn)"
+          "answer_index": 1,
+          "answer_text": "Đều tập trung vào các phần của bài văn kể chuyện (dàn ý, mở bài, kết bài, đoạn văn)"
         },
         {
           "question": "Trong câu 'Bác sĩ tận tình cứu chữa cho bệnh nhân.', từ 'tận tình' là từ loại gì?",
-          "options": ["Danh từ", "Động từ", "Tính từ (chỉ đặc điểm, thái độ)", "Trạng từ"],
-          "answer": "Tính từ (chỉ đặc điểm, thái độ)"
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ (chỉ đặc điểm, thái độ)",
+            "Trạng từ"
+          ],
+          "answer_index": 2,
+          "answer_text": "Tính từ (chỉ đặc điểm, thái độ)"
         },
         {
           "question": "Chủ đề của tuần 19 là gì?",
@@ -355,27 +427,52 @@
             "Cuộc sống mến yêu",
             "Gieo ngày mới"
           ],
-          "answer": "Cuộc sống mến yêu"
+          "answer_index": 2,
+          "answer_text": "Cuộc sống mến yêu"
         },
         {
           "question": "Xác định danh từ trong câu: 'Tình bạn của họ thật đáng quý.'",
-          "options": ["Tình bạn", "của họ", "thật đáng quý", "quý"],
-          "answer": "Tình bạn"
+          "options": [
+            "Tình bạn",
+            "của họ",
+            "thật đáng quý",
+            "quý"
+          ],
+          "answer_index": 0,
+          "answer_text": "Tình bạn"
         },
         {
           "question": "Mục 'Luyện từ và câu' tuần 3 nói về loại từ nào?",
-          "options": ["Danh từ", "Động từ", "Câu", "Chủ ngữ"],
-          "answer": "Động từ"
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Câu",
+            "Chủ ngữ"
+          ],
+          "answer_index": 1,
+          "answer_text": "Động từ"
         },
         {
           "question": "Hành động 'lên nương' thường diễn ra ở đâu?",
-          "options": ["Thành phố", "Bãi biển", "Vùng núi, đồi", "Sa mạc"],
-          "answer": "Vùng núi, đồi"
+          "options": [
+            "Thành phố",
+            "Bãi biển",
+            "Vùng núi, đồi",
+            "Sa mạc"
+          ],
+          "answer_index": 2,
+          "answer_text": "Vùng núi, đồi"
         },
         {
           "question": "Câu 'Câu chuyện về lòng nhân ái thật cảm động.' có chủ ngữ là gì?",
-          "options": ["Câu chuyện", "về lòng nhân ái", "Câu chuyện về lòng nhân ái", "thật cảm động"],
-          "answer": "Câu chuyện về lòng nhân ái"
+          "options": [
+            "Câu chuyện",
+            "về lòng nhân ái",
+            "Câu chuyện về lòng nhân ái",
+            "thật cảm động"
+          ],
+          "answer_index": 2,
+          "answer_text": "Câu chuyện về lòng nhân ái"
         },
         {
           "question": "Khi 'tìm ý cho bài văn', chúng ta cần làm gì?",
@@ -385,12 +482,19 @@
             "Đợi cô giáo đọc cho chép",
             "Viết ngay thành bài văn hoàn chỉnh"
           ],
-          "answer": "Suy nghĩ và ghi lại các chi tiết, sự việc liên quan đến đề bài"
+          "answer_index": 1,
+          "answer_text": "Suy nghĩ và ghi lại các chi tiết, sự việc liên quan đến đề bài"
         },
         {
           "question": "Động từ trong câu 'Em bé đang tập đi.' là gì?",
-          "options": ["Em bé", "đang", "tập đi", "đi"],
-          "answer": "tập đi"
+          "options": [
+            "Em bé",
+            "đang",
+            "tập đi",
+            "đi"
+          ],
+          "answer_index": 2,
+          "answer_text": "tập đi"
         },
         {
           "question": "Bài học 'Viết đoạn văn cho bài văn kể chuyện' (Tuần 3) là bước cụ thể hóa của bài học nào trước đó?",
@@ -400,12 +504,19 @@
             "Đọc bài 'Lên nương'",
             "Kể chuyện về lòng nhân ái"
           ],
-          "answer": "Tìm ý cho bài văn kể chuyện"
+          "answer_index": 1,
+          "answer_text": "Tìm ý cho bài văn kể chuyện"
         },
         {
           "question": "Đâu là danh từ chỉ đơn vị?",
-          "options": ["quyển (sách)", "đọc (sách)", "hay (sách)", "dày (sách)"],
-          "answer": "quyển (sách)"
+          "options": [
+            "quyển (sách)",
+            "đọc (sách)",
+            "hay (sách)",
+            "dày (sách)"
+          ],
+          "answer_index": 0,
+          "answer_text": "quyển (sách)"
         },
         {
           "question": "Trong các câu sau, câu nào là câu kể?",
@@ -415,7 +526,8 @@
             "Hãy giữ trật tự!",
             "Bồ công anh bay theo gió."
           ],
-          "answer": "Bồ công anh bay theo gió."
+          "answer_index": 3,
+          "answer_text": "Bồ công anh bay theo gió."
         },
         {
           "question": "Ý nghĩa của câu chuyện 'Điều ước của vua Mi-đát' là gì?",
@@ -425,12 +537,19 @@
             "Mọi thứ chạm vào đều hóa thành vàng là một điều tốt",
             "Chỉ có vua mới được quyền ước"
           ],
-          "answer": "Khuyên con người không nên tham lam, phải biết quý trọng những gì mình có"
+          "answer_index": 1,
+          "answer_text": "Khuyên con người không nên tham lam, phải biết quý trọng những gì mình có"
         },
         {
           "question": "Từ 'yêu cuộc sống' trong bài 'Món ngon mùa nước nổi' cho thấy thái độ sống như thế nào?",
-          "options": ["Bi quan", "Chán nản", "Lạc quan, tích cực", "Thờ ơ"],
-          "answer": "Lạc quan, tích cực"
+          "options": [
+            "Bi quan",
+            "Chán nản",
+            "Lạc quan, tích cực",
+            "Thờ ơ"
+          ],
+          "answer_index": 2,
+          "answer_text": "Lạc quan, tích cực"
         },
         {
           "question": "Để phân biệt các thành phần trong câu, ta dựa vào đâu?",
@@ -440,7 +559,8 @@
             "Dựa vào từ loại",
             "Dựa vào cảm tính"
           ],
-          "answer": "Dựa vào câu hỏi (Ai, làm gì? Thế nào? Ở đâu? Khi nào?...)"
+          "answer_index": 0,
+          "answer_text": "Dựa vào câu hỏi (Ai, làm gì? Thế nào? Ở đâu? Khi nào?...)"
         }
       ]
     }

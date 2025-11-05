@@ -22,19 +22,32 @@
             "Tám trăm chín mươi mốt",
             "Tám trăm linh một"
           ],
-          "answer": "Tám trăm chín mươi mốt"
+          "answer_index": 2,
+          "answer_text": "Tám trăm chín mươi mốt"
         },
         {
           "id": "M3E01Q02",
           "question": "Kết quả của phép tính 567 + 123 là:",
-          "options": ["680", "690", "790", "689"],
-          "answer": "690"
+          "options": [
+            "680",
+            "690",
+            "790",
+            "689"
+          ],
+          "answer_index": 1,
+          "answer_text": "690"
         },
         {
           "id": "M3E01Q03",
           "question": "Số 9 trong chữ số La Mã được viết là:",
-          "options": ["IX", "XI", "IV", "VI"],
-          "answer": "IX"
+          "options": [
+            "IX",
+            "XI",
+            "IV",
+            "VI"
+          ],
+          "answer_index": 0,
+          "answer_text": "IX"
         }
       ]
     },
@@ -46,14 +59,26 @@
         {
           "id": "M3E02Q01",
           "question": "Kết quả của phép tính 6 x 8 là:",
-          "options": ["42", "48", "54", "56"],
-          "answer": "48"
+          "options": [
+            "42",
+            "48",
+            "54",
+            "56"
+          ],
+          "answer_index": 1,
+          "answer_text": "48"
         },
         {
           "id": "M3E02Q02",
           "question": "Kết quả của phép tính 56 : 7 là:",
-          "options": ["6", "7", "8", "9"],
-          "answer": "8"
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer_index": 2,
+          "answer_text": "8"
         }
       ]
     },
@@ -65,8 +90,14 @@
         {
           "id": "M3E03Q01",
           "question": "Số 'Mười hai nghìn ba trăm bốn mươi lăm' được viết là:",
-          "options": ["12345", "12305", "1245", "102345"],
-          "answer": "12345"
+          "options": [
+            "12345",
+            "12305",
+            "1245",
+            "102345"
+          ],
+          "answer_index": 0,
+          "answer_text": "12345"
         }
       ]
     },
@@ -78,8 +109,14 @@
         {
           "id": "M3E04Q01",
           "question": "Một mét bằng bao nhiêu xăng-ti-mét?",
-          "options": ["10 cm", "100 cm", "1000 cm", "1 cm"],
-          "answer": "100 cm"
+          "options": [
+            "10 cm",
+            "100 cm",
+            "1000 cm",
+            "1 cm"
+          ],
+          "answer_index": 1,
+          "answer_text": "100 cm"
         }
       ]
     }

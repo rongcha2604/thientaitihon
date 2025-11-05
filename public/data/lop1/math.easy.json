@@ -11,321 +11,2721 @@
       "id": "MATH1E01",
       "name": "Đếm và nhận biết số (1–10)",
       "questions": [
-        {"id": "MATH1E01Q01", "question": "Có bao nhiêu quả táo? 🍎🍎🍎🍎🍎", "options": ["4", "5", "6", "7"], "answer_index": 1, "answer_text": "5", "explanation": "Đếm từng quả: 1, 2, 3, 4, 5."},
-        {"id": "MATH1E01Q02", "question": "Số nào đứng sau số 6?", "options": ["5", "7", "8", "9"], "answer_index": 1, "answer_text": "7", "explanation": "Số liền sau 6 là 7."},
-        {"id": "MATH1E01Q03", "question": "Số nào đứng trước số 9?", "options": ["8", "7", "10", "6"], "answer_index": 0, "answer_text": "8", "explanation": "Số liền trước 9 là 8."},
-        {"id": "MATH1E01Q04", "question": "Dãy nào đếm đúng?", "options": ["1,2,4,5", "1,2,3,4", "1,3,4,5", "2,3,4,6"], "answer_index": 1, "answer_text": "1,2,3,4", "explanation": "Dãy số tự nhiên liên tiếp từ 1 đến 4."},
-        {"id": "MATH1E01Q05", "question": "Số nào nhỏ hơn 5?", "options": ["6", "7", "4", "8"], "answer_index": 2, "answer_text": "4", "explanation": "4 nhỏ hơn 5."},
-        {"id": "MATH1E01Q06", "question": "Số nào lớn hơn 3?", "options": ["2", "4", "1", "0"], "answer_index": 1, "answer_text": "4", "explanation": "4 lớn hơn 3."},
-        {"id": "MATH1E01Q07", "question": "Dãy nào đếm đúng chiều tăng?", "options": ["5,4,3", "3,4,5", "2,1,0", "6,5,4"], "answer_index": 1, "answer_text": "3,4,5", "explanation": "Các số sau lớn hơn số trước."},
-        {"id": "MATH1E01Q08", "question": "Số nào nằm giữa 2 và 4?", "options": ["1", "3", "5", "6"], "answer_index": 1, "answer_text": "3", "explanation": "3 nằm giữa 2 và 4."},
-        {"id": "MATH1E01Q09", "question": "Có mấy ngôi sao? ⭐⭐", "options": ["1", "2", "3", "4"], "answer_index": 1, "answer_text": "2", "explanation": "Đếm được hai ngôi sao."},
-        {"id": "MATH1E01Q10", "question": "Số lớn nhất trong nhóm (2,5,1,4) là?", "options": ["2", "5", "1", "4"], "answer_index": 1, "answer_text": "5", "explanation": "5 là số lớn nhất trong nhóm."}
+        {
+          "id": "MATH1E01Q01",
+          "question": "Có bao nhiêu quả táo? 🍎🍎🍎🍎🍎",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "Đếm từng quả: 1, 2, 3, 4, 5."
+        },
+        {
+          "id": "MATH1E01Q02",
+          "question": "Số nào đứng sau số 6?",
+          "options": [
+            "5",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer_index": 1,
+          "answer_text": "7",
+          "explanation": "Số liền sau 6 là 7."
+        },
+        {
+          "id": "MATH1E01Q03",
+          "question": "Số nào đứng trước số 9?",
+          "options": [
+            "8",
+            "7",
+            "10",
+            "6"
+          ],
+          "answer_index": 0,
+          "answer_text": "8",
+          "explanation": "Số liền trước 9 là 8."
+        },
+        {
+          "id": "MATH1E01Q04",
+          "question": "Dãy nào đếm đúng?",
+          "options": [
+            "1,2,4,5",
+            "1,2,3,4",
+            "1,3,4,5",
+            "2,3,4,6"
+          ],
+          "answer_index": 1,
+          "answer_text": "1,2,3,4",
+          "explanation": "Dãy số tự nhiên liên tiếp từ 1 đến 4."
+        },
+        {
+          "id": "MATH1E01Q05",
+          "question": "Số nào nhỏ hơn 5?",
+          "options": [
+            "6",
+            "7",
+            "4",
+            "8"
+          ],
+          "answer_index": 2,
+          "answer_text": "4",
+          "explanation": "4 nhỏ hơn 5."
+        },
+        {
+          "id": "MATH1E01Q06",
+          "question": "Số nào lớn hơn 3?",
+          "options": [
+            "2",
+            "4",
+            "1",
+            "0"
+          ],
+          "answer_index": 1,
+          "answer_text": "4",
+          "explanation": "4 lớn hơn 3."
+        },
+        {
+          "id": "MATH1E01Q07",
+          "question": "Dãy nào đếm đúng chiều tăng?",
+          "options": [
+            "5,4,3",
+            "3,4,5",
+            "2,1,0",
+            "6,5,4"
+          ],
+          "answer_index": 1,
+          "answer_text": "3,4,5",
+          "explanation": "Các số sau lớn hơn số trước."
+        },
+        {
+          "id": "MATH1E01Q08",
+          "question": "Số nào nằm giữa 2 và 4?",
+          "options": [
+            "1",
+            "3",
+            "5",
+            "6"
+          ],
+          "answer_index": 1,
+          "answer_text": "3",
+          "explanation": "3 nằm giữa 2 và 4."
+        },
+        {
+          "id": "MATH1E01Q09",
+          "question": "Có mấy ngôi sao? ⭐⭐",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 1,
+          "answer_text": "2",
+          "explanation": "Đếm được hai ngôi sao."
+        },
+        {
+          "id": "MATH1E01Q10",
+          "question": "Số lớn nhất trong nhóm (2,5,1,4) là?",
+          "options": [
+            "2",
+            "5",
+            "1",
+            "4"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "5 là số lớn nhất trong nhóm."
+        }
       ]
     },
     {
       "id": "MATH1E02",
       "name": "So sánh số trong phạm vi 10",
       "questions": [
-        {"id": "MATH1E02Q01", "question": "5 ... 7 (điền dấu thích hợp)", "options": [">", "<", "=","+"], "answer_index": 1, "answer_text": "<", "explanation": "5 nhỏ hơn 7 nên điền <."},
-        {"id": "MATH1E02Q02", "question": "8 ... 6", "options": [">", "<", "=","+"], "answer_index": 0, "answer_text": ">", "explanation": "8 lớn hơn 6 nên điền >."},
-        {"id": "MATH1E02Q03", "question": "Số nào nhỏ nhất: 3, 9, 5?", "options": ["3", "5", "9", "4"], "answer_index": 0, "answer_text": "3", "explanation": "3 nhỏ nhất."},
-        {"id": "MATH1E02Q04", "question": "Số nào lớn nhất: 2, 8, 7?", "options": ["2", "7", "8", "6"], "answer_index": 2, "answer_text": "8", "explanation": "8 lớn nhất."},
-        {"id": "MATH1E02Q05", "question": "4 ... 4", "options": [">", "<", "=","+"], "answer_index": 2, "answer_text": "=", "explanation": "Hai số bằng nhau."},
-        {"id": "MATH1E02Q06", "question": "6 nhỏ hơn số nào?", "options": ["5", "7", "4", "3"], "answer_index": 1, "answer_text": "7", "explanation": "7 lớn hơn 6."},
-        {"id": "MATH1E02Q07", "question": "Sắp xếp dãy 4,2,6 theo thứ tự tăng dần", "options": ["4,2,6","2,4,6","6,4,2","2,6,4"], "answer_index": 1, "answer_text": "2,4,6", "explanation": "Từ nhỏ đến lớn là 2,4,6."},
-        {"id": "MATH1E02Q08", "question": "Sắp xếp dãy 7,9,8 theo thứ tự giảm dần", "options": ["7,8,9","8,9,7","9,8,7","9,7,8"], "answer_index": 2, "answer_text": "9,8,7", "explanation": "Từ lớn đến nhỏ là 9,8,7."},
-        {"id": "MATH1E02Q09", "question": "Số nào đứng giữa 5 và 7?", "options": ["6","8","9","10"], "answer_index": 0, "answer_text": "6", "explanation": "6 nằm giữa 5 và 7."},
-        {"id": "MATH1E02Q10", "question": "Trong các số 1,3,2, số nào lớn nhất?", "options": ["1","2","3","4"], "answer_index": 2, "answer_text": "3", "explanation": "3 lớn nhất trong nhóm."}
+        {
+          "id": "MATH1E02Q01",
+          "question": "5 ... 7 (điền dấu thích hợp)",
+          "options": [
+            ">",
+            "<",
+            "=",
+            "+"
+          ],
+          "answer_index": 1,
+          "answer_text": "<",
+          "explanation": "5 nhỏ hơn 7 nên điền <."
+        },
+        {
+          "id": "MATH1E02Q02",
+          "question": "8 ... 6",
+          "options": [
+            ">",
+            "<",
+            "=",
+            "+"
+          ],
+          "answer_index": 0,
+          "answer_text": ">",
+          "explanation": "8 lớn hơn 6 nên điền >."
+        },
+        {
+          "id": "MATH1E02Q03",
+          "question": "Số nào nhỏ nhất: 3, 9, 5?",
+          "options": [
+            "3",
+            "5",
+            "9",
+            "4"
+          ],
+          "answer_index": 0,
+          "answer_text": "3",
+          "explanation": "3 nhỏ nhất."
+        },
+        {
+          "id": "MATH1E02Q04",
+          "question": "Số nào lớn nhất: 2, 8, 7?",
+          "options": [
+            "2",
+            "7",
+            "8",
+            "6"
+          ],
+          "answer_index": 2,
+          "answer_text": "8",
+          "explanation": "8 lớn nhất."
+        },
+        {
+          "id": "MATH1E02Q05",
+          "question": "4 ... 4",
+          "options": [
+            ">",
+            "<",
+            "=",
+            "+"
+          ],
+          "answer_index": 2,
+          "answer_text": "=",
+          "explanation": "Hai số bằng nhau."
+        },
+        {
+          "id": "MATH1E02Q06",
+          "question": "6 nhỏ hơn số nào?",
+          "options": [
+            "5",
+            "7",
+            "4",
+            "3"
+          ],
+          "answer_index": 1,
+          "answer_text": "7",
+          "explanation": "7 lớn hơn 6."
+        },
+        {
+          "id": "MATH1E02Q07",
+          "question": "Sắp xếp dãy 4,2,6 theo thứ tự tăng dần",
+          "options": [
+            "4,2,6",
+            "2,4,6",
+            "6,4,2",
+            "2,6,4"
+          ],
+          "answer_index": 1,
+          "answer_text": "2,4,6",
+          "explanation": "Từ nhỏ đến lớn là 2,4,6."
+        },
+        {
+          "id": "MATH1E02Q08",
+          "question": "Sắp xếp dãy 7,9,8 theo thứ tự giảm dần",
+          "options": [
+            "7,8,9",
+            "8,9,7",
+            "9,8,7",
+            "9,7,8"
+          ],
+          "answer_index": 2,
+          "answer_text": "9,8,7",
+          "explanation": "Từ lớn đến nhỏ là 9,8,7."
+        },
+        {
+          "id": "MATH1E02Q09",
+          "question": "Số nào đứng giữa 5 và 7?",
+          "options": [
+            "6",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer_index": 0,
+          "answer_text": "6",
+          "explanation": "6 nằm giữa 5 và 7."
+        },
+        {
+          "id": "MATH1E02Q10",
+          "question": "Trong các số 1,3,2, số nào lớn nhất?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 2,
+          "answer_text": "3",
+          "explanation": "3 lớn nhất trong nhóm."
+        }
       ]
     },
     {
       "id": "MATH1E03",
       "name": "Phép cộng trong phạm vi 10",
       "questions": [
-        {"id": "MATH1E03Q01", "question": "3 + 4 = ?", "options": ["6","7","8","9"], "answer_index": 1, "answer_text": "7", "explanation": "3 cộng 4 được 7."},
-        {"id": "MATH1E03Q02", "question": "5 + 2 = ?", "options": ["6","7","8","9"], "answer_index": 1, "answer_text": "7", "explanation": "5 thêm 2 là 7."},
-        {"id": "MATH1E03Q03", "question": "1 + 6 = ?", "options": ["7","8","6","5"], "answer_index": 0, "answer_text": "7", "explanation": "1 cộng 6 bằng 7."},
-        {"id": "MATH1E03Q04", "question": "4 + 5 = ?", "options": ["8","9","7","6"], "answer_index": 1, "answer_text": "9", "explanation": "4 cộng 5 bằng 9."},
-        {"id": "MATH1E03Q05", "question": "Có 3 quả cam, thêm 4 quả nữa. Có tất cả bao nhiêu quả?", "options": ["6","7","8","9"], "answer_index": 1, "answer_text": "7", "explanation": "3 + 4 = 7."},
-        {"id": "MATH1E03Q06", "question": "Có 5 con cá, thêm 3 con nữa. Có tất cả bao nhiêu con?", "options": ["7","8","9","10"], "answer_index": 1, "answer_text": "8", "explanation": "5 + 3 = 8."},
-        {"id": "MATH1E03Q07", "question": "Có 2 quả chuối và 6 quả táo. Có tất cả bao nhiêu quả?", "options": ["6","7","8","9"], "answer_index": 2, "answer_text": "8", "explanation": "2 + 6 = 8."},
-        {"id": "MATH1E03Q08", "question": "Một cửa hàng có 4 quyển vở, nhập thêm 5 quyển. Có tất cả bao nhiêu quyển?", "options": ["8","9","10","11"], "answer_index": 1, "answer_text": "9", "explanation": "4 + 5 = 9."},
-        {"id": "MATH1E03Q09", "question": "1 + 1 = ?", "options": ["2","3","4","5"], "answer_index": 0, "answer_text": "2", "explanation": "1 cộng 1 bằng 2."},
-        {"id": "MATH1E03Q10", "question": "2 + 5 = ?", "options": ["6","7","8","9"], "answer_index": 1, "answer_text": "7", "explanation": "2 + 5 = 7."}
+        {
+          "id": "MATH1E03Q01",
+          "question": "3 + 4 = ?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer_index": 1,
+          "answer_text": "7",
+          "explanation": "3 cộng 4 được 7."
+        },
+        {
+          "id": "MATH1E03Q02",
+          "question": "5 + 2 = ?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer_index": 1,
+          "answer_text": "7",
+          "explanation": "5 thêm 2 là 7."
+        },
+        {
+          "id": "MATH1E03Q03",
+          "question": "1 + 6 = ?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "5"
+          ],
+          "answer_index": 0,
+          "answer_text": "7",
+          "explanation": "1 cộng 6 bằng 7."
+        },
+        {
+          "id": "MATH1E03Q04",
+          "question": "4 + 5 = ?",
+          "options": [
+            "8",
+            "9",
+            "7",
+            "6"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "4 cộng 5 bằng 9."
+        },
+        {
+          "id": "MATH1E03Q05",
+          "question": "Có 3 quả cam, thêm 4 quả nữa. Có tất cả bao nhiêu quả?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer_index": 1,
+          "answer_text": "7",
+          "explanation": "3 + 4 = 7."
+        },
+        {
+          "id": "MATH1E03Q06",
+          "question": "Có 5 con cá, thêm 3 con nữa. Có tất cả bao nhiêu con?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "5 + 3 = 8."
+        },
+        {
+          "id": "MATH1E03Q07",
+          "question": "Có 2 quả chuối và 6 quả táo. Có tất cả bao nhiêu quả?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer_index": 2,
+          "answer_text": "8",
+          "explanation": "2 + 6 = 8."
+        },
+        {
+          "id": "MATH1E03Q08",
+          "question": "Một cửa hàng có 4 quyển vở, nhập thêm 5 quyển. Có tất cả bao nhiêu quyển?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "4 + 5 = 9."
+        },
+        {
+          "id": "MATH1E03Q09",
+          "question": "1 + 1 = ?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer_index": 0,
+          "answer_text": "2",
+          "explanation": "1 cộng 1 bằng 2."
+        },
+        {
+          "id": "MATH1E03Q10",
+          "question": "2 + 5 = ?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer_index": 1,
+          "answer_text": "7",
+          "explanation": "2 + 5 = 7."
+        }
       ]
     },
     {
       "id": "MATH1E04",
       "name": "Phép trừ trong phạm vi 10",
       "questions": [
-        {"id": "MATH1E04Q01", "question": "7 - 3 = ?", "options": ["3","4","5","6"], "answer_index": 1, "answer_text": "4", "explanation": "7 bớt 3 còn 4."},
-        {"id": "MATH1E04Q02", "question": "9 - 2 = ?", "options": ["7","8","6","5"], "answer_index": 0, "answer_text": "7", "explanation": "9 trừ 2 còn 7."},
-        {"id": "MATH1E04Q03", "question": "5 - 1 = ?", "options": ["3","4","5","6"], "answer_index": 1, "answer_text": "4", "explanation": "5 bớt 1 còn 4."},
-        {"id": "MATH1E04Q04", "question": "10 - 4 = ?", "options": ["5","6","7","8"], "answer_index": 1, "answer_text": "6", "explanation": "10 trừ 4 còn 6."},
-        {"id": "MATH1E04Q05", "question": "Có 8 quả bóng, cho đi 3 quả. Còn lại bao nhiêu quả?", "options": ["4","5","6","7"], "answer_index": 1, "answer_text": "5", "explanation": "8 - 3 = 5."},
-        {"id": "MATH1E04Q06", "question": "Có 9 con chim, bay đi 4 con. Còn lại bao nhiêu con?", "options": ["4","5","6","7"], "answer_index": 1, "answer_text": "5", "explanation": "9 - 4 = 5."},
-        {"id": "MATH1E04Q07", "question": "Có 6 cây bút, mất 2 cây. Còn lại?", "options": ["4","5","3","2"], "answer_index": 0, "answer_text": "4", "explanation": "6 - 2 = 4."},
-        {"id": "MATH1E04Q08", "question": "Có 10 cái bánh, ăn 7 cái. Còn lại?", "options": ["2","3","4","5"], "answer_index": 1, "answer_text": "3", "explanation": "10 - 7 = 3."},
-        {"id": "MATH1E04Q09", "question": "5 - 5 = ?", "options": ["0","1","2","3"], "answer_index": 0, "answer_text": "0", "explanation": "Hai số bằng nhau, hiệu bằng 0."},
-        {"id": "MATH1E04Q10", "question": "Có 4 quả táo, cho bạn 1 quả. Còn lại mấy quả?", "options": ["3","4","2","1"], "answer_index": 0, "answer_text": "3", "explanation": "4 - 1 = 3."}
+        {
+          "id": "MATH1E04Q01",
+          "question": "7 - 3 = ?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer_index": 1,
+          "answer_text": "4",
+          "explanation": "7 bớt 3 còn 4."
+        },
+        {
+          "id": "MATH1E04Q02",
+          "question": "9 - 2 = ?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "5"
+          ],
+          "answer_index": 0,
+          "answer_text": "7",
+          "explanation": "9 trừ 2 còn 7."
+        },
+        {
+          "id": "MATH1E04Q03",
+          "question": "5 - 1 = ?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer_index": 1,
+          "answer_text": "4",
+          "explanation": "5 bớt 1 còn 4."
+        },
+        {
+          "id": "MATH1E04Q04",
+          "question": "10 - 4 = ?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer_index": 1,
+          "answer_text": "6",
+          "explanation": "10 trừ 4 còn 6."
+        },
+        {
+          "id": "MATH1E04Q05",
+          "question": "Có 8 quả bóng, cho đi 3 quả. Còn lại bao nhiêu quả?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "8 - 3 = 5."
+        },
+        {
+          "id": "MATH1E04Q06",
+          "question": "Có 9 con chim, bay đi 4 con. Còn lại bao nhiêu con?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "9 - 4 = 5."
+        },
+        {
+          "id": "MATH1E04Q07",
+          "question": "Có 6 cây bút, mất 2 cây. Còn lại?",
+          "options": [
+            "4",
+            "5",
+            "3",
+            "2"
+          ],
+          "answer_index": 0,
+          "answer_text": "4",
+          "explanation": "6 - 2 = 4."
+        },
+        {
+          "id": "MATH1E04Q08",
+          "question": "Có 10 cái bánh, ăn 7 cái. Còn lại?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer_index": 1,
+          "answer_text": "3",
+          "explanation": "10 - 7 = 3."
+        },
+        {
+          "id": "MATH1E04Q09",
+          "question": "5 - 5 = ?",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "answer_index": 0,
+          "answer_text": "0",
+          "explanation": "Hai số bằng nhau, hiệu bằng 0."
+        },
+        {
+          "id": "MATH1E04Q10",
+          "question": "Có 4 quả táo, cho bạn 1 quả. Còn lại mấy quả?",
+          "options": [
+            "3",
+            "4",
+            "2",
+            "1"
+          ],
+          "answer_index": 0,
+          "answer_text": "3",
+          "explanation": "4 - 1 = 3."
+        }
       ]
     },
     {
       "id": "MATH1E05",
-  "name": "Cộng và trừ với số 0",
-  "questions": [
-    {"id": "MATH1E05Q01", "question": "5 + 0 = ?", "options": ["5", "0", "6", "4"], "answer_index": 0, "answer_text": "5", "explanation": "Thêm 0 không làm thay đổi số ban đầu."},
-    {"id": "MATH1E05Q02", "question": "0 + 7 = ?", "options": ["0", "6", "7", "8"], "answer_index": 2, "answer_text": "7", "explanation": "Cộng 0 kết quả vẫn là số đó."},
-    {"id": "MATH1E05Q03", "question": "9 - 0 = ?", "options": ["8", "9", "10", "7"], "answer_index": 1, "answer_text": "9", "explanation": "Trừ 0 thì kết quả vẫn là chính nó."},
-    {"id": "MATH1E05Q04", "question": "0 + 0 = ?", "options": ["0", "1", "2", "3"], "answer_index": 0, "answer_text": "0", "explanation": "Không có gì cộng không vẫn là 0."},
-    {"id": "MATH1E05Q05", "question": "Có 6 bông hoa, không thêm bông nào. Có tất cả mấy bông?", "options": ["6","5","7","8"], "answer_index": 0,"answer_text":"6","explanation":"6 + 0 = 6."},
-    {"id": "MATH1E05Q06", "question": "Có 4 quả táo, không cho đi quả nào. Còn lại?", "options": ["3","4","5","6"],"answer_index":1,"answer_text":"4","explanation":"4 - 0 = 4."},
-    {"id": "MATH1E05Q07", "question": "0 + 5 = ?", "options": ["4","5","6","7"],"answer_index":1,"answer_text":"5","explanation":"Cộng 0 không đổi."},
-    {"id": "MATH1E05Q08", "question": "7 - 0 = ?", "options": ["6","7","8","9"],"answer_index":1,"answer_text":"7","explanation":"Trừ 0 thì vẫn giữ nguyên."},
-    {"id": "MATH1E05Q09", "question": "Có 0 con cá, thêm 2 con. Có tất cả?", "options": ["0","1","2","3"],"answer_index":2,"answer_text":"2","explanation":"0 + 2 = 2."},
-    {"id": "MATH1E05Q10", "question": "10 - 0 = ?", "options": ["9","10","8","7"],"answer_index":1,"answer_text":"10","explanation":"Trừ 0 không làm thay đổi số."}
-  ]
-},
-{
-  "id": "MATH1E06",
-  "name": "Cộng và trừ trong phạm vi 20",
-  "questions": [
-    {"id": "MATH1E06Q01", "question": "12 + 5 = ?", "options": ["16","17","18","19"],"answer_index":1,"answer_text":"17","explanation":"12 + 5 = 17."},
-    {"id": "MATH1E06Q02", "question": "15 - 7 = ?", "options": ["8","9","10","7"],"answer_index":0,"answer_text":"8","explanation":"15 - 7 = 8."},
-    {"id": "MATH1E06Q03", "question": "19 - 9 = ?", "options": ["9","10","11","8"],"answer_index":1,"answer_text":"10","explanation":"19 - 9 = 10."},
-    {"id": "MATH1E06Q04", "question": "Có 14 con chim, bay đi 5 con. Còn lại?", "options":["8","9","10","11"],"answer_index":1,"answer_text":"9","explanation":"14 - 5 = 9."},
-    {"id": "MATH1E06Q05", "question": "Có 7 quả cam, mua thêm 8 quả. Có tất cả?", "options":["13","14","15","16"],"answer_index":2,"answer_text":"15","explanation":"7 + 8 = 15."},
-    {"id": "MATH1E06Q06", "question": "20 - 10 = ?", "options":["9","10","11","12"],"answer_index":1,"answer_text":"10","explanation":"20 - 10 = 10."},
-    {"id": "MATH1E06Q07", "question": "Có 16 cái bánh, ăn 6 cái. Còn lại?", "options":["9","10","11","12"],"answer_index":1,"answer_text":"10","explanation":"16 - 6 = 10."},
-    {"id": "MATH1E06Q08", "question": "9 + 8 = ?", "options":["16","17","18","19"],"answer_index":1,"answer_text":"17","explanation":"9 cộng 8 bằng 17."},
-    {"id": "MATH1E06Q09", "question": "Có 10 quả táo, thêm 9 quả nữa. Tổng cộng?", "options":["18","19","20","21"],"answer_index":1,"answer_text":"19","explanation":"10 + 9 = 19."},
-    {"id": "MATH1E06Q10", "question": "17 - 7 = ?", "options":["9","10","11","8"],"answer_index":1,"answer_text":"10","explanation":"17 - 7 = 10."}
-  ]
-},
-{
-  "id": "MATH1E07",
-  "name": "Bài toán lời văn 1 bước",
-  "questions": [
-    {"id": "MATH1E07Q01", "question": "Nam có 3 quả táo, An cho thêm 4 quả. Nam có tất cả bao nhiêu quả?", "options": ["6","7","8","9"], "answer_index": 1, "answer_text": "7", "explanation": "3 + 4 = 7."},
-    {"id": "MATH1E07Q02", "question": "Lan có 8 bông hoa, tặng bạn 3 bông. Còn lại mấy bông?", "options": ["4","5","6","7"], "answer_index": 1, "answer_text": "5", "explanation": "8 - 3 = 5."},
-    {"id": "MATH1E07Q03", "question": "Có 10 con vịt, 4 con bơi đi. Còn lại mấy con?", "options":["5","6","7","8"],"answer_index":3,"answer_text":"6","explanation":"10 - 4 = 6."},
-    {"id": "MATH1E07Q04", "question": "Bình có 6 quả bóng, mua thêm 3 quả. Có tất cả?", "options":["8","9","10","11"],"answer_index":1,"answer_text":"9","explanation":"6 + 3 = 9."},
-    {"id": "MATH1E07Q05", "question": "Có 5 con mèo, 2 con chạy đi. Còn lại?", "options":["2","3","4","5"],"answer_index":2,"answer_text":"3","explanation":"5 - 2 = 3."},
-    {"id": "MATH1E07Q06", "question": "Lan có 4 cây bút, mẹ mua thêm 6 cây. Có tất cả?", "options":["8","9","10","11"],"answer_index":2,"answer_text":"10","explanation":"4 + 6 = 10."},
-    {"id": "MATH1E07Q07", "question": "Có 7 cái bánh, ăn 5 cái. Còn lại?", "options":["1","2","3","4"],"answer_index":1,"answer_text":"2","explanation":"7 - 5 = 2."},
-    {"id": "MATH1E07Q08", "question": "An có 9 quả trứng, làm vỡ 3 quả. Còn lại?", "options":["5","6","7","8"],"answer_index":1,"answer_text":"6","explanation":"9 - 3 = 6."},
-    {"id": "MATH1E07Q09", "question": "Có 3 con gà, thêm 2 con nữa. Có tất cả?", "options":["4","5","6","7"],"answer_index":1,"answer_text":"5","explanation":"3 + 2 = 5."},
-    {"id": "MATH1E07Q10", "question": "Có 10 quả táo, tặng bạn 5 quả. Còn lại?", "options":["4","5","6","7"],"answer_index":1,"answer_text":"5","explanation":"10 - 5 = 5."}
-  ]
-},
-{
-  "id": "MATH1E08",
-  "name": "Hình học cơ bản",
-  "questions": [
-    {"id": "MATH1E08Q01", "question": "Hình này là hình gì ⬜?", "options":["Hình tròn","Hình vuông","Hình tam giác","Hình chữ nhật"],"answer_index":1,"answer_text":"Hình vuông","explanation":"Bốn cạnh bằng nhau là hình vuông."},
-    {"id": "MATH1E08Q02", "question": "Hình này là hình gì ⚪?", "options":["Hình tròn","Hình vuông","Hình chữ nhật","Hình tam giác"],"answer_index":0,"answer_text":"Hình tròn","explanation":"Không có cạnh, chỉ có đường cong là hình tròn."},
-    {"id": "MATH1E08Q03", "question": "Hình này là hình gì 🔺?", "options":["Hình tròn","Hình tam giác","Hình chữ nhật","Hình vuông"],"answer_index":1,"answer_text":"Hình tam giác","explanation":"Có ba cạnh là hình tam giác."},
-    {"id": "MATH1E08Q04", "question": "Hình nào có 4 cạnh không bằng nhau?", "options":["Hình vuông","Hình tròn","Hình chữ nhật","Hình tam giác"],"answer_index":2,"answer_text":"Hình chữ nhật","explanation":"Hai cạnh dài, hai cạnh ngắn là hình chữ nhật."},
-    {"id": "MATH1E08Q05", "question": "Hình nào không có cạnh?", "options":["Hình tam giác","Hình tròn","Hình chữ nhật","Hình vuông"],"answer_index":1,"answer_text":"Hình tròn","explanation":"Hình tròn không có cạnh thẳng."},
-    {"id": "MATH1E08Q06", "question": "Có mấy cạnh trong hình vuông?", "options":["3","4","5","6"],"answer_index":1,"answer_text":"4","explanation":"Hình vuông có 4 cạnh."},
-    {"id": "MATH1E08Q07", "question": "Hình nào có 3 góc?", "options":["Hình vuông","Hình tròn","Hình tam giác","Hình chữ nhật"],"answer_index":2,"answer_text":"Hình tam giác","explanation":"Hình tam giác có 3 góc."},
-    {"id": "MATH1E08Q08", "question": "Hình nào giống cái bánh xe?", "options":["Hình tròn","Hình vuông","Hình tam giác","Hình chữ nhật"],"answer_index":0,"answer_text":"Hình tròn","explanation":"Bánh xe có dạng hình tròn."},
-    {"id": "MATH1E08Q09", "question": "Hình nào giống cái cửa ra vào?", "options":["Hình chữ nhật","Hình vuông","Hình tam giác","Hình tròn"],"answer_index":0,"answer_text":"Hình chữ nhật","explanation":"Cửa thường có dạng hình chữ nhật."},
-    {"id": "MATH1E08Q10", "question": "Hình nào giống cái bảng đen?", "options":["Hình tròn","Hình chữ nhật","Hình vuông","Hình tam giác"],"answer_index":1,"answer_text":"Hình chữ nhật","explanation":"Bảng đen có dạng hình chữ nhật."}
-  ]
-},
-{
-  "id": "MATH1E09",
-  "name": "Hình khối đơn giản (lập phương, hộp chữ nhật)",
-  "questions": [
-    {"id": "MATH1E09Q01","question":"Khối nào có 6 mặt vuông bằng nhau?","options":["Khối lập phương","Khối hộp chữ nhật","Hình trụ","Hình cầu"],"answer_index":0,"answer_text":"Khối lập phương","explanation":"Khối lập phương có 6 mặt đều là hình vuông."},
-    {"id": "MATH1E09Q02","question":"Khối nào có dạng giống hộp quà?","options":["Khối lập phương","Khối hộp chữ nhật","Hình trụ","Hình cầu"],"answer_index":1,"answer_text":"Khối hộp chữ nhật","explanation":"Hộp quà thường có dạng hình hộp chữ nhật."},
-    {"id": "MATH1E09Q03","question":"Khối nào giống quả bóng?","options":["Khối lập phương","Hình cầu","Hình trụ","Khối chữ nhật"],"answer_index":1,"answer_text":"Hình cầu","explanation":"Quả bóng có dạng hình cầu."},
-    {"id": "MATH1E09Q04","question":"Khối nào giống lon sữa?","options":["Hình trụ","Hình cầu","Hình vuông","Hình tam giác"],"answer_index":0,"answer_text":"Hình trụ","explanation":"Lon sữa có dạng hình trụ."},
-    {"id": "MATH1E09Q05","question":"Khối nào có 8 đỉnh?","options":["Hình cầu","Hình trụ","Khối lập phương","Hình tam giác"],"answer_index":2,"answer_text":"Khối lập phương","explanation":"Khối lập phương có 8 đỉnh."},
-    {"id": "MATH1E09Q06","question":"Khối nào có 6 mặt nhưng không đều nhau?","options":["Khối hộp chữ nhật","Khối lập phương","Hình trụ","Hình cầu"],"answer_index":0,"answer_text":"Khối hộp chữ nhật","explanation":"Khối hộp chữ nhật có các mặt hình chữ nhật, không đều nhau."},
-    {"id": "MATH1E09Q07","question":"Khối nào có thể lăn được?","options":["Hình cầu","Khối hộp","Hình vuông","Hình tam giác"],"answer_index":0,"answer_text":"Hình cầu","explanation":"Hình cầu lăn được vì bề mặt cong tròn."},
-    {"id": "MATH1E09Q08","question":"Khối nào có mặt tròn và mặt phẳng?","options":["Hình trụ","Khối lập phương","Hình cầu","Khối chữ nhật"],"answer_index":0,"answer_text":"Hình trụ","explanation":"Hình trụ có hai mặt phẳng và một mặt cong."},
-    {"id": "MATH1E09Q09","question":"Khối nào giống viên gạch?","options":["Khối hộp chữ nhật","Khối lập phương","Hình cầu","Hình trụ"],"answer_index":0,"answer_text":"Khối hộp chữ nhật","explanation":"Viên gạch có dạng khối hộp chữ nhật."},
-    {"id": "MATH1E09Q10","question":"Khối nào giống con xúc xắc?","options":["Khối lập phương","Hình trụ","Hình cầu","Khối hộp chữ nhật"],"answer_index":0,"answer_text":"Khối lập phương","explanation":"Xúc xắc có 6 mặt vuông bằng nhau."}
-  ]
-},
-{
-  "id": "MATH1E10",
-  "name": "Đo độ dài (cm)",
-  "questions": [
-    {"id": "MATH1E10Q01","question":"Dụng cụ nào dùng để đo độ dài?","options":["Thước","Bút","Gôm","Bảng"],"answer_index":0,"answer_text":"Thước","explanation":"Thước dùng để đo độ dài."},
-    {"id": "MATH1E10Q02","question":"1 cm ngắn hơn 5 cm đúng hay sai?","options":["Đúng","Sai","Không biết","Bằng nhau"],"answer_index":0,"answer_text":"Đúng","explanation":"1 cm nhỏ hơn 5 cm."},
-    {"id": "MATH1E10Q03","question":"Chiều dài bút chì khoảng bao nhiêu cm?","options":["2 cm","5 cm","10 cm","20 cm"],"answer_index":2,"answer_text":"10 cm","explanation":"Bút chì thường dài khoảng 10 cm."},
-    {"id": "MATH1E10Q04","question":"Đơn vị đo độ dài thường dùng là gì?","options":["cm","kg","lít","giờ"],"answer_index":0,"answer_text":"cm","explanation":"Đơn vị độ dài phổ biến là xăng-ti-mét (cm)."},
-    {"id": "MATH1E10Q05","question":"Cái bàn dài 1 mét bằng bao nhiêu cm?","options":["10","50","100","200"],"answer_index":2,"answer_text":"100","explanation":"1 mét = 100 cm."},
-    {"id": "MATH1E10Q06","question":"Đo đoạn thẳng dài 8 cm, dùng thước từ số nào đến số nào?","options":["0 đến 8","1 đến 8","2 đến 9","0 đến 10"],"answer_index":0,"answer_text":"0 đến 8","explanation":"Đo từ đầu 0 đến vị trí 8 cm."},
-    {"id": "MATH1E10Q07","question":"Thước ngắn hơn bút chì, đúng hay sai?","options":["Sai","Đúng","Không biết","Tùy trường hợp"],"answer_index":0,"answer_text":"Sai","explanation":"Thước thường dài hơn bút chì."},
-    {"id": "MATH1E10Q08","question":"5 cm + 3 cm = ?", "options":["7","8","9","10"],"answer_index":1,"answer_text":"8","explanation":"5 cộng 3 bằng 8."},
-    {"id": "MATH1E10Q09","question":"Đo độ dài đoạn dây 9 cm, cắt bớt 4 cm, còn bao nhiêu cm?","options":["3","4","5","6"],"answer_index":2,"answer_text":"5","explanation":"9 - 4 = 5 cm."},
-    {"id": "MATH1E10Q10","question":"Chiều dài ống hút khoảng bao nhiêu cm?","options":["5","10","15","20"],"answer_index":2,"answer_text":"15","explanation":"Ống hút thường dài khoảng 15 cm."}
-  ]
-},
-{
-  "id": "MATH1E11",
-  "name": "So sánh độ dài (ngắn hơn, dài hơn)",
-  "questions": [
-    {"id": "MATH1E11Q01","question":"Cái bút và cái thước, vật nào dài hơn?","options":["Thước","Bút","Gôm","Bảng"],"answer_index":0,"answer_text":"Thước","explanation":"Thước dài hơn bút."},
-    {"id": "MATH1E11Q02","question":"Sợi dây 8 cm và sợi dây 5 cm, dây nào ngắn hơn?","options":["Dây 8 cm","Dây 5 cm","Cả hai bằng nhau","Không biết"],"answer_index":1,"answer_text":"Dây 5 cm","explanation":"5 cm ngắn hơn 8 cm."},
-    {"id": "MATH1E11Q03","question":"Cây bút dài hơn thước đúng hay sai?","options":["Đúng","Sai","Không biết","Cả hai"],"answer_index":1,"answer_text":"Sai","explanation":"Thước dài hơn bút."},
-    {"id": "MATH1E11Q04","question":"Sợi dây 10 cm và dây 10 cm, dây nào dài hơn?","options":["Bằng nhau","10 cm dài hơn","10 cm ngắn hơn","Không xác định"],"answer_index":0,"answer_text":"Bằng nhau","explanation":"Hai dây cùng dài 10 cm."},
-    {"id": "MATH1E11Q05","question":"Cái bàn dài hơn cái ghế đúng không?","options":["Đúng","Sai","Không biết","Tùy"],"answer_index":0,"answer_text":"Đúng","explanation":"Bàn thường dài hơn ghế."},
-    {"id": "MATH1E11Q06","question":"Một đoạn 6 cm so với đoạn 9 cm như thế nào?","options":["Ngắn hơn","Dài hơn","Bằng nhau","Không biết"],"answer_index":0,"answer_text":"Ngắn hơn","explanation":"6 cm ngắn hơn 9 cm."},
-    {"id": "MATH1E11Q07","question":"Vật nào ngắn nhất: thước 10 cm, bút 8 cm, gôm 3 cm?","options":["Thước","Bút","Gôm","Cả ba bằng nhau"],"answer_index":2,"answer_text":"Gôm","explanation":"Gôm chỉ 3 cm, ngắn nhất."},
-    {"id": "MATH1E11Q08","question":"Đo hai đoạn, đoạn A = 7 cm, đoạn B = 5 cm. Đoạn nào dài hơn?","options":["A","B","Cả hai bằng nhau","Không xác định"],"answer_index":0,"answer_text":"A","explanation":"7 cm dài hơn 5 cm."},
-    {"id": "MATH1E11Q09","question":"Chiếc bàn học dài hơn chiếc ghế. Ta nói:","options":["Bàn dài hơn ghế","Ghế dài hơn bàn","Hai vật bằng nhau","Không biết"],"answer_index":0,"answer_text":"Bàn dài hơn ghế","explanation":"So sánh độ dài thực tế."},
-    {"id": "MATH1E11Q10","question":"Đoạn dây 10 cm và 7 cm. Dây nào ngắn hơn?","options":["10 cm","7 cm","Bằng nhau","Không biết"],"answer_index":1,"answer_text":"7 cm","explanation":"7 cm nhỏ hơn 10 cm."}
-  ]
-},
-{
-  "id": "MATH1E12",
-  "name": "Nhận biết thời gian (sáng – trưa – tối)",
-  "questions": [
-    {"id": "MATH1E12Q01","question":"Buổi sáng mặt trời như thế nào?","options":["Mọc","Lặn","Ở giữa trời","Không có"],"answer_index":0,"answer_text":"Mọc","explanation":"Buổi sáng mặt trời mọc."},
-    {"id": "MATH1E12Q02","question":"Buổi tối thường làm gì?","options":["Đi ngủ","Đi học","Ăn sáng","Chơi thể thao"],"answer_index":0,"answer_text":"Đi ngủ","explanation":"Buổi tối là thời gian nghỉ ngơi."},
-    {"id": "MATH1E12Q03","question":"Buổi trưa mặt trời ở đâu?","options":["Thấp","Giữa trời","Dưới đất","Không thấy"],"answer_index":1,"answer_text":"Giữa trời","explanation":"Buổi trưa mặt trời ở giữa trời."},
-    {"id": "MATH1E12Q04","question":"Buổi nào học sinh thường đi học?","options":["Sáng","Trưa","Tối","Khuya"],"answer_index":0,"answer_text":"Sáng","explanation":"Học sinh thường đi học buổi sáng."},
-    {"id": "MATH1E12Q05","question":"Buổi tối thường ăn gì?","options":["Ăn sáng","Ăn trưa","Ăn tối","Ăn nhẹ"],"answer_index":2,"answer_text":"Ăn tối","explanation":"Buổi tối là bữa ăn cuối trong ngày."},
-    {"id": "MATH1E12Q06","question":"Buổi nào mặt trời lặn?","options":["Sáng","Trưa","Chiều","Tối"],"answer_index":2,"answer_text":"Chiều","explanation":"Mặt trời lặn vào buổi chiều."},
-    {"id": "MATH1E12Q07","question":"Buổi sáng học sinh làm gì?","options":["Đi học","Ngủ","Ăn tối","Xem phim"],"answer_index":0,"answer_text":"Đi học","explanation":"Buổi sáng là giờ đi học."},
-    {"id": "MATH1E12Q08","question":"Buổi tối ánh sáng đến từ đâu?","options":["Mặt trời","Bóng đèn","Trăng sao","Cả hai"],"answer_index":1,"answer_text":"Bóng đèn","explanation":"Buổi tối ta cần đèn để sáng."},
-    {"id": "MATH1E12Q09","question":"Buổi sáng thường ăn gì?","options":["Ăn sáng","Ăn trưa","Ăn tối","Không ăn"],"answer_index":0,"answer_text":"Ăn sáng","explanation":"Buổi sáng ăn sáng để có năng lượng."},
-    {"id": "MATH1E12Q10","question":"Buổi trưa thường làm gì?","options":["Ngủ trưa","Đi học","Ăn sáng","Chơi tối"],"answer_index":0,"answer_text":"Ngủ trưa","explanation":"Buổi trưa thường nghỉ ngơi."}
-  ]
-},
-{
-  "id": "MATH1E13",
-  "name": "Xem giờ đúng (1 giờ, 2 giờ...)",
-  "questions": [
-    {"id": "MATH1E13Q01","question":"Khi kim ngắn chỉ số 3, kim dài chỉ số 12 là mấy giờ?","options":["3 giờ","12 giờ","6 giờ","9 giờ"],"answer_index":0,"answer_text":"3 giờ","explanation":"Kim ngắn chỉ 3, kim dài chỉ 12 → 3 giờ đúng."},
-    {"id": "MATH1E13Q02","question":"Kim ngắn chỉ số 7, kim dài chỉ 12 là mấy giờ?","options":["6 giờ","7 giờ","8 giờ","9 giờ"],"answer_index":1,"answer_text":"7 giờ","explanation":"Kim ngắn chỉ 7 → 7 giờ đúng."},
-    {"id": "MATH1E13Q03","question":"Kim ngắn chỉ số 12, kim dài chỉ số 12 là mấy giờ?","options":["12 giờ","1 giờ","6 giờ","9 giờ"],"answer_index":0,"answer_text":"12 giờ","explanation":"Cả hai kim trùng 12 → 12 giờ đúng."},
-    {"id": "MATH1E13Q04","question":"Buổi sáng 8 giờ học sinh làm gì?","options":["Đi học","Đi ngủ","Ăn tối","Xem phim"],"answer_index":0,"answer_text":"Đi học","explanation":"8 giờ sáng là thời gian đến lớp."},
-    {"id": "MATH1E13Q05","question":"Kim ngắn chỉ 9, kim dài chỉ 12 là mấy giờ?","options":["8 giờ","9 giờ","10 giờ","11 giờ"],"answer_index":1,"answer_text":"9 giờ","explanation":"Kim ngắn chỉ 9 → 9 giờ đúng."},
-    {"id": "MATH1E13Q06","question":"Khi kim ngắn chỉ 10 và kim dài chỉ 12, là mấy giờ?","options":["9 giờ","10 giờ","11 giờ","12 giờ"],"answer_index":1,"answer_text":"10 giờ","explanation":"Kim ngắn chỉ 10 → 10 giờ."},
-    {"id": "MATH1E13Q07","question":"12 giờ trưa còn gọi là mấy giờ?","options":["0 giờ","12 giờ","6 giờ","24 giờ"],"answer_index":1,"answer_text":"12 giờ","explanation":"12 giờ trưa là 12 giờ đúng."},
-    {"id": "MATH1E13Q08","question":"6 giờ sáng học sinh thường làm gì?","options":["Dậy học","Đi ngủ","Ăn tối","Đi chơi"],"answer_index":0,"answer_text":"Dậy học","explanation":"6 giờ sáng là lúc thức dậy."},
-    {"id": "MATH1E13Q09","question":"Khi kim ngắn chỉ số 4 và kim dài chỉ số 12, là mấy giờ?","options":["3 giờ","4 giờ","5 giờ","6 giờ"],"answer_index":1,"answer_text":"4 giờ","explanation":"Kim ngắn chỉ 4 → 4 giờ đúng."},
-    {"id": "MATH1E13Q10","question":"Kim ngắn chỉ 2, kim dài chỉ 12 là mấy giờ?","options":["1 giờ","2 giờ","3 giờ","4 giờ"],"answer_index":1,"answer_text":"2 giờ","explanation":"Kim ngắn chỉ 2 → 2 giờ đúng."}
-  ]
-},
-{
-  "id": "MATH1E14",
-  "name": "Quy luật tăng giảm",
-  "questions": [
-    {"id": "MATH1E14Q01","question":"Dãy số 1,2,3,4,... tiếp theo là?","options":["5","6","7","8"],"answer_index":0,"answer_text":"5","explanation":"Tăng dần thêm 1."},
-    {"id": "MATH1E14Q02","question":"Dãy số 10,9,8,7,... tiếp theo là?","options":["6","5","11","12"],"answer_index":0,"answer_text":"6","explanation":"Giảm dần 1."},
-    {"id": "MATH1E14Q03","question":"Dãy 2,4,6,8,... tiếp theo là?","options":["9","10","11","12"],"answer_index":1,"answer_text":"10","explanation":"Tăng dần 2."},
-    {"id": "MATH1E14Q04","question":"Dãy 5,4,3,2,... tiếp theo là?","options":["1","0","2","6"],"answer_index":0,"answer_text":"1","explanation":"Giảm dần 1."},
-    {"id": "MATH1E14Q05","question":"Dãy 3,6,9,... tiếp theo là?","options":["10","11","12","13"],"answer_index":2,"answer_text":"12","explanation":"Tăng dần 3."},
-    {"id": "MATH1E14Q06","question":"Dãy 1,3,5,7,... tiếp theo là?","options":["8","9","10","11"],"answer_index":1,"answer_text":"9","explanation":"Tăng dần 2."},
-    {"id": "MATH1E14Q07","question":"Dãy 2,5,8,... tiếp theo là?","options":["9","10","11","12"],"answer_index":2,"answer_text":"11","explanation":"Tăng dần 3."},
-    {"id": "MATH1E14Q08","question":"Dãy 9,8,7,... tiếp theo là?","options":["6","5","10","11"],"answer_index":0,"answer_text":"6","explanation":"Giảm dần 1."},
-    {"id": "MATH1E14Q09","question":"Dãy 4,8,12,... tiếp theo là?","options":["14","15","16","20"],"answer_index":2,"answer_text":"16","explanation":"Tăng dần 4."},
-    {"id": "MATH1E14Q10","question":"Dãy 10,8,6,4,... tiếp theo là?","options":["3","2","1","0"],"answer_index":1,"answer_text":"2","explanation":"Giảm dần 2."}
-  ]
-},
-{
-  "id": "MATH1E15",
-  "name": "Số liền trước – liền sau",
-  "questions": [
-    {"id": "MATH1E15Q01","question":"Số liền sau của 5 là?","options":["4","5","6","7"],"answer_index":2,"answer_text":"6","explanation":"Sau 5 là 6."},
-    {"id": "MATH1E15Q02","question":"Số liền trước của 9 là?","options":["7","8","9","10"],"answer_index":1,"answer_text":"8","explanation":"Trước 9 là 8."},
-    {"id": "MATH1E15Q03","question":"Số liền sau của 0 là?","options":["1","2","3","4"],"answer_index":0,"answer_text":"1","explanation":"Sau 0 là 1."},
-    {"id": "MATH1E15Q04","question":"Số liền trước của 2 là?","options":["1","2","3","0"],"answer_index":0,"answer_text":"1","explanation":"Trước 2 là 1."},
-    {"id": "MATH1E15Q05","question":"Số liền sau của 8 là?","options":["7","8","9","10"],"answer_index":2,"answer_text":"9","explanation":"Sau 8 là 9."},
-    {"id": "MATH1E15Q06","question":"Số liền trước của 1 là?","options":["0","2","3","4"],"answer_index":0,"answer_text":"0","explanation":"Trước 1 là 0."},
-    {"id": "MATH1E15Q07","question":"Số liền sau của 10 là?","options":["9","10","11","12"],"answer_index":2,"answer_text":"11","explanation":"Sau 10 là 11."},
-    {"id": "MATH1E15Q08","question":"Số liền trước của 5 là?","options":["3","4","5","6"],"answer_index":1,"answer_text":"4","explanation":"Trước 5 là 4."},
-    {"id": "MATH1E15Q09","question":"Số liền sau của 12 là?","options":["13","14","15","16"],"answer_index":0,"answer_text":"13","explanation":"Sau 12 là 13."},
-    {"id": "MATH1E15Q10","question":"Số liền trước của 20 là?","options":["19","18","17","16"],"answer_index":0,"answer_text":"19","explanation":"Trước 20 là 19."}
-  ]
-},
-{
-  "id": "MATH1E16",
-  "name": "Bài toán nhiều hơn – ít hơn",
-  "questions": [
-    {"id": "MATH1E16Q01","question":"Nam có 5 viên bi, An có 7 viên bi. Ai có nhiều hơn?","options":["Nam","An","Bằng nhau","Không biết"],"answer_index":1,"answer_text":"An","explanation":"7 > 5 nên An nhiều hơn."},
-    {"id": "MATH1E16Q02","question":"Có 8 con cá, 5 con bơi đi. Còn lại ít hơn hay nhiều hơn ban đầu?","options":["Ít hơn","Nhiều hơn","Bằng nhau","Không biết"],"answer_index":0,"answer_text":"Ít hơn","explanation":"Bơi đi làm giảm số lượng."},
-    {"id": "MATH1E16Q03","question":"7 nhiều hơn 4 bao nhiêu đơn vị?","options":["2","3","4","5"],"answer_index":1,"answer_text":"3","explanation":"7 - 4 = 3."},
-    {"id": "MATH1E16Q04","question":"10 ít hơn 12 bao nhiêu đơn vị?","options":["1","2","3","4"],"answer_index":1,"answer_text":"2","explanation":"12 - 10 = 2."},
-    {"id": "MATH1E16Q05","question":"Có 6 bông hồng và 9 bông cúc. Bông cúc nhiều hơn bao nhiêu?","options":["2","3","4","5"],"answer_index":1,"answer_text":"3","explanation":"9 - 6 = 3."},
-    {"id": "MATH1E16Q06","question":"An có 10 cái kẹo, Bình có 8 cái. Ai ít hơn?","options":["An","Bình","Bằng nhau","Không biết"],"answer_index":1,"answer_text":"Bình","explanation":"8 < 10 nên Bình ít hơn."},
-    {"id": "MATH1E16Q07","question":"Số 5 ít hơn số 9 bao nhiêu đơn vị?","options":["3","4","5","6"],"answer_index":1,"answer_text":"4","explanation":"9 - 5 = 4."},
-    {"id": "MATH1E16Q08","question":"Có 12 quả cam, 8 quả táo. Quả cam nhiều hơn bao nhiêu?","options":["2","3","4","5"],"answer_index":2,"answer_text":"4","explanation":"12 - 8 = 4."},
-    {"id": "MATH1E16Q09","question":"Có 7 con vịt, 9 con gà. Con gà nhiều hơn mấy con?","options":["1","2","3","4"],"answer_index":1,"answer_text":"2","explanation":"9 - 7 = 2."},
-    {"id": "MATH1E16Q10","question":"Có 5 cây bút và 5 quyển vở. Số bút và vở như thế nào?","options":["Bút nhiều hơn","Vở nhiều hơn","Bằng nhau","Không biết"],"answer_index":2,"answer_text":"Bằng nhau","explanation":"Hai số đều bằng 5."}
-  ]
-},
-{
-  "id": "MATH1E17",
-  "name": "Tìm số còn thiếu",
-  "questions": [
-    {"id": "MATH1E17Q01","question":"Điền số còn thiếu: 1, 2, __, 4","options":["3","5","6","7"],"answer_index":0,"answer_text":"3","explanation":"2 thêm 1 là 3."},
-    {"id": "MATH1E17Q02","question":"Điền số còn thiếu: 5, 6, 7, __","options":["8","9","10","11"],"answer_index":0,"answer_text":"8","explanation":"Dãy tăng 1."},
-    {"id": "MATH1E17Q03","question":"Điền số còn thiếu: 10, 9, 8, __","options":["7","6","5","4"],"answer_index":0,"answer_text":"7","explanation":"Giảm dần 1."},
-    {"id": "MATH1E17Q04","question":"Điền số còn thiếu: 2, 4, 6, __","options":["7","8","9","10"],"answer_index":1,"answer_text":"8","explanation":"Tăng dần 2."},
-    {"id": "MATH1E17Q05","question":"Điền số còn thiếu: 1, 3, 5, __","options":["6","7","8","9"],"answer_index":1,"answer_text":"7","explanation":"Tăng dần 2."},
-    {"id": "MATH1E17Q06","question":"Điền số còn thiếu: 9, 8, 7, __","options":["6","5","4","3"],"answer_index":0,"answer_text":"6","explanation":"Giảm dần 1."},
-    {"id": "MATH1E17Q07","question":"Điền số còn thiếu: 3, 6, 9, __","options":["10","11","12","13"],"answer_index":2,"answer_text":"12","explanation":"Tăng dần 3."},
-    {"id": "MATH1E17Q08","question":"Điền số còn thiếu: 2, 5, 8, __","options":["9","10","11","12"],"answer_index":2,"answer_text":"11","explanation":"Tăng dần 3."},
-    {"id": "MATH1E17Q09","question":"Điền số còn thiếu: 7, 5, 3, __","options":["2","1","0","-1"],"answer_index":1,"answer_text":"1","explanation":"Giảm dần 2."},
-    {"id": "MATH1E17Q10","question":"Điền số còn thiếu: 0, 2, 4, __","options":["5","6","7","8"],"answer_index":1,"answer_text":"6","explanation":"Tăng dần 2."}
-  ]
-},
-{
-  "id": "MATH1E18",
-  "name": "Ghép phép tính đúng",
-  "questions": [
-    {"id": "MATH1E18Q01","question":"Phép tính nào đúng?","options":["3+2=5","3+2=6","3+2=7","3+2=4"],"answer_index":0,"answer_text":"3+2=5","explanation":"3 cộng 2 bằng 5."},
-    {"id": "MATH1E18Q02","question":"Phép tính nào đúng?","options":["4+5=9","4+5=8","4+5=7","4+5=10"],"answer_index":0,"answer_text":"4+5=9","explanation":"4 cộng 5 bằng 9."},
-    {"id": "MATH1E18Q03","question":"Phép tính nào đúng?","options":["6-3=2","6-3=3","6-3=4","6-3=5"],"answer_index":1,"answer_text":"6-3=3","explanation":"6 trừ 3 bằng 3."},
-    {"id": "MATH1E18Q04","question":"Phép tính nào sai?","options":["5+5=10","2+2=4","3+3=5","4+1=5"],"answer_index":2,"answer_text":"3+3=5","explanation":"3+3=6, không phải 5."},
-    {"id": "MATH1E18Q05","question":"Phép tính nào đúng?","options":["7-2=5","7-2=6","7-2=4","7-2=3"],"answer_index":0,"answer_text":"7-2=5","explanation":"7 trừ 2 còn 5."},
-    {"id": "MATH1E18Q06","question":"Phép tính nào đúng?","options":["9-4=6","9-4=5","9-4=7","9-4=8"],"answer_index":1,"answer_text":"9-4=5","explanation":"9 trừ 4 còn 5."},
-    {"id": "MATH1E18Q07","question":"Phép tính nào sai?","options":["10-5=5","8-4=4","6+2=7","4+3=7"],"answer_index":2,"answer_text":"6+2=7","explanation":"6+2=8, không phải 7."},
-    {"id": "MATH1E18Q08","question":"Phép tính nào đúng?","options":["3+3=6","4+4=7","5+5=9","2+3=4"],"answer_index":0,"answer_text":"3+3=6","explanation":"3 cộng 3 bằng 6."},
-    {"id": "MATH1E18Q09","question":"Phép tính nào sai?","options":["1+1=2","5-3=1","8-2=6","4+4=9"],"answer_index":1,"answer_text":"5-3=1","explanation":"5-3=2, không phải 1."},
-    {"id": "MATH1E18Q10","question":"Phép tính nào đúng?","options":["10-9=1","9-9=1","8-8=1","7-6=3"],"answer_index":0,"answer_text":"10-9=1","explanation":"10 trừ 9 bằng 1."}
-  ]
-},
-{
-  "id": "MATH1E19",
-  "name": "Ôn tập cộng – trừ",
-  "questions": [
-    {"id": "MATH1E19Q01","question":"6 + 2 = ?","options":["7","8","9","10"],"answer_index":1,"answer_text":"8","explanation":"6 cộng 2 bằng 8."},
-    {"id": "MATH1E19Q02","question":"9 - 4 = ?","options":["4","5","6","7"],"answer_index":1,"answer_text":"5","explanation":"9 trừ 4 còn 5."},
-    {"id": "MATH1E19Q03","question":"5 + 3 = ?","options":["7","8","9","10"],"answer_index":1,"answer_text":"8","explanation":"5 cộng 3 bằng 8."},
-    {"id": "MATH1E19Q04","question":"10 - 2 = ?","options":["7","8","9","10"],"answer_index":1,"answer_text":"8","explanation":"10 - 2 = 8."},
-    {"id": "MATH1E19Q05","question":"2 + 6 = ?","options":["7","8","9","10"],"answer_index":1,"answer_text":"8","explanation":"2 cộng 6 bằng 8."},
-    {"id": "MATH1E19Q06","question":"Có 10 quả táo, ăn 2 quả, còn lại?","options":["7","8","9","10"],"answer_index":1,"answer_text":"8","explanation":"10 - 2 = 8."},
-    {"id": "MATH1E19Q07","question":"Có 7 quả cam, thêm 2 quả, tất cả có?","options":["8","9","10","11"],"answer_index":1,"answer_text":"9","explanation":"7 + 2 = 9."},
-    {"id": "MATH1E19Q08","question":"9 - 7 = ?","options":["1","2","3","4"],"answer_index":1,"answer_text":"2","explanation":"9 - 7 = 2."},
-    {"id": "MATH1E19Q09","question":"8 + 1 = ?","options":["8","9","10","11"],"answer_index":1,"answer_text":"9","explanation":"8 cộng 1 bằng 9."},
-    {"id": "MATH1E19Q10","question":"5 + 5 = ?","options":["9","10","11","12"],"answer_index":1,"answer_text":"10","explanation":"5 cộng 5 bằng 10."}
-  ]
-},
-{
-  "id": "MATH1E20",
-  "name": "Toán thực tế vui (quà, bóng, bút, bánh…)",
-  "questions": [
-    {"id": "MATH1E20Q01","question":"Có 3 cái bánh, mẹ cho thêm 2 cái. Có tất cả?","options":["4","5","6","7"],"answer_index":1,"answer_text":"5","explanation":"3 + 2 = 5."},
-    {"id": "MATH1E20Q02","question":"Có 6 quả bóng, bay đi 1 quả. Còn lại?","options":["4","5","6","7"],"answer_index":1,"answer_text":"5","explanation":"6 - 1 = 5."},
-    {"id": "MATH1E20Q03","question":"Có 4 cây bút, mua thêm 5 cây. Tổng cộng?","options":["8","9","10","11"],"answer_index":1,"answer_text":"9","explanation":"4 + 5 = 9."},
-    {"id": "MATH1E20Q04","question":"Có 10 quả trứng, làm vỡ 3 quả. Còn lại?","options":["6","7","8","9"],"answer_index":1,"answer_text":"7","explanation":"10 - 3 = 7."},
-    {"id": "MATH1E20Q05","question":"Có 2 quyển vở, thêm 7 quyển. Có tất cả?","options":["8","9","10","11"],"answer_index":1,"answer_text":"9","explanation":"2 + 7 = 9."},
-    {"id": "MATH1E20Q06","question":"Có 9 cái bánh, ăn 4 cái. Còn lại?","options":["4","5","6","7"],"answer_index":1,"answer_text":"5","explanation":"9 - 4 = 5."},
-    {"id": "MATH1E20Q07","question":"Có 7 cái kẹo, chia cho bạn 2 cái. Còn lại?","options":["4","5","6","7"],"answer_index":1,"answer_text":"5","explanation":"7 - 2 = 5."},
-    {"id": "MATH1E20Q08","question":"Có 5 con mèo, thêm 3 con. Có tất cả?","options":["7","8","9","10"],"answer_index":1,"answer_text":"8","explanation":"5 + 3 = 8."},
-    {"id": "MATH1E20Q09","question":"Có 8 quả táo, cho bạn 3 quả. Còn lại?","options":["4","5","6","7"],"answer_index":1,"answer_text":"5","explanation":"8 - 3 = 5."},
-    {"id": "MATH1E20Q10","question":"Có 6 quả cam, thêm 4 quả. Tổng cộng?","options":["9","10","11","12"],"answer_index":1,"answer_text":"10","explanation":"6 + 4 = 10."}
-  ]
+      "name": "Cộng và trừ với số 0",
+      "questions": [
+        {
+          "id": "MATH1E05Q01",
+          "question": "5 + 0 = ?",
+          "options": [
+            "5",
+            "0",
+            "6",
+            "4"
+          ],
+          "answer_index": 0,
+          "answer_text": "5",
+          "explanation": "Thêm 0 không làm thay đổi số ban đầu."
+        },
+        {
+          "id": "MATH1E05Q02",
+          "question": "0 + 7 = ?",
+          "options": [
+            "0",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer_index": 2,
+          "answer_text": "7",
+          "explanation": "Cộng 0 kết quả vẫn là số đó."
+        },
+        {
+          "id": "MATH1E05Q03",
+          "question": "9 - 0 = ?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "Trừ 0 thì kết quả vẫn là chính nó."
+        },
+        {
+          "id": "MATH1E05Q04",
+          "question": "0 + 0 = ?",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "answer_index": 0,
+          "answer_text": "0",
+          "explanation": "Không có gì cộng không vẫn là 0."
+        },
+        {
+          "id": "MATH1E05Q05",
+          "question": "Có 6 bông hoa, không thêm bông nào. Có tất cả mấy bông?",
+          "options": [
+            "6",
+            "5",
+            "7",
+            "8"
+          ],
+          "answer_index": 0,
+          "answer_text": "6",
+          "explanation": "6 + 0 = 6."
+        },
+        {
+          "id": "MATH1E05Q06",
+          "question": "Có 4 quả táo, không cho đi quả nào. Còn lại?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer_index": 1,
+          "answer_text": "4",
+          "explanation": "4 - 0 = 4."
+        },
+        {
+          "id": "MATH1E05Q07",
+          "question": "0 + 5 = ?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "Cộng 0 không đổi."
+        },
+        {
+          "id": "MATH1E05Q08",
+          "question": "7 - 0 = ?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer_index": 1,
+          "answer_text": "7",
+          "explanation": "Trừ 0 thì vẫn giữ nguyên."
+        },
+        {
+          "id": "MATH1E05Q09",
+          "question": "Có 0 con cá, thêm 2 con. Có tất cả?",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "answer_index": 2,
+          "answer_text": "2",
+          "explanation": "0 + 2 = 2."
+        },
+        {
+          "id": "MATH1E05Q10",
+          "question": "10 - 0 = ?",
+          "options": [
+            "9",
+            "10",
+            "8",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "10",
+          "explanation": "Trừ 0 không làm thay đổi số."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E06",
+      "name": "Cộng và trừ trong phạm vi 20",
+      "questions": [
+        {
+          "id": "MATH1E06Q01",
+          "question": "12 + 5 = ?",
+          "options": [
+            "16",
+            "17",
+            "18",
+            "19"
+          ],
+          "answer_index": 1,
+          "answer_text": "17",
+          "explanation": "12 + 5 = 17."
+        },
+        {
+          "id": "MATH1E06Q02",
+          "question": "15 - 7 = ?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "7"
+          ],
+          "answer_index": 0,
+          "answer_text": "8",
+          "explanation": "15 - 7 = 8."
+        },
+        {
+          "id": "MATH1E06Q03",
+          "question": "19 - 9 = ?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "8"
+          ],
+          "answer_index": 1,
+          "answer_text": "10",
+          "explanation": "19 - 9 = 10."
+        },
+        {
+          "id": "MATH1E06Q04",
+          "question": "Có 14 con chim, bay đi 5 con. Còn lại?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "14 - 5 = 9."
+        },
+        {
+          "id": "MATH1E06Q05",
+          "question": "Có 7 quả cam, mua thêm 8 quả. Có tất cả?",
+          "options": [
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "answer_index": 2,
+          "answer_text": "15",
+          "explanation": "7 + 8 = 15."
+        },
+        {
+          "id": "MATH1E06Q06",
+          "question": "20 - 10 = ?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "answer_index": 1,
+          "answer_text": "10",
+          "explanation": "20 - 10 = 10."
+        },
+        {
+          "id": "MATH1E06Q07",
+          "question": "Có 16 cái bánh, ăn 6 cái. Còn lại?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "answer_index": 1,
+          "answer_text": "10",
+          "explanation": "16 - 6 = 10."
+        },
+        {
+          "id": "MATH1E06Q08",
+          "question": "9 + 8 = ?",
+          "options": [
+            "16",
+            "17",
+            "18",
+            "19"
+          ],
+          "answer_index": 1,
+          "answer_text": "17",
+          "explanation": "9 cộng 8 bằng 17."
+        },
+        {
+          "id": "MATH1E06Q09",
+          "question": "Có 10 quả táo, thêm 9 quả nữa. Tổng cộng?",
+          "options": [
+            "18",
+            "19",
+            "20",
+            "21"
+          ],
+          "answer_index": 1,
+          "answer_text": "19",
+          "explanation": "10 + 9 = 19."
+        },
+        {
+          "id": "MATH1E06Q10",
+          "question": "17 - 7 = ?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "8"
+          ],
+          "answer_index": 1,
+          "answer_text": "10",
+          "explanation": "17 - 7 = 10."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E07",
+      "name": "Bài toán lời văn 1 bước",
+      "questions": [
+        {
+          "id": "MATH1E07Q01",
+          "question": "Nam có 3 quả táo, An cho thêm 4 quả. Nam có tất cả bao nhiêu quả?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer_index": 1,
+          "answer_text": "7",
+          "explanation": "3 + 4 = 7."
+        },
+        {
+          "id": "MATH1E07Q02",
+          "question": "Lan có 8 bông hoa, tặng bạn 3 bông. Còn lại mấy bông?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "8 - 3 = 5."
+        },
+        {
+          "id": "MATH1E07Q03",
+          "question": "Có 10 con vịt, 4 con bơi đi. Còn lại mấy con?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer_index": 3,
+          "answer_text": "8",
+          "explanation": "10 - 4 = 6."
+        },
+        {
+          "id": "MATH1E07Q04",
+          "question": "Bình có 6 quả bóng, mua thêm 3 quả. Có tất cả?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "6 + 3 = 9."
+        },
+        {
+          "id": "MATH1E07Q05",
+          "question": "Có 5 con mèo, 2 con chạy đi. Còn lại?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer_index": 2,
+          "answer_text": "4",
+          "explanation": "5 - 2 = 3."
+        },
+        {
+          "id": "MATH1E07Q06",
+          "question": "Lan có 4 cây bút, mẹ mua thêm 6 cây. Có tất cả?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "answer_index": 2,
+          "answer_text": "10",
+          "explanation": "4 + 6 = 10."
+        },
+        {
+          "id": "MATH1E07Q07",
+          "question": "Có 7 cái bánh, ăn 5 cái. Còn lại?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 1,
+          "answer_text": "2",
+          "explanation": "7 - 5 = 2."
+        },
+        {
+          "id": "MATH1E07Q08",
+          "question": "An có 9 quả trứng, làm vỡ 3 quả. Còn lại?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer_index": 1,
+          "answer_text": "6",
+          "explanation": "9 - 3 = 6."
+        },
+        {
+          "id": "MATH1E07Q09",
+          "question": "Có 3 con gà, thêm 2 con nữa. Có tất cả?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "3 + 2 = 5."
+        },
+        {
+          "id": "MATH1E07Q10",
+          "question": "Có 10 quả táo, tặng bạn 5 quả. Còn lại?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "10 - 5 = 5."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E08",
+      "name": "Hình học cơ bản",
+      "questions": [
+        {
+          "id": "MATH1E08Q01",
+          "question": "Hình này là hình gì ⬜?",
+          "options": [
+            "Hình tròn",
+            "Hình vuông",
+            "Hình tam giác",
+            "Hình chữ nhật"
+          ],
+          "answer_index": 1,
+          "answer_text": "Hình vuông",
+          "explanation": "Bốn cạnh bằng nhau là hình vuông."
+        },
+        {
+          "id": "MATH1E08Q02",
+          "question": "Hình này là hình gì ⚪?",
+          "options": [
+            "Hình tròn",
+            "Hình vuông",
+            "Hình chữ nhật",
+            "Hình tam giác"
+          ],
+          "answer_index": 0,
+          "answer_text": "Hình tròn",
+          "explanation": "Không có cạnh, chỉ có đường cong là hình tròn."
+        },
+        {
+          "id": "MATH1E08Q03",
+          "question": "Hình này là hình gì 🔺?",
+          "options": [
+            "Hình tròn",
+            "Hình tam giác",
+            "Hình chữ nhật",
+            "Hình vuông"
+          ],
+          "answer_index": 1,
+          "answer_text": "Hình tam giác",
+          "explanation": "Có ba cạnh là hình tam giác."
+        },
+        {
+          "id": "MATH1E08Q04",
+          "question": "Hình nào có 4 cạnh không bằng nhau?",
+          "options": [
+            "Hình vuông",
+            "Hình tròn",
+            "Hình chữ nhật",
+            "Hình tam giác"
+          ],
+          "answer_index": 2,
+          "answer_text": "Hình chữ nhật",
+          "explanation": "Hai cạnh dài, hai cạnh ngắn là hình chữ nhật."
+        },
+        {
+          "id": "MATH1E08Q05",
+          "question": "Hình nào không có cạnh?",
+          "options": [
+            "Hình tam giác",
+            "Hình tròn",
+            "Hình chữ nhật",
+            "Hình vuông"
+          ],
+          "answer_index": 1,
+          "answer_text": "Hình tròn",
+          "explanation": "Hình tròn không có cạnh thẳng."
+        },
+        {
+          "id": "MATH1E08Q06",
+          "question": "Có mấy cạnh trong hình vuông?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer_index": 1,
+          "answer_text": "4",
+          "explanation": "Hình vuông có 4 cạnh."
+        },
+        {
+          "id": "MATH1E08Q07",
+          "question": "Hình nào có 3 góc?",
+          "options": [
+            "Hình vuông",
+            "Hình tròn",
+            "Hình tam giác",
+            "Hình chữ nhật"
+          ],
+          "answer_index": 2,
+          "answer_text": "Hình tam giác",
+          "explanation": "Hình tam giác có 3 góc."
+        },
+        {
+          "id": "MATH1E08Q08",
+          "question": "Hình nào giống cái bánh xe?",
+          "options": [
+            "Hình tròn",
+            "Hình vuông",
+            "Hình tam giác",
+            "Hình chữ nhật"
+          ],
+          "answer_index": 0,
+          "answer_text": "Hình tròn",
+          "explanation": "Bánh xe có dạng hình tròn."
+        },
+        {
+          "id": "MATH1E08Q09",
+          "question": "Hình nào giống cái cửa ra vào?",
+          "options": [
+            "Hình chữ nhật",
+            "Hình vuông",
+            "Hình tam giác",
+            "Hình tròn"
+          ],
+          "answer_index": 0,
+          "answer_text": "Hình chữ nhật",
+          "explanation": "Cửa thường có dạng hình chữ nhật."
+        },
+        {
+          "id": "MATH1E08Q10",
+          "question": "Hình nào giống cái bảng đen?",
+          "options": [
+            "Hình tròn",
+            "Hình chữ nhật",
+            "Hình vuông",
+            "Hình tam giác"
+          ],
+          "answer_index": 1,
+          "answer_text": "Hình chữ nhật",
+          "explanation": "Bảng đen có dạng hình chữ nhật."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E09",
+      "name": "Hình khối đơn giản (lập phương, hộp chữ nhật)",
+      "questions": [
+        {
+          "id": "MATH1E09Q01",
+          "question": "Khối nào có 6 mặt vuông bằng nhau?",
+          "options": [
+            "Khối lập phương",
+            "Khối hộp chữ nhật",
+            "Hình trụ",
+            "Hình cầu"
+          ],
+          "answer_index": 0,
+          "answer_text": "Khối lập phương",
+          "explanation": "Khối lập phương có 6 mặt đều là hình vuông."
+        },
+        {
+          "id": "MATH1E09Q02",
+          "question": "Khối nào có dạng giống hộp quà?",
+          "options": [
+            "Khối lập phương",
+            "Khối hộp chữ nhật",
+            "Hình trụ",
+            "Hình cầu"
+          ],
+          "answer_index": 1,
+          "answer_text": "Khối hộp chữ nhật",
+          "explanation": "Hộp quà thường có dạng hình hộp chữ nhật."
+        },
+        {
+          "id": "MATH1E09Q03",
+          "question": "Khối nào giống quả bóng?",
+          "options": [
+            "Khối lập phương",
+            "Hình cầu",
+            "Hình trụ",
+            "Khối chữ nhật"
+          ],
+          "answer_index": 1,
+          "answer_text": "Hình cầu",
+          "explanation": "Quả bóng có dạng hình cầu."
+        },
+        {
+          "id": "MATH1E09Q04",
+          "question": "Khối nào giống lon sữa?",
+          "options": [
+            "Hình trụ",
+            "Hình cầu",
+            "Hình vuông",
+            "Hình tam giác"
+          ],
+          "answer_index": 0,
+          "answer_text": "Hình trụ",
+          "explanation": "Lon sữa có dạng hình trụ."
+        },
+        {
+          "id": "MATH1E09Q05",
+          "question": "Khối nào có 8 đỉnh?",
+          "options": [
+            "Hình cầu",
+            "Hình trụ",
+            "Khối lập phương",
+            "Hình tam giác"
+          ],
+          "answer_index": 2,
+          "answer_text": "Khối lập phương",
+          "explanation": "Khối lập phương có 8 đỉnh."
+        },
+        {
+          "id": "MATH1E09Q06",
+          "question": "Khối nào có 6 mặt nhưng không đều nhau?",
+          "options": [
+            "Khối hộp chữ nhật",
+            "Khối lập phương",
+            "Hình trụ",
+            "Hình cầu"
+          ],
+          "answer_index": 0,
+          "answer_text": "Khối hộp chữ nhật",
+          "explanation": "Khối hộp chữ nhật có các mặt hình chữ nhật, không đều nhau."
+        },
+        {
+          "id": "MATH1E09Q07",
+          "question": "Khối nào có thể lăn được?",
+          "options": [
+            "Hình cầu",
+            "Khối hộp",
+            "Hình vuông",
+            "Hình tam giác"
+          ],
+          "answer_index": 0,
+          "answer_text": "Hình cầu",
+          "explanation": "Hình cầu lăn được vì bề mặt cong tròn."
+        },
+        {
+          "id": "MATH1E09Q08",
+          "question": "Khối nào có mặt tròn và mặt phẳng?",
+          "options": [
+            "Hình trụ",
+            "Khối lập phương",
+            "Hình cầu",
+            "Khối chữ nhật"
+          ],
+          "answer_index": 0,
+          "answer_text": "Hình trụ",
+          "explanation": "Hình trụ có hai mặt phẳng và một mặt cong."
+        },
+        {
+          "id": "MATH1E09Q09",
+          "question": "Khối nào giống viên gạch?",
+          "options": [
+            "Khối hộp chữ nhật",
+            "Khối lập phương",
+            "Hình cầu",
+            "Hình trụ"
+          ],
+          "answer_index": 0,
+          "answer_text": "Khối hộp chữ nhật",
+          "explanation": "Viên gạch có dạng khối hộp chữ nhật."
+        },
+        {
+          "id": "MATH1E09Q10",
+          "question": "Khối nào giống con xúc xắc?",
+          "options": [
+            "Khối lập phương",
+            "Hình trụ",
+            "Hình cầu",
+            "Khối hộp chữ nhật"
+          ],
+          "answer_index": 0,
+          "answer_text": "Khối lập phương",
+          "explanation": "Xúc xắc có 6 mặt vuông bằng nhau."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E10",
+      "name": "Đo độ dài (cm)",
+      "questions": [
+        {
+          "id": "MATH1E10Q01",
+          "question": "Dụng cụ nào dùng để đo độ dài?",
+          "options": [
+            "Thước",
+            "Bút",
+            "Gôm",
+            "Bảng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Thước",
+          "explanation": "Thước dùng để đo độ dài."
+        },
+        {
+          "id": "MATH1E10Q02",
+          "question": "1 cm ngắn hơn 5 cm đúng hay sai?",
+          "options": [
+            "Đúng",
+            "Sai",
+            "Không biết",
+            "Bằng nhau"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng",
+          "explanation": "1 cm nhỏ hơn 5 cm."
+        },
+        {
+          "id": "MATH1E10Q03",
+          "question": "Chiều dài bút chì khoảng bao nhiêu cm?",
+          "options": [
+            "2 cm",
+            "5 cm",
+            "10 cm",
+            "20 cm"
+          ],
+          "answer_index": 2,
+          "answer_text": "10 cm",
+          "explanation": "Bút chì thường dài khoảng 10 cm."
+        },
+        {
+          "id": "MATH1E10Q04",
+          "question": "Đơn vị đo độ dài thường dùng là gì?",
+          "options": [
+            "cm",
+            "kg",
+            "lít",
+            "giờ"
+          ],
+          "answer_index": 0,
+          "answer_text": "cm",
+          "explanation": "Đơn vị độ dài phổ biến là xăng-ti-mét (cm)."
+        },
+        {
+          "id": "MATH1E10Q05",
+          "question": "Cái bàn dài 1 mét bằng bao nhiêu cm?",
+          "options": [
+            "10",
+            "50",
+            "100",
+            "200"
+          ],
+          "answer_index": 2,
+          "answer_text": "100",
+          "explanation": "1 mét = 100 cm."
+        },
+        {
+          "id": "MATH1E10Q06",
+          "question": "Đo đoạn thẳng dài 8 cm, dùng thước từ số nào đến số nào?",
+          "options": [
+            "0 đến 8",
+            "1 đến 8",
+            "2 đến 9",
+            "0 đến 10"
+          ],
+          "answer_index": 0,
+          "answer_text": "0 đến 8",
+          "explanation": "Đo từ đầu 0 đến vị trí 8 cm."
+        },
+        {
+          "id": "MATH1E10Q07",
+          "question": "Thước ngắn hơn bút chì, đúng hay sai?",
+          "options": [
+            "Sai",
+            "Đúng",
+            "Không biết",
+            "Tùy trường hợp"
+          ],
+          "answer_index": 0,
+          "answer_text": "Sai",
+          "explanation": "Thước thường dài hơn bút chì."
+        },
+        {
+          "id": "MATH1E10Q08",
+          "question": "5 cm + 3 cm = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "5 cộng 3 bằng 8."
+        },
+        {
+          "id": "MATH1E10Q09",
+          "question": "Đo độ dài đoạn dây 9 cm, cắt bớt 4 cm, còn bao nhiêu cm?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer_index": 2,
+          "answer_text": "5",
+          "explanation": "9 - 4 = 5 cm."
+        },
+        {
+          "id": "MATH1E10Q10",
+          "question": "Chiều dài ống hút khoảng bao nhiêu cm?",
+          "options": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "answer_index": 2,
+          "answer_text": "15",
+          "explanation": "Ống hút thường dài khoảng 15 cm."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E11",
+      "name": "So sánh độ dài (ngắn hơn, dài hơn)",
+      "questions": [
+        {
+          "id": "MATH1E11Q01",
+          "question": "Cái bút và cái thước, vật nào dài hơn?",
+          "options": [
+            "Thước",
+            "Bút",
+            "Gôm",
+            "Bảng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Thước",
+          "explanation": "Thước dài hơn bút."
+        },
+        {
+          "id": "MATH1E11Q02",
+          "question": "Sợi dây 8 cm và sợi dây 5 cm, dây nào ngắn hơn?",
+          "options": [
+            "Dây 8 cm",
+            "Dây 5 cm",
+            "Cả hai bằng nhau",
+            "Không biết"
+          ],
+          "answer_index": 1,
+          "answer_text": "Dây 5 cm",
+          "explanation": "5 cm ngắn hơn 8 cm."
+        },
+        {
+          "id": "MATH1E11Q03",
+          "question": "Cây bút dài hơn thước đúng hay sai?",
+          "options": [
+            "Đúng",
+            "Sai",
+            "Không biết",
+            "Cả hai"
+          ],
+          "answer_index": 1,
+          "answer_text": "Sai",
+          "explanation": "Thước dài hơn bút."
+        },
+        {
+          "id": "MATH1E11Q04",
+          "question": "Sợi dây 10 cm và dây 10 cm, dây nào dài hơn?",
+          "options": [
+            "Bằng nhau",
+            "10 cm dài hơn",
+            "10 cm ngắn hơn",
+            "Không xác định"
+          ],
+          "answer_index": 0,
+          "answer_text": "Bằng nhau",
+          "explanation": "Hai dây cùng dài 10 cm."
+        },
+        {
+          "id": "MATH1E11Q05",
+          "question": "Cái bàn dài hơn cái ghế đúng không?",
+          "options": [
+            "Đúng",
+            "Sai",
+            "Không biết",
+            "Tùy"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng",
+          "explanation": "Bàn thường dài hơn ghế."
+        },
+        {
+          "id": "MATH1E11Q06",
+          "question": "Một đoạn 6 cm so với đoạn 9 cm như thế nào?",
+          "options": [
+            "Ngắn hơn",
+            "Dài hơn",
+            "Bằng nhau",
+            "Không biết"
+          ],
+          "answer_index": 0,
+          "answer_text": "Ngắn hơn",
+          "explanation": "6 cm ngắn hơn 9 cm."
+        },
+        {
+          "id": "MATH1E11Q07",
+          "question": "Vật nào ngắn nhất: thước 10 cm, bút 8 cm, gôm 3 cm?",
+          "options": [
+            "Thước",
+            "Bút",
+            "Gôm",
+            "Cả ba bằng nhau"
+          ],
+          "answer_index": 2,
+          "answer_text": "Gôm",
+          "explanation": "Gôm chỉ 3 cm, ngắn nhất."
+        },
+        {
+          "id": "MATH1E11Q08",
+          "question": "Đo hai đoạn, đoạn A = 7 cm, đoạn B = 5 cm. Đoạn nào dài hơn?",
+          "options": [
+            "A",
+            "B",
+            "Cả hai bằng nhau",
+            "Không xác định"
+          ],
+          "answer_index": 0,
+          "answer_text": "A",
+          "explanation": "7 cm dài hơn 5 cm."
+        },
+        {
+          "id": "MATH1E11Q09",
+          "question": "Chiếc bàn học dài hơn chiếc ghế. Ta nói:",
+          "options": [
+            "Bàn dài hơn ghế",
+            "Ghế dài hơn bàn",
+            "Hai vật bằng nhau",
+            "Không biết"
+          ],
+          "answer_index": 0,
+          "answer_text": "Bàn dài hơn ghế",
+          "explanation": "So sánh độ dài thực tế."
+        },
+        {
+          "id": "MATH1E11Q10",
+          "question": "Đoạn dây 10 cm và 7 cm. Dây nào ngắn hơn?",
+          "options": [
+            "10 cm",
+            "7 cm",
+            "Bằng nhau",
+            "Không biết"
+          ],
+          "answer_index": 1,
+          "answer_text": "7 cm",
+          "explanation": "7 cm nhỏ hơn 10 cm."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E12",
+      "name": "Nhận biết thời gian (sáng – trưa – tối)",
+      "questions": [
+        {
+          "id": "MATH1E12Q01",
+          "question": "Buổi sáng mặt trời như thế nào?",
+          "options": [
+            "Mọc",
+            "Lặn",
+            "Ở giữa trời",
+            "Không có"
+          ],
+          "answer_index": 0,
+          "answer_text": "Mọc",
+          "explanation": "Buổi sáng mặt trời mọc."
+        },
+        {
+          "id": "MATH1E12Q02",
+          "question": "Buổi tối thường làm gì?",
+          "options": [
+            "Đi ngủ",
+            "Đi học",
+            "Ăn sáng",
+            "Chơi thể thao"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đi ngủ",
+          "explanation": "Buổi tối là thời gian nghỉ ngơi."
+        },
+        {
+          "id": "MATH1E12Q03",
+          "question": "Buổi trưa mặt trời ở đâu?",
+          "options": [
+            "Thấp",
+            "Giữa trời",
+            "Dưới đất",
+            "Không thấy"
+          ],
+          "answer_index": 1,
+          "answer_text": "Giữa trời",
+          "explanation": "Buổi trưa mặt trời ở giữa trời."
+        },
+        {
+          "id": "MATH1E12Q04",
+          "question": "Buổi nào học sinh thường đi học?",
+          "options": [
+            "Sáng",
+            "Trưa",
+            "Tối",
+            "Khuya"
+          ],
+          "answer_index": 0,
+          "answer_text": "Sáng",
+          "explanation": "Học sinh thường đi học buổi sáng."
+        },
+        {
+          "id": "MATH1E12Q05",
+          "question": "Buổi tối thường ăn gì?",
+          "options": [
+            "Ăn sáng",
+            "Ăn trưa",
+            "Ăn tối",
+            "Ăn nhẹ"
+          ],
+          "answer_index": 2,
+          "answer_text": "Ăn tối",
+          "explanation": "Buổi tối là bữa ăn cuối trong ngày."
+        },
+        {
+          "id": "MATH1E12Q06",
+          "question": "Buổi nào mặt trời lặn?",
+          "options": [
+            "Sáng",
+            "Trưa",
+            "Chiều",
+            "Tối"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chiều",
+          "explanation": "Mặt trời lặn vào buổi chiều."
+        },
+        {
+          "id": "MATH1E12Q07",
+          "question": "Buổi sáng học sinh làm gì?",
+          "options": [
+            "Đi học",
+            "Ngủ",
+            "Ăn tối",
+            "Xem phim"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đi học",
+          "explanation": "Buổi sáng là giờ đi học."
+        },
+        {
+          "id": "MATH1E12Q08",
+          "question": "Buổi tối ánh sáng đến từ đâu?",
+          "options": [
+            "Mặt trời",
+            "Bóng đèn",
+            "Trăng sao",
+            "Cả hai"
+          ],
+          "answer_index": 1,
+          "answer_text": "Bóng đèn",
+          "explanation": "Buổi tối ta cần đèn để sáng."
+        },
+        {
+          "id": "MATH1E12Q09",
+          "question": "Buổi sáng thường ăn gì?",
+          "options": [
+            "Ăn sáng",
+            "Ăn trưa",
+            "Ăn tối",
+            "Không ăn"
+          ],
+          "answer_index": 0,
+          "answer_text": "Ăn sáng",
+          "explanation": "Buổi sáng ăn sáng để có năng lượng."
+        },
+        {
+          "id": "MATH1E12Q10",
+          "question": "Buổi trưa thường làm gì?",
+          "options": [
+            "Ngủ trưa",
+            "Đi học",
+            "Ăn sáng",
+            "Chơi tối"
+          ],
+          "answer_index": 0,
+          "answer_text": "Ngủ trưa",
+          "explanation": "Buổi trưa thường nghỉ ngơi."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E13",
+      "name": "Xem giờ đúng (1 giờ, 2 giờ...)",
+      "questions": [
+        {
+          "id": "MATH1E13Q01",
+          "question": "Khi kim ngắn chỉ số 3, kim dài chỉ số 12 là mấy giờ?",
+          "options": [
+            "3 giờ",
+            "12 giờ",
+            "6 giờ",
+            "9 giờ"
+          ],
+          "answer_index": 0,
+          "answer_text": "3 giờ",
+          "explanation": "Kim ngắn chỉ 3, kim dài chỉ 12 → 3 giờ đúng."
+        },
+        {
+          "id": "MATH1E13Q02",
+          "question": "Kim ngắn chỉ số 7, kim dài chỉ 12 là mấy giờ?",
+          "options": [
+            "6 giờ",
+            "7 giờ",
+            "8 giờ",
+            "9 giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "7 giờ",
+          "explanation": "Kim ngắn chỉ 7 → 7 giờ đúng."
+        },
+        {
+          "id": "MATH1E13Q03",
+          "question": "Kim ngắn chỉ số 12, kim dài chỉ số 12 là mấy giờ?",
+          "options": [
+            "12 giờ",
+            "1 giờ",
+            "6 giờ",
+            "9 giờ"
+          ],
+          "answer_index": 0,
+          "answer_text": "12 giờ",
+          "explanation": "Cả hai kim trùng 12 → 12 giờ đúng."
+        },
+        {
+          "id": "MATH1E13Q04",
+          "question": "Buổi sáng 8 giờ học sinh làm gì?",
+          "options": [
+            "Đi học",
+            "Đi ngủ",
+            "Ăn tối",
+            "Xem phim"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đi học",
+          "explanation": "8 giờ sáng là thời gian đến lớp."
+        },
+        {
+          "id": "MATH1E13Q05",
+          "question": "Kim ngắn chỉ 9, kim dài chỉ 12 là mấy giờ?",
+          "options": [
+            "8 giờ",
+            "9 giờ",
+            "10 giờ",
+            "11 giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "9 giờ",
+          "explanation": "Kim ngắn chỉ 9 → 9 giờ đúng."
+        },
+        {
+          "id": "MATH1E13Q06",
+          "question": "Khi kim ngắn chỉ 10 và kim dài chỉ 12, là mấy giờ?",
+          "options": [
+            "9 giờ",
+            "10 giờ",
+            "11 giờ",
+            "12 giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "10 giờ",
+          "explanation": "Kim ngắn chỉ 10 → 10 giờ."
+        },
+        {
+          "id": "MATH1E13Q07",
+          "question": "12 giờ trưa còn gọi là mấy giờ?",
+          "options": [
+            "0 giờ",
+            "12 giờ",
+            "6 giờ",
+            "24 giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "12 giờ",
+          "explanation": "12 giờ trưa là 12 giờ đúng."
+        },
+        {
+          "id": "MATH1E13Q08",
+          "question": "6 giờ sáng học sinh thường làm gì?",
+          "options": [
+            "Dậy học",
+            "Đi ngủ",
+            "Ăn tối",
+            "Đi chơi"
+          ],
+          "answer_index": 0,
+          "answer_text": "Dậy học",
+          "explanation": "6 giờ sáng là lúc thức dậy."
+        },
+        {
+          "id": "MATH1E13Q09",
+          "question": "Khi kim ngắn chỉ số 4 và kim dài chỉ số 12, là mấy giờ?",
+          "options": [
+            "3 giờ",
+            "4 giờ",
+            "5 giờ",
+            "6 giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "4 giờ",
+          "explanation": "Kim ngắn chỉ 4 → 4 giờ đúng."
+        },
+        {
+          "id": "MATH1E13Q10",
+          "question": "Kim ngắn chỉ 2, kim dài chỉ 12 là mấy giờ?",
+          "options": [
+            "1 giờ",
+            "2 giờ",
+            "3 giờ",
+            "4 giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "2 giờ",
+          "explanation": "Kim ngắn chỉ 2 → 2 giờ đúng."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E14",
+      "name": "Quy luật tăng giảm",
+      "questions": [
+        {
+          "id": "MATH1E14Q01",
+          "question": "Dãy số 1,2,3,4,... tiếp theo là?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer_index": 0,
+          "answer_text": "5",
+          "explanation": "Tăng dần thêm 1."
+        },
+        {
+          "id": "MATH1E14Q02",
+          "question": "Dãy số 10,9,8,7,... tiếp theo là?",
+          "options": [
+            "6",
+            "5",
+            "11",
+            "12"
+          ],
+          "answer_index": 0,
+          "answer_text": "6",
+          "explanation": "Giảm dần 1."
+        },
+        {
+          "id": "MATH1E14Q03",
+          "question": "Dãy 2,4,6,8,... tiếp theo là?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "answer_index": 1,
+          "answer_text": "10",
+          "explanation": "Tăng dần 2."
+        },
+        {
+          "id": "MATH1E14Q04",
+          "question": "Dãy 5,4,3,2,... tiếp theo là?",
+          "options": [
+            "1",
+            "0",
+            "2",
+            "6"
+          ],
+          "answer_index": 0,
+          "answer_text": "1",
+          "explanation": "Giảm dần 1."
+        },
+        {
+          "id": "MATH1E14Q05",
+          "question": "Dãy 3,6,9,... tiếp theo là?",
+          "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "answer_index": 2,
+          "answer_text": "12",
+          "explanation": "Tăng dần 3."
+        },
+        {
+          "id": "MATH1E14Q06",
+          "question": "Dãy 1,3,5,7,... tiếp theo là?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "Tăng dần 2."
+        },
+        {
+          "id": "MATH1E14Q07",
+          "question": "Dãy 2,5,8,... tiếp theo là?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "answer_index": 2,
+          "answer_text": "11",
+          "explanation": "Tăng dần 3."
+        },
+        {
+          "id": "MATH1E14Q08",
+          "question": "Dãy 9,8,7,... tiếp theo là?",
+          "options": [
+            "6",
+            "5",
+            "10",
+            "11"
+          ],
+          "answer_index": 0,
+          "answer_text": "6",
+          "explanation": "Giảm dần 1."
+        },
+        {
+          "id": "MATH1E14Q09",
+          "question": "Dãy 4,8,12,... tiếp theo là?",
+          "options": [
+            "14",
+            "15",
+            "16",
+            "20"
+          ],
+          "answer_index": 2,
+          "answer_text": "16",
+          "explanation": "Tăng dần 4."
+        },
+        {
+          "id": "MATH1E14Q10",
+          "question": "Dãy 10,8,6,4,... tiếp theo là?",
+          "options": [
+            "3",
+            "2",
+            "1",
+            "0"
+          ],
+          "answer_index": 1,
+          "answer_text": "2",
+          "explanation": "Giảm dần 2."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E15",
+      "name": "Số liền trước – liền sau",
+      "questions": [
+        {
+          "id": "MATH1E15Q01",
+          "question": "Số liền sau của 5 là?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 2,
+          "answer_text": "6",
+          "explanation": "Sau 5 là 6."
+        },
+        {
+          "id": "MATH1E15Q02",
+          "question": "Số liền trước của 9 là?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "Trước 9 là 8."
+        },
+        {
+          "id": "MATH1E15Q03",
+          "question": "Số liền sau của 0 là?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 0,
+          "answer_text": "1",
+          "explanation": "Sau 0 là 1."
+        },
+        {
+          "id": "MATH1E15Q04",
+          "question": "Số liền trước của 2 là?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "0"
+          ],
+          "answer_index": 0,
+          "answer_text": "1",
+          "explanation": "Trước 2 là 1."
+        },
+        {
+          "id": "MATH1E15Q05",
+          "question": "Số liền sau của 8 là?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer_index": 2,
+          "answer_text": "9",
+          "explanation": "Sau 8 là 9."
+        },
+        {
+          "id": "MATH1E15Q06",
+          "question": "Số liền trước của 1 là?",
+          "options": [
+            "0",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 0,
+          "answer_text": "0",
+          "explanation": "Trước 1 là 0."
+        },
+        {
+          "id": "MATH1E15Q07",
+          "question": "Số liền sau của 10 là?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "answer_index": 2,
+          "answer_text": "11",
+          "explanation": "Sau 10 là 11."
+        },
+        {
+          "id": "MATH1E15Q08",
+          "question": "Số liền trước của 5 là?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer_index": 1,
+          "answer_text": "4",
+          "explanation": "Trước 5 là 4."
+        },
+        {
+          "id": "MATH1E15Q09",
+          "question": "Số liền sau của 12 là?",
+          "options": [
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "answer_index": 0,
+          "answer_text": "13",
+          "explanation": "Sau 12 là 13."
+        },
+        {
+          "id": "MATH1E15Q10",
+          "question": "Số liền trước của 20 là?",
+          "options": [
+            "19",
+            "18",
+            "17",
+            "16"
+          ],
+          "answer_index": 0,
+          "answer_text": "19",
+          "explanation": "Trước 20 là 19."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E16",
+      "name": "Bài toán nhiều hơn – ít hơn",
+      "questions": [
+        {
+          "id": "MATH1E16Q01",
+          "question": "Nam có 5 viên bi, An có 7 viên bi. Ai có nhiều hơn?",
+          "options": [
+            "Nam",
+            "An",
+            "Bằng nhau",
+            "Không biết"
+          ],
+          "answer_index": 1,
+          "answer_text": "An",
+          "explanation": "7 > 5 nên An nhiều hơn."
+        },
+        {
+          "id": "MATH1E16Q02",
+          "question": "Có 8 con cá, 5 con bơi đi. Còn lại ít hơn hay nhiều hơn ban đầu?",
+          "options": [
+            "Ít hơn",
+            "Nhiều hơn",
+            "Bằng nhau",
+            "Không biết"
+          ],
+          "answer_index": 0,
+          "answer_text": "Ít hơn",
+          "explanation": "Bơi đi làm giảm số lượng."
+        },
+        {
+          "id": "MATH1E16Q03",
+          "question": "7 nhiều hơn 4 bao nhiêu đơn vị?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer_index": 1,
+          "answer_text": "3",
+          "explanation": "7 - 4 = 3."
+        },
+        {
+          "id": "MATH1E16Q04",
+          "question": "10 ít hơn 12 bao nhiêu đơn vị?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 1,
+          "answer_text": "2",
+          "explanation": "12 - 10 = 2."
+        },
+        {
+          "id": "MATH1E16Q05",
+          "question": "Có 6 bông hồng và 9 bông cúc. Bông cúc nhiều hơn bao nhiêu?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer_index": 1,
+          "answer_text": "3",
+          "explanation": "9 - 6 = 3."
+        },
+        {
+          "id": "MATH1E16Q06",
+          "question": "An có 10 cái kẹo, Bình có 8 cái. Ai ít hơn?",
+          "options": [
+            "An",
+            "Bình",
+            "Bằng nhau",
+            "Không biết"
+          ],
+          "answer_index": 1,
+          "answer_text": "Bình",
+          "explanation": "8 < 10 nên Bình ít hơn."
+        },
+        {
+          "id": "MATH1E16Q07",
+          "question": "Số 5 ít hơn số 9 bao nhiêu đơn vị?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer_index": 1,
+          "answer_text": "4",
+          "explanation": "9 - 5 = 4."
+        },
+        {
+          "id": "MATH1E16Q08",
+          "question": "Có 12 quả cam, 8 quả táo. Quả cam nhiều hơn bao nhiêu?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer_index": 2,
+          "answer_text": "4",
+          "explanation": "12 - 8 = 4."
+        },
+        {
+          "id": "MATH1E16Q09",
+          "question": "Có 7 con vịt, 9 con gà. Con gà nhiều hơn mấy con?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 1,
+          "answer_text": "2",
+          "explanation": "9 - 7 = 2."
+        },
+        {
+          "id": "MATH1E16Q10",
+          "question": "Có 5 cây bút và 5 quyển vở. Số bút và vở như thế nào?",
+          "options": [
+            "Bút nhiều hơn",
+            "Vở nhiều hơn",
+            "Bằng nhau",
+            "Không biết"
+          ],
+          "answer_index": 2,
+          "answer_text": "Bằng nhau",
+          "explanation": "Hai số đều bằng 5."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E17",
+      "name": "Tìm số còn thiếu",
+      "questions": [
+        {
+          "id": "MATH1E17Q01",
+          "question": "Điền số còn thiếu: 1, 2, __, 4",
+          "options": [
+            "3",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 0,
+          "answer_text": "3",
+          "explanation": "2 thêm 1 là 3."
+        },
+        {
+          "id": "MATH1E17Q02",
+          "question": "Điền số còn thiếu: 5, 6, 7, __",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "answer_index": 0,
+          "answer_text": "8",
+          "explanation": "Dãy tăng 1."
+        },
+        {
+          "id": "MATH1E17Q03",
+          "question": "Điền số còn thiếu: 10, 9, 8, __",
+          "options": [
+            "7",
+            "6",
+            "5",
+            "4"
+          ],
+          "answer_index": 0,
+          "answer_text": "7",
+          "explanation": "Giảm dần 1."
+        },
+        {
+          "id": "MATH1E17Q04",
+          "question": "Điền số còn thiếu: 2, 4, 6, __",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "Tăng dần 2."
+        },
+        {
+          "id": "MATH1E17Q05",
+          "question": "Điền số còn thiếu: 1, 3, 5, __",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer_index": 1,
+          "answer_text": "7",
+          "explanation": "Tăng dần 2."
+        },
+        {
+          "id": "MATH1E17Q06",
+          "question": "Điền số còn thiếu: 9, 8, 7, __",
+          "options": [
+            "6",
+            "5",
+            "4",
+            "3"
+          ],
+          "answer_index": 0,
+          "answer_text": "6",
+          "explanation": "Giảm dần 1."
+        },
+        {
+          "id": "MATH1E17Q07",
+          "question": "Điền số còn thiếu: 3, 6, 9, __",
+          "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "answer_index": 2,
+          "answer_text": "12",
+          "explanation": "Tăng dần 3."
+        },
+        {
+          "id": "MATH1E17Q08",
+          "question": "Điền số còn thiếu: 2, 5, 8, __",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "answer_index": 2,
+          "answer_text": "11",
+          "explanation": "Tăng dần 3."
+        },
+        {
+          "id": "MATH1E17Q09",
+          "question": "Điền số còn thiếu: 7, 5, 3, __",
+          "options": [
+            "2",
+            "1",
+            "0",
+            "-1"
+          ],
+          "answer_index": 1,
+          "answer_text": "1",
+          "explanation": "Giảm dần 2."
+        },
+        {
+          "id": "MATH1E17Q10",
+          "question": "Điền số còn thiếu: 0, 2, 4, __",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer_index": 1,
+          "answer_text": "6",
+          "explanation": "Tăng dần 2."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E18",
+      "name": "Ghép phép tính đúng",
+      "questions": [
+        {
+          "id": "MATH1E18Q01",
+          "question": "Phép tính nào đúng?",
+          "options": [
+            "3+2=5",
+            "3+2=6",
+            "3+2=7",
+            "3+2=4"
+          ],
+          "answer_index": 0,
+          "answer_text": "3+2=5",
+          "explanation": "3 cộng 2 bằng 5."
+        },
+        {
+          "id": "MATH1E18Q02",
+          "question": "Phép tính nào đúng?",
+          "options": [
+            "4+5=9",
+            "4+5=8",
+            "4+5=7",
+            "4+5=10"
+          ],
+          "answer_index": 0,
+          "answer_text": "4+5=9",
+          "explanation": "4 cộng 5 bằng 9."
+        },
+        {
+          "id": "MATH1E18Q03",
+          "question": "Phép tính nào đúng?",
+          "options": [
+            "6-3=2",
+            "6-3=3",
+            "6-3=4",
+            "6-3=5"
+          ],
+          "answer_index": 1,
+          "answer_text": "6-3=3",
+          "explanation": "6 trừ 3 bằng 3."
+        },
+        {
+          "id": "MATH1E18Q04",
+          "question": "Phép tính nào sai?",
+          "options": [
+            "5+5=10",
+            "2+2=4",
+            "3+3=5",
+            "4+1=5"
+          ],
+          "answer_index": 2,
+          "answer_text": "3+3=5",
+          "explanation": "3+3=6, không phải 5."
+        },
+        {
+          "id": "MATH1E18Q05",
+          "question": "Phép tính nào đúng?",
+          "options": [
+            "7-2=5",
+            "7-2=6",
+            "7-2=4",
+            "7-2=3"
+          ],
+          "answer_index": 0,
+          "answer_text": "7-2=5",
+          "explanation": "7 trừ 2 còn 5."
+        },
+        {
+          "id": "MATH1E18Q06",
+          "question": "Phép tính nào đúng?",
+          "options": [
+            "9-4=6",
+            "9-4=5",
+            "9-4=7",
+            "9-4=8"
+          ],
+          "answer_index": 1,
+          "answer_text": "9-4=5",
+          "explanation": "9 trừ 4 còn 5."
+        },
+        {
+          "id": "MATH1E18Q07",
+          "question": "Phép tính nào sai?",
+          "options": [
+            "10-5=5",
+            "8-4=4",
+            "6+2=7",
+            "4+3=7"
+          ],
+          "answer_index": 2,
+          "answer_text": "6+2=7",
+          "explanation": "6+2=8, không phải 7."
+        },
+        {
+          "id": "MATH1E18Q08",
+          "question": "Phép tính nào đúng?",
+          "options": [
+            "3+3=6",
+            "4+4=7",
+            "5+5=9",
+            "2+3=4"
+          ],
+          "answer_index": 0,
+          "answer_text": "3+3=6",
+          "explanation": "3 cộng 3 bằng 6."
+        },
+        {
+          "id": "MATH1E18Q09",
+          "question": "Phép tính nào sai?",
+          "options": [
+            "1+1=2",
+            "5-3=1",
+            "8-2=6",
+            "4+4=9"
+          ],
+          "answer_index": 1,
+          "answer_text": "5-3=1",
+          "explanation": "5-3=2, không phải 1."
+        },
+        {
+          "id": "MATH1E18Q10",
+          "question": "Phép tính nào đúng?",
+          "options": [
+            "10-9=1",
+            "9-9=1",
+            "8-8=1",
+            "7-6=3"
+          ],
+          "answer_index": 0,
+          "answer_text": "10-9=1",
+          "explanation": "10 trừ 9 bằng 1."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E19",
+      "name": "Ôn tập cộng – trừ",
+      "questions": [
+        {
+          "id": "MATH1E19Q01",
+          "question": "6 + 2 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "6 cộng 2 bằng 8."
+        },
+        {
+          "id": "MATH1E19Q02",
+          "question": "9 - 4 = ?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "9 trừ 4 còn 5."
+        },
+        {
+          "id": "MATH1E19Q03",
+          "question": "5 + 3 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "5 cộng 3 bằng 8."
+        },
+        {
+          "id": "MATH1E19Q04",
+          "question": "10 - 2 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "10 - 2 = 8."
+        },
+        {
+          "id": "MATH1E19Q05",
+          "question": "2 + 6 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "2 cộng 6 bằng 8."
+        },
+        {
+          "id": "MATH1E19Q06",
+          "question": "Có 10 quả táo, ăn 2 quả, còn lại?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "10 - 2 = 8."
+        },
+        {
+          "id": "MATH1E19Q07",
+          "question": "Có 7 quả cam, thêm 2 quả, tất cả có?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "7 + 2 = 9."
+        },
+        {
+          "id": "MATH1E19Q08",
+          "question": "9 - 7 = ?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 1,
+          "answer_text": "2",
+          "explanation": "9 - 7 = 2."
+        },
+        {
+          "id": "MATH1E19Q09",
+          "question": "8 + 1 = ?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "8 cộng 1 bằng 9."
+        },
+        {
+          "id": "MATH1E19Q10",
+          "question": "5 + 5 = ?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "answer_index": 1,
+          "answer_text": "10",
+          "explanation": "5 cộng 5 bằng 10."
+        }
+      ]
+    },
+    {
+      "id": "MATH1E20",
+      "name": "Toán thực tế vui (quà, bóng, bút, bánh…)",
+      "questions": [
+        {
+          "id": "MATH1E20Q01",
+          "question": "Có 3 cái bánh, mẹ cho thêm 2 cái. Có tất cả?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "3 + 2 = 5."
+        },
+        {
+          "id": "MATH1E20Q02",
+          "question": "Có 6 quả bóng, bay đi 1 quả. Còn lại?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "6 - 1 = 5."
+        },
+        {
+          "id": "MATH1E20Q03",
+          "question": "Có 4 cây bút, mua thêm 5 cây. Tổng cộng?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "4 + 5 = 9."
+        },
+        {
+          "id": "MATH1E20Q04",
+          "question": "Có 10 quả trứng, làm vỡ 3 quả. Còn lại?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer_index": 1,
+          "answer_text": "7",
+          "explanation": "10 - 3 = 7."
+        },
+        {
+          "id": "MATH1E20Q05",
+          "question": "Có 2 quyển vở, thêm 7 quyển. Có tất cả?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "2 + 7 = 9."
+        },
+        {
+          "id": "MATH1E20Q06",
+          "question": "Có 9 cái bánh, ăn 4 cái. Còn lại?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "9 - 4 = 5."
+        },
+        {
+          "id": "MATH1E20Q07",
+          "question": "Có 7 cái kẹo, chia cho bạn 2 cái. Còn lại?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "7 - 2 = 5."
+        },
+        {
+          "id": "MATH1E20Q08",
+          "question": "Có 5 con mèo, thêm 3 con. Có tất cả?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "5 + 3 = 8."
+        },
+        {
+          "id": "MATH1E20Q09",
+          "question": "Có 8 quả táo, cho bạn 3 quả. Còn lại?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer_index": 1,
+          "answer_text": "5",
+          "explanation": "8 - 3 = 5."
+        },
+        {
+          "id": "MATH1E20Q10",
+          "question": "Có 6 quả cam, thêm 4 quả. Tổng cộng?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "answer_index": 1,
+          "answer_text": "10",
+          "explanation": "6 + 4 = 10."
+        }
+      ]
     }
   ]
 }

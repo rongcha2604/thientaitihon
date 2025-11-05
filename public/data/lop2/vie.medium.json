@@ -22,13 +22,20 @@
             "xinh đẹp, hiền lành, chăm chỉ",
             "bạn bè, thầy cô, cha mẹ"
           ],
-          "answer": "xinh đẹp, hiền lành, chăm chỉ"
+          "answer_index": 2,
+          "answer_text": "xinh đẹp, hiền lành, chăm chỉ"
         },
         {
           "id": "V2M01Q02",
           "question": "Câu 'Ôi, bông hoa này đẹp quá!' thuộc kiểu câu gì?",
-          "options": ["Câu cảm", "Câu kể", "Câu hỏi", "Câu khiến"],
-          "answer": "Câu cảm"
+          "options": [
+            "Câu cảm",
+            "Câu kể",
+            "Câu hỏi",
+            "Câu khiến"
+          ],
+          "answer_index": 0,
+          "answer_text": "Câu cảm"
         },
         {
           "id": "V2M01Q03",
@@ -39,13 +46,20 @@
             "Học bài bạn An rất chăm chỉ.",
             "Bạn học bài An rất chăm chỉ."
           ],
-          "answer": "Bạn An học bài rất chăm chỉ."
+          "answer_index": 0,
+          "answer_text": "Bạn An học bài rất chăm chỉ."
         },
         {
           "id": "V2M01Q04",
           "question": "Từ nào là từ chỉ hoạt động trong câu 'Em bé đang tập đi.'?",
-          "options": ["em bé", "đang", "tập đi", "tập"],
-          "answer": "tập đi"
+          "options": [
+            "em bé",
+            "đang",
+            "tập đi",
+            "tập"
+          ],
+          "answer_index": 2,
+          "answer_text": "tập đi"
         }
       ]
     },
@@ -63,19 +77,32 @@
             "Ai kể chuyện rất hay?",
             "Bà em kể cái gì?"
           ],
-          "answer": "Bà em kể chuyện như thế nào?"
+          "answer_index": 1,
+          "answer_text": "Bà em kể chuyện như thế nào?"
         },
         {
           "id": "V2M02Q02",
           "question": "Tìm từ trái nghĩa với 'yêu thương'.",
-          "options": ["quý mến", "giận hờn", "chăm sóc", "gần gũi"],
-          "answer": "giận hờn"
+          "options": [
+            "quý mến",
+            "giận hờn",
+            "chăm sóc",
+            "gần gũi"
+          ],
+          "answer_index": 1,
+          "answer_text": "giận hờn"
         },
         {
           "id": "V2M02Q03",
           "question": "Câu 'Cháu yêu bà lắm!' thể hiện tình cảm gì?",
-          "options": ["Buồn bã", "Sợ hãi", "Yêu quý, kính trọng", "Thờ ơ"],
-          "answer": "Yêu quý, kính trọng"
+          "options": [
+            "Buồn bã",
+            "Sợ hãi",
+            "Yêu quý, kính trọng",
+            "Thờ ơ"
+          ],
+          "answer_index": 2,
+          "answer_text": "Yêu quý, kính trọng"
         }
       ]
     },
@@ -87,20 +114,38 @@
         {
           "id": "V2M03Q01",
           "question": "Từ nào sau đây không cùng nhóm với các từ còn lại?",
-          "options": ["bút chì", "thước kẻ", "tẩy", "đá bóng"],
-          "answer": "đá bóng"
+          "options": [
+            "bút chì",
+            "thước kẻ",
+            "tẩy",
+            "đá bóng"
+          ],
+          "answer_index": 3,
+          "answer_text": "đá bóng"
         },
         {
           "id": "V2M03Q02",
           "question": "Chọn từ có nghĩa giống với 'sáng tạo'.",
-          "options": ["bắt chước", "làm theo", "sao chép", "phát minh"],
-          "answer": "phát minh"
+          "options": [
+            "bắt chước",
+            "làm theo",
+            "sao chép",
+            "phát minh"
+          ],
+          "answer_index": 3,
+          "answer_text": "phát minh"
         },
         {
           "id": "V2M03Q03",
           "question": "Để vẽ một bức tranh, em không cần dùng đến đồ vật nào sau đây?",
-          "options": ["giấy vẽ", "bút màu", "com-pa", "chổi lau nhà"],
-          "answer": "chổi lau nhà"
+          "options": [
+            "giấy vẽ",
+            "bút màu",
+            "com-pa",
+            "chổi lau nhà"
+          ],
+          "answer_index": 3,
+          "answer_text": "chổi lau nhà"
         }
       ]
     },
@@ -112,26 +157,50 @@
         {
           "id": "V2M04Q01",
           "question": "Các từ 'đâm chồi, nảy lộc, ra hoa' chỉ các hoạt động của cây cối vào mùa nào?",
-          "options": ["Mùa hạ", "Mùa thu", "Mùa đông", "Mùa xuân"],
-          "answer": "Mùa xuân"
+          "options": [
+            "Mùa hạ",
+            "Mùa thu",
+            "Mùa đông",
+            "Mùa xuân"
+          ],
+          "answer_index": 3,
+          "answer_text": "Mùa xuân"
         },
         {
           "id": "V2M04Q02",
           "question": "Câu thơ 'Mùa xuân hoa nở đẹp tươi' sử dụng giác quan nào để cảm nhận?",
-          "options": ["Thị giác (nhìn)", "Thính giác (nghe)", "Khứu giác (ngửi)", "Vị giác (nếm)"],
-          "answer": "Thị giác (nhìn)"
+          "options": [
+            "Thị giác (nhìn)",
+            "Thính giác (nghe)",
+            "Khứu giác (ngửi)",
+            "Vị giác (nếm)"
+          ],
+          "answer_index": 0,
+          "answer_text": "Thị giác (nhìn)"
         },
         {
           "id": "V2M04Q03",
           "question": "Từ nào không chỉ một loài hoa mùa xuân?",
-          "options": ["hoa đào", "hoa mai", "hoa cúc", "hoa sữa"],
-          "answer": "hoa sữa"
+          "options": [
+            "hoa đào",
+            "hoa mai",
+            "hoa cúc",
+            "hoa sữa"
+          ],
+          "answer_index": 3,
+          "answer_text": "hoa sữa"
         },
         {
           "id": "V2M04Q04",
           "question": "Câu 'Những chú chim én bay về báo hiệu mùa xuân' có từ chỉ hoạt động là:",
-          "options": ["chú chim én", "báo hiệu", "bay", "mùa xuân"],
-          "answer": "bay"
+          "options": [
+            "chú chim én",
+            "báo hiệu",
+            "bay",
+            "mùa xuân"
+          ],
+          "answer_index": 2,
+          "answer_text": "bay"
         }
       ]
     },
@@ -143,26 +212,50 @@
         {
           "id": "V2M05Q01",
           "question": "Trong các từ sau, từ nào là từ chỉ địa danh của Việt Nam?",
-          "options": ["Paris", "Tokyo", "Sông Hồng", "London"],
-          "answer": "Sông Hồng"
+          "options": [
+            "Paris",
+            "Tokyo",
+            "Sông Hồng",
+            "London"
+          ],
+          "answer_index": 2,
+          "answer_text": "Sông Hồng"
         },
         {
           "id": "V2M05Q02",
           "question": "Từ 'mến yêu' trong 'Việt Nam mến yêu' thể hiện tình cảm gì?",
-          "options": ["Sự trân trọng, gắn bó", "Sự xa lạ", "Sự bình thường", "Sự tức giận"],
-          "answer": "Sự trân trọng, gắn bó"
+          "options": [
+            "Sự trân trọng, gắn bó",
+            "Sự xa lạ",
+            "Sự bình thường",
+            "Sự tức giận"
+          ],
+          "answer_index": 0,
+          "answer_text": "Sự trân trọng, gắn bó"
         },
         {
           "id": "V2M05Q03",
           "question": "Áo dài là trang phục truyền thống của nước nào?",
-          "options": ["Nhật Bản", "Hàn Quốc", "Trung Quốc", "Việt Nam"],
-          "answer": "Việt Nam"
+          "options": [
+            "Nhật Bản",
+            "Hàn Quốc",
+            "Trung Quốc",
+            "Việt Nam"
+          ],
+          "answer_index": 3,
+          "answer_text": "Việt Nam"
         },
         {
           "id": "V2M05Q04",
           "question": "Câu 'Đất nước ta thật giàu đẹp.' là kiểu câu gì?",
-          "options": ["Câu kể", "Câu hỏi", "Câu cảm", "Câu khiến"],
-          "answer": "Câu cảm"
+          "options": [
+            "Câu kể",
+            "Câu hỏi",
+            "Câu cảm",
+            "Câu khiến"
+          ],
+          "answer_index": 2,
+          "answer_text": "Câu cảm"
         }
       ]
     },
@@ -174,56 +267,110 @@
         {
           "id": "V2M06Q01",
           "question": "Bộ phận trả lời câu hỏi 'Khi nào?' trong câu 'Mùa hè, hoa phượng nở đỏ rực.' là gì?",
-          "options": ["Mùa hè", "hoa phượng", "nở đỏ rực", "đỏ rực"],
-          "answer": "Mùa hè"
+          "options": [
+            "Mùa hè",
+            "hoa phượng",
+            "nở đỏ rực",
+            "đỏ rực"
+          ],
+          "answer_index": 0,
+          "answer_text": "Mùa hè"
         },
         {
           "id": "V2M06Q02",
           "question": "Từ nào viết sai chính tả?",
-          "options": ["giáo viên", "quản lí", "chợ búa", "sạch sẹc"],
-          "answer": "sạch sẹc"
+          "options": [
+            "giáo viên",
+            "quản lí",
+            "chợ búa",
+            "sạch sẹc"
+          ],
+          "answer_index": 3,
+          "answer_text": "sạch sẹc"
         },
         {
           "id": "V2M06Q03",
           "question": "Dấu phẩy trong câu 'Lan, Huệ và Mai là đôi bạn thân.' có tác dụng gì?",
-          "options": ["Ngăn cách các từ chỉ tên riêng", "Kết thúc câu", "Thể hiện sự ngạc nhiên", "Bắt đầu câu"],
-          "answer": "Ngăn cách các từ chỉ tên riêng"
+          "options": [
+            "Ngăn cách các từ chỉ tên riêng",
+            "Kết thúc câu",
+            "Thể hiện sự ngạc nhiên",
+            "Bắt đầu câu"
+          ],
+          "answer_index": 0,
+          "answer_text": "Ngăn cách các từ chỉ tên riêng"
         },
         {
           "id": "V2M06Q04",
           "question": "Từ 'chăm chỉ' trái nghĩa với từ nào?",
-          "options": ["siêng năng", "cần cù", "chịu khó", "lười biếng"],
-          "answer": "lười biếng"
+          "options": [
+            "siêng năng",
+            "cần cù",
+            "chịu khó",
+            "lười biếng"
+          ],
+          "answer_index": 3,
+          "answer_text": "lười biếng"
         },
         {
           "id": "V2M06Q05",
           "question": "Chọn từ đúng để điền vào chỗ trống: 'Con trâu ... ruộng.'",
-          "options": ["bay", "bơi", "cày", "hát"],
-          "answer": "cày"
+          "options": [
+            "bay",
+            "bơi",
+            "cày",
+            "hát"
+          ],
+          "answer_index": 2,
+          "answer_text": "cày"
         },
         {
           "id": "V2M06Q06",
           "question": "Câu 'Bạn có thích đọc truyện không?' dùng để làm gì?",
-          "options": ["Kể một sự việc", "Bày tỏ cảm xúc", "Nêu yêu cầu", "Hỏi một điều chưa biết"],
-          "answer": "Hỏi một điều chưa biết"
+          "options": [
+            "Kể một sự việc",
+            "Bày tỏ cảm xúc",
+            "Nêu yêu cầu",
+            "Hỏi một điều chưa biết"
+          ],
+          "answer_index": 3,
+          "answer_text": "Hỏi một điều chưa biết"
         },
         {
           "id": "V2M06Q07",
           "question": "Trong câu 'Bầu trời cao và trong xanh.', có mấy từ chỉ đặc điểm?",
-          "options": ["1", "2", "3", "4"],
-          "answer": "2"
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 1,
+          "answer_text": "2"
         },
         {
           "id": "V2M06Q08",
           "question": "Từ nào sau đây có thể thay thế cho từ 'bố'?",
-          "options": ["ba", "mẹ", "anh", "chị"],
-          "answer": "ba"
+          "options": [
+            "ba",
+            "mẹ",
+            "anh",
+            "chị"
+          ],
+          "answer_index": 0,
+          "answer_text": "ba"
         },
         {
           "id": "V2M06Q09",
           "question": "Dấu hai chấm trong câu sau có tác dụng gì? 'Mẹ bảo: \"Con phải chăm học nhé!\"'",
-          "options": ["Báo hiệu lời nói trực tiếp của nhân vật", "Kết thúc câu kể", "Ngăn cách các bộ phận câu", "Thể hiện sự liệt kê"],
-          "answer": "Báo hiệu lời nói trực tiếp của nhân vật"
+          "options": [
+            "Báo hiệu lời nói trực tiếp của nhân vật",
+            "Kết thúc câu kể",
+            "Ngăn cách các bộ phận câu",
+            "Thể hiện sự liệt kê"
+          ],
+          "answer_index": 0,
+          "answer_text": "Báo hiệu lời nói trực tiếp của nhân vật"
         }
       ]
     }
