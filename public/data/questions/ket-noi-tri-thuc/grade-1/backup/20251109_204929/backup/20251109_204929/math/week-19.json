@@ -1,0 +1,183 @@
+{
+  "week": 19,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Số có hai chữ số",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số nào sau đây là số có hai chữ số?",
+          "options": [
+            "15",
+            "5",
+            "105",
+            "1005"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 15 là số có hai chữ số (1 và 5)",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số 23 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "3 chục và 3 đơn vị",
+            "3 chục và 2 đơn vị",
+            "2 chục và 3 đơn vị",
+            "2 chục và 2 đơn vị"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 23 gồm 2 chục và 3 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số 45 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "5 chục và 4 đơn vị",
+            "4 chục và 4 đơn vị",
+            "5 chục và 5 đơn vị",
+            "4 chục và 5 đơn vị"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 45 gồm 4 chục và 5 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Số 12 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "1 chục và 2 đơn vị",
+            "2 chục và 1 đơn vị",
+            "1 chục và 1 đơn vị",
+            "2 chục và 2 đơn vị"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 12 gồm 1 chục và 2 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Số 67 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "7 chục và 6 đơn vị",
+            "6 chục và 6 đơn vị",
+            "7 chục và 7 đơn vị",
+            "6 chục và 7 đơn vị"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 67 gồm 6 chục và 7 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Số 89 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "9 chục và 8 đơn vị",
+            "8 chục và 8 đơn vị",
+            "8 chục và 9 đơn vị",
+            "9 chục và 9 đơn vị"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 89 gồm 8 chục và 9 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Số 34 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "4 chục và 3 đơn vị",
+            "3 chục và 4 đơn vị",
+            "3 chục và 3 đơn vị",
+            "4 chục và 4 đơn vị"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 34 gồm 3 chục và 4 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Số 78 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "7 chục và 8 đơn vị",
+            "7 chục và 7 đơn vị",
+            "8 chục và 7 đơn vị",
+            "8 chục và 8 đơn vị"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 78 gồm 7 chục và 8 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Số 56 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "5 chục và 5 đơn vị",
+            "5 chục và 6 đơn vị",
+            "6 chục và 5 đơn vị",
+            "6 chục và 6 đơn vị"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 56 gồm 5 chục và 6 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Số 100 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "9 chục và 10 đơn vị",
+            "10 chục và 10 đơn vị",
+            "10 chục và 0 đơn vị",
+            "100 chục và 0 đơn vị"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 100 gồm 10 chục và 0 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Số 90 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "0 chục và 9 đơn vị",
+            "9 chục và 0 đơn vị",
+            "9 chục và 9 đơn vị",
+            "10 chục và 0 đơn vị"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 90 gồm 9 chục và 0 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Số nào sau đây là số có hai chữ số?",
+          "options": [
+            "9",
+            "1009",
+            "109",
+            "19"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 19 là số có hai chữ số (1 và 9)",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

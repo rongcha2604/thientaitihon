@@ -1,0 +1,163 @@
+{
+  "week": 23,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Dài hơn, ngắn hơn",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Vật nào dài hơn: sợi dây 20cm hay sợi dây 30cm?",
+          "options": [
+            "Sợi dây 20cm dài hơn",
+            "Sợi dây 30cm dài hơn",
+            "Bằng nhau",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 1,
+          "explanation": "30cm > 20cm nên sợi dây 30cm dài hơn",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Vật nào ngắn hơn: thước kẻ 15cm hay thước kẻ 25cm?",
+          "options": [
+            "Thước kẻ 15cm ngắn hơn",
+            "Thước kẻ 25cm ngắn hơn",
+            "Bằng nhau",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 0,
+          "explanation": "15cm < 25cm nên thước kẻ 15cm ngắn hơn",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Vật nào dài nhất trong các vật: 10cm, 20cm, 30cm, 40cm?",
+          "options": [
+            "10cm",
+            "20cm",
+            "30cm",
+            "40cm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "40cm là dài nhất trong các vật 10cm, 20cm, 30cm, 40cm",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Vật nào ngắn nhất trong các vật: 15cm, 25cm, 35cm, 45cm?",
+          "options": [
+            "15cm",
+            "25cm",
+            "35cm",
+            "45cm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "15cm là ngắn nhất trong các vật 15cm, 25cm, 35cm, 45cm",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo độ dài: Đơn vị nào sau đây dùng để đo độ dài?",
+          "options": [
+            "Centimet (cm)",
+            "Kilogram (kg)",
+            "Lít (l)",
+            "Giờ (h)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Centimet (cm) là đơn vị đo độ dài",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Đơn vị đo độ dài",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo độ dài: 1 mét (m) bằng bao nhiêu centimet (cm)?",
+          "options": [
+            "10 cm",
+            "50 cm",
+            "100 cm",
+            "1000 cm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "1 mét (m) = 100 centimet (cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo độ dài: 1 decimet (dm) bằng bao nhiêu centimet (cm)?",
+          "options": [
+            "5 cm",
+            "10 cm",
+            "50 cm",
+            "100 cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "1 decimet (dm) = 10 centimet (cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo độ dài: Đo độ dài bàn học dùng đơn vị nào?",
+          "options": [
+            "Kilogram (kg)",
+            "Centimet (cm)",
+            "Lít (l)",
+            "Giờ (h)"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đo độ dài bàn học dùng đơn vị centimet (cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo độ dài: Đo độ dài sân trường dùng đơn vị nào?",
+          "options": [
+            "Centimet (cm)",
+            "Mét (m)",
+            "Kilogram (kg)",
+            "Lít (l)"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đo độ dài sân trường dùng đơn vị mét (m)",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo độ dài: 50cm bằng bao nhiêu decimet (dm)?",
+          "options": [
+            "5 dm",
+            "10 dm",
+            "50 dm",
+            "100 dm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "50cm = 5dm (vì 1dm = 10cm)",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

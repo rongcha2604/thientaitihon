@@ -1,0 +1,183 @@
+{
+  "week": 13,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Bảng cộng, bảng trừ trong phạm vi 10",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Có 5 quả táo, thêm 3 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "9 quả",
+            "7 quả",
+            "10 quả",
+            "8 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "5 + 3 = 8",
+          "imageUrl": "/data/questions/images/math/math-question-ket-noi-tri-thuc-grade1-week13-q1.png"
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Có 8 con gà, bay đi 2 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "6 con",
+            "5 con",
+            "7 con",
+            "8 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "8 - 2 = 6",
+          "imageUrl": "/data/questions/images/math/math-question-ket-noi-tri-thuc-grade1-week13-q2.png"
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Có 6 cái kẹo, mẹ cho thêm 4 cái nữa. Hỏi có tất cả bao nhiêu cái kẹo?",
+          "options": [
+            "11 cái",
+            "10 cái",
+            "9 cái",
+            "12 cái"
+          ],
+          "correctAnswer": 1,
+          "explanation": "6 + 4 = 10",
+          "imageUrl": "/data/questions/images/math/math-question-ket-noi-tri-thuc-grade1-week13-q3.png"
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Có 9 quả cam, ăn hết 3 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "6 quả",
+            "7 quả",
+            "8 quả",
+            "5 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 - 3 = 6",
+          "imageUrl": "/data/questions/images/math/math-question-ket-noi-tri-thuc-grade1-week13-q4.png"
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Có 7 cái bánh, mua thêm 2 cái nữa. Hỏi có tất cả bao nhiêu cái bánh?",
+          "options": [
+            "10 cái",
+            "8 cái",
+            "9 cái",
+            "11 cái"
+          ],
+          "correctAnswer": 2,
+          "explanation": "7 + 2 = 9",
+          "imageUrl": "/data/questions/images/math/math-question-ket-noi-tri-thuc-grade1-week13-q5.png"
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Có 10 con chim, bay đi 4 con. Hỏi còn lại bao nhiêu con chim?",
+          "options": [
+            "5 con",
+            "6 con",
+            "7 con",
+            "8 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "10 - 4 = 6",
+          "imageUrl": "/data/questions/images/math/math-question-ket-noi-tri-thuc-grade1-week13-q6.png"
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "4 + 5 = ?",
+          "options": [
+            "8",
+            "11",
+            "10",
+            "9"
+          ],
+          "correctAnswer": 3,
+          "explanation": "4 + 5 = 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "2 + 7 = ?",
+          "options": [
+            "10",
+            "9",
+            "8",
+            "11"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2 + 7 = 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "3 + 6 = ?",
+          "options": [
+            "8",
+            "11",
+            "10",
+            "9"
+          ],
+          "correctAnswer": 3,
+          "explanation": "3 + 6 = 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "1 + 8 = ?",
+          "options": [
+            "8",
+            "10",
+            "9",
+            "11"
+          ],
+          "correctAnswer": 2,
+          "explanation": "1 + 8 = 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "5 + 4 = ?",
+          "options": [
+            "9",
+            "8",
+            "10",
+            "11"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 + 4 = 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "6 + 3 = ?",
+          "options": [
+            "10",
+            "8",
+            "9",
+            "11"
+          ],
+          "correctAnswer": 2,
+          "explanation": "6 + 3 = 9",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

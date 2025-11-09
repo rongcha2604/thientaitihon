@@ -1,0 +1,183 @@
+{
+  "week": 29,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Luyện tập chung",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "34 + 25 = ?",
+          "options": [
+            "58",
+            "59",
+            "60",
+            "61"
+          ],
+          "correctAnswer": 1,
+          "explanation": "34 + 25 = 59",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "56 + 23 = ?",
+          "options": [
+            "78",
+            "80",
+            "79",
+            "81"
+          ],
+          "correctAnswer": 2,
+          "explanation": "56 + 23 = 79",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "45 + 34 = ?",
+          "options": [
+            "78",
+            "79",
+            "80",
+            "81"
+          ],
+          "correctAnswer": 1,
+          "explanation": "45 + 34 = 79",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "67 - 34 = ?",
+          "options": [
+            "32",
+            "34",
+            "35",
+            "33"
+          ],
+          "correctAnswer": 3,
+          "explanation": "67 - 34 = 33",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "78 - 45 = ?",
+          "options": [
+            "35",
+            "32",
+            "33",
+            "34"
+          ],
+          "correctAnswer": 2,
+          "explanation": "78 - 45 = 33",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "89 - 56 = ?",
+          "options": [
+            "33",
+            "34",
+            "32",
+            "35"
+          ],
+          "correctAnswer": 0,
+          "explanation": "89 - 56 = 33",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Có 56 quả táo, thêm 23 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "81 quả",
+            "79 quả",
+            "80 quả",
+            "78 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "56 + 23 = 79",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Có 89 con gà, bay đi 45 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "43 con",
+            "45 con",
+            "44 con",
+            "46 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "89 - 45 = 44",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Có 67 cái kẹo, mẹ cho thêm 22 cái nữa. Hỏi có tất cả bao nhiêu cái kẹo?",
+          "options": [
+            "89 cái",
+            "90 cái",
+            "91 cái",
+            "88 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "67 + 22 = 89",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Có 45 cái bánh, mua thêm 34 cái nữa. Hỏi có tất cả bao nhiêu cái bánh?",
+          "options": [
+            "80 cái",
+            "78 cái",
+            "81 cái",
+            "79 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "45 + 34 = 79",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Có 98 quả cam, ăn hết 56 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "42 quả",
+            "43 quả",
+            "44 quả",
+            "41 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "98 - 56 = 42",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Có 76 con chim, bay đi 43 con. Hỏi còn lại bao nhiêu con chim?",
+          "options": [
+            "32 con",
+            "35 con",
+            "34 con",
+            "33 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "76 - 43 = 33",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "week": 20,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 20",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Giải thưởng tình bạn\", giải thưởng được trao cho ai?",
+          "options": [
+            "người học giỏi",
+            "người hát hay",
+            "người chạy nhanh",
+            "người có tình bạn đẹp"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Giải thưởng tình bạn', đáp án đúng là 'người có tình bạn đẹp'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ tình cảm bạn bè?",
+          "options": [
+            "yêu thương",
+            "tất cả các đáp án trên",
+            "quan tâm",
+            "giúp đỡ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ tình cảm bạn bè. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ \"sinh nhật\" có nghĩa là gì?",
+          "options": [
+            "ngày sinh",
+            "ngày kỷ niệm",
+            "ngày vui",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'sinh nhật' có nghĩa là 'ngày sinh'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Sinh nhật của voi con\", voi con tổ chức sinh nhật ở đâu?",
+          "options": [
+            "ở nhà",
+            "ở trường",
+            "ở rừng",
+            "không rõ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong bài 'Sinh nhật của voi con', đáp án đúng là 'ở rừng'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Giải thưởng tình bạn\", điều gì quan trọng nhất?",
+          "options": [
+            "đồ chơi",
+            "tình bạn đẹp",
+            "tiền bạc",
+            "giải thưởng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong bài 'Giải thưởng tình bạn', đáp án đúng là 'tình bạn đẹp'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ hoạt động trong sinh nhật?",
+          "options": [
+            "hát mừng",
+            "thổi nến",
+            "tất cả các đáp án trên",
+            "ăn bánh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ hoạt động trong sinh nhật. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Sinh nhật của voi con\", các bạn mang đến gì?",
+          "options": [
+            "quà tặng",
+            "bánh kem",
+            "lời chúc",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Sinh nhật của voi con', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "giải thưởng",
+            "giải thưởng",
+            "dải thưởng",
+            "rải thưởng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'giải thưởng' được viết đúng chính tả. Đây là cách viết chuẩn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Giải thưởng tình bạn\", tình bạn được thể hiện qua điều gì?",
+          "options": [
+            "chia sẻ",
+            "giúp đỡ",
+            "tất cả các đáp án trên",
+            "yêu thương"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong bài 'Giải thưởng tình bạn', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Từ \"quà tặng\" có nghĩa là gì?",
+          "options": [
+            "tiền bạc",
+            "đồ vật tặng cho người khác",
+            "thức ăn",
+            "quần áo"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'quà tặng' có nghĩa là 'đồ vật tặng cho người khác'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Sinh nhật của voi con\", voi con cảm thấy như thế nào?",
+          "options": [
+            "vui vẻ",
+            "hạnh phúc",
+            "biết ơn",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Sinh nhật của voi con', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ lời nói trong sinh nhật?",
+          "options": [
+            "chúc mừng",
+            "cảm ơn",
+            "xin lỗi",
+            "tạm biệt"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'chúc mừng' chỉ lời nói trong sinh nhật. Đây là đáp án đúng.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

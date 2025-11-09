@@ -1,0 +1,176 @@
+{
+  "week": 24,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Thực hành ước lượng và đo độ dài",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Ước lượng: Bàn học dài khoảng bao nhiêu?",
+          "options": [
+            "Khoảng 100cm",
+            "Khoảng 50cm",
+            "Khoảng 200cm",
+            "Khoảng 500cm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Bàn học thường dài khoảng 100cm (1 mét)",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Ước lượng: Bút chì dài khoảng bao nhiêu?",
+          "options": [
+            "Khoảng 5cm",
+            "Khoảng 15cm",
+            "Khoảng 25cm",
+            "Khoảng 50cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Bút chì thường dài khoảng 15cm",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Thực hành đo: Đo độ dài bàn học bằng thước kẻ 20cm. Bàn học dài khoảng bao nhiêu?",
+          "options": [
+            "Khoảng 40cm",
+            "Khoảng 60cm",
+            "Khoảng 80cm",
+            "Khoảng 100cm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bàn học thường dài khoảng 100cm (5 lần thước kẻ 20cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Ước lượng: Thước kẻ dài khoảng bao nhiêu?",
+          "options": [
+            "Khoảng 10cm",
+            "Khoảng 20cm",
+            "Khoảng 30cm",
+            "Khoảng 50cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thước kẻ thường dài khoảng 20cm",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Luyện tập chung: Vật nào dài hơn: sợi dây 30cm hay sợi dây 40cm?",
+          "options": [
+            "Sợi dây 30cm dài hơn",
+            "Bằng nhau",
+            "Sợi dây 40cm dài hơn",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 2,
+          "explanation": "40cm > 30cm nên sợi dây 40cm dài hơn",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 18 con gà, thêm 2 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "18 con",
+            "23 con",
+            "21 con",
+            "20 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "18 + 2 = 20",
+          "imageUrl": null,
+          "id": "q6"
+        },
+        {
+          "question": "Có 19 con chim, thêm 1 con nữa. Hỏi có tất cả bao nhiêu con chim?",
+          "options": [
+            "20 con",
+            "19 con",
+            "17 con",
+            "21 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "19 + 1 = 20",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "Có 3 con chim, thêm 6 con nữa. Hỏi có tất cả bao nhiêu con chim?",
+          "options": [
+            "10 con",
+            "6 con",
+            "9 con",
+            "7 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "3 + 6 = 9",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "Có 17 cái kẹo, cho bạn 10 cái. Hỏi còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "5 cái",
+            "4 cái",
+            "6 cái",
+            "7 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "17 - 10 = 7",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "Có 8 con gà, thêm 5 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "15 con",
+            "13 con",
+            "14 con",
+            "16 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "8 + 5 = 13",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "Có 9 quả táo, ăn mất 3 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "6 quả",
+            "9 quả",
+            "4 quả",
+            "5 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 - 3 = 6",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 19 con chim, thêm 1 con nữa. Hỏi có tất cả bao nhiêu con chim?",
+          "options": [
+            "17 con",
+            "22 con",
+            "20 con",
+            "19 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "19 + 1 = 20",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    }
+  ]
+}

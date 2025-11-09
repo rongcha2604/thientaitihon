@@ -1,0 +1,86 @@
+{
+  "week": 8,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Thực hành lắp ghép xếp hình",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Dùng 2 hình tam giác có thể ghép thành hình gì?",
+          "options": [
+            "Hình vuông",
+            "Hình chữ nhật",
+            "Hình tam giác lớn hơn",
+            "Hình tròn"
+          ],
+          "correctAnswer": 0,
+          "explanation": "2 hình tam giác vuông có thể ghép thành hình vuông",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Dùng 4 hình vuông nhỏ có thể ghép thành hình gì?",
+          "options": [
+            "Hình tam giác",
+            "Hình vuông lớn hơn",
+            "Hình tròn",
+            "Hình chữ nhật"
+          ],
+          "correctAnswer": 1,
+          "explanation": "4 hình vuông nhỏ có thể ghép thành hình vuông lớn hơn",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Dùng 2 hình chữ nhật có thể ghép thành hình gì?",
+          "options": [
+            "Hình vuông",
+            "Hình chữ nhật lớn hơn",
+            "Hình tam giác",
+            "Hình tròn"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2 hình chữ nhật có thể ghép thành hình chữ nhật lớn hơn",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Hình vuông có thể chia thành mấy hình tam giác bằng nhau?",
+          "options": [
+            "2 hình",
+            "3 hình",
+            "4 hình",
+            "5 hình"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình vuông có thể chia thành 4 hình tam giác bằng nhau",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Luyện tập chung: Có 5 hình vuông và 3 hình tròn. Hình nào nhiều hơn?",
+          "options": [
+            "Hình vuông nhiều hơn",
+            "Hình tròn nhiều hơn",
+            "Bằng nhau",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 > 3 nên hình vuông nhiều hơn hình tròn",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

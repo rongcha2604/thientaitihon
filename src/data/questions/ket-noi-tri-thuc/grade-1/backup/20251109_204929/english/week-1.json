@@ -1,0 +1,155 @@
+{
+  "week": 1,
+  "subject": "english",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Unit 1: In the school playground",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "What letter is this: 'B'?",
+          "options": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: Đây là chữ cái 'B' (đọc là 'bê'). English: This is the letter 'B'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "How do you pronounce the letter 'B'?",
+          "options": [
+            "/n/",
+            "/æ/",
+            "/k/",
+            "/b/"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tiếng Việt: Chữ 'B' được phát âm là /b/. English: The letter 'B' is pronounced /b/.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "What is the English word for this picture?",
+          "options": [
+            "goat",
+            "ball",
+            "bike",
+            "hat"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'ball' là từ tiếng Anh đúng. English: 'ball' is the correct English word.",
+          "imageUrl": "emoji:⚽"
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Which word starts with 'B'?",
+          "options": [
+            "window",
+            "hand",
+            "ball",
+            "top"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tiếng Việt: Từ 'ball' bắt đầu bằng chữ 'B'. English: The word 'ball' starts with the letter 'B'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Choose the correct word: bike",
+          "options": [
+            "chips",
+            "bike",
+            "mother",
+            "book"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'bike' là từ tiếng Anh đúng. English: 'bike' is the correct English word.",
+          "imageUrl": "emoji:🚲"
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which word matches this?",
+          "options": [
+            "pencil",
+            "chicken",
+            "book",
+            "lemons"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tiếng Việt: 'book' là từ tiếng Anh đúng. English: 'book' is the correct English word.",
+          "imageUrl": "emoji:📚"
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Which sentence means 'Tạm biệt, Bill.'?",
+          "options": [
+            "Touch your hair.",
+            "There's a garden.",
+            "That's a monkey.",
+            "Bye, Bill."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tiếng Việt: 'Bye, Bill.' có nghĩa là 'Tạm biệt, Bill.'. English: 'Bye, Bill.' means 'Tạm biệt, Bill.'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Complete the sentence: Hi I'm _____.",
+          "options": [
+            "Bill",
+            "ball",
+            "bike",
+            "book"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: Câu hoàn chỉnh là 'Hi, I'm Bill.'. English: The complete sentence is 'Hi, I'm Bill.'.",
+          "imageUrl": "emoji:👨"
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "What is: 'bike'",
+          "options": [
+            "door",
+            "bike",
+            "lake",
+            "water"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'bike' là từ tiếng Anh đúng. English: 'bike' is the correct English word.",
+          "imageUrl": "emoji:🚲"
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Find the word: 'ball'",
+          "options": [
+            "ball",
+            "hair",
+            "girl",
+            "lake"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: 'ball' là từ tiếng Anh đúng. English: 'ball' is the correct English word.",
+          "imageUrl": "emoji:⚽"
+        }
+      ]
+    }
+  ]
+}

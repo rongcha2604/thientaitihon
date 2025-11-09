@@ -1,0 +1,253 @@
+{
+  "week": 25,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Luyện tập chung",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Vật nào dài nhất trong các vật: 20cm, 30cm, 40cm, 50cm?",
+          "options": [
+            "20cm",
+            "30cm",
+            "40cm",
+            "50cm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "50cm là dài nhất trong các vật 20cm, 30cm, 40cm, 50cm",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Vật nào ngắn nhất trong các vật: 15cm, 25cm, 35cm, 45cm?",
+          "options": [
+            "25cm",
+            "15cm",
+            "35cm",
+            "45cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "15cm là ngắn nhất trong các vật 15cm, 25cm, 35cm, 45cm",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo độ dài: 1 mét (m) bằng bao nhiêu centimet (cm)?",
+          "options": [
+            "10 cm",
+            "50 cm",
+            "100 cm",
+            "1000 cm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "1 mét (m) = 100 centimet (cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo độ dài: 1 decimet (dm) bằng bao nhiêu centimet (cm)?",
+          "options": [
+            "10 cm",
+            "5 cm",
+            "50 cm",
+            "100 cm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "1 decimet (dm) = 10 centimet (cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Phép cộng số có hai chữ số với số có một chữ số: 23 + 4 = ?",
+          "options": [
+            "26",
+            "28",
+            "27",
+            "29"
+          ],
+          "correctAnswer": 2,
+          "explanation": "23 + 4 = 27",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 19 quả táo, thêm 1 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "22 quả",
+            "20 quả",
+            "19 quả",
+            "23 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "19 + 1 = 20",
+          "imageUrl": null,
+          "id": "q6"
+        },
+        {
+          "question": "Có 16 quả táo, ăn mất 15 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "2 quả",
+            "3 quả",
+            "4 quả",
+            "1 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "16 - 15 = 1",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "Có 15 quả cam, ăn mất 6 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "9 quả",
+            "11 quả",
+            "6 quả",
+            "8 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "15 - 6 = 9",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "17 - 10 = ?",
+          "options": [
+            "10",
+            "8",
+            "7",
+            "9"
+          ],
+          "correctAnswer": 2,
+          "explanation": "17 - 10 = 7",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "Có 10 quả cam, ăn mất 6 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "5 quả",
+            "4 quả",
+            "7 quả",
+            "1 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "10 - 6 = 4",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "Có 3 con gà, bay đi 1 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "2 con",
+            "3 con",
+            "5 con",
+            "4 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "3 - 1 = 2",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 18 con chim, thêm 1 con nữa. Hỏi có tất cả bao nhiêu con chim?",
+          "options": [
+            "18 con",
+            "16 con",
+            "21 con",
+            "19 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "18 + 1 = 19",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Phép cộng số có hai chữ số với số có một chữ số",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "34 + 5 = ?",
+          "options": [
+            "38",
+            "40",
+            "41",
+            "39"
+          ],
+          "correctAnswer": 3,
+          "explanation": "34 + 5 = 39",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "45 + 3 = ?",
+          "options": [
+            "47",
+            "48",
+            "49",
+            "50"
+          ],
+          "correctAnswer": 1,
+          "explanation": "45 + 3 = 48",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "56 + 2 = ?",
+          "options": [
+            "58",
+            "57",
+            "59",
+            "60"
+          ],
+          "correctAnswer": 0,
+          "explanation": "56 + 2 = 58",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "67 + 1 = ?",
+          "options": [
+            "67",
+            "69",
+            "70",
+            "68"
+          ],
+          "correctAnswer": 3,
+          "explanation": "67 + 1 = 68",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "78 + 2 = ?",
+          "options": [
+            "79",
+            "81",
+            "82",
+            "80"
+          ],
+          "correctAnswer": 3,
+          "explanation": "78 + 2 = 80",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

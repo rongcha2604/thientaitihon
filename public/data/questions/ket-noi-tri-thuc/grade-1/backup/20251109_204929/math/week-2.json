@@ -1,0 +1,183 @@
+{
+  "week": 2,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Các số 6, 7, 8, 9",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số nào sau đây là số 6?",
+          "options": [
+            "8",
+            "5",
+            "6",
+            "7"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 6 là số đứng sau số 5 và trước số 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Có 6 con gà, thêm 1 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "7 con",
+            "5 con",
+            "6 con",
+            "8 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "6 + 1 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số nào sau đây là số 7?",
+          "options": [
+            "6",
+            "7",
+            "9",
+            "8"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 7 là số đứng sau số 6 và trước số 8",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Có 7 quả cam, ăn hết 1 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "5 quả",
+            "7 quả",
+            "8 quả",
+            "6 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "7 - 1 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Số nào sau đây là số 8?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 8 là số đứng sau số 7 và trước số 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Có 8 cái kẹo, chia đều cho 2 bạn. Mỗi bạn được bao nhiêu cái kẹo?",
+          "options": [
+            "3 cái",
+            "4 cái",
+            "5 cái",
+            "6 cái"
+          ],
+          "correctAnswer": 1,
+          "explanation": "8 : 2 = 4 (chia đều cho 2 bạn)",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Có 9 con chim, bay đi 2 con. Hỏi còn lại bao nhiêu con chim?",
+          "options": [
+            "6 con",
+            "9 con",
+            "8 con",
+            "7 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "9 - 2 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Số nào sau đây là số 9?",
+          "options": [
+            "7",
+            "9",
+            "8",
+            "6"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 9 là số đứng sau số 8 và trước số 10",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Trong các số sau, số nào lớn nhất?",
+          "options": [
+            "9",
+            "6",
+            "8",
+            "7"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 9 là số lớn nhất trong các số 6, 7, 8, 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Trong các số sau, số nào nhỏ nhất?",
+          "options": [
+            "8",
+            "7",
+            "6",
+            "9"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 6 là số nhỏ nhất trong các số 6, 7, 8, 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Số 7 đứng giữa số nào?",
+          "options": [
+            "Số 6 và số 8",
+            "Số 8 và số 9",
+            "Số 5 và số 6",
+            "Số 9 và số 10"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 7 đứng giữa số 6 và số 8",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Có 6 cái bánh, mẹ mua thêm 3 cái nữa. Hỏi có tất cả bao nhiêu cái bánh?",
+          "options": [
+            "10 cái",
+            "8 cái",
+            "11 cái",
+            "9 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "6 + 3 = 9",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

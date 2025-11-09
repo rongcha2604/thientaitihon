@@ -1,0 +1,253 @@
+{
+  "week": 18,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập hình học",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Hình vuông có bao nhiêu cạnh?",
+          "options": [
+            "4 cạnh",
+            "3 cạnh",
+            "5 cạnh",
+            "2 cạnh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình vuông có 4 cạnh bằng nhau",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Hình tròn có bao nhiêu cạnh?",
+          "options": [
+            "1 cạnh",
+            "0 cạnh",
+            "2 cạnh",
+            "3 cạnh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình tròn không có cạnh",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Khối lập phương có bao nhiêu mặt?",
+          "options": [
+            "4 mặt",
+            "5 mặt",
+            "6 mặt",
+            "7 mặt"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Khối lập phương có 6 mặt vuông bằng nhau",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Hình tam giác có bao nhiêu cạnh?",
+          "options": [
+            "2 cạnh",
+            "3 cạnh",
+            "4 cạnh",
+            "5 cạnh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình tam giác có 3 cạnh",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khối hộp chữ nhật có bao nhiêu mặt?",
+          "options": [
+            "7 mặt",
+            "5 mặt",
+            "4 mặt",
+            "6 mặt"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khối hộp chữ nhật có 6 mặt",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 6 quả táo, thêm 13 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "19 quả",
+            "16 quả",
+            "17 quả",
+            "22 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "6 + 13 = 19",
+          "imageUrl": null,
+          "id": "q6"
+        },
+        {
+          "question": "Có 9 con gà, bay đi 5 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "7 con",
+            "6 con",
+            "2 con",
+            "4 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "9 - 5 = 4",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "Có 9 cái kẹo, cho bạn 4 cái. Hỏi còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "3 cái",
+            "5 cái",
+            "4 cái",
+            "8 cái"
+          ],
+          "correctAnswer": 1,
+          "explanation": "9 - 4 = 5",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "Có 12 con gà, bay đi 5 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "7 con",
+            "10 con",
+            "6 con",
+            "4 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "12 - 5 = 7",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "18 + 2 = ?",
+          "options": [
+            "17",
+            "18",
+            "20",
+            "19"
+          ],
+          "correctAnswer": 2,
+          "explanation": "18 + 2 = 20",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "Có 15 con chim, bay đi 6 con. Hỏi còn lại bao nhiêu con chim?",
+          "options": [
+            "11 con",
+            "12 con",
+            "8 con",
+            "9 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "15 - 6 = 9",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 20 con gà, bay đi 7 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "12 con",
+            "10 con",
+            "13 con",
+            "15 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "20 - 7 = 13",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Ôn tập chung",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Có 7 quả táo và 3 quả cam. Hỏi có tất cả bao nhiêu quả?",
+          "options": [
+            "9 quả",
+            "10 quả",
+            "11 quả",
+            "12 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "7 + 3 = 10",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Có 10 con gà, bay đi 5 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "4 con",
+            "5 con",
+            "6 con",
+            "7 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "10 - 5 = 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 4, 8, 2, 6?",
+          "options": [
+            "4",
+            "8",
+            "2",
+            "6"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 8 là số lớn nhất trong các số 4, 8, 2, 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Kiểm tra đánh giá: Có 5 cái kẹo, mẹ cho thêm 4 cái nữa. Hỏi có tất cả bao nhiêu cái kẹo?",
+          "options": [
+            "9 cái",
+            "8 cái",
+            "10 cái",
+            "11 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 + 4 = 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Kiểm tra đánh giá: Có 9 quả cam, ăn hết 6 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "3 quả",
+            "2 quả",
+            "4 quả",
+            "5 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 - 6 = 3",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

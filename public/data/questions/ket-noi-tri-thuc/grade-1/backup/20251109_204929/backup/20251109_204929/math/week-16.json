@@ -1,0 +1,176 @@
+{
+  "week": 16,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Vị trí định hướng trong không gian",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở giữa?",
+          "options": [
+            "Vật ở giữa",
+            "Vật ở phía trước",
+            "Vật ở phía sau",
+            "Vật ở bên cạnh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vật ở giữa là vật ở vị trí trung tâm",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Luyện tập chung: Có 3 khối lập phương và 2 khối hộp chữ nhật. Khối nào nhiều hơn?",
+          "options": [
+            "Không so sánh được",
+            "Khối hộp chữ nhật nhiều hơn",
+            "Bằng nhau",
+            "Khối lập phương nhiều hơn"
+          ],
+          "correctAnswer": 3,
+          "explanation": "3 > 2 nên khối lập phương nhiều hơn khối hộp chữ nhật",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Luyện tập chung: Có 5 khối lập phương, xếp thành 2 hàng. Mỗi hàng có bao nhiêu khối? (Làm tròn)",
+          "options": [
+            "3 khối",
+            "2 khối",
+            "4 khối",
+            "5 khối"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 : 2 = 2 dư 1, mỗi hàng có khoảng 2-3 khối",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở bên cạnh?",
+          "options": [
+            "Vật ở phía trước",
+            "Vật ở phía sau",
+            "Vật ở giữa",
+            "Vật ở bên cạnh"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vật ở bên cạnh là vật ở vị trí ngang với mình",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Luyện tập chung: Có 6 khối hộp chữ nhật, xếp thành 3 hàng. Mỗi hàng có bao nhiêu khối?",
+          "options": [
+            "1 khối",
+            "2 khối",
+            "3 khối",
+            "4 khối"
+          ],
+          "correctAnswer": 1,
+          "explanation": "6 : 3 = 2, mỗi hàng có 2 khối",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 8 cái kẹo, cho bạn 7 cái. Hỏi còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "2 cái",
+            "3 cái",
+            "4 cái",
+            "1 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "8 - 7 = 1",
+          "imageUrl": null,
+          "id": "q6"
+        },
+        {
+          "question": "Có 18 quả cam, thêm 1 quả nữa. Hỏi có tất cả bao nhiêu quả cam?",
+          "options": [
+            "16 quả",
+            "19 quả",
+            "17 quả",
+            "22 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "18 + 1 = 19",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "19 - 16 = ?",
+          "options": [
+            "5",
+            "2",
+            "3",
+            "1"
+          ],
+          "correctAnswer": 2,
+          "explanation": "19 - 16 = 3",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "Có 3 cái kẹo, thêm 3 cái nữa. Hỏi có tất cả bao nhiêu cái kẹo?",
+          "options": [
+            "6 cái",
+            "9 cái",
+            "4 cái",
+            "8 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "3 + 3 = 6",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "Có 2 quả cam, thêm 16 quả nữa. Hỏi có tất cả bao nhiêu quả cam?",
+          "options": [
+            "21 quả",
+            "16 quả",
+            "18 quả",
+            "19 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "2 + 16 = 18",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "Có 3 con chim, bay đi 1 con. Hỏi còn lại bao nhiêu con chim?",
+          "options": [
+            "3 con",
+            "2 con",
+            "4 con",
+            "5 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "3 - 1 = 2",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 9 quả táo, thêm 7 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "14 quả",
+            "18 quả",
+            "16 quả",
+            "15 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "9 + 7 = 16",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "week": 3,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Nhiều hơn, ít hơn, bằng nhau",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Có 5 quả táo và 3 quả cam. Quả nào nhiều hơn?",
+          "options": [
+            "Không so sánh được",
+            "Bằng nhau",
+            "Quả táo nhiều hơn",
+            "Quả cam nhiều hơn"
+          ],
+          "correctAnswer": 2,
+          "explanation": "5 > 3 nên quả táo nhiều hơn quả cam",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Có 5 cái kẹo và 5 cái bánh. Số kẹo và số bánh như thế nào?",
+          "options": [
+            "Bằng nhau",
+            "Bánh nhiều hơn",
+            "Kẹo nhiều hơn",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 = 5 nên số kẹo và số bánh bằng nhau",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Có 4 con gà và 6 con vịt. Con nào ít hơn?",
+          "options": [
+            "Bằng nhau",
+            "Con vịt ít hơn",
+            "Con gà ít hơn",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 2,
+          "explanation": "4 < 6 nên con gà ít hơn con vịt",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Có 7 bông hoa và 3 bông hoa. Tổng cộng có bao nhiêu bông hoa?",
+          "options": [
+            "9 bông",
+            "10 bông",
+            "11 bông",
+            "12 bông"
+          ],
+          "correctAnswer": 1,
+          "explanation": "7 + 3 = 10",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Có 6 con chim và 4 con bướm. Con nào nhiều hơn?",
+          "options": [
+            "Con chim nhiều hơn",
+            "Con bướm nhiều hơn",
+            "Bằng nhau",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 0,
+          "explanation": "6 > 4 nên con chim nhiều hơn con bướm",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Có 8 quả cam, ăn hết 2 quả. Còn lại bao nhiêu quả?",
+          "options": [
+            "8 quả",
+            "5 quả",
+            "7 quả",
+            "6 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "8 - 2 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Có 5 quả táo và 5 quả cam. Số táo và số cam như thế nào?",
+          "options": [
+            "Táo nhiều hơn",
+            "Bằng nhau",
+            "Cam nhiều hơn",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 1,
+          "explanation": "5 = 5 nên số táo và số cam bằng nhau",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Có 9 cái bút và 2 cái thước. Cái nào ít hơn?",
+          "options": [
+            "Không so sánh được",
+            "Cái bút ít hơn",
+            "Bằng nhau",
+            "Cái thước ít hơn"
+          ],
+          "correctAnswer": 3,
+          "explanation": "2 < 9 nên cái thước ít hơn cái bút",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Có 4 con gà, mua thêm 3 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "7 con",
+            "6 con",
+            "8 con",
+            "9 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "4 + 3 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Có 10 cái kẹo, chia cho 2 bạn. Mỗi bạn được bao nhiêu cái?",
+          "options": [
+            "4 cái",
+            "7 cái",
+            "5 cái",
+            "6 cái"
+          ],
+          "correctAnswer": 2,
+          "explanation": "10 : 2 = 5 (chia đều cho 2 bạn)",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 4 con chim, thêm 1 con nữa. Hỏi có tất cả bao nhiêu con chim?",
+          "options": [
+            "6 con",
+            "5 con",
+            "2 con",
+            "7 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "4 + 1 = 5",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 9 con chim, bay đi 3 con. Hỏi còn lại bao nhiêu con chim?",
+          "options": [
+            "9 con",
+            "7 con",
+            "3 con",
+            "6 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "9 - 3 = 6",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    }
+  ]
+}

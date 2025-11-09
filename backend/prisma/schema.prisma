@@ -1,0 +1,187 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Users table
+model User {
+  id          String   @id @default(uuid())
+  email       String   @unique
+  passwordHash String  @map("password_hash")
+  fullName    String?  @map("full_name")
+  grade       Int?     // Lớp học (1-5)
+  avatarUrl   String?  @map("avatar_url")
+  role        String   @default("student") // student, parent, admin
+  parentPin   String?  @map("parent_pin") // PIN 4 số cho khu phụ huynh
+  coins       Int      @default(0) // Số coins của user (để đổi vật phẩm)
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  progress    UserProgress[]
+  analytics   UserAnalytics[]
+  rewards     UserReward[]
+  albumItems  UserAlbumItem[]
+  coinTransactions CoinTransaction[]
+
+  @@map("users")
+}
+
+// User Progress (tiến độ học tập)
+model UserProgress {
+  id          String   @id @default(uuid())
+  userId      String   @map("user_id")
+  bookSeries  String   @map("book_series") // Bộ sách
+  grade       Int
+  subject     String   // math, vietnamese, english
+  week        Int      // Tuần 1-35
+  lessonId    String   @map("lesson_id") // ID bài học
+  status      String   // completed, in_progress, locked
+  score       Int?     // Điểm số
+  completedAt DateTime? @map("completed_at")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  // Relations
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([userId, bookSeries, grade, subject, week])
+  @@map("user_progress")
+}
+
+// User Analytics (hành vi người dùng)
+model UserAnalytics {
+  id          String   @id @default(uuid())
+  userId      String   @map("user_id")
+  eventType   String   @map("event_type") // login, start_lesson, complete_lesson, open_card, etc.
+  eventData   Json?    @map("event_data") // Dữ liệu chi tiết event
+  sessionId   String?  @map("session_id")
+  ipAddress   String?  @map("ip_address")
+  userAgent   String?  @map("user_agent")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  // Relations
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([userId, eventType])
+  @@index([createdAt])
+  @@map("user_analytics")
+}
+
+// Rewards/Album (phần thưởng) - DEPRECATED: Dùng UserAlbumItem thay thế
+model UserReward {
+  id          String   @id @default(uuid())
+  userId      String   @map("user_id")
+  rewardType  String   @map("reward_type") // character, accessory, frame, sticker
+  rewardName  String   @map("reward_name")
+  unlockedAt  DateTime @default(now()) @map("unlocked_at")
+
+  // Relations
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("user_rewards")
+}
+
+// Album Items (danh sách vật phẩm có thể đổi)
+model AlbumItem {
+  id             String   @id @default(uuid())
+  name           String   // Tên vật phẩm
+  category       String   // character, accessory, frame, sticker
+  image          String   // Emoji hoặc image URL
+  imageFile      String?  @map("image_file") // Đường dẫn file ảnh (nếu có)
+  price          Int      // Giá coins để đổi (0 nếu unlock by achievement)
+  description    String?  // Mô tả vật phẩm
+  unlockType     String   @default("coins") @map("unlock_type") // "coins" | "achievement" | "both"
+  unlockCondition Json?   @map("unlock_condition") // Điều kiện unlock (ví dụ: { "type": "complete_weeks", "count": 10 })
+  downloadable   Boolean  @default(false) // Có thể tải về máy không
+  downloadFile   String?  @map("download_file") // Đường dẫn file download (ZIP, PNG, etc.)
+  isActive       Boolean  @default(true) @map("is_active") // Có còn bán không
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  userItems      UserAlbumItem[]
+
+  @@index([category])
+  @@index([isActive])
+  @@index([unlockType])
+  @@map("album_items")
+}
+
+// User Album Items (vật phẩm user đã sở hữu)
+model UserAlbumItem {
+  id          String   @id @default(uuid())
+  userId      String   @map("user_id")
+  albumItemId String   @map("album_item_id")
+  purchasedAt DateTime @default(now()) @map("purchased_at")
+  purchasedWith Int    @map("purchased_with") // Số coins đã dùng để mua
+
+  // Relations
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  albumItem   AlbumItem @relation(fields: [albumItemId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, albumItemId]) // Mỗi user chỉ mua được 1 lần mỗi vật phẩm
+  @@index([userId])
+  @@index([albumItemId])
+  @@map("user_album_items")
+}
+
+// Coin Transactions (lịch sử giao dịch coins)
+model CoinTransaction {
+  id          String   @id @default(uuid())
+  userId      String   @map("user_id")
+  amount      Int      // Số coins (+/-)
+  reason      String   // complete_week, purchase_item, bonus_streak, etc.
+  metadata    Json?    // Dữ liệu bổ sung (weekId, itemId, etc.)
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  // Relations
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([userId, createdAt])
+  @@map("coin_transactions")
+}
+
+// Admin Users
+model AdminUser {
+  id          String   @id @default(uuid())
+  email       String   @unique
+  passwordHash String  @map("password_hash")
+  fullName    String?  @map("full_name")
+  role        String   @default("admin") // admin, super_admin
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  // Relations
+  auditLogs   AuditLog[]
+
+  @@map("admin_users")
+}
+
+// Audit Logs (log truy cập admin)
+model AuditLog {
+  id           String    @id @default(uuid())
+  adminId      String    @map("admin_id")
+  action       String    // view_user, export_data, etc.
+  resourceType String?   @map("resource_type") // user, progress, analytics
+  resourceId   String?   @map("resource_id")
+  ipAddress    String?   @map("ip_address")
+  createdAt    DateTime  @default(now()) @map("created_at")
+
+  // Relations
+  admin        AdminUser @relation(fields: [adminId], references: [id], onDelete: Cascade)
+
+  @@index([adminId])
+  @@index([createdAt])
+  @@map("audit_logs")
+}
+

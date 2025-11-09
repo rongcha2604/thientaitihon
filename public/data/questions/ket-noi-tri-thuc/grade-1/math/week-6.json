@@ -1,0 +1,183 @@
+{
+  "week": 6,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Luyện tập chung",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Có 4 quả táo, thêm 3 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "6 quả",
+            "8 quả",
+            "7 quả",
+            "9 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "4 + 3 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Có 8 con gà, bay đi 2 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "5 con",
+            "6 con",
+            "8 con",
+            "7 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "8 - 2 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "7 gồm mấy và mấy?",
+          "options": [
+            "4 và 3",
+            "2 và 5",
+            "3 và 4",
+            "5 và 2"
+          ],
+          "correctAnswer": 2,
+          "explanation": "7 = 3 + 4, nên 7 gồm 3 và 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 5, 9, 3, 7?",
+          "options": [
+            "5",
+            "9",
+            "3",
+            "7"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 9 là số lớn nhất trong các số 5, 9, 3, 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Có 6 cái kẹo và 4 cái bánh. Cái nào nhiều hơn?",
+          "options": [
+            "Kẹo nhiều hơn",
+            "Bánh nhiều hơn",
+            "Bằng nhau",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 0,
+          "explanation": "6 > 4 nên kẹo nhiều hơn bánh",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Điền dấu thích hợp: 5 ... 8",
+          "options": [
+            "Không điền được",
+            "5 > 8",
+            "5 = 8",
+            "5 < 8"
+          ],
+          "correctAnswer": 3,
+          "explanation": "5 < 8 nên điền dấu <",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ nhất trong các số: 8, 2, 6, 4?",
+          "options": [
+            "2",
+            "6",
+            "8",
+            "4"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 2 là số nhỏ nhất trong các số 8, 2, 6, 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 7, 2, 9, 5",
+          "options": [
+            "5, 2, 7, 9",
+            "9, 7, 5, 2",
+            "2, 5, 7, 9",
+            "2, 7, 5, 9"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Sắp xếp từ nhỏ đến lớn: 2 < 5 < 7 < 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Có 9 quả cam, chia đều cho 3 bạn. Mỗi bạn được bao nhiêu quả?",
+          "options": [
+            "2 quả",
+            "5 quả",
+            "4 quả",
+            "3 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "9 : 3 = 3 (chia đều cho 3 bạn)",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Có 10 cái bút, dùng hết 4 cái. Còn lại bao nhiêu cái?",
+          "options": [
+            "7 cái",
+            "6 cái",
+            "5 cái",
+            "8 cái"
+          ],
+          "correctAnswer": 1,
+          "explanation": "10 - 4 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Có 5 con chim và 7 con bướm. Con nào ít hơn và ít hơn bao nhiêu?",
+          "options": [
+            "Chim ít hơn, ít hơn 2 con",
+            "Bướm ít hơn, ít hơn 1 con",
+            "Bướm ít hơn, ít hơn 2 con",
+            "Chim ít hơn, ít hơn 1 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 < 7, 7 - 5 = 2 nên chim ít hơn bướm 2 con",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "8 gồm 5 và mấy?",
+          "options": [
+            "2",
+            "5",
+            "4",
+            "3"
+          ],
+          "correctAnswer": 3,
+          "explanation": "8 = 5 + 3, nên 8 gồm 5 và 3",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

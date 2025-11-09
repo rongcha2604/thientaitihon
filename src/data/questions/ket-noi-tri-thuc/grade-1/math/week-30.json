@@ -1,0 +1,253 @@
+{
+  "week": 30,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Xem giờ đúng trên đồng hồ",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đồng hồ chỉ 3 giờ đúng. Kim giờ chỉ số mấy?",
+          "options": [
+            "Số 12",
+            "Số 6",
+            "Số 3",
+            "Số 9"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Khi đồng hồ chỉ 3 giờ đúng, kim giờ chỉ số 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đồng hồ chỉ 6 giờ đúng. Kim giờ chỉ số mấy?",
+          "options": [
+            "Số 6",
+            "Số 3",
+            "Số 9",
+            "Số 12"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Khi đồng hồ chỉ 6 giờ đúng, kim giờ chỉ số 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đồng hồ chỉ 12 giờ đúng. Kim giờ chỉ số mấy?",
+          "options": [
+            "Số 3",
+            "Số 6",
+            "Số 9",
+            "Số 12"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi đồng hồ chỉ 12 giờ đúng, kim giờ chỉ số 12",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đồng hồ chỉ 5 giờ đúng. Kim giờ chỉ số mấy?",
+          "options": [
+            "Số 4",
+            "Số 6",
+            "Số 5",
+            "Số 7"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Khi đồng hồ chỉ 5 giờ đúng, kim giờ chỉ số 5",
+          "imageUrl": null
+        },
+        {
+          "question": "13 - 4 = ?",
+          "options": [
+            "9",
+            "7",
+            "12",
+            "8"
+          ],
+          "correctAnswer": 0,
+          "explanation": "13 - 4 = 9",
+          "imageUrl": null,
+          "id": "q5"
+        },
+        {
+          "question": "Có 13 quả táo, ăn mất 1 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "11 quả",
+            "9 quả",
+            "12 quả",
+            "10 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "13 - 1 = 12",
+          "imageUrl": null,
+          "id": "q6"
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Đồng hồ chỉ 9 giờ đúng. Kim giờ chỉ số mấy?",
+          "options": [
+            "Số 9",
+            "Số 6",
+            "Số 3",
+            "Số 12"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Khi đồng hồ chỉ 9 giờ đúng, kim giờ chỉ số 9",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 11 quả táo, thêm 3 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "15 quả",
+            "17 quả",
+            "11 quả",
+            "14 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "11 + 3 = 14",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "Có 10 quả táo, ăn mất 3 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "9 quả",
+            "7 quả",
+            "4 quả",
+            "10 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "10 - 3 = 7",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "1 + 2 = ?",
+          "options": [
+            "1",
+            "5",
+            "2",
+            "3"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1 + 2 = 3",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "Có 9 quả cam, ăn mất 6 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "2 quả",
+            "3 quả",
+            "1 quả",
+            "6 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "9 - 6 = 3",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "4 - 2 = ?",
+          "options": [
+            "3",
+            "2",
+            "5",
+            "4"
+          ],
+          "correctAnswer": 1,
+          "explanation": "4 - 2 = 2",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Các ngày trong tuần",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Các ngày trong tuần: Ngày đầu tiên trong tuần là ngày nào?",
+          "options": [
+            "Thứ Hai",
+            "Thứ Ba",
+            "Thứ Tư",
+            "Chủ Nhật"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Ngày đầu tiên trong tuần là Thứ Hai",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Các ngày trong tuần: Ngày cuối cùng trong tuần là ngày nào?",
+          "options": [
+            "Thứ Sáu",
+            "Thứ Bảy",
+            "Chủ Nhật",
+            "Thứ Hai"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Ngày cuối cùng trong tuần là Chủ Nhật",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Các ngày trong tuần: Ngày nào đứng giữa Thứ Hai và Thứ Tư?",
+          "options": [
+            "Thứ Hai",
+            "Thứ Ba",
+            "Thứ Tư",
+            "Thứ Năm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thứ Ba đứng giữa Thứ Hai và Thứ Tư",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Các ngày trong tuần: Ngày nào đứng sau Thứ Tư?",
+          "options": [
+            "Thứ Ba",
+            "Thứ Tư",
+            "Thứ Năm",
+            "Thứ Sáu"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Thứ Năm đứng sau Thứ Tư",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Các ngày trong tuần: Ngày nào đứng trước Thứ Sáu?",
+          "options": [
+            "Thứ Tư",
+            "Thứ Năm",
+            "Thứ Sáu",
+            "Thứ Bảy"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thứ Năm đứng trước Thứ Sáu",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "week": 17,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập các số trong phạm vi 10",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 5, 9, 3, 7?",
+          "options": [
+            "7",
+            "5",
+            "3",
+            "9"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 9 là số lớn nhất trong các số 5, 9, 3, 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ nhất trong các số: 8, 2, 6, 4?",
+          "options": [
+            "8",
+            "2",
+            "6",
+            "4"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 2 là số nhỏ nhất trong các số 8, 2, 6, 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 7, 2, 9, 5",
+          "options": [
+            "9, 7, 5, 2",
+            "2, 7, 5, 9",
+            "2, 5, 7, 9",
+            "5, 2, 7, 9"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Sắp xếp từ nhỏ đến lớn: 2 < 5 < 7 < 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Điền dấu thích hợp: 5 ... 8",
+          "options": [
+            "5 < 8",
+            "5 = 8",
+            "5 > 8",
+            "Không điền được"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 < 8 nên điền dấu <",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Sắp xếp các số sau theo thứ tự từ lớn đến nhỏ: 3, 8, 1, 6",
+          "options": [
+            "1, 3, 6, 8",
+            "8, 3, 6, 1",
+            "8, 6, 3, 1",
+            "6, 8, 3, 1"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Sắp xếp từ lớn đến nhỏ: 8 > 6 > 3 > 1",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Điền dấu thích hợp: 7 ... 7",
+          "options": [
+            "7 > 7",
+            "7 < 7",
+            "Không điền được",
+            "7 = 7"
+          ],
+          "correctAnswer": 3,
+          "explanation": "7 = 7 nên điền dấu =",
+          "imageUrl": null
+        },
+        {
+          "question": "18 + 2 = ?",
+          "options": [
+            "20",
+            "18",
+            "22",
+            "17"
+          ],
+          "correctAnswer": 0,
+          "explanation": "18 + 2 = 20",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "Có 8 con gà, thêm 6 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "13 con",
+            "12 con",
+            "14 con",
+            "17 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "8 + 6 = 14",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "19 - 5 = ?",
+          "options": [
+            "12",
+            "14",
+            "13",
+            "15"
+          ],
+          "correctAnswer": 1,
+          "explanation": "19 - 5 = 14",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "Có 17 quả táo, ăn mất 9 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "5 quả",
+            "10 quả",
+            "11 quả",
+            "8 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "17 - 9 = 8",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "Có 11 quả cam, thêm 3 quả nữa. Hỏi có tất cả bao nhiêu quả cam?",
+          "options": [
+            "16 quả",
+            "14 quả",
+            "13 quả",
+            "12 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "11 + 3 = 14",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 2 quả táo, ăn mất 1 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "1 quả",
+            "3 quả",
+            "4 quả",
+            "2 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "2 - 1 = 1",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Ôn tập phép cộng, phép trừ trong phạm vi 10",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "5 + 3 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "correctAnswer": 1,
+          "explanation": "5 + 3 = 8",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "8 - 2 = ?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctAnswer": 1,
+          "explanation": "8 - 2 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Có 6 quả táo, thêm 3 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "8 quả",
+            "9 quả",
+            "10 quả",
+            "11 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "6 + 3 = 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Có 9 con gà, bay đi 4 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "4 con",
+            "5 con",
+            "6 con",
+            "7 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "9 - 4 = 5",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

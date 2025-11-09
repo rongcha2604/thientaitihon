@@ -1,0 +1,841 @@
+{
+  "items": [
+    {
+      "name": "Trạng Tí",
+      "category": "character",
+      "image": "🧒",
+      "price": 20,
+      "description": "Nhân vật Trạng Tí thông minh",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Thằng Bờm",
+      "category": "character",
+      "image": "👦",
+      "price": 20,
+      "description": "Nhân vật Thằng Bờm vui vẻ",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Chị Hằng",
+      "category": "character",
+      "image": "👧",
+      "price": 25,
+      "description": "Nhân vật Chị Hằng xinh đẹp",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Anh Cuội",
+      "category": "character",
+      "image": "👨",
+      "price": 25,
+      "description": "Nhân vật Anh Cuội trên cung trăng",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Bà Ngoại",
+      "category": "character",
+      "image": "👵",
+      "price": 30,
+      "description": "Bà Ngoại hiền từ",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Ông Ngoại",
+      "category": "character",
+      "image": "👴",
+      "price": 30,
+      "description": "Ông Ngoại thông thái",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Cô Giáo",
+      "category": "character",
+      "image": "👩‍🏫",
+      "price": 25,
+      "description": "Cô giáo dạy học",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Bác Sĩ",
+      "category": "character",
+      "image": "👨‍⚕️",
+      "price": 25,
+      "description": "Bác sĩ chữa bệnh",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Bạn Thân",
+      "category": "character",
+      "image": "👫",
+      "price": 22,
+      "description": "Đôi bạn thân",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Anh Trai",
+      "category": "character",
+      "image": "👨‍🦱",
+      "price": 23,
+      "description": "Anh trai lớn",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Chị Gái",
+      "category": "character",
+      "image": "👩",
+      "price": 23,
+      "description": "Chị gái xinh",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Em Bé",
+      "category": "character",
+      "image": "👶",
+      "price": 20,
+      "description": "Em bé dễ thương",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Bạn Học",
+      "category": "character",
+      "image": "🧑‍🎓",
+      "price": 22,
+      "description": "Bạn học cùng lớp",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Cô Bán Hàng",
+      "category": "character",
+      "image": "👩‍💼",
+      "price": 24,
+      "description": "Cô bán hàng rong",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Chú Công Nhân",
+      "category": "character",
+      "image": "👷",
+      "price": 24,
+      "description": "Chú công nhân chăm chỉ",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Bác Nông Dân",
+      "category": "character",
+      "image": "🧑‍🌾",
+      "price": 26,
+      "description": "Bác nông dân trồng lúa",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Cô Y Tá",
+      "category": "character",
+      "image": "👩‍⚕️",
+      "price": 25,
+      "description": "Cô y tá chăm sóc",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Chú Cảnh Sát",
+      "category": "character",
+      "image": "👮",
+      "price": 27,
+      "description": "Chú cảnh sát bảo vệ",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Bạn Nhỏ",
+      "category": "character",
+      "image": "🧒",
+      "price": 21,
+      "description": "Bạn nhỏ vui vẻ",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Thầy Giáo",
+      "category": "character",
+      "image": "👨‍🏫",
+      "price": 28,
+      "description": "Thầy giáo dạy học",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Nón Lá",
+      "category": "accessory",
+      "image": "👒",
+      "price": 15,
+      "description": "Nón lá Việt Nam",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Quạt Mo",
+      "category": "accessory",
+      "image": "🍃",
+      "price": 15,
+      "description": "Quạt mo cọ",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khăn Rằn",
+      "category": "accessory",
+      "image": "🧣",
+      "price": 20,
+      "description": "Khăn rằn Nam Bộ",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Áo Dài",
+      "category": "accessory",
+      "image": "👗",
+      "price": 25,
+      "description": "Áo dài truyền thống",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Nón Cối",
+      "category": "accessory",
+      "image": "🪖",
+      "price": 18,
+      "description": "Nón cối bảo vệ",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Kính Mát",
+      "category": "accessory",
+      "image": "🕶️",
+      "price": 16,
+      "description": "Kính mát thời trang",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Túi Xách",
+      "category": "accessory",
+      "image": "👜",
+      "price": 20,
+      "description": "Túi xách đẹp",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Vòng Cổ",
+      "category": "accessory",
+      "image": "📿",
+      "price": 17,
+      "description": "Vòng cổ trang sức",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Vòng Tay",
+      "category": "accessory",
+      "image": "📿",
+      "price": 16,
+      "description": "Vòng tay đẹp",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Cặp Sách",
+      "category": "accessory",
+      "image": "🎒",
+      "price": 22,
+      "description": "Cặp sách học sinh",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Mũ Lưỡi Trai",
+      "category": "accessory",
+      "image": "🧢",
+      "price": 15,
+      "description": "Mũ lưỡi trai",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khăn Quàng",
+      "category": "accessory",
+      "image": "🧣",
+      "price": 18,
+      "description": "Khăn quàng đỏ",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Giày Dép",
+      "category": "accessory",
+      "image": "👟",
+      "price": 19,
+      "description": "Giày dép đi học",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Ô Dù",
+      "category": "accessory",
+      "image": "☂️",
+      "price": 17,
+      "description": "Ô dù che mưa",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Balo",
+      "category": "accessory",
+      "image": "🎒",
+      "price": 21,
+      "description": "Balo đi học",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Mũ Bảo Hiểm",
+      "category": "accessory",
+      "image": "⛑️",
+      "price": 23,
+      "description": "Mũ bảo hiểm an toàn",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Găng Tay",
+      "category": "accessory",
+      "image": "🧤",
+      "price": 16,
+      "description": "Găng tay ấm",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Tất Chân",
+      "category": "accessory",
+      "image": "🧦",
+      "price": 14,
+      "description": "Tất chân ấm",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Kính Đeo Mắt",
+      "category": "accessory",
+      "image": "👓",
+      "price": 18,
+      "description": "Kính đeo mắt",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Đồng Hồ",
+      "category": "accessory",
+      "image": "⌚",
+      "price": 24,
+      "description": "Đồng hồ xem giờ",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Cửa Sổ",
+      "category": "frame",
+      "image": "🖼️",
+      "price": 10,
+      "description": "Khung cửa sổ đẹp",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Làng Quê",
+      "category": "frame",
+      "image": "🏞️",
+      "price": 15,
+      "description": "Khung cảnh làng quê",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Phố Cổ",
+      "category": "frame",
+      "image": "🏛️",
+      "price": 20,
+      "description": "Khung cảnh phố cổ",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Biển",
+      "category": "frame",
+      "image": "🌊",
+      "price": 18,
+      "description": "Khung cảnh biển",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Núi",
+      "category": "frame",
+      "image": "⛰️",
+      "price": 17,
+      "description": "Khung cảnh núi",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Đồng Lúa",
+      "category": "frame",
+      "image": "🌾",
+      "price": 16,
+      "description": "Khung cảnh đồng lúa",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Cầu",
+      "category": "frame",
+      "image": "🌉",
+      "price": 19,
+      "description": "Khung cảnh cầu",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Chùa",
+      "category": "frame",
+      "image": "⛩️",
+      "price": 20,
+      "description": "Khung cảnh chùa",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Nhà",
+      "category": "frame",
+      "image": "🏠",
+      "price": 12,
+      "description": "Khung cảnh nhà",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Trường Học",
+      "category": "frame",
+      "image": "🏫",
+      "price": 14,
+      "description": "Khung cảnh trường học",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Công Viên",
+      "category": "frame",
+      "image": "🌳",
+      "price": 13,
+      "description": "Khung cảnh công viên",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Sông",
+      "category": "frame",
+      "image": "🌊",
+      "price": 15,
+      "description": "Khung cảnh sông",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Rừng",
+      "category": "frame",
+      "image": "🌲",
+      "price": 16,
+      "description": "Khung cảnh rừng",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Thành Phố",
+      "category": "frame",
+      "image": "🏙️",
+      "price": 18,
+      "description": "Khung cảnh thành phố",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Chợ",
+      "category": "frame",
+      "image": "🏪",
+      "price": 17,
+      "description": "Khung cảnh chợ",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Vườn",
+      "category": "frame",
+      "image": "🌻",
+      "price": 14,
+      "description": "Khung cảnh vườn",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Hoàng Hôn",
+      "category": "frame",
+      "image": "🌅",
+      "price": 19,
+      "description": "Khung cảnh hoàng hôn",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Bình Minh",
+      "category": "frame",
+      "image": "🌄",
+      "price": 19,
+      "description": "Khung cảnh bình minh",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Trăng",
+      "category": "frame",
+      "image": "🌙",
+      "price": 20,
+      "description": "Khung cảnh trăng",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Khung Sao",
+      "category": "frame",
+      "image": "⭐",
+      "price": 18,
+      "description": "Khung cảnh sao",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Đèn Lồng",
+      "category": "sticker",
+      "image": "🏮",
+      "price": 5,
+      "description": "Đèn lồng đỏ",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Diều Giấy",
+      "category": "sticker",
+      "image": "🪁",
+      "price": 10,
+      "description": "Diều giấy bay",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Mặt Nạ",
+      "category": "sticker",
+      "image": "🎭",
+      "price": 10,
+      "description": "Mặt nạ vui",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Trống",
+      "category": "sticker",
+      "image": "🥁",
+      "price": 15,
+      "description": "Trống đánh",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Kèn",
+      "category": "sticker",
+      "image": "🎺",
+      "price": 12,
+      "description": "Kèn thổi",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Đàn",
+      "category": "sticker",
+      "image": "🎸",
+      "price": 14,
+      "description": "Đàn ghi-ta",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Bóng Bay",
+      "category": "sticker",
+      "image": "🎈",
+      "price": 6,
+      "description": "Bóng bay đẹp",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Xe Đạp",
+      "category": "sticker",
+      "image": "🚲",
+      "price": 13,
+      "description": "Xe đạp đi chơi",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Máy Bay",
+      "category": "sticker",
+      "image": "✈️",
+      "price": 15,
+      "description": "Máy bay bay",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Tàu Thủy",
+      "category": "sticker",
+      "image": "🚢",
+      "price": 14,
+      "description": "Tàu thủy",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Xe Hơi",
+      "category": "sticker",
+      "image": "🚗",
+      "price": 12,
+      "description": "Xe hơi đẹp",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Búp Bê",
+      "category": "sticker",
+      "image": "🎎",
+      "price": 11,
+      "description": "Búp bê dễ thương",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Gấu Bông",
+      "category": "sticker",
+      "image": "🧸",
+      "price": 13,
+      "description": "Gấu bông mềm",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Xe Lửa",
+      "category": "sticker",
+      "image": "🚂",
+      "price": 14,
+      "description": "Xe lửa chạy",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Bánh Chưng",
+      "category": "sticker",
+      "image": "🍙",
+      "price": 8,
+      "description": "Bánh chưng Tết",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Bánh Dày",
+      "category": "sticker",
+      "image": "🍘",
+      "price": 8,
+      "description": "Bánh dày",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Hoa Đào",
+      "category": "sticker",
+      "image": "🌸",
+      "price": 7,
+      "description": "Hoa đào Tết",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Hoa Mai",
+      "category": "sticker",
+      "image": "🌺",
+      "price": 7,
+      "description": "Hoa mai vàng",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Cờ Tổ Quốc",
+      "category": "sticker",
+      "image": "🇻🇳",
+      "price": 10,
+      "description": "Cờ Tổ quốc",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Sao Vàng",
+      "category": "sticker",
+      "image": "⭐",
+      "price": 9,
+      "description": "Sao vàng năm cánh",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Bánh Xe",
+      "category": "sticker",
+      "image": "🎡",
+      "price": 12,
+      "description": "Bánh xe quay",
+      "unlockType": "coins",
+      "downloadable": true
+    },
+    {
+      "name": "Con Trâu Vàng",
+      "category": "character",
+      "image": "🐃",
+      "price": 35,
+      "description": "Linh vật Trâu Vàng may mắn",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Rồng Con",
+      "category": "character",
+      "image": "🐉",
+      "price": 40,
+      "description": "Linh vật Rồng Con mạnh mẽ",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Gà Trống Lửa",
+      "category": "character",
+      "image": "🐓",
+      "price": 35,
+      "description": "Linh vật Gà Trống oai vệ",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Mèo Tam Thể",
+      "category": "character",
+      "image": "🐈",
+      "price": 30,
+      "description": "Linh vật Mèo Tam Thể xinh xắn",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Cá Chép Vàng",
+      "category": "character",
+      "image": "🎏",
+      "price": 35,
+      "description": "Linh vật Cá Chép Vàng may mắn",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Sao La",
+      "category": "character",
+      "image": "🦌",
+      "price": 45,
+      "description": "Linh vật Sao La quý hiếm",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Voi Con",
+      "category": "character",
+      "image": "🐘",
+      "price": 35,
+      "description": "Linh vật Voi Con đáng yêu",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Gấu Trúc Đỏ",
+      "category": "character",
+      "image": "🐼",
+      "price": 40,
+      "description": "Linh vật Gấu Trúc dễ thương",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Khỉ Vàng",
+      "category": "character",
+      "image": "🐒",
+      "price": 35,
+      "description": "Linh vật Khỉ Vàng tinh nghịch",
+      "unlockType": "coins",
+      "downloadable": false
+    },
+    {
+      "name": "Chim Lạc",
+      "category": "character",
+      "image": "🐦",
+      "price": 40,
+      "description": "Linh vật Chim Lạc huyền thoại",
+      "unlockType": "coins",
+      "downloadable": false
+    }
+  ],
+  "summary": {
+    "total": 92,
+    "byCategory": {
+      "character": 30,
+      "accessory": 20,
+      "frame": 20,
+      "sticker": 22
+    },
+    "priceRange": {
+      "character": "20-45 coins",
+      "accessory": "14-25 coins",
+      "frame": "10-20 coins",
+      "sticker": "5-15 coins"
+    },
+    "totalPrice": 1746,
+    "averagePrice": 18.98
+  }
+}
+

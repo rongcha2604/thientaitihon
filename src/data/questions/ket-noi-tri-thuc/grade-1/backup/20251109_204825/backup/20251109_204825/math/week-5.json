@@ -1,0 +1,184 @@
+{
+  "week": 5,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Mấy và mấy",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "5 gồm mấy và mấy?",
+          "options": [
+            "2 và 3",
+            "1 và 4",
+            "3 và 2",
+            "4 và 1"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 = 2 + 3, nên 5 gồm 2 và 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "6 gồm mấy và mấy?",
+          "options": [
+            "1 và 5",
+            "2 và 4",
+            "3 và 3",
+            "4 và 2"
+          ],
+          "correctAnswer": 2,
+          "explanation": "6 = 3 + 3, nên 6 gồm 3 và 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "7 gồm mấy và mấy?",
+          "options": [
+            "2 và 5",
+            "3 và 4",
+            "4 và 3",
+            "5 và 2"
+          ],
+          "correctAnswer": 1,
+          "explanation": "7 = 3 + 4, nên 7 gồm 3 và 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "8 gồm mấy và mấy?",
+          "options": [
+            "3 và 5",
+            "4 và 4",
+            "5 và 3",
+            "6 và 2"
+          ],
+          "correctAnswer": 1,
+          "explanation": "8 = 4 + 4, nên 8 gồm 4 và 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "9 gồm mấy và mấy?",
+          "options": [
+            "4 và 5",
+            "5 và 4",
+            "6 và 3",
+            "7 và 2"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 = 4 + 5, nên 9 gồm 4 và 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "10 gồm mấy và mấy?",
+          "options": [
+            "4 và 6",
+            "5 và 5",
+            "6 và 4",
+            "7 và 3"
+          ],
+          "correctAnswer": 1,
+          "explanation": "10 = 5 + 5, nên 10 gồm 5 và 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Có 5 quả táo, chia thành 2 nhóm. Nhóm 1 có 2 quả. Nhóm 2 có bao nhiêu quả?",
+          "options": [
+            "2 quả",
+            "4 quả",
+            "3 quả",
+            "5 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "5 = 2 + 3, nên nhóm 2 có 3 quả",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Có 7 cái kẹo, chia thành 2 nhóm. Nhóm 1 có 4 cái. Nhóm 2 có bao nhiêu cái?",
+          "options": [
+            "2 cái",
+            "4 cái",
+            "5 cái",
+            "3 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "7 = 4 + 3, nên nhóm 2 có 3 cái",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Có 8 con gà, chia thành 2 nhóm. Nhóm 1 có 5 con. Nhóm 2 có bao nhiêu con?",
+          "options": [
+            "3 con",
+            "2 con",
+            "4 con",
+            "5 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "8 = 5 + 3, nên nhóm 2 có 3 con",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Có 9 quả cam, chia thành 2 nhóm. Nhóm 1 có 6 quả. Nhóm 2 có bao nhiêu quả?",
+          "options": [
+            "2 quả",
+            "4 quả",
+            "5 quả",
+            "3 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "9 = 6 + 3, nên nhóm 2 có 3 quả",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Có 10 cái bánh, chia thành 2 nhóm. Nhóm 1 có 7 cái. Nhóm 2 có bao nhiêu cái?",
+          "options": [
+            "2 cái",
+            "4 cái",
+            "5 cái",
+            "3 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "10 = 7 + 3, nên nhóm 2 có 3 cái",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "6 gồm 1 và mấy?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correctAnswer": 1,
+          "explanation": "6 = 1 + 5, nên 6 gồm 1 và 5",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

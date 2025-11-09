@@ -1,0 +1,1 @@
+đây là phân bố chương trình toán lớp 1 , bộ sách kết nối tri thức, dựa vào phân bổ này, hãy giúp mình tạo bộ đề toán lớp 1, theo tuần tương tự như bộ dề văn lúc nãy, nhớ xáo trộn vị trí câu trả lời đúng, và kiểm tra, rà soát kỹ 3 lần câu hỏi và đáp án để bảo đảm tính chính xác 100% trước khi bàn giao nha

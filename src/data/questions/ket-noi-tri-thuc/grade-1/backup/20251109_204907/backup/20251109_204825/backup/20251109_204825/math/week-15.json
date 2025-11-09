@@ -1,0 +1,163 @@
+{
+  "week": 15,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Khối lập phương, khối hộp chữ nhật",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Hình nào sau đây là khối lập phương?",
+          "options": [
+            "Hình có 6 mặt vuông bằng nhau",
+            "Hình có 3 mặt",
+            "Hình tròn",
+            "Hình có 4 cạnh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Khối lập phương có 6 mặt vuông bằng nhau",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Hình nào sau đây là khối hộp chữ nhật?",
+          "options": [
+            "Hình có 6 mặt, các mặt là hình chữ nhật",
+            "Hình có 3 mặt",
+            "Hình tròn",
+            "Hình có 4 cạnh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Khối hộp chữ nhật có 6 mặt, các mặt là hình chữ nhật",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Khối lập phương có bao nhiêu mặt?",
+          "options": [
+            "4 mặt",
+            "5 mặt",
+            "6 mặt",
+            "7 mặt"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Khối lập phương có 6 mặt vuông bằng nhau",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Khối hộp chữ nhật có bao nhiêu mặt?",
+          "options": [
+            "4 mặt",
+            "5 mặt",
+            "6 mặt",
+            "7 mặt"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Khối hộp chữ nhật có 6 mặt",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở trên?",
+          "options": [
+            "Vật ở phía trên",
+            "Vật ở phía dưới",
+            "Vật ở giữa",
+            "Vật ở bên cạnh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vật ở phía trên là vật ở vị trí cao hơn",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Vị trí định hướng trong không gian",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở dưới?",
+          "options": [
+            "Vật ở phía trên",
+            "Vật ở phía dưới",
+            "Vật ở giữa",
+            "Vật ở bên cạnh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vật ở phía dưới là vật ở vị trí thấp hơn",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở trước?",
+          "options": [
+            "Vật ở phía trước",
+            "Vật ở phía sau",
+            "Vật ở giữa",
+            "Vật ở bên cạnh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vật ở phía trước là vật ở vị trí gần mình hơn",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở sau?",
+          "options": [
+            "Vật ở phía trước",
+            "Vật ở phía sau",
+            "Vật ở giữa",
+            "Vật ở bên cạnh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vật ở phía sau là vật ở vị trí xa mình hơn",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở bên trái?",
+          "options": [
+            "Vật ở phía trái",
+            "Vật ở phía phải",
+            "Vật ở giữa",
+            "Vật ở trên"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vật ở phía trái là vật ở bên trái của mình",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở bên phải?",
+          "options": [
+            "Vật ở phía trái",
+            "Vật ở phía phải",
+            "Vật ở giữa",
+            "Vật ở trên"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vật ở phía phải là vật ở bên phải của mình",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

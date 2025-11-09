@@ -1,0 +1,183 @@
+{
+  "week": 13,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 13",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Vần \"ong\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "4 chữ",
+            "3 chữ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vần 'ong' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Vần \"ông\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "3 chữ",
+            "2 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vần 'ông' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Vần \"ung\" có mấy chữ cái?",
+          "options": [
+            "3 chữ",
+            "2 chữ",
+            "1 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vần 'ung' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Vần \"iêc\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "4 chữ",
+            "3 chữ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vần 'iêc' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Vần \"ưng\" có mấy chữ cái?",
+          "options": [
+            "3 chữ",
+            "2 chữ",
+            "1 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vần 'ưng' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Vần \"iên\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "3 chữ",
+            "2 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vần 'iên' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Vần \"iêp\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'iêp' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Vần \"iêng\" có mấy chữ cái?",
+          "options": [
+            "4 chữ",
+            "2 chữ",
+            "3 chữ",
+            "1 chữ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vần 'iêng' có 4 chữ cái. Đáp án đúng là '4 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Vần \"iêm\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "3 chữ",
+            "2 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vần 'iêm' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Vần \"yên\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'yên' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào có vần \"iêt\"?",
+          "options": [
+            "bi",
+            "ba",
+            "be",
+            "biêt"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'biêt' có chứa vần 'iêt'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Từ nào có vần \"iêu\"?",
+          "options": [
+            "be",
+            "ba",
+            "biêu",
+            "bi"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ 'biêu' có chứa vần 'iêu'. Đây là đáp án đúng.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

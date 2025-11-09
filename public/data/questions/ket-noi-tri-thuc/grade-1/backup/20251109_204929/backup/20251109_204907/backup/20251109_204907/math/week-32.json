@@ -1,0 +1,253 @@
+{
+  "week": 32,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Luyện tập chung",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Có 45 quả táo, thêm 23 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "68 quả",
+            "67 quả",
+            "69 quả",
+            "70 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "45 + 23 = 68",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 23, 32, 45, 54?",
+          "options": [
+            "23",
+            "54",
+            "45",
+            "32"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 54 là số lớn nhất trong các số 23, 32, 45, 54",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Có 78 con gà, bay đi 34 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "44 con",
+            "43 con",
+            "45 con",
+            "46 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "78 - 34 = 44",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ nhất trong các số: 67, 76, 89, 98?",
+          "options": [
+            "89",
+            "76",
+            "67",
+            "98"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 67 là số nhỏ nhất trong các số 67, 76, 89, 98",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo độ dài: 1 mét (m) bằng bao nhiêu centimet (cm)?",
+          "options": [
+            "10 cm",
+            "50 cm",
+            "1000 cm",
+            "100 cm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1 mét (m) = 100 centimet (cm)",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 5 cái kẹo, thêm 10 cái nữa. Hỏi có tất cả bao nhiêu cái kẹo?",
+          "options": [
+            "15 cái",
+            "12 cái",
+            "13 cái",
+            "17 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 + 10 = 15",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "Có 6 quả cam, thêm 5 quả nữa. Hỏi có tất cả bao nhiêu quả cam?",
+          "options": [
+            "10 quả",
+            "14 quả",
+            "13 quả",
+            "11 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "6 + 5 = 11",
+          "imageUrl": null,
+          "id": "q6"
+        },
+        {
+          "question": "Có 15 con gà, bay đi 8 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "6 con",
+            "7 con",
+            "9 con",
+            "5 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "15 - 8 = 7",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "Có 5 quả cam, thêm 3 quả nữa. Hỏi có tất cả bao nhiêu quả cam?",
+          "options": [
+            "5 quả",
+            "9 quả",
+            "11 quả",
+            "8 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "5 + 3 = 8",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "14 + 4 = ?",
+          "options": [
+            "16",
+            "18",
+            "19",
+            "17"
+          ],
+          "correctAnswer": 1,
+          "explanation": "14 + 4 = 18",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "Có 10 con gà, thêm 10 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "22 con",
+            "21 con",
+            "20 con",
+            "19 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "10 + 10 = 20",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 3 con chim, bay đi 1 con. Hỏi còn lại bao nhiêu con chim?",
+          "options": [
+            "3 con",
+            "1 con",
+            "2 con",
+            "4 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "3 - 1 = 2",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Ôn tập các số và phép tính trong phạm vi 10",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "5 + 3 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "correctAnswer": 1,
+          "explanation": "5 + 3 = 8",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "8 - 2 = ?",
+          "options": [
+            "5",
+            "7",
+            "8",
+            "6"
+          ],
+          "correctAnswer": 3,
+          "explanation": "8 - 2 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Có 6 quả táo, thêm 3 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "8 quả",
+            "9 quả",
+            "10 quả",
+            "11 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "6 + 3 = 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Có 9 con gà, bay đi 4 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "4 con",
+            "6 con",
+            "7 con",
+            "5 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "9 - 4 = 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 5, 9, 3, 7?",
+          "options": [
+            "5",
+            "3",
+            "7",
+            "9"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 9 là số lớn nhất trong các số 5, 9, 3, 7",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "week": 28,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Phép trừ số có hai chữ số cho số có hai chữ số",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "54 - 32 = ?",
+          "options": [
+            "23",
+            "21",
+            "22",
+            "24"
+          ],
+          "correctAnswer": 2,
+          "explanation": "54 - 32 = 22",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "65 - 43 = ?",
+          "options": [
+            "22",
+            "21",
+            "23",
+            "24"
+          ],
+          "correctAnswer": 0,
+          "explanation": "65 - 43 = 22",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "76 - 54 = ?",
+          "options": [
+            "21",
+            "23",
+            "22",
+            "24"
+          ],
+          "correctAnswer": 2,
+          "explanation": "76 - 54 = 22",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "87 - 65 = ?",
+          "options": [
+            "21",
+            "22",
+            "24",
+            "23"
+          ],
+          "correctAnswer": 1,
+          "explanation": "87 - 65 = 22",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 8 con chim, thêm 10 con nữa. Hỏi có tất cả bao nhiêu con chim?",
+          "options": [
+            "21 con",
+            "16 con",
+            "17 con",
+            "18 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "8 + 10 = 18",
+          "imageUrl": null,
+          "id": "q5"
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "98 - 76 = ?",
+          "options": [
+            "21",
+            "22",
+            "23",
+            "24"
+          ],
+          "correctAnswer": 1,
+          "explanation": "98 - 76 = 22",
+          "imageUrl": null
+        },
+        {
+          "question": "5 + 11 = ?",
+          "options": [
+            "16",
+            "18",
+            "13",
+            "15"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 + 11 = 16",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "Có 18 quả táo, ăn mất 9 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "12 quả",
+            "7 quả",
+            "8 quả",
+            "9 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "18 - 9 = 9",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "Có 15 con gà, thêm 1 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "16 con",
+            "14 con",
+            "19 con",
+            "18 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "15 + 1 = 16",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "6 - 1 = ?",
+          "options": [
+            "7",
+            "4",
+            "3",
+            "5"
+          ],
+          "correctAnswer": 3,
+          "explanation": "6 - 1 = 5",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "Có 13 con gà, thêm 1 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "15 con",
+            "14 con",
+            "13 con",
+            "11 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "13 + 1 = 14",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 14 con chim, bay đi 11 con. Hỏi còn lại bao nhiêu con chim?",
+          "options": [
+            "6 con",
+            "1 con",
+            "3 con",
+            "2 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "14 - 11 = 3",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Luyện tập chung",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Có 45 quả táo, thêm 23 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "68 quả",
+            "67 quả",
+            "69 quả",
+            "70 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "45 + 23 = 68",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Có 78 con gà, bay đi 34 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "43 con",
+            "44 con",
+            "45 con",
+            "46 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "78 - 34 = 44",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "56 + 23 = ?",
+          "options": [
+            "78",
+            "80",
+            "79",
+            "81"
+          ],
+          "correctAnswer": 2,
+          "explanation": "56 + 23 = 79",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "89 - 45 = ?",
+          "options": [
+            "43",
+            "45",
+            "46",
+            "44"
+          ],
+          "correctAnswer": 3,
+          "explanation": "89 - 45 = 44",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Có 67 cái kẹo, mẹ cho thêm 22 cái nữa. Hỏi có tất cả bao nhiêu cái kẹo?",
+          "options": [
+            "89 cái",
+            "88 cái",
+            "90 cái",
+            "91 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "67 + 22 = 89",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

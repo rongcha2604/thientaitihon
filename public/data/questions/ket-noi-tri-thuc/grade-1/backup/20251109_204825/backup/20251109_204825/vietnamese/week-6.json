@@ -1,0 +1,295 @@
+{
+  "week": 6,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 6",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Chữ \"ph\" và chữ \"f\" khác nhau như thế nào?",
+          "options": [
+            "\"ph\" là 2 chữ cái, \"f\" là 1 chữ cái",
+            "\"ph\" là 1 chữ cái, \"f\" là 2 chữ cái",
+            "\"ph\" có dấu, \"f\" không có dấu",
+            "\"ph\" đọc khác \"f\""
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là '\"ph\" là 2 chữ cái, \"f\" là 1 chữ cái'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Chữ \"qu\" luôn đi với chữ cái nào?",
+          "options": [
+            "a",
+            "u",
+            "i",
+            "e"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đáp án đúng là 'u'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Chữ \"v\" và chữ \"b\" giống nhau ở điểm nào?",
+          "options": [
+            "Cùng có nét cong",
+            "Cùng có nét thẳng",
+            "Cùng có dấu chấm",
+            "Cùng có hình dạng tương tự"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Đáp án đúng là 'Cùng có hình dạng tương tự'. Đây là điểm giống nhau giữa chữ 'v' và chữ 'b'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ \"x\" có đặc điểm gì?",
+          "options": [
+            "Có 2 nét giao nhau",
+            "Có nét cong",
+            "Có nét thẳng",
+            "Có dấu chấm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'Có 2 nét giao nhau'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Chữ \"y\" và chữ \"i\" giống nhau ở điểm nào?",
+          "options": [
+            "Cùng đọc là \"i\"",
+            "Cùng có dấu chấm",
+            "Cùng có nét thẳng",
+            "Cùng có nét cong"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'Cùng đọc là \"i\"'. Đây là điểm giống nhau giữa chữ 'y' và chữ 'i'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Chữ \"ph\" trong tiếng Việt đọc là gì?",
+          "options": [
+            "phờ",
+            "pha",
+            "phe",
+            "phi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chữ 'ph' trong tiếng Việt đọc là 'phờ'. Đây là cách đọc chuẩn của chữ cái này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Chữ \"qu\" trong tiếng Việt đọc là gì?",
+          "options": [
+            "quờ",
+            "qua",
+            "que",
+            "qui"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chữ 'qu' trong tiếng Việt đọc là 'quờ'. Đây là cách đọc chuẩn của chữ cái này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Chữ \"v\" trong tiếng Việt đọc là gì?",
+          "options": [
+            "vờ",
+            "va",
+            "ve",
+            "vi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chữ 'v' trong tiếng Việt đọc là 'vờ'. Đây là cách đọc chuẩn của chữ cái này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ \"x\" trong tiếng Việt đọc là gì?",
+          "options": [
+            "xờ",
+            "xa",
+            "xe",
+            "xi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chữ 'x' trong tiếng Việt đọc là 'xờ'. Đây là cách đọc chuẩn của chữ cái này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Chữ \"y\" đọc là gì?",
+          "options": [
+            "i",
+            "y",
+            "ư",
+            "u"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đáp án đúng là 'y'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"ph\"?",
+          "options": [
+            "pha",
+            "ba",
+            "ma",
+            "na"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'pha' có chứa chữ 'ph'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"qu\"?",
+          "options": [
+            "qua",
+            "ba",
+            "ma",
+            "na"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'qua' có chứa chữ 'qu'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q13",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"v\"?",
+          "options": [
+            "va",
+            "ba",
+            "ma",
+            "na"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'va' có chứa chữ 'v'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q14",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"x\"?",
+          "options": [
+            "xa",
+            "ba",
+            "ma",
+            "na"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'xa' có chứa chữ 'x'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q15",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"y\"?",
+          "options": [
+            "y",
+            "ba",
+            "ma",
+            "na"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'y' có chứa chữ 'y'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q16",
+          "type": "multiple-choice",
+          "question": "Chữ \"ph\" được ghép từ những chữ nào?",
+          "options": [
+            "p + h",
+            "p + a",
+            "p + e",
+            "p + i"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'p + h'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q17",
+          "type": "multiple-choice",
+          "question": "Chữ \"qu\" được ghép từ những chữ nào?",
+          "options": [
+            "q + u",
+            "q + a",
+            "q + e",
+            "q + i"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'q + u'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q18",
+          "type": "multiple-choice",
+          "question": "Chữ \"v\" và chữ \"b\" khác nhau ở điểm nào?",
+          "options": [
+            "Chữ \"v\" có nét nhọn, chữ \"b\" có nét tròn",
+            "Chữ \"v\" có dấu sắc, chữ \"b\" có dấu huyền",
+            "Chữ \"v\" có 1 nét, chữ \"b\" có 2 nét",
+            "Chữ \"v\" đọc khác chữ \"b\""
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'Chữ \"v\" có nét nhọn, chữ \"b\" có nét tròn'. Đây là điểm khác biệt giữa chữ 'v' và chữ 'b'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q19",
+          "type": "multiple-choice",
+          "question": "Chữ \"x\" có hình dạng như thế nào?",
+          "options": [
+            "Hai nét giao nhau",
+            "Nét cong tròn",
+            "Nét thẳng đứng",
+            "Nét ngang"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'Hai nét giao nhau'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q20",
+          "type": "multiple-choice",
+          "question": "Chữ \"y\" thường xuất hiện ở đâu trong từ?",
+          "options": [
+            "Cuối từ",
+            "Đầu từ",
+            "Giữa từ",
+            "Bất kỳ đâu"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'Cuối từ'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

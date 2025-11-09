@@ -1,0 +1,183 @@
+{
+  "week": 1,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 1",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Chữ cái nào sau đây là chữ \"a\"?",
+          "options": [
+            "b",
+            "e",
+            "a",
+            "ê"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ 'a' là chữ cái trong bảng chữ cái tiếng Việt. Đáp án đúng là 'a'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Chữ cái nào sau đây là chữ \"e\"?",
+          "options": [
+            "b",
+            "e",
+            "a",
+            "ê"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ 'e' là chữ cái trong bảng chữ cái tiếng Việt. Đáp án đúng là 'e'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Chữ cái nào sau đây là chữ \"b\"?",
+          "options": [
+            "a",
+            "ê",
+            "e",
+            "b"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Chữ 'b' là chữ cái trong bảng chữ cái tiếng Việt. Đáp án đúng là 'b'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ cái \"b\" trong tiếng Việt đọc là gì?",
+          "options": [
+            "bê",
+            "bờ",
+            "bố",
+            "ba"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ 'b' trong tiếng Việt đọc là 'bờ'. Đây là cách đọc chuẩn của chữ cái này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Chữ cái nào sau đây là chữ \"ê\"?",
+          "options": [
+            "e",
+            "a",
+            "b",
+            "ê"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Chữ 'ê' là chữ cái trong bảng chữ cái tiếng Việt. Đáp án đúng là 'ê'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Chữ cái \"ê\" trong tiếng Việt đọc là gì?",
+          "options": [
+            "ê",
+            "e",
+            "a",
+            "o"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chữ 'ê' trong tiếng Việt đọc là 'ê'. Đây là cách đọc chuẩn của chữ cái này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Chữ cái \"a\" trong tiếng Việt đọc là gì?",
+          "options": [
+            "â",
+            "ă",
+            "a",
+            "o"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ 'a' trong tiếng Việt đọc là 'a'. Đây là cách đọc chuẩn của chữ cái này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Chữ cái \"e\" trong tiếng Việt đọc là gì?",
+          "options": [
+            "o",
+            "e",
+            "a",
+            "ê"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ 'e' trong tiếng Việt đọc là 'e'. Đây là cách đọc chuẩn của chữ cái này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ \"e\" và chữ \"ê\" khác nhau ở điểm nào?",
+          "options": [
+            "Chữ \"e\" đọc khác chữ \"ê\"",
+            "Chữ \"e\" có 1 nét, chữ \"ê\" có 2 nét",
+            "Chữ \"e\" không có dấu, chữ \"ê\" có dấu mũ",
+            "Chữ \"e\" có dấu sắc, chữ \"ê\" có dấu huyền"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Đáp án đúng là 'Chữ \"e\" không có dấu, chữ \"ê\" có dấu mũ'. Đây là điểm khác biệt giữa chữ 'e' và chữ 'ê'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Chữ \"a\" và chữ \"b\" khác nhau ở điểm nào?",
+          "options": [
+            "Chữ \"a\" đọc khác chữ \"b\"",
+            "Chữ \"a\" có nét cong, chữ \"b\" có nét thẳng",
+            "Chữ \"a\" có dấu, chữ \"b\" không có dấu",
+            "Chữ \"a\" là nguyên âm, chữ \"b\" là phụ âm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Đáp án đúng là 'Chữ \"a\" là nguyên âm, chữ \"b\" là phụ âm'. Đây là điểm khác biệt giữa chữ 'a' và chữ 'b'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"a\"?",
+          "options": [
+            "ba",
+            "be",
+            "bi",
+            "bo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'ba' có chứa chữ 'a'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"b\"?",
+          "options": [
+            "ba",
+            "ma",
+            "na",
+            "ta"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'ba' có chứa chữ 'b'. Đây là đáp án đúng.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

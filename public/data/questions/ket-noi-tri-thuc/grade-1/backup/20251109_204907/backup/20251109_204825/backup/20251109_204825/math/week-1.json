@@ -1,0 +1,43 @@
+{
+  "week": 1,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Số đếm",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Có 3 quả táo, thêm 2 quả táo nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "5 quả táo",
+            "4 quả táo",
+            "6 quả táo",
+            "7 quả táo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "3 + 2 = 5",
+          "imageUrl": "/data/questions/images/math/math-question-ket-noi-tri-thuc-grade1-week1-q1.png"
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Có 5 con chim, bay đi 2 con. Hỏi còn lại bao nhiêu con chim?",
+          "options": [
+            "2 con chim",
+            "3 con chim",
+            "4 con chim",
+            "5 con chim"
+          ],
+          "correctAnswer": 1,
+          "explanation": "5 - 2 = 3",
+          "imageUrl": "/data/questions/images/math/math-question-ket-noi-tri-thuc-grade1-week1-q2.png"
+        }
+      ]
+    }
+  ]
+}

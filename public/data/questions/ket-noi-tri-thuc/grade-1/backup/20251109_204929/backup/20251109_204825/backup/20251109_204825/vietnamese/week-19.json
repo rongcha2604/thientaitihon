@@ -1,0 +1,295 @@
+{
+  "week": 19,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 19",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tôi là học sinh lớp 1\", em học sinh trong bài đang học ở đâu?",
+          "options": [
+            "Lớp mẫu giáo",
+            "Lớp 1",
+            "Lớp 2",
+            "Lớp 3"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong bài 'Tôi là học sinh lớp 1', đáp án đúng là 'Lớp 1'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ đồ dùng học tập?",
+          "options": [
+            "bàn ghế",
+            "sách vở",
+            "áo quần",
+            "giày dép"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'sách vở' chỉ đồ dùng học tập. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Đôi tai xấu xí\", nhân vật chính cảm thấy như thế nào về đôi tai của mình?",
+          "options": [
+            "tự hào",
+            "xấu xí",
+            "đẹp",
+            "bình thường"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong bài 'Đôi tai xấu xí', đáp án đúng là 'xấu xí'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Từ \"bạn bè\" có nghĩa là gì?",
+          "options": [
+            "những người bạn",
+            "đồ chơi",
+            "sách vở",
+            "thức ăn"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'bạn bè' có nghĩa là 'những người bạn'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Bạn của gió\", gió là bạn của ai?",
+          "options": [
+            "cây cối",
+            "mặt trời",
+            "mặt trăng",
+            "con người"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong bài 'Bạn của gió', đáp án đúng là 'cây cối'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây là câu giới thiệu về bản thân?",
+          "options": [
+            "Tôi là học sinh lớp 1",
+            "Tôi đi học",
+            "Tôi chơi đùa",
+            "Tôi ăn cơm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'Tôi là học sinh lớp 1'. Đây là câu giới thiệu về bản thân.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "học sinh",
+            "học sing",
+            "học xinh",
+            "học xinh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'học sinh' được viết đúng chính tả. Đây là cách viết chuẩn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong từ \"bạn bè\", có bao nhiêu tiếng?",
+          "options": [
+            "1 tiếng",
+            "2 tiếng",
+            "3 tiếng",
+            "4 tiếng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'bạn bè' có 2 tiếng: 'bạn' và 'bè'. Đáp án đúng là '2 tiếng'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ tình bạn?",
+          "options": [
+            "tất cả các đáp án trên",
+            "yêu thương",
+            "chia sẻ",
+            "giúp đỡ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ tình bạn. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Trong bài học, em học sinh cần làm gì để trở thành học sinh tốt?",
+          "options": [
+            "chăm học",
+            "tất cả các đáp án trên",
+            "vâng lời",
+            "giúp đỡ bạn"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại câu hỏi và suy nghĩ về các hành động cần thiết.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ \"xấu xí\" có nghĩa là gì?",
+          "options": [
+            "đẹp",
+            "không đẹp",
+            "bình thường",
+            "tuyệt vời"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'xấu xí' có nghĩa là 'không đẹp'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây viết đúng dấu câu?",
+          "options": [
+            "Tôi là học sinh lớp 1.",
+            "Tôi là học sinh lớp 1",
+            "Tôi là học sinh lớp 1?",
+            "Tôi là học sinh lớp 1!"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'Tôi là học sinh lớp 1.'. Câu này có dấu câu phù hợp với nội dung (dấu chấm cho câu kể, dấu hỏi cho câu hỏi, dấu chấm than cho câu cảm).",
+          "imageUrl": null
+        },
+        {
+          "id": "q13",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Bạn của gió\", gió thường làm gì?",
+          "options": [
+            "thổi",
+            "mưa",
+            "nắng",
+            "sấm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong bài 'Bạn của gió', đáp án đúng là 'thổi'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q14",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ hoạt động ở trường học?",
+          "options": [
+            "học bài",
+            "chơi thể thao",
+            "ăn trưa",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ hoạt động ở trường học. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q15",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tôi là học sinh lớp 1\", em học sinh cảm thấy như thế nào?",
+          "options": [
+            "buồn",
+            "vui",
+            "sợ",
+            "tức giận"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong bài 'Tôi là học sinh lớp 1', đáp án đúng là 'vui'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q16",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ tên gọi của học sinh?",
+          "options": [
+            "bạn",
+            "em",
+            "con",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ tên gọi của học sinh. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q17",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Đôi tai xấu xí\", nhân vật học được điều gì?",
+          "options": [
+            "mọi người đều có điểm riêng",
+            "tất cả các đáp án trên",
+            "không nên chê người khác",
+            "yêu thương bản thân"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong bài 'Đôi tai xấu xí', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q18",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ đồ vật trong lớp học?",
+          "options": [
+            "bảng",
+            "phấn",
+            "tất cả các đáp án trên",
+            "bàn ghế"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ đồ vật trong lớp học. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q19",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây thể hiện tình bạn?",
+          "options": [
+            "Chúng em chơi cùng nhau",
+            "Chúng em giúp đỡ nhau",
+            "tất cả các đáp án trên",
+            "Chúng em yêu thương nhau"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Đáp án đúng là 'tất cả các đáp án trên'. Câu này thể hiện tình bạn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q20",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Bạn của gió\", gió giúp ích gì cho cây cối?",
+          "options": [
+            "tất cả các đáp án trên",
+            "làm mát",
+            "phát tán hạt",
+            "làm lay động lá"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong bài 'Bạn của gió', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

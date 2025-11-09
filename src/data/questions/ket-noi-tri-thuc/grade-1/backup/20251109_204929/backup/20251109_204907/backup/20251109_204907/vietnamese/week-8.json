@@ -1,0 +1,183 @@
+{
+  "week": 8,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 8",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Vần \"om\" và vần \"ôm\" khác nhau như thế nào?",
+          "options": [
+            "\"om\" không có dấu, \"ôm\" có dấu mũ",
+            "\"om\" có dấu sắc, \"ôm\" có dấu huyền",
+            "\"om\" có 2 chữ, \"ôm\" có 3 chữ",
+            "\"om\" đọc khác \"ôm\""
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là '\"om\" không có dấu, \"ôm\" có dấu mũ'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào có vần \"ai\"?",
+          "options": [
+            "ma",
+            "ba",
+            "bai",
+            "ta"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ 'bai' có chứa vần 'ai'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Vần \"ay\" và vần \"ây\" khác nhau ở đâu?",
+          "options": [
+            "\"ay\" có dấu sắc, \"ây\" có dấu huyền",
+            "\"ay\" có chữ \"a\", \"ây\" có chữ \"â\"",
+            "\"ay\" có 2 chữ, \"ây\" có 3 chữ",
+            "\"ay\" đọc khác \"ây\""
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đáp án đúng là '\"ay\" có chữ \"a\", \"ây\" có chữ \"â\"'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Từ nào có vần \"oi\"?",
+          "options": [
+            "be",
+            "ba",
+            "boi",
+            "bi"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ 'boi' có chứa vần 'oi'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Vần \"ôm\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "4 chữ",
+            "3 chữ",
+            "2 chữ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vần 'ôm' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Vần \"om\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "3 chữ",
+            "2 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'om' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Vần \"ơm\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "4 chữ",
+            "3 chữ",
+            "2 chữ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vần 'ơm' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Vần \"em\" có mấy chữ cái?",
+          "options": [
+            "2 chữ",
+            "1 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vần 'em' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Vần \"im\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "4 chữ",
+            "3 chữ",
+            "2 chữ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vần 'im' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Vần \"êm\" có mấy chữ cái?",
+          "options": [
+            "2 chữ",
+            "1 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vần 'êm' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Vần \"um\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vần 'um' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Vần \"ai\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vần 'ai' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

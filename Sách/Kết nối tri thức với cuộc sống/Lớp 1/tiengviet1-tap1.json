@@ -1,0 +1,3888 @@
+{
+  "bookInfo": {
+    "title": "Tiếng Việt lớp 1 - Tập 1",
+    "series": "Kết nối tri thức với cuộc sống",
+    "totalWeeks": 17,
+    "totalTests": 17,
+    "questionsPerTest": 20,
+    "estimatedTimePerTest": "15-20 phút"
+  },
+  "tests": [
+    {
+      "id": 1,
+      "week": 1,
+      "title": "TUẦN 1",
+      "description": "Chữ cái: A, B, E, Ê",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Chữ cái nào sau đây là chữ \"a\"?",
+          "options": {
+            "A": "b",
+            "B": "e",
+            "C": "a",
+            "D": "ê"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 2,
+          "question": "Chữ cái nào sau đây là chữ \"b\"?",
+          "options": {
+            "A": "a",
+            "B": "b",
+            "C": "e",
+            "D": "ê"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "Chữ cái nào sau đây là chữ \"e\"?",
+          "options": {
+            "A": "a",
+            "B": "b",
+            "C": "e",
+            "D": "ê"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "Chữ cái nào sau đây là chữ \"ê\"?",
+          "options": {
+            "A": "e",
+            "B": "a",
+            "C": "ê",
+            "D": "b"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 5,
+          "question": "Chữ cái \"a\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "a",
+            "B": "ă",
+            "C": "â",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "Chữ cái \"b\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "bê",
+            "B": "bờ",
+            "C": "ba",
+            "D": "bố"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Chữ cái \"e\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "e",
+            "B": "ê",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 8,
+          "question": "Chữ cái \"ê\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "e",
+            "B": "ê",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Chữ \"a\" và chữ \"b\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "Chữ \"a\" có nét cong, chữ \"b\" có nét thẳng",
+            "B": "Chữ \"a\" là nguyên âm, chữ \"b\" là phụ âm",
+            "C": "Chữ \"a\" có dấu, chữ \"b\" không có dấu",
+            "D": "Chữ \"a\" đọc khác chữ \"b\""
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "Chữ \"e\" và chữ \"ê\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "Chữ \"e\" không có dấu, chữ \"ê\" có dấu mũ",
+            "B": "Chữ \"e\" có dấu sắc, chữ \"ê\" có dấu huyền",
+            "C": "Chữ \"e\" có 1 nét, chữ \"ê\" có 2 nét",
+            "D": "Chữ \"e\" đọc khác chữ \"ê\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Từ nào có chữ \"a\"?",
+          "options": {
+            "A": "ba",
+            "B": "be",
+            "C": "bi",
+            "D": "bo"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Từ nào có chữ \"b\"?",
+          "options": {
+            "A": "ba",
+            "B": "ma",
+            "C": "na",
+            "D": "ta"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có chữ \"e\"?",
+          "options": {
+            "A": "be",
+            "B": "ba",
+            "C": "bi",
+            "D": "bo"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có chữ \"ê\"?",
+          "options": {
+            "A": "bê",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Chữ cái \"A\" viết hoa và \"a\" viết thường giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng là một chữ cái",
+            "B": "Cùng có nét cong",
+            "C": "Cùng có nét thẳng",
+            "D": "Cùng đọc là \"a\""
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 16,
+          "question": "Chữ cái \"B\" viết hoa và \"b\" viết thường giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng là một chữ cái",
+            "B": "Cùng có nét cong",
+            "C": "Cùng có nét thẳng",
+            "D": "Cùng đọc là \"bờ\""
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 17,
+          "question": "Chữ cái nào có nét cong tròn?",
+          "options": {
+            "A": "a",
+            "B": "b",
+            "C": "e",
+            "D": "ê"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Chữ cái nào có nét thẳng đứng?",
+          "options": {
+            "A": "a",
+            "B": "b",
+            "C": "e",
+            "D": "ê"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 19,
+          "question": "Chữ \"a\" thường xuất hiện ở đâu trong từ?",
+          "options": {
+            "A": "Đầu từ",
+            "B": "Giữa từ",
+            "C": "Cuối từ",
+            "D": "Có thể ở bất kỳ đâu"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 20,
+          "question": "Chữ \"ê\" có đặc điểm gì?",
+          "options": {
+            "A": "Có dấu mũ trên đầu",
+            "B": "Có dấu sắc",
+            "C": "Có dấu huyền",
+            "D": "Có dấu nặng"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "week": 2,
+      "title": "TUẦN 2",
+      "description": "Chữ cái: O, Ô, D, Đ, Ơ",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Chữ cái nào có dấu mũ trên đầu?",
+          "options": {
+            "A": "o",
+            "B": "ô",
+            "C": "d",
+            "D": "đ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Chữ cái nào có dấu gạch ngang?",
+          "options": {
+            "A": "d",
+            "B": "đ",
+            "C": "o",
+            "D": "ô"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "Chữ cái nào có dấu móc ở dưới?",
+          "options": {
+            "A": "o",
+            "B": "ô",
+            "C": "ơ",
+            "D": "d"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "Chữ \"đ\" và chữ \"d\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "Chữ \"đ\" có dấu gạch ngang",
+            "B": "Chữ \"đ\" có dấu mũ",
+            "C": "Chữ \"đ\" có dấu nặng",
+            "D": "Chữ \"đ\" có dấu sắc"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "Chữ \"o\" và chữ \"ô\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "Chữ \"o\" không có dấu, chữ \"ô\" có dấu mũ",
+            "B": "Chữ \"o\" có dấu sắc, chữ \"ô\" có dấu huyền",
+            "C": "Chữ \"o\" có 1 nét, chữ \"ô\" có 2 nét",
+            "D": "Chữ \"o\" đọc khác chữ \"ô\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "Chữ \"o\" và chữ \"ơ\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "Chữ \"o\" không có dấu, chữ \"ơ\" có dấu móc",
+            "B": "Chữ \"o\" có dấu mũ, chữ \"ơ\" có dấu móc",
+            "C": "Chữ \"o\" có 1 nét, chữ \"ơ\" có 2 nét",
+            "D": "Chữ \"o\" đọc khác chữ \"ơ\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 7,
+          "question": "Chữ cái \"o\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "o",
+            "B": "ô",
+            "C": "ơ",
+            "D": "a"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 8,
+          "question": "Chữ cái \"ô\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "o",
+            "B": "ô",
+            "C": "ơ",
+            "D": "a"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Chữ cái \"ơ\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "o",
+            "B": "ô",
+            "C": "ơ",
+            "D": "a"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 10,
+          "question": "Chữ cái \"d\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "dờ",
+            "B": "đờ",
+            "C": "o",
+            "D": "a"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Chữ cái \"đ\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "dờ",
+            "B": "đờ",
+            "C": "o",
+            "D": "a"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": "Từ nào có chữ \"o\"?",
+          "options": {
+            "A": "bo",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có chữ \"ô\"?",
+          "options": {
+            "A": "bô",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có chữ \"ơ\"?",
+          "options": {
+            "A": "bơ",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có chữ \"d\"?",
+          "options": {
+            "A": "da",
+            "B": "ba",
+            "C": "ma",
+            "D": "na"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Từ nào có chữ \"đ\"?",
+          "options": {
+            "A": "đa",
+            "B": "ba",
+            "C": "ma",
+            "D": "na"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Chữ cái nào có hình tròn?",
+          "options": {
+            "A": "o",
+            "B": "b",
+            "C": "d",
+            "D": "đ"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Chữ cái nào có nét thẳng đứng?",
+          "options": {
+            "A": "o",
+            "B": "d",
+            "C": "ô",
+            "D": "ơ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 19,
+          "question": "Chữ \"d\" và chữ \"đ\" cùng đọc gần giống nhau nhưng khác nhau ở đâu?",
+          "options": {
+            "A": "Chữ \"đ\" có dấu gạch ngang",
+            "B": "Chữ \"đ\" có dấu mũ",
+            "C": "Chữ \"đ\" có dấu sắc",
+            "D": "Chữ \"đ\" có dấu huyền"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Chữ \"o\", \"ô\", \"ơ\" giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng có hình tròn",
+            "B": "Cùng có nét cong",
+            "C": "Cùng là nguyên âm",
+            "D": "Cùng đọc là \"o\""
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "week": 3,
+      "title": "TUẦN 3",
+      "description": "Chữ cái: I, K, H, L, U, Ư, Ch, Kh",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Chữ \"i\" và chữ \"I\" giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng là một chữ cái",
+            "B": "Cùng có dấu chấm",
+            "C": "Cùng có dấu móc",
+            "D": "Cùng đọc là \"i\""
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 2,
+          "question": "Chữ \"u\" và chữ \"ư\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "Chữ \"u\" không có dấu, chữ \"ư\" có dấu móc",
+            "B": "Chữ \"u\" có dấu sắc, chữ \"ư\" có dấu huyền",
+            "C": "Chữ \"u\" có 1 nét, chữ \"ư\" có 2 nét",
+            "D": "Chữ \"u\" đọc khác chữ \"ư\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Chữ \"k\" và chữ \"h\" khác nhau như thế nào?",
+          "options": {
+            "A": "Chữ \"k\" có nét thẳng, chữ \"h\" có nét cong",
+            "B": "Chữ \"k\" có nét xiên, chữ \"h\" có nét thẳng",
+            "C": "Chữ \"k\" đọc là \"ca\", chữ \"h\" đọc là \"ha\"",
+            "D": "Chữ \"k\" và chữ \"h\" khác nhau về hình dạng"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 4,
+          "question": "Chữ \"h\" và chữ \"l\" khác nhau như thế nào?",
+          "options": {
+            "A": "Chữ \"h\" có nét cong, chữ \"l\" có nét thẳng",
+            "B": "Chữ \"h\" có 2 nét, chữ \"l\" có 1 nét",
+            "C": "Chữ \"h\" đọc là \"hờ\", chữ \"l\" đọc là \"lờ\"",
+            "D": "Chữ \"h\" và chữ \"l\" khác nhau về hình dạng"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "Chữ \"ch\" là chữ ghép từ những chữ nào?",
+          "options": {
+            "A": "c + h",
+            "B": "c + a",
+            "C": "c + e",
+            "D": "c + i"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "Chữ \"kh\" là chữ ghép từ những chữ nào?",
+          "options": {
+            "A": "k + h",
+            "B": "k + a",
+            "C": "k + e",
+            "D": "k + i"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 7,
+          "question": "Chữ ghép \"ch\" đọc là gì?",
+          "options": {
+            "A": "chờ",
+            "B": "cha",
+            "C": "che",
+            "D": "chi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 8,
+          "question": "Chữ ghép \"kh\" đọc là gì?",
+          "options": {
+            "A": "khờ",
+            "B": "kha",
+            "C": "khe",
+            "D": "khi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 9,
+          "question": "Chữ cái \"i\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "i",
+            "B": "y",
+            "C": "ư",
+            "D": "u"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 10,
+          "question": "Chữ cái \"k\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "ca",
+            "B": "kờ",
+            "C": "ki",
+            "D": "ke"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Chữ cái \"h\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "hờ",
+            "B": "ha",
+            "C": "he",
+            "D": "hi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Chữ cái \"l\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "lờ",
+            "B": "la",
+            "C": "le",
+            "D": "li"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Chữ cái \"u\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "u",
+            "B": "ư",
+            "C": "o",
+            "D": "ô"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Chữ cái \"ư\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "u",
+            "B": "ư",
+            "C": "o",
+            "D": "ô"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có chữ \"i\"?",
+          "options": {
+            "A": "bi",
+            "B": "ba",
+            "C": "be",
+            "D": "bo"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Từ nào có chữ \"u\"?",
+          "options": {
+            "A": "bu",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Từ nào có chữ \"ư\"?",
+          "options": {
+            "A": "bư",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Từ nào có chữ ghép \"ch\"?",
+          "options": {
+            "A": "cha",
+            "B": "ca",
+            "C": "ha",
+            "D": "la"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Từ nào có chữ ghép \"kh\"?",
+          "options": {
+            "A": "kha",
+            "B": "ca",
+            "C": "ha",
+            "D": "la"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Chữ \"ư\" có đặc điểm gì?",
+          "options": {
+            "A": "Có dấu móc ở trên",
+            "B": "Có dấu móc ở dưới",
+            "C": "Có dấu mũ",
+            "D": "Có dấu gạch ngang"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "week": 4,
+      "title": "TUẦN 4",
+      "description": "Chữ cái: M, N, G, Gi, Gh, Nh, Ng, Ngh",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Chữ \"m\" và chữ \"n\" khác nhau như thế nào?",
+          "options": {
+            "A": "Chữ \"m\" có 2 nét, chữ \"n\" có 1 nét",
+            "B": "Chữ \"m\" có 1 nét, chữ \"n\" có 2 nét",
+            "C": "Chữ \"m\" có dấu mũ, chữ \"n\" không có",
+            "D": "Chữ \"m\" có dấu móc, chữ \"n\" không có"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "Chữ \"g\" và chữ \"gi\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "Chữ \"g\" là 1 chữ, chữ \"gi\" là 2 chữ",
+            "B": "Chữ \"g\" có dấu sắc, chữ \"gi\" có dấu huyền",
+            "C": "Chữ \"g\" có 1 nét, chữ \"gi\" có 2 nét",
+            "D": "Chữ \"g\" đọc khác chữ \"gi\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Chữ \"gh\" và chữ \"g\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "Chữ \"gh\" là 2 chữ, chữ \"g\" là 1 chữ",
+            "B": "Chữ \"gh\" có dấu sắc, chữ \"g\" có dấu huyền",
+            "C": "Chữ \"gh\" có 2 nét, chữ \"g\" có 1 nét",
+            "D": "Chữ \"gh\" đọc khác chữ \"g\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "Chữ \"ng\" và chữ \"ngh\" khác nhau ở đâu?",
+          "options": {
+            "A": "\"ngh\" có thêm chữ \"h\"",
+            "B": "\"ng\" có thêm chữ \"g\"",
+            "C": "\"ngh\" có dấu sắc",
+            "D": "\"ng\" có dấu huyền"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "Chữ \"m\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "mờ",
+            "B": "ma",
+            "C": "me",
+            "D": "mi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "Chữ \"n\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "nờ",
+            "B": "na",
+            "C": "ne",
+            "D": "ni"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 7,
+          "question": "Chữ \"g\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "gờ",
+            "B": "ga",
+            "C": "ge",
+            "D": "gi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 8,
+          "question": "Chữ \"nh\" đọc là gì?",
+          "options": {
+            "A": "nhờ",
+            "B": "nha",
+            "C": "nhe",
+            "D": "nhi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 9,
+          "question": "Chữ \"ng\" đọc là gì?",
+          "options": {
+            "A": "ngờ",
+            "B": "nga",
+            "C": "nge",
+            "D": "ngi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 10,
+          "question": "Chữ \"ngh\" đọc là gì?",
+          "options": {
+            "A": "nghờ",
+            "B": "ngha",
+            "C": "nghe",
+            "D": "nghi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Từ nào có chữ \"m\"?",
+          "options": {
+            "A": "ma",
+            "B": "ba",
+            "C": "na",
+            "D": "ta"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Từ nào có chữ \"n\"?",
+          "options": {
+            "A": "na",
+            "B": "ba",
+            "C": "ma",
+            "D": "ta"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có chữ \"g\"?",
+          "options": {
+            "A": "ga",
+            "B": "ba",
+            "C": "ma",
+            "D": "na"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có chữ \"gi\"?",
+          "options": {
+            "A": "gia",
+            "B": "ga",
+            "C": "ba",
+            "D": "ma"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có chữ \"gh\"?",
+          "options": {
+            "A": "gha",
+            "B": "ga",
+            "C": "ba",
+            "D": "ma"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Từ nào có chữ \"nh\"?",
+          "options": {
+            "A": "nha",
+            "B": "na",
+            "C": "ba",
+            "D": "ma"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Từ nào có chữ \"ng\"?",
+          "options": {
+            "A": "nga",
+            "B": "na",
+            "C": "ba",
+            "D": "ma"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Từ nào có chữ \"ngh\"?",
+          "options": {
+            "A": "ngha",
+            "B": "nga",
+            "C": "na",
+            "D": "ba"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Chữ \"gi\" và chữ \"gh\" giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng bắt đầu bằng chữ \"g\"",
+            "B": "Cùng có dấu sắc",
+            "C": "Cùng có 2 chữ",
+            "D": "Cùng đọc là \"gờ\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Chữ \"ng\" và chữ \"ngh\" giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng bắt đầu bằng chữ \"n\" và \"g\"",
+            "B": "Cùng có dấu sắc",
+            "C": "Cùng có 2 chữ",
+            "D": "Cùng đọc là \"ngờ\""
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "week": 5,
+      "title": "TUẦN 5",
+      "description": "Chữ cái: R, S, T, Tr, Th, Vần: ia, ua, ưa",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Chữ \"r\" và chữ \"s\" khác nhau như thế nào?",
+          "options": {
+            "A": "Chữ \"r\" có nét cong, chữ \"s\" có nét thẳng",
+            "B": "Chữ \"r\" có nét thẳng, chữ \"s\" có nét cong",
+            "C": "Chữ \"r\" có dấu chấm, chữ \"s\" không có",
+            "D": "Chữ \"r\" có dấu móc, chữ \"s\" không có"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Chữ \"t\" và chữ \"tr\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "Chữ \"t\" là 1 chữ, chữ \"tr\" là 2 chữ",
+            "B": "Chữ \"t\" có dấu sắc, chữ \"tr\" có dấu huyền",
+            "C": "Chữ \"t\" có 1 nét, chữ \"tr\" có 2 nét",
+            "D": "Chữ \"t\" đọc khác chữ \"tr\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Chữ \"tr\" và chữ \"th\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "Chữ \"tr\" có chữ \"t\" và \"r\", chữ \"th\" có chữ \"t\" và \"h\"",
+            "B": "Chữ \"tr\" có dấu sắc, chữ \"th\" có dấu huyền",
+            "C": "Chữ \"tr\" có 2 nét, chữ \"th\" có 3 nét",
+            "D": "Chữ \"tr\" đọc khác chữ \"th\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "Vần \"ia\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 5,
+          "question": "Vần \"ua\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "Vần \"ưa\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Chữ \"r\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "rờ",
+            "B": "ra",
+            "C": "re",
+            "D": "ri"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 8,
+          "question": "Chữ \"s\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "sờ",
+            "B": "sa",
+            "C": "se",
+            "D": "si"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 9,
+          "question": "Chữ \"t\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "tờ",
+            "B": "ta",
+            "C": "te",
+            "D": "ti"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 10,
+          "question": "Chữ \"tr\" đọc là gì?",
+          "options": {
+            "A": "trờ",
+            "B": "tra",
+            "C": "tre",
+            "D": "tri"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Chữ \"th\" đọc là gì?",
+          "options": {
+            "A": "thờ",
+            "B": "the",
+            "C": "thi",
+            "D": "thu"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Từ nào có vần \"ia\"?",
+          "options": {
+            "A": "bia",
+            "B": "ta",
+            "C": "ti",
+            "D": "to"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có vần \"ua\"?",
+          "options": {
+            "A": "bua",
+            "B": "ta",
+            "C": "la",
+            "D": "ma"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có vần \"ưa\"?",
+          "options": {
+            "A": "bưa",
+            "B": "ma",
+            "C": "me",
+            "D": "mi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có chữ \"r\"?",
+          "options": {
+            "A": "ra",
+            "B": "ba",
+            "C": "ma",
+            "D": "na"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Từ nào có chữ \"s\"?",
+          "options": {
+            "A": "sa",
+            "B": "ba",
+            "C": "ma",
+            "D": "na"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Từ nào có chữ \"t\"?",
+          "options": {
+            "A": "ta",
+            "B": "ba",
+            "C": "ma",
+            "D": "na"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Từ nào có chữ ghép \"tr\"?",
+          "options": {
+            "A": "tra",
+            "B": "ta",
+            "C": "ra",
+            "D": "sa"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Từ nào có chữ ghép \"th\"?",
+          "options": {
+            "A": "tha",
+            "B": "ta",
+            "C": "ha",
+            "D": "sa"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Vần \"ia\", \"ua\", \"ưa\" giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng có 2 chữ cái",
+            "B": "Cùng có dấu sắc",
+            "C": "Cùng có dấu huyền",
+            "D": "Cùng đọc là \"a\""
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "week": 6,
+      "title": "TUẦN 6",
+      "description": "Chữ cái: Ph, Qu, V, X, Y",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Chữ \"ph\" và chữ \"f\" khác nhau như thế nào?",
+          "options": {
+            "A": "\"ph\" là 2 chữ cái, \"f\" là 1 chữ cái",
+            "B": "\"ph\" là 1 chữ cái, \"f\" là 2 chữ cái",
+            "C": "\"ph\" có dấu, \"f\" không có dấu",
+            "D": "\"ph\" đọc khác \"f\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "Chữ \"qu\" luôn đi với chữ cái nào?",
+          "options": {
+            "A": "a",
+            "B": "u",
+            "C": "i",
+            "D": "e"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "Chữ \"v\" và chữ \"b\" giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng có nét cong",
+            "B": "Cùng có nét thẳng",
+            "C": "Cùng có dấu chấm",
+            "D": "Cùng có hình dạng tương tự"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 4,
+          "question": "Chữ \"x\" có đặc điểm gì?",
+          "options": {
+            "A": "Có 2 nét giao nhau",
+            "B": "Có nét cong",
+            "C": "Có nét thẳng",
+            "D": "Có dấu chấm"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "Chữ \"y\" và chữ \"i\" giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng đọc là \"i\"",
+            "B": "Cùng có dấu chấm",
+            "C": "Cùng có nét thẳng",
+            "D": "Cùng có nét cong"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "Chữ \"ph\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "phờ",
+            "B": "pha",
+            "C": "phe",
+            "D": "phi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 7,
+          "question": "Chữ \"qu\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "quờ",
+            "B": "qua",
+            "C": "que",
+            "D": "qui"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 8,
+          "question": "Chữ \"v\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "vờ",
+            "B": "va",
+            "C": "ve",
+            "D": "vi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 9,
+          "question": "Chữ \"x\" trong tiếng Việt đọc là gì?",
+          "options": {
+            "A": "xờ",
+            "B": "xa",
+            "C": "xe",
+            "D": "xi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 10,
+          "question": "Chữ \"y\" đọc là gì?",
+          "options": {
+            "A": "i",
+            "B": "y",
+            "C": "ư",
+            "D": "u"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 11,
+          "question": "Từ nào có chữ \"ph\"?",
+          "options": {
+            "A": "pha",
+            "B": "ba",
+            "C": "ma",
+            "D": "na"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Từ nào có chữ \"qu\"?",
+          "options": {
+            "A": "qua",
+            "B": "ba",
+            "C": "ma",
+            "D": "na"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có chữ \"v\"?",
+          "options": {
+            "A": "va",
+            "B": "ba",
+            "C": "ma",
+            "D": "na"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có chữ \"x\"?",
+          "options": {
+            "A": "xa",
+            "B": "ba",
+            "C": "ma",
+            "D": "na"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có chữ \"y\"?",
+          "options": {
+            "A": "y",
+            "B": "ba",
+            "C": "ma",
+            "D": "na"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Chữ \"ph\" được ghép từ những chữ nào?",
+          "options": {
+            "A": "p + h",
+            "B": "p + a",
+            "C": "p + e",
+            "D": "p + i"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Chữ \"qu\" được ghép từ những chữ nào?",
+          "options": {
+            "A": "q + u",
+            "B": "q + a",
+            "C": "q + e",
+            "D": "q + i"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Chữ \"v\" và chữ \"b\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "Chữ \"v\" có nét nhọn, chữ \"b\" có nét tròn",
+            "B": "Chữ \"v\" có dấu sắc, chữ \"b\" có dấu huyền",
+            "C": "Chữ \"v\" có 1 nét, chữ \"b\" có 2 nét",
+            "D": "Chữ \"v\" đọc khác chữ \"b\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Chữ \"x\" có hình dạng như thế nào?",
+          "options": {
+            "A": "Hai nét giao nhau",
+            "B": "Nét cong tròn",
+            "C": "Nét thẳng đứng",
+            "D": "Nét ngang"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Chữ \"y\" thường xuất hiện ở đâu trong từ?",
+          "options": {
+            "A": "Cuối từ",
+            "B": "Đầu từ",
+            "C": "Giữa từ",
+            "D": "Bất kỳ đâu"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "week": 7,
+      "title": "TUẦN 7",
+      "description": "Vần: an, ăn, ân, on, ôn, ơn, en, ên, in, un, am, ăm, âm",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Vần \"an\" có thể ghép với chữ nào để tạo từ?",
+          "options": {
+            "A": "b → ban",
+            "B": "d → dan",
+            "C": "m → man",
+            "D": "n → nan"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "Vần \"ăn\" và vần \"ân\" khác nhau ở đâu?",
+          "options": {
+            "A": "\"ăn\" có dấu ă, \"ân\" có dấu â",
+            "B": "\"ăn\" có dấu nặng, \"ân\" có dấu sắc",
+            "C": "\"ăn\" có 2 chữ, \"ân\" có 3 chữ",
+            "D": "\"ăn\" đọc khác \"ân\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Từ nào có vần \"on\"?",
+          "options": {
+            "A": "bon",
+            "B": "ban",
+            "C": "can",
+            "D": "man"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "Vần \"en\" và vần \"ên\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "\"en\" có dấu sắc, \"ên\" có dấu huyền",
+            "B": "\"en\" không có dấu, \"ên\" có dấu mũ",
+            "C": "\"en\" có 2 chữ, \"ên\" có 3 chữ",
+            "D": "\"en\" đọc khác \"ên\""
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 5,
+          "question": "Vần \"an\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "Vần \"on\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Vần \"en\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Vần \"in\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Vần \"un\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "Vần \"am\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 11,
+          "question": "Từ nào có vần \"an\"?",
+          "options": {
+            "A": "ban",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Từ nào có vần \"ăn\"?",
+          "options": {
+            "A": "băn",
+            "B": "an",
+            "C": "ân",
+            "D": "am"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có vần \"ân\"?",
+          "options": {
+            "A": "bân",
+            "B": "an",
+            "C": "ăn",
+            "D": "am"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có vần \"on\"?",
+          "options": {
+            "A": "bon",
+            "B": "can",
+            "C": "ban",
+            "D": "man"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có vần \"ôn\"?",
+          "options": {
+            "A": "bôn",
+            "B": "on",
+            "C": "ơn",
+            "D": "om"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Từ nào có vần \"ơn\"?",
+          "options": {
+            "A": "bơn",
+            "B": "on",
+            "C": "ôn",
+            "D": "om"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Từ nào có vần \"en\"?",
+          "options": {
+            "A": "ben",
+            "B": "an",
+            "C": "in",
+            "D": "un"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Từ nào có vần \"ên\"?",
+          "options": {
+            "A": "bên",
+            "B": "en",
+            "C": "in",
+            "D": "un"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Từ nào có vần \"am\"?",
+          "options": {
+            "A": "bam",
+            "B": "an",
+            "C": "ăn",
+            "D": "ân"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Vần \"an\", \"ăn\", \"ân\" giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng kết thúc bằng chữ \"n\"",
+            "B": "Cùng có dấu sắc",
+            "C": "Cùng có dấu huyền",
+            "D": "Cùng đọc là \"an\""
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "week": 8,
+      "title": "TUẦN 8",
+      "description": "Vần: om, ôm, ơm, em, êm, im, um, ai, ay, ây, oi, ôi, ơi",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Vần \"om\" và vần \"ôm\" khác nhau như thế nào?",
+          "options": {
+            "A": "\"om\" không có dấu, \"ôm\" có dấu mũ",
+            "B": "\"om\" có dấu sắc, \"ôm\" có dấu huyền",
+            "C": "\"om\" có 2 chữ, \"ôm\" có 3 chữ",
+            "D": "\"om\" đọc khác \"ôm\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "Từ nào có vần \"ai\"?",
+          "options": {
+            "A": "bai",
+            "B": "ba",
+            "C": "ma",
+            "D": "ta"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Vần \"ay\" và vần \"ây\" khác nhau ở đâu?",
+          "options": {
+            "A": "\"ay\" có chữ \"a\", \"ây\" có chữ \"â\"",
+            "B": "\"ay\" có dấu sắc, \"ây\" có dấu huyền",
+            "C": "\"ay\" có 2 chữ, \"ây\" có 3 chữ",
+            "D": "\"ay\" đọc khác \"ây\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "Từ nào có vần \"oi\"?",
+          "options": {
+            "A": "boi",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "Vần \"om\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "Vần \"ôm\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Vần \"ơm\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Vần \"em\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Vần \"êm\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "Vần \"im\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 11,
+          "question": "Vần \"um\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": "Vần \"ai\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "Vần \"ay\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 14,
+          "question": "Vần \"ây\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Vần \"oi\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 16,
+          "question": "Vần \"ôi\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 17,
+          "question": "Vần \"ơi\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 18,
+          "question": "Từ nào có vần \"om\"?",
+          "options": {
+            "A": "bom",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Từ nào có vần \"ôm\"?",
+          "options": {
+            "A": "bôm",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Từ nào có vần \"ơm\"?",
+          "options": {
+            "A": "bơm",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "week": 9,
+      "title": "TUẦN 9",
+      "description": "Vần: ui, vi, ao, eo, au, âu, êu, iu, ưu",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Vần \"ui\" và vần \"iu\" khác nhau như thế nào?",
+          "options": {
+            "A": "\"ui\" bắt đầu bằng \"u\", \"iu\" bắt đầu bằng \"i\"",
+            "B": "\"ui\" có dấu sắc, \"iu\" có dấu huyền",
+            "C": "\"ui\" có 2 chữ, \"iu\" có 3 chữ",
+            "D": "\"ui\" đọc khác \"iu\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "Từ nào có vần \"ao\"?",
+          "options": {
+            "A": "bao",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Vần \"au\" và vần \"âu\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "\"au\" có chữ \"a\", \"âu\" có chữ \"â\"",
+            "B": "\"au\" có dấu sắc, \"âu\" có dấu huyền",
+            "C": "\"au\" có 2 chữ, \"âu\" có 3 chữ",
+            "D": "\"au\" đọc khác \"âu\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "Từ nào có vần \"eo\"?",
+          "options": {
+            "A": "beo",
+            "B": "bao",
+            "C": "bi",
+            "D": "ba"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "Vần \"ui\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "Vần \"ao\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Vần \"eo\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Vần \"au\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Vần \"âu\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "Vần \"êu\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 11,
+          "question": "Vần \"iu\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": "Vần \"ưu\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có vần \"ui\"?",
+          "options": {
+            "A": "bui",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có vần \"ao\"?",
+          "options": {
+            "A": "bao",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có vần \"eo\"?",
+          "options": {
+            "A": "beo",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Từ nào có vần \"au\"?",
+          "options": {
+            "A": "bau",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Từ nào có vần \"âu\"?",
+          "options": {
+            "A": "bâu",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Từ nào có vần \"êu\"?",
+          "options": {
+            "A": "bêu",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Từ nào có vần \"iu\"?",
+          "options": {
+            "A": "biu",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Từ nào có vần \"ưu\"?",
+          "options": {
+            "A": "bưu",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "week": 10,
+      "title": "TUẦN 10",
+      "description": "Vần: ac, ăc, âc, oc, ôc, ục, ực, at, ăt, ât, ot, ôt, ơt",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Vần \"ac\" kết thúc bằng chữ nào?",
+          "options": {
+            "A": "a",
+            "B": "c",
+            "C": "ă",
+            "D": "â"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Vần \"ăc\" và vần \"âc\" khác nhau ở đâu?",
+          "options": {
+            "A": "\"ăc\" có dấu ă, \"âc\" có dấu â",
+            "B": "\"ăc\" có dấu sắc, \"âc\" có dấu huyền",
+            "C": "\"ăc\" có 2 chữ, \"âc\" có 3 chữ",
+            "D": "\"ăc\" đọc khác \"âc\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Từ nào có vần \"at\"?",
+          "options": {
+            "A": "bat",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "Vần \"ot\" và vần \"ôt\" khác nhau như thế nào?",
+          "options": {
+            "A": "\"ot\" không có dấu, \"ôt\" có dấu mũ",
+            "B": "\"ot\" có dấu sắc, \"ôt\" có dấu huyền",
+            "C": "\"ot\" có 2 chữ, \"ôt\" có 3 chữ",
+            "D": "\"ot\" đọc khác \"ôt\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "Vần \"ac\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "Vần \"oc\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Vần \"at\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Vần \"ot\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Vần \"ac\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "a",
+            "B": "c",
+            "C": "ă",
+            "D": "â"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 10,
+          "question": "Vần \"at\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "a",
+            "B": "t",
+            "C": "ă",
+            "D": "â"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Vần \"oc\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "o",
+            "B": "c",
+            "C": "ô",
+            "D": "ơ"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Vần \"ot\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "o",
+            "B": "t",
+            "C": "ô",
+            "D": "ơ"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có vần \"ac\"?",
+          "options": {
+            "A": "bac",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có vần \"oc\"?",
+          "options": {
+            "A": "boc",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có vần \"at\"?",
+          "options": {
+            "A": "bat",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Từ nào có vần \"ot\"?",
+          "options": {
+            "A": "bot",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Vần \"ac\" kết thúc bằng chữ nào?",
+          "options": {
+            "A": "a",
+            "B": "c",
+            "C": "ă",
+            "D": "â"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 18,
+          "question": "Vần \"at\" kết thúc bằng chữ nào?",
+          "options": {
+            "A": "a",
+            "B": "t",
+            "C": "ă",
+            "D": "â"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 19,
+          "question": "Vần \"oc\" kết thúc bằng chữ nào?",
+          "options": {
+            "A": "o",
+            "B": "c",
+            "C": "ô",
+            "D": "ơ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 20,
+          "question": "Vần \"ot\" kết thúc bằng chữ nào?",
+          "options": {
+            "A": "o",
+            "B": "t",
+            "C": "ô",
+            "D": "ơ"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "week": 11,
+      "title": "TUẦN 11",
+      "description": "Vần: et, êt, it, ut, ưt, ap, ăp, âp, op, ôp, ơp",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Vần \"et\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Vần \"êt\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "Vần \"it\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 4,
+          "question": "Vần \"ut\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 5,
+          "question": "Vần \"ưt\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "Vần \"ap\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Vần \"ăp\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Vần \"âp\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Vần \"op\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "Vần \"ôp\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 11,
+          "question": "Từ nào có vần \"ơp\"?",
+          "options": {
+            "A": "bơp",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Từ nào có vần \"et\"?",
+          "options": {
+            "A": "bet",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có vần \"êt\"?",
+          "options": {
+            "A": "bêt",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có vần \"it\"?",
+          "options": {
+            "A": "bit",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có vần \"ut\"?",
+          "options": {
+            "A": "but",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Vần \"ưt\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "ư",
+            "B": "t",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Vần \"ap\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "a",
+            "B": "p",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Vần \"ăp\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "ă",
+            "B": "p",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Vần \"âp\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "â",
+            "B": "p",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Vần \"op\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "o",
+            "B": "p",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "week": 12,
+      "title": "TUẦN 12",
+      "description": "Vần: ep, êp, ip, up, anh, ênh, inh, ach, êch, ich, ang, ăng, âng",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Vần \"ep\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Vần \"êp\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "Vần \"ip\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 4,
+          "question": "Vần \"up\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 5,
+          "question": "Vần \"anh\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "Vần \"ênh\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 7,
+          "question": "Vần \"inh\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 8,
+          "question": "Vần \"ach\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "Vần \"êch\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 10,
+          "question": "Vần \"ich\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "Từ nào có vần \"ang\"?",
+          "options": {
+            "A": "bang",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Từ nào có vần \"ăng\"?",
+          "options": {
+            "A": "băng",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có vần \"âng\"?",
+          "options": {
+            "A": "bâng",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có vần \"ep\"?",
+          "options": {
+            "A": "bep",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có vần \"êp\"?",
+          "options": {
+            "A": "bêp",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Vần \"ip\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "i",
+            "B": "p",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Vần \"up\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "u",
+            "B": "p",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Vần \"anh\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "a",
+            "B": "h",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Vần \"ênh\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "ê",
+            "B": "h",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Vần \"inh\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "i",
+            "B": "h",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "week": 13,
+      "title": "TUẦN 13",
+      "description": "Vần: ong, ông, ung, ưng, iêc, iên, iêp, iêng, iêm, yên, iêt, iêu, yêu",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Vần \"ong\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 2,
+          "question": "Vần \"ông\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 3,
+          "question": "Vần \"ung\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "Vần \"ưng\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 5,
+          "question": "Vần \"iêc\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "Vần \"iên\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 7,
+          "question": "Vần \"iêp\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 8,
+          "question": "Vần \"iêng\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 9,
+          "question": "Vần \"iêm\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 10,
+          "question": "Vần \"yên\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "Từ nào có vần \"iêt\"?",
+          "options": {
+            "A": "biêt",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Từ nào có vần \"iêu\"?",
+          "options": {
+            "A": "biêu",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có vần \"yêu\"?",
+          "options": {
+            "A": "byêu",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có vần \"ong\"?",
+          "options": {
+            "A": "bong",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có vần \"ông\"?",
+          "options": {
+            "A": "bông",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Vần \"ung\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "u",
+            "B": "g",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Vần \"ưng\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "ư",
+            "B": "g",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Vần \"iêc\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "i",
+            "B": "c",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Vần \"iên\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "i",
+            "B": "n",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Vần \"iêp\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "i",
+            "B": "p",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "week": 14,
+      "title": "TUẦN 14",
+      "description": "Vần: uôi, uôm, uôc, uôt, uôn, uông, ươi, ươu",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Vần \"uôi\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 2,
+          "question": "Vần \"uôm\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 3,
+          "question": "Vần \"uôc\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "Vần \"uôt\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 5,
+          "question": "Vần \"uôn\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "Vần \"uông\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 7,
+          "question": "Vần \"ươi\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 8,
+          "question": "Vần \"ươu\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "Vần \"uôi\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 10,
+          "question": "Vần \"uôm\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "Từ nào có vần \"uôc\"?",
+          "options": {
+            "A": "buôc",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Từ nào có vần \"uôt\"?",
+          "options": {
+            "A": "buôt",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có vần \"uôn\"?",
+          "options": {
+            "A": "buôn",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có vần \"uông\"?",
+          "options": {
+            "A": "buông",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có vần \"ươi\"?",
+          "options": {
+            "A": "bươi",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Vần \"ươu\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "ư",
+            "B": "u",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Vần \"uôi\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "u",
+            "B": "i",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Vần \"uôm\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "u",
+            "B": "m",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Vần \"uôc\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "u",
+            "B": "c",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Vần \"uôt\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "u",
+            "B": "t",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "week": 15,
+      "title": "TUẦN 15",
+      "description": "Vần: ược, ướt, ươm, ướp, ươn, ương, oa, oe",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Vần \"ược\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 2,
+          "question": "Vần \"ướt\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 3,
+          "question": "Vần \"ươm\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "Vần \"ướp\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 5,
+          "question": "Vần \"ươn\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "Vần \"ương\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 7,
+          "question": "Vần \"oa\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Vần \"oe\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Vần \"ược\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 10,
+          "question": "Vần \"ướt\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "Từ nào có vần \"ươm\"?",
+          "options": {
+            "A": "bươm",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Từ nào có vần \"ướp\"?",
+          "options": {
+            "A": "bướp",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có vần \"ươn\"?",
+          "options": {
+            "A": "bươn",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có vần \"ương\"?",
+          "options": {
+            "A": "bương",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có vần \"oa\"?",
+          "options": {
+            "A": "boa",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Vần \"oe\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "o",
+            "B": "e",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Vần \"ược\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "ư",
+            "B": "c",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Vần \"ướt\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "ư",
+            "B": "t",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Vần \"ươm\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "ư",
+            "B": "m",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Vần \"ướp\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "ư",
+            "B": "p",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "week": 16,
+      "title": "TUẦN 16",
+      "description": "Vần: oan, oăn, oat, oặt, oai, uê, uy, uân, uât, uyên, uyêt",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Vần \"oan\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 2,
+          "question": "Vần \"oăn\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 3,
+          "question": "Vần \"oat\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "Vần \"oặt\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 5,
+          "question": "Vần \"oai\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "Vần \"uê\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Vần \"uy\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Vần \"uân\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "Vần \"uât\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 10,
+          "question": "Vần \"uyên\" có mấy chữ cái?",
+          "options": {
+            "A": "1 chữ",
+            "B": "2 chữ",
+            "C": "3 chữ",
+            "D": "4 chữ"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 11,
+          "question": "Từ nào có vần \"uyêt\"?",
+          "options": {
+            "A": "buyêt",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Từ nào có vần \"oan\"?",
+          "options": {
+            "A": "boan",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Từ nào có vần \"oăn\"?",
+          "options": {
+            "A": "boăn",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Từ nào có vần \"oat\"?",
+          "options": {
+            "A": "boat",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Từ nào có vần \"oặt\"?",
+          "options": {
+            "A": "boặt",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Vần \"oai\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "o",
+            "B": "i",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Vần \"uê\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "u",
+            "B": "ê",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Vần \"uy\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "u",
+            "B": "y",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Vần \"uân\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "u",
+            "B": "n",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Vần \"uât\" bắt đầu bằng chữ nào?",
+          "options": {
+            "A": "u",
+            "B": "t",
+            "C": "a",
+            "D": "o"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "week": 17,
+      "title": "TUẦN 17",
+      "description": "Ôn tập tổng hợp",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Trong các chữ cái sau, chữ nào có dấu mũ?",
+          "options": {
+            "A": "o",
+            "B": "ô",
+            "C": "d",
+            "D": "đ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Vần \"an\" và vần \"ang\" khác nhau ở điểm nào?",
+          "options": {
+            "A": "\"an\" kết thúc bằng \"n\", \"ang\" kết thúc bằng \"ng\"",
+            "B": "\"an\" có dấu sắc, \"ang\" có dấu huyền",
+            "C": "\"an\" có 2 chữ, \"ang\" có 3 chữ",
+            "D": "\"an\" đọc khác \"ang\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Chữ ghép \"ch\" và \"tr\" khác nhau như thế nào?",
+          "options": {
+            "A": "\"ch\" có chữ \"c\", \"tr\" có chữ \"t\"",
+            "B": "\"ch\" có dấu sắc, \"tr\" có dấu huyền",
+            "C": "\"ch\" có 2 chữ, \"tr\" có 3 chữ",
+            "D": "\"ch\" đọc khác \"tr\""
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "Vần \"iên\" và vần \"yên\" giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng đọc là \"iên\"",
+            "B": "Cùng có 3 chữ cái",
+            "C": "Cùng có dấu mũ",
+            "D": "Cùng có dấu sắc"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "Chữ cái nào sau đây là nguyên âm?",
+          "options": {
+            "A": "a",
+            "B": "b",
+            "C": "c",
+            "D": "d"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "Chữ cái nào sau đây là phụ âm?",
+          "options": {
+            "A": "a",
+            "B": "b",
+            "C": "e",
+            "D": "ê"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Vần nào có 2 chữ cái?",
+          "options": {
+            "A": "an",
+            "B": "ang",
+            "C": "anh",
+            "D": "ong"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 8,
+          "question": "Vần nào có 3 chữ cái?",
+          "options": {
+            "A": "an",
+            "B": "ang",
+            "C": "anh",
+            "D": "ong"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "Chữ ghép nào có 2 chữ cái?",
+          "options": {
+            "A": "ch",
+            "B": "tr",
+            "C": "ng",
+            "D": "ngh"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 10,
+          "question": "Chữ ghép nào có 3 chữ cái?",
+          "options": {
+            "A": "ch",
+            "B": "tr",
+            "C": "ngh",
+            "D": "ng"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "Từ nào có vần 'an'?",
+          "options": {
+            "A": "ban",
+            "B": "ba",
+            "C": "be",
+            "D": "bi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Từ nào có vần 'on'?",
+          "options": {
+            "A": "con",
+            "B": "can",
+            "C": "ban",
+            "D": "man"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Chữ 'b' đọc là gì?",
+          "options": {
+            "A": "bê",
+            "B": "bờ",
+            "C": "ba",
+            "D": "bố"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 14,
+          "question": "Chữ 'đ' đọc là gì?",
+          "options": {
+            "A": "đê",
+            "B": "đờ",
+            "C": "đa",
+            "D": "đô"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Chữ 'ch' đọc là gì?",
+          "options": {
+            "A": "chờ",
+            "B": "cha",
+            "C": "che",
+            "D": "chi"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 16,
+          "question": "Chữ 'th' đọc là gì?",
+          "options": {
+            "A": "thờ",
+            "B": "the",
+            "C": "thi",
+            "D": "thu"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 17,
+          "question": "Vần 'an' và 'ang' khác nhau ở điểm nào?",
+          "options": {
+            "A": "'an' kết thúc bằng 'n', 'ang' kết thúc bằng 'ng'",
+            "B": "'an' có dấu sắc, 'ang' có dấu huyền",
+            "C": "'an' có 2 chữ, 'ang' có 3 chữ",
+            "D": "'an' đọc khác 'ang'"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 18,
+          "question": "Vần 'on' và 'ong' khác nhau ở điểm nào?",
+          "options": {
+            "A": "'on' kết thúc bằng 'n', 'ong' kết thúc bằng 'ng'",
+            "B": "'on' có dấu sắc, 'ong' có dấu huyền",
+            "C": "'on' có 2 chữ, 'ong' có 3 chữ",
+            "D": "'on' đọc khác 'ong'"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 19,
+          "question": "Chữ 'ng' và 'ngh' khác nhau ở điểm nào?",
+          "options": {
+            "A": "'ngh' có thêm chữ 'h'",
+            "B": "'ng' có thêm chữ 'g'",
+            "C": "'ngh' có dấu sắc",
+            "D": "'ng' có dấu huyền"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 20,
+          "question": "Vần 'iên' và 'yên' giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng đọc là 'iên'",
+            "B": "Cùng có 3 chữ cái",
+            "C": "Cùng có dấu mũ",
+            "D": "Cùng có dấu sắc"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "week": 14,
+  "subject": "english",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-14",
+      "title": "Unit 14: In the toy shop",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "What letter is this: 'T'?",
+          "options": [
+            "U",
+            "S",
+            "T",
+            "V"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tiếng Việt: Đây là chữ cái 'T' (đọc là 'tê'). English: This is the letter 'T'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Which word starts with 'T'?",
+          "options": [
+            "door",
+            "teddy bear",
+            "bag",
+            "book"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: Từ 'teddy bear' bắt đầu bằng chữ 'T'. English: The word 'teddy bear' starts with the letter 'T'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "How do you pronounce the letter 'T'?",
+          "options": [
+            "/t/",
+            "/f/",
+            "/d/",
+            "/g/"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: Chữ 'T' được phát âm là /t/. English: The letter 'T' is pronounced /t/.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "What is the English word for this picture?",
+          "options": [
+            "noodles",
+            "teddy bear",
+            "wash",
+            "pencil"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'teddy bear' là từ tiếng Anh đúng. English: 'teddy bear' is the correct English word.",
+          "imageUrl": "emoji:🧸"
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Choose the correct word: tiger",
+          "options": [
+            "clocks",
+            "lake",
+            "goat",
+            "tiger"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tiếng Việt: 'tiger' là từ tiếng Anh đúng. English: 'tiger' is the correct English word.",
+          "imageUrl": "emoji:🐯"
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Select the right word: turtle",
+          "options": [
+            "turtle",
+            "girl",
+            "horse",
+            "football"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: 'turtle' là từ tiếng Anh đúng. English: 'turtle' is the correct English word.",
+          "imageUrl": "emoji:🐢"
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Which word matches this?",
+          "options": [
+            "window",
+            "horse",
+            "top",
+            "goat"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tiếng Việt: 'top' là từ tiếng Anh đúng. English: 'top' is the correct English word.",
+          "imageUrl": "emoji:🧩"
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Complete the sentence: I can see a _____.",
+          "options": [
+            "tiger",
+            "turtle",
+            "teddy bear",
+            "top"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: Câu hoàn chỉnh là 'I can see a tiger.'. English: The complete sentence is 'I can see a tiger.'.",
+          "imageUrl": "emoji:🐯"
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Which sentence means 'Tôi có thể thấy một con hổ.'?",
+          "options": [
+            "This is my bag.",
+            "I can see a tiger.",
+            "Touch your hair.",
+            "Bye, Bill."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'I can see a tiger.' có nghĩa là 'Tôi có thể thấy một con hổ.'. English: 'I can see a tiger.' means 'Tôi có thể thấy một con hổ.'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Find the word: 'teddy bear'",
+          "options": [
+            "hand",
+            "bike",
+            "cake",
+            "teddy bear"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tiếng Việt: 'teddy bear' là từ tiếng Anh đúng. English: 'teddy bear' is the correct English word.",
+          "imageUrl": "emoji:🧸"
+        }
+      ]
+    }
+  ]
+}

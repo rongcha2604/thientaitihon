@@ -1,0 +1,122 @@
+PLAN WEB APP LUYỆN TẬP HỌC SINH TIỂU HỌC - THEO SGK 2025
+
+Font: Arial
+
+-----------------------------------
+1. MỤC TIÊU & ĐỐI TƯỢNG
+-----------------------------------
+- Đối tượng: Học sinh Tiểu học (lớp 1–5)
+- Môn: Toán – Tiếng Việt – Tiếng Anh
+- Mục tiêu: Học/ôn theo tuần – theo bộ sách SGK chuẩn 2025 + hệ thống tổng hợp/ôn thi HK1, HK2, cả năm.
+- Bộ sách hỗ trợ:
+  1. Kết nối tri thức với cuộc sống
+  2. Chân trời sáng tạo
+  3. Cùng học để phát triển năng lực
+  4. Vì sự bình đẳng và dân chủ trong giáo dục
+
+-----------------------------------
+2. CÔNG NGHỆ ĐỀ XUẤT
+-----------------------------------
+Frontend: Next.js (React + TypeScript), TailwindCSS, Zustand, PWA.
+Backend: Firebase (Auth, Firestore, Storage, Cloud Functions).
+CMS: Strapi hoặc Firebase Admin nội bộ.
+Triển khai: Vercel (FE) + Firebase (BE).
+Phân tích dữ liệu: GA4, BigQuery.
+TTS: Web Speech API + file mp3.
+
+-----------------------------------
+3. KIẾN TRÚC DỮ LIỆU
+-----------------------------------
+Phân rã:
+- BookSeries: 4 bộ sách SGK.
+- Subject: math | vietnamese | english.
+- Grade: 1..5.
+- Week: 1..35 (theo CT chuẩn).
+- Lesson: bài ngắn, 5–7 phút.
+- ExerciseItem: các dạng bài tập (chọn đáp án, kéo-thả, điền, nghe–chọn, sắp xếp).
+
+Firestore collections:
+- book_series/{series}/grades/{grade}/subjects/{subject}/weeks/{week}/lessons/{lesson}/items/{item}
+- exam_pools/{scope}
+- users/{uid}/profile, progress, collection
+- reward_rules, items_catalog
+
+-----------------------------------
+4. TÍNH NĂNG CHÍNH
+-----------------------------------
+1. Học theo tuần, theo bộ sách.
+2. Luyện tổng hợp (HK1, HK2, cả năm).
+3. Hệ thống thưởng (sao, nhân vật, phụ kiện).
+4. Duy trì streak ngày.
+5. TTS đọc to câu hỏi/đáp án.
+6. Khu phụ huynh (PIN 4 số).
+7. Admin nội dung.
+8. Báo cáo tiến độ học.
+
+-----------------------------------
+5. GIAO DIỆN & TRẢI NGHIỆM
+-----------------------------------
+Thanh menu 4 nút: Học 🏫 | Ôn tập 🧠 | Album 🎁 | Hồ sơ 😊
+
+Trang Học:
+- Chọn Bộ sách → Lớp → Môn → Tuần.
+- Hiện tiến độ, nút “Bắt đầu tuần X”.
+
+Màn Bài tập:
+- Câu hỏi to, rõ, icon lớn.
+- 4 đáp án to, phản hồi tức thì.
+- Hiệu ứng "ting" + confetti khi đúng.
+
+Trang Ôn tập:
+- HK1 / HK2 / Cả năm.
+- Đề 5–15 phút, hiển thị kỹ năng yếu.
+
+Trang Album:
+- Lưới 3x4, lọc: nhân vật / phụ kiện / khung / sticker.
+- Popup khi mở thẻ.
+
+Trang Hồ sơ:
+- Avatar (tùy chỉnh phụ kiện).
+- Sao, streak, nút “Mục tiêu hôm nay”.
+- Góc phụ huynh (PIN).
+
+-----------------------------------
+6. PHẦN THƯỞNG
+-----------------------------------
+- Mỗi câu đúng: +1 sao.
+- Hoàn thành tuần: +10 sao + mở thẻ.
+- Ôn HK1/HK2 đạt >=80%: khung đặc biệt.
+- Trùng thẻ → đổi mảnh.
+
+-----------------------------------
+7. QUẢN TRỊ & NỘI DUNG
+-----------------------------------
+- Trạng thái bài: draft → review → published.
+- Kiểm tra tự động media/audio.
+- Preview tuần trước khi publish.
+- Báo cáo độ khó câu hỏi.
+
+-----------------------------------
+8. AN TOÀN & QUYỀN RIÊNG TƯ
+-----------------------------------
+- Không thu thập dữ liệu nhạy cảm của bé.
+- Giới hạn thời gian học.
+- PWA cache để học offline nhẹ.
+- Dữ liệu lưu theo tài khoản phụ huynh.
+
+-----------------------------------
+9. LỘ TRÌNH TRIỂN KHAI
+-----------------------------------
+Giai đoạn 1 (4–6 tuần): MVP – 1 lớp, 1 bộ sách, 3 môn, thưởng cơ bản.
+Giai đoạn 2: Mở rộng bộ sách và khối lớp.
+Giai đoạn 3: Thêm ôn HK1, HK2, báo cáo phụ huynh.
+Giai đoạn 4: Sự kiện tháng, shop đổi mảnh, tối ưu UX.
+
+-----------------------------------
+10. TÓM TẮT LỢI THẾ
+-----------------------------------
+- Học theo SGK chuẩn 2025.
+- Dễ thao tác, thân thiện cho trẻ nhỏ.
+- Tăng hứng thú bằng phần thưởng sưu tầm.
+- Quản lý nội dung linh hoạt.
+- Phát triển mở rộng dễ dàng (Firebase + Next.js).

@@ -1,0 +1,253 @@
+{
+  "week": 15,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Khối lập phương, khối hộp chữ nhật",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Hình nào sau đây là khối lập phương?",
+          "options": [
+            "Hình có 6 mặt vuông bằng nhau",
+            "Hình có 3 mặt",
+            "Hình có 4 cạnh",
+            "Hình tròn"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Khối lập phương có 6 mặt vuông bằng nhau",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Hình nào sau đây là khối hộp chữ nhật?",
+          "options": [
+            "Hình có 3 mặt",
+            "Hình có 4 cạnh",
+            "Hình tròn",
+            "Hình có 6 mặt, các mặt là hình chữ nhật"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khối hộp chữ nhật có 6 mặt, các mặt là hình chữ nhật",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Khối hộp chữ nhật có bao nhiêu mặt?",
+          "options": [
+            "6 mặt",
+            "5 mặt",
+            "4 mặt",
+            "7 mặt"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Khối hộp chữ nhật có 6 mặt",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Khối lập phương có bao nhiêu mặt?",
+          "options": [
+            "7 mặt",
+            "4 mặt",
+            "5 mặt",
+            "6 mặt"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khối lập phương có 6 mặt vuông bằng nhau",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở trên?",
+          "options": [
+            "Vật ở bên cạnh",
+            "Vật ở phía trên",
+            "Vật ở giữa",
+            "Vật ở phía dưới"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vật ở phía trên là vật ở vị trí cao hơn",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 13 con gà, bay đi 8 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "2 con",
+            "3 con",
+            "6 con",
+            "5 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "13 - 8 = 5",
+          "imageUrl": null,
+          "id": "q6"
+        },
+        {
+          "question": "Có 7 quả táo, ăn mất 3 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "2 quả",
+            "4 quả",
+            "7 quả",
+            "5 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "7 - 3 = 4",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "Có 3 quả táo, thêm 2 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "2 quả",
+            "4 quả",
+            "5 quả",
+            "8 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "3 + 2 = 5",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "Có 18 quả táo, thêm 1 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "19 quả",
+            "20 quả",
+            "21 quả",
+            "17 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "18 + 1 = 19",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "Có 19 quả cam, thêm 1 quả nữa. Hỏi có tất cả bao nhiêu quả cam?",
+          "options": [
+            "21 quả",
+            "17 quả",
+            "20 quả",
+            "18 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "19 + 1 = 20",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "Có 4 con gà, thêm 14 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "17 con",
+            "18 con",
+            "20 con",
+            "21 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "4 + 14 = 18",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 13 quả cam, thêm 6 quả nữa. Hỏi có tất cả bao nhiêu quả cam?",
+          "options": [
+            "16 quả",
+            "22 quả",
+            "19 quả",
+            "18 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "13 + 6 = 19",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Vị trí định hướng trong không gian",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở dưới?",
+          "options": [
+            "Vật ở phía trên",
+            "Vật ở phía dưới",
+            "Vật ở giữa",
+            "Vật ở bên cạnh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vật ở phía dưới là vật ở vị trí thấp hơn",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở trước?",
+          "options": [
+            "Vật ở phía trước",
+            "Vật ở phía sau",
+            "Vật ở giữa",
+            "Vật ở bên cạnh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vật ở phía trước là vật ở vị trí gần mình hơn",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở sau?",
+          "options": [
+            "Vật ở phía trước",
+            "Vật ở phía sau",
+            "Vật ở giữa",
+            "Vật ở bên cạnh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vật ở phía sau là vật ở vị trí xa mình hơn",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở bên trái?",
+          "options": [
+            "Vật ở phía trái",
+            "Vật ở phía phải",
+            "Vật ở giữa",
+            "Vật ở trên"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vật ở phía trái là vật ở bên trái của mình",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Vị trí định hướng trong không gian: Vật nào ở bên phải?",
+          "options": [
+            "Vật ở phía trái",
+            "Vật ở phía phải",
+            "Vật ở giữa",
+            "Vật ở trên"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vật ở phía phải là vật ở bên phải của mình",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

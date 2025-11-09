@@ -1,0 +1,183 @@
+{
+  "week": 10,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Phép cộng trong phạm vi 10",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "3 + 4 = ?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctAnswer": 1,
+          "explanation": "3 + 4 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "5 + 2 = ?",
+          "options": [
+            "6",
+            "8",
+            "7",
+            "9"
+          ],
+          "correctAnswer": 2,
+          "explanation": "5 + 2 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "1 + 6 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "correctAnswer": 0,
+          "explanation": "1 + 6 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "4 + 3 = ?",
+          "options": [
+            "6",
+            "8",
+            "9",
+            "7"
+          ],
+          "correctAnswer": 3,
+          "explanation": "4 + 3 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "2 + 5 = ?",
+          "options": [
+            "6",
+            "8",
+            "7",
+            "9"
+          ],
+          "correctAnswer": 2,
+          "explanation": "2 + 5 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "6 + 1 = ?",
+          "options": [
+            "6",
+            "8",
+            "9",
+            "7"
+          ],
+          "correctAnswer": 3,
+          "explanation": "6 + 1 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "2 + 6 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2 + 6 = 8",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "3 + 5 = ?",
+          "options": [
+            "7",
+            "9",
+            "8",
+            "10"
+          ],
+          "correctAnswer": 2,
+          "explanation": "3 + 5 = 8",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "1 + 7 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "correctAnswer": 1,
+          "explanation": "1 + 7 = 8",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "4 + 4 = ?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "7"
+          ],
+          "correctAnswer": 0,
+          "explanation": "4 + 4 = 8",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "5 + 3 = ?",
+          "options": [
+            "10",
+            "7",
+            "9",
+            "8"
+          ],
+          "correctAnswer": 3,
+          "explanation": "5 + 3 = 8",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "6 + 2 = ?",
+          "options": [
+            "8",
+            "7",
+            "9",
+            "10"
+          ],
+          "correctAnswer": 0,
+          "explanation": "6 + 2 = 8",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

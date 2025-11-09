@@ -1,0 +1,253 @@
+{
+  "week": 7,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Luyện tập chung",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Có 3 quả táo, thêm 4 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "9 quả",
+            "6 quả",
+            "7 quả",
+            "8 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "3 + 4 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Có 9 con gà, bay đi 3 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "6 con",
+            "7 con",
+            "5 con",
+            "8 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 - 3 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 4, 8, 2, 6?",
+          "options": [
+            "4",
+            "2",
+            "6",
+            "8"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 8 là số lớn nhất trong các số 4, 8, 2, 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ nhất trong các số: 7, 1, 5, 9?",
+          "options": [
+            "1",
+            "7",
+            "5",
+            "9"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 1 là số nhỏ nhất trong các số 7, 1, 5, 9",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 10 quả táo, thêm 4 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "12 quả",
+            "11 quả",
+            "14 quả",
+            "16 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "10 + 4 = 14",
+          "imageUrl": null,
+          "id": "q5"
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "6 gồm mấy và mấy?",
+          "options": [
+            "3 và 3",
+            "1 và 5",
+            "2 và 4",
+            "4 và 2"
+          ],
+          "correctAnswer": 0,
+          "explanation": "6 = 3 + 3, nên 6 gồm 3 và 3",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 15 con gà, bay đi 8 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "4 con",
+            "6 con",
+            "7 con",
+            "9 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "15 - 8 = 7",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "Có 14 quả cam, ăn mất 2 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "11 quả",
+            "12 quả",
+            "10 quả",
+            "14 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "14 - 2 = 12",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "Có 1 cái kẹo, thêm 6 cái nữa. Hỏi có tất cả bao nhiêu cái kẹo?",
+          "options": [
+            "10 cái",
+            "8 cái",
+            "6 cái",
+            "7 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1 + 6 = 7",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "Có 1 quả táo, thêm 13 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "11 quả",
+            "14 quả",
+            "13 quả",
+            "12 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "1 + 13 = 14",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "Có 9 quả táo, ăn mất 5 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "1 quả",
+            "7 quả",
+            "6 quả",
+            "4 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "9 - 5 = 4",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "9 - 3 = ?",
+          "options": [
+            "4",
+            "6",
+            "9",
+            "3"
+          ],
+          "correctAnswer": 1,
+          "explanation": "9 - 3 = 6",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Hình vuông, hình tròn, hình tam giác, hình chữ nhật",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Hình nào sau đây là hình vuông?",
+          "options": [
+            "Hình có 4 cạnh bằng nhau, 4 góc vuông",
+            "Hình có 3 cạnh",
+            "Hình tròn",
+            "Hình có 4 cạnh, 2 cạnh dài, 2 cạnh ngắn"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình vuông có 4 cạnh bằng nhau và 4 góc vuông",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Hình nào sau đây là hình tròn?",
+          "options": [
+            "Hình có 4 cạnh",
+            "Hình có 3 cạnh",
+            "Hình không có cạnh, không có góc",
+            "Hình có 4 góc vuông"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình tròn không có cạnh và không có góc",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Hình nào sau đây là hình tam giác?",
+          "options": [
+            "Hình có 4 cạnh",
+            "Hình có 3 cạnh",
+            "Hình tròn",
+            "Hình có 4 góc vuông"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình tam giác có 3 cạnh",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Hình nào sau đây là hình chữ nhật?",
+          "options": [
+            "Hình có 4 cạnh bằng nhau",
+            "Hình có 3 cạnh",
+            "Hình tròn",
+            "Hình có 4 cạnh, 2 cạnh dài bằng nhau, 2 cạnh ngắn bằng nhau, 4 góc vuông"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình chữ nhật có 4 cạnh, 2 cạnh dài bằng nhau, 2 cạnh ngắn bằng nhau và 4 góc vuông",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Hình vuông có bao nhiêu cạnh?",
+          "options": [
+            "2 cạnh",
+            "4 cạnh",
+            "3 cạnh",
+            "5 cạnh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình vuông có 4 cạnh bằng nhau",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

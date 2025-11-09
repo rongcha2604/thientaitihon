@@ -1,0 +1,155 @@
+{
+  "week": 4,
+  "subject": "english",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-4",
+      "title": "Unit 4: In the bedroom",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "What letter is this: 'D'?",
+          "options": [
+            "F",
+            "E",
+            "C",
+            "D"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tiếng Việt: Đây là chữ cái 'D' (đọc là 'dê'). English: This is the letter 'D'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "How do you pronounce the letter 'D'?",
+          "options": [
+            "/d/",
+            "/w/",
+            "/ʌ/",
+            "/l/"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: Chữ 'D' được phát âm là /d/. English: The letter 'D' is pronounced /d/.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Which word starts with 'D'?",
+          "options": [
+            "pencil",
+            "window",
+            "clocks",
+            "desk"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tiếng Việt: Từ 'desk' bắt đầu bằng chữ 'D'. English: The word 'desk' starts with the letter 'D'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "What is the English word for this picture?",
+          "options": [
+            "goat",
+            "pen",
+            "desk",
+            "noodles"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tiếng Việt: 'desk' là từ tiếng Anh đúng. English: 'desk' is the correct English word.",
+          "imageUrl": "emoji:🪑"
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Which word matches this?",
+          "options": [
+            "door",
+            "wash",
+            "hair",
+            "tiger"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: 'door' là từ tiếng Anh đúng. English: 'door' is the correct English word.",
+          "imageUrl": "emoji:🚪"
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Choose the correct word: dog",
+          "options": [
+            "leaf",
+            "dog",
+            "father",
+            "pen"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'dog' là từ tiếng Anh đúng. English: 'dog' is the correct English word.",
+          "imageUrl": "emoji:🐶"
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Which sentence means 'Đây là một con chó.'?",
+          "options": [
+            "It's a red pen.",
+            "Hi, I'm Bill.",
+            "This is a dog.",
+            "I have a car."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tiếng Việt: 'This is a dog.' có nghĩa là 'Đây là một con chó.'. English: 'This is a dog.' means 'Đây là một con chó.'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Select the right word: duck",
+          "options": [
+            "teddy bear",
+            "duck",
+            "fish",
+            "desk"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'duck' là từ tiếng Anh đúng. English: 'duck' is the correct English word.",
+          "imageUrl": "emoji:🦆"
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Complete the sentence: This is a _____.",
+          "options": [
+            "dog",
+            "desk",
+            "duck",
+            "door"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: Câu hoàn chỉnh là 'This is a dog.'. English: The complete sentence is 'This is a dog.'.",
+          "imageUrl": "emoji:🐶"
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Find the word: 'desk'",
+          "options": [
+            "cake",
+            "desk",
+            "mother",
+            "lemons"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'desk' là từ tiếng Anh đúng. English: 'desk' is the correct English word.",
+          "imageUrl": "emoji:🪑"
+        }
+      ]
+    }
+  ]
+}

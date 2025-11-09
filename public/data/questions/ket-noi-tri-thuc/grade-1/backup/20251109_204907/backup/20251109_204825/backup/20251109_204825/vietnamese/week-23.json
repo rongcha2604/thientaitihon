@@ -1,0 +1,295 @@
+{
+  "week": 23,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 23",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tôi đi học\", em học sinh đi đâu?",
+          "options": [
+            "đi học",
+            "đi chơi",
+            "đi mua sắm",
+            "đi du lịch"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong bài 'Tôi đi học', đáp án đúng là 'đi học'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ \"mái trường\" có nghĩa là gì?",
+          "options": [
+            "ngôi trường",
+            "lớp học",
+            "sân trường",
+            "phòng học"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'mái trường' có nghĩa là 'ngôi trường'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Đi học\", em học sinh cảm thấy như thế nào?",
+          "options": [
+            "vui vẻ",
+            "hứng thú",
+            "hạnh phúc",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Đi học', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ đồ vật trong trường học?",
+          "options": [
+            "bảng",
+            "phấn",
+            "bàn ghế",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ đồ vật trong trường học. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Hoa yêu thương\", hoa tượng trưng cho điều gì?",
+          "options": [
+            "tình yêu thương",
+            "sự quan tâm",
+            "lòng biết ơn",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Hoa yêu thương', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Từ \"yêu thương\" có nghĩa là gì?",
+          "options": [
+            "quan tâm, chăm sóc",
+            "ghét bỏ",
+            "xa cách",
+            "cãi nhau"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'yêu thương' có nghĩa là 'quan tâm, chăm sóc'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tôi đi học\", em học sinh mang theo gì?",
+          "options": [
+            "sách vở",
+            "bút chì",
+            "cặp sách",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Tôi đi học', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ hoạt động trong trường học?",
+          "options": [
+            "học bài",
+            "chơi thể thao",
+            "ăn trưa",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ hoạt động trong trường học. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Đi học\", em học sinh gặp ai?",
+          "options": [
+            "bạn bè",
+            "thầy cô",
+            "anh chị",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Đi học', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Từ \"mến yêu\" có nghĩa là gì?",
+          "options": [
+            "yêu thương",
+            "quý mến",
+            "kính trọng",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'mến yêu' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Hoa yêu thương\", ai được tặng hoa?",
+          "options": [
+            "thầy cô",
+            "bạn bè",
+            "bố mẹ",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Hoa yêu thương', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ tình cảm trong trường học?",
+          "options": [
+            "yêu thương",
+            "quan tâm",
+            "giúp đỡ",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ tình cảm trong trường học. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q13",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tôi đi học\", trường học là nơi như thế nào?",
+          "options": [
+            "vui vẻ",
+            "ấm áp",
+            "thân thiện",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Tôi đi học', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q14",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ người trong trường học?",
+          "options": [
+            "thầy cô",
+            "học sinh",
+            "bạn bè",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ người trong trường học. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q15",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Đi học\", em học sinh học được gì?",
+          "options": [
+            "kiến thức",
+            "kỹ năng",
+            "tình bạn",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Đi học', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q16",
+          "type": "multiple-choice",
+          "question": "Từ \"tượng trưng\" có nghĩa là gì?",
+          "options": [
+            "đại diện cho",
+            "thay thế",
+            "biểu hiện",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tượng trưng' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q17",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Hoa yêu thương\", hoa được tặng khi nào?",
+          "options": [
+            "ngày khai trường",
+            "ngày 20/11",
+            "ngày tốt nghiệp",
+            "bất kỳ lúc nào"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Hoa yêu thương', đáp án đúng là 'bất kỳ lúc nào'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q18",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ cảm xúc trong trường học?",
+          "options": [
+            "vui vẻ",
+            "hạnh phúc",
+            "hứng thú",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ cảm xúc trong trường học. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q19",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tôi đi học\", trường học mang lại gì cho em?",
+          "options": [
+            "kiến thức",
+            "tình bạn",
+            "kỹ năng",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Tôi đi học', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q20",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây thể hiện tình cảm với trường học?",
+          "options": [
+            "mến yêu",
+            "gắn bó",
+            "biết ơn",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Đáp án đúng là 'tất cả các đáp án trên'. Tất cả các lựa chọn đều đúng, nên câu trả lời là 'tất cả các đáp án trên'.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

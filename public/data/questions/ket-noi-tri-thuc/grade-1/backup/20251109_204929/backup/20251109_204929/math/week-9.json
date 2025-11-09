@@ -1,0 +1,183 @@
+{
+  "week": 9,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Phép cộng trong phạm vi 10",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "2 + 3 = ?",
+          "options": [
+            "7",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctAnswer": 2,
+          "explanation": "2 + 3 = 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "1 + 4 = ?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correctAnswer": 1,
+          "explanation": "1 + 4 = 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "4 + 1 = ?",
+          "options": [
+            "4",
+            "6",
+            "7",
+            "5"
+          ],
+          "correctAnswer": 3,
+          "explanation": "4 + 1 = 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "3 + 2 = ?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correctAnswer": 1,
+          "explanation": "3 + 2 = 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "1 + 5 = ?",
+          "options": [
+            "5",
+            "7",
+            "6",
+            "8"
+          ],
+          "correctAnswer": 2,
+          "explanation": "1 + 5 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "2 + 4 = ?",
+          "options": [
+            "8",
+            "5",
+            "7",
+            "6"
+          ],
+          "correctAnswer": 3,
+          "explanation": "2 + 4 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "3 + 3 = ?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctAnswer": 1,
+          "explanation": "3 + 3 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "4 + 2 = ?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "5"
+          ],
+          "correctAnswer": 0,
+          "explanation": "4 + 2 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "5 + 1 = ?",
+          "options": [
+            "5",
+            "7",
+            "8",
+            "6"
+          ],
+          "correctAnswer": 3,
+          "explanation": "5 + 1 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Có 3 quả táo, thêm 3 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "6 quả",
+            "5 quả",
+            "7 quả",
+            "8 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "3 + 3 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Có 2 cái kẹo, mẹ cho thêm 4 cái nữa. Hỏi có tất cả bao nhiêu cái kẹo?",
+          "options": [
+            "5 cái",
+            "8 cái",
+            "6 cái",
+            "7 cái"
+          ],
+          "correctAnswer": 2,
+          "explanation": "2 + 4 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Có 4 con gà, thêm 2 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "6 con",
+            "7 con",
+            "8 con",
+            "5 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "4 + 2 = 6",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

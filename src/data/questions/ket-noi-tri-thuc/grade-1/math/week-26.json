@@ -1,0 +1,253 @@
+{
+  "week": 26,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Phép cộng số có hai chữ số với số có một chữ số",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "24 + 5 = ?",
+          "options": [
+            "29",
+            "28",
+            "30",
+            "31"
+          ],
+          "correctAnswer": 0,
+          "explanation": "24 + 5 = 29",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "46 + 3 = ?",
+          "options": [
+            "48",
+            "51",
+            "50",
+            "49"
+          ],
+          "correctAnswer": 3,
+          "explanation": "46 + 3 = 49",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "35 + 4 = ?",
+          "options": [
+            "39",
+            "38",
+            "40",
+            "41"
+          ],
+          "correctAnswer": 0,
+          "explanation": "35 + 4 = 39",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "68 + 1 = ?",
+          "options": [
+            "70",
+            "68",
+            "69",
+            "71"
+          ],
+          "correctAnswer": 2,
+          "explanation": "68 + 1 = 69",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "57 + 2 = ?",
+          "options": [
+            "58",
+            "59",
+            "61",
+            "60"
+          ],
+          "correctAnswer": 1,
+          "explanation": "57 + 2 = 59",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 5 con gà, thêm 8 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "12 con",
+            "15 con",
+            "13 con",
+            "14 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "5 + 8 = 13",
+          "imageUrl": null,
+          "id": "q6"
+        },
+        {
+          "question": "Có 10 quả cam, thêm 5 quả nữa. Hỏi có tất cả bao nhiêu quả cam?",
+          "options": [
+            "16 quả",
+            "18 quả",
+            "17 quả",
+            "15 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "10 + 5 = 15",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "Có 9 cái kẹo, cho bạn 8 cái. Hỏi còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "3 cái",
+            "4 cái",
+            "1 cái",
+            "2 cái"
+          ],
+          "correctAnswer": 2,
+          "explanation": "9 - 8 = 1",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "Có 17 quả táo, ăn mất 12 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "6 quả",
+            "5 quả",
+            "4 quả",
+            "8 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "17 - 12 = 5",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "Có 8 quả táo, thêm 10 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "18 quả",
+            "16 quả",
+            "15 quả",
+            "21 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "8 + 10 = 18",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "14 - 7 = ?",
+          "options": [
+            "10",
+            "7",
+            "5",
+            "9"
+          ],
+          "correctAnswer": 1,
+          "explanation": "14 - 7 = 7",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 20 quả táo, ăn mất 11 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "12 quả",
+            "6 quả",
+            "10 quả",
+            "9 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "20 - 11 = 9",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Phép trừ số có hai chữ số cho số có một chữ số (tiết 1)",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "29 - 4 = ?",
+          "options": [
+            "25",
+            "24",
+            "26",
+            "27"
+          ],
+          "correctAnswer": 0,
+          "explanation": "29 - 4 = 25",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "38 - 5 = ?",
+          "options": [
+            "32",
+            "33",
+            "34",
+            "35"
+          ],
+          "correctAnswer": 1,
+          "explanation": "38 - 5 = 33",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "47 - 6 = ?",
+          "options": [
+            "40",
+            "42",
+            "41",
+            "43"
+          ],
+          "correctAnswer": 2,
+          "explanation": "47 - 6 = 41",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "56 - 7 = ?",
+          "options": [
+            "48",
+            "50",
+            "51",
+            "49"
+          ],
+          "correctAnswer": 3,
+          "explanation": "56 - 7 = 49",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "65 - 8 = ?",
+          "options": [
+            "57",
+            "56",
+            "58",
+            "59"
+          ],
+          "correctAnswer": 0,
+          "explanation": "65 - 8 = 57",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

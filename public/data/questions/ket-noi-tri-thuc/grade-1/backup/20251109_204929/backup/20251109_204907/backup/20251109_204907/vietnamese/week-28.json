@@ -1,0 +1,183 @@
+{
+  "week": 28,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 28",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Chú bé chăn cừu\", chú bé làm gì?",
+          "options": [
+            "chăn ngựa",
+            "chăn bò",
+            "chăn dê",
+            "chăn cừu"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Chú bé chăn cừu', đáp án đúng là 'chăn cừu'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tiếng vọng của núi\", tiếng vọng là gì?",
+          "options": [
+            "âm thanh phản hồi",
+            "tiếng vang",
+            "tất cả các đáp án trên",
+            "tiếng dội lại"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong bài 'Tiếng vọng của núi', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ \"chăn cừu\" có nghĩa là gì?",
+          "options": [
+            "chăm sóc cừu",
+            "cho cừu ăn",
+            "dẫn cừu đi",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'chăn cừu' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Từ \"tiếng vọng\" có nghĩa là gì?",
+          "options": [
+            "âm thanh dội lại",
+            "tiếng vang",
+            "tất cả các đáp án trên",
+            "tiếng phản hồi"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ 'tiếng vọng' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Chú bé chăn cừu\", chú bé học được bài học gì?",
+          "options": [
+            "tất cả các đáp án trên",
+            "phải trung thực",
+            "phải có trách nhiệm",
+            "không nên nói dối"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong bài 'Chú bé chăn cừu', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Từ \"trung thực\" có nghĩa là gì?",
+          "options": [
+            "thật thà",
+            "tất cả các đáp án trên",
+            "chân thành",
+            "không nói dối"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'trung thực' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ bài học từ cuộc sống?",
+          "options": [
+            "trung thực",
+            "trách nhiệm",
+            "tất cả các đáp án trên",
+            "yêu thương"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ bài học từ cuộc sống. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tiếng vọng của núi\", tiếng vọng dạy ta điều gì?",
+          "options": [
+            "cách đối xử",
+            "tất cả các đáp án trên",
+            "cách cư xử",
+            "cách nói chuyện"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong bài 'Tiếng vọng của núi', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Từ \"nói dối\" có nghĩa là gì?",
+          "options": [
+            "tất cả các đáp án trên",
+            "nói sai",
+            "lừa dối",
+            "nói không đúng sự thật"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'nói dối' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Chú bé chăn cừu\", chú bé gặp vấn đề gì?",
+          "options": [
+            "nói dối",
+            "tất cả các đáp án trên",
+            "không ai tin",
+            "mất cừu"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong bài 'Chú bé chăn cừu', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tiếng vọng của núi\", khi em nói điều gì, tiếng vọng sẽ trả lại điều gì?",
+          "options": [
+            "điều tương tự",
+            "điều em nói",
+            "điều em làm",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Tiếng vọng của núi', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Từ \"phản hồi\" có nghĩa là gì?",
+          "options": [
+            "tất cả các đáp án trên",
+            "đáp lại",
+            "phản ứng",
+            "trả lại"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'phản hồi' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

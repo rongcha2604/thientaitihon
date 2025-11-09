@@ -1,0 +1,163 @@
+{
+  "week": 33,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập các số và phép tính trong phạm vi 10",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "7 + 2 = ?",
+          "options": [
+            "9",
+            "8",
+            "10",
+            "11"
+          ],
+          "correctAnswer": 0,
+          "explanation": "7 + 2 = 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "9 - 3 = ?",
+          "options": [
+            "6",
+            "5",
+            "7",
+            "8"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 - 3 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Có 8 quả táo, thêm 2 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "9 quả",
+            "10 quả",
+            "11 quả",
+            "12 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "8 + 2 = 10",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Có 10 con gà, bay đi 5 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "4 con",
+            "5 con",
+            "6 con",
+            "7 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "10 - 5 = 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ nhất trong các số: 8, 2, 6, 4?",
+          "options": [
+            "2",
+            "8",
+            "6",
+            "4"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 2 là số nhỏ nhất trong các số 8, 2, 6, 4",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Ôn tập các số và phép tính trong phạm vi 100",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "45 + 23 = ?",
+          "options": [
+            "68",
+            "67",
+            "69",
+            "70"
+          ],
+          "correctAnswer": 0,
+          "explanation": "45 + 23 = 68",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "78 - 34 = ?",
+          "options": [
+            "44",
+            "43",
+            "45",
+            "46"
+          ],
+          "correctAnswer": 0,
+          "explanation": "78 - 34 = 44",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 23, 32, 45, 54?",
+          "options": [
+            "23",
+            "32",
+            "45",
+            "54"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 54 là số lớn nhất trong các số 23, 32, 45, 54",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ nhất trong các số: 67, 76, 89, 98?",
+          "options": [
+            "76",
+            "67",
+            "89",
+            "98"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 67 là số nhỏ nhất trong các số 67, 76, 89, 98",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Số 56 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "6 chục và 5 đơn vị",
+            "5 chục và 6 đơn vị",
+            "5 chục và 5 đơn vị",
+            "6 chục và 6 đơn vị"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 56 gồm 5 chục và 6 đơn vị",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

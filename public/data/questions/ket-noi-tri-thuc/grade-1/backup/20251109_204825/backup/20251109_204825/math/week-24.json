@@ -1,0 +1,86 @@
+{
+  "week": 24,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Thực hành ước lượng và đo độ dài",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Ước lượng: Bàn học dài khoảng bao nhiêu?",
+          "options": [
+            "Khoảng 100cm",
+            "Khoảng 50cm",
+            "Khoảng 200cm",
+            "Khoảng 500cm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Bàn học thường dài khoảng 100cm (1 mét)",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Ước lượng: Bút chì dài khoảng bao nhiêu?",
+          "options": [
+            "Khoảng 5cm",
+            "Khoảng 15cm",
+            "Khoảng 25cm",
+            "Khoảng 50cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Bút chì thường dài khoảng 15cm",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Ước lượng: Thước kẻ dài khoảng bao nhiêu?",
+          "options": [
+            "Khoảng 10cm",
+            "Khoảng 20cm",
+            "Khoảng 30cm",
+            "Khoảng 50cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thước kẻ thường dài khoảng 20cm",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Thực hành đo: Đo độ dài bàn học bằng thước kẻ 20cm. Bàn học dài khoảng bao nhiêu?",
+          "options": [
+            "Khoảng 40cm",
+            "Khoảng 60cm",
+            "Khoảng 80cm",
+            "Khoảng 100cm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bàn học thường dài khoảng 100cm (5 lần thước kẻ 20cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Luyện tập chung: Vật nào dài hơn: sợi dây 30cm hay sợi dây 40cm?",
+          "options": [
+            "Sợi dây 30cm dài hơn",
+            "Sợi dây 40cm dài hơn",
+            "Bằng nhau",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 1,
+          "explanation": "40cm > 30cm nên sợi dây 40cm dài hơn",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

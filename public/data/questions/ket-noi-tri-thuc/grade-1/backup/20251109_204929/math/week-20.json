@@ -1,0 +1,253 @@
+{
+  "week": 20,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Số có hai chữ số",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số 25 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "2 chục và 2 đơn vị",
+            "5 chục và 2 đơn vị",
+            "2 chục và 5 đơn vị",
+            "5 chục và 5 đơn vị"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 25 gồm 2 chục và 5 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số 58 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "8 chục và 5 đơn vị",
+            "5 chục và 5 đơn vị",
+            "8 chục và 8 đơn vị",
+            "5 chục và 8 đơn vị"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 58 gồm 5 chục và 8 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số 36 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "6 chục và 6 đơn vị",
+            "6 chục và 3 đơn vị",
+            "3 chục và 6 đơn vị",
+            "3 chục và 3 đơn vị"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 36 gồm 3 chục và 6 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Số 47 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "7 chục và 4 đơn vị",
+            "7 chục và 7 đơn vị",
+            "4 chục và 4 đơn vị",
+            "4 chục và 7 đơn vị"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 47 gồm 4 chục và 7 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Số 69 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "9 chục và 6 đơn vị",
+            "6 chục và 9 đơn vị",
+            "6 chục và 6 đơn vị",
+            "9 chục và 9 đơn vị"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 69 gồm 6 chục và 9 đơn vị",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 8 cái kẹo, cho bạn 5 cái. Hỏi còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "3 cái",
+            "6 cái",
+            "4 cái",
+            "2 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "8 - 5 = 3",
+          "imageUrl": null,
+          "id": "q6"
+        },
+        {
+          "question": "Có 8 quả cam, thêm 8 quả nữa. Hỏi có tất cả bao nhiêu quả cam?",
+          "options": [
+            "19 quả",
+            "16 quả",
+            "17 quả",
+            "13 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "8 + 8 = 16",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "Có 8 con gà, thêm 11 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "19 con",
+            "22 con",
+            "17 con",
+            "18 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "8 + 11 = 19",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "14 - 8 = ?",
+          "options": [
+            "8",
+            "6",
+            "3",
+            "4"
+          ],
+          "correctAnswer": 1,
+          "explanation": "14 - 8 = 6",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "Có 17 cái kẹo, thêm 2 cái nữa. Hỏi có tất cả bao nhiêu cái kẹo?",
+          "options": [
+            "20 cái",
+            "16 cái",
+            "19 cái",
+            "17 cái"
+          ],
+          "correctAnswer": 2,
+          "explanation": "17 + 2 = 19",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "Có 16 cái kẹo, thêm 4 cái nữa. Hỏi có tất cả bao nhiêu cái kẹo?",
+          "options": [
+            "20 cái",
+            "19 cái",
+            "18 cái",
+            "23 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "16 + 4 = 20",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 18 cái kẹo, cho bạn 11 cái. Hỏi còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "10 cái",
+            "9 cái",
+            "8 cái",
+            "7 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "18 - 11 = 7",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "So sánh số có hai chữ số",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Số nào lớn hơn: 23 hay 32?",
+          "options": [
+            "23 lớn hơn 32",
+            "32 lớn hơn 23",
+            "Bằng nhau",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 1,
+          "explanation": "32 > 23 nên số 32 lớn hơn số 23",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ hơn: 45 hay 54?",
+          "options": [
+            "45 nhỏ hơn 54",
+            "54 nhỏ hơn 45",
+            "Bằng nhau",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 0,
+          "explanation": "45 < 54 nên số 45 nhỏ hơn số 54",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 23, 32, 45, 54?",
+          "options": [
+            "23",
+            "32",
+            "45",
+            "54"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 54 là số lớn nhất trong các số 23, 32, 45, 54",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ nhất trong các số: 67, 76, 89, 98?",
+          "options": [
+            "67",
+            "76",
+            "89",
+            "98"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 67 là số nhỏ nhất trong các số 67, 76, 89, 98",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Điền dấu thích hợp: 34 ... 43",
+          "options": [
+            "34 > 43",
+            "34 < 43",
+            "34 = 43",
+            "Không điền được"
+          ],
+          "correctAnswer": 1,
+          "explanation": "34 < 43 nên điền dấu <",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

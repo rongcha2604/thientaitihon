@@ -1,0 +1,155 @@
+{
+  "week": 3,
+  "subject": "english",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-3",
+      "title": "Unit 3: At the street market",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "What letter is this: 'A'?",
+          "options": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: Đây là chữ cái 'A' (đọc là 'a'). English: This is the letter 'A'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Which word starts with 'A'?",
+          "options": [
+            "locks",
+            "goat",
+            "apple",
+            "monkey"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tiếng Việt: Từ 'apple' bắt đầu bằng chữ 'A'. English: The word 'apple' starts with the letter 'A'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "What is the English word for this picture?",
+          "options": [
+            "apple",
+            "truck",
+            "horse",
+            "milk"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: 'apple' là từ tiếng Anh đúng. English: 'apple' is the correct English word.",
+          "imageUrl": "emoji:🍎"
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "How do you pronounce the letter 'A'?",
+          "options": [
+            "/w/",
+            "/k/",
+            "/ɪ/",
+            "/æ/"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tiếng Việt: Chữ 'A' được phát âm là /æ/. English: The letter 'A' is pronounced /æ/.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Choose the correct word: bag",
+          "options": [
+            "bag",
+            "horse",
+            "bananas",
+            "truck"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: 'bag' là từ tiếng Anh đúng. English: 'bag' is the correct English word.",
+          "imageUrl": "emoji:👜"
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Which word matches this?",
+          "options": [
+            "bus",
+            "girl",
+            "mops",
+            "can"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tiếng Việt: 'can' là từ tiếng Anh đúng. English: 'can' is the correct English word.",
+          "imageUrl": "emoji:🥫"
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Select the right word: hat",
+          "options": [
+            "noodles",
+            "bag",
+            "hat",
+            "pen"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tiếng Việt: 'hat' là từ tiếng Anh đúng. English: 'hat' is the correct English word.",
+          "imageUrl": "emoji:👒"
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Complete the sentence: This is my _____.",
+          "options": [
+            "hat",
+            "bag",
+            "can",
+            "apple"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: Câu hoàn chỉnh là 'This is my bag.'. English: The complete sentence is 'This is my bag.'.",
+          "imageUrl": "emoji:👜"
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Which sentence means 'Đây là cặp của tôi.'?",
+          "options": [
+            "This is my bag.",
+            "There's a garden.",
+            "Bye, Bill.",
+            "This is a dog."
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: 'This is my bag.' có nghĩa là 'Đây là cặp của tôi.'. English: 'This is my bag.' means 'Đây là cặp của tôi.'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Find the word: 'apple'",
+          "options": [
+            "clocks",
+            "apple",
+            "fish",
+            "goat"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'apple' là từ tiếng Anh đúng. English: 'apple' is the correct English word.",
+          "imageUrl": "emoji:🍎"
+        }
+      ]
+    }
+  ]
+}

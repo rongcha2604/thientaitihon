@@ -1,0 +1,2954 @@
+{
+  "bookInfo": {
+    "title": "Toán lớp 1 - Học kỳ 2",
+    "series": "Kết nối tri thức với cuộc sống",
+    "totalWeeks": 17,
+    "totalTests": 17,
+    "questionsPerTest": 15,
+    "estimatedTimePerTest": "15-20 phút"
+  },
+  "tests": [
+    {
+      "id": 1,
+      "week": 19,
+      "title": "TUẦN 19",
+      "description": "Các số đến 100 - Số có hai chữ số",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Số 10 có mấy chữ số?",
+          "options": {
+            "A": "1",
+            "B": "3",
+            "C": "2",
+            "D": "4"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 2,
+          "question": "Số 25 có mấy chữ số?",
+          "options": {
+            "A": "1",
+            "B": "3",
+            "C": "2",
+            "D": "4"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 3,
+          "question": "Số 10 đọc là gì?",
+          "options": {
+            "A": "Một",
+            "B": "Một mươi",
+            "C": "Mười một",
+            "D": "Mười"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 4,
+          "question": "Số 20 đọc là gì?",
+          "options": {
+            "A": "Hai",
+            "B": "Mười hai",
+            "C": "Hai mười",
+            "D": "Hai mươi"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "Số 11 đọc là gì?",
+          "options": {
+            "A": "Mười",
+            "B": "Một mười",
+            "C": "Mười hai",
+            "D": "Mười một"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 6,
+          "question": "Số 12 đọc là gì?",
+          "options": {
+            "A": "Mười một",
+            "B": "Mười ba",
+            "C": "Mười bốn",
+            "D": "Mười hai"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 7,
+          "question": "Số 15 đọc là gì?",
+          "options": {
+            "A": "Mười bốn",
+            "B": "Mười sáu",
+            "C": "Mười bảy",
+            "D": "Mười lăm"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 8,
+          "question": "Số 21 đọc là gì?",
+          "options": {
+            "A": "Hai mươi",
+            "B": "Hai mươi hai",
+            "C": "Hai mươi ba",
+            "D": "Hai mươi mốt"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 9,
+          "question": "Số 30 đọc là gì?",
+          "options": {
+            "A": "Ba",
+            "B": "Mười ba",
+            "C": "Ba mười",
+            "D": "Ba mươi"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 10,
+          "question": "Số 40 đọc là gì?",
+          "options": {
+            "A": "Bốn",
+            "B": "Mười bốn",
+            "C": "Bốn mười",
+            "D": "Bốn mươi"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 11,
+          "question": "Số 50 đọc là gì?",
+          "options": {
+            "A": "Năm",
+            "B": "Mười năm",
+            "C": "Năm mười",
+            "D": "Năm mươi"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 12,
+          "question": "Số 60 đọc là gì?",
+          "options": {
+            "A": "Sáu",
+            "B": "Mười sáu",
+            "C": "Sáu mười",
+            "D": "Sáu mươi"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 13,
+          "question": "Số 70 đọc là gì?",
+          "options": {
+            "A": "Bảy",
+            "B": "Mười bảy",
+            "C": "Bảy mười",
+            "D": "Bảy mươi"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 14,
+          "question": "Số 80 đọc là gì?",
+          "options": {
+            "A": "Tám",
+            "B": "Mười tám",
+            "C": "Tám mười",
+            "D": "Tám mươi"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 15,
+          "question": "Số 90 đọc là gì?",
+          "options": {
+            "A": "Chín",
+            "B": "Mười chín",
+            "C": "Chín mười",
+            "D": "Chín mươi"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "week": 20,
+      "title": "TUẦN 20",
+      "description": "Các số đến 100 - Số có hai chữ số, So sánh số có hai chữ số",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Số 25 và số 30, số nào lớn hơn?",
+          "options": {
+            "A": "25",
+            "B": "Bằng nhau",
+            "C": "Không so sánh được",
+            "D": "30"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 2,
+          "question": "Số 15 và số 20, số nào nhỏ hơn?",
+          "options": {
+            "A": "15",
+            "B": "20",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "So sánh: 35 và 30. Kết quả nào đúng?",
+          "options": {
+            "A": "35 > 30",
+            "B": "35 < 30",
+            "C": "35 = 30",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "So sánh: 20 và 25. Kết quả nào đúng?",
+          "options": {
+            "A": "20 > 25",
+            "B": "20 = 25",
+            "C": "Không so sánh được",
+            "D": "20 < 25"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "So sánh: 40 và 40. Kết quả nào đúng?",
+          "options": {
+            "A": "40 > 40",
+            "B": "40 < 40",
+            "C": "40 = 40",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "Số nào lớn nhất: 15, 25, 35, 20?",
+          "options": {
+            "A": "15",
+            "B": "25",
+            "C": "35",
+            "D": "20"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 7,
+          "question": "Số nào nhỏ nhất: 30, 20, 40, 25?",
+          "options": {
+            "A": "30",
+            "B": "40",
+            "C": "25",
+            "D": "20"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 8,
+          "question": "Số 18 đọc là gì?",
+          "options": {
+            "A": "Mười bảy",
+            "B": "Mười chín",
+            "C": "Hai mươi",
+            "D": "Mười tám"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 9,
+          "question": "Số 19 đọc là gì?",
+          "options": {
+            "A": "Mười tám",
+            "B": "Hai mươi",
+            "C": "Hai mươi mốt",
+            "D": "Mười chín"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 10,
+          "question": "Số 22 đọc là gì?",
+          "options": {
+            "A": "Hai mươi",
+            "B": "Hai mươi ba",
+            "C": "Hai mươi bốn",
+            "D": "Hai mươi hai"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 11,
+          "question": "Số 33 đọc là gì?",
+          "options": {
+            "A": "Ba mươi",
+            "B": "Ba mươi ba",
+            "C": "Ba mươi bốn",
+            "D": "Ba mươi lăm"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": "Số 44 đọc là gì?",
+          "options": {
+            "A": "Bốn mươi",
+            "B": "Bốn mươi bốn",
+            "C": "Bốn mươi lăm",
+            "D": "Bốn mươi sáu"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "Số 55 đọc là gì?",
+          "options": {
+            "A": "Năm mươi",
+            "B": "Năm mươi lăm",
+            "C": "Năm mươi sáu",
+            "D": "Năm mươi bảy"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 14,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 25, 15, 35, 20",
+          "options": {
+            "A": "15, 20, 25, 35",
+            "B": "35, 25, 20, 15",
+            "C": "25, 15, 35, 20",
+            "D": "15, 25, 20, 35"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Sắp xếp các số sau theo thứ tự từ lớn đến nhỏ: 30, 20, 40, 25",
+          "options": {
+            "A": "20, 25, 30, 40",
+            "B": "40, 30, 25, 20",
+            "C": "30, 20, 40, 25",
+            "D": "40, 25, 30, 20"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "week": 21,
+      "title": "TUẦN 21",
+      "description": "So sánh số có hai chữ số - Bảng các số từ 1 đến 100",
+      "questions": [
+        {
+          "id": 1,
+          "question": "So sánh: 45 và 50. Kết quả nào đúng?",
+          "options": {
+            "A": "45 > 50",
+            "B": "45 < 50",
+            "C": "45 = 50",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "So sánh: 60 và 55. Kết quả nào đúng?",
+          "options": {
+            "A": "60 > 55",
+            "B": "60 < 55",
+            "C": "60 = 55",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Số nào lớn nhất: 45, 55, 35, 50?",
+          "options": {
+            "A": "45",
+            "B": "35",
+            "C": "50",
+            "D": "55"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 4,
+          "question": "Số nào nhỏ nhất: 60, 50, 70, 55?",
+          "options": {
+            "A": "60",
+            "B": "70",
+            "C": "55",
+            "D": "50"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "Số 66 đọc là gì?",
+          "options": {
+            "A": "Sáu mươi",
+            "B": "Sáu mươi bảy",
+            "C": "Sáu mươi tám",
+            "D": "Sáu mươi sáu"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 6,
+          "question": "Số 77 đọc là gì?",
+          "options": {
+            "A": "Bảy mươi",
+            "B": "Bảy mươi tám",
+            "C": "Bảy mươi chín",
+            "D": "Bảy mươi bảy"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 7,
+          "question": "Số 88 đọc là gì?",
+          "options": {
+            "A": "Tám mươi",
+            "B": "Tám mươi chín",
+            "C": "Chín mươi",
+            "D": "Tám mươi tám"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 8,
+          "question": "Số 99 đọc là gì?",
+          "options": {
+            "A": "Chín mươi",
+            "B": "Một trăm",
+            "C": "Chín mươi tám",
+            "D": "Chín mươi chín"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 9,
+          "question": "Số 100 đọc là gì?",
+          "options": {
+            "A": "Chín mươi chín",
+            "B": "Một không không",
+            "C": "Mười không",
+            "D": "Một trăm"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 10,
+          "question": "Số 100 có mấy chữ số?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 45, 55, 35, 50",
+          "options": {
+            "A": "35, 45, 50, 55",
+            "B": "55, 50, 45, 35",
+            "C": "45, 55, 35, 50",
+            "D": "35, 50, 45, 55"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Sắp xếp các số sau theo thứ tự từ lớn đến nhỏ: 60, 50, 70, 55",
+          "options": {
+            "A": "50, 55, 60, 70",
+            "B": "70, 60, 55, 50",
+            "C": "60, 50, 70, 55",
+            "D": "70, 55, 60, 50"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "Số nào đứng sau số 49?",
+          "options": {
+            "A": "48",
+            "B": "49",
+            "C": "50",
+            "D": "51"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Số nào đứng trước số 60?",
+          "options": {
+            "A": "58",
+            "B": "59",
+            "C": "60",
+            "D": "61"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Số nào nằm giữa 45 và 47?",
+          "options": {
+            "A": "44",
+            "B": "45",
+            "C": "46",
+            "D": "47"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "week": 22,
+      "title": "TUẦN 22",
+      "description": "Luyện tập chung",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Số 50 đọc là gì?",
+          "options": {
+            "A": "Năm",
+            "B": "Mười năm",
+            "C": "Năm mười",
+            "D": "Năm mươi"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 2,
+          "question": "So sánh: 35 và 40. Kết quả nào đúng?",
+          "options": {
+            "A": "35 > 40",
+            "B": "35 = 40",
+            "C": "Không so sánh được",
+            "D": "35 < 40"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 3,
+          "question": "Số nào lớn nhất: 25, 35, 15, 30?",
+          "options": {
+            "A": "25",
+            "B": "15",
+            "C": "30",
+            "D": "35"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 4,
+          "question": "Số nào nhỏ nhất: 40, 30, 50, 35?",
+          "options": {
+            "A": "40",
+            "B": "50",
+            "C": "35",
+            "D": "30"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "Số 75 đọc là gì?",
+          "options": {
+            "A": "Bảy mươi",
+            "B": "Bảy mươi sáu",
+            "C": "Bảy mươi bảy",
+            "D": "Bảy mươi lăm"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 6,
+          "question": "Số 85 đọc là gì?",
+          "options": {
+            "A": "Tám mươi",
+            "B": "Tám mươi sáu",
+            "C": "Tám mươi bảy",
+            "D": "Tám mươi lăm"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 7,
+          "question": "Số 95 đọc là gì?",
+          "options": {
+            "A": "Chín mươi",
+            "B": "Chín mươi sáu",
+            "C": "Chín mươi bảy",
+            "D": "Chín mươi lăm"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 8,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 35, 25, 45, 30",
+          "options": {
+            "A": "25, 30, 35, 45",
+            "B": "45, 35, 30, 25",
+            "C": "35, 25, 45, 30",
+            "D": "25, 35, 30, 45"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 9,
+          "question": "Sắp xếp các số sau theo thứ tự từ lớn đến nhỏ: 50, 40, 60, 45",
+          "options": {
+            "A": "40, 45, 50, 60",
+            "B": "50, 40, 60, 45",
+            "C": "60, 45, 50, 40",
+            "D": "60, 50, 45, 40"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 10,
+          "question": "Số nào đứng sau số 59?",
+          "options": {
+            "A": "58",
+            "B": "59",
+            "C": "60",
+            "D": "61"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "Số nào đứng trước số 70?",
+          "options": {
+            "A": "68",
+            "B": "70",
+            "C": "71",
+            "D": "69"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 12,
+          "question": "Số nào nằm giữa 55 và 57?",
+          "options": {
+            "A": "54",
+            "B": "55",
+            "C": "56",
+            "D": "57"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 13,
+          "question": "So sánh: 65 và 65. Kết quả nào đúng?",
+          "options": {
+            "A": "65 > 65",
+            "B": "65 < 65",
+            "C": "65 = 65",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Số 100 có bao nhiêu chữ số?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 15,
+          "question": "Số 100 đọc là gì?",
+          "options": {
+            "A": "Chín mươi chín",
+            "B": "Một trăm",
+            "C": "Một không không",
+            "D": "Mười không"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "week": 23,
+      "title": "TUẦN 23",
+      "description": "Độ dài và đo độ dài - Dài hơn, ngắn hơn",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Cái bút chì dài hơn hay cái thước kẻ dài hơn? (Cái thước kẻ dài hơn)",
+          "options": {
+            "A": "Cái bút chì dài hơn",
+            "B": "Cái thước kẻ dài hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Cái bút chì ngắn hơn hay cái thước kẻ ngắn hơn? (Cái bút chì ngắn hơn)",
+          "options": {
+            "A": "Cái bút chì ngắn hơn",
+            "B": "Cái thước kẻ ngắn hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Cái bàn dài hơn hay cái ghế dài hơn? (Cái bàn dài hơn)",
+          "options": {
+            "A": "Cái bàn dài hơn",
+            "B": "Cái ghế dài hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "Cái ghế ngắn hơn hay cái bàn ngắn hơn? (Cái ghế ngắn hơn)",
+          "options": {
+            "A": "Cái ghế ngắn hơn",
+            "B": "Cái bàn ngắn hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "Cái thước dài 20 cm và cái bút chì dài 15 cm. Cái nào dài hơn?",
+          "options": {
+            "A": "Cái thước",
+            "B": "Cái bút chì",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "Cái bút chì dài 15 cm và cái thước dài 20 cm. Cái nào ngắn hơn?",
+          "options": {
+            "A": "Cái thước",
+            "B": "Cái bút chì",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Đơn vị đo độ dài nào sau đây thường dùng để đo chiều dài?",
+          "options": {
+            "A": "Kilogram",
+            "B": "Centimet",
+            "C": "Lít",
+            "D": "Giờ"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "So sánh: 25 và 30. Kết quả nào đúng?",
+          "options": {
+            "A": "25 > 30",
+            "B": "25 < 30",
+            "C": "25 = 30",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Số 45 đọc là gì?",
+          "options": {
+            "A": "Bốn mươi",
+            "B": "Bốn mươi lăm",
+            "C": "Bốn mươi sáu",
+            "D": "Bốn mươi bảy"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "Số nào lớn nhất: 35, 45, 25, 40?",
+          "options": {
+            "A": "35",
+            "B": "45",
+            "C": "25",
+            "D": "40"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 11,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 30, 20, 40, 25",
+          "options": {
+            "A": "20, 25, 30, 40",
+            "B": "40, 30, 25, 20",
+            "C": "30, 20, 40, 25",
+            "D": "20, 30, 25, 40"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Số 100 đọc là gì?",
+          "options": {
+            "A": "Chín mươi chín",
+            "B": "Một trăm",
+            "C": "Một không không",
+            "D": "Mười không"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "So sánh: 50 và 50. Kết quả nào đúng?",
+          "options": {
+            "A": "50 > 50",
+            "B": "50 < 50",
+            "C": "50 = 50",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Số nào đứng sau số 79?",
+          "options": {
+            "A": "78",
+            "B": "79",
+            "C": "80",
+            "D": "81"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 15,
+          "question": "Số nào đứng trước số 90?",
+          "options": {
+            "A": "88",
+            "B": "89",
+            "C": "90",
+            "D": "91"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "week": 24,
+      "title": "TUẦN 24",
+      "description": "Độ dài và đo độ dài - Đơn vị đo độ dài, Thực hành ước lượng và đo độ dài",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Đơn vị đo độ dài thường dùng là gì?",
+          "options": {
+            "A": "Centimet (cm)",
+            "B": "Kilogram (kg)",
+            "C": "Lít (l)",
+            "D": "Giờ (h)"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "Cái bút chì dài khoảng bao nhiêu centimet?",
+          "options": {
+            "A": "5 cm",
+            "B": "50 cm",
+            "C": "100 cm",
+            "D": "15 cm"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 3,
+          "question": "Cái thước kẻ dài khoảng bao nhiêu centimet?",
+          "options": {
+            "A": "10 cm",
+            "B": "50 cm",
+            "C": "100 cm",
+            "D": "20 cm"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 4,
+          "question": "Cái bàn dài khoảng bao nhiêu centimet?",
+          "options": {
+            "A": "50 cm",
+            "B": "150 cm",
+            "C": "200 cm",
+            "D": "100 cm"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "Em có thể dùng thước để đo độ dài của vật gì?",
+          "options": {
+            "A": "Cái bút chì",
+            "B": "Cái thước kẻ",
+            "C": "Cái bàn",
+            "D": "Tất cả đều đúng"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 6,
+          "question": "Một vật dài 10 cm, vật đó dài hơn hay ngắn hơn vật dài 15 cm?",
+          "options": {
+            "A": "Dài hơn",
+            "B": "Bằng nhau",
+            "C": "Không so sánh được",
+            "D": "Ngắn hơn"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 7,
+          "question": "Một vật dài 20 cm, vật đó dài hơn hay ngắn hơn vật dài 15 cm?",
+          "options": {
+            "A": "Dài hơn",
+            "B": "Ngắn hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 8,
+          "question": "So sánh: 60 và 55. Kết quả nào đúng?",
+          "options": {
+            "A": "60 > 55",
+            "B": "60 < 55",
+            "C": "60 = 55",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 9,
+          "question": "Số 65 đọc là gì?",
+          "options": {
+            "A": "Sáu mươi",
+            "B": "Sáu mươi sáu",
+            "C": "Sáu mươi bảy",
+            "D": "Sáu mươi lăm"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 10,
+          "question": "Số nào lớn nhất: 55, 65, 45, 60?",
+          "options": {
+            "A": "55",
+            "B": "45",
+            "C": "60",
+            "D": "65"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 11,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 45, 55, 35, 50",
+          "options": {
+            "A": "35, 45, 50, 55",
+            "B": "55, 50, 45, 35",
+            "C": "45, 55, 35, 50",
+            "D": "35, 50, 45, 55"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Số 70 đọc là gì?",
+          "options": {
+            "A": "Bảy",
+            "B": "Mười bảy",
+            "C": "Bảy mười",
+            "D": "Bảy mươi"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 13,
+          "question": "Số nào đứng sau số 69?",
+          "options": {
+            "A": "68",
+            "B": "69",
+            "C": "70",
+            "D": "71"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "So sánh: 75 và 70. Kết quả nào đúng?",
+          "options": {
+            "A": "75 > 70",
+            "B": "75 < 70",
+            "C": "75 = 70",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Số nào nằm giữa 65 và 67?",
+          "options": {
+            "A": "64",
+            "B": "65",
+            "C": "66",
+            "D": "67"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "week": 25,
+      "title": "TUẦN 25",
+      "description": "Độ dài và đo độ dài - Luyện tập chung",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Cái bút chì dài 15 cm và cái thước dài 20 cm. Cái nào dài hơn?",
+          "options": {
+            "A": "Cái bút chì",
+            "B": "Bằng nhau",
+            "C": "Không so sánh được",
+            "D": "Cái thước"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 2,
+          "question": "Cái bút chì dài 15 cm và cái thước dài 20 cm. Cái nào ngắn hơn?",
+          "options": {
+            "A": "Cái bút chì",
+            "B": "Cái thước",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Một vật dài 25 cm, vật đó dài hơn hay ngắn hơn vật dài 30 cm?",
+          "options": {
+            "A": "Dài hơn",
+            "B": "Bằng nhau",
+            "C": "Không so sánh được",
+            "D": "Ngắn hơn"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 4,
+          "question": "Một vật dài 35 cm, vật đó dài hơn hay ngắn hơn vật dài 30 cm?",
+          "options": {
+            "A": "Dài hơn",
+            "B": "Ngắn hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "Đơn vị đo độ dài là gì?",
+          "options": {
+            "A": "Centimet (cm)",
+            "B": "Kilogram (kg)",
+            "C": "Lít (l)",
+            "D": "Giờ (h)"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "So sánh: 80 và 75. Kết quả nào đúng?",
+          "options": {
+            "A": "80 > 75",
+            "B": "80 < 75",
+            "C": "80 = 75",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 7,
+          "question": "Số 85 đọc là gì?",
+          "options": {
+            "A": "Tám mươi",
+            "B": "Tám mươi lăm",
+            "C": "Tám mươi sáu",
+            "D": "Tám mươi bảy"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Số nào lớn nhất: 75, 85, 65, 80?",
+          "options": {
+            "A": "75",
+            "B": "85",
+            "C": "65",
+            "D": "80"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 65, 75, 55, 70",
+          "options": {
+            "A": "55, 65, 70, 75",
+            "B": "75, 70, 65, 55",
+            "C": "65, 75, 55, 70",
+            "D": "55, 70, 65, 75"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 10,
+          "question": "Số nào đứng sau số 89?",
+          "options": {
+            "A": "88",
+            "B": "89",
+            "C": "90",
+            "D": "91"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "Số nào đứng trước số 95?",
+          "options": {
+            "A": "93",
+            "B": "94",
+            "C": "95",
+            "D": "96"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": "So sánh: 90 và 90. Kết quả nào đúng?",
+          "options": {
+            "A": "90 > 90",
+            "B": "90 < 90",
+            "C": "90 = 90",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 13,
+          "question": "Số 95 đọc là gì?",
+          "options": {
+            "A": "Chín mươi",
+            "B": "Chín mươi lăm",
+            "C": "Chín mươi sáu",
+            "D": "Chín mươi bảy"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 14,
+          "question": "Số nào nằm giữa 85 và 87?",
+          "options": {
+            "A": "84",
+            "B": "85",
+            "C": "86",
+            "D": "87"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 15,
+          "question": "Số 100 đọc là gì?",
+          "options": {
+            "A": "Chín mươi chín",
+            "B": "Một trăm",
+            "C": "Một không không",
+            "D": "Mười không"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "week": 26,
+      "title": "TUẦN 26",
+      "description": "Độ dài và đo độ dài - Luyện tập chung",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Một vật dài 40 cm, vật đó dài hơn hay ngắn hơn vật dài 45 cm?",
+          "options": {
+            "A": "Dài hơn",
+            "B": "Ngắn hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Một vật dài 50 cm, vật đó dài hơn hay ngắn hơn vật dài 45 cm?",
+          "options": {
+            "A": "Dài hơn",
+            "B": "Ngắn hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Cái bàn dài 100 cm, cái ghế dài 50 cm. Cái nào dài hơn?",
+          "options": {
+            "A": "Cái bàn",
+            "B": "Cái ghế",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "Cái bàn dài 100 cm, cái ghế dài 50 cm. Cái nào ngắn hơn?",
+          "options": {
+            "A": "Cái bàn",
+            "B": "Cái ghế",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 5,
+          "question": "Đơn vị đo độ dài là gì?",
+          "options": {
+            "A": "Centimet (cm)",
+            "B": "Kilogram (kg)",
+            "C": "Lít (l)",
+            "D": "Giờ (h)"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "So sánh: 100 và 95. Kết quả nào đúng?",
+          "options": {
+            "A": "100 > 95",
+            "B": "100 < 95",
+            "C": "100 = 95",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 7,
+          "question": "Số 100 có mấy chữ số?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 8,
+          "question": "Số 100 đọc là gì?",
+          "options": {
+            "A": "Chín mươi chín",
+            "B": "Một trăm",
+            "C": "Một không không",
+            "D": "Mười không"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Số nào lớn nhất: 90, 95, 85, 100?",
+          "options": {
+            "A": "90",
+            "B": "95",
+            "C": "85",
+            "D": "100"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 10,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 85, 95, 75, 90",
+          "options": {
+            "A": "75, 85, 90, 95",
+            "B": "95, 90, 85, 75",
+            "C": "85, 95, 75, 90",
+            "D": "75, 90, 85, 95"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Số nào đứng sau số 99?",
+          "options": {
+            "A": "98",
+            "B": "99",
+            "C": "100",
+            "D": "101"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 12,
+          "question": "Số nào đứng trước số 100?",
+          "options": {
+            "A": "98",
+            "B": "99",
+            "C": "100",
+            "D": "101"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "So sánh: 50 và 50. Kết quả nào đúng?",
+          "options": {
+            "A": "50 > 50",
+            "B": "50 < 50",
+            "C": "50 = 50",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Số 99 đọc là gì?",
+          "options": {
+            "A": "Chín mươi",
+            "B": "Chín mươi chín",
+            "C": "Một trăm",
+            "D": "Chín mươi tám"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Số nào nằm giữa 95 và 97?",
+          "options": {
+            "A": "94",
+            "B": "95",
+            "C": "96",
+            "D": "97"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "week": 27,
+      "title": "TUẦN 27",
+      "description": "Độ dài và đo độ dài - Luyện tập chung",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Cái bút chì dài 15 cm, cái thước dài 20 cm. Cái nào dài hơn?",
+          "options": {
+            "A": "Cái bút chì",
+            "B": "Cái thước",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Một vật dài 60 cm, vật đó dài hơn hay ngắn hơn vật dài 55 cm?",
+          "options": {
+            "A": "Dài hơn",
+            "B": "Ngắn hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Đơn vị đo độ dài là gì?",
+          "options": {
+            "A": "Centimet (cm)",
+            "B": "Kilogram (kg)",
+            "C": "Lít (l)",
+            "D": "Giờ (h)"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "So sánh: 70 và 75. Kết quả nào đúng?",
+          "options": {
+            "A": "70 > 75",
+            "B": "70 < 75",
+            "C": "70 = 75",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 5,
+          "question": "Số 80 đọc là gì?",
+          "options": {
+            "A": "Tám",
+            "B": "Tám mươi",
+            "C": "Mười tám",
+            "D": "Tám mười"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "Số nào lớn nhất: 70, 80, 60, 75?",
+          "options": {
+            "A": "70",
+            "B": "80",
+            "C": "60",
+            "D": "75"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 60, 70, 50, 65",
+          "options": {
+            "A": "50, 60, 65, 70",
+            "B": "70, 65, 60, 50",
+            "C": "60, 70, 50, 65",
+            "D": "50, 65, 60, 70"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 8,
+          "question": "Số nào đứng sau số 89?",
+          "options": {
+            "A": "88",
+            "B": "89",
+            "C": "90",
+            "D": "91"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "Số 100 đọc là gì?",
+          "options": {
+            "A": "Chín mươi chín",
+            "B": "Một trăm",
+            "C": "Một không không",
+            "D": "Mười không"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "So sánh: 100 và 95. Kết quả nào đúng?",
+          "options": {
+            "A": "100 > 95",
+            "B": "100 < 95",
+            "C": "100 = 95",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Số 100 có mấy chữ số?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 12,
+          "question": "Số nào đứng trước số 100?",
+          "options": {
+            "A": "98",
+            "B": "99",
+            "C": "100",
+            "D": "101"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "Số nào nằm giữa 85 và 87?",
+          "options": {
+            "A": "84",
+            "B": "85",
+            "C": "86",
+            "D": "87"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Số 95 đọc là gì?",
+          "options": {
+            "A": "Chín mươi",
+            "B": "Chín mươi lăm",
+            "C": "Chín mươi sáu",
+            "D": "Chín mươi bảy"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Cái bàn dài 100 cm, cái ghế dài 50 cm. Cái nào dài hơn?",
+          "options": {
+            "A": "Cái bàn",
+            "B": "Cái ghế",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "week": 28,
+      "title": "TUẦN 28",
+      "description": "Phép cộng và phép trừ không nhớ (trong phạm vi 100) - Phép cộng số có hai chữ số với số có một chữ số",
+      "questions": [
+        {
+          "id": 1,
+          "question": "25 + 3 = ?",
+          "options": {
+            "A": "28",
+            "B": "27",
+            "C": "29",
+            "D": "30"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "30 + 5 = ?",
+          "options": {
+            "A": "34",
+            "B": "35",
+            "C": "36",
+            "D": "37"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "40 + 4 = ?",
+          "options": {
+            "A": "43",
+            "B": "45",
+            "C": "44",
+            "D": "46"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "50 + 6 = ?",
+          "options": {
+            "A": "55",
+            "B": "57",
+            "C": "58",
+            "D": "56"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "60 + 7 = ?",
+          "options": {
+            "A": "67",
+            "B": "66",
+            "C": "68",
+            "D": "69"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "70 + 8 = ?",
+          "options": {
+            "A": "77",
+            "B": "78",
+            "C": "79",
+            "D": "80"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "80 + 9 = ?",
+          "options": {
+            "A": "88",
+            "B": "90",
+            "C": "89",
+            "D": "91"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 8,
+          "question": "Có 25 quả táo, thêm 3 quả táo nữa. Hỏi có tất cả mấy quả táo?",
+          "options": {
+            "A": "27",
+            "B": "29",
+            "C": "28",
+            "D": "30"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "Có 30 con chim, thêm 5 con chim nữa. Hỏi có tất cả mấy con chim?",
+          "options": {
+            "A": "34",
+            "B": "36",
+            "C": "35",
+            "D": "37"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 10,
+          "question": "Có 40 bông hoa, thêm 4 bông hoa nữa. Hỏi có tất cả mấy bông hoa?",
+          "options": {
+            "A": "43",
+            "B": "45",
+            "C": "44",
+            "D": "46"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "So sánh: 45 và 50. Kết quả nào đúng?",
+          "options": {
+            "A": "45 > 50",
+            "B": "45 = 50",
+            "C": "45 < 50",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 12,
+          "question": "Số 55 đọc là gì?",
+          "options": {
+            "A": "Năm mươi",
+            "B": "Năm mươi sáu",
+            "C": "Năm mươi lăm",
+            "D": "Năm mươi bảy"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 13,
+          "question": "Số nào lớn nhất: 45, 55, 35, 50?",
+          "options": {
+            "A": "45",
+            "B": "35",
+            "C": "55",
+            "D": "50"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 35, 45, 25, 40",
+          "options": {
+            "A": "25, 35, 40, 45",
+            "B": "45, 40, 35, 25",
+            "C": "35, 45, 25, 40",
+            "D": "25, 40, 35, 45"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Số nào đứng sau số 59?",
+          "options": {
+            "A": "58",
+            "B": "59",
+            "C": "60",
+            "D": "61"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "week": 29,
+      "title": "TUẦN 29",
+      "description": "Phép cộng và phép trừ không nhớ (trong phạm vi 100) - Phép trừ số có hai chữ số cho số có một chữ số, Phép trừ số có hai chữ số cho số có hai chữ số, Luyện tập chung",
+      "questions": [
+        {
+          "id": 1,
+          "question": "35 - 3 = ?",
+          "options": {
+            "A": "32",
+            "B": "31",
+            "C": "33",
+            "D": "34"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "40 - 5 = ?",
+          "options": {
+            "A": "34",
+            "B": "35",
+            "C": "36",
+            "D": "37"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "50 - 4 = ?",
+          "options": {
+            "A": "45",
+            "B": "47",
+            "C": "46",
+            "D": "48"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "60 - 6 = ?",
+          "options": {
+            "A": "53",
+            "B": "54",
+            "C": "55",
+            "D": "56"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 5,
+          "question": "45 - 30 = ?",
+          "options": {
+            "A": "14",
+            "B": "16",
+            "C": "15",
+            "D": "17"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "50 - 20 = ?",
+          "options": {
+            "A": "29",
+            "B": "30",
+            "C": "31",
+            "D": "32"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "60 - 40 = ?",
+          "options": {
+            "A": "19",
+            "B": "21",
+            "C": "20",
+            "D": "22"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 8,
+          "question": "Có 35 quả táo, ăn mất 3 quả táo. Hỏi còn lại mấy quả táo?",
+          "options": {
+            "A": "31",
+            "B": "33",
+            "C": "32",
+            "D": "34"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "Có 40 con chim, bay đi mất 5 con chim. Hỏi còn lại mấy con chim?",
+          "options": {
+            "A": "34",
+            "B": "36",
+            "C": "35",
+            "D": "37"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 10,
+          "question": "Có 50 bông hoa, hái mất 20 bông hoa. Hỏi còn lại mấy bông hoa?",
+          "options": {
+            "A": "29",
+            "B": "31",
+            "C": "30",
+            "D": "32"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "25 + 3 = ?",
+          "options": {
+            "A": "27",
+            "B": "29",
+            "C": "28",
+            "D": "30"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 12,
+          "question": "So sánh: 55 và 60. Kết quả nào đúng?",
+          "options": {
+            "A": "55 > 60",
+            "B": "55 = 60",
+            "C": "55 < 60",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 13,
+          "question": "Số 65 đọc là gì?",
+          "options": {
+            "A": "Sáu mươi",
+            "B": "Sáu mươi sáu",
+            "C": "Sáu mươi lăm",
+            "D": "Sáu mươi bảy"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 45, 55, 35, 50",
+          "options": {
+            "A": "35, 45, 50, 55",
+            "B": "55, 50, 45, 35",
+            "C": "45, 55, 35, 50",
+            "D": "35, 50, 45, 55"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Số nào đứng sau số 69?",
+          "options": {
+            "A": "68",
+            "B": "69",
+            "C": "70",
+            "D": "71"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "week": 30,
+      "title": "TUẦN 30",
+      "description": "Thời gian. Giờ và lịch - Xem giờ đúng trên đồng hồ, Các ngày trong tuần",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Trên đồng hồ, kim dài chỉ gì?",
+          "options": {
+            "A": "Giờ",
+            "B": "Phút",
+            "C": "Giây",
+            "D": "Ngày"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Trên đồng hồ, kim ngắn chỉ gì?",
+          "options": {
+            "A": "Giờ",
+            "B": "Phút",
+            "C": "Giây",
+            "D": "Ngày"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Đồng hồ chỉ 3 giờ đúng, kim ngắn chỉ số mấy?",
+          "options": {
+            "A": "Số 1",
+            "B": "Số 2",
+            "C": "Số 3",
+            "D": "Số 4"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "Đồng hồ chỉ 5 giờ đúng, kim ngắn chỉ số mấy?",
+          "options": {
+            "A": "Số 3",
+            "B": "Số 4",
+            "C": "Số 5",
+            "D": "Số 6"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 5,
+          "question": "Đồng hồ chỉ 8 giờ đúng, kim ngắn chỉ số mấy?",
+          "options": {
+            "A": "Số 6",
+            "B": "Số 7",
+            "C": "Số 8",
+            "D": "Số 9"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "Một tuần có mấy ngày?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 7,
+          "question": "Ngày đầu tiên trong tuần là gì?",
+          "options": {
+            "A": "Thứ Hai",
+            "B": "Thứ Ba",
+            "C": "Thứ Tư",
+            "D": "Chủ nhật"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 8,
+          "question": "Ngày cuối cùng trong tuần là gì?",
+          "options": {
+            "A": "Thứ Sáu",
+            "B": "Thứ Bảy",
+            "C": "Chủ nhật",
+            "D": "Thứ Hai"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "Sau Thứ Hai là ngày gì?",
+          "options": {
+            "A": "Chủ nhật",
+            "B": "Thứ Hai",
+            "C": "Thứ Ba",
+            "D": "Thứ Tư"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 10,
+          "question": "Trước Thứ Ba là ngày gì?",
+          "options": {
+            "A": "Chủ nhật",
+            "B": "Thứ Hai",
+            "C": "Thứ Ba",
+            "D": "Thứ Tư"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 11,
+          "question": "35 + 5 = ?",
+          "options": {
+            "A": "39",
+            "B": "41",
+            "C": "40",
+            "D": "42"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 12,
+          "question": "50 - 20 = ?",
+          "options": {
+            "A": "29",
+            "B": "31",
+            "C": "30",
+            "D": "32"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 13,
+          "question": "So sánh: 70 và 75. Kết quả nào đúng?",
+          "options": {
+            "A": "70 > 75",
+            "B": "70 = 75",
+            "C": "70 < 75",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Số 80 đọc là gì?",
+          "options": {
+            "A": "Tám",
+            "B": "Mười tám",
+            "C": "Tám mươi",
+            "D": "Tám mười"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 15,
+          "question": "Số nào đứng sau số 89?",
+          "options": {
+            "A": "88",
+            "B": "89",
+            "C": "90",
+            "D": "91"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "week": 31,
+      "title": "TUẦN 31",
+      "description": "Thời gian. Giờ và lịch - Các ngày trong tuần, Thực hành xem lịch và giờ",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Thứ tự các ngày trong tuần là gì?",
+          "options": {
+            "A": "Thứ Hai, Thứ Ba, Thứ Tư, Thứ Năm, Thứ Sáu, Thứ Bảy, Chủ nhật",
+            "B": "Chủ nhật, Thứ Hai, Thứ Ba, Thứ Tư, Thứ Năm, Thứ Sáu, Thứ Bảy",
+            "C": "Thứ Hai, Thứ Ba, Thứ Tư, Thứ Năm, Thứ Sáu, Chủ nhật, Thứ Bảy",
+            "D": "Thứ Ba, Thứ Hai, Thứ Tư, Thứ Năm, Thứ Sáu, Thứ Bảy, Chủ nhật"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "Sau Thứ Ba là ngày gì?",
+          "options": {
+            "A": "Thứ Hai",
+            "B": "Thứ Ba",
+            "C": "Thứ Tư",
+            "D": "Thứ Năm"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 3,
+          "question": "Trước Thứ Tư là ngày gì?",
+          "options": {
+            "A": "Thứ Hai",
+            "B": "Thứ Ba",
+            "C": "Thứ Tư",
+            "D": "Thứ Năm"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 4,
+          "question": "Sau Thứ Năm là ngày gì?",
+          "options": {
+            "A": "Thứ Tư",
+            "B": "Thứ Năm",
+            "C": "Thứ Sáu",
+            "D": "Thứ Bảy"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 5,
+          "question": "Trước Thứ Sáu là ngày gì?",
+          "options": {
+            "A": "Thứ Tư",
+            "B": "Thứ Năm",
+            "C": "Thứ Sáu",
+            "D": "Thứ Bảy"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "Đồng hồ chỉ 2 giờ đúng, kim ngắn chỉ số mấy?",
+          "options": {
+            "A": "Số 1",
+            "B": "Số 2",
+            "C": "Số 3",
+            "D": "Số 4"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Đồng hồ chỉ 6 giờ đúng, kim ngắn chỉ số mấy?",
+          "options": {
+            "A": "Số 4",
+            "B": "Số 5",
+            "C": "Số 6",
+            "D": "Số 7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 8,
+          "question": "Đồng hồ chỉ 10 giờ đúng, kim ngắn chỉ số mấy?",
+          "options": {
+            "A": "Số 8",
+            "B": "Số 9",
+            "C": "Số 10",
+            "D": "Số 11"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "Một tuần có mấy ngày?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 10,
+          "question": "40 + 5 = ?",
+          "options": {
+            "A": "44",
+            "B": "45",
+            "C": "46",
+            "D": "47"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 11,
+          "question": "60 - 30 = ?",
+          "options": {
+            "A": "29",
+            "B": "31",
+            "C": "32",
+            "D": "30"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 12,
+          "question": "So sánh: 80 và 85. Kết quả nào đúng?",
+          "options": {
+            "A": "80 > 85",
+            "B": "80 = 85",
+            "C": "Không so sánh được",
+            "D": "80 < 85"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 13,
+          "question": "Số 90 đọc là gì?",
+          "options": {
+            "A": "Chín",
+            "B": "Mười chín",
+            "C": "Chín mười",
+            "D": "Chín mươi"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 14,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 70, 80, 60, 75",
+          "options": {
+            "A": "60, 70, 75, 80",
+            "B": "80, 75, 70, 60",
+            "C": "70, 80, 60, 75",
+            "D": "60, 75, 70, 80"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Số nào đứng trước số 100?",
+          "options": {
+            "A": "98",
+            "B": "100",
+            "C": "101",
+            "D": "99"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "week": 32,
+      "title": "TUẦN 32",
+      "description": "Thời gian. Giờ và lịch - Luyện tập chung. Ôn tập cuối năm - Ôn tập các số và phép tính trong phạm vi 10",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Đồng hồ chỉ 12 giờ đúng, kim ngắn chỉ số mấy?",
+          "options": {
+            "A": "Số 10",
+            "B": "Số 11",
+            "C": "Số 12",
+            "D": "Số 1"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 2,
+          "question": "Một tuần có mấy ngày?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 3,
+          "question": "5 + 5 = ?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "12",
+            "D": "10"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 4,
+          "question": "10 - 5 = ?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "7",
+            "D": "5"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "7 + 3 = ?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "12",
+            "D": "10"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 6,
+          "question": "10 - 3 = ?",
+          "options": {
+            "A": "6",
+            "B": "8",
+            "C": "9",
+            "D": "7"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 7,
+          "question": "8 + 2 = ?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "12",
+            "D": "10"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 8,
+          "question": "10 - 2 = ?",
+          "options": {
+            "A": "7",
+            "B": "9",
+            "C": "10",
+            "D": "8"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 9,
+          "question": "Có 8 quả táo, thêm 2 quả táo nữa. Hỏi có tất cả mấy quả táo?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "12",
+            "D": "10"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 10,
+          "question": "Có 10 con chim, bay đi mất 7 con chim. Hỏi còn lại mấy con chim?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "5",
+            "D": "3"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 11,
+          "question": "So sánh: 9 và 6. Kết quả nào đúng?",
+          "options": {
+            "A": "9 > 6",
+            "B": "9 < 6",
+            "C": "9 = 6",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 3, 7, 1, 5",
+          "options": {
+            "A": "1, 3, 5, 7",
+            "B": "7, 5, 3, 1",
+            "C": "3, 7, 1, 5",
+            "D": "1, 5, 3, 7"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Hình vuông có mấy cạnh?",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "4"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 14,
+          "question": "Hình tam giác có mấy cạnh?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "5",
+            "D": "3"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 15,
+          "question": "Khối lập phương có mấy mặt?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "week": 33,
+      "title": "TUẦN 33",
+      "description": "Ôn tập cuối năm - Ôn tập các số và phép tính trong phạm vi 10, Ôn tập các số và phép tính trong phạm vi 100",
+      "questions": [
+        {
+          "id": 1,
+          "question": "6 + 4 = ?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "12",
+            "D": "10"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 2,
+          "question": "10 - 4 = ?",
+          "options": {
+            "A": "5",
+            "B": "7",
+            "C": "8",
+            "D": "6"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 3,
+          "question": "9 + 1 = ?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "12",
+            "D": "10"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 4,
+          "question": "10 - 1 = ?",
+          "options": {
+            "A": "8",
+            "B": "10",
+            "C": "11",
+            "D": "9"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "25 + 5 = ?",
+          "options": {
+            "A": "29",
+            "B": "31",
+            "C": "32",
+            "D": "30"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 6,
+          "question": "40 - 20 = ?",
+          "options": {
+            "A": "19",
+            "B": "21",
+            "C": "22",
+            "D": "20"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 7,
+          "question": "50 + 10 = ?",
+          "options": {
+            "A": "59",
+            "B": "61",
+            "C": "62",
+            "D": "60"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 8,
+          "question": "70 - 30 = ?",
+          "options": {
+            "A": "39",
+            "B": "41",
+            "C": "42",
+            "D": "40"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 9,
+          "question": "So sánh: 45 và 50. Kết quả nào đúng?",
+          "options": {
+            "A": "45 > 50",
+            "B": "45 = 50",
+            "C": "Không so sánh được",
+            "D": "45 < 50"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 10,
+          "question": "Số 55 đọc là gì?",
+          "options": {
+            "A": "Năm mươi",
+            "B": "Năm mươi sáu",
+            "C": "Năm mươi bảy",
+            "D": "Năm mươi lăm"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 11,
+          "question": "Số nào lớn nhất: 45, 55, 35, 50?",
+          "options": {
+            "A": "45",
+            "B": "35",
+            "C": "50",
+            "D": "55"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 12,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 35, 45, 25, 40",
+          "options": {
+            "A": "25, 35, 40, 45",
+            "B": "45, 40, 35, 25",
+            "C": "35, 45, 25, 40",
+            "D": "25, 40, 35, 45"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Số 100 đọc là gì?",
+          "options": {
+            "A": "Chín mươi chín",
+            "B": "Một không không",
+            "C": "Mười không",
+            "D": "Một trăm"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 14,
+          "question": "Số 100 có mấy chữ số?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 15,
+          "question": "Số nào đứng trước số 100?",
+          "options": {
+            "A": "98",
+            "B": "100",
+            "C": "101",
+            "D": "99"
+          },
+          "correctAnswer": "D"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "week": 34,
+      "title": "TUẦN 34",
+      "description": "Ôn tập cuối năm - Ôn tập các số và phép tính trong phạm vi 100, Ôn tập hình học và đo lường",
+      "questions": [
+        {
+          "id": 1,
+          "question": "30 + 20 = ?",
+          "options": {
+            "A": "49",
+            "B": "51",
+            "C": "52",
+            "D": "50"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 2,
+          "question": "60 - 40 = ?",
+          "options": {
+            "A": "19",
+            "B": "21",
+            "C": "22",
+            "D": "20"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 3,
+          "question": "45 + 5 = ?",
+          "options": {
+            "A": "49",
+            "B": "51",
+            "C": "52",
+            "D": "50"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 4,
+          "question": "55 - 5 = ?",
+          "options": {
+            "A": "49",
+            "B": "51",
+            "C": "52",
+            "D": "50"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "Hình vuông có mấy cạnh?",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "4"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 6,
+          "question": "Hình tam giác có mấy cạnh?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "5",
+            "D": "3"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 7,
+          "question": "Hình tròn có góc không?",
+          "options": {
+            "A": "Có",
+            "B": "Có một góc",
+            "C": "Có hai góc",
+            "D": "Không"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 8,
+          "question": "Khối lập phương có mấy mặt?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "Đơn vị đo độ dài là gì?",
+          "options": {
+            "A": "Centimet (cm)",
+            "B": "Kilogram (kg)",
+            "C": "Lít (l)",
+            "D": "Giờ (h)"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 10,
+          "question": "Một vật dài 50 cm, vật đó dài hơn hay ngắn hơn vật dài 45 cm?",
+          "options": {
+            "A": "Dài hơn",
+            "B": "Ngắn hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "So sánh: 80 và 75. Kết quả nào đúng?",
+          "options": {
+            "A": "80 > 75",
+            "B": "80 < 75",
+            "C": "80 = 75",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Số 85 đọc là gì?",
+          "options": {
+            "A": "Tám mươi",
+            "B": "Tám mươi sáu",
+            "C": "Tám mươi bảy",
+            "D": "Tám mươi lăm"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 13,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 65, 75, 55, 70",
+          "options": {
+            "A": "55, 65, 70, 75",
+            "B": "75, 70, 65, 55",
+            "C": "65, 75, 55, 70",
+            "D": "55, 70, 65, 75"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Một tuần có mấy ngày?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 15,
+          "question": "Đồng hồ chỉ 3 giờ đúng, kim ngắn chỉ số mấy?",
+          "options": {
+            "A": "Số 1",
+            "B": "Số 2",
+            "C": "Số 3",
+            "D": "Số 4"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "week": 35,
+      "title": "TUẦN 35",
+      "description": "Ôn tập cuối năm - Ôn tập hình học và đo lường, Ôn tập chung",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Hình vuông có mấy cạnh bằng nhau?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 2,
+          "question": "Hình tam giác có mấy cạnh?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "5",
+            "D": "3"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 3,
+          "question": "Hình tròn có góc không?",
+          "options": {
+            "A": "Có",
+            "B": "Có một góc",
+            "C": "Có hai góc",
+            "D": "Không"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 4,
+          "question": "Khối lập phương có mấy mặt?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 5,
+          "question": "Đơn vị đo độ dài là gì?",
+          "options": {
+            "A": "Centimet (cm)",
+            "B": "Kilogram (kg)",
+            "C": "Lít (l)",
+            "D": "Giờ (h)"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "5 + 5 = ?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "12",
+            "D": "10"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 7,
+          "question": "10 - 5 = ?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "7",
+            "D": "5"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 8,
+          "question": "25 + 5 = ?",
+          "options": {
+            "A": "29",
+            "B": "31",
+            "C": "32",
+            "D": "30"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 9,
+          "question": "50 - 20 = ?",
+          "options": {
+            "A": "29",
+            "B": "31",
+            "C": "32",
+            "D": "30"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 10,
+          "question": "So sánh: 90 và 95. Kết quả nào đúng?",
+          "options": {
+            "A": "90 > 95",
+            "B": "90 = 95",
+            "C": "Không so sánh được",
+            "D": "90 < 95"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 11,
+          "question": "Số 100 đọc là gì?",
+          "options": {
+            "A": "Chín mươi chín",
+            "B": "Một không không",
+            "C": "Mười không",
+            "D": "Một trăm"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 12,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 85, 95, 75, 90",
+          "options": {
+            "A": "75, 85, 90, 95",
+            "B": "95, 90, 85, 75",
+            "C": "85, 95, 75, 90",
+            "D": "75, 90, 85, 95"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Một tuần có mấy ngày?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Đồng hồ chỉ 6 giờ đúng, kim ngắn chỉ số mấy?",
+          "options": {
+            "A": "Số 4",
+            "B": "Số 5",
+            "C": "Số 6",
+            "D": "Số 7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 15,
+          "question": "Số nào đứng sau số 99?",
+          "options": {
+            "A": "98",
+            "B": "99",
+            "C": "100",
+            "D": "101"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    }
+  ]
+}
+

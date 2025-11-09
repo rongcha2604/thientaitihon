@@ -1,0 +1,253 @@
+{
+  "week": 35,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập hình học và đo lường",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Hình chữ nhật có bao nhiêu cạnh?",
+          "options": [
+            "2 cạnh",
+            "3 cạnh",
+            "5 cạnh",
+            "4 cạnh"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình chữ nhật có 4 cạnh",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Khối hộp chữ nhật có bao nhiêu mặt?",
+          "options": [
+            "4 mặt",
+            "5 mặt",
+            "6 mặt",
+            "7 mặt"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Khối hộp chữ nhật có 6 mặt",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Hình tròn có bao nhiêu cạnh?",
+          "options": [
+            "3 cạnh",
+            "1 cạnh",
+            "2 cạnh",
+            "0 cạnh"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình tròn không có cạnh",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Vật nào dài nhất trong các vật: 20cm, 30cm, 40cm, 50cm?",
+          "options": [
+            "20cm",
+            "50cm",
+            "40cm",
+            "30cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "50cm là dài nhất trong các vật 20cm, 30cm, 40cm, 50cm",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo độ dài: 1 decimet (dm) bằng bao nhiêu centimet (cm)?",
+          "options": [
+            "10 cm",
+            "5 cm",
+            "50 cm",
+            "100 cm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "1 decimet (dm) = 10 centimet (cm)",
+          "imageUrl": null
+        },
+        {
+          "question": "16 - 4 = ?",
+          "options": [
+            "10",
+            "13",
+            "12",
+            "11"
+          ],
+          "correctAnswer": 2,
+          "explanation": "16 - 4 = 12",
+          "imageUrl": null,
+          "id": "q6"
+        },
+        {
+          "question": "19 + 1 = ?",
+          "options": [
+            "20",
+            "19",
+            "21",
+            "23"
+          ],
+          "correctAnswer": 0,
+          "explanation": "19 + 1 = 20",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "Có 6 con chim, bay đi 5 con. Hỏi còn lại bao nhiêu con chim?",
+          "options": [
+            "3 con",
+            "2 con",
+            "1 con",
+            "4 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "6 - 5 = 1",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "18 - 4 = ?",
+          "options": [
+            "11",
+            "14",
+            "17",
+            "13"
+          ],
+          "correctAnswer": 1,
+          "explanation": "18 - 4 = 14",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "Có 6 con chim, bay đi 3 con. Hỏi còn lại bao nhiêu con chim?",
+          "options": [
+            "6 con",
+            "1 con",
+            "4 con",
+            "3 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "6 - 3 = 3",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "Có 6 quả táo, ăn mất 4 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "2 quả",
+            "4 quả",
+            "1 quả",
+            "3 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "6 - 4 = 2",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 18 con gà, bay đi 12 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "5 con",
+            "6 con",
+            "3 con",
+            "4 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "18 - 12 = 6",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Ôn tập chung",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Có 7 quả táo, thêm 3 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "9 quả",
+            "10 quả",
+            "11 quả",
+            "12 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "7 + 3 = 10",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Có 10 con gà, bay đi 6 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "3 con",
+            "5 con",
+            "6 con",
+            "4 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "10 - 6 = 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Có 45 quả cam, thêm 23 quả nữa. Hỏi có tất cả bao nhiêu quả cam?",
+          "options": [
+            "67 quả",
+            "68 quả",
+            "69 quả",
+            "70 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "45 + 23 = 68",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Có 78 con chim, bay đi 34 con. Hỏi còn lại bao nhiêu con chim?",
+          "options": [
+            "43 con",
+            "45 con",
+            "46 con",
+            "44 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "78 - 34 = 44",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 23, 32, 45, 54?",
+          "options": [
+            "23",
+            "32",
+            "45",
+            "54"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 54 là số lớn nhất trong các số 23, 32, 45, 54",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

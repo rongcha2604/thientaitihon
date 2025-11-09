@@ -1,0 +1,163 @@
+{
+  "week": 21,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "So sánh số có hai chữ số",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số nào lớn hơn: 56 hay 65?",
+          "options": [
+            "56 lớn hơn 65",
+            "65 lớn hơn 56",
+            "Bằng nhau",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 1,
+          "explanation": "65 > 56 nên số 65 lớn hơn số 56",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ hơn: 78 hay 87?",
+          "options": [
+            "78 nhỏ hơn 87",
+            "87 nhỏ hơn 78",
+            "Bằng nhau",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 0,
+          "explanation": "78 < 87 nên số 78 nhỏ hơn số 87",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 12, 21, 34, 43?",
+          "options": [
+            "12",
+            "21",
+            "34",
+            "43"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 43 là số lớn nhất trong các số 12, 21, 34, 43",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ nhất trong các số: 45, 54, 67, 76?",
+          "options": [
+            "45",
+            "54",
+            "67",
+            "76"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 45 là số nhỏ nhất trong các số 45, 54, 67, 76",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Điền dấu thích hợp: 56 ... 65",
+          "options": [
+            "56 > 65",
+            "56 < 65",
+            "56 = 65",
+            "Không điền được"
+          ],
+          "correctAnswer": 1,
+          "explanation": "56 < 65 nên điền dấu <",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Bảng các số từ 1 đến 100",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Số nào đứng sau số 49?",
+          "options": [
+            "48",
+            "49",
+            "50",
+            "51"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 50 đứng sau số 49",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Số nào đứng trước số 60?",
+          "options": [
+            "58",
+            "59",
+            "60",
+            "61"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 59 đứng trước số 60",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Số nào đứng giữa số 45 và số 47?",
+          "options": [
+            "44",
+            "45",
+            "46",
+            "47"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 46 đứng giữa số 45 và số 47",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Số nào đứng sau số 99?",
+          "options": [
+            "98",
+            "99",
+            "100",
+            "101"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 100 đứng sau số 99",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Số nào đứng trước số 100?",
+          "options": [
+            "98",
+            "99",
+            "100",
+            "101"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 99 đứng trước số 100",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

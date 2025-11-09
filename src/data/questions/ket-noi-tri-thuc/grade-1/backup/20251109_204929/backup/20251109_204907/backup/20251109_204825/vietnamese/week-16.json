@@ -1,0 +1,295 @@
+{
+  "week": 16,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 16",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Vần \"oan\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'oan' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Vần \"oăn\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'oăn' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Vần \"oat\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'oat' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Vần \"oặt\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'oặt' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Vần \"oai\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'oai' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Vần \"uê\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vần 'uê' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Vần \"uy\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vần 'uy' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Vần \"uân\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'uân' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Vần \"uât\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'uât' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Vần \"uyên\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vần 'uyên' có 4 chữ cái. Đáp án đúng là '4 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào có vần \"uyêt\"?",
+          "options": [
+            "buyêt",
+            "ba",
+            "be",
+            "bi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'buyêt' có chứa vần 'uyêt'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Từ nào có vần \"oan\"?",
+          "options": [
+            "boan",
+            "ba",
+            "be",
+            "bi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'boan' có chứa vần 'oan'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q13",
+          "type": "multiple-choice",
+          "question": "Từ nào có vần \"oăn\"?",
+          "options": [
+            "boăn",
+            "ba",
+            "be",
+            "bi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'boăn' có chứa vần 'oăn'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q14",
+          "type": "multiple-choice",
+          "question": "Từ nào có vần \"oat\"?",
+          "options": [
+            "boat",
+            "ba",
+            "be",
+            "bi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'boat' có chứa vần 'oat'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q15",
+          "type": "multiple-choice",
+          "question": "Từ nào có vần \"oặt\"?",
+          "options": [
+            "boặt",
+            "ba",
+            "be",
+            "bi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'boặt' có chứa vần 'oặt'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q16",
+          "type": "multiple-choice",
+          "question": "Vần \"oai\" bắt đầu bằng chữ nào?",
+          "options": [
+            "o",
+            "i",
+            "a",
+            "o"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'o'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q17",
+          "type": "multiple-choice",
+          "question": "Vần \"uê\" bắt đầu bằng chữ nào?",
+          "options": [
+            "u",
+            "ê",
+            "a",
+            "o"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'u'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q18",
+          "type": "multiple-choice",
+          "question": "Vần \"uy\" bắt đầu bằng chữ nào?",
+          "options": [
+            "u",
+            "y",
+            "a",
+            "o"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'u'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q19",
+          "type": "multiple-choice",
+          "question": "Vần \"uân\" bắt đầu bằng chữ nào?",
+          "options": [
+            "u",
+            "n",
+            "a",
+            "o"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'u'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q20",
+          "type": "multiple-choice",
+          "question": "Vần \"uât\" bắt đầu bằng chữ nào?",
+          "options": [
+            "u",
+            "t",
+            "a",
+            "o"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'u'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

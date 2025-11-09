@@ -1,0 +1,295 @@
+{
+  "week": 30,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 30",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Cuộc thi tài năng rừng xanh\", ai tham gia cuộc thi?",
+          "options": [
+            "các con vật",
+            "các loài cây",
+            "các loài chim",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Cuộc thi tài năng rừng xanh', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ \"tài năng\" có nghĩa là gì?",
+          "options": [
+            "khả năng",
+            "tài giỏi",
+            "sở trường",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tài năng' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Cây liễu dẻo dai\", cây liễu có đặc điểm gì?",
+          "options": [
+            "dẻo dai",
+            "mềm mại",
+            "bền bỉ",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Cây liễu dẻo dai', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Từ \"dẻo dai\" có nghĩa là gì?",
+          "options": [
+            "mềm mại",
+            "bền bỉ",
+            "khó gãy",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'dẻo dai' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Cuộc thi tài năng rừng xanh\", cuộc thi diễn ra ở đâu?",
+          "options": [
+            "trong rừng",
+            "trên đồng",
+            "trên núi",
+            "trên biển"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong bài 'Cuộc thi tài năng rừng xanh', đáp án đúng là 'trong rừng'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Từ \"rừng xanh\" có nghĩa là gì?",
+          "options": [
+            "rừng có nhiều cây xanh",
+            "rừng tươi tốt",
+            "rừng đẹp",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'rừng xanh' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Cây liễu dẻo dai\", cây liễu chịu đựng được gì?",
+          "options": [
+            "gió",
+            "mưa",
+            "bão",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Cây liễu dẻo dai', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ \"chịu đựng\" có nghĩa là gì?",
+          "options": [
+            "chịu được",
+            "vượt qua",
+            "đương đầu",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'chịu đựng' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Cuộc thi tài năng rừng xanh\", ai thắng cuộc?",
+          "options": [
+            "người có tài năng nhất",
+            "người xuất sắc nhất",
+            "người giỏi nhất",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Cuộc thi tài năng rừng xanh', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Từ \"xuất sắc\" có nghĩa là gì?",
+          "options": [
+            "rất giỏi",
+            "tài năng",
+            "ưu tú",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'xuất sắc' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Cây liễu dẻo dai\", cây liễu dạy ta điều gì?",
+          "options": [
+            "kiên trì",
+            "bền bỉ",
+            "không bỏ cuộc",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Cây liễu dẻo dai', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Từ \"kiên trì\" có nghĩa là gì?",
+          "options": [
+            "không bỏ cuộc",
+            "bền bỉ",
+            "cố gắng",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'kiên trì' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q13",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Cuộc thi tài năng rừng xanh\", các con vật thi tài gì?",
+          "options": [
+            "hát",
+            "nhảy",
+            "chạy",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Cuộc thi tài năng rừng xanh', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q14",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ tài năng?",
+          "options": [
+            "hát hay",
+            "nhảy giỏi",
+            "chạy nhanh",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ tài năng. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q15",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Cây liễu dẻo dai\", cây liễu như thế nào?",
+          "options": [
+            "mềm mại",
+            "dẻo dai",
+            "bền bỉ",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Cây liễu dẻo dai', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q16",
+          "type": "multiple-choice",
+          "question": "Từ \"mềm mại\" có nghĩa là gì?",
+          "options": [
+            "mềm",
+            "dễ uốn",
+            "linh hoạt",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'mềm mại' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q17",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Cuộc thi tài năng rừng xanh\", cuộc thi có ý nghĩa gì?",
+          "options": [
+            "phát hiện tài năng",
+            "khuyến khích",
+            "vui chơi",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Cuộc thi tài năng rừng xanh', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q18",
+          "type": "multiple-choice",
+          "question": "Từ \"khuyến khích\" có nghĩa là gì?",
+          "options": [
+            "động viên",
+            "cổ vũ",
+            "ủng hộ",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'khuyến khích' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q19",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Cây liễu dẻo dai\", bài học là gì?",
+          "options": [
+            "kiên trì",
+            "bền bỉ",
+            "không bỏ cuộc",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Cây liễu dẻo dai', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q20",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ đức tính tốt?",
+          "options": [
+            "kiên trì",
+            "bền bỉ",
+            "dẻo dai",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ đức tính tốt. Đây là đáp án đúng.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

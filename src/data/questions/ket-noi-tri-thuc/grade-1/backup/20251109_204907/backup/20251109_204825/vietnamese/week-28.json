@@ -1,0 +1,295 @@
+{
+  "week": 28,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 28",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Chú bé chăn cừu\", chú bé làm gì?",
+          "options": [
+            "chăn cừu",
+            "chăn bò",
+            "chăn dê",
+            "chăn ngựa"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong bài 'Chú bé chăn cừu', đáp án đúng là 'chăn cừu'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ \"chăn cừu\" có nghĩa là gì?",
+          "options": [
+            "chăm sóc cừu",
+            "cho cừu ăn",
+            "dẫn cừu đi",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'chăn cừu' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tiếng vọng của núi\", tiếng vọng là gì?",
+          "options": [
+            "âm thanh phản hồi",
+            "tiếng vang",
+            "tiếng dội lại",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Tiếng vọng của núi', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Từ \"tiếng vọng\" có nghĩa là gì?",
+          "options": [
+            "âm thanh dội lại",
+            "tiếng vang",
+            "tiếng phản hồi",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tiếng vọng' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Chú bé chăn cừu\", chú bé học được bài học gì?",
+          "options": [
+            "không nên nói dối",
+            "phải trung thực",
+            "phải có trách nhiệm",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Chú bé chăn cừu', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Từ \"trung thực\" có nghĩa là gì?",
+          "options": [
+            "thật thà",
+            "không nói dối",
+            "chân thành",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'trung thực' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tiếng vọng của núi\", tiếng vọng dạy ta điều gì?",
+          "options": [
+            "cách đối xử",
+            "cách nói chuyện",
+            "cách cư xử",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Tiếng vọng của núi', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ bài học từ cuộc sống?",
+          "options": [
+            "trung thực",
+            "trách nhiệm",
+            "yêu thương",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ bài học từ cuộc sống. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Chú bé chăn cừu\", chú bé gặp vấn đề gì?",
+          "options": [
+            "nói dối",
+            "mất cừu",
+            "không ai tin",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Chú bé chăn cừu', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Từ \"nói dối\" có nghĩa là gì?",
+          "options": [
+            "nói không đúng sự thật",
+            "nói sai",
+            "lừa dối",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'nói dối' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tiếng vọng của núi\", khi em nói điều gì, tiếng vọng sẽ trả lại điều gì?",
+          "options": [
+            "điều tương tự",
+            "điều em nói",
+            "điều em làm",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Tiếng vọng của núi', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Từ \"phản hồi\" có nghĩa là gì?",
+          "options": [
+            "trả lại",
+            "đáp lại",
+            "phản ứng",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'phản hồi' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q13",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Chú bé chăn cừu\", chú bé rút ra bài học gì?",
+          "options": [
+            "không nên nói dối",
+            "phải trung thực",
+            "phải có trách nhiệm",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Chú bé chăn cừu', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q14",
+          "type": "multiple-choice",
+          "question": "Từ \"rút ra\" có nghĩa là gì?",
+          "options": [
+            "học được",
+            "hiểu được",
+            "nhận ra",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'rút ra' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q15",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tiếng vọng của núi\", bài học là gì?",
+          "options": [
+            "đối xử tốt sẽ được đối xử tốt",
+            "nói điều tốt sẽ nghe điều tốt",
+            "làm điều tốt sẽ nhận điều tốt",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Tiếng vọng của núi', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q16",
+          "type": "multiple-choice",
+          "question": "Từ \"đối xử\" có nghĩa là gì?",
+          "options": [
+            "cư xử",
+            "xử sự",
+            "hành xử",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'đối xử' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q17",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Chú bé chăn cừu\", tại sao không ai tin chú bé?",
+          "options": [
+            "vì chú bé đã nói dối trước đó",
+            "vì chú bé không trung thực",
+            "vì chú bé không có trách nhiệm",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Chú bé chăn cừu', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q18",
+          "type": "multiple-choice",
+          "question": "Từ \"tin tưởng\" có nghĩa là gì?",
+          "options": [
+            "tin cậy",
+            "tín nhiệm",
+            "yên tâm",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tin tưởng' có nghĩa là 'tất cả các đáp án trên'. Đây là ý nghĩa của từ này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q19",
+          "type": "multiple-choice",
+          "question": "Trong bài \"Tiếng vọng của núi\", tiếng vọng như thế nào?",
+          "options": [
+            "rõ ràng",
+            "vang vang",
+            "dội lại",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài 'Tiếng vọng của núi', đáp án đúng là 'tất cả các đáp án trên'. Hãy đọc lại bài để hiểu rõ hơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q20",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây chỉ bài học từ cuộc sống?",
+          "options": [
+            "trung thực",
+            "trách nhiệm",
+            "yêu thương",
+            "tất cả các đáp án trên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 'tất cả các đáp án trên' chỉ bài học từ cuộc sống. Đây là đáp án đúng.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

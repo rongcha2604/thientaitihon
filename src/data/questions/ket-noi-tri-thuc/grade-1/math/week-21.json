@@ -1,0 +1,253 @@
+{
+  "week": 21,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "So sánh số có hai chữ số",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số nào lớn hơn: 56 hay 65?",
+          "options": [
+            "65 lớn hơn 56",
+            "Không so sánh được",
+            "Bằng nhau",
+            "56 lớn hơn 65"
+          ],
+          "correctAnswer": 0,
+          "explanation": "65 > 56 nên số 65 lớn hơn số 56",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ hơn: 78 hay 87?",
+          "options": [
+            "Bằng nhau",
+            "Không so sánh được",
+            "87 nhỏ hơn 78",
+            "78 nhỏ hơn 87"
+          ],
+          "correctAnswer": 3,
+          "explanation": "78 < 87 nên số 78 nhỏ hơn số 87",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ nhất trong các số: 45, 54, 67, 76?",
+          "options": [
+            "54",
+            "45",
+            "67",
+            "76"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 45 là số nhỏ nhất trong các số 45, 54, 67, 76",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 12, 21, 34, 43?",
+          "options": [
+            "12",
+            "21",
+            "43",
+            "34"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 43 là số lớn nhất trong các số 12, 21, 34, 43",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 4 quả táo, ăn mất 1 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "6 quả",
+            "2 quả",
+            "4 quả",
+            "3 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "4 - 1 = 3",
+          "imageUrl": null,
+          "id": "q5"
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Điền dấu thích hợp: 56 ... 65",
+          "options": [
+            "56 > 65",
+            "Không điền được",
+            "56 < 65",
+            "56 = 65"
+          ],
+          "correctAnswer": 2,
+          "explanation": "56 < 65 nên điền dấu <",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 14 con gà, thêm 4 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "15 con",
+            "19 con",
+            "17 con",
+            "18 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "14 + 4 = 18",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "Có 2 con chim, bay đi 1 con. Hỏi còn lại bao nhiêu con chim?",
+          "options": [
+            "4 con",
+            "1 con",
+            "2 con",
+            "3 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2 - 1 = 1",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "Có 17 con gà, bay đi 1 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "16 con",
+            "15 con",
+            "18 con",
+            "19 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "17 - 1 = 16",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "Có 6 cái kẹo, cho bạn 5 cái. Hỏi còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "4 cái",
+            "1 cái",
+            "2 cái",
+            "3 cái"
+          ],
+          "correctAnswer": 1,
+          "explanation": "6 - 5 = 1",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "Có 12 cái kẹo, cho bạn 6 cái. Hỏi còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "6 cái",
+            "9 cái",
+            "3 cái",
+            "5 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "12 - 6 = 6",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 9 quả cam, ăn mất 2 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "10 quả",
+            "9 quả",
+            "7 quả",
+            "4 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "9 - 2 = 7",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Bảng các số từ 1 đến 100",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Số nào đứng sau số 49?",
+          "options": [
+            "48",
+            "49",
+            "50",
+            "51"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 50 đứng sau số 49",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Số nào đứng trước số 60?",
+          "options": [
+            "58",
+            "59",
+            "60",
+            "61"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 59 đứng trước số 60",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Số nào đứng giữa số 45 và số 47?",
+          "options": [
+            "44",
+            "45",
+            "46",
+            "47"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 46 đứng giữa số 45 và số 47",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Số nào đứng sau số 99?",
+          "options": [
+            "98",
+            "99",
+            "100",
+            "101"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 100 đứng sau số 99",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Số nào đứng trước số 100?",
+          "options": [
+            "98",
+            "99",
+            "100",
+            "101"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 99 đứng trước số 100",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

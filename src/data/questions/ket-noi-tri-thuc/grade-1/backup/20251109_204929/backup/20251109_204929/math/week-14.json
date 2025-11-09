@@ -1,0 +1,183 @@
+{
+  "week": 14,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Luyện tập chung",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "7 + 2 = ?",
+          "options": [
+            "10",
+            "8",
+            "9",
+            "11"
+          ],
+          "correctAnswer": 2,
+          "explanation": "7 + 2 = 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "8 + 1 = ?",
+          "options": [
+            "9",
+            "10",
+            "8",
+            "11"
+          ],
+          "correctAnswer": 0,
+          "explanation": "8 + 1 = 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "9 - 2 = ?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "correctAnswer": 1,
+          "explanation": "9 - 2 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "10 - 3 = ?",
+          "options": [
+            "6",
+            "8",
+            "7",
+            "9"
+          ],
+          "correctAnswer": 2,
+          "explanation": "10 - 3 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "6 + 4 = ?",
+          "options": [
+            "9",
+            "12",
+            "11",
+            "10"
+          ],
+          "correctAnswer": 3,
+          "explanation": "6 + 4 = 10",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Có 5 quả táo và 4 quả cam. Hỏi có tất cả bao nhiêu quả?",
+          "options": [
+            "11 quả",
+            "8 quả",
+            "9 quả",
+            "10 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "5 + 4 = 9",
+          "imageUrl": "/data/questions/images/math/math-question-ket-noi-tri-thuc-grade1-week14-q5.png"
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Có 8 con gà, bay đi 3 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "4 con",
+            "7 con",
+            "6 con",
+            "5 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "8 - 3 = 5",
+          "imageUrl": "/data/questions/images/math/math-question-ket-noi-tri-thuc-grade1-week14-q6.png"
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "5 + 5 = ?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "correctAnswer": 1,
+          "explanation": "5 + 5 = 10",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "9 - 4 = ?",
+          "options": [
+            "5",
+            "7",
+            "6",
+            "4"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 - 4 = 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "10 - 5 = ?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correctAnswer": 1,
+          "explanation": "10 - 5 = 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Có 7 cái kẹo, chia đều cho 2 bạn. Mỗi bạn được bao nhiêu cái? (Làm tròn)",
+          "options": [
+            "3 cái",
+            "4 cái",
+            "5 cái",
+            "6 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "7 : 2 = 3 dư 1, mỗi bạn được 3 cái",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Có 10 quả cam, chia đều cho 5 bạn. Mỗi bạn được bao nhiêu quả?",
+          "options": [
+            "4 quả",
+            "1 quả",
+            "3 quả",
+            "2 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "10 : 5 = 2",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

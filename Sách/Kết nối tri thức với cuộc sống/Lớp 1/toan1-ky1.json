@@ -1,0 +1,2954 @@
+{
+  "bookInfo": {
+    "title": "Toán lớp 1 - Học kỳ 1",
+    "series": "Kết nối tri thức với cuộc sống",
+    "totalWeeks": 18,
+    "totalTests": 18,
+    "questionsPerTest": 15,
+    "estimatedTimePerTest": "15-20 phút"
+  },
+  "tests": [
+    {
+      "id": 1,
+      "week": 1,
+      "title": "TUẦN 1",
+      "description": "Tiết học đầu tiên - Các số 0, 1, 2, 3, 4, 5",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Có mấy quả táo trong hình? (0 quả)",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "Số nào đứng trước số 1?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "Em hãy đếm số quả cam: có 1 quả cam. Số nào tương ứng?",
+          "options": {
+            "A": "1",
+            "B": "0",
+            "C": "2",
+            "D": "3"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "Số nào đứng sau số 1?",
+          "options": {
+            "A": "2",
+            "B": "0",
+            "C": "1",
+            "D": "3"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "Có 2 con chim. Số nào tương ứng?",
+          "options": {
+            "A": "1",
+            "B": "3",
+            "C": "2",
+            "D": "4"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "Số nào đứng giữa số 1 và số 3?",
+          "options": {
+            "A": "2",
+            "B": "0",
+            "C": "1",
+            "D": "3"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 7,
+          "question": "Có 3 bông hoa. Số nào tương ứng?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "3",
+            "D": "5"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 8,
+          "question": "Số nào đứng sau số 2?",
+          "options": {
+            "A": "3",
+            "B": "1",
+            "C": "2",
+            "D": "4"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 9,
+          "question": "Có 4 cái kẹo. Số nào tương ứng?",
+          "options": {
+            "A": "4",
+            "B": "2",
+            "C": "3",
+            "D": "5"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 10,
+          "question": "Số nào đứng trước số 5?",
+          "options": {
+            "A": "4",
+            "B": "2",
+            "C": "3",
+            "D": "5"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Có 5 ngôi sao. Số nào tương ứng?",
+          "options": {
+            "A": "5",
+            "B": "3",
+            "C": "4",
+            "D": "6"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Dãy số nào đúng theo thứ tự từ nhỏ đến lớn?",
+          "options": {
+            "A": "0, 1, 2, 3, 4, 5",
+            "B": "5, 4, 3, 2, 1, 0",
+            "C": "1, 0, 2, 3, 4, 5",
+            "D": "0, 2, 1, 3, 4, 5"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Số nào lớn nhất trong các số: 0, 1, 2, 3, 4, 5?",
+          "options": {
+            "A": "0",
+            "B": "3",
+            "C": "5",
+            "D": "4"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Số nào nhỏ nhất trong các số: 0, 1, 2, 3, 4, 5?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Em hãy đếm số quả táo: có 0 quả. Điều này có nghĩa là gì?",
+          "options": {
+            "A": "Có rất nhiều quả táo",
+            "B": "Có 1 quả táo",
+            "C": "Không có quả táo nào",
+            "D": "Có 2 quả táo"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "week": 2,
+      "title": "TUẦN 2",
+      "description": "Các số 6, 7, 8, 9",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Có 6 con bướm. Số nào tương ứng?",
+          "options": {
+            "A": "6",
+            "B": "4",
+            "C": "5",
+            "D": "7"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "Số nào đứng sau số 5?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 3,
+          "question": "Có 7 bông hoa. Số nào tương ứng?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "8",
+            "D": "7"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 4,
+          "question": "Số nào đứng sau số 6?",
+          "options": {
+            "A": "7",
+            "B": "5",
+            "C": "6",
+            "D": "8"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "Có 8 quả táo. Số nào tương ứng?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "Số nào đứng sau số 7?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "9",
+            "D": "8"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 7,
+          "question": "Có 9 ngôi sao. Số nào tương ứng?",
+          "options": {
+            "A": "9",
+            "B": "7",
+            "C": "8",
+            "D": "10"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 8,
+          "question": "Số nào đứng sau số 8?",
+          "options": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "Dãy số nào đúng theo thứ tự từ nhỏ đến lớn?",
+          "options": {
+            "A": "6, 7, 8, 9",
+            "B": "9, 8, 7, 6",
+            "C": "7, 6, 8, 9",
+            "D": "6, 8, 7, 9"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 10,
+          "question": "Số nào lớn nhất trong các số: 6, 7, 8, 9?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 11,
+          "question": "Số nào nhỏ nhất trong các số: 6, 7, 8, 9?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Số nào đứng giữa số 6 và số 8?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 13,
+          "question": "Số nào đứng trước số 7?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 14,
+          "question": "Số nào đứng trước số 9?",
+          "options": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Dãy số nào đúng theo thứ tự từ lớn đến nhỏ?",
+          "options": {
+            "A": "6, 7, 8, 9",
+            "B": "9, 8, 7, 6",
+            "C": "7, 6, 8, 9",
+            "D": "6, 8, 7, 9"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "week": 3,
+      "title": "TUẦN 3",
+      "description": "Nhiều hơn, ít hơn, bằng nhau - So sánh số",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Có 3 quả táo và 5 quả cam. Số nào nhiều hơn?",
+          "options": {
+            "A": "3 quả táo",
+            "B": "5 quả cam",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Có 4 con chim và 2 con bướm. Số nào ít hơn?",
+          "options": {
+            "A": "4 con chim",
+            "B": "2 con bướm",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "Có 3 bông hoa và 3 ngôi sao. Số lượng như thế nào?",
+          "options": {
+            "A": "Nhiều hơn",
+            "B": "Ít hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "Số nào lớn hơn: 5 hay 3?",
+          "options": {
+            "A": "5",
+            "B": "3",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "Số nào nhỏ hơn: 2 hay 7?",
+          "options": {
+            "A": "2",
+            "B": "7",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "Số nào lớn hơn: 8 hay 6?",
+          "options": {
+            "A": "8",
+            "B": "6",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 7,
+          "question": "Số nào nhỏ hơn: 4 hay 9?",
+          "options": {
+            "A": "4",
+            "B": "9",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 8,
+          "question": "Có 6 quả táo và 6 quả cam. Số lượng như thế nào?",
+          "options": {
+            "A": "Nhiều hơn",
+            "B": "Ít hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "So sánh: 7 và 5. Kết quả nào đúng?",
+          "options": {
+            "A": "7 > 5",
+            "B": "7 < 5",
+            "C": "7 = 5",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 10,
+          "question": "So sánh: 3 và 8. Kết quả nào đúng?",
+          "options": {
+            "A": "3 > 8",
+            "B": "3 < 8",
+            "C": "3 = 8",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 11,
+          "question": "So sánh: 4 và 4. Kết quả nào đúng?",
+          "options": {
+            "A": "4 > 4",
+            "B": "4 < 4",
+            "C": "4 = 4",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 12,
+          "question": "Có 5 con chim và 3 con bướm. Số nào nhiều hơn?",
+          "options": {
+            "A": "5 con chim",
+            "B": "3 con bướm",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "Có 2 bông hoa và 8 ngôi sao. Số nào ít hơn?",
+          "options": {
+            "A": "2 bông hoa",
+            "B": "8 ngôi sao",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 5, 2, 8, 3",
+          "options": {
+            "A": "2, 3, 5, 8",
+            "B": "8, 5, 3, 2",
+            "C": "2, 5, 3, 8",
+            "D": "3, 2, 5, 8"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Sắp xếp các số sau theo thứ tự từ lớn đến nhỏ: 4, 7, 1, 6",
+          "options": {
+            "A": "1, 4, 6, 7",
+            "B": "7, 6, 4, 1",
+            "C": "4, 7, 1, 6",
+            "D": "7, 4, 6, 1"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "week": 4,
+      "title": "TUẦN 4",
+      "description": "So sánh số",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Số nào lớn hơn: 9 hay 5?",
+          "options": {
+            "A": "9",
+            "B": "5",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "Số nào nhỏ hơn: 1 hay 6?",
+          "options": {
+            "A": "1",
+            "B": "6",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "So sánh: 6 và 6. Kết quả nào đúng?",
+          "options": {
+            "A": "6 > 6",
+            "B": "6 < 6",
+            "C": "6 = 6",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "So sánh: 8 và 4. Kết quả nào đúng?",
+          "options": {
+            "A": "8 > 4",
+            "B": "8 < 4",
+            "C": "8 = 4",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "So sánh: 3 và 7. Kết quả nào đúng?",
+          "options": {
+            "A": "3 > 7",
+            "B": "3 < 7",
+            "C": "3 = 7",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "Số nào lớn nhất: 2, 5, 8, 3?",
+          "options": {
+            "A": "2",
+            "B": "5",
+            "C": "8",
+            "D": "3"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 7,
+          "question": "Số nào nhỏ nhất: 4, 1, 7, 5?",
+          "options": {
+            "A": "4",
+            "B": "1",
+            "C": "7",
+            "D": "5"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Có 7 quả táo và 4 quả cam. Số nào nhiều hơn?",
+          "options": {
+            "A": "7 quả táo",
+            "B": "4 quả cam",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 9,
+          "question": "Có 2 con chim và 9 con bướm. Số nào ít hơn?",
+          "options": {
+            "A": "2 con chim",
+            "B": "9 con bướm",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 10,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 9, 1, 6, 4",
+          "options": {
+            "A": "1, 4, 6, 9",
+            "B": "9, 6, 4, 1",
+            "C": "1, 6, 4, 9",
+            "D": "4, 1, 6, 9"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Sắp xếp các số sau theo thứ tự từ lớn đến nhỏ: 3, 8, 2, 5",
+          "options": {
+            "A": "2, 3, 5, 8",
+            "B": "8, 5, 3, 2",
+            "C": "3, 8, 2, 5",
+            "D": "8, 3, 5, 2"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": "Số nào nằm giữa 4 và 6?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 13,
+          "question": "Số nào nằm giữa 7 và 9?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Có 5 bông hoa và 5 ngôi sao. Số lượng như thế nào?",
+          "options": {
+            "A": "Nhiều hơn",
+            "B": "Ít hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 15,
+          "question": "So sánh: 5 và 2. Kết quả nào đúng?",
+          "options": {
+            "A": "5 > 2",
+            "B": "5 < 2",
+            "C": "5 = 2",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "week": 5,
+      "title": "TUẦN 5",
+      "description": "Mấy và mấy",
+      "questions": [
+        {
+          "id": 1,
+          "question": "3 và 2 bằng mấy?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "2 và 4 bằng mấy?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "1 và 5 bằng mấy?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 4,
+          "question": "4 và 3 bằng mấy?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 5,
+          "question": "2 và 3 bằng mấy?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "5 và 4 bằng mấy?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "3 và 6 bằng mấy?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "1 và 8 bằng mấy?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "4 và 5 bằng mấy?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "Có 2 quả táo, thêm 3 quả táo nữa. Hỏi có tất cả mấy quả táo?",
+          "options": {
+            "A": "5",
+            "B": "4",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Có 3 con chim, thêm 4 con chim nữa. Hỏi có tất cả mấy con chim?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": "Có 5 bông hoa, thêm 2 bông hoa nữa. Hỏi có tất cả mấy bông hoa?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "Có 1 ngôi sao, thêm 6 ngôi sao nữa. Hỏi có tất cả mấy ngôi sao?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 14,
+          "question": "Có 4 cái kẹo, thêm 5 cái kẹo nữa. Hỏi có tất cả mấy cái kẹo?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Có 3 quả cam, thêm 3 quả cam nữa. Hỏi có tất cả mấy quả cam?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "week": 6,
+      "title": "TUẦN 6",
+      "description": "Luyện tập chung",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Số nào đứng sau số 8?",
+          "options": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 2,
+          "question": "Số nào lớn hơn: 7 hay 4?",
+          "options": {
+            "A": "7",
+            "B": "4",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "3 và 4 bằng mấy?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 4,
+          "question": "Có 5 quả táo và 3 quả cam. Số nào nhiều hơn?",
+          "options": {
+            "A": "5 quả táo",
+            "B": "3 quả cam",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 5,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 6, 2, 9, 4",
+          "options": {
+            "A": "2, 4, 6, 9",
+            "B": "9, 6, 4, 2",
+            "C": "2, 6, 4, 9",
+            "D": "4, 2, 6, 9"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "Số nào nhỏ nhất: 5, 8, 2, 7?",
+          "options": {
+            "A": "5",
+            "B": "8",
+            "C": "2",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 7,
+          "question": "Số nào lớn nhất: 3, 6, 1, 9?",
+          "options": {
+            "A": "3",
+            "B": "6",
+            "C": "1",
+            "D": "9"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 8,
+          "question": "Có 2 con chim, thêm 5 con chim nữa. Hỏi có tất cả mấy con chim?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "So sánh: 6 và 6. Kết quả nào đúng?",
+          "options": {
+            "A": "6 > 6",
+            "B": "6 < 6",
+            "C": "6 = 6",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 10,
+          "question": "Số nào đứng giữa 5 và 7?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "Có 4 bông hoa và 4 ngôi sao. Số lượng như thế nào?",
+          "options": {
+            "A": "Nhiều hơn",
+            "B": "Ít hơn",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 12,
+          "question": "1 và 7 bằng mấy?",
+          "options": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "Có 6 quả táo và 3 quả cam. Số nào ít hơn?",
+          "options": {
+            "A": "6 quả táo",
+            "B": "3 quả cam",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 14,
+          "question": "Sắp xếp các số sau theo thứ tự từ lớn đến nhỏ: 4, 8, 1, 5",
+          "options": {
+            "A": "1, 4, 5, 8",
+            "B": "8, 5, 4, 1",
+            "C": "4, 8, 1, 5",
+            "D": "8, 4, 5, 1"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Có 3 cái kẹo, thêm 6 cái kẹo nữa. Hỏi có tất cả mấy cái kẹo?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "week": 7,
+      "title": "TUẦN 7",
+      "description": "Luyện tập chung - Hình vuông, hình tròn, hình tam giác, hình chữ nhật",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Hình nào có 4 cạnh bằng nhau và 4 góc vuông?",
+          "options": {
+            "A": "Hình tròn",
+            "B": "Hình vuông",
+            "C": "Hình tam giác",
+            "D": "Hình chữ nhật"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Hình nào có dạng tròn, không có góc?",
+          "options": {
+            "A": "Hình vuông",
+            "B": "Hình tròn",
+            "C": "Hình tam giác",
+            "D": "Hình chữ nhật"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "Hình nào có 3 cạnh và 3 góc?",
+          "options": {
+            "A": "Hình vuông",
+            "B": "Hình tròn",
+            "C": "Hình tam giác",
+            "D": "Hình chữ nhật"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "Hình nào có 4 cạnh, 2 cạnh dài và 2 cạnh ngắn?",
+          "options": {
+            "A": "Hình vuông",
+            "B": "Hình tròn",
+            "C": "Hình tam giác",
+            "D": "Hình chữ nhật"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "Hình vuông có mấy cạnh?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "Hình tam giác có mấy cạnh?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Hình chữ nhật có mấy cạnh?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 8,
+          "question": "Hình nào KHÔNG có góc?",
+          "options": {
+            "A": "Hình vuông",
+            "B": "Hình tròn",
+            "C": "Hình tam giác",
+            "D": "Hình chữ nhật"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Hình vuông và hình chữ nhật giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng có 3 cạnh",
+            "B": "Cùng có 4 cạnh",
+            "C": "Cùng có dạng tròn",
+            "D": "Cùng có 5 cạnh"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "Hình tam giác khác hình vuông ở điểm nào?",
+          "options": {
+            "A": "Hình tam giác có 3 cạnh, hình vuông có 4 cạnh",
+            "B": "Hình tam giác có 4 cạnh, hình vuông có 3 cạnh",
+            "C": "Hình tam giác có dạng tròn",
+            "D": "Hình tam giác không có cạnh"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Số nào đứng trước số 9?",
+          "options": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": "5 và 4 bằng mấy?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "So sánh: 8 và 3. Kết quả nào đúng?",
+          "options": {
+            "A": "8 > 3",
+            "B": "8 < 3",
+            "C": "8 = 3",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Có 3 quả táo và 6 quả cam. Số nào ít hơn?",
+          "options": {
+            "A": "3 quả táo",
+            "B": "6 quả cam",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Có 2 con chim, thêm 7 con chim nữa. Hỏi có tất cả mấy con chim?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "week": 8,
+      "title": "TUẦN 8",
+      "description": "Thực hành lắp ghép xếp hình - Luyện tập chung",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Em có thể dùng hình vuông để xếp thành hình gì?",
+          "options": {
+            "A": "Hình tròn",
+            "B": "Hình tam giác",
+            "C": "Hình chữ nhật",
+            "D": "Tất cả đều đúng"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 2,
+          "question": "Em có thể dùng hình tam giác để xếp thành hình gì?",
+          "options": {
+            "A": "Hình vuông",
+            "B": "Hình tròn",
+            "C": "Hình chữ nhật",
+            "D": "Nhiều hình khác nhau"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 3,
+          "question": "Hình vuông có mấy cạnh bằng nhau?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "Hình tam giác có mấy cạnh?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 5,
+          "question": "Hình chữ nhật có mấy cạnh?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "Hình nào có dạng tròn?",
+          "options": {
+            "A": "Hình vuông",
+            "B": "Hình tròn",
+            "C": "Hình tam giác",
+            "D": "Hình chữ nhật"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Hình vuông và hình chữ nhật đều có mấy cạnh?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Hình tam giác khác hình vuông ở điểm nào?",
+          "options": {
+            "A": "Hình tam giác có 3 cạnh, hình vuông có 4 cạnh",
+            "B": "Hình tam giác có 4 cạnh, hình vuông có 3 cạnh",
+            "C": "Hình tam giác có dạng tròn",
+            "D": "Hình tam giác không có cạnh"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 9,
+          "question": "Hình nào KHÔNG có góc?",
+          "options": {
+            "A": "Hình vuông",
+            "B": "Hình tròn",
+            "C": "Hình tam giác",
+            "D": "Hình chữ nhật"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "Số nào lớn hơn: 7 hay 2?",
+          "options": {
+            "A": "7",
+            "B": "2",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "4 và 5 bằng mấy?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": "Có 6 quả táo và 3 quả cam. Số nào nhiều hơn?",
+          "options": {
+            "A": "6 quả táo",
+            "B": "3 quả cam",
+            "C": "Bằng nhau",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 13,
+          "question": "So sánh: 5 và 5. Kết quả nào đúng?",
+          "options": {
+            "A": "5 > 5",
+            "B": "5 < 5",
+            "C": "5 = 5",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Có 1 con chim, thêm 8 con chim nữa. Hỏi có tất cả mấy con chim?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 3, 7, 1, 5",
+          "options": {
+            "A": "1, 3, 5, 7",
+            "B": "7, 5, 3, 1",
+            "C": "3, 7, 1, 5",
+            "D": "1, 5, 3, 7"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "week": 9,
+      "title": "TUẦN 9",
+      "description": "Phép cộng trong phạm vi 10",
+      "questions": [
+        {
+          "id": 1,
+          "question": "2 + 3 = ?",
+          "options": {
+            "A": "5",
+            "B": "4",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "1 + 4 = ?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "3 + 2 = ?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "5",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "4 + 1 = ?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "7",
+            "D": "5"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "2 + 4 = ?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "3 + 3 = ?",
+          "options": {
+            "A": "6",
+            "B": "5",
+            "C": "7",
+            "D": "8"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 7,
+          "question": "1 + 5 = ?",
+          "options": {
+            "A": "5",
+            "B": "7",
+            "C": "6",
+            "D": "8"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 8,
+          "question": "5 + 1 = ?",
+          "options": {
+            "A": "5",
+            "B": "7",
+            "C": "8",
+            "D": "6"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 9,
+          "question": "Có 3 quả táo, thêm 3 quả táo nữa. Hỏi có tất cả mấy quả táo?",
+          "options": {
+            "A": "5",
+            "B": "7",
+            "C": "6",
+            "D": "8"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 10,
+          "question": "Có 4 con chim, thêm 2 con chim nữa. Hỏi có tất cả mấy con chim?",
+          "options": {
+            "A": "5",
+            "B": "7",
+            "C": "6",
+            "D": "8"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "Có 2 bông hoa, thêm 4 bông hoa nữa. Hỏi có tất cả mấy bông hoa?",
+          "options": {
+            "A": "5",
+            "B": "7",
+            "C": "8",
+            "D": "6"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 12,
+          "question": "1 + 6 = ?",
+          "options": {
+            "A": "6",
+            "B": "8",
+            "C": "7",
+            "D": "9"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 13,
+          "question": "2 + 5 = ?",
+          "options": {
+            "A": "6",
+            "B": "8",
+            "C": "9",
+            "D": "7"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 14,
+          "question": "3 + 4 = ?",
+          "options": {
+            "A": "7",
+            "B": "6",
+            "C": "8",
+            "D": "9"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Có 5 ngôi sao, thêm 2 ngôi sao nữa. Hỏi có tất cả mấy ngôi sao?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "week": 10,
+      "title": "TUẦN 10",
+      "description": "Phép cộng trong phạm vi 10",
+      "questions": [
+        {
+          "id": 1,
+          "question": "4 + 4 = ?",
+          "options": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "5 + 3 = ?",
+          "options": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "6 + 2 = ?",
+          "options": {
+            "A": "8",
+            "B": "7",
+            "C": "9",
+            "D": "10"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "7 + 1 = ?",
+          "options": {
+            "A": "7",
+            "B": "9",
+            "C": "8",
+            "D": "10"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 5,
+          "question": "1 + 7 = ?",
+          "options": {
+            "A": "7",
+            "B": "9",
+            "C": "10",
+            "D": "8"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 6,
+          "question": "2 + 6 = ?",
+          "options": {
+            "A": "8",
+            "B": "7",
+            "C": "9",
+            "D": "10"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 7,
+          "question": "3 + 5 = ?",
+          "options": {
+            "A": "7",
+            "B": "9",
+            "C": "8",
+            "D": "10"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 8,
+          "question": "4 + 5 = ?",
+          "options": {
+            "A": "8",
+            "B": "10",
+            "C": "9",
+            "D": "11"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "5 + 4 = ?",
+          "options": {
+            "A": "8",
+            "B": "10",
+            "C": "11",
+            "D": "9"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 10,
+          "question": "6 + 3 = ?",
+          "options": {
+            "A": "9",
+            "B": "8",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "7 + 2 = ?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": "8 + 1 = ?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "1 + 8 = ?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 14,
+          "question": "Có 6 quả táo, thêm 3 quả táo nữa. Hỏi có tất cả mấy quả táo?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Có 5 con chim, thêm 4 con chim nữa. Hỏi có tất cả mấy con chim?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "week": 11,
+      "title": "TUẦN 11",
+      "description": "Phép trừ trong phạm vi 10",
+      "questions": [
+        {
+          "id": 1,
+          "question": "5 - 2 = ?",
+          "options": {
+            "A": "3",
+            "B": "2",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "4 - 1 = ?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "6 - 3 = ?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "3",
+            "D": "5"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "7 - 4 = ?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "5",
+            "D": "3"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "8 - 5 = ?",
+          "options": {
+            "A": "3",
+            "B": "2",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "9 - 6 = ?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Có 5 quả táo, ăn mất 2 quả táo. Hỏi còn lại mấy quả táo?",
+          "options": {
+            "A": "3",
+            "B": "2",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 8,
+          "question": "Có 7 con chim, bay đi mất 3 con chim. Hỏi còn lại mấy con chim?",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "4",
+            "D": "6"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "Có 8 bông hoa, hái mất 4 bông hoa. Hỏi còn lại mấy bông hoa?",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "6",
+            "D": "4"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 10,
+          "question": "10 - 7 = ?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "3",
+            "D": "5"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "9 - 5 = ?",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "4",
+            "D": "6"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 12,
+          "question": "8 - 3 = ?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "5",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 13,
+          "question": "7 - 2 = ?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "7",
+            "D": "5"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 14,
+          "question": "6 - 1 = ?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "5",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 15,
+          "question": "Có 10 ngôi sao, tắt mất 6 ngôi sao. Hỏi còn lại mấy ngôi sao?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "correctAnswer": "B"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "week": 12,
+      "title": "TUẦN 12",
+      "description": "Phép trừ trong phạm vi 10 - Bảng cộng, bảng trừ trong phạm vi 10",
+      "questions": [
+        {
+          "id": 1,
+          "question": "10 - 8 = ?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "9 - 7 = ?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "8 - 6 = ?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 4,
+          "question": "7 - 5 = ?",
+          "options": {
+            "A": "1",
+            "B": "3",
+            "C": "2",
+            "D": "4"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 5,
+          "question": "5 + 5 = ?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "10",
+            "D": "12"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "6 + 4 = ?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "10",
+            "D": "12"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 7,
+          "question": "7 + 3 = ?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "12",
+            "D": "10"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 8,
+          "question": "8 + 2 = ?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "10",
+            "D": "12"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 9,
+          "question": "9 + 1 = ?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "10",
+            "D": "12"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 10,
+          "question": "10 - 9 = ?",
+          "options": {
+            "A": "0",
+            "B": "2",
+            "C": "1",
+            "D": "3"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 11,
+          "question": "10 - 5 = ?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "5",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 12,
+          "question": "Có 9 quả táo, ăn mất 5 quả táo. Hỏi còn lại mấy quả táo?",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "4",
+            "D": "6"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 13,
+          "question": "Có 8 con chim, thêm 2 con chim nữa. Hỏi có tất cả mấy con chim?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "10",
+            "D": "12"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Có 10 bông hoa, hái mất 8 bông hoa. Hỏi còn lại mấy bông hoa?",
+          "options": {
+            "A": "1",
+            "B": "3",
+            "C": "2",
+            "D": "4"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 15,
+          "question": "Có 6 ngôi sao, thêm 4 ngôi sao nữa. Hỏi có tất cả mấy ngôi sao?",
+          "options": {
+            "A": "9",
+            "B": "11",
+            "C": "10",
+            "D": "12"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "week": 14,
+      "title": "TUẦN 14",
+      "description": "Làm quen với một số hình khối - Khối lập phương, khối hộp chữ nhật",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Khối lập phương có mấy mặt?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 2,
+          "question": "Khối hộp chữ nhật có mấy mặt?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 3,
+          "question": "Khối lập phương có các mặt như thế nào?",
+          "options": {
+            "A": "Tất cả các mặt đều là hình vuông",
+            "B": "Tất cả các mặt đều là hình tròn",
+            "C": "Tất cả các mặt đều là hình tam giác",
+            "D": "Tất cả các mặt đều là hình chữ nhật"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "Khối hộp chữ nhật có các mặt như thế nào?",
+          "options": {
+            "A": "Tất cả các mặt đều là hình vuông",
+            "B": "Tất cả các mặt đều là hình tròn",
+            "C": "Tất cả các mặt đều là hình tam giác",
+            "D": "Các mặt là hình chữ nhật hoặc hình vuông"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "Khối lập phương và khối hộp chữ nhật giống nhau ở điểm nào?",
+          "options": {
+            "A": "Cùng có 4 mặt",
+            "B": "Cùng có 6 mặt",
+            "C": "Cùng có 8 mặt",
+            "D": "Cùng có dạng tròn"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "Khối lập phương khác khối hộp chữ nhật ở điểm nào?",
+          "options": {
+            "A": "Khối lập phương có 6 mặt, khối hộp chữ nhật có 4 mặt",
+            "B": "Khối lập phương có tất cả các mặt là hình vuông, khối hộp chữ nhật có các mặt là hình chữ nhật",
+            "C": "Khối lập phương có dạng tròn",
+            "D": "Khối lập phương không có mặt"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Hình nào có dạng khối?",
+          "options": {
+            "A": "Hình vuông",
+            "B": "Hình tròn",
+            "C": "Khối lập phương",
+            "D": "Hình tam giác"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 8,
+          "question": "Khối lập phương có thể lăn được không?",
+          "options": {
+            "A": "Có",
+            "B": "Không",
+            "C": "Tùy trường hợp",
+            "D": "Có thể lăn một phần"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Khối hộp chữ nhật có thể lăn được không?",
+          "options": {
+            "A": "Có",
+            "B": "Không",
+            "C": "Tùy trường hợp",
+            "D": "Có thể lăn một phần"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "5 + 3 = ?",
+          "options": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 11,
+          "question": "9 - 4 = ?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": "Có 7 quả táo, thêm 2 quả táo nữa. Hỏi có tất cả mấy quả táo?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "Có 8 con chim, bay đi mất 3 con chim. Hỏi còn lại mấy con chim?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 14,
+          "question": "So sánh: 6 và 9. Kết quả nào đúng?",
+          "options": {
+            "A": "6 > 9",
+            "B": "6 < 9",
+            "C": "6 = 9",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 3, 7, 1, 5",
+          "options": {
+            "A": "1, 3, 5, 7",
+            "B": "7, 5, 3, 1",
+            "C": "3, 7, 1, 5",
+            "D": "1, 5, 3, 7"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "week": 15,
+      "title": "TUẦN 15",
+      "description": "Vị trí định hướng trong không gian",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Quả táo ở phía nào của cái bàn? (Trên cái bàn)",
+          "options": {
+            "A": "Trên",
+            "B": "Dưới",
+            "C": "Trái",
+            "D": "Phải"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 2,
+          "question": "Con mèo ở phía nào của cái ghế? (Dưới cái ghế)",
+          "options": {
+            "A": "Trên",
+            "B": "Dưới",
+            "C": "Trái",
+            "D": "Phải"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "Bạn An đứng ở phía nào của bạn Bình? (Bên trái)",
+          "options": {
+            "A": "Trên",
+            "B": "Dưới",
+            "C": "Trái",
+            "D": "Phải"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 4,
+          "question": "Bạn Lan đứng ở phía nào của bạn Mai? (Bên phải)",
+          "options": {
+            "A": "Trên",
+            "B": "Dưới",
+            "C": "Trái",
+            "D": "Phải"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 5,
+          "question": "Quả bóng ở phía nào của cái hộp? (Trước cái hộp)",
+          "options": {
+            "A": "Trước",
+            "B": "Sau",
+            "C": "Trái",
+            "D": "Phải"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 6,
+          "question": "Con chó ở phía nào của cái cây? (Sau cái cây)",
+          "options": {
+            "A": "Trước",
+            "B": "Sau",
+            "C": "Trái",
+            "D": "Phải"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "Hình nào ở giữa ba hình?",
+          "options": {
+            "A": "Hình thứ nhất",
+            "B": "Hình thứ hai",
+            "C": "Hình thứ ba",
+            "D": "Không có hình nào"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Hình nào ở đầu tiên?",
+          "options": {
+            "A": "Hình thứ nhất",
+            "B": "Hình thứ hai",
+            "C": "Hình thứ ba",
+            "D": "Hình thứ tư"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 9,
+          "question": "Hình nào ở cuối cùng?",
+          "options": {
+            "A": "Hình thứ nhất",
+            "B": "Hình thứ hai",
+            "C": "Hình thứ ba",
+            "D": "Hình thứ tư"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 10,
+          "question": "4 + 6 = ?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 11,
+          "question": "10 - 6 = ?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": "Có 9 quả táo, ăn mất 5 quả táo. Hỏi còn lại mấy quả táo?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "Có 6 con chim, thêm 4 con chim nữa. Hỏi có tất cả mấy con chim?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 14,
+          "question": "Khối lập phương có mấy mặt?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 15,
+          "question": "Khối hộp chữ nhật có mấy mặt?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "week": 16,
+      "title": "TUẦN 16",
+      "description": "Luyện tập chung",
+      "questions": [
+        {
+          "id": 1,
+          "question": "8 + 2 = ?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "10 - 7 = ?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 3,
+          "question": "7 + 3 = ?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 4,
+          "question": "9 - 4 = ?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 5,
+          "question": "Khối lập phương có mấy mặt?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 6,
+          "question": "Hình vuông có mấy cạnh?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 7,
+          "question": "Hình tam giác có mấy cạnh?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Có 5 quả táo, thêm 5 quả táo nữa. Hỏi có tất cả mấy quả táo?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Có 10 con chim, bay đi mất 6 con chim. Hỏi còn lại mấy con chim?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "So sánh: 8 và 5. Kết quả nào đúng?",
+          "options": {
+            "A": "8 > 5",
+            "B": "8 < 5",
+            "C": "8 = 5",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 2, 8, 1, 5",
+          "options": {
+            "A": "1, 2, 5, 8",
+            "B": "8, 5, 2, 1",
+            "C": "2, 8, 1, 5",
+            "D": "1, 5, 2, 8"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 12,
+          "question": "Số nào lớn nhất: 3, 7, 1, 9?",
+          "options": {
+            "A": "3",
+            "B": "7",
+            "C": "1",
+            "D": "9"
+          },
+          "correctAnswer": "D"
+        },
+        {
+          "id": 13,
+          "question": "Số nào nhỏ nhất: 4, 6, 2, 8?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "2",
+            "D": "8"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "Hình tròn có góc không?",
+          "options": {
+            "A": "Có",
+            "B": "Không",
+            "C": "Có một góc",
+            "D": "Có hai góc"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Khối lập phương có tất cả các mặt là hình gì?",
+          "options": {
+            "A": "Hình vuông",
+            "B": "Hình tròn",
+            "C": "Hình tam giác",
+            "D": "Hình chữ nhật"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "week": 17,
+      "title": "TUẦN 17",
+      "description": "Ôn tập học kì 1 - Ôn tập các số trong phạm vi 10, Ôn tập phép cộng, phép trừ trong phạm vi 10",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Số nào lớn nhất trong các số: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "8",
+            "D": "7"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Số nào nhỏ nhất trong các số: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 3,
+          "question": "5 + 5 = ?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 4,
+          "question": "10 - 5 = ?",
+          "options": {
+            "A": "4",
+            "B": "6",
+            "C": "5",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 5,
+          "question": "7 + 3 = ?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "10 - 3 = ?",
+          "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "6 + 4 = ?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "10 - 4 = ?",
+          "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Có 8 quả táo, thêm 2 quả táo nữa. Hỏi có tất cả mấy quả táo?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "Có 10 con chim, bay đi mất 7 con chim. Hỏi còn lại mấy con chim?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 11,
+          "question": "Hình vuông có mấy cạnh?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 12,
+          "question": "Hình tam giác có mấy cạnh?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "Khối lập phương có mấy mặt?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 14,
+          "question": "So sánh: 9 và 6. Kết quả nào đúng?",
+          "options": {
+            "A": "9 > 6",
+            "B": "9 < 6",
+            "C": "9 = 6",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 15,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 3, 7, 1, 5, 9",
+          "options": {
+            "A": "1, 3, 5, 7, 9",
+            "B": "9, 7, 5, 3, 1",
+            "C": "3, 7, 1, 5, 9",
+            "D": "1, 5, 3, 7, 9"
+          },
+          "correctAnswer": "A"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "week": 18,
+      "title": "TUẦN 18",
+      "description": "Ôn tập học kì 1 - Ôn tập hình học, Ôn tập chung, Kiểm tra đánh giá",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Hình nào có dạng tròn, không có góc?",
+          "options": {
+            "A": "Hình vuông",
+            "B": "Hình tròn",
+            "C": "Hình tam giác",
+            "D": "Hình chữ nhật"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 2,
+          "question": "Hình vuông có mấy cạnh bằng nhau?",
+          "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 3,
+          "question": "Khối lập phương có tất cả các mặt là hình gì?",
+          "options": {
+            "A": "Hình vuông",
+            "B": "Hình tròn",
+            "C": "Hình tam giác",
+            "D": "Hình chữ nhật"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 4,
+          "question": "8 + 2 = ?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 5,
+          "question": "10 - 8 = ?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 6,
+          "question": "9 + 1 = ?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 7,
+          "question": "10 - 1 = ?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 8,
+          "question": "Có 7 quả táo, thêm 3 quả táo nữa. Hỏi có tất cả mấy quả táo?",
+          "options": {
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 9,
+          "question": "Có 10 bông hoa, hái mất 9 bông hoa. Hỏi còn lại mấy bông hoa?",
+          "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 10,
+          "question": "So sánh: 10 và 5. Kết quả nào đúng?",
+          "options": {
+            "A": "10 > 5",
+            "B": "10 < 5",
+            "C": "10 = 5",
+            "D": "Không so sánh được"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 11,
+          "question": "Số nào đứng sau số 9?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "C"
+        },
+        {
+          "id": 12,
+          "question": "Số nào đứng trước số 10?",
+          "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 13,
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 4, 8, 1, 6, 10",
+          "options": {
+            "A": "1, 4, 6, 8, 10",
+            "B": "10, 8, 6, 4, 1",
+            "C": "4, 8, 1, 6, 10",
+            "D": "1, 6, 4, 8, 10"
+          },
+          "correctAnswer": "A"
+        },
+        {
+          "id": 14,
+          "question": "Hình chữ nhật có mấy cạnh?",
+          "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+          },
+          "correctAnswer": "B"
+        },
+        {
+          "id": 15,
+          "question": "Khối hộp chữ nhật có mấy mặt?",
+          "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+          },
+          "correctAnswer": "C"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,155 @@
+{
+  "week": 11,
+  "subject": "english",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-11",
+      "title": "Unit 11: At the bus stop",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "What letter is this: 'U'?",
+          "options": [
+            "W",
+            "T",
+            "V",
+            "U"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tiếng Việt: Đây là chữ cái 'U' (đọc là 'u'). English: This is the letter 'U'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "How do you pronounce the letter 'U'?",
+          "options": [
+            "/f/",
+            "/ʌ/",
+            "/h/",
+            "/e/"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: Chữ 'U' được phát âm là /ʌ/. English: The letter 'U' is pronounced /ʌ/.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "What is the English word for this picture?",
+          "options": [
+            "bus",
+            "book",
+            "noodles",
+            "nuts"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: 'bus' là từ tiếng Anh đúng. English: 'bus' is the correct English word.",
+          "imageUrl": "emoji:🚌"
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Choose the correct word: run",
+          "options": [
+            "football",
+            "gate",
+            "run",
+            "fish"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tiếng Việt: 'run' là từ tiếng Anh đúng. English: 'run' is the correct English word.",
+          "imageUrl": "emoji:🏃"
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Which word matches this?",
+          "options": [
+            "sun",
+            "leaf",
+            "father",
+            "water"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: 'sun' là từ tiếng Anh đúng. English: 'sun' is the correct English word.",
+          "imageUrl": "emoji:☀️"
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Select the right word: truck",
+          "options": [
+            "teddy bear",
+            "mops",
+            "lake",
+            "truck"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tiếng Việt: 'truck' là từ tiếng Anh đúng. English: 'truck' is the correct English word.",
+          "imageUrl": "emoji:🚚"
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Which sentence means 'Anh ấy đang chạy.'?",
+          "options": [
+            "It's a red pen.",
+            "This is a dog.",
+            "He's running.",
+            "I like milk."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tiếng Việt: 'He's running.' có nghĩa là 'Anh ấy đang chạy.'. English: 'He's running.' means 'Anh ấy đang chạy.'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Find the word: 'bus'",
+          "options": [
+            "red",
+            "bus",
+            "noodles",
+            "father"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'bus' là từ tiếng Anh đúng. English: 'bus' is the correct English word.",
+          "imageUrl": "emoji:🚌"
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Choose: 'sun'",
+          "options": [
+            "sun",
+            "water",
+            "noodles",
+            "garden"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: 'sun' là từ tiếng Anh đúng. English: 'sun' is the correct English word.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "What is: 'run'",
+          "options": [
+            "locks",
+            "run",
+            "truck",
+            "can"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'run' là từ tiếng Anh đúng. English: 'run' is the correct English word.",
+          "imageUrl": "emoji:🏃"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "week": 4,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "So sánh số",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số nào lớn hơn: 5 hay 3?",
+          "options": [
+            "Bằng nhau",
+            "3 lớn hơn 5",
+            "5 lớn hơn 3",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 2,
+          "explanation": "5 > 3 nên số 5 lớn hơn số 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ hơn: 4 hay 7?",
+          "options": [
+            "7 nhỏ hơn 4",
+            "4 nhỏ hơn 7",
+            "Bằng nhau",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 1,
+          "explanation": "4 < 7 nên số 4 nhỏ hơn số 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 6, 8, 5, 9?",
+          "options": [
+            "6",
+            "8",
+            "5",
+            "9"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 9 là số lớn nhất trong các số 6, 8, 5, 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ nhất trong các số: 7, 3, 9, 5?",
+          "options": [
+            "7",
+            "3",
+            "9",
+            "5"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 3 là số nhỏ nhất trong các số 7, 3, 9, 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Điền dấu thích hợp: 3 ... 8",
+          "options": [
+            "3 > 8",
+            "3 = 8",
+            "3 < 8",
+            "Không điền được"
+          ],
+          "correctAnswer": 2,
+          "explanation": "3 < 8 nên điền dấu <",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Điền dấu thích hợp: 6 ... 4",
+          "options": [
+            "6 < 4",
+            "6 > 4",
+            "6 = 4",
+            "Không điền được"
+          ],
+          "correctAnswer": 1,
+          "explanation": "6 > 4 nên điền dấu >",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Điền dấu thích hợp: 5 ... 5",
+          "options": [
+            "5 = 5",
+            "5 < 5",
+            "5 > 5",
+            "Không điền được"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 = 5 nên điền dấu =",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Sắp xếp các số sau theo thứ tự từ nhỏ đến lớn: 9, 2, 6, 4",
+          "options": [
+            "4, 2, 6, 9",
+            "9, 6, 4, 2",
+            "2, 6, 4, 9",
+            "2, 4, 6, 9"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Sắp xếp từ nhỏ đến lớn: 2 < 4 < 6 < 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Sắp xếp các số sau theo thứ tự từ lớn đến nhỏ: 3, 8, 1, 6",
+          "options": [
+            "8, 6, 3, 1",
+            "1, 3, 6, 8",
+            "8, 3, 6, 1",
+            "6, 8, 3, 1"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Sắp xếp từ lớn đến nhỏ: 8 > 6 > 3 > 1",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Có 7 quả táo và 5 quả cam. Quả nào nhiều hơn và nhiều hơn bao nhiêu?",
+          "options": [
+            "Táo nhiều hơn, nhiều hơn 1 quả",
+            "Bằng nhau",
+            "Cam nhiều hơn, nhiều hơn 1 quả",
+            "Táo nhiều hơn, nhiều hơn 2 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "7 > 5, 7 - 5 = 2 nên táo nhiều hơn cam 2 quả",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Số nào đứng giữa số 4 và số 6?",
+          "options": [
+            "5",
+            "4",
+            "3",
+            "6"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 5 đứng giữa số 4 và số 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Có 9 cái kẹo và 6 cái bánh. Cái nào ít hơn và ít hơn bao nhiêu?",
+          "options": [
+            "Kẹo ít hơn, ít hơn 2 cái",
+            "Kẹo ít hơn, ít hơn 3 cái",
+            "Bánh ít hơn, ít hơn 3 cái",
+            "Bánh ít hơn, ít hơn 2 cái"
+          ],
+          "correctAnswer": 2,
+          "explanation": "6 < 9, 9 - 6 = 3 nên bánh ít hơn kẹo 3 cái",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

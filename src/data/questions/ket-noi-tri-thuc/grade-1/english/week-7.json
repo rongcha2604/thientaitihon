@@ -1,0 +1,155 @@
+{
+  "week": 7,
+  "subject": "english",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-7",
+      "title": "Unit 7: In the garden",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "What letter is this: 'G'?",
+          "options": [
+            "G",
+            "F",
+            "I",
+            "H"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: Đây là chữ cái 'G' (đọc là 'giê'). English: This is the letter 'G'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "How do you pronounce the letter 'G'?",
+          "options": [
+            "/h/",
+            "/w/",
+            "/g/",
+            "/m/"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tiếng Việt: Chữ 'G' được phát âm là /g/. English: The letter 'G' is pronounced /g/.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Which word starts with 'G'?",
+          "options": [
+            "garden",
+            "leaf",
+            "pen",
+            "pencil"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: Từ 'garden' bắt đầu bằng chữ 'G'. English: The word 'garden' starts with the letter 'G'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "What is the English word for this picture?",
+          "options": [
+            "water",
+            "milk",
+            "pen",
+            "garden"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tiếng Việt: 'garden' là từ tiếng Anh đúng. English: 'garden' is the correct English word.",
+          "imageUrl": "emoji:🌳"
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Choose the correct word: gate",
+          "options": [
+            "mops",
+            "gate",
+            "wash",
+            "garden"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'gate' là từ tiếng Anh đúng. English: 'gate' is the correct English word.",
+          "imageUrl": "emoji:🚧"
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Select the right word: goat",
+          "options": [
+            "turtle",
+            "goat",
+            "cat",
+            "leaf"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'goat' là từ tiếng Anh đúng. English: 'goat' is the correct English word.",
+          "imageUrl": "emoji:🐐"
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Complete the sentence: There's a _____.",
+          "options": [
+            "garden",
+            "goat",
+            "gate",
+            "girl"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tiếng Việt: Câu hoàn chỉnh là 'There's a garden.'. English: The complete sentence is 'There's a garden.'.",
+          "imageUrl": "emoji:🌳"
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Which word matches this?",
+          "options": [
+            "water",
+            "girl",
+            "mother",
+            "tiger"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tiếng Việt: 'girl' là từ tiếng Anh đúng. English: 'girl' is the correct English word.",
+          "imageUrl": "emoji:👧"
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Find the word: 'garden'",
+          "options": [
+            "apple",
+            "mouse",
+            "chips",
+            "garden"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tiếng Việt: 'garden' là từ tiếng Anh đúng. English: 'garden' is the correct English word.",
+          "imageUrl": "emoji:🌳"
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Which sentence means 'Có một khu vườn.'?",
+          "options": [
+            "It's a red pen.",
+            "Bye, Bill.",
+            "There's a garden.",
+            "I like milk."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tiếng Việt: 'There's a garden.' có nghĩa là 'Có một khu vườn.'. English: 'There's a garden.' means 'Có một khu vườn.'.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

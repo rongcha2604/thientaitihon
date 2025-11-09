@@ -1,0 +1,173 @@
+import React, { useState, useEffect, lazy, Suspense } from 'react';
+import { Page } from './types';
+import BottomNav from './components/BottomNav';
+
+// Lazy load pages for code splitting
+const HocPage = lazy(() => import('./components/pages/HocPage'));
+const OnTapPage = lazy(() => import('./components/pages/OnTapPage'));
+const AlbumPage = lazy(() => import('./components/pages/AlbumPage'));
+const HoSoPage = lazy(() => import('./components/pages/HoSoPage'));
+const ExercisePage = lazy(() => import('./components/pages/ExercisePage'));
+import VietnameseScenery from './components/VietnameseScenery';
+import LoginPage from './src/components/auth/LoginPage';
+import AdminDashboard from './src/components/admin/AdminDashboard';
+import { useAuth } from './src/contexts/AuthContext';
+import ToastProvider from './components/common/ToastNotification';
+import { DailyChallengeProvider } from './contexts/DailyChallengeContext';
+import { AdaptiveDifficultyProvider } from './contexts/AdaptiveDifficultyContext';
+import KeyboardShortcuts from './components/common/KeyboardShortcuts';
+import OfflineIndicator from './components/common/OfflineIndicator';
+import { useSyncData } from './src/hooks/useSyncData';
+
+// Global styles are now in src/index.css (Tailwind CSS)
+// No need for GlobalStyles component anymore
+
+
+const App: React.FC = () => {
+  const [activePage, setActivePage] = useState<Page>(Page.Hoc);
+  const [isAdminMode, setIsAdminMode] = useState(false);
+  const [isExerciseMode, setIsExerciseMode] = useState(false);
+  const [exerciseData, setExerciseData] = useState<{
+    weekId: number;
+    bookSeries: string;
+    grade: number;
+    subject: string;
+  } | null>(null);
+  const { user, loading, isAuthenticated } = useAuth();
+  
+  // Auto-sync data when app starts (only on mobile/Capacitor)
+  const { isSyncing, syncProgress, lastSync, error: syncError } = useSyncData(
+    typeof window !== 'undefined' && (window as any).Capacitor !== undefined
+  );
+
+  // Fix: Inject necessary scripts and font links into the document head.
+  useEffect(() => {
+    // Add Google Fonts
+    if (!document.querySelector('link[href^="https://fonts.googleapis.com"]')) {
+        const fontPreconnect1 = document.createElement('link');
+        fontPreconnect1.rel = 'preconnect';
+        fontPreconnect1.href = 'https://fonts.googleapis.com';
+        document.head.appendChild(fontPreconnect1);
+
+        const fontPreconnect2 = document.createElement('link');
+        fontPreconnect2.rel = 'preconnect';
+        fontPreconnect2.href = 'https://fonts.gstatic.com';
+        fontPreconnect2.crossOrigin = "anonymous";
+        document.head.appendChild(fontPreconnect2);
+
+        const fontLink = document.createElement('link');
+        fontLink.href = 'https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap';
+        fontLink.rel = 'stylesheet';
+        document.head.appendChild(fontLink);
+    }
+  }, []);
+
+  const handleStartWeek = (weekId: number, bookSeries: string, grade: number, subject: string) => {
+    setExerciseData({ weekId, bookSeries, grade, subject });
+    setIsExerciseMode(true);
+  };
+
+  const handleBackFromExercise = () => {
+    setIsExerciseMode(false);
+    setExerciseData(null);
+  };
+
+  const handleNavigate = (page: 'Hoc' | 'OnTap' | 'Album' | 'HoSo') => {
+    const pageMap: { [key: string]: Page } = {
+      'Hoc': Page.Hoc,
+      'OnTap': Page.OnTap,
+      'Album': Page.Album,
+      'HoSo': Page.HoSo,
+    };
+    setActivePage(pageMap[page]);
+  };
+
+  const renderPage = () => {
+    // Show ExercisePage if in exercise mode
+    if (isExerciseMode && exerciseData) {
+      return (
+        <ExercisePage
+          weekId={exerciseData.weekId}
+          bookSeries={exerciseData.bookSeries}
+          grade={exerciseData.grade}
+          subject={exerciseData.subject}
+          onBack={handleBackFromExercise}
+        />
+      );
+    }
+
+    // Show normal pages
+    switch (activePage) {
+      case Page.Hoc:
+        return <HocPage onStartWeek={handleStartWeek} />;
+      case Page.OnTap:
+        return <OnTapPage />;
+      case Page.Album:
+        return <AlbumPage />;
+      case Page.HoSo:
+        return <HoSoPage />;
+      default:
+        return <HocPage onStartWeek={handleStartWeek} />;
+    }
+  };
+
+  // Show loading screen
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-[#FDFBF5]">
+        <div className="text-2xl font-black text-amber-900">Đang tải...</div>
+      </div>
+    );
+  }
+
+  // TEMPORARY: Skip authentication check for testing
+  // TODO: Re-enable authentication by uncommenting the code below
+  // Show login page if not authenticated
+  // if (!isAuthenticated) {
+  //   return <LoginPage />;
+  // }
+
+  // Show admin dashboard if in admin mode
+  if (isAdminMode && user?.role === 'admin') {
+    return <AdminDashboard onExit={() => setIsAdminMode(false)} />;
+  }
+
+  // Show main app
+  return (
+    <ToastProvider>
+      <DailyChallengeProvider>
+        <AdaptiveDifficultyProvider>
+          <KeyboardShortcuts onNavigate={handleNavigate} />
+          <OfflineIndicator />
+          <VietnameseScenery />
+          <div className="relative w-full max-w-5xl mx-auto min-h-screen">
+            {/* Admin mode button (only for admin users) */}
+            {user?.role === 'admin' && (
+              <button
+                onClick={() => setIsAdminMode(true)}
+                className="fixed top-4 right-4 z-50 bg-blue-500 text-white px-4 py-2 rounded-2xl font-bold shadow-lg hover:bg-blue-600 transition-all"
+              >
+                🔧 Admin
+              </button>
+            )}
+        <main className="pb-28 md:pb-32">
+          <Suspense fallback={
+            <div className="min-h-screen flex items-center justify-center bg-[#FDFBF5]">
+              <div className="text-2xl font-black text-amber-900">Đang tải...</div>
+            </div>
+          }>
+            {/* Only render pages when auth is ready (loading = false) */}
+            {!loading && renderPage()}
+          </Suspense>
+        </main>
+            {!isExerciseMode && (
+              <BottomNav activePage={activePage} setActivePage={setActivePage} />
+            )}
+          </div>
+        </AdaptiveDifficultyProvider>
+      </DailyChallengeProvider>
+    </ToastProvider>
+  );
+};
+
+export default App;

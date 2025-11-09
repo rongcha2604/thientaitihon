@@ -1,0 +1,163 @@
+{
+  "week": 27,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Phép trừ số có hai chữ số cho số có một chữ số",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "39 - 5 = ?",
+          "options": [
+            "34",
+            "33",
+            "35",
+            "36"
+          ],
+          "correctAnswer": 0,
+          "explanation": "39 - 5 = 34",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "48 - 6 = ?",
+          "options": [
+            "41",
+            "42",
+            "43",
+            "44"
+          ],
+          "correctAnswer": 1,
+          "explanation": "48 - 6 = 42",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "57 - 7 = ?",
+          "options": [
+            "49",
+            "51",
+            "50",
+            "52"
+          ],
+          "correctAnswer": 2,
+          "explanation": "57 - 7 = 50",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "66 - 8 = ?",
+          "options": [
+            "57",
+            "59",
+            "60",
+            "58"
+          ],
+          "correctAnswer": 3,
+          "explanation": "66 - 8 = 58",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "75 - 9 = ?",
+          "options": [
+            "66",
+            "65",
+            "67",
+            "68"
+          ],
+          "correctAnswer": 0,
+          "explanation": "75 - 9 = 66",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Phép trừ số có hai chữ số cho số có hai chữ số",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "45 - 23 = ?",
+          "options": [
+            "22",
+            "21",
+            "23",
+            "24"
+          ],
+          "correctAnswer": 0,
+          "explanation": "45 - 23 = 22",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "56 - 34 = ?",
+          "options": [
+            "21",
+            "22",
+            "23",
+            "24"
+          ],
+          "correctAnswer": 1,
+          "explanation": "56 - 34 = 22",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "67 - 45 = ?",
+          "options": [
+            "21",
+            "23",
+            "22",
+            "24"
+          ],
+          "correctAnswer": 2,
+          "explanation": "67 - 45 = 22",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "78 - 56 = ?",
+          "options": [
+            "21",
+            "23",
+            "24",
+            "22"
+          ],
+          "correctAnswer": 3,
+          "explanation": "78 - 56 = 22",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "89 - 67 = ?",
+          "options": [
+            "22",
+            "21",
+            "23",
+            "24"
+          ],
+          "correctAnswer": 0,
+          "explanation": "89 - 67 = 22",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

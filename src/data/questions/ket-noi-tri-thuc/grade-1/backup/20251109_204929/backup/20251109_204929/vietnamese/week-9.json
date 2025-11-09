@@ -1,0 +1,183 @@
+{
+  "week": 9,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 9",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Vần \"ui\" và vần \"iu\" khác nhau như thế nào?",
+          "options": [
+            "\"ui\" đọc khác \"iu\"",
+            "\"ui\" bắt đầu bằng \"u\", \"iu\" bắt đầu bằng \"i\"",
+            "\"ui\" có 2 chữ, \"iu\" có 3 chữ",
+            "\"ui\" có dấu sắc, \"iu\" có dấu huyền"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đáp án đúng là '\"ui\" bắt đầu bằng \"u\", \"iu\" bắt đầu bằng \"i\"'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Vần \"au\" và vần \"âu\" khác nhau ở điểm nào?",
+          "options": [
+            "\"au\" có chữ \"a\", \"âu\" có chữ \"â\"",
+            "\"au\" có dấu sắc, \"âu\" có dấu huyền",
+            "\"au\" có 2 chữ, \"âu\" có 3 chữ",
+            "\"au\" đọc khác \"âu\""
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là '\"au\" có chữ \"a\", \"âu\" có chữ \"â\"'. Đây là điểm khác biệt giữa vần 'au' và vần 'âu'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ nào có vần \"ao\"?",
+          "options": [
+            "ba",
+            "bao",
+            "be",
+            "bi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'bao' có chứa vần 'ao'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Từ nào có vần \"eo\"?",
+          "options": [
+            "beo",
+            "bao",
+            "bi",
+            "ba"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'beo' có chứa vần 'eo'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Vần \"ui\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "4 chữ",
+            "3 chữ",
+            "2 chữ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vần 'ui' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Vần \"eo\" có mấy chữ cái?",
+          "options": [
+            "2 chữ",
+            "1 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vần 'eo' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Vần \"ao\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "3 chữ",
+            "4 chữ",
+            "2 chữ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vần 'ao' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Vần \"au\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "4 chữ",
+            "2 chữ",
+            "3 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'au' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Vần \"âu\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "3 chữ",
+            "4 chữ",
+            "2 chữ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vần 'âu' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Vần \"iu\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vần 'iu' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Vần \"êu\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "3 chữ",
+            "2 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'êu' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Vần \"ưu\" có mấy chữ cái?",
+          "options": [
+            "3 chữ",
+            "1 chữ",
+            "2 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'ưu' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

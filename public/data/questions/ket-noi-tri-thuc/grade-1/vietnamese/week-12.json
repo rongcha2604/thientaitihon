@@ -1,0 +1,183 @@
+{
+  "week": 12,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 12",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Vần \"ep\" có mấy chữ cái?",
+          "options": [
+            "3 chữ",
+            "1 chữ",
+            "4 chữ",
+            "2 chữ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vần 'ep' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Vần \"êp\" có mấy chữ cái?",
+          "options": [
+            "2 chữ",
+            "4 chữ",
+            "3 chữ",
+            "1 chữ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vần 'êp' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Vần \"up\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vần 'up' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Vần \"ip\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "3 chữ",
+            "4 chữ",
+            "2 chữ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vần 'ip' có 2 chữ cái. Đáp án đúng là '2 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Vần \"anh\" có mấy chữ cái?",
+          "options": [
+            "3 chữ",
+            "2 chữ",
+            "1 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vần 'anh' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Vần \"ênh\" có mấy chữ cái?",
+          "options": [
+            "2 chữ",
+            "1 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'ênh' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Vần \"inh\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "3 chữ",
+            "2 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vần 'inh' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Vần \"êch\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "4 chữ",
+            "3 chữ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vần 'êch' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Vần \"ich\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "2 chữ",
+            "3 chữ",
+            "4 chữ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Vần 'ich' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Vần \"ach\" có mấy chữ cái?",
+          "options": [
+            "1 chữ",
+            "3 chữ",
+            "4 chữ",
+            "2 chữ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Vần 'ach' có 3 chữ cái. Đáp án đúng là '3 chữ'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào có vần \"ang\"?",
+          "options": [
+            "bang",
+            "be",
+            "ba",
+            "bi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'bang' có chứa vần 'ang'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Từ nào có vần \"ăng\"?",
+          "options": [
+            "be",
+            "ba",
+            "băng",
+            "bi"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ 'băng' có chứa vần 'ăng'. Đây là đáp án đúng.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

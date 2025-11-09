@@ -1,0 +1,183 @@
+{
+  "week": 12,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Phép trừ trong phạm vi 10",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "9 - 1 = ?",
+          "options": [
+            "9",
+            "7",
+            "10",
+            "8"
+          ],
+          "correctAnswer": 3,
+          "explanation": "9 - 1 = 8",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "10 - 2 = ?",
+          "options": [
+            "8",
+            "9",
+            "7",
+            "10"
+          ],
+          "correctAnswer": 0,
+          "explanation": "10 - 2 = 8",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "10 - 1 = ?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "correctAnswer": 1,
+          "explanation": "10 - 1 = 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "7 - 3 = ?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "3"
+          ],
+          "correctAnswer": 0,
+          "explanation": "7 - 3 = 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "8 - 4 = ?",
+          "options": [
+            "6",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctAnswer": 2,
+          "explanation": "8 - 4 = 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "10 - 6 = ?",
+          "options": [
+            "5",
+            "4",
+            "3",
+            "6"
+          ],
+          "correctAnswer": 1,
+          "explanation": "10 - 6 = 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "7 - 4 = ?",
+          "options": [
+            "2",
+            "4",
+            "5",
+            "3"
+          ],
+          "correctAnswer": 3,
+          "explanation": "7 - 4 = 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "9 - 5 = ?",
+          "options": [
+            "6",
+            "4",
+            "5",
+            "3"
+          ],
+          "correctAnswer": 1,
+          "explanation": "9 - 5 = 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "6 - 2 = ?",
+          "options": [
+            "3",
+            "5",
+            "6",
+            "4"
+          ],
+          "correctAnswer": 3,
+          "explanation": "6 - 2 = 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "8 - 5 = ?",
+          "options": [
+            "4",
+            "2",
+            "3",
+            "5"
+          ],
+          "correctAnswer": 2,
+          "explanation": "8 - 5 = 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "9 - 6 = ?",
+          "options": [
+            "3",
+            "2",
+            "4",
+            "5"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 - 6 = 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "10 - 7 = ?",
+          "options": [
+            "4",
+            "5",
+            "3",
+            "2"
+          ],
+          "correctAnswer": 2,
+          "explanation": "10 - 7 = 3",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

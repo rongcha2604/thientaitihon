@@ -1,0 +1,295 @@
+{
+  "week": 4,
+  "subject": "vietnamese",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "TUẦN 4",
+      "duration": 15,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Chữ \"m\" và chữ \"n\" khác nhau như thế nào?",
+          "options": [
+            "Chữ \"m\" có 2 nét, chữ \"n\" có 1 nét",
+            "Chữ \"m\" có 1 nét, chữ \"n\" có 2 nét",
+            "Chữ \"m\" có dấu mũ, chữ \"n\" không có",
+            "Chữ \"m\" có dấu móc, chữ \"n\" không có"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'Chữ \"m\" có 2 nét, chữ \"n\" có 1 nét'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Chữ \"g\" và chữ \"gi\" khác nhau ở điểm nào?",
+          "options": [
+            "Chữ \"g\" là 1 chữ, chữ \"gi\" là 2 chữ",
+            "Chữ \"g\" có dấu sắc, chữ \"gi\" có dấu huyền",
+            "Chữ \"g\" có 1 nét, chữ \"gi\" có 2 nét",
+            "Chữ \"g\" đọc khác chữ \"gi\""
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'Chữ \"g\" là 1 chữ, chữ \"gi\" là 2 chữ'. Đây là điểm khác biệt giữa chữ 'g' và chữ 'gi'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Chữ \"gh\" và chữ \"g\" khác nhau ở điểm nào?",
+          "options": [
+            "Chữ \"gh\" là 2 chữ, chữ \"g\" là 1 chữ",
+            "Chữ \"gh\" có dấu sắc, chữ \"g\" có dấu huyền",
+            "Chữ \"gh\" có 2 nét, chữ \"g\" có 1 nét",
+            "Chữ \"gh\" đọc khác chữ \"g\""
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'Chữ \"gh\" là 2 chữ, chữ \"g\" là 1 chữ'. Đây là điểm khác biệt giữa chữ 'gh' và chữ 'g'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ \"ng\" và chữ \"ngh\" khác nhau ở đâu?",
+          "options": [
+            "\"ngh\" có thêm chữ \"h\"",
+            "\"ng\" có thêm chữ \"g\"",
+            "\"ngh\" có dấu sắc",
+            "\"ng\" có dấu huyền"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là '\"ngh\" có thêm chữ \"h\"'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Chữ \"m\" trong tiếng Việt đọc là gì?",
+          "options": [
+            "mờ",
+            "ma",
+            "me",
+            "mi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chữ 'm' trong tiếng Việt đọc là 'mờ'. Đây là cách đọc chuẩn của chữ cái này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Chữ \"n\" trong tiếng Việt đọc là gì?",
+          "options": [
+            "nờ",
+            "na",
+            "ne",
+            "ni"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chữ 'n' trong tiếng Việt đọc là 'nờ'. Đây là cách đọc chuẩn của chữ cái này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Chữ \"g\" trong tiếng Việt đọc là gì?",
+          "options": [
+            "gờ",
+            "ga",
+            "ge",
+            "gi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chữ 'g' trong tiếng Việt đọc là 'gờ'. Đây là cách đọc chuẩn của chữ cái này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Chữ \"nh\" đọc là gì?",
+          "options": [
+            "nhờ",
+            "nha",
+            "nhe",
+            "nhi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'nhờ'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ \"ng\" đọc là gì?",
+          "options": [
+            "ngờ",
+            "nga",
+            "nge",
+            "ngi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'ngờ'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Chữ \"ngh\" đọc là gì?",
+          "options": [
+            "nghờ",
+            "ngha",
+            "nghe",
+            "nghi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'nghờ'. Hãy đọc kỹ câu hỏi và xem xét từng lựa chọn để tìm ra đáp án chính xác nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"m\"?",
+          "options": [
+            "ma",
+            "ba",
+            "na",
+            "ta"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'ma' có chứa chữ 'm'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"n\"?",
+          "options": [
+            "na",
+            "ba",
+            "ma",
+            "ta"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'na' có chứa chữ 'n'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q13",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"g\"?",
+          "options": [
+            "ga",
+            "ba",
+            "ma",
+            "na"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'ga' có chứa chữ 'g'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q14",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"gi\"?",
+          "options": [
+            "gia",
+            "ga",
+            "ba",
+            "ma"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'gia' có chứa chữ 'gi'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q15",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"gh\"?",
+          "options": [
+            "gha",
+            "ga",
+            "ba",
+            "ma"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'gha' có chứa chữ 'gh'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q16",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"nh\"?",
+          "options": [
+            "nha",
+            "na",
+            "ba",
+            "ma"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'nha' có chứa chữ 'nh'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q17",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"ng\"?",
+          "options": [
+            "nga",
+            "na",
+            "ba",
+            "ma"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'nga' có chứa chữ 'ng'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q18",
+          "type": "multiple-choice",
+          "question": "Từ nào có chữ \"ngh\"?",
+          "options": [
+            "ngha",
+            "nga",
+            "na",
+            "ba"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 'ngha' có chứa chữ 'ngh'. Đây là đáp án đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q19",
+          "type": "multiple-choice",
+          "question": "Chữ \"gi\" và chữ \"gh\" giống nhau ở điểm nào?",
+          "options": [
+            "Cùng bắt đầu bằng chữ \"g\"",
+            "Cùng có dấu sắc",
+            "Cùng có 2 chữ",
+            "Cùng đọc là \"gờ\""
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'Cùng bắt đầu bằng chữ \"g\"'. Đây là điểm giống nhau giữa chữ 'gi' và chữ 'gh'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q20",
+          "type": "multiple-choice",
+          "question": "Chữ \"ng\" và chữ \"ngh\" giống nhau ở điểm nào?",
+          "options": [
+            "Cùng bắt đầu bằng chữ \"n\" và \"g\"",
+            "Cùng có dấu sắc",
+            "Cùng có 2 chữ",
+            "Cùng đọc là \"ngờ\""
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đáp án đúng là 'Cùng bắt đầu bằng chữ \"n\" và \"g\"'. Đây là điểm giống nhau giữa chữ 'ng' và chữ 'ngh'.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for viet-style design */
+:root {
+  --viet-style-shadow-light: rgba(255, 255, 255, 0.9);
+  --viet-style-shadow-dark: rgba(210, 190, 170, 0.5);
+  --viet-style-shadow-raised: 
+    -6px -6px 12px var(--viet-style-shadow-light), 
+    6px 6px 12px var(--viet-style-shadow-dark);
+  --viet-style-shadow-pressed: 
+    inset -3px -3px 6px var(--viet-style-shadow-light), 
+    inset 3px 3px 6px var(--viet-style-shadow-dark);
+  --lotus-pink: #F472B6;
+  --bamboo-green: #10B981;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #581C0D; /* Màu nâu đất */
+}
+
+.bamboo-texture {
+  background-image: 
+    linear-gradient(to right, rgba(255,255,255,0.3) 50%, transparent 50%), 
+    linear-gradient(to right, rgba(0,0,0,0.05) 50%, transparent 50%);
+  background-size: 8px 100%, 8px 100%;
+  background-position: 0 0, 4px 0;
+}
+
+/* Animations for Phase 1 */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes flipCard {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.3s ease-out;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.5s ease-out;
+}
+
+.animate-flip-card {
+  animation: flipCard 0.6s ease-in-out;
+}
+
+.animate-sparkle {
+  animation: sparkle 1s ease-in-out infinite;
+}
+
+/* Utility classes for 3D transforms */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Animations for Phase 2 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.4s ease-out;
+}
+
+/* Glowing animation for notification bubble and selected buttons */
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(251, 191, 36, 0.5), 0 0 20px rgba(251, 191, 36, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.8), 0 0 30px rgba(251, 191, 36, 0.5);
+  }
+}
+
+@keyframes glow-blue {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.6), 0 0 25px rgba(59, 130, 246, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(59, 130, 246, 0.9), 0 0 35px rgba(59, 130, 246, 0.6);
+  }
+}
+
+@keyframes glow-green {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(34, 197, 94, 0.6), 0 0 25px rgba(34, 197, 94, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(34, 197, 94, 0.9), 0 0 35px rgba(34, 197, 94, 0.6);
+  }
+}
+
+@keyframes glow-yellow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(234, 179, 8, 0.6), 0 0 25px rgba(234, 179, 8, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(234, 179, 8, 0.9), 0 0 35px rgba(234, 179, 8, 0.6);
+  }
+}
+
+@keyframes glow-purple {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.6), 0 0 25px rgba(168, 85, 247, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.9), 0 0 35px rgba(168, 85, 247, 0.6);
+  }
+}
+
+@keyframes glow-red {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.6), 0 0 25px rgba(239, 68, 68, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.9), 0 0 35px rgba(239, 68, 68, 0.6);
+  }
+}
+
+@keyframes glow-sky {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(14, 165, 233, 0.6), 0 0 25px rgba(14, 165, 233, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(14, 165, 233, 0.9), 0 0 35px rgba(14, 165, 233, 0.6);
+  }
+}
+
+@keyframes glow-lime {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(132, 204, 22, 0.6), 0 0 25px rgba(132, 204, 22, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(132, 204, 22, 0.9), 0 0 35px rgba(132, 204, 22, 0.6);
+  }
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+.animate-glow-blue {
+  animation: glow-blue 2s ease-in-out infinite;
+}
+
+.animate-glow-green {
+  animation: glow-green 2s ease-in-out infinite;
+}
+
+.animate-glow-yellow {
+  animation: glow-yellow 2s ease-in-out infinite;
+}
+
+.animate-glow-purple {
+  animation: glow-purple 2s ease-in-out infinite;
+}
+
+.animate-glow-red {
+  animation: glow-red 2s ease-in-out infinite;
+}
+
+.animate-glow-sky {
+  animation: glow-sky 2s ease-in-out infinite;
+}
+
+.animate-glow-lime {
+  animation: glow-lime 2s ease-in-out infinite;
+}
+
+@keyframes bounce-slow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2s ease-in-out infinite;
+}
+

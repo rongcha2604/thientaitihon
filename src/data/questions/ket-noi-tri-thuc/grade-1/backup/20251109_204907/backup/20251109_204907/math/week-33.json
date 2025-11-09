@@ -1,0 +1,253 @@
+{
+  "week": 33,
+  "subject": "math",
+  "grade": 1,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập các số và phép tính trong phạm vi 10",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "7 + 2 = ?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "correctAnswer": 1,
+          "explanation": "7 + 2 = 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "9 - 3 = ?",
+          "options": [
+            "6",
+            "5",
+            "7",
+            "8"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 - 3 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Có 8 quả táo, thêm 2 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "9 quả",
+            "10 quả",
+            "11 quả",
+            "12 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "8 + 2 = 10",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Có 10 con gà, bay đi 5 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "4 con",
+            "7 con",
+            "6 con",
+            "5 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "10 - 5 = 5",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 11 con gà, thêm 7 con nữa. Hỏi có tất cả bao nhiêu con gà?",
+          "options": [
+            "20 con",
+            "17 con",
+            "18 con",
+            "19 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "11 + 7 = 18",
+          "imageUrl": null,
+          "id": "q6"
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ nhất trong các số: 8, 2, 6, 4?",
+          "options": [
+            "4",
+            "8",
+            "6",
+            "2"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 2 là số nhỏ nhất trong các số 8, 2, 6, 4",
+          "imageUrl": null
+        },
+        {
+          "question": "Có 7 quả cam, ăn mất 5 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "2 quả",
+            "3 quả",
+            "4 quả",
+            "1 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "7 - 5 = 2",
+          "imageUrl": null,
+          "id": "q7"
+        },
+        {
+          "question": "Có 20 con gà, bay đi 13 con. Hỏi còn lại bao nhiêu con gà?",
+          "options": [
+            "10 con",
+            "8 con",
+            "7 con",
+            "4 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "20 - 13 = 7",
+          "imageUrl": null,
+          "id": "q8"
+        },
+        {
+          "question": "Có 11 quả táo, thêm 3 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "14 quả",
+            "16 quả",
+            "15 quả",
+            "11 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "11 + 3 = 14",
+          "imageUrl": null,
+          "id": "q9"
+        },
+        {
+          "question": "Có 13 quả cam, ăn mất 12 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "4 quả",
+            "2 quả",
+            "3 quả",
+            "1 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "13 - 12 = 1",
+          "imageUrl": null,
+          "id": "q10"
+        },
+        {
+          "question": "19 + 1 = ?",
+          "options": [
+            "22",
+            "19",
+            "20",
+            "23"
+          ],
+          "correctAnswer": 2,
+          "explanation": "19 + 1 = 20",
+          "imageUrl": null,
+          "id": "q11"
+        },
+        {
+          "question": "Có 16 cái kẹo, cho bạn 11 cái. Hỏi còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "8 cái",
+            "5 cái",
+            "4 cái",
+            "6 cái"
+          ],
+          "correctAnswer": 1,
+          "explanation": "16 - 11 = 5",
+          "imageUrl": null,
+          "id": "q12"
+        }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "Ôn tập các số và phép tính trong phạm vi 100",
+      "duration": 10,
+      "questions": [
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "45 + 23 = ?",
+          "options": [
+            "68",
+            "67",
+            "69",
+            "70"
+          ],
+          "correctAnswer": 0,
+          "explanation": "45 + 23 = 68",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "78 - 34 = ?",
+          "options": [
+            "44",
+            "43",
+            "45",
+            "46"
+          ],
+          "correctAnswer": 0,
+          "explanation": "78 - 34 = 44",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 23, 32, 45, 54?",
+          "options": [
+            "23",
+            "32",
+            "45",
+            "54"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 54 là số lớn nhất trong các số 23, 32, 45, 54",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ nhất trong các số: 67, 76, 89, 98?",
+          "options": [
+            "76",
+            "67",
+            "89",
+            "98"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 67 là số nhỏ nhất trong các số 67, 76, 89, 98",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Số 56 gồm mấy chục và mấy đơn vị?",
+          "options": [
+            "6 chục và 5 đơn vị",
+            "5 chục và 6 đơn vị",
+            "5 chục và 5 đơn vị",
+            "6 chục và 6 đơn vị"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 56 gồm 5 chục và 6 đơn vị",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
