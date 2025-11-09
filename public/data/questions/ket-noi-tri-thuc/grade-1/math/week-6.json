@@ -40,14 +40,14 @@
         {
           "id": "q3",
           "type": "multiple-choice",
-          "question": "7 gồm mấy và mấy?",
+          "question": "7 gồm 3 và mấy?",
           "options": [
-            "4 và 3",
-            "2 và 5",
-            "3 và 4",
-            "5 và 2"
+            "4",
+            "5",
+            "3",
+            "6"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "7 = 3 + 4, nên 7 gồm 3 và 4",
           "imageUrl": null
         },

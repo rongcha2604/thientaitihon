@@ -68,14 +68,14 @@
         {
           "id": "q5",
           "type": "multiple-choice",
-          "question": "6 gồm mấy và mấy?",
+          "question": "6 gồm 3 và mấy?",
           "options": [
-            "1 và 5",
-            "3 và 3",
-            "2 và 4",
-            "4 và 2"
+            "3",
+            "4",
+            "2",
+            "5"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "6 = 3 + 3, nên 6 gồm 3 và 3",
           "imageUrl": null
         },

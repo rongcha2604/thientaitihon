@@ -58,14 +58,47 @@ const VietButton: React.FC<{onClick: () => void; children: React.ReactNode; isAc
 const bookSeries = [ { name: 'Kết nối tri thức', color: 'bg-blue-200' }, { name: 'Chân trời sáng tạo', color: 'bg-green-200' }, { name: 'Phát triển năng lực', color: 'bg-yellow-200' }, { name: 'Bình đẳng & Dân chủ', color: 'bg-purple-200' }, ];
 const grades = [1, 2, 3, 4, 5];
 const subjects = [ { name: 'Toán', icon: '🧮', color: 'bg-red-200' }, { name: 'Tiếng Việt', icon: '📝', color: 'bg-sky-200' }, { name: 'Tiếng Anh', icon: '🌐', color: 'bg-lime-200' }, ];
-// Week metadata (titles, dates)
-const weekMetadata: Array<{ id: number; title: string; date: string }> = [
-  { id: 1, title: 'Cây Đa Đầu Làng', date: 'Tuần 1' },
-  { id: 2, title: 'Giếng Nước Trong Veo', date: 'Tuần 2' },
-  { id: 3, title: 'Sân Đình Rộn Rã', date: 'Tuần 3' },
-  { id: 4, title: 'Đồng Lúa Chín Vàng', date: 'Tuần 4' },
-  { id: 5, title: 'Lũy Tre Xanh Mát', date: 'Tuần 5' },
-];
+// Week metadata (titles, dates) - Base titles cho 5 tuần đầu
+const baseWeekTitles: { [key: number]: string } = {
+  1: 'Cây Đa Đầu Làng',
+  2: 'Giếng Nước Trong Veo',
+  3: 'Sân Đình Rộn Rã',
+  4: 'Đồng Lúa Chín Vàng',
+  5: 'Lũy Tre Xanh Mát',
+};
+
+// Function để generate week metadata động (detect số tuần có sẵn)
+const generateWeekMetadata = async (bookSeriesFolder: string, grade: number, subjectFolder: string, maxWeeks: number = 35): Promise<Array<{ id: number; title: string; date: string }>> => {
+  const weekMetadata: Array<{ id: number; title: string; date: string }> = [];
+  
+  // Thử detect số tuần có sẵn bằng cách check file week-*.json
+  // Dùng Promise.all để check song song (nhanh hơn)
+  const checkPromises = [];
+  for (let weekId = 1; weekId <= maxWeeks; weekId++) {
+    const dataPath = `/data/questions/${bookSeriesFolder}/grade-${grade}/${subjectFolder}/week-${weekId}.json`;
+    checkPromises.push(
+      fetch(dataPath, { method: 'GET', cache: 'no-cache' })
+        .then(response => ({ weekId, exists: response.ok }))
+        .catch(() => ({ weekId, exists: false }))
+    );
+  }
+  
+  const results = await Promise.all(checkPromises);
+  
+  // Thêm các tuần có file vào metadata
+  for (const result of results) {
+    if (result.exists) {
+      const title = baseWeekTitles[result.weekId] || `Tuần ${result.weekId}`;
+      weekMetadata.push({
+        id: result.weekId,
+        title,
+        date: `Tuần ${result.weekId}`,
+      });
+    }
+  }
+  
+  return weekMetadata;
+};
 
 interface HocPageProps {
   onStartWeek: (weekId: number, bookSeries: string, grade: number, subject: string) => void;
@@ -194,9 +227,12 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
             const bookSeriesFolder = bookSeriesMap[selectedBook] || 'ket-noi-tri-thuc';
             const subjectFolder = subjectMap[selectedSubject] || 'math';
             
+            // Auto-detect số tuần có sẵn
+            const dynamicWeekMetadata = await generateWeekMetadata(bookSeriesFolder, selectedGrade, subjectFolder);
+            
             const userId = user?.id || null;
             const weeksData: Week[] = await Promise.all(
-                weekMetadata.map(async (weekMeta) => {
+                dynamicWeekMetadata.map(async (weekMeta) => {
                     // Load progress from localStorage (gắn với user ID)
                     const progress = getExerciseProgress(userId, weekMeta.id, selectedBook, selectedGrade, selectedSubject);
                     
@@ -406,9 +442,9 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
                                 />
                             ))
                         ) : (
-                            // Loading state
-                            weekMetadata.map((weekMeta, index) => (
-                                <div key={weekMeta.id} className="w-full md:w-3/5 p-4 rounded-3xl bg-slate-200/50 animate-pulse">
+                            // Loading state - Show 5 placeholders
+                            Array.from({ length: 5 }, (_, index) => (
+                                <div key={`loading-${index}`} className="w-full md:w-3/5 p-4 rounded-3xl bg-slate-200/50 animate-pulse">
                                     <div className="h-20"></div>
                                 </div>
                             ))
@@ -416,7 +452,20 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
                     </div>
                     <div className="mt-4">
                         <p className="text-sm font-bold text-amber-800 mb-2">Tiến độ tổng thể</p>
-                        <ProgressBar progress={40} current={2} total={5} color="blue" animated />
+                        {(() => {
+                            const completedWeeks = weeks.filter(w => w.status === 'completed').length;
+                            const totalWeeks = weeks.length;
+                            const progressPercentage = totalWeeks > 0 ? Math.round((completedWeeks / totalWeeks) * 100) : 0;
+                            return (
+                                <ProgressBar 
+                                    progress={progressPercentage} 
+                                    current={completedWeeks} 
+                                    total={totalWeeks} 
+                                    color="blue" 
+                                    animated 
+                                />
+                            );
+                        })()}
                     </div>
                 </VietSection>
 

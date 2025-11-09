@@ -251,14 +251,16 @@ const AlbumPage: React.FC = () => {
                     // Sync với localStorage
                     localStorage.setItem('user_coins', coinsData.coins.toString());
                 } catch (error) {
-                    // Nếu không có backend, đọc từ localStorage hoặc dùng mặc định
+                    // Nếu không có backend, đọc từ localStorage hoặc dùng mặc định = 0 (lần đầu)
                     console.log('Backend not available, using localStorage coins');
-                    const storedCoins = parseInt(localStorage.getItem('user_coins') || '100', 10);
+                    const storedCoinsStr = localStorage.getItem('user_coins');
+                    const storedCoins = storedCoinsStr !== null ? parseInt(storedCoinsStr, 10) : 0;
                     setCoins(storedCoins);
                 }
             } else {
-                // Không có user → đọc từ localStorage hoặc dùng mặc định
-                const storedCoins = parseInt(localStorage.getItem('user_coins') || '100', 10);
+                // Không có user → đọc từ localStorage hoặc dùng mặc định = 0 (lần đầu)
+                const storedCoinsStr = localStorage.getItem('user_coins');
+                const storedCoins = storedCoinsStr !== null ? parseInt(storedCoinsStr, 10) : 0;
                 setCoins(storedCoins);
             }
             

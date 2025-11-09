@@ -1,4 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { awardCoins } from '../src/lib/api/coins';
+import { useAuth } from '../src/contexts/AuthContext';
 
 export interface DailyChallenge {
   id: string;
@@ -30,6 +32,7 @@ const LAST_RESET_KEY = 'daily_challenges_last_reset';
 
 export const DailyChallengeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [challenges, setChallenges] = useState<DailyChallenge[]>([]);
+  const { user } = useAuth();
 
   // Load challenges from localStorage
   useEffect(() => {
@@ -116,26 +119,93 @@ export const DailyChallengeProvider: React.FC<{ children: React.ReactNode }> = (
     setChallenges(challenges);
   };
 
-  const completeChallenge = (challengeId: string) => {
+  const completeChallenge = async (challengeId: string) => {
+    const challenge = challenges.find(c => c.id === challengeId);
+    if (!challenge || challenge.completed) return;
+
+    // Tính coins từ reward (1 star = 1 coin, 1 rice = 1 coin)
+    const coinsToAward = challenge.reward.stars + challenge.reward.rice;
+
+    // Tích lũy coins
+    if (coinsToAward > 0) {
+      try {
+        // Thử gọi API nếu có backend và user
+        if (user?.id) {
+          try {
+            await awardCoins({
+              amount: coinsToAward,
+              reason: `Hoàn thành thử thách: ${challenge.title}`,
+              metadata: { challengeId, challengeType: challenge.type },
+            });
+          } catch (error) {
+            // Nếu backend fail, fallback về localStorage
+            console.log('Backend not available, using localStorage');
+            const currentCoins = parseInt(localStorage.getItem('user_coins') || '0', 10);
+            const newCoins = currentCoins + coinsToAward;
+            localStorage.setItem('user_coins', newCoins.toString());
+          }
+        } else {
+          // Không có user → dùng localStorage
+          const currentCoins = parseInt(localStorage.getItem('user_coins') || '0', 10);
+          const newCoins = currentCoins + coinsToAward;
+          localStorage.setItem('user_coins', newCoins.toString());
+        }
+      } catch (error) {
+        console.error('Error awarding coins:', error);
+      }
+    }
+
+    // Cập nhật challenge status
     setChallenges(prev =>
-      prev.map(challenge =>
-        challenge.id === challengeId
+      prev.map(c =>
+        c.id === challengeId
           ? {
-              ...challenge,
+              ...c,
               completed: true,
               completedAt: new Date().toISOString(),
             }
-          : challenge
+          : c
       )
     );
   };
 
-  const updateProgress = (challengeId: string, progress: number) => {
+  const updateProgress = async (challengeId: string, progress: number) => {
     setChallenges(prev =>
       prev.map(challenge => {
         if (challenge.id === challengeId) {
           const newProgress = Math.min(progress, challenge.target);
           const completed = newProgress >= challenge.target && !challenge.completed;
+          
+          // Nếu challenge vừa hoàn thành → tích lũy coins
+          if (completed && !challenge.completed) {
+            const coinsToAward = challenge.reward.stars + challenge.reward.rice;
+            
+            if (coinsToAward > 0) {
+              // Tích lũy coins
+              try {
+                if (user?.id) {
+                  awardCoins({
+                    amount: coinsToAward,
+                    reason: `Hoàn thành thử thách: ${challenge.title}`,
+                    metadata: { challengeId, challengeType: challenge.type },
+                  }).catch(() => {
+                    // Fallback về localStorage nếu backend fail
+                    const currentCoins = parseInt(localStorage.getItem('user_coins') || '0', 10);
+                    const newCoins = currentCoins + coinsToAward;
+                    localStorage.setItem('user_coins', newCoins.toString());
+                  });
+                } else {
+                  // Không có user → dùng localStorage
+                  const currentCoins = parseInt(localStorage.getItem('user_coins') || '0', 10);
+                  const newCoins = currentCoins + coinsToAward;
+                  localStorage.setItem('user_coins', newCoins.toString());
+                }
+              } catch (error) {
+                console.error('Error awarding coins:', error);
+              }
+            }
+          }
+          
           return {
             ...challenge,
             progress: newProgress,

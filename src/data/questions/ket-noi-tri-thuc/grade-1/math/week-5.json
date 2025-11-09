@@ -12,26 +12,26 @@
         {
           "id": "q1",
           "type": "multiple-choice",
-          "question": "5 gồm mấy và mấy?",
+          "question": "5 gồm 2 và mấy?",
           "options": [
-            "4 và 1",
-            "2 và 3",
-            "1 và 4",
-            "3 và 2"
+            "3",
+            "4",
+            "2",
+            "5"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 0,
           "explanation": "5 = 2 + 3, nên 5 gồm 2 và 3",
           "imageUrl": null
         },
         {
           "id": "q2",
           "type": "multiple-choice",
-          "question": "6 gồm mấy và mấy?",
+          "question": "6 gồm 3 và mấy?",
           "options": [
-            "3 và 3",
-            "2 và 4",
-            "1 và 5",
-            "4 và 2"
+            "3",
+            "4",
+            "2",
+            "5"
           ],
           "correctAnswer": 0,
           "explanation": "6 = 3 + 3, nên 6 gồm 3 và 3",
@@ -40,28 +40,28 @@
         {
           "id": "q3",
           "type": "multiple-choice",
-          "question": "9 gồm mấy và mấy?",
+          "question": "9 gồm 4 và mấy?",
           "options": [
-            "7 và 2",
-            "5 và 4",
-            "6 và 3",
-            "4 và 5"
+            "5",
+            "6",
+            "4",
+            "7"
           ],
-          "correctAnswer": 3,
+          "correctAnswer": 0,
           "explanation": "9 = 4 + 5, nên 9 gồm 4 và 5",
           "imageUrl": null
         },
         {
           "id": "q4",
           "type": "multiple-choice",
-          "question": "7 gồm mấy và mấy?",
+          "question": "7 gồm 3 và mấy?",
           "options": [
-            "2 và 5",
-            "4 và 3",
-            "3 và 4",
-            "5 và 2"
+            "4",
+            "5",
+            "3",
+            "6"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "7 = 3 + 4, nên 7 gồm 3 và 4",
           "imageUrl": null
         },
@@ -82,12 +82,12 @@
         {
           "id": "q6",
           "type": "multiple-choice",
-          "question": "10 gồm mấy và mấy?",
+          "question": "10 gồm 5 và mấy?",
           "options": [
-            "5 và 5",
-            "6 và 4",
-            "4 và 6",
-            "7 và 3"
+            "5",
+            "6",
+            "4",
+            "7"
           ],
           "correctAnswer": 0,
           "explanation": "10 = 5 + 5, nên 10 gồm 5 và 5",
@@ -96,14 +96,14 @@
         {
           "id": "q7",
           "type": "multiple-choice",
-          "question": "8 gồm mấy và mấy?",
+          "question": "8 gồm 4 và mấy?",
           "options": [
-            "3 và 5",
-            "5 và 3",
-            "4 và 4",
-            "6 và 2"
+            "4",
+            "5",
+            "3",
+            "6"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "8 = 4 + 4, nên 8 gồm 4 và 4",
           "imageUrl": null
         },
