@@ -68,7 +68,8 @@ const baseWeekTitles: { [key: number]: string } = {
 };
 
 // Function để generate week metadata động (detect số tuần có sẵn)
-const generateWeekMetadata = async (bookSeriesFolder: string, grade: number, subjectFolder: string, maxWeeks: number = 35): Promise<Array<{ id: number; title: string; date: string }>> => {
+// Beta: Chỉ hiển thị 10 tuần đầu tiên
+const generateWeekMetadata = async (bookSeriesFolder: string, grade: number, subjectFolder: string, maxWeeks: number = 10): Promise<Array<{ id: number; title: string; date: string }>> => {
   const weekMetadata: Array<{ id: number; title: string; date: string }> = [];
   
   // Thử detect số tuần có sẵn bằng cách check file week-*.json
