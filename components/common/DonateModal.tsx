@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 
 interface DonateModalProps {
   isOpen: boolean;
@@ -9,10 +9,12 @@ const DonateModal: React.FC<DonateModalProps> = ({ isOpen, onClose }) => {
   const [selectedAmount, setSelectedAmount] = useState<number | null>(null);
   const [customAmount, setCustomAmount] = useState('');
   const [showThankYou, setShowThankYou] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const buttonsRef = useRef<HTMLDivElement>(null);
 
   if (!isOpen) return null;
 
-  const presetAmounts = [20000, 50000, 100000, 200000, 500000];
+  const presetAmounts = [20000, 50000, 100000];
 
   const handleDonate = () => {
     const amount = selectedAmount || parseInt(customAmount.replace(/[^\d]/g, '')) || 0;
@@ -35,7 +37,10 @@ const DonateModal: React.FC<DonateModalProps> = ({ isOpen, onClose }) => {
   if (showThankYou) {
     return (
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
-        <div className="bg-[#FDFBF5] rounded-3xl p-6 max-w-md w-full shadow-viet-style-raised border-2 border-pink-300/40">
+        <div 
+          className="bg-[#FDFBF5] rounded-3xl p-6 max-w-md w-full shadow-viet-style-raised border-2 border-pink-300/40 max-h-[90vh] overflow-y-auto"
+          style={{ WebkitOverflowScrolling: 'touch' }}
+        >
           <div className="text-center space-y-4">
             <div className="text-6xl">💝</div>
             <h2 className="text-2xl font-black text-pink-800">Cảm ơn bạn rất nhiều!</h2>
@@ -142,7 +147,10 @@ const DonateModal: React.FC<DonateModalProps> = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
-      <div className="bg-[#FDFBF5] rounded-3xl p-6 max-w-md w-full shadow-viet-style-raised border-2 border-pink-300/40 max-h-[90vh] overflow-y-auto">
+      <div 
+        className="bg-[#FDFBF5] rounded-3xl p-6 max-w-md w-full shadow-viet-style-raised border-2 border-pink-300/40 max-h-[90vh] overflow-y-auto"
+        style={{ WebkitOverflowScrolling: 'touch' }}
+      >
         <div className="space-y-4">
           <div className="text-center">
             <div className="text-5xl mb-2">💝</div>
@@ -180,12 +188,19 @@ const DonateModal: React.FC<DonateModalProps> = ({ isOpen, onClose }) => {
             <div className="space-y-2">
               <label className="text-sm font-semibold text-amber-800">Hoặc nhập số tiền khác:</label>
               <input
+                ref={inputRef}
                 type="text"
                 value={customAmount}
                 onChange={(e) => {
                   const value = e.target.value.replace(/[^\d]/g, '');
                   setCustomAmount(value);
                   setSelectedAmount(null);
+                }}
+                onFocus={() => {
+                  // Scroll buttons into view when input is focused (mobile keyboard opens)
+                  setTimeout(() => {
+                    buttonsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'end' });
+                  }, 300); // Delay to wait for keyboard animation
                 }}
                 placeholder="Nhập số tiền (VNĐ)"
                 className="w-full px-4 py-2 rounded-xl border-2 border-pink-200 focus:border-pink-400 focus:outline-none text-amber-900"
@@ -198,7 +213,7 @@ const DonateModal: React.FC<DonateModalProps> = ({ isOpen, onClose }) => {
             </div>
           </div>
 
-          <div className="flex gap-3 pt-2">
+          <div ref={buttonsRef} className="flex gap-3 pt-2 pb-6">
             <button
               onClick={onClose}
               className="flex-1 bg-amber-200 text-amber-900 font-semibold py-3 rounded-2xl shadow-viet-style-raised hover:scale-105 active:scale-95 transition-all"

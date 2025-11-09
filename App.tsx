@@ -18,6 +18,7 @@ import { DailyChallengeProvider } from './contexts/DailyChallengeContext';
 import { AdaptiveDifficultyProvider } from './contexts/AdaptiveDifficultyContext';
 import KeyboardShortcuts from './components/common/KeyboardShortcuts';
 import OfflineIndicator from './components/common/OfflineIndicator';
+import InstallPrompt from './components/common/InstallPrompt';
 import { useSyncData } from './src/hooks/useSyncData';
 
 // Global styles are now in src/index.css (Tailwind CSS)
@@ -144,6 +145,7 @@ const App: React.FC = () => {
         <AdaptiveDifficultyProvider>
           <KeyboardShortcuts onNavigate={handleNavigate} />
           <OfflineIndicator />
+          <InstallPrompt />
           <VietnameseScenery />
           <div className="relative w-full max-w-5xl mx-auto min-h-screen">
             {/* Admin mode button (only for admin users) */}
