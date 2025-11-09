@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useAuth } from '../../src/contexts/AuthContext';
 import StreakCounter from '../common/StreakCounter';
 import ProgressBar from '../common/ProgressBar';
 import AchievementBadge from '../common/AchievementBadge';
 import LearningAnalytics from '../analytics/LearningAnalytics';
-import PINEntryModal from '../common/PINEntryModal';
+import DonateButton from '../common/DonateButton';
+import DonateModal from '../common/DonateModal';
 import DeleteDataModal from '../common/DeleteDataModal';
 import { useToast } from '../common/ToastNotification';
 import { clearAllProgressForUser } from '../../src/lib/storage/exerciseProgress';
@@ -81,60 +82,16 @@ const LotusMedal: React.FC<{ type: 'gold' | 'silver' | 'bronze', size: string }>
 
 
 const HoSoPage: React.FC = () => {
-    const { user, logout, refreshUser } = useAuth();
+    const { user, logout } = useAuth();
     const { resetDaily } = useDailyChallenge();
     const { showToast } = useToast();
-    const [showParentModal, setShowParentModal] = useState(false);
+    const [showDonateModal, setShowDonateModal] = useState(false);
     const [showDeleteModal, setShowDeleteModal] = useState(false);
-    const [isParentVerified, setIsParentVerified] = useState(false);
-
-    // Restore parentPin khi component mount hoặc user thay đổi
-    useEffect(() => {
-        if (user?.id && (!user?.parentPin || user.parentPin === undefined || user.parentPin === null || user.parentPin === '')) {
-            console.log('🔍 HoSoPage useEffect: Restoring parentPin for user:', user.email, 'current parentPin:', user?.parentPin);
-            refreshUser().then(() => {
-                console.log('✅ HoSoPage useEffect: refreshUser completed');
-            }).catch((error) => {
-                console.error('❌ HoSoPage useEffect: refreshUser error:', error);
-            });
-        } else if (user?.parentPin) {
-            console.log('✅ HoSoPage useEffect: User already has parentPin:', user.email, user.parentPin);
-        }
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [user?.id]);
 
     const handleLogout = async () => {
         if (window.confirm('Bạn có chắc muốn đăng xuất?')) {
             await logout();
             window.location.reload(); // Reload để redirect về login
-        }
-    };
-
-    const handleParentClick = () => {
-        // Debug: Log user và parentPin để kiểm tra
-        console.log('🔍 handleParentClick(): user:', user);
-        console.log('🔍 handleParentClick(): user?.parentPin:', user?.parentPin);
-        console.log('🔍 handleParentClick(): typeof user?.parentPin:', typeof user?.parentPin);
-        
-        // Nếu chưa có PIN, yêu cầu đăng ký PIN
-        // Check: undefined, null, empty string
-        if (!user?.parentPin || user.parentPin === undefined || user.parentPin === null || user.parentPin === '') {
-            console.log('❌ handleParentClick(): No parentPin found!');
-            showToast('Vui lòng đăng ký mã PIN trong phần đăng ký!', 'warning');
-            return;
-        }
-        
-        console.log('✅ handleParentClick(): parentPin found, opening PIN entry modal');
-        setShowParentModal(true);
-    };
-
-    const handleParentPINVerify = (pin: string) => {
-        if (pin === user?.parentPin) {
-            setIsParentVerified(true);
-            setShowParentModal(false);
-            showToast('Đã xác thực PIN! Vào Góc Phụ Huynh...', 'success');
-        } else {
-            showToast('PIN không đúng! Vui lòng thử lại.', 'error');
         }
     };
 
@@ -207,6 +164,22 @@ const HoSoPage: React.FC = () => {
                             <p className="text-sm text-amber-900 font-semibold">Chặng 🚩</p>
                         </div>
                     </div>
+
+                    {/* Góc Phụ Huynh - Beta mode: Không cần PIN */}
+                    <VietSection title="👨‍👩‍👧 Góc Phụ Huynh">
+                        <div className="space-y-4">
+                            {/* Donate Button - Nhẹ nhàng, tinh tế */}
+                            <DonateButton onClick={() => setShowDonateModal(true)} />
+
+                            {/* Delete Data Button */}
+                            <button
+                                onClick={() => setShowDeleteModal(true)}
+                                className="w-full bg-red-200/80 text-red-900 font-bold py-4 rounded-3xl shadow-viet-style-raised hover:scale-105 active:scale-95 active:shadow-viet-style-pressed transition-all border-2 border-red-700/20"
+                            >
+                                🗑️ Xóa Dữ Liệu
+                            </button>
+                        </div>
+                    </VietSection>
                 </div>
 
                 {/* Right Column */}
@@ -253,37 +226,6 @@ const HoSoPage: React.FC = () => {
                     
                     <LearningAnalytics />
                     
-                    {/* Góc Phụ Huynh Button */}
-                    <button 
-                        onClick={handleParentClick}
-                        className="w-full bg-sky-200/80 text-amber-900 font-bold py-4 rounded-3xl shadow-viet-style-raised hover:scale-105 active:scale-95 active:shadow-viet-style-pressed transition-all border-2 border-sky-700/20"
-                    >
-                        🔐 Góc Phụ Huynh
-                    </button>
-
-                    {/* Parent Dashboard (chỉ hiện khi đã verify PIN) */}
-                    {isParentVerified && (
-                        <div className="bg-blue-100/50 p-5 rounded-3xl shadow-viet-style-raised border-2 border-blue-700/20 space-y-4">
-                            <h3 className="text-xl font-black text-blue-900 mb-4">👨‍👩‍👧 Góc Phụ Huynh</h3>
-                            
-                            {/* Delete Data Button */}
-                            <button
-                                onClick={() => setShowDeleteModal(true)}
-                                className="w-full bg-red-200/80 text-red-900 font-bold py-4 rounded-3xl shadow-viet-style-raised hover:scale-105 active:scale-95 active:shadow-viet-style-pressed transition-all border-2 border-red-700/20"
-                            >
-                                🗑️ Xóa Dữ Liệu
-                            </button>
-
-                            {/* Close Parent Dashboard */}
-                            <button
-                                onClick={() => setIsParentVerified(false)}
-                                className="w-full bg-amber-200/80 text-amber-900 font-bold py-3 rounded-2xl shadow-viet-style-raised hover:scale-105 active:scale-95 active:shadow-viet-style-pressed transition-all border-2 border-amber-700/20 text-sm"
-                            >
-                                ← Quay lại
-                            </button>
-                        </div>
-                    )}
-                    
                     <button 
                         onClick={handleLogout}
                         className="w-full bg-red-200/80 text-red-900 font-bold py-4 rounded-3xl shadow-viet-style-raised hover:scale-105 active:scale-95 active:shadow-viet-style-pressed transition-all border-2 border-red-700/20 mt-4"
@@ -293,22 +235,18 @@ const HoSoPage: React.FC = () => {
                 </div>
             </main>
 
-            {/* PIN Entry Modal for Parent Access */}
-            <PINEntryModal
-                isOpen={showParentModal}
-                title="🔐 Góc Phụ Huynh"
-                description="Nhập mã PIN 4 số để vào Góc Phụ Huynh"
-                onVerify={handleParentPINVerify}
-                onCancel={() => setShowParentModal(false)}
-                maxLength={4}
-            />
-
             {/* Delete Data Modal */}
             <DeleteDataModal
                 isOpen={showDeleteModal}
                 onClose={() => setShowDeleteModal(false)}
                 onDelete={handleDeleteData}
-                parentPin={user?.parentPin}
+                parentPin={user?.parentPin || ''}
+            />
+
+            {/* Donate Modal */}
+            <DonateModal
+                isOpen={showDonateModal}
+                onClose={() => setShowDonateModal(false)}
             />
         </div>
     );

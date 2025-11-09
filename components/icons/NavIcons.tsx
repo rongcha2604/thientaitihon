@@ -48,3 +48,11 @@ export const IconHoSo: React.FC = () => (
         </svg>
      </IconWrapper>
 );
+
+export const IconPhuHuynh: React.FC = () => (
+    <IconWrapper>
+        <svg xmlns="http://www.w3.org/2000/svg" {...commonProps}>
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+        </svg>
+    </IconWrapper>
+);

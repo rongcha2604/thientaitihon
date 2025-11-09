@@ -4,6 +4,7 @@ export enum Page {
   OnTap = 'OnTap',
   Album = 'Album',
   HoSo = 'HoSo',
+  PhuHuynh = 'PhuHuynh',
 }
 
 export interface Week {

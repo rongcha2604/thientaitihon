@@ -7,6 +7,7 @@ const HocPage = lazy(() => import('./components/pages/HocPage'));
 const OnTapPage = lazy(() => import('./components/pages/OnTapPage'));
 const AlbumPage = lazy(() => import('./components/pages/AlbumPage'));
 const HoSoPage = lazy(() => import('./components/pages/HoSoPage'));
+const PhuHuynhPage = lazy(() => import('./components/pages/PhuHuynhPage'));
 const ExercisePage = lazy(() => import('./components/pages/ExercisePage'));
 import VietnameseScenery from './components/VietnameseScenery';
 import LoginPage from './src/components/auth/LoginPage';
@@ -72,12 +73,13 @@ const App: React.FC = () => {
     setExerciseData(null);
   };
 
-  const handleNavigate = (page: 'Hoc' | 'OnTap' | 'Album' | 'HoSo') => {
+  const handleNavigate = (page: 'Hoc' | 'OnTap' | 'Album' | 'HoSo' | 'PhuHuynh') => {
     const pageMap: { [key: string]: Page } = {
       'Hoc': Page.Hoc,
       'OnTap': Page.OnTap,
       'Album': Page.Album,
       'HoSo': Page.HoSo,
+      'PhuHuynh': Page.PhuHuynh,
     };
     setActivePage(pageMap[page]);
   };
@@ -106,6 +108,9 @@ const App: React.FC = () => {
         return <AlbumPage />;
       case Page.HoSo:
         return <HoSoPage />;
+      case Page.PhuHuynh:
+        // Tab "Ủng hộ" mở DonateModal trực tiếp
+        return <PhuHuynhPage />;
       default:
         return <HocPage onStartWeek={handleStartWeek} />;
     }

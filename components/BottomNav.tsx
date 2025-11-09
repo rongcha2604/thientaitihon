@@ -1,6 +1,6 @@
 import React from 'react';
 import { Page } from '../types';
-import { IconHoc, IconOnTap, IconAlbum, IconHoSo } from './icons/NavIcons';
+import { IconHoc, IconOnTap, IconAlbum, IconHoSo, IconPhuHuynh } from './icons/NavIcons';
 
 interface BottomNavProps {
   activePage: Page;
@@ -59,6 +59,12 @@ const BottomNav: React.FC<BottomNavProps> = ({ activePage, setActivePage }) => {
           icon={<IconHoSo />}
           isActive={activePage === Page.HoSo}
           onClick={() => setActivePage(Page.HoSo)}
+        />
+        <NavButton
+          label="Ủng hộ"
+          icon={<IconPhuHuynh />}
+          isActive={activePage === Page.PhuHuynh}
+          onClick={() => setActivePage(Page.PhuHuynh)}
         />
       </div>
     </nav>

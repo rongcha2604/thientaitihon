@@ -18,7 +18,29 @@ const PINEntryModal: React.FC<PINEntryModalProps> = ({
   onCancel,
   maxLength = 4,
 }) => {
+  // Hooks phải được gọi ở top level, không được gọi sau early return
   const [pin, setPin] = useState<string>('');
+
+  // Reset PIN when modal closes
+  React.useEffect(() => {
+    if (!isOpen) {
+      setPin('');
+    }
+  }, [isOpen]);
+
+  // Auto verify when PIN is complete
+  React.useEffect(() => {
+    if (!isOpen) return; // Early return trong useEffect, không phải trong component
+    if (pin.length === maxLength) {
+      const timer = setTimeout(() => {
+        if (pin.length === maxLength) {
+          onVerify(pin);
+          setPin(''); // Reset PIN after verify
+        }
+      }, 300); // Small delay for UX
+      return () => clearTimeout(timer);
+    }
+  }, [pin, maxLength, onVerify, isOpen]);
 
   if (!isOpen) return null;
 
@@ -48,19 +70,6 @@ const PINEntryModal: React.FC<PINEntryModalProps> = ({
     setPin('');
     onCancel();
   };
-
-  // Auto verify when PIN is complete
-  React.useEffect(() => {
-    if (pin.length === maxLength) {
-      const timer = setTimeout(() => {
-        if (pin.length === maxLength) {
-          onVerify(pin);
-          setPin(''); // Reset PIN after verify
-        }
-      }, 300); // Small delay for UX
-      return () => clearTimeout(timer);
-    }
-  }, [pin, maxLength, onVerify]);
 
   return (
     <>
