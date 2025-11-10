@@ -5,6 +5,14 @@ import { AlbumItem } from '../../types';
 interface AlbumItemWithImage extends AlbumItem {
     imageFile?: string | null;
 }
+
+// Interface cho selected items
+interface SelectedItems {
+    character: string | null;
+    accessory: string | null;
+    frame: string | null;
+    sticker: string | null;
+}
 import ProgressBar from '../common/ProgressBar';
 import CardOpening from '../common/CardOpening';
 import { playSound } from '../common/SoundEffects';
@@ -47,9 +55,10 @@ interface ItemCardProps {
     coins: number;
     onClick: () => void;
     onPurchase?: () => void;
+    isSelected?: boolean;
 }
 
-const ItemCard: React.FC<ItemCardProps> = ({ item, coins, onClick, onPurchase }) => {
+const ItemCard: React.FC<ItemCardProps> = ({ item, coins, onClick, onPurchase, isSelected = false }) => {
     const isOwned = item.owned || item.unlocked;
     const canAfford = item.price !== undefined && coins >= item.price;
     const showPurchase = !isOwned && item.price !== undefined;
@@ -58,10 +67,12 @@ const ItemCard: React.FC<ItemCardProps> = ({ item, coins, onClick, onPurchase })
         <div className="relative">
             <button
                 onClick={isOwned ? onClick : undefined}
-                className={`relative aspect-square rounded-3xl transition-all duration-300 border-2 border-amber-900/30 ${
-                    isOwned 
-                        ? 'bg-[#FDFBF5] shadow-viet-style-raised hover:scale-105 active:scale-95 cursor-pointer' 
-                        : 'bg-yellow-100/50 shadow-viet-style-pressed cursor-default'
+                className={`relative aspect-square rounded-3xl transition-all duration-300 border-2 ${
+                    isSelected
+                        ? 'border-green-500 shadow-lg ring-4 ring-green-300/50'
+                        : isOwned 
+                            ? 'border-amber-900/30 bg-[#FDFBF5] shadow-viet-style-raised hover:scale-105 active:scale-95 cursor-pointer' 
+                            : 'border-amber-900/30 bg-yellow-100/50 shadow-viet-style-pressed cursor-default'
                 }`}
             >
                 <div className={`flex items-center justify-center w-full h-full transition-all duration-300 ${isOwned ? 'scale-100' : 'scale-90 opacity-40'}`}>
@@ -91,6 +102,11 @@ const ItemCard: React.FC<ItemCardProps> = ({ item, coins, onClick, onPurchase })
                 {!isOwned && (
                     <div className="absolute inset-0 bg-slate-100/50 rounded-3xl flex items-center justify-center backdrop-blur-sm">
                         <span className="text-4xl text-slate-500">🔒</span>
+                    </div>
+                )}
+                {isSelected && (
+                    <div className="absolute top-2 right-2 w-6 h-6 bg-green-500 rounded-full flex items-center justify-center shadow-lg z-10">
+                        <span className="text-white text-xs font-black">✓</span>
                     </div>
                 )}
                 {isOwned && (
@@ -223,7 +239,7 @@ const PurchaseModal: React.FC<PurchaseModalProps> = ({ isOpen, item, coins, onCo
 const AlbumPage: React.FC = () => {
     const { user } = useAuth();
     const { showToast } = useToast();
-    const [filter, setFilter] = useState<'character' | 'accessory' | 'frame' | 'sticker'>('character');
+    const [filter, setFilter] = useState<'character' | 'accessory' | 'frame' | 'sticker' | 'owned'>('character');
     const [openingCard, setOpeningCard] = useState<{ name: string; icon: string } | null>(null);
     const [items, setItems] = useState<AlbumItemWithImage[]>([]);
     const [coins, setCoins] = useState<number>(0);
@@ -233,11 +249,80 @@ const AlbumPage: React.FC = () => {
         isOpen: false,
     });
     const [purchasing, setPurchasing] = useState(false);
+    const [selectedItems, setSelectedItems] = useState<SelectedItems>({
+        character: null,
+        accessory: null,
+        frame: null,
+        sticker: null,
+    });
 
     // Load coins và items
     useEffect(() => {
         loadData();
     }, [filter]);
+
+    // Load selected items khi user thay đổi hoặc component mount
+    useEffect(() => {
+        loadSelectedItems();
+    }, [user?.id]);
+
+    // Load selected items từ localStorage
+    const loadSelectedItems = () => {
+        try {
+            const userId = user?.id || 'guest';
+            const key = `album_selected_items_${userId}`;
+            const stored = localStorage.getItem(key);
+            if (stored) {
+                const parsed = JSON.parse(stored) as SelectedItems;
+                setSelectedItems(parsed);
+            }
+        } catch (error) {
+            console.error('Error loading selected items:', error);
+        }
+    };
+
+    // Lưu selected items vào localStorage
+    const saveSelectedItems = (newSelectedItems: SelectedItems) => {
+        try {
+            const userId = user?.id || 'guest';
+            const key = `album_selected_items_${userId}`;
+            localStorage.setItem(key, JSON.stringify(newSelectedItems));
+            setSelectedItems(newSelectedItems);
+        } catch (error) {
+            console.error('Error saving selected items:', error);
+        }
+    };
+
+    // Load owned items từ localStorage
+    const loadOwnedItems = (): string[] => {
+        try {
+            const userId = user?.id || 'guest';
+            const key = `album_owned_items_${userId}`;
+            const stored = localStorage.getItem(key);
+            if (stored) {
+                return JSON.parse(stored) as string[];
+            }
+            return [];
+        } catch (error) {
+            console.error('Error loading owned items:', error);
+            return [];
+        }
+    };
+
+    // Lưu owned items vào localStorage
+    const saveOwnedItems = (itemId: string) => {
+        try {
+            const userId = user?.id || 'guest';
+            const key = `album_owned_items_${userId}`;
+            const ownedItems = loadOwnedItems();
+            if (!ownedItems.includes(itemId)) {
+                ownedItems.push(itemId);
+                localStorage.setItem(key, JSON.stringify(ownedItems));
+            }
+        } catch (error) {
+            console.error('Error saving owned items:', error);
+        }
+    };
 
     const loadData = async () => {
         try {
@@ -274,18 +359,25 @@ const AlbumPage: React.FC = () => {
             // Filter theo category và convert format
             const allItems = data.items.filter((item: any) => item.isActive);
             
+            // Load owned items từ localStorage
+            const ownedItemIds = loadOwnedItems();
+            const ownedItemIdsSet = new Set(ownedItemIds);
+            
             // Convert to AlbumItem format (không filter theo category ở đây, sẽ filter sau)
-            const convertedItems: AlbumItemWithImage[] = allItems.map((item: any) => ({
-                id: item.id,
-                name: item.name,
-                category: item.category,
-                image: item.image, // Emoji fallback
-                imageFile: item.imageFile || null, // Path ảnh nếu có
-                price: item.price,
-                description: item.description,
-                owned: item.owned || false,
-                unlocked: item.owned || false, // Legacy compatibility
-            }));
+            const convertedItems: AlbumItemWithImage[] = allItems.map((item: any) => {
+                const isOwned = ownedItemIdsSet.has(item.id) || item.owned || false;
+                return {
+                    id: item.id,
+                    name: item.name,
+                    category: item.category,
+                    image: item.image, // Emoji fallback
+                    imageFile: item.imageFile || null, // Path ảnh nếu có
+                    price: item.price,
+                    description: item.description,
+                    owned: isOwned,
+                    unlocked: isOwned, // Legacy compatibility
+                };
+            });
             
             setItems(convertedItems);
         } catch (error) {
@@ -298,15 +390,28 @@ const AlbumPage: React.FC = () => {
         }
     };
 
-    const filteredItems = items.filter(item => item.category === filter);
+    const filteredItems = filter === 'owned' 
+        ? items.filter(item => item.owned || item.unlocked)
+        : items.filter(item => item.category === filter && !item.owned && !item.unlocked);
+    
     const ownedCount = filteredItems.filter(item => item.owned || item.unlocked).length;
-    const totalCount = filteredItems.length;
+    const totalCount = filter === 'owned' 
+        ? items.length // Tổng số items tất cả categories
+        : filteredItems.length; // Tổng số items trong category hiện tại
     const progress = totalCount > 0 ? Math.round((ownedCount / totalCount) * 100) : 0;
 
     const handleCardClick = (item: AlbumItemWithImage) => {
         const isOwned = item.owned || item.unlocked;
         if (isOwned) {
+            // Lưu selection vào localStorage
+            const newSelectedItems: SelectedItems = {
+                ...selectedItems,
+                [item.category]: item.id,
+            };
+            saveSelectedItems(newSelectedItems);
+            
             playSound('success');
+            showToast(`Đã chọn ${item.name}!`, 'success');
             setOpeningCard({ name: item.name, icon: item.image });
             setTimeout(() => {
                 setOpeningCard(null);
@@ -340,6 +445,9 @@ const AlbumPage: React.FC = () => {
                     setCoins(result.coins);
                     localStorage.setItem('user_coins', result.coins.toString());
                     
+                    // Lưu owned item vào localStorage
+                    saveOwnedItems(item.id);
+                    
                     // Cập nhật items (đánh dấu item đã sở hữu)
                     setItems(prevItems => 
                         prevItems.map(i => 
@@ -348,6 +456,13 @@ const AlbumPage: React.FC = () => {
                                 : i
                         )
                     );
+
+                    // Tự động lưu selection sau khi purchase thành công
+                    const newSelectedItems: SelectedItems = {
+                        ...selectedItems,
+                        [item.category]: item.id,
+                    };
+                    saveSelectedItems(newSelectedItems);
 
                     showToast(`Đã đổi thành công ${item.name}!`, 'success');
                     purchaseSuccess = true;
@@ -365,6 +480,9 @@ const AlbumPage: React.FC = () => {
                 setCoins(newCoins);
                 localStorage.setItem('user_coins', newCoins.toString());
                 
+                // Lưu owned item vào localStorage (demo mode)
+                saveOwnedItems(item.id);
+                
                 setItems(prevItems => 
                     prevItems.map(i => 
                         i.id === item.id 
@@ -372,6 +490,14 @@ const AlbumPage: React.FC = () => {
                             : i
                     )
                 );
+                
+                // Tự động lưu selection sau khi purchase thành công (demo mode)
+                const newSelectedItems: SelectedItems = {
+                    ...selectedItems,
+                    [item.category]: item.id,
+                };
+                saveSelectedItems(newSelectedItems);
+                
                 showToast(`Đã đổi thành công ${item.name}! (Demo mode)`, 'success');
             }
 
@@ -413,6 +539,7 @@ const AlbumPage: React.FC = () => {
                         <FilterButton label="Trang phục" icon="👒" isActive={filter === 'accessory'} onClick={() => setFilter('accessory')} />
                         <FilterButton label="Khung cảnh" icon="🖼️" isActive={filter === 'frame'} onClick={() => setFilter('frame')} />
                         <FilterButton label="Đồ chơi" icon="🏮" isActive={filter === 'sticker'} onClick={() => setFilter('sticker')} />
+                        <FilterButton label="Sở hữu" icon="📦" isActive={filter === 'owned'} onClick={() => setFilter('owned')} />
                     </div>
                 </div>
                 
@@ -424,13 +551,17 @@ const AlbumPage: React.FC = () => {
                            coins={coins}
                            onClick={() => handleCardClick(item)}
                            onPurchase={() => handleCardClick(item)}
+                           isSelected={selectedItems[item.category] === item.id}
                        />
                     ))}
                 </div>
                 
                 <div className="mt-8 text-center max-w-md mx-auto bg-[#FDFBF5]/80 p-4 rounded-3xl shadow-viet-style-raised border-2 border-yellow-700/20">
                     <p className="font-bold text-amber-900 text-lg mb-2">
-                        Bộ sưu tập: {ownedCount}/{totalCount}
+                        {filter === 'owned' 
+                            ? `Bộ sưu tập của bé: ${ownedCount}/${totalCount}`
+                            : `Bộ sưu tập: ${ownedCount}/${totalCount}`
+                        }
                     </p>
                     <ProgressBar progress={progress} current={ownedCount} total={totalCount} color="green" animated />
                 </div>

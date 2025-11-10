@@ -4,7 +4,6 @@ import { useToast } from '../common/ToastNotification';
 import { playSound } from '../common/SoundEffects';
 import ProgressBar from '../common/ProgressBar';
 import ExplanationModal from './ExplanationModal';
-import HintButton from './HintButton';
 
 interface ReviewQuestion {
   id: string;
@@ -75,14 +74,6 @@ const ReviewMode: React.FC<ReviewModeProps> = ({ questions, onClose, practiceMod
     }
   };
 
-  const getHints = (): string[] => {
-    if (!currentQuestion) return [];
-    return [
-      'Hãy đọc kỹ câu hỏi và suy nghĩ từng bước',
-      'Thử đếm hoặc tính toán từng phần một',
-      `Đáp án đúng là: ${currentQuestion.options[currentQuestion.correctAnswer]}`,
-    ];
-  };
 
   if (questions.length === 0) {
     return (
@@ -143,18 +134,6 @@ const ReviewMode: React.FC<ReviewModeProps> = ({ questions, onClose, practiceMod
             <h3 className="text-xl font-black text-amber-900 mb-4">❓ Câu hỏi:</h3>
             <p className="text-lg font-bold text-amber-900 leading-relaxed">{currentQuestion.question}</p>
           </div>
-
-          {/* Hint System */}
-          {!showResult && (
-            <div className="mb-4">
-              <HintButton
-                hints={getHints()}
-                currentStars={currentStars}
-                freeHints={practiceMode}
-                onHintUsed={() => {}}
-              />
-            </div>
-          )}
 
           {/* Options */}
           <div className="space-y-3">

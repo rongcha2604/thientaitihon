@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../src/contexts/AuthContext';
 import StreakCounter from '../common/StreakCounter';
 import ProgressBar from '../common/ProgressBar';
@@ -10,6 +10,21 @@ import DeleteDataModal from '../common/DeleteDataModal';
 import { useToast } from '../common/ToastNotification';
 import { clearAllProgressForUser } from '../../src/lib/storage/exerciseProgress';
 import { useDailyChallenge } from '../../contexts/DailyChallengeContext';
+
+interface SelectedItems {
+    character: string | null;
+    accessory: string | null;
+    frame: string | null;
+    sticker: string | null;
+}
+
+interface AlbumItem {
+    id: string;
+    name: string;
+    category: string;
+    image: string;
+    imageFile?: string | null;
+}
 
 const VietHeader: React.FC<{ title: string; icon: string; onLogout?: () => void }> = ({ title, icon, onLogout }) => (
     <header className="p-4 text-center relative">
@@ -87,6 +102,39 @@ const HoSoPage: React.FC = () => {
     const { showToast } = useToast();
     const [showDonateModal, setShowDonateModal] = useState(false);
     const [showDeleteModal, setShowDeleteModal] = useState(false);
+    const [selectedCharacter, setSelectedCharacter] = useState<AlbumItem | null>(null);
+
+    // Load selected character từ localStorage
+    useEffect(() => {
+        const loadSelectedCharacter = async () => {
+            try {
+                // Load selectedItems từ localStorage
+                const userId = user?.id || 'guest';
+                const key = `album_selected_items_${userId}`;
+                const stored = localStorage.getItem(key);
+                if (stored) {
+                    const selectedItems: SelectedItems = JSON.parse(stored);
+                    if (selectedItems.character) {
+                        // Load album items để tìm character
+                        const response = await fetch('/data/album-items.json');
+                        if (response.ok) {
+                            const data = await response.json();
+                            const characterItem = data.items.find(
+                                (item: AlbumItem) => item.id === selectedItems.character && item.category === 'character'
+                            );
+                            if (characterItem) {
+                                setSelectedCharacter(characterItem);
+                            }
+                        }
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading selected character:', error);
+            }
+        };
+
+        loadSelectedCharacter();
+    }, [user?.id]);
 
     const handleLogout = async () => {
         if (window.confirm('Bạn có chắc muốn đăng xuất?')) {
@@ -140,7 +188,19 @@ const HoSoPage: React.FC = () => {
                         <div className="relative mb-4">
                             <div className="w-32 h-32 rounded-full bg-yellow-200 shadow-viet-style-pressed flex items-center justify-center p-2 border-4 border-amber-800/20">
                                 <div className="w-full h-full bg-gradient-to-br from-cyan-200 to-blue-300 rounded-full flex items-center justify-center overflow-hidden">
-                                   <TrangTiAvatar />
+                                    {selectedCharacter ? (
+                                        selectedCharacter.imageFile ? (
+                                            <img 
+                                                src={selectedCharacter.imageFile} 
+                                                alt={selectedCharacter.name}
+                                                className="w-full h-full object-cover"
+                                            />
+                                        ) : (
+                                            <span className="text-6xl">{selectedCharacter.image}</span>
+                                        )
+                                    ) : (
+                                        <TrangTiAvatar />
+                                    )}
                                 </div>
                             </div>
                         </div>

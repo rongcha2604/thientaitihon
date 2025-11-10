@@ -3,7 +3,6 @@ import { useAuth } from '../../src/contexts/AuthContext';
 import { playSound } from '../common/SoundEffects';
 import { useToast } from '../common/ToastNotification';
 import ProgressBar from '../common/ProgressBar';
-import HintButton from '../learning/HintButton';
 import ExplanationModal from '../learning/ExplanationModal';
 import DiscoveryCard from '../curiosity/DiscoveryCard';
 import InteractiveMascot from '../interactive/InteractiveMascot';
@@ -543,21 +542,6 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
     }, 500);
   };
 
-  // Generate hints based on question (mock for now)
-  const getHints = (): string[] => {
-    if (!currentQuestion) return [];
-    
-    // Generate hints based on question type
-    if (currentQuestion.type === 'multiple-choice') {
-      return [
-        'Hãy đọc kỹ câu hỏi và suy nghĩ từng bước',
-        'Thử đếm hoặc tính toán từng phần một',
-        `Đáp án đúng là: ${currentQuestion.options[currentQuestion.correctAnswer]}`,
-      ];
-    }
-    
-    return ['Gợi ý 1', 'Gợi ý 2', 'Gợi ý 3'];
-  };
 
   if (!weekData || !currentQuestion) {
     return (
@@ -628,20 +612,6 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
               </div>
             )}
           </div>
-
-          {/* Hint System */}
-          {!showResult && (
-            <div className="mb-6 md:mb-7">
-              <HintButton
-                hints={getHints()}
-                currentStars={currentStars}
-                freeHints={false}
-                onHintUsed={(hintIndex) => {
-                  setCurrentStars(currentStars - 1);
-                }}
-              />
-            </div>
-          )}
 
           {/* Options */}
           <div className="space-y-4 md:space-y-5">
