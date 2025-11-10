@@ -21,6 +21,7 @@ model User {
   role        String   @default("student") // student, parent, admin
   parentPin   String?  @map("parent_pin") // PIN 4 số cho khu phụ huynh
   coins       Int      @default(0) // Số coins của user (để đổi vật phẩm)
+  stars       Int      @default(0) // Tổng sao tích lũy (để unlock/nâng cấp linh vật)
   createdAt   DateTime @default(now()) @map("created_at")
   updatedAt   DateTime @updatedAt @map("updated_at")
 
@@ -30,6 +31,8 @@ model User {
   rewards     UserReward[]
   albumItems  UserAlbumItem[]
   coinTransactions CoinTransaction[]
+  spiritPets  UserSpiritPet[]
+  starTransactions StarTransaction[]
 
   @@map("users")
 }
@@ -183,5 +186,65 @@ model AuditLog {
   @@index([adminId])
   @@index([createdAt])
   @@map("audit_logs")
+}
+
+// Spirit Pets (Linh vật master data)
+model SpiritPet {
+  id          String   @id @default(uuid())
+  code        String   @unique // BE_NA, MIU, FLARE, etc.
+  baseNameVi  String   @map("base_name_vi") // Tên cơ bản
+  maxStars    Int      @default(5) @map("max_stars") // Số cấp tối đa
+  levels      Json     // Array of levels với star, name_vi, effect, unlock_cost
+  theme       String?  // Chủ đề / Môn học
+  color       String?  // Màu chính
+  specialEffect String? @map("special_effect") // Hiệu ứng đặc biệt
+  isActive    Boolean  @default(true) @map("is_active")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  userPets    UserSpiritPet[]
+
+  @@index([isActive])
+  @@index([code])
+  @@map("spirit_pets")
+}
+
+// User Spirit Pets (Linh vật user đã sở hữu)
+model UserSpiritPet {
+  id            String   @id @default(uuid())
+  userId        String   @map("user_id")
+  spiritPetId   String   @map("spirit_pet_id")
+  currentLevel  Int      @default(1) @map("current_level") // Cấp hiện tại (1-5)
+  isActive      Boolean  @default(false) @map("is_active") // Có đang dùng không
+  unlockedAt   DateTime @default(now()) @map("unlocked_at")
+  lastUpgradedAt DateTime? @map("last_upgraded_at")
+
+  // Relations
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  spiritPet     SpiritPet @relation(fields: [spiritPetId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, spiritPetId]) // Mỗi user chỉ có 1 record cho mỗi linh vật
+  @@index([userId])
+  @@index([spiritPetId])
+  @@index([userId, isActive])
+  @@map("user_spirit_pets")
+}
+
+// Star Transactions (lịch sử tích sao)
+model StarTransaction {
+  id          String   @id @default(uuid())
+  userId      String   @map("user_id")
+  amount      Int      // Số sao (+/-)
+  reason      String   // complete_lesson, complete_challenge, unlock_pet, upgrade_pet, etc.
+  metadata    Json?    // Dữ liệu bổ sung (lessonId, challengeId, petId, etc.)
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  // Relations
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([userId, createdAt])
+  @@map("star_transactions")
 }
 

@@ -1,5 +1,13 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { awardCoins } from '../src/lib/api/coins';
+
+// Helper function để award stars (localStorage only)
+const awardStarsLocal = (amount: number) => {
+  const currentStars = parseInt(localStorage.getItem('user_stars') || '0', 10);
+  const newStars = currentStars + amount;
+  localStorage.setItem('user_stars', newStars.toString());
+  return newStars;
+};
 import { useAuth } from '../src/contexts/AuthContext';
 
 export interface DailyChallenge {
@@ -176,32 +184,47 @@ export const DailyChallengeProvider: React.FC<{ children: React.ReactNode }> = (
           const newProgress = Math.min(progress, challenge.target);
           const completed = newProgress >= challenge.target && !challenge.completed;
           
-          // Nếu challenge vừa hoàn thành → tích lũy coins
+          // Nếu challenge vừa hoàn thành → tích lũy coins và stars
           if (completed && !challenge.completed) {
-            const coinsToAward = challenge.reward.stars + challenge.reward.rice;
+            const coinsToAward = challenge.reward.rice || 0;
+            const starsToAward = challenge.reward.stars || 0;
             
-            if (coinsToAward > 0) {
-              // Tích lũy coins
+            if (coinsToAward > 0 || starsToAward > 0) {
               try {
                 if (user?.id) {
-                  awardCoins({
-                    amount: coinsToAward,
-                    reason: `Hoàn thành thử thách: ${challenge.title}`,
-                    metadata: { challengeId, challengeType: challenge.type },
-                  }).catch(() => {
-                    // Fallback về localStorage nếu backend fail
+                  // Award coins
+                  if (coinsToAward > 0) {
+                    awardCoins({
+                      amount: coinsToAward,
+                      reason: `Hoàn thành thử thách: ${challenge.title}`,
+                      metadata: { challengeId, challengeType: challenge.type },
+                    }).catch(() => {
+                      // Fallback về localStorage nếu backend fail
+                      const currentCoins = parseInt(localStorage.getItem('user_coins') || '0', 10);
+                      const newCoins = currentCoins + coinsToAward;
+                      localStorage.setItem('user_coins', newCoins.toString());
+                    });
+                  }
+
+                  // Award stars (localStorage only)
+                  if (starsToAward > 0) {
+                    awardStarsLocal(starsToAward);
+                  }
+                } else {
+                  // Không có user → dùng localStorage
+                  if (coinsToAward > 0) {
                     const currentCoins = parseInt(localStorage.getItem('user_coins') || '0', 10);
                     const newCoins = currentCoins + coinsToAward;
                     localStorage.setItem('user_coins', newCoins.toString());
-                  });
-                } else {
-                  // Không có user → dùng localStorage
-                  const currentCoins = parseInt(localStorage.getItem('user_coins') || '0', 10);
-                  const newCoins = currentCoins + coinsToAward;
-                  localStorage.setItem('user_coins', newCoins.toString());
+                  }
+                  if (starsToAward > 0) {
+                    const currentStars = parseInt(localStorage.getItem('user_stars') || '0', 10);
+                    const newStars = currentStars + starsToAward;
+                    localStorage.setItem('user_stars', newStars.toString());
+                  }
                 }
               } catch (error) {
-                console.error('Error awarding coins:', error);
+                console.error('Error awarding rewards:', error);
               }
             }
           }

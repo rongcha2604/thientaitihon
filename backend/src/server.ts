@@ -10,6 +10,8 @@ import adminRoutes from './routes/adminRoutes.js';
 import syncRoutes from './routes/syncRoutes.js';
 import coinRoutes from './routes/coinRoutes.js';
 import albumRoutes from './routes/albumRoutes.js';
+import spiritPetRoutes from './routes/spiritPetRoutes.js';
+import starRoutes from './routes/starRoutes.js';
 
 const app = express();
 
@@ -92,6 +94,8 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/sync', syncRoutes);
 app.use('/api/coins', coinRoutes);
 app.use('/api/album', albumRoutes);
+app.use('/api/spirit-pets', spiritPetRoutes);
+app.use('/api/stars', starRoutes);
 
 // Health check
 app.get('/health', (req, res) => {

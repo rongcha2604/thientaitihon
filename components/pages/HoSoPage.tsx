@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '../../src/contexts/AuthContext';
 import StreakCounter from '../common/StreakCounter';
 import ProgressBar from '../common/ProgressBar';
@@ -102,39 +102,154 @@ const HoSoPage: React.FC = () => {
     const { showToast } = useToast();
     const [showDonateModal, setShowDonateModal] = useState(false);
     const [showDeleteModal, setShowDeleteModal] = useState(false);
-    const [selectedCharacter, setSelectedCharacter] = useState<AlbumItem | null>(null);
+    const [selectedItem, setSelectedItem] = useState<AlbumItem | null>(null); // Đổi từ selectedCharacter thành selectedItem để hỗ trợ tất cả categories
+    const [activeSpiritPet, setActiveSpiritPet] = useState<{ pet: any; userPet: any } | null>(null);
 
-    // Load selected character từ localStorage
-    useEffect(() => {
-        const loadSelectedCharacter = async () => {
-            try {
-                // Load selectedItems từ localStorage
-                const userId = user?.id || 'guest';
-                const key = `album_selected_items_${userId}`;
-                const stored = localStorage.getItem(key);
-                if (stored) {
-                    const selectedItems: SelectedItems = JSON.parse(stored);
-                    if (selectedItems.character) {
-                        // Load album items để tìm character
-                        const response = await fetch('/data/album-items.json');
-                        if (response.ok) {
-                            const data = await response.json();
-                            const characterItem = data.items.find(
-                                (item: AlbumItem) => item.id === selectedItems.character && item.category === 'character'
-                            );
-                            if (characterItem) {
-                                setSelectedCharacter(characterItem);
-                            }
+    // Helper: Tạo đường dẫn ảnh cho spirit pet dựa trên code và level
+    const getSpiritPetImage = (spiritPet: any, level: number): string | null => {
+        if (!spiritPet.code || level === 0) {
+            return null; // Chưa unlock hoặc không có code
+        }
+        // Đường dẫn: /icons/spirit-pets/[CODE]_level_[LEVEL].png
+        return `/icons/spirit-pets/${spiritPet.code}_level_${level}.png`;
+    };
+
+    // Helper: Lấy level data
+    const getLevelData = (spiritPet: any, level: number) => {
+        const levels = spiritPet.levels as any[];
+        return levels.find((l: any) => l.star === level);
+    };
+
+    // Load active spirit pet từ localStorage (ưu tiên hơn selectedCharacter)
+    const loadActiveSpiritPet = useCallback(async () => {
+        try {
+            const userId = user?.id || 'guest';
+            const userPetsKey = `user_spirit_pets_${userId}`;
+            const storedUserPets = localStorage.getItem(userPetsKey);
+            
+            if (storedUserPets) {
+                const userPets = JSON.parse(storedUserPets);
+                // Tìm spirit pet đang active
+                const activeUserPet = userPets.find((up: any) => up.isActive === true);
+                
+                if (activeUserPet) {
+                    // Load master data từ spirit-pets.json
+                    const response = await fetch('/data/spirit-pets.json');
+                    if (response.ok) {
+                        const data = await response.json();
+                        const pet = data.pets.find((p: any) => p.id === activeUserPet.spiritPetId);
+                        if (pet) {
+                            setActiveSpiritPet({ pet, userPet: activeUserPet });
+                            return; // Ưu tiên spirit pet, không load character
                         }
                     }
                 }
-            } catch (error) {
-                console.error('Error loading selected character:', error);
+            }
+            // Nếu không có active spirit pet, set về null
+            setActiveSpiritPet(null);
+        } catch (error) {
+            console.error('Error loading active spirit pet:', error);
+            setActiveSpiritPet(null);
+        }
+    }, [user?.id]);
+
+    useEffect(() => {
+        loadActiveSpiritPet();
+    }, [loadActiveSpiritPet]);
+
+    // Reload khi quay lại tab/window (để cập nhật ảnh đại diện sau khi đặt trong Album)
+    useEffect(() => {
+        const handleFocus = () => {
+            loadActiveSpiritPet();
+        };
+
+        window.addEventListener('focus', handleFocus);
+        return () => {
+            window.removeEventListener('focus', handleFocus);
+        };
+    }, [loadActiveSpiritPet]);
+
+    // Load selected item từ localStorage (hỗ trợ tất cả categories: character, accessory, frame, sticker)
+    const loadSelectedItem = useCallback(async () => {
+        if (activeSpiritPet) {
+            setSelectedItem(null); // Không load item nếu có active spirit pet
+            return;
+        }
+
+        try {
+            // Load selectedItems từ localStorage
+            const userId = user?.id || 'guest';
+            const key = `album_selected_items_${userId}`;
+            const stored = localStorage.getItem(key);
+            if (stored) {
+                const selectedItems: SelectedItems = JSON.parse(stored);
+                
+                // Tìm item được chọn từ bất kỳ category nào (ưu tiên: character > accessory > frame > sticker)
+                const selectedItemId = selectedItems.character || selectedItems.accessory || selectedItems.frame || selectedItems.sticker;
+                const selectedCategory = selectedItems.character ? 'character' 
+                    : selectedItems.accessory ? 'accessory'
+                    : selectedItems.frame ? 'frame'
+                    : selectedItems.sticker ? 'sticker'
+                    : null;
+
+                if (selectedItemId && selectedCategory) {
+                    // Load album items để tìm item
+                    const response = await fetch('/data/album-items.json');
+                    if (response.ok) {
+                        const data = await response.json();
+                        const item = data.items.find(
+                            (item: AlbumItem) => item.id === selectedItemId && item.category === selectedCategory
+                        );
+                        if (item) {
+                            setSelectedItem(item);
+                            return;
+                        }
+                    }
+                }
+            }
+            // Nếu không có item nào được chọn
+            setSelectedItem(null);
+        } catch (error) {
+            console.error('Error loading selected item:', error);
+            setSelectedItem(null);
+        }
+    }, [user?.id, activeSpiritPet]);
+
+    useEffect(() => {
+        loadSelectedItem();
+    }, [loadSelectedItem]);
+
+    // Reload khi localStorage thay đổi (khi user chọn item mới trong Album)
+    useEffect(() => {
+        const handleStorageChange = (e: StorageEvent) => {
+            if (e.key && e.key.startsWith('album_selected_items_')) {
+                loadSelectedItem();
+            }
+            if (e.key && e.key.startsWith('user_spirit_pets_')) {
+                loadActiveSpiritPet();
             }
         };
 
-        loadSelectedCharacter();
-    }, [user?.id]);
+        window.addEventListener('storage', handleStorageChange);
+        
+        // Custom event cho cùng tab (AlbumPage sẽ dispatch event khi save)
+        const handleSelectedItemsChanged = () => {
+            loadSelectedItem();
+        };
+        
+        const handleSpiritPetsChanged = () => {
+            loadActiveSpiritPet();
+        };
+        
+        window.addEventListener('album_selected_items_changed', handleSelectedItemsChanged);
+        window.addEventListener('user_spirit_pets_changed', handleSpiritPetsChanged);
+        
+        return () => {
+            window.removeEventListener('storage', handleStorageChange);
+            window.removeEventListener('album_selected_items_changed', handleSelectedItemsChanged);
+            window.removeEventListener('user_spirit_pets_changed', handleSpiritPetsChanged);
+        };
+    }, [loadSelectedItem, loadActiveSpiritPet]);
 
     const handleLogout = async () => {
         if (window.confirm('Bạn có chắc muốn đăng xuất?')) {
@@ -188,17 +303,57 @@ const HoSoPage: React.FC = () => {
                         <div className="relative mb-4">
                             <div className="w-32 h-32 rounded-full bg-yellow-200 shadow-viet-style-pressed flex items-center justify-center p-2 border-4 border-amber-800/20">
                                 <div className="w-full h-full bg-gradient-to-br from-cyan-200 to-blue-300 rounded-full flex items-center justify-center overflow-hidden">
-                                    {selectedCharacter ? (
-                                        selectedCharacter.imageFile ? (
+                                    {activeSpiritPet ? (
+                                        // Hiển thị linh vật đang active (ưu tiên cao nhất)
+                                        (() => {
+                                            const level = activeSpiritPet.userPet.currentLevel;
+                                            const levelData = getLevelData(activeSpiritPet.pet, level);
+                                            const imagePath = getSpiritPetImage(activeSpiritPet.pet, level);
+                                            return imagePath ? (
+                                                <img 
+                                                    src={imagePath} 
+                                                    alt={levelData?.name_vi || activeSpiritPet.pet.baseNameVi}
+                                                    className="w-full h-full object-contain"
+                                                    onError={(e) => {
+                                                        // Fallback về emoji nếu ảnh không load được
+                                                        const parent = e.currentTarget.parentElement;
+                                                        if (parent) {
+                                                            e.currentTarget.style.display = 'none';
+                                                            const emojiSpan = document.createElement('span');
+                                                            emojiSpan.className = 'text-6xl';
+                                                            emojiSpan.textContent = '🐉';
+                                                            parent.appendChild(emojiSpan);
+                                                        }
+                                                    }}
+                                                />
+                                            ) : (
+                                                <span className="text-6xl">🐉</span>
+                                            );
+                                        })()
+                                    ) : selectedItem ? (
+                                        // Hiển thị item đã chọn từ bất kỳ category nào (nếu không có active spirit pet)
+                                        selectedItem.imageFile ? (
                                             <img 
-                                                src={selectedCharacter.imageFile} 
-                                                alt={selectedCharacter.name}
+                                                src={selectedItem.imageFile} 
+                                                alt={selectedItem.name}
                                                 className="w-full h-full object-cover"
+                                                onError={(e) => {
+                                                    // Fallback về emoji nếu ảnh không load được
+                                                    const parent = e.currentTarget.parentElement;
+                                                    if (parent) {
+                                                        e.currentTarget.style.display = 'none';
+                                                        const emojiSpan = document.createElement('span');
+                                                        emojiSpan.className = 'text-6xl';
+                                                        emojiSpan.textContent = selectedItem.image;
+                                                        parent.appendChild(emojiSpan);
+                                                    }
+                                                }}
                                             />
                                         ) : (
-                                            <span className="text-6xl">{selectedCharacter.image}</span>
+                                            <span className="text-6xl">{selectedItem.image}</span>
                                         )
                                     ) : (
+                                        // Mặc định: Trang Ti avatar
                                         <TrangTiAvatar />
                                     )}
                                 </div>

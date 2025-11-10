@@ -23,6 +23,14 @@ const awardCoins = async (data: { amount: number; reason: string; metadata?: Rec
   }
 };
 
+// Helper function để award stars (localStorage only)
+const awardStarsLocal = (amount: number) => {
+  const currentStars = parseInt(localStorage.getItem('user_stars') || '0', 10);
+  const newStars = currentStars + amount;
+  localStorage.setItem('user_stars', newStars.toString());
+  return newStars;
+};
+
 interface Question {
   id: string;
   type: string;
@@ -321,7 +329,7 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
     }
   }, [currentQuestionIndex, currentQuestion]);
 
-  // Helper function để thưởng coins (async, gọi ngoài callback)
+  // Helper function để thưởng coins và stars (async, gọi ngoài callback)
   const rewardCoinsForWeek = async (
     correctCount: number,
     targetCount: number,
@@ -331,7 +339,12 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
       ? (completionRate >= 100 ? 10 : (completionRate >= 80 ? 5 : 0))
       : 10;
     
-    if (coinsReward === 0) return;
+    // Tính sao dựa trên performance: 100% = 5 sao, 80-99% = 3 sao, 60-79% = 2 sao, <60% = 1 sao
+    const starsReward = completionRate !== undefined
+      ? (completionRate >= 100 ? 5 : (completionRate >= 80 ? 3 : (completionRate >= 60 ? 2 : 1)))
+      : 3; // Mặc định 3 sao nếu không có completionRate
+    
+    if (coinsReward === 0 && starsReward === 0) return;
     
     const rewardKey = `week-${weekId}-${bookSeries}-${grade}-${subject}-rewarded`;
     const alreadyRewarded = localStorage.getItem(rewardKey);
@@ -340,39 +353,67 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
     
     if (user?.id) {
       try {
-        await awardCoins({
-          amount: coinsReward,
-          reason: completionRate !== undefined
-            ? `Hoàn thành tuần ${weekId} - ${subject} lớp ${grade} (${Math.round(completionRate)}%)`
-            : `Hoàn thành tuần ${weekId} - ${subject} lớp ${grade}`,
-          metadata: {
-            weekId,
-            bookSeries,
-            grade,
-            subject,
-            correctCount,
-            totalQuestions: targetCount,
-            ...(completionRate !== undefined && { completionRate: Math.round(completionRate) }),
-          },
-        });
+        // Award coins
+        if (coinsReward > 0) {
+          await awardCoins({
+            amount: coinsReward,
+            reason: completionRate !== undefined
+              ? `Hoàn thành tuần ${weekId} - ${subject} lớp ${grade} (${Math.round(completionRate)}%)`
+              : `Hoàn thành tuần ${weekId} - ${subject} lớp ${grade}`,
+            metadata: {
+              weekId,
+              bookSeries,
+              grade,
+              subject,
+              correctCount,
+              totalQuestions: targetCount,
+              ...(completionRate !== undefined && { completionRate: Math.round(completionRate) }),
+            },
+          });
+        }
+
+        // Award stars (localStorage only)
+        if (starsReward > 0) {
+          awardStarsLocal(starsReward);
+        }
+
         localStorage.setItem(rewardKey, 'true');
-        showToast(`🎉 Nhận được ${coinsReward} coins!`, 'success');
+        const rewards = [];
+        if (coinsReward > 0) rewards.push(`${coinsReward} coins`);
+        if (starsReward > 0) rewards.push(`${starsReward} ⭐`);
+        showToast(`🎉 Nhận được ${rewards.join(' và ')}!`, 'success');
       } catch (error) {
-        console.error('Error awarding coins:', error);
+        console.error('Error awarding rewards:', error);
         // Fallback to demo mode
         const currentCoins = parseInt(localStorage.getItem('user_coins') || '100', 10);
         const newCoins = currentCoins + coinsReward;
         localStorage.setItem('user_coins', newCoins.toString());
+        
+        const currentStars = parseInt(localStorage.getItem('user_stars') || '0', 10);
+        const newStars = currentStars + starsReward;
+        localStorage.setItem('user_stars', newStars.toString());
+        
         localStorage.setItem(rewardKey, 'true');
-        showToast(`🎉 Nhận được ${coinsReward} coins! (Demo mode)`, 'success');
+        const rewards = [];
+        if (coinsReward > 0) rewards.push(`${coinsReward} coins`);
+        if (starsReward > 0) rewards.push(`${starsReward} ⭐`);
+        showToast(`🎉 Nhận được ${rewards.join(' và ')}! (Demo mode)`, 'success');
       }
     } else {
       // Demo mode
       const currentCoins = parseInt(localStorage.getItem('user_coins') || '100', 10);
       const newCoins = currentCoins + coinsReward;
       localStorage.setItem('user_coins', newCoins.toString());
+      
+      const currentStars = parseInt(localStorage.getItem('user_stars') || '0', 10);
+      const newStars = currentStars + starsReward;
+      localStorage.setItem('user_stars', newStars.toString());
+      
       localStorage.setItem(rewardKey, 'true');
-      showToast(`🎉 Nhận được ${coinsReward} coins! (Demo mode)`, 'success');
+      const rewards = [];
+      if (coinsReward > 0) rewards.push(`${coinsReward} coins`);
+      if (starsReward > 0) rewards.push(`${starsReward} ⭐`);
+      showToast(`🎉 Nhận được ${rewards.join(' và ')}! (Demo mode)`, 'success');
     }
   };
 

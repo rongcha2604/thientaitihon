@@ -20,7 +20,7 @@ export interface Week {
 export interface AlbumItem {
     id: string | number; // String từ API, number từ mock
     name: string;
-    category: 'character' | 'accessory' | 'frame' | 'sticker';
+    category: 'character' | 'accessory' | 'frame' | 'sticker' | 'spirit-pet';
     unlocked?: boolean; // Legacy: từ mock data
     owned?: boolean; // Mới: từ API
     image: string;

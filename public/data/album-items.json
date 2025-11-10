@@ -222,6 +222,116 @@
     },
     {
       "id": "album-item-021",
+      "name": "Cá Chép Vàng",
+      "category": "character",
+      "image": "🐟",
+      "imageFile": "/uploads/album/characters/character-ca-chep-vang.png",
+      "price": 50,
+      "description": "Cá chép vàng may mắn",
+      "isActive": true,
+      "owned": false
+    },
+    {
+      "id": "album-item-022",
+      "name": "Chim Lạc",
+      "category": "character",
+      "image": "🦅",
+      "imageFile": "/uploads/album/characters/character-chim-lac.png",
+      "price": 50,
+      "description": "Chim Lạc biểu tượng",
+      "isActive": true,
+      "owned": false
+    },
+    {
+      "id": "album-item-023",
+      "name": "Con Trâu Vàng",
+      "category": "character",
+      "image": "🐂",
+      "imageFile": "/uploads/album/characters/character-con-trau-vang.png",
+      "price": 50,
+      "description": "Con trâu vàng chăm chỉ",
+      "isActive": true,
+      "owned": false
+    },
+    {
+      "id": "album-item-024",
+      "name": "Gà Trống Lúa",
+      "category": "character",
+      "image": "🐓",
+      "imageFile": "/uploads/album/characters/character-ga-trong-lua.png",
+      "price": 50,
+      "description": "Gà trống gáy sáng",
+      "isActive": true,
+      "owned": false
+    },
+    {
+      "id": "album-item-025",
+      "name": "Gấu Trúc",
+      "category": "character",
+      "image": "🐼",
+      "imageFile": "/uploads/album/characters/character-gau-truc.png",
+      "price": 50,
+      "description": "Gấu trúc dễ thương",
+      "isActive": true,
+      "owned": false
+    },
+    {
+      "id": "album-item-026",
+      "name": "Gấu Trúc Đỏ",
+      "category": "character",
+      "image": "🐻",
+      "imageFile": "/uploads/album/characters/character-gau-truc-do.png",
+      "price": 50,
+      "description": "Gấu trúc đỏ vui vẻ",
+      "isActive": true,
+      "owned": false
+    },
+    {
+      "id": "album-item-027",
+      "name": "Khỉ Vàng",
+      "category": "character",
+      "image": "🐵",
+      "imageFile": "/uploads/album/characters/character-khi-vang.png",
+      "price": 50,
+      "description": "Khỉ vàng thông minh",
+      "isActive": true,
+      "owned": false
+    },
+    {
+      "id": "album-item-028",
+      "name": "Mèo Tam Thể",
+      "category": "character",
+      "image": "🐱",
+      "imageFile": "/uploads/album/characters/character-meo-tam-the.png",
+      "price": 50,
+      "description": "Mèo tam thể xinh xắn",
+      "isActive": true,
+      "owned": false
+    },
+    {
+      "id": "album-item-029",
+      "name": "Rồng Con",
+      "category": "character",
+      "image": "🐉",
+      "imageFile": "/uploads/album/characters/character-rong-con.png",
+      "price": 50,
+      "description": "Rồng con dũng cảm",
+      "isActive": true,
+      "owned": false
+    },
+    {
+      "id": "album-item-030",
+      "name": "Sao La",
+      "category": "character",
+      "image": "🦌",
+      "imageFile": "/uploads/album/characters/character-sao-la.png",
+      "price": 50,
+      "description": "Sao la quý hiếm",
+      "isActive": true,
+      "owned": false
+    },
+    {
+      "id": "album-item-031",
       "name": "Nón Lá",
       "category": "accessory",
       "image": "👒",
@@ -232,7 +342,7 @@
       "owned": false
     },
     {
-      "id": "album-item-022",
+      "id": "album-item-032",
       "name": "Quạt Mo",
       "category": "accessory",
       "image": "🍃",
@@ -243,7 +353,7 @@
       "owned": false
     },
     {
-      "id": "album-item-023",
+      "id": "album-item-033",
       "name": "Khăn Rằn",
       "category": "accessory",
       "image": "🧣",
@@ -254,7 +364,7 @@
       "owned": false
     },
     {
-      "id": "album-item-024",
+      "id": "album-item-034",
       "name": "Áo Dài",
       "category": "accessory",
       "image": "👗",
@@ -265,7 +375,7 @@
       "owned": false
     },
     {
-      "id": "album-item-025",
+      "id": "album-item-035",
       "name": "Nón Cối",
       "category": "accessory",
       "image": "🪖",
@@ -276,7 +386,7 @@
       "owned": false
     },
     {
-      "id": "album-item-026",
+      "id": "album-item-036",
       "name": "Kính Mát",
       "category": "accessory",
       "image": "🕶️",
@@ -287,7 +397,7 @@
       "owned": false
     },
     {
-      "id": "album-item-027",
+      "id": "album-item-037",
       "name": "Túi Xách",
       "category": "accessory",
       "image": "👜",
@@ -298,7 +408,7 @@
       "owned": false
     },
     {
-      "id": "album-item-028",
+      "id": "album-item-038",
       "name": "Vòng Cổ",
       "category": "accessory",
       "image": "📿",
@@ -309,7 +419,7 @@
       "owned": false
     },
     {
-      "id": "album-item-029",
+      "id": "album-item-039",
       "name": "Vòng Tay",
       "category": "accessory",
       "image": "📿",
@@ -320,7 +430,7 @@
       "owned": false
     },
     {
-      "id": "album-item-030",
+      "id": "album-item-040",
       "name": "Cặp Sách",
       "category": "accessory",
       "image": "🎒",
@@ -331,7 +441,7 @@
       "owned": false
     },
     {
-      "id": "album-item-031",
+      "id": "album-item-041",
       "name": "Mũ Lưỡi Trai",
       "category": "accessory",
       "image": "🧢",
@@ -342,7 +452,7 @@
       "owned": false
     },
     {
-      "id": "album-item-032",
+      "id": "album-item-042",
       "name": "Khăn Quàng",
       "category": "accessory",
       "image": "🧣",
@@ -353,7 +463,7 @@
       "owned": false
     },
     {
-      "id": "album-item-033",
+      "id": "album-item-043",
       "name": "Giày Dép",
       "category": "accessory",
       "image": "👟",
@@ -364,7 +474,7 @@
       "owned": false
     },
     {
-      "id": "album-item-034",
+      "id": "album-item-044",
       "name": "Ô Dù",
       "category": "accessory",
       "image": "☂️",
@@ -375,7 +485,7 @@
       "owned": false
     },
     {
-      "id": "album-item-035",
+      "id": "album-item-045",
       "name": "Balo",
       "category": "accessory",
       "image": "🎒",
@@ -386,7 +496,7 @@
       "owned": false
     },
     {
-      "id": "album-item-036",
+      "id": "album-item-046",
       "name": "Mũ Bảo Hiểm",
       "category": "accessory",
       "image": "⛑️",
@@ -397,7 +507,7 @@
       "owned": false
     },
     {
-      "id": "album-item-037",
+      "id": "album-item-047",
       "name": "Găng Tay",
       "category": "accessory",
       "image": "🧤",
@@ -408,7 +518,7 @@
       "owned": false
     },
     {
-      "id": "album-item-038",
+      "id": "album-item-048",
       "name": "Tất Chân",
       "category": "accessory",
       "image": "🧦",
@@ -419,7 +529,7 @@
       "owned": false
     },
     {
-      "id": "album-item-039",
+      "id": "album-item-049",
       "name": "Kính Đeo Mắt",
       "category": "accessory",
       "image": "👓",
@@ -430,7 +540,7 @@
       "owned": false
     },
     {
-      "id": "album-item-040",
+      "id": "album-item-050",
       "name": "Đồng Hồ",
       "category": "accessory",
       "image": "⌚",
@@ -441,7 +551,7 @@
       "owned": false
     },
     {
-      "id": "album-item-041",
+      "id": "album-item-051",
       "name": "Khung Cửa Sổ",
       "category": "frame",
       "image": "🖼️",
@@ -452,7 +562,7 @@
       "owned": false
     },
     {
-      "id": "album-item-042",
+      "id": "album-item-052",
       "name": "Khung Làng Quê",
       "category": "frame",
       "image": "🏞️",
@@ -463,7 +573,7 @@
       "owned": false
     },
     {
-      "id": "album-item-043",
+      "id": "album-item-053",
       "name": "Khung Phố Cổ",
       "category": "frame",
       "image": "🏛️",
@@ -474,7 +584,7 @@
       "owned": false
     },
     {
-      "id": "album-item-044",
+      "id": "album-item-054",
       "name": "Khung Biển",
       "category": "frame",
       "image": "🌊",
@@ -485,7 +595,7 @@
       "owned": false
     },
     {
-      "id": "album-item-045",
+      "id": "album-item-055",
       "name": "Khung Núi",
       "category": "frame",
       "image": "⛰️",
@@ -496,7 +606,7 @@
       "owned": false
     },
     {
-      "id": "album-item-046",
+      "id": "album-item-056",
       "name": "Khung Đồng Lúa",
       "category": "frame",
       "image": "🌾",
@@ -507,7 +617,7 @@
       "owned": false
     },
     {
-      "id": "album-item-047",
+      "id": "album-item-057",
       "name": "Khung Cầu",
       "category": "frame",
       "image": "🌉",
@@ -518,7 +628,7 @@
       "owned": false
     },
     {
-      "id": "album-item-048",
+      "id": "album-item-058",
       "name": "Khung Chùa",
       "category": "frame",
       "image": "⛩️",
@@ -529,7 +639,7 @@
       "owned": false
     },
     {
-      "id": "album-item-049",
+      "id": "album-item-059",
       "name": "Khung Nhà",
       "category": "frame",
       "image": "🏠",
@@ -540,7 +650,7 @@
       "owned": false
     },
     {
-      "id": "album-item-050",
+      "id": "album-item-060",
       "name": "Khung Trường Học",
       "category": "frame",
       "image": "🏫",
@@ -551,7 +661,7 @@
       "owned": false
     },
     {
-      "id": "album-item-051",
+      "id": "album-item-061",
       "name": "Khung Công Viên",
       "category": "frame",
       "image": "🌳",
@@ -562,7 +672,7 @@
       "owned": false
     },
     {
-      "id": "album-item-052",
+      "id": "album-item-062",
       "name": "Khung Sông",
       "category": "frame",
       "image": "🌊",
@@ -573,7 +683,7 @@
       "owned": false
     },
     {
-      "id": "album-item-053",
+      "id": "album-item-063",
       "name": "Khung Rừng",
       "category": "frame",
       "image": "🌲",
@@ -584,7 +694,7 @@
       "owned": false
     },
     {
-      "id": "album-item-054",
+      "id": "album-item-064",
       "name": "Khung Thành Phố",
       "category": "frame",
       "image": "🏙️",
@@ -595,7 +705,7 @@
       "owned": false
     },
     {
-      "id": "album-item-055",
+      "id": "album-item-065",
       "name": "Khung Chợ",
       "category": "frame",
       "image": "🏪",
@@ -606,7 +716,7 @@
       "owned": false
     },
     {
-      "id": "album-item-056",
+      "id": "album-item-066",
       "name": "Khung Vườn",
       "category": "frame",
       "image": "🌻",
@@ -617,7 +727,7 @@
       "owned": false
     },
     {
-      "id": "album-item-057",
+      "id": "album-item-067",
       "name": "Khung Hoàng Hôn",
       "category": "frame",
       "image": "🌅",
@@ -628,7 +738,7 @@
       "owned": false
     },
     {
-      "id": "album-item-058",
+      "id": "album-item-068",
       "name": "Khung Bình Minh",
       "category": "frame",
       "image": "🌄",
@@ -639,7 +749,7 @@
       "owned": false
     },
     {
-      "id": "album-item-059",
+      "id": "album-item-069",
       "name": "Khung Trăng",
       "category": "frame",
       "image": "🌙",
@@ -650,7 +760,7 @@
       "owned": false
     },
     {
-      "id": "album-item-060",
+      "id": "album-item-070",
       "name": "Khung Sao",
       "category": "frame",
       "image": "⭐",
@@ -661,7 +771,7 @@
       "owned": false
     },
     {
-      "id": "album-item-061",
+      "id": "album-item-071",
       "name": "Đèn Lồng",
       "category": "sticker",
       "image": "🏮",
@@ -672,7 +782,7 @@
       "owned": false
     },
     {
-      "id": "album-item-062",
+      "id": "album-item-072",
       "name": "Diều Giấy",
       "category": "sticker",
       "image": "🪁",
@@ -683,7 +793,7 @@
       "owned": false
     },
     {
-      "id": "album-item-063",
+      "id": "album-item-073",
       "name": "Mặt Nạ",
       "category": "sticker",
       "image": "🎭",
@@ -694,7 +804,7 @@
       "owned": false
     },
     {
-      "id": "album-item-064",
+      "id": "album-item-074",
       "name": "Trống",
       "category": "sticker",
       "image": "🥁",
@@ -705,7 +815,7 @@
       "owned": false
     },
     {
-      "id": "album-item-065",
+      "id": "album-item-075",
       "name": "Kèn",
       "category": "sticker",
       "image": "🎺",
@@ -716,7 +826,7 @@
       "owned": false
     },
     {
-      "id": "album-item-066",
+      "id": "album-item-076",
       "name": "Đàn",
       "category": "sticker",
       "image": "🎸",
@@ -727,7 +837,7 @@
       "owned": false
     },
     {
-      "id": "album-item-067",
+      "id": "album-item-077",
       "name": "Bóng Bay",
       "category": "sticker",
       "image": "🎈",
@@ -738,7 +848,7 @@
       "owned": false
     },
     {
-      "id": "album-item-068",
+      "id": "album-item-078",
       "name": "Xe Đạp",
       "category": "sticker",
       "image": "🚲",
@@ -749,7 +859,7 @@
       "owned": false
     },
     {
-      "id": "album-item-069",
+      "id": "album-item-079",
       "name": "Máy Bay",
       "category": "sticker",
       "image": "✈️",
@@ -760,7 +870,7 @@
       "owned": false
     },
     {
-      "id": "album-item-070",
+      "id": "album-item-080",
       "name": "Tàu Thủy",
       "category": "sticker",
       "image": "🚢",
@@ -771,7 +881,7 @@
       "owned": false
     },
     {
-      "id": "album-item-071",
+      "id": "album-item-081",
       "name": "Xe Hơi",
       "category": "sticker",
       "image": "🚗",
@@ -782,7 +892,7 @@
       "owned": false
     },
     {
-      "id": "album-item-072",
+      "id": "album-item-082",
       "name": "Búp Bê",
       "category": "sticker",
       "image": "🎎",
@@ -793,7 +903,7 @@
       "owned": false
     },
     {
-      "id": "album-item-073",
+      "id": "album-item-083",
       "name": "Gấu Bông",
       "category": "sticker",
       "image": "🧸",
@@ -804,7 +914,7 @@
       "owned": false
     },
     {
-      "id": "album-item-074",
+      "id": "album-item-084",
       "name": "Xe Lửa",
       "category": "sticker",
       "image": "🚂",
@@ -815,7 +925,7 @@
       "owned": false
     },
     {
-      "id": "album-item-075",
+      "id": "album-item-085",
       "name": "Bánh Chưng",
       "category": "sticker",
       "image": "🍙",
@@ -826,7 +936,7 @@
       "owned": false
     },
     {
-      "id": "album-item-076",
+      "id": "album-item-086",
       "name": "Bánh Dày",
       "category": "sticker",
       "image": "🍘",
@@ -837,7 +947,7 @@
       "owned": false
     },
     {
-      "id": "album-item-077",
+      "id": "album-item-087",
       "name": "Hoa Đào",
       "category": "sticker",
       "image": "🌸",
@@ -848,7 +958,7 @@
       "owned": false
     },
     {
-      "id": "album-item-078",
+      "id": "album-item-088",
       "name": "Hoa Mai",
       "category": "sticker",
       "image": "🌺",
@@ -859,7 +969,7 @@
       "owned": false
     },
     {
-      "id": "album-item-079",
+      "id": "album-item-089",
       "name": "Cờ Tổ Quốc",
       "category": "sticker",
       "image": "🇻🇳",
@@ -870,7 +980,7 @@
       "owned": false
     },
     {
-      "id": "album-item-080",
+      "id": "album-item-090",
       "name": "Sao Vàng",
       "category": "sticker",
       "image": "⭐",
@@ -881,7 +991,7 @@
       "owned": false
     },
     {
-      "id": "album-item-081",
+      "id": "album-item-091",
       "name": "Bánh Xe",
       "category": "sticker",
       "image": "🎡",
