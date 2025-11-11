@@ -1,0 +1,184 @@
+{
+  "week": 28,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Khối lượng",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "1 ki-lô-gam bằng bao nhiêu gam?",
+          "options": [
+            "1000 gam",
+            "100 gam",
+            "500 gam",
+            "2000 gam"
+          ],
+          "correctAnswer": 0,
+          "explanation": "1 ki-lô-gam = 1000 gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo khối lượng nào bé nhất?",
+          "options": [
+            "Gam",
+            "Ki-lô-gam",
+            "Tấn",
+            "Tạ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong các đơn vị trên, gam là đơn vị bé nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Một quả cam nặng 200 gam. Hỏi 3 quả cam như vậy nặng bao nhiêu gam?",
+          "options": [
+            "600 gam",
+            "500 gam",
+            "700 gam",
+            "800 gam"
+          ],
+          "correctAnswer": 0,
+          "explanation": "3 quả cam nặng: 200 × 3 = 600 gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Một túi gạo nặng 5 ki-lô-gam. Hỏi 2 túi gạo như vậy nặng bao nhiêu ki-lô-gam?",
+          "options": [
+            "8 ki-lô-gam",
+            "10 ki-lô-gam",
+            "12 ki-lô-gam",
+            "15 ki-lô-gam"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2 túi gạo nặng: 5 × 2 = 10 ki-lô-gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Bạn An cân nặng 25 ki-lô-gam, bạn Lan cân nặng 23 ki-lô-gam. Hỏi bạn An nặng hơn bạn Lan bao nhiêu ki-lô-gam?",
+          "options": [
+            "1 ki-lô-gam",
+            "2 ki-lô-gam",
+            "3 ki-lô-gam",
+            "4 ki-lô-gam"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Bạn An nặng hơn bạn Lan: 25 - 23 = 2 ki-lô-gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Một con gà nặng 2 ki-lô-gam. Hỏi 4 con gà như vậy nặng bao nhiêu ki-lô-gam?",
+          "options": [
+            "6 ki-lô-gam",
+            "8 ki-lô-gam",
+            "10 ki-lô-gam",
+            "12 ki-lô-gam"
+          ],
+          "correctAnswer": 1,
+          "explanation": "4 con gà nặng: 2 × 4 = 8 ki-lô-gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Một quả táo nặng 150 gam. Hỏi 2 quả táo như vậy nặng bao nhiêu gam?",
+          "options": [
+            "250 gam",
+            "350 gam",
+            "300 gam",
+            "400 gam"
+          ],
+          "correctAnswer": 2,
+          "explanation": "2 quả táo nặng: 150 × 2 = 300 gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Một bao gạo nặng 10 ki-lô-gam, đã dùng hết 3 ki-lô-gam. Hỏi bao gạo còn lại nặng bao nhiêu ki-lô-gam?",
+          "options": [
+            "5 ki-lô-gam",
+            "6 ki-lô-gam",
+            "7 ki-lô-gam",
+            "8 ki-lô-gam"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Bao gạo còn lại nặng: 10 - 3 = 7 ki-lô-gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Một quyển sách nặng 500 gam. Hỏi 2 quyển sách như vậy nặng bao nhiêu gam?",
+          "options": [
+            "800 gam",
+            "1200 gam",
+            "1500 gam",
+            "1000 gam"
+          ],
+          "correctAnswer": 3,
+          "explanation": "2 quyển sách nặng: 500 × 2 = 1000 gam = 1 ki-lô-gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Một con chó nặng 8 ki-lô-gam, một con mèo nặng 3 ki-lô-gam. Hỏi cả hai con nặng bao nhiêu ki-lô-gam?",
+          "options": [
+            "10 ki-lô-gam",
+            "12 ki-lô-gam",
+            "13 ki-lô-gam",
+            "11 ki-lô-gam"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Cả hai con nặng: 8 + 3 = 11 ki-lô-gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Một hộp bánh nặng 400 gam. Hỏi 3 hộp bánh như vậy nặng bao nhiêu gam?",
+          "options": [
+            "1000 gam",
+            "1400 gam",
+            "1600 gam",
+            "1200 gam"
+          ],
+          "correctAnswer": 3,
+          "explanation": "3 hộp bánh nặng: 400 × 3 = 1200 gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Một túi đường nặng 1 ki-lô-gam. Hỏi 5 túi đường như vậy nặng bao nhiêu ki-lô-gam?",
+          "options": [
+            "3 ki-lô-gam",
+            "4 ki-lô-gam",
+            "5 ki-lô-gam",
+            "6 ki-lô-gam"
+          ],
+          "correctAnswer": 2,
+          "explanation": "5 túi đường nặng: 1 × 5 = 5 ki-lô-gam.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

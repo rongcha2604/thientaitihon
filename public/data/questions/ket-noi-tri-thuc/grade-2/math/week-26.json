@@ -1,0 +1,184 @@
+{
+  "week": 26,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Tiền Việt Nam",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Tờ tiền 1000 đồng có màu gì?",
+          "options": [
+            "Màu xanh lá",
+            "Màu đỏ",
+            "Màu xanh dương",
+            "Màu vàng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tờ tiền 1000 đồng có màu xanh lá.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "1 tờ 5000 đồng bằng bao nhiêu tờ 1000 đồng?",
+          "options": [
+            "3 tờ",
+            "5 tờ",
+            "4 tờ",
+            "6 tờ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "1 tờ 5000 đồng = 5 tờ 1000 đồng (5000 : 1000 = 5).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Mẹ có 2 tờ 5000 đồng và 3 tờ 1000 đồng. Hỏi mẹ có tất cả bao nhiêu tiền?",
+          "options": [
+            "12000 đồng",
+            "14000 đồng",
+            "13000 đồng",
+            "15000 đồng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Mẹ có: 2 × 5000 + 3 × 1000 = 10000 + 3000 = 13000 đồng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Bạn An có 15000 đồng. Bạn mua một quyển vở hết 5000 đồng. Hỏi bạn An còn lại bao nhiêu tiền?",
+          "options": [
+            "8000 đồng",
+            "9000 đồng",
+            "11000 đồng",
+            "10000 đồng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bạn An còn lại: 15000 - 5000 = 10000 đồng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "1 tờ 10000 đồng bằng bao nhiêu tờ 2000 đồng?",
+          "options": [
+            "3 tờ",
+            "5 tờ",
+            "4 tờ",
+            "6 tờ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "1 tờ 10000 đồng = 5 tờ 2000 đồng (10000 : 2000 = 5).",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Bạn Lan có 3 tờ 2000 đồng và 4 tờ 1000 đồng. Hỏi bạn Lan có tất cả bao nhiêu tiền?",
+          "options": [
+            "8000 đồng",
+            "9000 đồng",
+            "11000 đồng",
+            "10000 đồng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bạn Lan có: 3 × 2000 + 4 × 1000 = 6000 + 4000 = 10000 đồng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Một cây bút giá 3000 đồng. Hỏi mua 2 cây bút như vậy hết bao nhiêu tiền?",
+          "options": [
+            "6000 đồng",
+            "5000 đồng",
+            "7000 đồng",
+            "8000 đồng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Mua 2 cây bút hết: 3000 × 2 = 6000 đồng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Bạn Hùng có 20000 đồng. Bạn mua một quyển sách hết 12000 đồng. Hỏi bạn Hùng còn lại bao nhiêu tiền?",
+          "options": [
+            "6000 đồng",
+            "8000 đồng",
+            "7000 đồng",
+            "9000 đồng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Bạn Hùng còn lại: 20000 - 12000 = 8000 đồng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "1 tờ 20000 đồng bằng bao nhiêu tờ 5000 đồng?",
+          "options": [
+            "4 tờ",
+            "2 tờ",
+            "3 tờ",
+            "5 tờ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "1 tờ 20000 đồng = 4 tờ 5000 đồng (20000 : 5000 = 4).",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Một cái kẹo giá 2000 đồng. Hỏi mua 3 cái kẹo như vậy hết bao nhiêu tiền?",
+          "options": [
+            "5000 đồng",
+            "7000 đồng",
+            "6000 đồng",
+            "8000 đồng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Mua 3 cái kẹo hết: 2000 × 3 = 6000 đồng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Bạn Mai có 5000 đồng. Bạn mua một cái bút chì hết 2000 đồng. Hỏi bạn Mai còn lại bao nhiêu tiền?",
+          "options": [
+            "2000 đồng",
+            "4000 đồng",
+            "5000 đồng",
+            "3000 đồng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bạn Mai còn lại: 5000 - 2000 = 3000 đồng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Một quyển vở giá 4000 đồng. Hỏi mua 2 quyển vở như vậy hết bao nhiêu tiền?",
+          "options": [
+            "6000 đồng",
+            "7000 đồng",
+            "8000 đồng",
+            "9000 đồng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Mua 2 quyển vở hết: 4000 × 2 = 8000 đồng.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

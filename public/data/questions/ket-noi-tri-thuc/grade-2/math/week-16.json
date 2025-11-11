@@ -1,0 +1,184 @@
+{
+  "week": 16,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập học kì I - Số và phép tính",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số lớn nhất có hai chữ số là số nào?",
+          "options": [
+            "99",
+            "98",
+            "100",
+            "97"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số lớn nhất có hai chữ số là 99.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số bé nhất có hai chữ số là số nào?",
+          "options": [
+            "11",
+            "10",
+            "9",
+            "12"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số bé nhất có hai chữ số là 10.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "45 + 28 = ?",
+          "options": [
+            "72",
+            "71",
+            "73",
+            "74"
+          ],
+          "correctAnswer": 2,
+          "explanation": "45 + 28 = 73. Ta tính: 45 + 20 = 65, 65 + 8 = 73 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "67 - 29 = ?",
+          "options": [
+            "37",
+            "39",
+            "36",
+            "38"
+          ],
+          "correctAnswer": 3,
+          "explanation": "67 - 29 = 38. Ta tính: 67 - 20 = 47, 47 - 9 = 38 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Mai có 38 viên bi, Lan có 25 viên bi. Hỏi cả hai có tất cả bao nhiêu viên bi?",
+          "options": [
+            "63 viên",
+            "62 viên",
+            "64 viên",
+            "61 viên"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Cả hai có tất cả: 38 + 25 = 63 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Hùng có 56 cái kẹo, cho bạn 28 cái. Hỏi Hùng còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "27 cái",
+            "29 cái",
+            "26 cái",
+            "28 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hùng còn lại: 56 - 28 = 28 cái kẹo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Số 47 gồm bao nhiêu chục và bao nhiêu đơn vị?",
+          "options": [
+            "7 chục và 4 đơn vị",
+            "47 chục",
+            "4 chục và 7 đơn vị",
+            "4 đơn vị và 7 chục"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 47 gồm 4 chục và 7 đơn vị.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong các số sau, số nào lớn nhất: 34, 43, 38, 41?",
+          "options": [
+            "43",
+            "34",
+            "38",
+            "41"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 43 là số lớn nhất trong các số: 34, 43, 38, 41.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "52 + 19 = ?",
+          "options": [
+            "70",
+            "71",
+            "72",
+            "69"
+          ],
+          "correctAnswer": 1,
+          "explanation": "52 + 19 = 71. Ta tính: 52 + 10 = 62, 62 + 9 = 71 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "84 - 37 = ?",
+          "options": [
+            "46",
+            "48",
+            "45",
+            "47"
+          ],
+          "correctAnswer": 3,
+          "explanation": "84 - 37 = 47. Ta tính: 84 - 30 = 54, 54 - 7 = 47 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "An có 42 viên bi, Bình có 35 viên bi. Hỏi An có nhiều hơn Bình bao nhiêu viên bi?",
+          "options": [
+            "6 viên",
+            "7 viên",
+            "8 viên",
+            "5 viên"
+          ],
+          "correctAnswer": 1,
+          "explanation": "An có nhiều hơn Bình: 42 - 35 = 7 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Có 48 quả cam, thêm 27 quả nữa. Hỏi có tất cả bao nhiêu quả cam?",
+          "options": [
+            "74 quả",
+            "76 quả",
+            "75 quả",
+            "73 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Có tất cả: 48 + 27 = 75 quả cam.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

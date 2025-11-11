@@ -1,0 +1,184 @@
+{
+  "week": 14,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Hình phẳng - Hình tròn, hình vuông, hình chữ nhật",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Hình tròn có bao nhiêu cạnh?",
+          "options": [
+            "1 cạnh",
+            "2 cạnh",
+            "0 cạnh",
+            "3 cạnh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình tròn không có cạnh, chỉ có đường tròn bao quanh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Hình vuông có bao nhiêu cạnh bằng nhau?",
+          "options": [
+            "2 cạnh",
+            "3 cạnh",
+            "4 cạnh",
+            "5 cạnh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình vuông có 4 cạnh và tất cả 4 cạnh đều bằng nhau.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Hình chữ nhật có bao nhiêu góc vuông?",
+          "options": [
+            "2 góc vuông",
+            "3 góc vuông",
+            "5 góc vuông",
+            "4 góc vuông"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình chữ nhật có 4 góc vuông.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Hình vuông có bao nhiêu góc vuông?",
+          "options": [
+            "2 góc vuông",
+            "3 góc vuông",
+            "4 góc vuông",
+            "5 góc vuông"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình vuông có 4 góc vuông.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Trong các hình sau, hình nào có 4 cạnh bằng nhau?",
+          "options": [
+            "Hình vuông",
+            "Hình tam giác",
+            "Hình tròn",
+            "Hình chữ nhật"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình vuông có 4 cạnh và tất cả 4 cạnh đều bằng nhau.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Hình chữ nhật có đặc điểm gì?",
+          "options": [
+            "4 cạnh bằng nhau",
+            "Không có cạnh",
+            "3 cạnh",
+            "4 góc vuông"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình chữ nhật có 4 góc vuông và 4 cạnh (2 cạnh dài bằng nhau, 2 cạnh ngắn bằng nhau).",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Hình nào không có cạnh?",
+          "options": [
+            "Hình tròn",
+            "Hình vuông",
+            "Hình chữ nhật",
+            "Hình tam giác"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình tròn không có cạnh, chỉ có đường tròn bao quanh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Hình vuông và hình chữ nhật giống nhau ở điểm nào?",
+          "options": [
+            "Có 4 cạnh bằng nhau",
+            "Có 4 góc vuông",
+            "Không có cạnh",
+            "Có 3 cạnh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình vuông và hình chữ nhật đều có 4 góc vuông.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Hình vuông khác hình chữ nhật ở điểm nào?",
+          "options": [
+            "Số cạnh",
+            "Số góc vuông",
+            "Không khác nhau",
+            "4 cạnh bằng nhau (hình vuông) vs 2 cặp cạnh bằng nhau (hình chữ nhật)"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình vuông có 4 cạnh bằng nhau, hình chữ nhật có 2 cạnh dài bằng nhau và 2 cạnh ngắn bằng nhau.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Một hình có 4 cạnh bằng nhau và 4 góc vuông là hình gì?",
+          "options": [
+            "Hình chữ nhật",
+            "Hình vuông",
+            "Hình tam giác",
+            "Hình tròn"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình có 4 cạnh bằng nhau và 4 góc vuông là hình vuông.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Hình nào có thể lăn được?",
+          "options": [
+            "Hình tròn",
+            "Hình vuông",
+            "Hình chữ nhật",
+            "Hình tam giác"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình tròn có thể lăn được vì không có góc cạnh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Trong các hình sau, hình nào có 4 cạnh?",
+          "options": [
+            "Hình tam giác",
+            "Hình vuông và hình chữ nhật",
+            "Hình tròn",
+            "Chỉ hình vuông"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình vuông và hình chữ nhật đều có 4 cạnh.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

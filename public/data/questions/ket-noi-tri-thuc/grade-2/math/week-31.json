@@ -1,0 +1,184 @@
+{
+  "week": 31,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Thống kê",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong lớp 2A có 15 bạn nam và 12 bạn nữ. Hỏi lớp 2A có tất cả bao nhiêu bạn?",
+          "options": [
+            "27 bạn",
+            "25 bạn",
+            "26 bạn",
+            "28 bạn"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Lớp 2A có tất cả: 15 + 12 = 27 bạn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng bán được 8 quyển vở, 5 cây bút và 3 cục tẩy. Hỏi cửa hàng bán được tất cả bao nhiêu đồ vật?",
+          "options": [
+            "15 đồ vật",
+            "16 đồ vật",
+            "14 đồ vật",
+            "17 đồ vật"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cửa hàng bán được tất cả: 8 + 5 + 3 = 16 đồ vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Trong một tuần, bạn An đọc được 4 quyển sách, bạn Lan đọc được 6 quyển sách. Hỏi cả hai bạn đọc được bao nhiêu quyển sách?",
+          "options": [
+            "9 quyển",
+            "11 quyển",
+            "10 quyển",
+            "12 quyển"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Cả hai bạn đọc được: 4 + 6 = 10 quyển sách.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Một trang trại có 20 con gà, 15 con vịt và 10 con ngan. Hỏi trang trại có tất cả bao nhiêu con vật?",
+          "options": [
+            "44 con",
+            "46 con",
+            "47 con",
+            "45 con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trang trại có tất cả: 20 + 15 + 10 = 45 con vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Trong một khu vườn có 18 cây táo và 12 cây cam. Hỏi có bao nhiêu cây táo hơn cây cam?",
+          "options": [
+            "5 cây",
+            "7 cây",
+            "8 cây",
+            "6 cây"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Cây táo nhiều hơn cây cam: 18 - 12 = 6 cây.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Một thư viện có 25 cuốn sách toán và 18 cuốn sách văn. Hỏi thư viện có tất cả bao nhiêu cuốn sách?",
+          "options": [
+            "42 cuốn",
+            "43 cuốn",
+            "44 cuốn",
+            "45 cuốn"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thư viện có tất cả: 25 + 18 = 43 cuốn sách.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Trong một lớp học có 10 bạn thích môn Toán, 8 bạn thích môn Tiếng Việt và 5 bạn thích cả hai môn. Hỏi có bao nhiêu bạn chỉ thích một môn?",
+          "options": [
+            "9 bạn",
+            "10 bạn",
+            "8 bạn",
+            "11 bạn"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số bạn chỉ thích Toán: 10 - 5 = 5 bạn. Số bạn chỉ thích Tiếng Việt: 8 - 5 = 3 bạn. Tổng: 5 + 3 = 8 bạn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng có 30 chiếc áo, đã bán được 12 chiếc. Hỏi cửa hàng còn lại bao nhiêu chiếc áo?",
+          "options": [
+            "17 chiếc",
+            "19 chiếc",
+            "20 chiếc",
+            "18 chiếc"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Cửa hàng còn lại: 30 - 12 = 18 chiếc áo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Trong một hộp có 24 viên bi đỏ và 16 viên bi xanh. Hỏi có bao nhiêu viên bi đỏ hơn viên bi xanh?",
+          "options": [
+            "8 viên",
+            "7 viên",
+            "9 viên",
+            "10 viên"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số viên bi đỏ nhiều hơn viên bi xanh: 24 - 16 = 8 viên.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Một trường học có 40 học sinh lớp 1, 35 học sinh lớp 2 và 30 học sinh lớp 3. Hỏi trường học có tất cả bao nhiêu học sinh?",
+          "options": [
+            "104 học sinh",
+            "105 học sinh",
+            "106 học sinh",
+            "107 học sinh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trường học có tất cả: 40 + 35 + 30 = 105 học sinh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Trong một cuộc thi có 25 học sinh tham gia, 18 học sinh đạt giải. Hỏi có bao nhiêu học sinh không đạt giải?",
+          "options": [
+            "7 học sinh",
+            "6 học sinh",
+            "8 học sinh",
+            "9 học sinh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số học sinh không đạt giải: 25 - 18 = 7 học sinh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng có 50 quyển vở, đã bán được 22 quyển. Hỏi cửa hàng còn lại bao nhiêu quyển vở?",
+          "options": [
+            "27 quyển",
+            "29 quyển",
+            "28 quyển",
+            "30 quyển"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Cửa hàng còn lại: 50 - 22 = 28 quyển vở.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

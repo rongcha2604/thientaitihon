@@ -1,0 +1,186 @@
+{
+  "week": 33,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập học kì II - Phần 2",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Tính: 6 × 7 = ?",
+          "options": [
+            "42",
+            "40",
+            "44",
+            "46"
+          ],
+          "correctAnswer": 0,
+          "explanation": "6 × 7 = 42.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Tính: 54 : 9 = ?",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctAnswer": 1,
+          "explanation": "54 : 9 = 6.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Tính: 345 + 256 = ?",
+          "options": [
+            "591",
+            "611",
+            "601",
+            "581"
+          ],
+          "correctAnswer": 2,
+          "explanation": "345 + 256 = 601.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Tính: 789 - 345 = ?",
+          "options": [
+            "434",
+            "454",
+            "464",
+            "444"
+          ],
+          "correctAnswer": 3,
+          "explanation": "789 - 345 = 444.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Một ngày có bao nhiêu giờ?",
+          "options": [
+            "24 giờ",
+            "20 giờ",
+            "18 giờ",
+            "22 giờ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Một ngày có 24 giờ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "1 đề-xi-mét bằng bao nhiêu xăng-ti-mét?",
+          "options": [
+            "1 cm",
+            "10 cm",
+            "100 cm",
+            "1000 cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "1 đề-xi-mét = 10 xăng-ti-mét.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Tính: 8 × 9 = ?",
+          "options": [
+            "70",
+            "71",
+            "72",
+            "73"
+          ],
+          "correctAnswer": 2,
+          "explanation": "8 × 9 = 72.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Tính: 63 : 7 = ?",
+          "options": [
+            "8",
+            "7",
+            "10",
+            "9"
+          ],
+          "correctAnswer": 3,
+          "explanation": "63 : 7 = 9.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Số liền sau của 999 là số nào?",
+          "options": [
+            "1000",
+            "998",
+            "1001",
+            "1002"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số liền sau của 999 là 1000.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "1 tờ 10000 đồng bằng bao nhiêu tờ 2000 đồng?",
+          "options": [
+            "4 tờ",
+            "5 tờ",
+            "6 tờ",
+            "7 tờ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "1 tờ 10000 đồng = 5 tờ 2000 đồng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Một con gà nặng 2 ki-lô-gam. Hỏi 4 con gà như vậy nặng bao nhiêu ki-lô-gam?",
+          "options": [
+            "6 kg",
+            "7 kg",
+            "8 kg",
+            "9 kg"
+          ],
+          "correctAnswer": 2,
+          "explanation": "4 con gà nặng: 2 × 4 = 8 ki-lô-gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Trong một lớp có 15 bạn nam và 12 bạn nữ. Hỏi có bao nhiêu bạn nam hơn bạn nữ?",
+          "options": [
+            "2 bạn",
+            "4 bạn",
+            "5 bạn",
+            "3 bạn"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số bạn nam nhiều hơn bạn nữ: 15 - 12 = 3 bạn.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+
+
+

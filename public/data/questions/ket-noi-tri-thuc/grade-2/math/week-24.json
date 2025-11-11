@@ -1,0 +1,184 @@
+{
+  "week": 24,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Số trong phạm vi 1000",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số 234 gồm bao nhiêu trăm, bao nhiêu chục và bao nhiêu đơn vị?",
+          "options": [
+            "3 trăm, 2 chục, 4 đơn vị",
+            "2 trăm, 3 chục, 4 đơn vị",
+            "2 trăm, 4 chục, 3 đơn vị",
+            "4 trăm, 2 chục, 3 đơn vị"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 234 gồm 2 trăm, 3 chục và 4 đơn vị.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số 567 gồm bao nhiêu trăm, bao nhiêu chục và bao nhiêu đơn vị?",
+          "options": [
+            "5 trăm, 6 chục, 7 đơn vị",
+            "6 trăm, 5 chục, 7 đơn vị",
+            "5 trăm, 7 chục, 6 đơn vị",
+            "7 trăm, 5 chục, 6 đơn vị"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 567 gồm 5 trăm, 6 chục và 7 đơn vị.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 456, 465, 546, 564?",
+          "options": [
+            "456",
+            "465",
+            "546",
+            "564"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 564 là số lớn nhất vì có hàng trăm là 5 (bằng với 546) nhưng hàng chục là 6 (lớn hơn 546 có hàng chục là 4).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Số nào bé nhất trong các số: 321, 312, 231, 213?",
+          "options": [
+            "321",
+            "312",
+            "231",
+            "213"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 213 là số bé nhất vì có hàng trăm là 2 (bé hơn 3) và hàng chục là 1 (bé hơn 231 có hàng chục là 3).",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Số 789 đọc là gì?",
+          "options": [
+            "Bảy trăm tám mươi chín",
+            "Bảy trăm chín mươi tám",
+            "Tám trăm bảy mươi chín",
+            "Chín trăm bảy mươi tám"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 789 đọc là: Bảy trăm tám mươi chín.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Số 405 đọc là gì?",
+          "options": [
+            "Bốn trăm linh năm",
+            "Bốn trăm năm mươi",
+            "Năm trăm linh bốn",
+            "Bốn trăm không năm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 405 đọc là: Bốn trăm linh năm (vì hàng chục là 0).",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Số liền sau của 299 là số nào?",
+          "options": [
+            "298",
+            "300",
+            "301",
+            "302"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số liền sau của 299 là 300 (299 + 1 = 300).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Số liền trước của 500 là số nào?",
+          "options": [
+            "498",
+            "499",
+            "501",
+            "502"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số liền trước của 500 là 499 (500 - 1 = 499).",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Sắp xếp các số sau theo thứ tự từ bé đến lớn: 234, 432, 324, 243",
+          "options": [
+            "432, 324, 243, 234",
+            "243, 234, 432, 324",
+            "234, 243, 324, 432",
+            "324, 432, 234, 243"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Sắp xếp từ bé đến lớn: 234 < 243 < 324 < 432.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Số 650 gồm bao nhiêu trăm và bao nhiêu chục?",
+          "options": [
+            "5 trăm và 6 chục",
+            "6 trăm và 50 chục",
+            "6 trăm và 5 chục",
+            "65 trăm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 650 gồm 6 trăm và 5 chục (và 0 đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Số 999 gồm bao nhiêu trăm, bao nhiêu chục và bao nhiêu đơn vị?",
+          "options": [
+            "99 trăm, 9 đơn vị",
+            "9 trăm, 99 đơn vị",
+            "9 trăm, 9 chục, 9 đơn vị",
+            "999 đơn vị"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 999 gồm 9 trăm, 9 chục và 9 đơn vị.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Số 100 gồm bao nhiêu trăm?",
+          "options": [
+            "10 trăm",
+            "100 trăm",
+            "0 trăm",
+            "1 trăm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 100 gồm 1 trăm (và 0 chục, 0 đơn vị).",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

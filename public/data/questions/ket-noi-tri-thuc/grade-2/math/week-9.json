@@ -1,0 +1,184 @@
+{
+  "week": 9,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Luyện tập chung - Khối lượng",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "2 kg bằng bao nhiêu gam?",
+          "options": [
+            "2000 g",
+            "200 g",
+            "20 g",
+            "20000 g"
+          ],
+          "correctAnswer": 0,
+          "explanation": "2 kg = 2 × 1000 = 2000 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Một con gà nặng 2 kg, một con vịt nặng 1 kg. Hỏi con gà nặng hơn con vịt bao nhiêu ki-lô-gam?",
+          "options": [
+            "2 kg",
+            "1 kg",
+            "3 kg",
+            "4 kg"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Con gà nặng hơn con vịt: 2 - 1 = 1 kg.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Một gói bánh nặng 500 g. Hỏi 2 gói bánh như vậy nặng bao nhiêu gam?",
+          "options": [
+            "1000 g",
+            "1500 g",
+            "1200 g",
+            "800 g"
+          ],
+          "correctAnswer": 0,
+          "explanation": "2 gói bánh nặng: 500 × 2 = 1000 g = 1 kg.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Một quả dưa hấu nặng 4 kg, một quả bí nặng 2 kg. Hỏi cả hai quả nặng bao nhiêu ki-lô-gam?",
+          "options": [
+            "5 kg",
+            "7 kg",
+            "6 kg",
+            "8 kg"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Cả hai quả nặng: 4 + 2 = 6 kg.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Một túi gạo nặng 3 kg, dùng hết 1 kg. Hỏi còn lại bao nhiêu ki-lô-gam?",
+          "options": [
+            "1 kg",
+            "3 kg",
+            "4 kg",
+            "2 kg"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Còn lại: 3 - 1 = 2 kg.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Một hộp sữa nặng 250 g. Hỏi 4 hộp sữa như vậy nặng bao nhiêu gam?",
+          "options": [
+            "800 g",
+            "1200 g",
+            "1000 g",
+            "900 g"
+          ],
+          "correctAnswer": 2,
+          "explanation": "4 hộp sữa nặng: 250 × 4 = 1000 g = 1 kg.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Một con lợn nặng 45 kg, một con bò nặng 200 kg. Hỏi con bò nặng hơn con lợn bao nhiêu ki-lô-gam?",
+          "options": [
+            "155 kg",
+            "165 kg",
+            "145 kg",
+            "175 kg"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Con bò nặng hơn con lợn: 200 - 45 = 155 kg.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Một gói kẹo nặng 150 g, một gói bánh nặng 350 g. Hỏi gói bánh nặng hơn gói kẹo bao nhiêu gam?",
+          "options": [
+            "180 g",
+            "200 g",
+            "190 g",
+            "170 g"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Gói bánh nặng hơn gói kẹo: 350 - 150 = 200 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Một quả cam nặng 120 g. Hỏi 5 quả cam như vậy nặng bao nhiêu gam?",
+          "options": [
+            "500 g",
+            "600 g",
+            "400 g",
+            "700 g"
+          ],
+          "correctAnswer": 1,
+          "explanation": "5 quả cam nặng: 120 × 5 = 600 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Một bao ngô nặng 8 kg, một bao khoai nặng 5 kg. Hỏi cả hai bao nặng bao nhiêu ki-lô-gam?",
+          "options": [
+            "12 kg",
+            "14 kg",
+            "15 kg",
+            "13 kg"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Cả hai bao nặng: 8 + 5 = 13 kg.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Một túi đường nặng 1 kg, một túi muối nặng 500 g. Hỏi túi đường nặng hơn túi muối bao nhiêu gam?",
+          "options": [
+            "400 g",
+            "600 g",
+            "300 g",
+            "500 g"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1 kg = 1000 g. Túi đường nặng hơn túi muối: 1000 - 500 = 500 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Một con chó nặng 15 kg, một con mèo nặng 3 kg. Hỏi con chó nặng hơn con mèo bao nhiêu ki-lô-gam?",
+          "options": [
+            "11 kg",
+            "13 kg",
+            "12 kg",
+            "10 kg"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Con chó nặng hơn con mèo: 15 - 3 = 12 kg.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,186 @@
+{
+  "week": 32,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập học kì II - Phần 1",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Tính: 5 × 8 = ?",
+          "options": [
+            "40",
+            "35",
+            "45",
+            "50"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 × 8 = 40.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Tính: 48 : 6 = ?",
+          "options": [
+            "6",
+            "8",
+            "7",
+            "9"
+          ],
+          "correctAnswer": 1,
+          "explanation": "48 : 6 = 8.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số 567 gồm bao nhiêu trăm?",
+          "options": [
+            "6 trăm",
+            "7 trăm",
+            "5 trăm",
+            "8 trăm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 567 gồm 5 trăm, 6 chục và 7 đơn vị.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "1 mét bằng bao nhiêu xăng-ti-mét?",
+          "options": [
+            "10 cm",
+            "50 cm",
+            "500 cm",
+            "100 cm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1 mét = 100 xăng-ti-mét.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Tính: 234 + 156 = ?",
+          "options": [
+            "390",
+            "380",
+            "400",
+            "370"
+          ],
+          "correctAnswer": 0,
+          "explanation": "234 + 156 = 390.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Tính: 456 - 234 = ?",
+          "options": [
+            "212",
+            "222",
+            "232",
+            "242"
+          ],
+          "correctAnswer": 1,
+          "explanation": "456 - 234 = 222.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Một giờ có bao nhiêu phút?",
+          "options": [
+            "30 phút",
+            "45 phút",
+            "60 phút",
+            "50 phút"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Một giờ có 60 phút.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "1 ki-lô-gam bằng bao nhiêu gam?",
+          "options": [
+            "100 gam",
+            "500 gam",
+            "2000 gam",
+            "1000 gam"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1 ki-lô-gam = 1000 gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "1 tờ 5000 đồng bằng bao nhiêu tờ 1000 đồng?",
+          "options": [
+            "5 tờ",
+            "3 tờ",
+            "4 tờ",
+            "6 tờ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "1 tờ 5000 đồng = 5 tờ 1000 đồng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Tính: 7 × 6 = ?",
+          "options": [
+            "40",
+            "42",
+            "44",
+            "46"
+          ],
+          "correctAnswer": 1,
+          "explanation": "7 × 6 = 42.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Tính: 36 : 4 = ?",
+          "options": [
+            "8",
+            "7",
+            "9",
+            "10"
+          ],
+          "correctAnswer": 2,
+          "explanation": "36 : 4 = 9.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Một tuần có bao nhiêu ngày?",
+          "options": [
+            "5 ngày",
+            "6 ngày",
+            "8 ngày",
+            "7 ngày"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Một tuần có 7 ngày.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+
+
+

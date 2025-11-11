@@ -1,0 +1,183 @@
+{
+  "week": 25,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Độ dài",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "1 mét bằng bao nhiêu xăng-ti-mét?",
+          "options": [
+            "100 cm",
+            "10 cm",
+            "1000 cm",
+            "1 cm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "1 mét = 100 xăng-ti-mét.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo độ dài nào bé nhất?",
+          "options": [
+            "Xăng-ti-mét",
+            "Mét",
+            "Đề-xi-mét",
+            "Ki-lô-mét"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong các đơn vị trên, xăng-ti-mét là đơn vị bé nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Một sợi dây dài 25 cm, cắt đi 10 cm. Hỏi sợi dây còn lại dài bao nhiêu xăng-ti-mét?",
+          "options": [
+            "15 cm",
+            "10 cm",
+            "20 cm",
+            "35 cm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Sợi dây còn lại dài: 25 - 10 = 15 cm.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Một cây bút dài 15 cm, một cục tẩy dài 5 cm. Hỏi cây bút dài hơn cục tẩy bao nhiêu xăng-ti-mét?",
+          "options": [
+            "5 cm",
+            "10 cm",
+            "15 cm",
+            "20 cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cây bút dài hơn cục tẩy: 15 - 5 = 10 cm.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Đoạn thẳng AB dài 30 cm, đoạn thẳng CD dài 20 cm. Hỏi cả hai đoạn thẳng dài bao nhiêu xăng-ti-mét?",
+          "options": [
+            "40 cm",
+            "50 cm",
+            "60 cm",
+            "10 cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cả hai đoạn thẳng dài: 30 + 20 = 50 cm.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Một con đường dài 100 mét. Hỏi 2 con đường như vậy dài bao nhiêu mét?",
+          "options": [
+            "150 mét",
+            "200 mét",
+            "250 mét",
+            "300 mét"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2 con đường dài: 100 × 2 = 200 mét.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "1 đề-xi-mét bằng bao nhiêu xăng-ti-mét?",
+          "options": [
+            "1 cm",
+            "100 cm",
+            "1000 cm",
+            "10 cm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1 đề-xi-mét = 10 xăng-ti-mét.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo độ dài nào lớn nhất?",
+          "options": [
+            "Xăng-ti-mét",
+            "Đề-xi-mét",
+            "Mét",
+            "Ki-lô-mét"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong các đơn vị trên, ki-lô-mét là đơn vị lớn nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Một cây cầu dài 500 mét. Hỏi 2 cây cầu như vậy dài bao nhiêu mét?",
+          "options": [
+            "800 mét",
+            "900 mét",
+            "1000 mét",
+            "1200 mét"
+          ],
+          "correctAnswer": 2,
+          "explanation": "2 cây cầu dài: 500 × 2 = 1000 mét.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Một cuộn vải dài 80 mét, đã dùng hết 30 mét. Hỏi cuộn vải còn lại bao nhiêu mét?",
+          "options": [
+            "40 mét",
+            "60 mét",
+            "50 mét",
+            "70 mét"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Cuộn vải còn lại: 80 - 30 = 50 mét.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Một cái bàn dài 1 mét. Hỏi 3 cái bàn như vậy dài bao nhiêu xăng-ti-mét?",
+          "options": [
+            "100 cm",
+            "200 cm",
+            "300 cm",
+            "400 cm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "1 mét = 100 cm. Vậy 3 cái bàn dài: 100 × 3 = 300 cm.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Một sợi dây dài 1 mét, cắt thành 2 đoạn bằng nhau. Hỏi mỗi đoạn dài bao nhiêu xăng-ti-mét?",
+          "options": [
+            "40 cm",
+            "60 cm",
+            "70 cm",
+            "50 cm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1 mét = 100 cm. Mỗi đoạn dài: 100 : 2 = 50 cm.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

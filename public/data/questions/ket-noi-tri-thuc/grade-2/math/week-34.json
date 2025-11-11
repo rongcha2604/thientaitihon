@@ -1,0 +1,186 @@
+{
+  "week": 34,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập cuối năm - Phần 1",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Tính: 9 × 8 = ?",
+          "options": [
+            "72",
+            "70",
+            "74",
+            "76"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 × 8 = 72.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Tính: 81 : 9 = ?",
+          "options": [
+            "8",
+            "9",
+            "7",
+            "10"
+          ],
+          "correctAnswer": 1,
+          "explanation": "81 : 9 = 9.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Tính: 567 + 234 = ?",
+          "options": [
+            "791",
+            "811",
+            "801",
+            "781"
+          ],
+          "correctAnswer": 2,
+          "explanation": "567 + 234 = 801.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Tính: 678 - 289 = ?",
+          "options": [
+            "379",
+            "399",
+            "409",
+            "389"
+          ],
+          "correctAnswer": 3,
+          "explanation": "678 - 289 = 389.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Số 890 gồm bao nhiêu trăm, bao nhiêu chục?",
+          "options": [
+            "8 trăm, 9 chục",
+            "9 trăm, 8 chục",
+            "8 trăm, 0 chục",
+            "9 trăm, 0 chục"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 890 gồm 8 trăm, 9 chục và 0 đơn vị.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Một buổi học kéo dài 45 phút. Hỏi 2 buổi học như vậy kéo dài bao nhiêu phút?",
+          "options": [
+            "80 phút",
+            "90 phút",
+            "100 phút",
+            "110 phút"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2 buổi học kéo dài: 45 × 2 = 90 phút.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Một túi gạo nặng 5 ki-lô-gam. Hỏi 3 túi gạo như vậy nặng bao nhiêu ki-lô-gam?",
+          "options": [
+            "10 kg",
+            "12 kg",
+            "15 kg",
+            "20 kg"
+          ],
+          "correctAnswer": 2,
+          "explanation": "3 túi gạo nặng: 5 × 3 = 15 ki-lô-gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Mẹ có 2 tờ 5000 đồng và 3 tờ 1000 đồng. Hỏi mẹ có tất cả bao nhiêu tiền?",
+          "options": [
+            "12000 đồng",
+            "14000 đồng",
+            "15000 đồng",
+            "13000 đồng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Mẹ có: 2 × 5000 + 3 × 1000 = 13000 đồng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Tính: 7 × 7 = ?",
+          "options": [
+            "49",
+            "48",
+            "50",
+            "51"
+          ],
+          "correctAnswer": 0,
+          "explanation": "7 × 7 = 49.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Tính: 72 : 8 = ?",
+          "options": [
+            "8",
+            "9",
+            "7",
+            "10"
+          ],
+          "correctAnswer": 1,
+          "explanation": "72 : 8 = 9.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Tính: 456 + 345 = ?",
+          "options": [
+            "791",
+            "811",
+            "801",
+            "781"
+          ],
+          "correctAnswer": 2,
+          "explanation": "456 + 345 = 801.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Tính: 567 - 289 = ?",
+          "options": [
+            "268",
+            "288",
+            "298",
+            "278"
+          ],
+          "correctAnswer": 3,
+          "explanation": "567 - 289 = 278.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+
+
+

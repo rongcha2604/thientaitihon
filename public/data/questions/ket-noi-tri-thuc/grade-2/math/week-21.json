@@ -1,0 +1,184 @@
+{
+  "week": 21,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Bảng nhân 3, 4",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "3 × 2 = ?",
+          "options": [
+            "6",
+            "5",
+            "7",
+            "8"
+          ],
+          "correctAnswer": 0,
+          "explanation": "3 × 2 = 6. Ta tính: 3 + 3 = 6 (cộng 3 hai lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "3 × 3 = ?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "7"
+          ],
+          "correctAnswer": 1,
+          "explanation": "3 × 3 = 9. Ta tính: 3 + 3 + 3 = 9 (cộng 3 ba lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "3 × 4 = ?",
+          "options": [
+            "11",
+            "13",
+            "10",
+            "12"
+          ],
+          "correctAnswer": 3,
+          "explanation": "3 × 4 = 12. Ta tính: 3 + 3 + 3 + 3 = 12 (cộng 3 bốn lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "4 × 2 = ?",
+          "options": [
+            "8",
+            "6",
+            "7",
+            "9"
+          ],
+          "correctAnswer": 0,
+          "explanation": "4 × 2 = 8. Ta tính: 4 + 4 = 8 (cộng 4 hai lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "4 × 3 = ?",
+          "options": [
+            "11",
+            "12",
+            "13",
+            "10"
+          ],
+          "correctAnswer": 1,
+          "explanation": "4 × 3 = 12. Ta tính: 4 + 4 + 4 = 12 (cộng 4 ba lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "4 × 4 = ?",
+          "options": [
+            "14",
+            "15",
+            "17",
+            "16"
+          ],
+          "correctAnswer": 3,
+          "explanation": "4 × 4 = 16. Ta tính: 4 + 4 + 4 + 4 = 16 (cộng 4 bốn lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Mỗi nhóm có 3 bạn. Hỏi 4 nhóm có bao nhiêu bạn?",
+          "options": [
+            "12 bạn",
+            "11 bạn",
+            "13 bạn",
+            "10 bạn"
+          ],
+          "correctAnswer": 0,
+          "explanation": "4 nhóm có: 3 × 4 = 12 bạn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Mỗi hộp có 4 cái bánh. Hỏi 3 hộp có bao nhiêu cái bánh?",
+          "options": [
+            "11 cái",
+            "12 cái",
+            "13 cái",
+            "10 cái"
+          ],
+          "correctAnswer": 1,
+          "explanation": "3 hộp có: 4 × 3 = 12 cái bánh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "3 × 5 = ?",
+          "options": [
+            "14",
+            "16",
+            "13",
+            "15"
+          ],
+          "correctAnswer": 3,
+          "explanation": "3 × 5 = 15. Ta tính: 3 + 3 + 3 + 3 + 3 = 15 (cộng 3 năm lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "4 × 5 = ?",
+          "options": [
+            "18",
+            "19",
+            "20",
+            "21"
+          ],
+          "correctAnswer": 2,
+          "explanation": "4 × 5 = 20. Ta tính: 4 + 4 + 4 + 4 + 4 = 20 (cộng 4 năm lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Mỗi túi có 3 quả cam. Hỏi 5 túi có bao nhiêu quả cam?",
+          "options": [
+            "14 quả",
+            "16 quả",
+            "15 quả",
+            "13 quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "5 túi có: 3 × 5 = 15 quả cam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Mỗi bàn có 4 cái ghế. Hỏi 4 bàn có bao nhiêu cái ghế?",
+          "options": [
+            "14 cái",
+            "15 cái",
+            "16 cái",
+            "17 cái"
+          ],
+          "correctAnswer": 2,
+          "explanation": "4 bàn có: 4 × 4 = 16 cái ghế.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,184 @@
+{
+  "week": 10,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Phép cộng có nhớ trong phạm vi 100",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "27 + 15 = ?",
+          "options": [
+            "42",
+            "43",
+            "41",
+            "44"
+          ],
+          "correctAnswer": 0,
+          "explanation": "27 + 15 = 42. Ta tính: 27 + 10 = 37, 37 + 5 = 42 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "38 + 24 = ?",
+          "options": [
+            "62",
+            "63",
+            "61",
+            "64"
+          ],
+          "correctAnswer": 0,
+          "explanation": "38 + 24 = 62. Ta tính: 38 + 20 = 58, 58 + 4 = 62 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "45 + 18 = ?",
+          "options": [
+            "63",
+            "64",
+            "62",
+            "61"
+          ],
+          "correctAnswer": 0,
+          "explanation": "45 + 18 = 63. Ta tính: 45 + 10 = 55, 55 + 8 = 63 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Mai có 36 viên bi, Lan có 28 viên bi. Hỏi cả hai có tất cả bao nhiêu viên bi?",
+          "options": [
+            "63 viên",
+            "64 viên",
+            "65 viên",
+            "62 viên"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cả hai có tất cả: 36 + 28 = 64 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "29 + 17 = ?",
+          "options": [
+            "45",
+            "46",
+            "47",
+            "44"
+          ],
+          "correctAnswer": 1,
+          "explanation": "29 + 17 = 46. Ta tính: 29 + 10 = 39, 39 + 7 = 46 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Có 47 quả cam, thêm 26 quả nữa. Hỏi có tất cả bao nhiêu quả cam?",
+          "options": [
+            "72 quả",
+            "73 quả",
+            "74 quả",
+            "71 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Có tất cả: 47 + 26 = 73 quả cam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "56 + 19 = ?",
+          "options": [
+            "74",
+            "76",
+            "73",
+            "75"
+          ],
+          "correctAnswer": 3,
+          "explanation": "56 + 19 = 75. Ta tính: 56 + 10 = 66, 66 + 9 = 75 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Hùng có 34 cái kẹo, mẹ cho thêm 27 cái. Hỏi Hùng có tất cả bao nhiêu cái kẹo?",
+          "options": [
+            "60 cái",
+            "62 cái",
+            "59 cái",
+            "61 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hùng có tất cả: 34 + 27 = 61 cái kẹo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "48 + 25 = ?",
+          "options": [
+            "72",
+            "74",
+            "71",
+            "73"
+          ],
+          "correctAnswer": 3,
+          "explanation": "48 + 25 = 73. Ta tính: 48 + 20 = 68, 68 + 5 = 73 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng có 39 cái bánh, nhập thêm 18 cái. Hỏi cửa hàng có tất cả bao nhiêu cái bánh?",
+          "options": [
+            "56 cái",
+            "58 cái",
+            "57 cái",
+            "55 cái"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Cửa hàng có tất cả: 39 + 18 = 57 cái bánh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "67 + 16 = ?",
+          "options": [
+            "82",
+            "84",
+            "83",
+            "81"
+          ],
+          "correctAnswer": 2,
+          "explanation": "67 + 16 = 83. Ta tính: 67 + 10 = 77, 77 + 6 = 83 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Trong phép cộng có nhớ, 58 + 29 = ?",
+          "options": [
+            "86",
+            "88",
+            "87",
+            "85"
+          ],
+          "correctAnswer": 2,
+          "explanation": "58 + 29 = 87. Ta tính: 58 + 20 = 78, 78 + 9 = 87 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

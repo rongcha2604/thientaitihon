@@ -1,0 +1,184 @@
+{
+  "week": 18,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập học kì I - Tổng hợp",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số lớn nhất có hai chữ số là số nào?",
+          "options": [
+            "99",
+            "98",
+            "100",
+            "97"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số lớn nhất có hai chữ số là 99.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "38 + 27 = ?",
+          "options": [
+            "64",
+            "65",
+            "66",
+            "63"
+          ],
+          "correctAnswer": 1,
+          "explanation": "38 + 27 = 65. Ta tính: 38 + 20 = 58, 58 + 7 = 65 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "56 - 19 = ?",
+          "options": [
+            "36",
+            "38",
+            "37",
+            "35"
+          ],
+          "correctAnswer": 2,
+          "explanation": "56 - 19 = 37. Ta tính: 56 - 10 = 46, 46 - 9 = 37 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Hình tam giác có bao nhiêu cạnh?",
+          "options": [
+            "4 cạnh",
+            "5 cạnh",
+            "3 cạnh",
+            "6 cạnh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình tam giác có 3 cạnh và 3 đỉnh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "2 kg bằng bao nhiêu gam?",
+          "options": [
+            "200 g",
+            "20 g",
+            "20000 g",
+            "2000 g"
+          ],
+          "correctAnswer": 3,
+          "explanation": "2 kg = 2 × 1000 = 2000 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Một ngày có bao nhiêu giờ?",
+          "options": [
+            "24 giờ",
+            "12 giờ",
+            "20 giờ",
+            "30 giờ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Một ngày có 24 giờ (từ 0 giờ đến 23 giờ).",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Mai có 45 viên bi, Lan có 28 viên bi. Hỏi cả hai có tất cả bao nhiêu viên bi?",
+          "options": [
+            "72 viên",
+            "74 viên",
+            "71 viên",
+            "73 viên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Cả hai có tất cả: 45 + 28 = 73 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Hùng có 67 cái kẹo, cho bạn 29 cái. Hỏi Hùng còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "38 cái",
+            "39 cái",
+            "37 cái",
+            "36 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hùng còn lại: 67 - 29 = 38 cái kẹo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Hình vuông có bao nhiêu góc vuông?",
+          "options": [
+            "2 góc vuông",
+            "3 góc vuông",
+            "4 góc vuông",
+            "5 góc vuông"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình vuông có 4 góc vuông và 4 cạnh bằng nhau.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Một con gà nặng 2 kg, một con vịt nặng 1 kg. Hỏi con gà nặng hơn con vịt bao nhiêu ki-lô-gam?",
+          "options": [
+            "2 kg",
+            "3 kg",
+            "4 kg",
+            "1 kg"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Con gà nặng hơn con vịt: 2 - 1 = 1 kg.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Khi kim ngắn chỉ số 6 và kim dài chỉ số 12, đồng hồ chỉ mấy giờ?",
+          "options": [
+            "5 giờ",
+            "6 giờ",
+            "7 giờ",
+            "8 giờ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi kim ngắn chỉ số 6 và kim dài chỉ số 12, đồng hồ chỉ 6 giờ đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Số 47 gồm bao nhiêu chục và bao nhiêu đơn vị?",
+          "options": [
+            "7 chục và 4 đơn vị",
+            "4 chục và 7 đơn vị",
+            "47 chục",
+            "4 đơn vị và 7 chục"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số 47 gồm 4 chục và 7 đơn vị.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

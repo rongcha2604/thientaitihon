@@ -1,0 +1,184 @@
+{
+  "week": 23,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Hình khối",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Hình lập phương có bao nhiêu mặt?",
+          "options": [
+            "6 mặt",
+            "4 mặt",
+            "5 mặt",
+            "7 mặt"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình lập phương có 6 mặt, tất cả các mặt đều là hình vuông.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Hình hộp chữ nhật có bao nhiêu đỉnh?",
+          "options": [
+            "8 đỉnh",
+            "6 đỉnh",
+            "7 đỉnh",
+            "9 đỉnh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình hộp chữ nhật có 8 đỉnh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Hình cầu có bao nhiêu mặt?",
+          "options": [
+            "1 mặt",
+            "0 mặt",
+            "2 mặt",
+            "3 mặt"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình cầu có 1 mặt cong (mặt tròn).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Hình trụ có bao nhiêu mặt đáy?",
+          "options": [
+            "1 mặt đáy",
+            "2 mặt đáy",
+            "3 mặt đáy",
+            "4 mặt đáy"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình trụ có 2 mặt đáy hình tròn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Hình lập phương có bao nhiêu cạnh?",
+          "options": [
+            "10 cạnh",
+            "12 cạnh",
+            "11 cạnh",
+            "13 cạnh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình lập phương có 12 cạnh, tất cả các cạnh đều bằng nhau.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Hình hộp chữ nhật có bao nhiêu mặt?",
+          "options": [
+            "4 mặt",
+            "6 mặt",
+            "5 mặt",
+            "7 mặt"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình hộp chữ nhật có 6 mặt, trong đó có 2 mặt đáy và 4 mặt bên.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Hình nào sau đây có thể lăn được?",
+          "options": [
+            "Hình lập phương",
+            "Hình hộp chữ nhật",
+            "Hình cầu",
+            "Hình tam giác"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình cầu có thể lăn được vì có mặt cong tròn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Hình nào sau đây có thể xếp chồng được?",
+          "options": [
+            "Hình cầu",
+            "Hình tròn",
+            "Hình trụ",
+            "Hình tam giác"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình trụ có thể xếp chồng được vì có mặt đáy phẳng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Hình lập phương có tất cả các mặt đều là hình gì?",
+          "options": [
+            "Hình tam giác",
+            "Hình chữ nhật",
+            "Hình vuông",
+            "Hình tròn"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình lập phương có tất cả 6 mặt đều là hình vuông và bằng nhau.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Hình hộp chữ nhật có các mặt đáy là hình gì?",
+          "options": [
+            "Hình tam giác",
+            "Hình vuông",
+            "Hình tròn",
+            "Hình chữ nhật"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình hộp chữ nhật có các mặt đáy là hình chữ nhật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Hình trụ có mặt bên là hình gì?",
+          "options": [
+            "Hình vuông",
+            "Hình tam giác",
+            "Hình tròn",
+            "Hình chữ nhật"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình trụ có mặt bên là hình chữ nhật (khi trải phẳng ra).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Hình nào sau đây không có đỉnh?",
+          "options": [
+            "Hình lập phương",
+            "Hình hộp chữ nhật",
+            "Hình tam giác",
+            "Hình cầu"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình cầu không có đỉnh, chỉ có mặt cong tròn.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

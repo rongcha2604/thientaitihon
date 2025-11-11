@@ -1,0 +1,184 @@
+{
+  "week": 3,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập phép cộng trừ (không nhớ)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "52 + 27 = ?",
+          "options": [
+            "79",
+            "78",
+            "80",
+            "77"
+          ],
+          "correctAnswer": 0,
+          "explanation": "52 + 27 = 79. Ta tính: 52 + 20 = 72, 72 + 7 = 79.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "68 - 35 = ?",
+          "options": [
+            "32",
+            "33",
+            "34",
+            "31"
+          ],
+          "correctAnswer": 1,
+          "explanation": "68 - 35 = 33. Ta tính: 68 - 30 = 38, 38 - 5 = 33.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Có 46 quả táo, thêm 33 quả nữa. Hỏi có tất cả bao nhiêu quả táo?",
+          "options": [
+            "78 quả",
+            "79 quả",
+            "80 quả",
+            "77 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Có tất cả: 46 + 33 = 79 quả táo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "75 - 42 = ?",
+          "options": [
+            "32",
+            "33",
+            "34",
+            "31"
+          ],
+          "correctAnswer": 1,
+          "explanation": "75 - 42 = 33. Ta tính: 75 - 40 = 35, 35 - 2 = 33.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Hoa có 59 viên bi, cho bạn 26 viên. Hỏi Hoa còn lại bao nhiêu viên bi?",
+          "options": [
+            "32 viên",
+            "33 viên",
+            "34 viên",
+            "31 viên"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hoa còn lại: 59 - 26 = 33 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "41 + 38 = ?",
+          "options": [
+            "78",
+            "80",
+            "79",
+            "77"
+          ],
+          "correctAnswer": 2,
+          "explanation": "41 + 38 = 79. Ta tính: 41 + 30 = 71, 71 + 8 = 79.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Số nào lớn hơn: 64 hay 58?",
+          "options": [
+            "58",
+            "Bằng nhau",
+            "64",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 2,
+          "explanation": "64 > 58 vì 64 có chữ số hàng chục (6) lớn hơn 58 (5).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "67 - 24 = ?",
+          "options": [
+            "42",
+            "44",
+            "43",
+            "41"
+          ],
+          "correctAnswer": 2,
+          "explanation": "67 - 24 = 43. Ta tính: 67 - 20 = 47, 47 - 4 = 43.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Có 53 cái bánh, ăn mất 29 cái. Hỏi còn lại bao nhiêu cái bánh?",
+          "options": [
+            "23 cái",
+            "25 cái",
+            "22 cái",
+            "24 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Còn lại: 53 - 29 = 24 cái bánh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "36 + 43 = ?",
+          "options": [
+            "78",
+            "80",
+            "77",
+            "79"
+          ],
+          "correctAnswer": 3,
+          "explanation": "36 + 43 = 79. Ta tính: 36 + 40 = 76, 76 + 3 = 79.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ hơn: 37 hay 42?",
+          "options": [
+            "37",
+            "42",
+            "Bằng nhau",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 0,
+          "explanation": "37 < 42 vì 37 có chữ số hàng chục (3) nhỏ hơn 42 (4).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "82 - 51 = ?",
+          "options": [
+            "30",
+            "32",
+            "29",
+            "31"
+          ],
+          "correctAnswer": 3,
+          "explanation": "82 - 51 = 31. Ta tính: 82 - 50 = 32, 32 - 1 = 31.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,184 @@
+{
+  "week": 27,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Thời gian",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Một giờ có bao nhiêu phút?",
+          "options": [
+            "60 phút",
+            "30 phút",
+            "45 phút",
+            "50 phút"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Một giờ có 60 phút.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Một ngày có bao nhiêu giờ?",
+          "options": [
+            "24 giờ",
+            "12 giờ",
+            "20 giờ",
+            "18 giờ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Một ngày có 24 giờ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Một tuần có bao nhiêu ngày?",
+          "options": [
+            "7 ngày",
+            "5 ngày",
+            "6 ngày",
+            "8 ngày"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Một tuần có 7 ngày.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Một tháng có bao nhiêu tuần?",
+          "options": [
+            "3 tuần",
+            "4 tuần",
+            "5 tuần",
+            "6 tuần"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Một tháng có khoảng 4 tuần (28-31 ngày).",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Bạn An học bài từ 7 giờ đến 8 giờ. Hỏi bạn An học bài trong bao nhiêu phút?",
+          "options": [
+            "30 phút",
+            "60 phút",
+            "45 phút",
+            "50 phút"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 7 giờ đến 8 giờ là 1 giờ = 60 phút.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Bạn Lan chơi từ 2 giờ đến 3 giờ 30 phút. Hỏi bạn Lan chơi trong bao nhiêu phút?",
+          "options": [
+            "60 phút",
+            "90 phút",
+            "120 phút",
+            "150 phút"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 2 giờ đến 3 giờ 30 phút là 1 giờ 30 phút = 90 phút.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Một buổi học kéo dài 45 phút. Hỏi 2 buổi học như vậy kéo dài bao nhiêu phút?",
+          "options": [
+            "80 phút",
+            "100 phút",
+            "90 phút",
+            "110 phút"
+          ],
+          "correctAnswer": 2,
+          "explanation": "2 buổi học kéo dài: 45 × 2 = 90 phút.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Bạn Hùng đi ngủ lúc 9 giờ tối và thức dậy lúc 6 giờ sáng. Hỏi bạn Hùng ngủ bao nhiêu giờ?",
+          "options": [
+            "8 giờ",
+            "10 giờ",
+            "9 giờ",
+            "11 giờ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ 9 giờ tối đến 6 giờ sáng hôm sau là 9 giờ (12 - 9 + 6 = 9).",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Một tiết học kéo dài 35 phút. Hỏi 3 tiết học như vậy kéo dài bao nhiêu phút?",
+          "options": [
+            "95 phút",
+            "115 phút",
+            "105 phút",
+            "125 phút"
+          ],
+          "correctAnswer": 2,
+          "explanation": "3 tiết học kéo dài: 35 × 3 = 105 phút.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Bạn Mai làm bài tập từ 14 giờ đến 15 giờ 15 phút. Hỏi bạn Mai làm bài tập trong bao nhiêu phút?",
+          "options": [
+            "60 phút",
+            "90 phút",
+            "105 phút",
+            "75 phút"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 14 giờ đến 15 giờ 15 phút là 1 giờ 15 phút = 75 phút.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Một buổi sáng có 4 tiết học, mỗi tiết 35 phút. Hỏi buổi sáng kéo dài bao nhiêu phút?",
+          "options": [
+            "130 phút",
+            "150 phút",
+            "160 phút",
+            "140 phút"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Buổi sáng kéo dài: 35 × 4 = 140 phút.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Bạn Nam chạy bộ từ 6 giờ đến 6 giờ 45 phút. Hỏi bạn Nam chạy bộ trong bao nhiêu phút?",
+          "options": [
+            "40 phút",
+            "50 phút",
+            "55 phút",
+            "45 phút"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ 6 giờ đến 6 giờ 45 phút là 45 phút.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,186 @@
+{
+  "week": 35,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập cuối năm - Phần 2",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Tính: 8 × 8 = ?",
+          "options": [
+            "64",
+            "62",
+            "66",
+            "68"
+          ],
+          "correctAnswer": 0,
+          "explanation": "8 × 8 = 64.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Tính: 56 : 7 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "correctAnswer": 1,
+          "explanation": "56 : 7 = 8.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Tính: 678 + 222 = ?",
+          "options": [
+            "890",
+            "880",
+            "900",
+            "910"
+          ],
+          "correctAnswer": 2,
+          "explanation": "678 + 222 = 900.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Tính: 456 - 178 = ?",
+          "options": [
+            "268",
+            "288",
+            "298",
+            "278"
+          ],
+          "correctAnswer": 3,
+          "explanation": "456 - 178 = 278.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 567, 576, 657, 675?",
+          "options": [
+            "675",
+            "567",
+            "576",
+            "657"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 675 là số lớn nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Một tuần có 7 ngày. Hỏi 4 tuần có bao nhiêu ngày?",
+          "options": [
+            "21 ngày",
+            "28 ngày",
+            "30 ngày",
+            "35 ngày"
+          ],
+          "correctAnswer": 1,
+          "explanation": "4 tuần có: 7 × 4 = 28 ngày.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Một con đường dài 100 mét. Hỏi 5 con đường như vậy dài bao nhiêu mét?",
+          "options": [
+            "400 mét",
+            "450 mét",
+            "500 mét",
+            "550 mét"
+          ],
+          "correctAnswer": 2,
+          "explanation": "5 con đường dài: 100 × 5 = 500 mét.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Một hộp có 20 cây bút, đã dùng hết 8 cây. Hỏi còn lại bao nhiêu cây bút?",
+          "options": [
+            "10 cây",
+            "11 cây",
+            "13 cây",
+            "12 cây"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Còn lại: 20 - 8 = 12 cây bút.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Tính: 9 × 9 = ?",
+          "options": [
+            "81",
+            "80",
+            "82",
+            "83"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 × 9 = 81.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Tính: 45 : 5 = ?",
+          "options": [
+            "8",
+            "9",
+            "7",
+            "10"
+          ],
+          "correctAnswer": 1,
+          "explanation": "45 : 5 = 9.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Tính: 789 + 211 = ?",
+          "options": [
+            "990",
+            "980",
+            "1000",
+            "1010"
+          ],
+          "correctAnswer": 2,
+          "explanation": "789 + 211 = 1000.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Tính: 345 - 156 = ?",
+          "options": [
+            "179",
+            "199",
+            "169",
+            "189"
+          ],
+          "correctAnswer": 3,
+          "explanation": "345 - 156 = 189.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+
+
+

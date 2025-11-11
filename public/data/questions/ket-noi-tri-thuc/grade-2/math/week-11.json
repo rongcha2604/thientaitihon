@@ -1,0 +1,184 @@
+{
+  "week": 11,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Phép trừ có nhớ trong phạm vi 100",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "42 - 15 = ?",
+          "options": [
+            "27",
+            "28",
+            "26",
+            "29"
+          ],
+          "correctAnswer": 0,
+          "explanation": "42 - 15 = 27. Ta tính: 42 - 10 = 32, 32 - 5 = 27 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "53 - 18 = ?",
+          "options": [
+            "34",
+            "35",
+            "36",
+            "33"
+          ],
+          "correctAnswer": 1,
+          "explanation": "53 - 18 = 35. Ta tính: 53 - 10 = 43, 43 - 8 = 35 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "61 - 24 = ?",
+          "options": [
+            "37",
+            "38",
+            "36",
+            "35"
+          ],
+          "correctAnswer": 0,
+          "explanation": "61 - 24 = 37. Ta tính: 61 - 20 = 41, 41 - 4 = 37 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Mai có 48 viên bi, cho bạn 19 viên. Hỏi Mai còn lại bao nhiêu viên bi?",
+          "options": [
+            "28 viên",
+            "29 viên",
+            "30 viên",
+            "27 viên"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mai còn lại: 48 - 19 = 29 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Có 55 quả cam, bán đi 27 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "27 quả",
+            "29 quả",
+            "26 quả",
+            "28 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Còn lại: 55 - 27 = 28 quả cam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "72 - 36 = ?",
+          "options": [
+            "36",
+            "37",
+            "35",
+            "34"
+          ],
+          "correctAnswer": 0,
+          "explanation": "72 - 36 = 36. Ta tính: 72 - 30 = 42, 42 - 6 = 36 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Hùng có 64 cái kẹo, ăn mất 28 cái. Hỏi Hùng còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "35 cái",
+            "36 cái",
+            "37 cái",
+            "34 cái"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hùng còn lại: 64 - 28 = 36 cái kẹo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "83 - 47 = ?",
+          "options": [
+            "35",
+            "37",
+            "36",
+            "34"
+          ],
+          "correctAnswer": 2,
+          "explanation": "83 - 47 = 36. Ta tính: 83 - 40 = 43, 43 - 7 = 36 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng có 76 cái bánh, bán đi 39 cái. Hỏi cửa hàng còn lại bao nhiêu cái bánh?",
+          "options": [
+            "36 cái",
+            "38 cái",
+            "37 cái",
+            "35 cái"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Cửa hàng còn lại: 76 - 39 = 37 cái bánh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "91 - 25 = ?",
+          "options": [
+            "65",
+            "67",
+            "66",
+            "64"
+          ],
+          "correctAnswer": 2,
+          "explanation": "91 - 25 = 66. Ta tính: 91 - 20 = 71, 71 - 5 = 66 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Trong phép trừ có nhớ, 67 - 29 = ?",
+          "options": [
+            "37",
+            "39",
+            "36",
+            "38"
+          ],
+          "correctAnswer": 3,
+          "explanation": "67 - 29 = 38. Ta tính: 67 - 20 = 47, 47 - 9 = 38 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Lan có 58 viên bi, cho em 24 viên. Hỏi Lan còn lại bao nhiêu viên bi?",
+          "options": [
+            "33 viên",
+            "35 viên",
+            "32 viên",
+            "34 viên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Lan còn lại: 58 - 24 = 34 viên bi.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

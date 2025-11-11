@@ -1,0 +1,184 @@
+{
+  "week": 2,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Hơn kém nhau bao nhiêu - Ôn tập phép cộng trừ",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Lan có 28 cái kẹo, Hoa có 15 cái kẹo. Hỏi Lan có nhiều hơn Hoa bao nhiêu cái kẹo?",
+          "options": [
+            "13 cái kẹo",
+            "14 cái kẹo",
+            "12 cái kẹo",
+            "15 cái kẹo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Lan có nhiều hơn Hoa: 28 - 15 = 13 cái kẹo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Mai có 35 viên bi, Nam có 22 viên bi. Hỏi Nam có ít hơn Mai bao nhiêu viên bi?",
+          "options": [
+            "12 viên bi",
+            "13 viên bi",
+            "14 viên bi",
+            "15 viên bi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Nam có ít hơn Mai: 35 - 22 = 13 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "36 + 24 = ?",
+          "options": [
+            "58",
+            "59",
+            "60",
+            "61"
+          ],
+          "correctAnswer": 2,
+          "explanation": "36 + 24 = 60. Ta tính: 36 + 20 = 56, 56 + 4 = 60.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "45 - 18 = ?",
+          "options": [
+            "26",
+            "28",
+            "25",
+            "27"
+          ],
+          "correctAnswer": 3,
+          "explanation": "45 - 18 = 27. Ta tính: 45 - 10 = 35, 35 - 8 = 27.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Có 42 quả cam, bán đi 19 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "23 quả",
+            "22 quả",
+            "24 quả",
+            "21 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Còn lại: 42 - 19 = 23 quả cam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "28 + 17 = ?",
+          "options": [
+            "44",
+            "45",
+            "46",
+            "43"
+          ],
+          "correctAnswer": 1,
+          "explanation": "28 + 17 = 45. Ta tính: 28 + 10 = 38, 38 + 7 = 45.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Hùng có 50 viên bi, cho bạn 27 viên. Hỏi Hùng còn lại bao nhiêu viên bi?",
+          "options": [
+            "22 viên",
+            "24 viên",
+            "23 viên",
+            "25 viên"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hùng còn lại: 50 - 27 = 23 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "39 - 16 = ?",
+          "options": [
+            "22",
+            "24",
+            "21",
+            "23"
+          ],
+          "correctAnswer": 3,
+          "explanation": "39 - 16 = 23. Ta tính: 39 - 10 = 29, 29 - 6 = 23.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Có 31 cái bánh, thêm 19 cái nữa. Hỏi có tất cả bao nhiêu cái bánh?",
+          "options": [
+            "50 cái",
+            "49 cái",
+            "51 cái",
+            "48 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Có tất cả: 31 + 19 = 50 cái bánh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "An có 44 cái kẹo, Bình có 26 cái kẹo. Hỏi An có nhiều hơn Bình bao nhiêu cái kẹo?",
+          "options": [
+            "17 cái",
+            "18 cái",
+            "19 cái",
+            "16 cái"
+          ],
+          "correctAnswer": 1,
+          "explanation": "An có nhiều hơn Bình: 44 - 26 = 18 cái kẹo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "33 + 28 = ?",
+          "options": [
+            "60",
+            "62",
+            "61",
+            "59"
+          ],
+          "correctAnswer": 2,
+          "explanation": "33 + 28 = 61. Ta tính: 33 + 20 = 53, 53 + 8 = 61.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "47 - 29 = ?",
+          "options": [
+            "17",
+            "19",
+            "16",
+            "18"
+          ],
+          "correctAnswer": 3,
+          "explanation": "47 - 29 = 18. Ta tính: 47 - 20 = 27, 27 - 9 = 18.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

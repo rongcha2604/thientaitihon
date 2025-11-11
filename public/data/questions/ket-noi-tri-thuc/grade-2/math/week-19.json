@@ -1,0 +1,184 @@
+{
+  "week": 19,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Phép nhân - Bảng nhân 2, 5",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "2 × 3 = ?",
+          "options": [
+            "6",
+            "5",
+            "7",
+            "8"
+          ],
+          "correctAnswer": 0,
+          "explanation": "2 × 3 = 6. Ta tính: 2 + 2 + 2 = 6 (cộng 2 ba lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "2 × 5 = ?",
+          "options": [
+            "10",
+            "8",
+            "12",
+            "7"
+          ],
+          "correctAnswer": 0,
+          "explanation": "2 × 5 = 10. Ta tính: 2 + 2 + 2 + 2 + 2 = 10 (cộng 2 năm lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "5 × 2 = ?",
+          "options": [
+            "8",
+            "7",
+            "10",
+            "12"
+          ],
+          "correctAnswer": 2,
+          "explanation": "5 × 2 = 10. Ta tính: 5 + 5 = 10 (cộng 5 hai lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "5 × 3 = ?",
+          "options": [
+            "12",
+            "18",
+            "10",
+            "15"
+          ],
+          "correctAnswer": 3,
+          "explanation": "5 × 3 = 15. Ta tính: 5 + 5 + 5 = 15 (cộng 5 ba lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Mỗi bàn có 2 cái ghế. Hỏi 4 bàn có bao nhiêu cái ghế?",
+          "options": [
+            "8 cái",
+            "6 cái",
+            "10 cái",
+            "12 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "4 bàn có: 2 × 4 = 8 cái ghế.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Mỗi túi có 5 quả cam. Hỏi 3 túi có bao nhiêu quả cam?",
+          "options": [
+            "12 quả",
+            "15 quả",
+            "18 quả",
+            "10 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "3 túi có: 5 × 3 = 15 quả cam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "2 × 4 = ?",
+          "options": [
+            "6",
+            "8",
+            "10",
+            "12"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2 × 4 = 8. Ta tính: 2 + 2 + 2 + 2 = 8 (cộng 2 bốn lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "5 × 4 = ?",
+          "options": [
+            "18",
+            "22",
+            "16",
+            "20"
+          ],
+          "correctAnswer": 3,
+          "explanation": "5 × 4 = 20. Ta tính: 5 + 5 + 5 + 5 = 20 (cộng 5 bốn lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Mỗi nhóm có 2 bạn. Hỏi 5 nhóm có bao nhiêu bạn?",
+          "options": [
+            "8 bạn",
+            "12 bạn",
+            "10 bạn",
+            "7 bạn"
+          ],
+          "correctAnswer": 2,
+          "explanation": "5 nhóm có: 2 × 5 = 10 bạn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Mỗi hộp có 5 cái bánh. Hỏi 2 hộp có bao nhiêu cái bánh?",
+          "options": [
+            "8 cái",
+            "12 cái",
+            "10 cái",
+            "7 cái"
+          ],
+          "correctAnswer": 2,
+          "explanation": "2 hộp có: 5 × 2 = 10 cái bánh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "2 × 6 = ?",
+          "options": [
+            "10",
+            "12",
+            "14",
+            "8"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2 × 6 = 12. Ta tính: 2 + 2 + 2 + 2 + 2 + 2 = 12 (cộng 2 sáu lần).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "5 × 5 = ?",
+          "options": [
+            "20",
+            "30",
+            "15",
+            "25"
+          ],
+          "correctAnswer": 3,
+          "explanation": "5 × 5 = 25. Ta tính: 5 + 5 + 5 + 5 + 5 = 25 (cộng 5 năm lần).",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,184 @@
+{
+  "week": 15,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ngày, giờ - Đọc giờ, xem lịch",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Một ngày có bao nhiêu giờ?",
+          "options": [
+            "12 giờ",
+            "24 giờ",
+            "20 giờ",
+            "30 giờ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Một ngày có 24 giờ (từ 0 giờ đến 23 giờ).",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Một tuần có bao nhiêu ngày?",
+          "options": [
+            "5 ngày",
+            "7 ngày",
+            "6 ngày",
+            "8 ngày"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Một tuần có 7 ngày: Thứ Hai, Thứ Ba, Thứ Tư, Thứ Năm, Thứ Sáu, Thứ Bảy, Chủ Nhật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Một giờ có bao nhiêu phút?",
+          "options": [
+            "30 phút",
+            "60 phút",
+            "45 phút",
+            "90 phút"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Một giờ có 60 phút.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Một phút có bao nhiêu giây?",
+          "options": [
+            "30 giây",
+            "45 giây",
+            "90 giây",
+            "60 giây"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Một phút có 60 giây.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi kim ngắn chỉ số 3 và kim dài chỉ số 12, đồng hồ chỉ mấy giờ?",
+          "options": [
+            "3 giờ",
+            "2 giờ",
+            "4 giờ",
+            "5 giờ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Khi kim ngắn chỉ số 3 và kim dài chỉ số 12, đồng hồ chỉ 3 giờ đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Khi kim ngắn chỉ số 6 và kim dài chỉ số 12, đồng hồ chỉ mấy giờ?",
+          "options": [
+            "5 giờ",
+            "7 giờ",
+            "6 giờ",
+            "8 giờ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Khi kim ngắn chỉ số 6 và kim dài chỉ số 12, đồng hồ chỉ 6 giờ đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Khi kim ngắn chỉ số 9 và kim dài chỉ số 12, đồng hồ chỉ mấy giờ?",
+          "options": [
+            "8 giờ",
+            "10 giờ",
+            "9 giờ",
+            "11 giờ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Khi kim ngắn chỉ số 9 và kim dài chỉ số 12, đồng hồ chỉ 9 giờ đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Khi kim ngắn chỉ số 12 và kim dài chỉ số 12, đồng hồ chỉ mấy giờ?",
+          "options": [
+            "11 giờ",
+            "1 giờ",
+            "12 giờ",
+            "2 giờ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Khi kim ngắn chỉ số 12 và kim dài chỉ số 12, đồng hồ chỉ 12 giờ đúng (giữa trưa hoặc nửa đêm).",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Một tháng có khoảng bao nhiêu ngày?",
+          "options": [
+            "25-28 ngày",
+            "30-35 ngày",
+            "20-25 ngày",
+            "28-31 ngày"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Một tháng có khoảng 28-31 ngày (tùy thuộc vào tháng và năm).",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Một năm có bao nhiêu tháng?",
+          "options": [
+            "10 tháng",
+            "11 tháng",
+            "13 tháng",
+            "12 tháng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Một năm có 12 tháng: Tháng 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Khi kim ngắn chỉ số 2 và kim dài chỉ số 12, đồng hồ chỉ mấy giờ?",
+          "options": [
+            "2 giờ",
+            "1 giờ",
+            "3 giờ",
+            "4 giờ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Khi kim ngắn chỉ số 2 và kim dài chỉ số 12, đồng hồ chỉ 2 giờ đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kim ngắn chỉ số 8 và kim dài chỉ số 12, đồng hồ chỉ mấy giờ?",
+          "options": [
+            "8 giờ",
+            "7 giờ",
+            "9 giờ",
+            "10 giờ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Khi kim ngắn chỉ số 8 và kim dài chỉ số 12, đồng hồ chỉ 8 giờ đúng.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,184 @@
+{
+  "week": 1,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập các số đến 100",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số nào lớn nhất trong các số: 45, 67, 23, 89?",
+          "options": [
+            "45",
+            "67",
+            "23",
+            "89"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong các số 45, 67, 23, 89, số 89 là số lớn nhất vì 89 > 67 > 45 > 23.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số liền sau của 56 là số nào?",
+          "options": [
+            "55",
+            "57",
+            "56",
+            "58"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số liền sau của 56 là 57 (56 + 1 = 57).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số liền trước của 30 là số nào?",
+          "options": [
+            "29",
+            "31",
+            "30",
+            "28"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số liền trước của 30 là 29 (30 - 1 = 29).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Trong phép tính 25 + 13 = 38, số 38 được gọi là gì?",
+          "options": [
+            "Số hạng",
+            "Tổng",
+            "Số bị trừ",
+            "Hiệu"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong phép cộng, kết quả được gọi là tổng. 25 + 13 = 38, nên 38 là tổng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Trong phép tính 45 - 12 = 33, số 33 được gọi là gì?",
+          "options": [
+            "Số bị trừ",
+            "Số trừ",
+            "Hiệu",
+            "Tổng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong phép trừ, kết quả được gọi là hiệu. 45 - 12 = 33, nên 33 là hiệu.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Mai có 34 viên bi, Lan có 25 viên bi. Hỏi Mai có nhiều hơn Lan bao nhiêu viên bi?",
+          "options": [
+            "9 viên bi",
+            "10 viên bi",
+            "8 viên bi",
+            "11 viên bi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Mai có nhiều hơn Lan: 34 - 25 = 9 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "23 + 15 = ?",
+          "options": [
+            "37",
+            "38",
+            "36",
+            "39"
+          ],
+          "correctAnswer": 1,
+          "explanation": "23 + 15 = 38. Ta tính: 23 + 10 = 33, 33 + 5 = 38.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "47 - 23 = ?",
+          "options": [
+            "25",
+            "23",
+            "24",
+            "26"
+          ],
+          "correctAnswer": 2,
+          "explanation": "47 - 23 = 24. Ta tính: 47 - 20 = 27, 27 - 3 = 24.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Số nào nhỏ nhất trong các số: 78, 56, 91, 34?",
+          "options": [
+            "78",
+            "56",
+            "91",
+            "34"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong các số 78, 56, 91, 34, số 34 là số nhỏ nhất vì 34 < 56 < 78 < 91.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Trong phép tính 18 + 22 = 40, số 18 và số 22 được gọi là gì?",
+          "options": [
+            "Tổng",
+            "Hiệu",
+            "Số bị trừ",
+            "Số hạng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong phép cộng, các số được cộng với nhau gọi là số hạng. 18 và 22 là các số hạng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Hùng có 42 cái kẹo, cho bạn 18 cái. Hỏi Hùng còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "24 cái kẹo",
+            "25 cái kẹo",
+            "23 cái kẹo",
+            "26 cái kẹo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hùng còn lại: 42 - 18 = 24 cái kẹo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "56 - 34 = ?",
+          "options": [
+            "21",
+            "23",
+            "22",
+            "20"
+          ],
+          "correctAnswer": 2,
+          "explanation": "56 - 34 = 22. Ta tính: 56 - 30 = 26, 26 - 4 = 22.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

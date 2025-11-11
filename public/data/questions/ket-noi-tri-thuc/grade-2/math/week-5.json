@@ -1,0 +1,184 @@
+{
+  "week": 5,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Phép trừ (qua 10) trong phạm vi 20",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "13 - 4 = ?",
+          "options": [
+            "9",
+            "10",
+            "8",
+            "11"
+          ],
+          "correctAnswer": 0,
+          "explanation": "13 - 4 = 9. Ta tính: 13 - 3 = 10, 10 - 1 = 9 (tách 4 = 3 + 1).",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "15 - 7 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "correctAnswer": 1,
+          "explanation": "15 - 7 = 8. Ta tính: 15 - 5 = 10, 10 - 2 = 8 (tách 7 = 5 + 2).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "12 - 5 = ?",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "5"
+          ],
+          "correctAnswer": 0,
+          "explanation": "12 - 5 = 7. Ta tính: 12 - 2 = 10, 10 - 3 = 7 (tách 5 = 2 + 3).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "16 - 8 = ?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "correctAnswer": 1,
+          "explanation": "16 - 8 = 8. Ta tính: 16 - 6 = 10, 10 - 2 = 8 (tách 8 = 6 + 2).",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "14 - 6 = ?",
+          "options": [
+            "8",
+            "9",
+            "7",
+            "6"
+          ],
+          "correctAnswer": 0,
+          "explanation": "14 - 6 = 8. Ta tính: 14 - 4 = 10, 10 - 2 = 8 (tách 6 = 4 + 2).",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Có 17 cái kẹo, ăn mất 9 cái. Hỏi còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "7 cái",
+            "8 cái",
+            "9 cái",
+            "6 cái"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Còn lại: 17 - 9 = 8 cái kẹo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Trong phép trừ (qua 10), 11 - 3 = ?",
+          "options": [
+            "7",
+            "9",
+            "8",
+            "6"
+          ],
+          "correctAnswer": 2,
+          "explanation": "11 - 3 = 8. Ta tính: 11 - 1 = 10, 10 - 2 = 8 (tách 3 = 1 + 2).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "18 - 9 = ?",
+          "options": [
+            "8",
+            "10",
+            "9",
+            "7"
+          ],
+          "correctAnswer": 2,
+          "explanation": "18 - 9 = 9. Ta tính: 18 - 8 = 10, 10 - 1 = 9 (tách 9 = 8 + 1).",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Mai có 19 viên bi, cho bạn 7 viên. Hỏi Mai còn lại bao nhiêu viên bi?",
+          "options": [
+            "11 viên",
+            "13 viên",
+            "12 viên",
+            "10 viên"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Mai còn lại: 19 - 7 = 12 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "20 - 6 = ?",
+          "options": [
+            "13",
+            "15",
+            "12",
+            "14"
+          ],
+          "correctAnswer": 3,
+          "explanation": "20 - 6 = 14. Ta tính: 20 - 0 = 20, nhưng cách đúng là 20 - 6 = 14.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Trong bảng trừ (qua 10), 17 - 8 = ?",
+          "options": [
+            "8",
+            "10",
+            "7",
+            "9"
+          ],
+          "correctAnswer": 3,
+          "explanation": "17 - 8 = 9. Ta tính: 17 - 7 = 10, 10 - 1 = 9 (tách 8 = 7 + 1).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Có 16 quả cam, bán đi 8 quả. Hỏi còn lại bao nhiêu quả cam?",
+          "options": [
+            "7 quả",
+            "9 quả",
+            "6 quả",
+            "8 quả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Còn lại: 16 - 8 = 8 quả cam.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

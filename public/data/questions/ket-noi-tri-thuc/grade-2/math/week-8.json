@@ -1,0 +1,184 @@
+{
+  "week": 8,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Khối lượng - Gam",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đơn vị đo khối lượng nào được viết tắt là 'g'?",
+          "options": [
+            "Gam",
+            "Ki-lô-gam",
+            "Tấn",
+            "Lạng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Gam được viết tắt là 'g'. Đây là đơn vị đo khối lượng nhỏ hơn ki-lô-gam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "1 ki-lô-gam bằng bao nhiêu gam?",
+          "options": [
+            "100 g",
+            "1000 g",
+            "10 g",
+            "10000 g"
+          ],
+          "correctAnswer": 1,
+          "explanation": "1 ki-lô-gam = 1000 gam (1 kg = 1000 g).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Một gói kẹo nặng 200 g. Hỏi 3 gói kẹo như vậy nặng bao nhiêu gam?",
+          "options": [
+            "600 g",
+            "700 g",
+            "500 g",
+            "400 g"
+          ],
+          "correctAnswer": 0,
+          "explanation": "3 gói kẹo nặng: 200 × 3 = 600 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Một quả táo nặng 150 g, một quả cam nặng 120 g. Hỏi cả hai quả nặng bao nhiêu gam?",
+          "options": [
+            "260 g",
+            "280 g",
+            "250 g",
+            "270 g"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Cả hai quả nặng: 150 + 120 = 270 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Một hộp sữa nặng 250 g. Hỏi 2 hộp sữa như vậy nặng bao nhiêu gam?",
+          "options": [
+            "400 g",
+            "600 g",
+            "450 g",
+            "500 g"
+          ],
+          "correctAnswer": 3,
+          "explanation": "2 hộp sữa nặng: 250 × 2 = 500 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Một gói bánh nặng 300 g, ăn mất 50 g. Hỏi còn lại bao nhiêu gam?",
+          "options": [
+            "240 g",
+            "260 g",
+            "230 g",
+            "250 g"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Còn lại: 300 - 50 = 250 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Một quả trứng nặng khoảng bao nhiêu gam?",
+          "options": [
+            "30-50 g",
+            "100-150 g",
+            "200-250 g",
+            "300-350 g"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Một quả trứng thường nặng khoảng 30-50 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Một túi đường nặng 500 g, một túi muối nặng 300 g. Hỏi túi đường nặng hơn túi muối bao nhiêu gam?",
+          "options": [
+            "180 g",
+            "200 g",
+            "190 g",
+            "170 g"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Túi đường nặng hơn túi muối: 500 - 300 = 200 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Một gói mì tôm nặng 85 g. Hỏi 2 gói mì tôm như vậy nặng bao nhiêu gam?",
+          "options": [
+            "160 g",
+            "180 g",
+            "170 g",
+            "150 g"
+          ],
+          "correctAnswer": 2,
+          "explanation": "2 gói mì tôm nặng: 85 × 2 = 170 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Một quả chuối nặng 120 g, một quả ổi nặng 80 g. Hỏi quả chuối nặng hơn quả ổi bao nhiêu gam?",
+          "options": [
+            "30 g",
+            "50 g",
+            "40 g",
+            "20 g"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Quả chuối nặng hơn quả ổi: 120 - 80 = 40 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Một hộp bánh quy nặng 400 g, mẹ mua thêm 200 g nữa. Hỏi mẹ có tất cả bao nhiêu gam bánh quy?",
+          "options": [
+            "500 g",
+            "700 g",
+            "600 g",
+            "500 g"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Mẹ có tất cả: 400 + 200 = 600 g bánh quy.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Một gói kẹo nặng 150 g, một gói bánh nặng 250 g. Hỏi cả hai gói nặng bao nhiêu gam?",
+          "options": [
+            "380 g",
+            "400 g",
+            "390 g",
+            "370 g"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Cả hai gói nặng: 150 + 250 = 400 g.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

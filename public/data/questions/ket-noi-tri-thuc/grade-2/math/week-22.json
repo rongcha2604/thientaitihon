@@ -1,0 +1,184 @@
+{
+  "week": 22,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Bảng chia 3, 4",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "6 : 3 = ?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctAnswer": 0,
+          "explanation": "6 : 3 = 2. Ta tính: 6 chia thành 3 nhóm bằng nhau, mỗi nhóm có 2.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "9 : 3 = ?",
+          "options": [
+            "3",
+            "2",
+            "4",
+            "5"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 : 3 = 3. Ta tính: 9 chia thành 3 nhóm bằng nhau, mỗi nhóm có 3.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "12 : 3 = ?",
+          "options": [
+            "3",
+            "5",
+            "4",
+            "6"
+          ],
+          "correctAnswer": 2,
+          "explanation": "12 : 3 = 4. Ta tính: 12 chia thành 3 nhóm bằng nhau, mỗi nhóm có 4.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "8 : 4 = ?",
+          "options": [
+            "2",
+            "1",
+            "3",
+            "4"
+          ],
+          "correctAnswer": 0,
+          "explanation": "8 : 4 = 2. Ta tính: 8 chia thành 4 nhóm bằng nhau, mỗi nhóm có 2.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "12 : 4 = ?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correctAnswer": 1,
+          "explanation": "12 : 4 = 3. Ta tính: 12 chia thành 4 nhóm bằng nhau, mỗi nhóm có 3.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "16 : 4 = ?",
+          "options": [
+            "3",
+            "5",
+            "4",
+            "6"
+          ],
+          "correctAnswer": 2,
+          "explanation": "16 : 4 = 4. Ta tính: 16 chia thành 4 nhóm bằng nhau, mỗi nhóm có 4.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Có 15 quả cam, chia đều cho 3 bạn. Hỏi mỗi bạn được bao nhiêu quả cam?",
+          "options": [
+            "4 quả",
+            "5 quả",
+            "6 quả",
+            "7 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mỗi bạn được: 15 : 3 = 5 quả cam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Có 20 cái bánh, chia đều cho 4 bạn. Hỏi mỗi bạn được bao nhiêu cái bánh?",
+          "options": [
+            "4 cái",
+            "5 cái",
+            "6 cái",
+            "7 cái"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mỗi bạn được: 20 : 4 = 5 cái bánh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "15 : 3 = ?",
+          "options": [
+            "4",
+            "6",
+            "7",
+            "5"
+          ],
+          "correctAnswer": 3,
+          "explanation": "15 : 3 = 5. Ta tính: 15 chia thành 3 nhóm bằng nhau, mỗi nhóm có 5.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "20 : 4 = ?",
+          "options": [
+            "4",
+            "6",
+            "7",
+            "5"
+          ],
+          "correctAnswer": 3,
+          "explanation": "20 : 4 = 5. Ta tính: 20 chia thành 4 nhóm bằng nhau, mỗi nhóm có 5.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Có 18 viên bi, chia đều cho 3 bạn. Hỏi mỗi bạn được bao nhiêu viên bi?",
+          "options": [
+            "5 viên",
+            "7 viên",
+            "6 viên",
+            "8 viên"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Mỗi bạn được: 18 : 3 = 6 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Có 24 cái kẹo, chia đều cho 4 bạn. Hỏi mỗi bạn được bao nhiêu cái kẹo?",
+          "options": [
+            "5 cái",
+            "7 cái",
+            "8 cái",
+            "6 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Mỗi bạn được: 24 : 4 = 6 cái kẹo.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

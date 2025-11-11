@@ -1,0 +1,184 @@
+{
+  "week": 6,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Luyện tập chung - Phép cộng và phép trừ (qua 10)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "9 + 5 = ?",
+          "options": [
+            "14",
+            "15",
+            "13",
+            "12"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 + 5 = 14. Ta tính: 9 + 1 = 10, 10 + 4 = 14 (tách 5 = 1 + 4).",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "16 - 7 = ?",
+          "options": [
+            "9",
+            "10",
+            "8",
+            "7"
+          ],
+          "correctAnswer": 0,
+          "explanation": "16 - 7 = 9. Ta tính: 16 - 6 = 10, 10 - 1 = 9 (tách 7 = 6 + 1).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "7 + 8 = ?",
+          "options": [
+            "14",
+            "15",
+            "16",
+            "13"
+          ],
+          "correctAnswer": 1,
+          "explanation": "7 + 8 = 15. Ta tính: 7 + 3 = 10, 10 + 5 = 15 (tách 8 = 3 + 5).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "14 - 5 = ?",
+          "options": [
+            "9",
+            "10",
+            "8",
+            "7"
+          ],
+          "correctAnswer": 0,
+          "explanation": "14 - 5 = 9. Ta tính: 14 - 4 = 10, 10 - 1 = 9 (tách 5 = 4 + 1).",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Có 18 quả táo, ăn mất 9 quả. Hỏi còn lại bao nhiêu quả táo?",
+          "options": [
+            "8 quả",
+            "9 quả",
+            "10 quả",
+            "7 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Còn lại: 18 - 9 = 9 quả táo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Lan có 6 cái kẹo, mẹ cho thêm 8 cái. Hỏi Lan có tất cả bao nhiêu cái kẹo?",
+          "options": [
+            "13 cái",
+            "14 cái",
+            "15 cái",
+            "12 cái"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Lan có tất cả: 6 + 8 = 14 cái kẹo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Trong phép cộng (qua 10), 8 + 6 = ?",
+          "options": [
+            "13",
+            "15",
+            "14",
+            "12"
+          ],
+          "correctAnswer": 2,
+          "explanation": "8 + 6 = 14. Ta tính: 8 + 2 = 10, 10 + 4 = 14 (tách 6 = 2 + 4).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong phép trừ (qua 10), 15 - 6 = ?",
+          "options": [
+            "8",
+            "10",
+            "9",
+            "7"
+          ],
+          "correctAnswer": 2,
+          "explanation": "15 - 6 = 9. Ta tính: 15 - 5 = 10, 10 - 1 = 9 (tách 6 = 5 + 1).",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Hùng có 17 viên bi, cho bạn 8 viên. Hỏi Hùng còn lại bao nhiêu viên bi?",
+          "options": [
+            "8 viên",
+            "10 viên",
+            "9 viên",
+            "7 viên"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hùng còn lại: 17 - 8 = 9 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Mai có 5 cái bánh, bà cho thêm 9 cái. Hỏi Mai có tất cả bao nhiêu cái bánh?",
+          "options": [
+            "13 cái",
+            "15 cái",
+            "12 cái",
+            "14 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Mai có tất cả: 5 + 9 = 14 cái bánh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "19 - 7 = ?",
+          "options": [
+            "11",
+            "13",
+            "10",
+            "12"
+          ],
+          "correctAnswer": 3,
+          "explanation": "19 - 7 = 12. Ta tính: 19 - 9 = 10, nhưng cách đúng là 19 - 7 = 12.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "6 + 9 = ?",
+          "options": [
+            "14",
+            "16",
+            "13",
+            "15"
+          ],
+          "correctAnswer": 3,
+          "explanation": "6 + 9 = 15. Ta tính: 6 + 4 = 10, 10 + 5 = 15 (tách 9 = 4 + 5).",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

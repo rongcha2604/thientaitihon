@@ -1,0 +1,184 @@
+{
+  "week": 12,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Luyện tập chung - Phép cộng và phép trừ có nhớ",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "38 + 27 = ?",
+          "options": [
+            "65",
+            "66",
+            "64",
+            "63"
+          ],
+          "correctAnswer": 0,
+          "explanation": "38 + 27 = 65. Ta tính: 38 + 20 = 58, 58 + 7 = 65 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "56 - 19 = ?",
+          "options": [
+            "36",
+            "37",
+            "38",
+            "35"
+          ],
+          "correctAnswer": 1,
+          "explanation": "56 - 19 = 37. Ta tính: 56 - 10 = 46, 46 - 9 = 37 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Mai có 45 viên bi, Lan có 28 viên bi. Hỏi cả hai có tất cả bao nhiêu viên bi?",
+          "options": [
+            "72 viên",
+            "74 viên",
+            "71 viên",
+            "73 viên"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Cả hai có tất cả: 45 + 28 = 73 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Hùng có 67 cái kẹo, cho bạn 29 cái. Hỏi Hùng còn lại bao nhiêu cái kẹo?",
+          "options": [
+            "38 cái",
+            "39 cái",
+            "37 cái",
+            "36 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hùng còn lại: 67 - 29 = 38 cái kẹo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "49 + 18 = ?",
+          "options": [
+            "66",
+            "67",
+            "68",
+            "65"
+          ],
+          "correctAnswer": 1,
+          "explanation": "49 + 18 = 67. Ta tính: 49 + 10 = 59, 59 + 8 = 67 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "74 - 36 = ?",
+          "options": [
+            "37",
+            "39",
+            "36",
+            "38"
+          ],
+          "correctAnswer": 3,
+          "explanation": "74 - 36 = 38. Ta tính: 74 - 30 = 44, 44 - 6 = 38 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Có 52 quả cam, thêm 29 quả nữa. Hỏi có tất cả bao nhiêu quả cam?",
+          "options": [
+            "81 quả",
+            "82 quả",
+            "80 quả",
+            "79 quả"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Có tất cả: 52 + 29 = 81 quả cam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng có 85 cái bánh, bán đi 47 cái. Hỏi cửa hàng còn lại bao nhiêu cái bánh?",
+          "options": [
+            "37 cái",
+            "39 cái",
+            "36 cái",
+            "38 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Cửa hàng còn lại: 85 - 47 = 38 cái bánh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "36 + 47 = ?",
+          "options": [
+            "82",
+            "84",
+            "83",
+            "81"
+          ],
+          "correctAnswer": 2,
+          "explanation": "36 + 47 = 83. Ta tính: 36 + 40 = 76, 76 + 7 = 83 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "91 - 28 = ?",
+          "options": [
+            "62",
+            "64",
+            "63",
+            "61"
+          ],
+          "correctAnswer": 2,
+          "explanation": "91 - 28 = 63. Ta tính: 91 - 20 = 71, 71 - 8 = 63 (có nhớ 1 ở hàng đơn vị).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "An có 58 viên bi, Bình có 35 viên bi. Hỏi An có nhiều hơn Bình bao nhiêu viên bi?",
+          "options": [
+            "22 viên",
+            "24 viên",
+            "23 viên",
+            "21 viên"
+          ],
+          "correctAnswer": 2,
+          "explanation": "An có nhiều hơn Bình: 58 - 35 = 23 viên bi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Trong phép tính 64 + 19 = 83, số 83 được gọi là gì?",
+          "options": [
+            "Số hạng",
+            "Tổng",
+            "Số bị trừ",
+            "Hiệu"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong phép cộng, kết quả được gọi là tổng. 64 + 19 = 83, nên 83 là tổng.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

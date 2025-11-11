@@ -1,0 +1,184 @@
+{
+  "week": 13,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Hình phẳng - Hình tam giác, hình tứ giác",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Hình tam giác có bao nhiêu cạnh?",
+          "options": [
+            "4 cạnh",
+            "5 cạnh",
+            "3 cạnh",
+            "6 cạnh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình tam giác có 3 cạnh và 3 đỉnh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Hình tứ giác có bao nhiêu cạnh?",
+          "options": [
+            "3 cạnh",
+            "4 cạnh",
+            "5 cạnh",
+            "6 cạnh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình tứ giác có 4 cạnh và 4 đỉnh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Hình tam giác có bao nhiêu đỉnh?",
+          "options": [
+            "2 đỉnh",
+            "3 đỉnh",
+            "4 đỉnh",
+            "5 đỉnh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình tam giác có 3 đỉnh và 3 cạnh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Hình tứ giác có bao nhiêu đỉnh?",
+          "options": [
+            "3 đỉnh",
+            "5 đỉnh",
+            "4 đỉnh",
+            "6 đỉnh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình tứ giác có 4 đỉnh và 4 cạnh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Hình vuông là một loại hình gì?",
+          "options": [
+            "Hình tam giác",
+            "Hình tròn",
+            "Hình ngũ giác",
+            "Hình tứ giác"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình vuông là một loại hình tứ giác đặc biệt (có 4 cạnh bằng nhau và 4 góc vuông).",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Hình chữ nhật là một loại hình gì?",
+          "options": [
+            "Hình tam giác",
+            "Hình tứ giác",
+            "Hình tròn",
+            "Hình lục giác"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình chữ nhật là một loại hình tứ giác đặc biệt (có 4 góc vuông).",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Trong các hình sau, hình nào là hình tam giác?",
+          "options": [
+            "Hình có 3 cạnh",
+            "Hình có 4 cạnh",
+            "Hình có 5 cạnh",
+            "Hình có 6 cạnh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình tam giác là hình có 3 cạnh và 3 đỉnh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong các hình sau, hình nào là hình tứ giác?",
+          "options": [
+            "Hình có 3 cạnh",
+            "Hình có 5 cạnh",
+            "Hình có 6 cạnh",
+            "Hình có 4 cạnh"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình tứ giác là hình có 4 cạnh và 4 đỉnh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Một hình có 3 cạnh và 3 đỉnh là hình gì?",
+          "options": [
+            "Hình tam giác",
+            "Hình tứ giác",
+            "Hình ngũ giác",
+            "Hình lục giác"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình có 3 cạnh và 3 đỉnh là hình tam giác.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Một hình có 4 cạnh và 4 đỉnh là hình gì?",
+          "options": [
+            "Hình tam giác",
+            "Hình ngũ giác",
+            "Hình lục giác",
+            "Hình tứ giác"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình có 4 cạnh và 4 đỉnh là hình tứ giác.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Hình vuông và hình chữ nhật đều là loại hình gì?",
+          "options": [
+            "Hình tứ giác",
+            "Hình tam giác",
+            "Hình tròn",
+            "Hình ngũ giác"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình vuông và hình chữ nhật đều là hình tứ giác (có 4 cạnh và 4 đỉnh).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Hình tam giác và hình tứ giác khác nhau ở điểm nào?",
+          "options": [
+            "Số cạnh (3 cạnh vs 4 cạnh)",
+            "Số đỉnh (3 đỉnh vs 4 đỉnh)",
+            "Cả số cạnh và số đỉnh",
+            "Không khác nhau"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình tam giác có 3 cạnh và 3 đỉnh, hình tứ giác có 4 cạnh và 4 đỉnh.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

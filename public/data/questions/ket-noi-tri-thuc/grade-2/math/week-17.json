@@ -1,0 +1,184 @@
+{
+  "week": 17,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Ôn tập học kì I - Hình học và đo lường",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Hình tam giác có bao nhiêu cạnh?",
+          "options": [
+            "3 cạnh",
+            "4 cạnh",
+            "5 cạnh",
+            "6 cạnh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình tam giác có 3 cạnh và 3 đỉnh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Hình tứ giác có bao nhiêu cạnh?",
+          "options": [
+            "3 cạnh",
+            "4 cạnh",
+            "5 cạnh",
+            "6 cạnh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình tứ giác có 4 cạnh và 4 đỉnh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Hình vuông có bao nhiêu góc vuông?",
+          "options": [
+            "2 góc vuông",
+            "3 góc vuông",
+            "4 góc vuông",
+            "5 góc vuông"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình vuông có 4 góc vuông và 4 cạnh bằng nhau.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "2 kg bằng bao nhiêu gam?",
+          "options": [
+            "200 g",
+            "20 g",
+            "20000 g",
+            "2000 g"
+          ],
+          "correctAnswer": 3,
+          "explanation": "2 kg = 2 × 1000 = 2000 g.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Một con gà nặng 2 kg, một con vịt nặng 1 kg. Hỏi con gà nặng hơn con vịt bao nhiêu ki-lô-gam?",
+          "options": [
+            "2 kg",
+            "3 kg",
+            "4 kg",
+            "1 kg"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Con gà nặng hơn con vịt: 2 - 1 = 1 kg.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Một gói bánh nặng 500 g. Hỏi 2 gói bánh như vậy nặng bao nhiêu gam?",
+          "options": [
+            "1500 g",
+            "1000 g",
+            "1200 g",
+            "800 g"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2 gói bánh nặng: 500 × 2 = 1000 g = 1 kg.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Một ngày có bao nhiêu giờ?",
+          "options": [
+            "24 giờ",
+            "12 giờ",
+            "20 giờ",
+            "30 giờ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Một ngày có 24 giờ (từ 0 giờ đến 23 giờ).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Một giờ có bao nhiêu phút?",
+          "options": [
+            "30 phút",
+            "45 phút",
+            "90 phút",
+            "60 phút"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Một giờ có 60 phút.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Khi kim ngắn chỉ số 3 và kim dài chỉ số 12, đồng hồ chỉ mấy giờ?",
+          "options": [
+            "2 giờ",
+            "3 giờ",
+            "4 giờ",
+            "5 giờ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi kim ngắn chỉ số 3 và kim dài chỉ số 12, đồng hồ chỉ 3 giờ đúng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Hình chữ nhật có bao nhiêu góc vuông?",
+          "options": [
+            "2 góc vuông",
+            "3 góc vuông",
+            "4 góc vuông",
+            "5 góc vuông"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình chữ nhật có 4 góc vuông.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Một quả dưa hấu nặng 4 kg, một quả bí nặng 2 kg. Hỏi cả hai quả nặng bao nhiêu ki-lô-gam?",
+          "options": [
+            "6 kg",
+            "5 kg",
+            "7 kg",
+            "8 kg"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Cả hai quả nặng: 4 + 2 = 6 kg.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Một tuần có bao nhiêu ngày?",
+          "options": [
+            "5 ngày",
+            "6 ngày",
+            "7 ngày",
+            "8 ngày"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Một tuần có 7 ngày: Thứ Hai, Thứ Ba, Thứ Tư, Thứ Năm, Thứ Sáu, Thứ Bảy, Chủ Nhật.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

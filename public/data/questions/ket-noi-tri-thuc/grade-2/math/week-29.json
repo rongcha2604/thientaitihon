@@ -1,0 +1,184 @@
+{
+  "week": 29,
+  "subject": "math",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Phép cộng trong phạm vi 1000",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Tính: 234 + 156 = ?",
+          "options": [
+            "390",
+            "380",
+            "400",
+            "370"
+          ],
+          "correctAnswer": 0,
+          "explanation": "234 + 156 = 390. Ta tính: 4 + 6 = 10 (viết 0, nhớ 1), 3 + 5 + 1 = 9 (viết 9), 2 + 1 = 3 (viết 3).",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Tính: 456 + 234 = ?",
+          "options": [
+            "680",
+            "700",
+            "670",
+            "690"
+          ],
+          "correctAnswer": 3,
+          "explanation": "456 + 234 = 690. Ta tính: 6 + 4 = 10 (viết 0, nhớ 1), 5 + 3 + 1 = 9 (viết 9), 4 + 2 = 6 (viết 6).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Tính: 567 + 123 = ?",
+          "options": [
+            "680",
+            "700",
+            "690",
+            "680"
+          ],
+          "correctAnswer": 2,
+          "explanation": "567 + 123 = 690. Ta tính: 7 + 3 = 10 (viết 0, nhớ 1), 6 + 2 + 1 = 9 (viết 9), 5 + 1 = 6 (viết 6).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Tính: 345 + 256 = ?",
+          "options": [
+            "590",
+            "600",
+            "601",
+            "591"
+          ],
+          "correctAnswer": 2,
+          "explanation": "345 + 256 = 601. Ta tính: 5 + 6 = 11 (viết 1, nhớ 1), 4 + 5 + 1 = 10 (viết 0, nhớ 1), 3 + 2 + 1 = 6 (viết 6).",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Tính: 678 + 222 = ?",
+          "options": [
+            "890",
+            "880",
+            "910",
+            "900"
+          ],
+          "correctAnswer": 3,
+          "explanation": "678 + 222 = 900. Ta tính: 8 + 2 = 10 (viết 0, nhớ 1), 7 + 2 + 1 = 10 (viết 0, nhớ 1), 6 + 2 + 1 = 9 (viết 9).",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Tính: 123 + 456 = ?",
+          "options": [
+            "579",
+            "569",
+            "589",
+            "599"
+          ],
+          "correctAnswer": 0,
+          "explanation": "123 + 456 = 579. Ta tính: 3 + 6 = 9 (viết 9), 2 + 5 = 7 (viết 7), 1 + 4 = 5 (viết 5).",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Tính: 789 + 111 = ?",
+          "options": [
+            "890",
+            "880",
+            "910",
+            "900"
+          ],
+          "correctAnswer": 3,
+          "explanation": "789 + 111 = 900. Ta tính: 9 + 1 = 10 (viết 0, nhớ 1), 8 + 1 + 1 = 10 (viết 0, nhớ 1), 7 + 1 + 1 = 9 (viết 9).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Tính: 234 + 345 = ?",
+          "options": [
+            "569",
+            "579",
+            "589",
+            "599"
+          ],
+          "correctAnswer": 1,
+          "explanation": "234 + 345 = 579. Ta tính: 4 + 5 = 9 (viết 9), 3 + 4 = 7 (viết 7), 2 + 3 = 5 (viết 5).",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Tính: 456 + 234 = ?",
+          "options": [
+            "680",
+            "690",
+            "700",
+            "670"
+          ],
+          "correctAnswer": 1,
+          "explanation": "456 + 234 = 690. Ta tính: 6 + 4 = 10 (viết 0, nhớ 1), 5 + 3 + 1 = 9 (viết 9), 4 + 2 = 6 (viết 6).",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Tính: 567 + 333 = ?",
+          "options": [
+            "890",
+            "900",
+            "880",
+            "910"
+          ],
+          "correctAnswer": 1,
+          "explanation": "567 + 333 = 900. Ta tính: 7 + 3 = 10 (viết 0, nhớ 1), 6 + 3 + 1 = 10 (viết 0, nhớ 1), 5 + 3 + 1 = 9 (viết 9).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Tính: 123 + 234 = ?",
+          "options": [
+            "357",
+            "347",
+            "367",
+            "377"
+          ],
+          "correctAnswer": 0,
+          "explanation": "123 + 234 = 357. Ta tính: 3 + 4 = 7 (viết 7), 2 + 3 = 5 (viết 5), 1 + 2 = 3 (viết 3).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Tính: 345 + 456 = ?",
+          "options": [
+            "790",
+            "800",
+            "801",
+            "791"
+          ],
+          "correctAnswer": 2,
+          "explanation": "345 + 456 = 801. Ta tính: 5 + 6 = 11 (viết 1, nhớ 1), 4 + 5 + 1 = 10 (viết 0, nhớ 1), 3 + 4 + 1 = 8 (viết 8).",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+
