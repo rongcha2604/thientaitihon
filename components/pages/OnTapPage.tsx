@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useAuth } from '../../src/contexts/AuthContext';
 
 const VietHeader: React.FC<{ title: string; icon: string }> = ({ title, icon }) => (
     <header className="p-4 text-center">
@@ -20,7 +21,17 @@ const VietSection: React.FC<{ title: string; children: React.ReactNode }> = ({ t
     </div>
 );
 
-const ReviewCard: React.FC<{ title: string; weeks: string; duration: string; questions: string; color: string; }> = ({ title, weeks, duration, questions, color }) => (
+interface ReviewCardProps {
+  title: string;
+  weeks: string;
+  duration: string;
+  questions: string;
+  color: string;
+  examType: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH';
+  onStartExam: (examType: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH') => void;
+}
+
+const ReviewCard: React.FC<ReviewCardProps> = ({ title, weeks, duration, questions, color, examType, onStartExam }) => (
     <div className={`p-5 rounded-3xl border-2 border-amber-900/30 shadow-viet-style-raised flex flex-col h-full ${color}`}>
         <div className="flex-grow">
             <h3 className="font-black text-2xl text-amber-900">{title}</h3>
@@ -30,7 +41,10 @@ const ReviewCard: React.FC<{ title: string; weeks: string; duration: string; que
                 <p><strong>❓ Câu hỏi:</strong> {questions}</p>
             </div>
         </div>
-        <button className="w-full mt-4 bg-white/80 text-amber-900 font-bold py-3 rounded-2xl text-base shadow-viet-style-raised hover:scale-105 active:scale-95 active:shadow-viet-style-pressed transition-all">
+        <button 
+          onClick={() => onStartExam(examType)}
+          className="w-full mt-4 bg-white/80 text-amber-900 font-bold py-3 rounded-2xl text-base shadow-viet-style-raised hover:scale-105 active:scale-95 active:shadow-viet-style-pressed transition-all"
+        >
             Vào thi
         </button>
     </div>
@@ -55,7 +69,61 @@ const SkillBar: React.FC<{ name: string; percentage: number; level: 'Yếu' | 'C
     );
 };
 
-const OnTapPage: React.FC = () => {
+interface OnTapPageProps {
+  onStartExam?: (examType: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH', weekId: number, bookSeries: string, grade: number, subject: string) => void;
+}
+
+const OnTapPage: React.FC<OnTapPageProps> = ({ onStartExam }) => {
+    const { user } = useAuth();
+    
+    // Lấy thông tin từ localStorage hoặc user (tương tự HocPage)
+    const getDefaultSelection = () => {
+        if (user?.grade && user.grade >= 1 && user.grade <= 5) {
+            return {
+                bookSeries: 'ket-noi-tri-thuc', // Default
+                grade: user.grade,
+                subject: 'math', // Default
+            };
+        }
+        // Fallback từ localStorage
+        const savedBook = localStorage.getItem('selectedBook') || 'ket-noi-tri-thuc';
+        const savedGrade = parseInt(localStorage.getItem('selectedGrade') || '1', 10);
+        const savedSubject = localStorage.getItem('selectedSubject') || 'math';
+        return {
+            bookSeries: savedBook,
+            grade: savedGrade,
+            subject: savedSubject,
+        };
+    };
+
+    const handleStartExam = (examType: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH') => {
+        const selection = getDefaultSelection();
+        // Map bookSeries từ folder name về display name (nếu cần)
+        const bookSeriesMap: { [key: string]: string } = {
+            'ket-noi-tri-thuc': 'Kết nối tri thức',
+            'chan-troi-sang-tao': 'Chân trời sáng tạo',
+            'cung-hoc': 'Phát triển năng lực',
+            'vi-su-binh-dang': 'Bình đẳng & Dân chủ',
+        };
+        const bookSeriesDisplay = bookSeriesMap[selection.bookSeries] || selection.bookSeries;
+        
+        // Map subject từ folder name về display name
+        const subjectMap: { [key: string]: string } = {
+            'math': 'Toán',
+            'vietnamese': 'Tiếng Việt',
+            'english': 'Tiếng Anh',
+        };
+        const subjectDisplay = subjectMap[selection.subject] || selection.subject;
+        
+        // THI HƯƠNG: Học Kỳ 1 (tuần 1-18), THI HỘI: Học Kỳ 2 (tuần 19-35), THI ĐÌNH: Cả Năm
+        // Dùng weekId = 1 làm placeholder, ExercisePage sẽ tự load questions phù hợp
+        const weekId = 1; // Placeholder, ExercisePage sẽ load questions từ nhiều tuần
+        
+        if (onStartExam) {
+            onStartExam(examType, weekId, bookSeriesDisplay, selection.grade, subjectDisplay);
+        }
+    };
+
     return (
         <div>
             <VietHeader title="Thử Tài Trạng Tí" icon="📜" />
@@ -69,6 +137,8 @@ const OnTapPage: React.FC = () => {
                                 duration="15 phút"
                                 questions="30 câu"
                                 color="bg-pink-200/70"
+                                examType="THI_HUONG"
+                                onStartExam={handleStartExam}
                             />
                             <ReviewCard
                                 title="THI HỘI"
@@ -76,14 +146,18 @@ const OnTapPage: React.FC = () => {
                                 duration="15 phút"
                                 questions="30 câu"
                                 color="bg-sky-200/70"
+                                examType="THI_HOI"
+                                onStartExam={handleStartExam}
                             />
                              <div className="md:col-span-2">
                                 <ReviewCard
                                     title="THI ĐÌNH"
                                     weeks="Cả Năm"
                                     duration="30 phút"
-                                    questions="60 câu"
+                                    questions="30 câu"
                                     color="bg-lime-200/70"
+                                    examType="THI_DINH"
+                                    onStartExam={handleStartExam}
                                 />
                              </div>
                         </div>

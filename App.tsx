@@ -34,6 +34,7 @@ const App: React.FC = () => {
     bookSeries: string;
     grade: number;
     subject: string;
+    examType?: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH';
   } | null>(null);
   const { user, loading, isAuthenticated } = useAuth();
   
@@ -64,8 +65,8 @@ const App: React.FC = () => {
     }
   }, []);
 
-  const handleStartWeek = (weekId: number, bookSeries: string, grade: number, subject: string) => {
-    setExerciseData({ weekId, bookSeries, grade, subject });
+  const handleStartWeek = (weekId: number, bookSeries: string, grade: number, subject: string, examType?: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH') => {
+    setExerciseData({ weekId, bookSeries, grade, subject, examType });
     setIsExerciseMode(true);
   };
 
@@ -95,6 +96,7 @@ const App: React.FC = () => {
           grade={exerciseData.grade}
           subject={exerciseData.subject}
           onBack={handleBackFromExercise}
+          examType={exerciseData.examType}
         />
       );
     }
@@ -104,7 +106,7 @@ const App: React.FC = () => {
       case Page.Hoc:
         return <HocPage onStartWeek={handleStartWeek} />;
       case Page.OnTap:
-        return <OnTapPage />;
+        return <OnTapPage onStartExam={(examType, weekId, bookSeries, grade, subject) => handleStartWeek(weekId, bookSeries, grade, subject, examType)} />;
       case Page.Album:
         return <AlbumPage />;
       case Page.HoSo:

@@ -18,6 +18,7 @@ import CardOpening from '../common/CardOpening';
 import { playSound } from '../common/SoundEffects';
 import { getAlbumItems, purchaseItem, type AlbumItem as APIAlbumItem } from '../../src/lib/api/album';
 import { getUserCoins, type CoinsResponse } from '../../src/lib/api/coins';
+import { getStarsForGrade, setStarsForGrade, getCoinsForGrade, setCoinsForGrade, getSpiritPetsForGrade, setSpiritPetsForGrade, getCurrentGrade } from '../../src/lib/storage/gradeStorage';
 // Removed API imports - using localStorage only
 import { useAuth } from '../../src/contexts/AuthContext';
 import { useToast } from '../common/ToastNotification';
@@ -281,12 +282,31 @@ const AlbumPage: React.FC = () => {
         loadData();
     }, [filter]);
 
-    // Reload stars khi component mount hoặc khi quay lại từ trang khác
+    // Reload stars và coins khi component mount, khi quay lại từ trang khác, hoặc khi đổi lớp
     useEffect(() => {
-        const storedStarsStr = localStorage.getItem('user_stars');
-        const storedStars = storedStarsStr !== null ? parseInt(storedStarsStr, 10) : 0;
-        setStars(storedStars);
-    }, []);
+        const loadStarsAndCoins = () => {
+            const currentGrade = getCurrentGrade();
+            const storedStars = getStarsForGrade(currentGrade);
+            const storedCoins = getCoinsForGrade(currentGrade);
+            setStars(storedStars);
+            setCoins(storedCoins);
+        };
+        
+        loadStarsAndCoins();
+        
+        // Listen to gradeChanged event
+        const handleGradeChange = () => {
+            loadStarsAndCoins();
+            // Reload spirit pets từ lớp mới
+            const userId = user?.id || 'guest';
+            const newGrade = getCurrentGrade();
+            const newPets = getSpiritPetsForGrade(userId, newGrade);
+            setUserSpiritPets(newPets);
+        };
+        
+        window.addEventListener('gradeChanged', handleGradeChange);
+        return () => window.removeEventListener('gradeChanged', handleGradeChange);
+    }, [user?.id]);
 
     // Load selected items khi user thay đổi hoặc component mount
     useEffect(() => {
@@ -358,31 +378,29 @@ const AlbumPage: React.FC = () => {
         try {
             setLoading(true);
             
-            // Load coins (optional - chỉ load nếu có backend)
+            // Load coins (optional - chỉ load nếu có backend) - theo lớp
+            const currentGrade = getCurrentGrade();
             if (user?.id) {
                 try {
                     const coinsData = await getUserCoins();
                     setCoins(coinsData.coins);
-                    // Sync với localStorage
-                    localStorage.setItem('user_coins', coinsData.coins.toString());
+                    // Sync với localStorage - theo lớp
+                    setCoinsForGrade(currentGrade, coinsData.coins);
                 } catch (error) {
-                    // Nếu không có backend, đọc từ localStorage hoặc dùng mặc định = 0 (lần đầu)
+                    // Nếu không có backend, đọc từ localStorage - theo lớp
                     console.log('Backend not available, using localStorage coins');
-                    const storedCoinsStr = localStorage.getItem('user_coins');
-                    const storedCoins = storedCoinsStr !== null ? parseInt(storedCoinsStr, 10) : 0;
+                    const storedCoins = getCoinsForGrade(currentGrade);
                     setCoins(storedCoins);
                 }
 
             } else {
-                // Không có user → đọc từ localStorage hoặc dùng mặc định = 0 (lần đầu)
-                const storedCoinsStr = localStorage.getItem('user_coins');
-                const storedCoins = storedCoinsStr !== null ? parseInt(storedCoinsStr, 10) : 0;
+                // Không có user → đọc từ localStorage - theo lớp
+                const storedCoins = getCoinsForGrade(currentGrade);
                 setCoins(storedCoins);
             }
 
-            // Load stars từ localStorage
-            const storedStarsStr = localStorage.getItem('user_stars');
-            const storedStars = storedStarsStr !== null ? parseInt(storedStarsStr, 10) : 0;
+            // Load stars từ localStorage - theo lớp
+            const storedStars = getStarsForGrade(currentGrade);
             setStars(storedStars);
 
             // Load spirit pets từ file JSON local
@@ -398,21 +416,11 @@ const AlbumPage: React.FC = () => {
                 setSpiritPets([]);
             }
 
-            // Load user spirit pets từ localStorage
+            // Load user spirit pets từ localStorage - theo lớp
             const userId = user?.id || 'guest';
-            const userPetsKey = `user_spirit_pets_${userId}`;
-            const storedUserPets = localStorage.getItem(userPetsKey);
-            if (storedUserPets) {
-                try {
-                    const parsedPets = JSON.parse(storedUserPets);
-                    setUserSpiritPets(parsedPets);
-                } catch (error) {
-                    console.error('Error parsing user spirit pets:', error);
-                    setUserSpiritPets([]);
-                }
-            } else {
-                setUserSpiritPets([]);
-            }
+            // currentGrade đã được khai báo ở trên (dòng 382)
+            const userPets = getSpiritPetsForGrade(userId, currentGrade);
+            setUserSpiritPets(userPets);
             
             // Load items từ file JSON local (không cần backend)
             const response = await fetch('/data/album-items.json');
@@ -538,7 +546,9 @@ const AlbumPage: React.FC = () => {
                     
                     // Cập nhật coins
                     setCoins(result.coins);
-                    localStorage.setItem('user_coins', result.coins.toString());
+                    // Sync với localStorage - theo lớp
+                    const currentGrade = getCurrentGrade();
+                    setCoinsForGrade(currentGrade, result.coins);
                     
                     // Lưu owned item vào localStorage
                     saveOwnedItems(item.id);
@@ -584,7 +594,9 @@ const AlbumPage: React.FC = () => {
                 // Update local state (demo mode)
                 const newCoins = coins - item.price;
                 setCoins(newCoins);
-                localStorage.setItem('user_coins', newCoins.toString());
+                // Lưu vào localStorage - theo lớp
+                const currentGrade = getCurrentGrade();
+                setCoinsForGrade(currentGrade, newCoins);
                 
                 // Lưu owned item vào localStorage (demo mode)
                 saveOwnedItems(item.id);
@@ -650,8 +662,9 @@ const AlbumPage: React.FC = () => {
     const saveUserSpiritPets = (pets: any[]) => {
         try {
             const userId = user?.id || 'guest';
-            const userPetsKey = `user_spirit_pets_${userId}`;
-            localStorage.setItem(userPetsKey, JSON.stringify(pets));
+            const currentGrade = getCurrentGrade();
+            // Lưu vào localStorage - theo lớp
+            setSpiritPetsForGrade(userId, currentGrade, pets);
             setUserSpiritPets(pets);
             
             // Dispatch custom event để HoSoPage biết và reload
@@ -816,10 +829,11 @@ const AlbumPage: React.FC = () => {
                                                             return;
                                                         }
 
-                                                        // Trừ sao
+                                                        // Trừ sao - theo lớp
+                                                        const currentGrade = getCurrentGrade();
                                                         const newStars = stars - cost;
                                                         setStars(newStars);
-                                                        localStorage.setItem('user_stars', newStars.toString());
+                                                        setStarsForGrade(currentGrade, newStars);
 
                                                         // Tạo user pet mới
                                                         const newUserPet = {
@@ -832,9 +846,10 @@ const AlbumPage: React.FC = () => {
                                                             spiritPet: pet,
                                                         };
 
-                                                        // Lưu vào localStorage
+                                                        // Lưu vào localStorage - theo lớp
                                                         const updatedPets = [...userSpiritPets, newUserPet];
-                                                        saveUserSpiritPets(updatedPets);
+                                                        setUserSpiritPets(updatedPets);
+                                                        setSpiritPetsForGrade(userId, currentGrade, updatedPets);
 
                                                         showToast(`Đã mở khóa ${pet.baseNameVi}!`, 'success');
                                                         playSound('success');
@@ -1110,10 +1125,11 @@ const AlbumPage: React.FC = () => {
                                                 return;
                                             }
 
-                                            // Trừ sao
+                                            // Trừ sao - theo lớp
+                                            const currentGrade = getCurrentGrade();
                                             const newStars = stars - cost;
                                             setStars(newStars);
-                                            localStorage.setItem('user_stars', newStars.toString());
+                                            setStarsForGrade(currentGrade, newStars);
 
                                             // Update level
                                             const updatedUserPet = {
@@ -1122,7 +1138,7 @@ const AlbumPage: React.FC = () => {
                                                 lastUpgradedAt: new Date().toISOString(),
                                             };
 
-                                            // Lưu vào localStorage
+                                            // Lưu vào localStorage - theo lớp
                                             const updatedPets = userSpiritPets.map(up => 
                                                 up.spiritPetId === spiritPetModal.pet.id ? updatedUserPet : up
                                             );
@@ -1249,10 +1265,11 @@ const AlbumPage: React.FC = () => {
                                             return;
                                         }
 
-                                        // Trừ sao
+                                        // Trừ sao - theo lớp
+                                        const currentGrade = getCurrentGrade();
                                         const newStars = stars - cost;
                                         setStars(newStars);
-                                        localStorage.setItem('user_stars', newStars.toString());
+                                        setStarsForGrade(currentGrade, newStars);
 
                                         // Update level
                                         const updatedUserPet = {
@@ -1261,11 +1278,13 @@ const AlbumPage: React.FC = () => {
                                             lastUpgradedAt: new Date().toISOString(),
                                         };
 
-                                        // Lưu vào localStorage
+                                        // Lưu vào localStorage - theo lớp
                                         const updatedPets = userSpiritPets.map(up => 
                                             up.spiritPetId === upgradeConfirmModal.pet.id ? updatedUserPet : up
                                         );
-                                        saveUserSpiritPets(updatedPets);
+                                        setUserSpiritPets(updatedPets);
+                                        const userId = user?.id || 'guest';
+                                        setSpiritPetsForGrade(userId, currentGrade, updatedPets);
 
                                         showToast(`Đã nâng cấp ${upgradeConfirmModal.pet.baseNameVi} lên cấp ${nextLevel}!`, 'success');
                                         playSound('success');

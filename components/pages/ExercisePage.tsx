@@ -12,6 +12,7 @@ import AdaptiveDifficulty from '../learning/AdaptiveDifficulty';
 import SuccessCelebration from '../common/SuccessCelebration';
 import { saveExerciseProgress, getExerciseProgress, clearExerciseProgress } from '../../src/lib/storage/exerciseProgress';
 import { awardCoins as awardCoinsAPI } from '../../src/lib/api/coins';
+import { getStarsForGrade, setStarsForGrade, getCoinsForGrade, setCoinsForGrade, addStarsForGrade, addCoinsForGrade } from '../../src/lib/storage/gradeStorage';
 
 // Wrapper function để gọi awardCoins với error handling
 const awardCoins = async (data: { amount: number; reason: string; metadata?: Record<string, any> }) => {
@@ -23,12 +24,9 @@ const awardCoins = async (data: { amount: number; reason: string; metadata?: Rec
   }
 };
 
-// Helper function để award stars (localStorage only)
-const awardStarsLocal = (amount: number) => {
-  const currentStars = parseInt(localStorage.getItem('user_stars') || '0', 10);
-  const newStars = currentStars + amount;
-  localStorage.setItem('user_stars', newStars.toString());
-  return newStars;
+// Helper function để award stars (localStorage only) - theo lớp
+const awardStarsLocal = (amount: number, grade: number) => {
+  return addStarsForGrade(grade, amount);
 };
 
 interface Question {
@@ -62,9 +60,10 @@ interface ExercisePageProps {
   grade: number;
   subject: string;
   onBack: () => void;
+  examType?: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH'; // Optional: để phân biệt học chính vs ôn tập
 }
 
-const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, subject, onBack }) => {
+const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, subject, onBack, examType }) => {
   const { user } = useAuth();
   const { showToast } = useToast();
   const { updateProgress } = useDailyChallenge();
@@ -99,10 +98,122 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
     setShowCelebration(false);
   }, [weekId, bookSeries, grade, subject]);
 
+  // Helper function để load questions từ nhiều tuần cho ôn tập
+  const loadExamQuestions = async (
+    examType: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH',
+    bookSeries: string,
+    grade: number
+  ): Promise<WeekData> => {
+    // Map book series name to folder name
+    const bookSeriesMap: { [key: string]: string } = {
+      'Kết nối tri thức': 'ket-noi-tri-thuc',
+      'Chân trời sáng tạo': 'chan-troi-sang-tao',
+      'Phát triển năng lực': 'cung-hoc',
+      'Bình đẳng & Dân chủ': 'vi-su-binh-dang',
+      'ket-noi-tri-thuc': 'ket-noi-tri-thuc',
+      'chan-troi-sang-tao': 'chan-troi-sang-tao',
+      'cung-hoc': 'cung-hoc',
+      'vi-su-binh-dang': 'vi-su-binh-dang',
+    };
+
+    const subjectMap: { [key: string]: string } = {
+      'Toán': 'math',
+      'Tiếng Việt': 'vietnamese',
+      'Tiếng Anh': 'english',
+      'math': 'math',
+      'vietnamese': 'vietnamese',
+      'english': 'english',
+    };
+
+    const bookSeriesFolder = bookSeriesMap[bookSeries] || 'ket-noi-tri-thuc';
+    const subjects = ['math', 'vietnamese', 'english']; // 3 môn: Toán, Tiếng Việt, Anh văn
+
+    // Xác định range tuần dựa trên examType
+    let weekRange: number[];
+    if (examType === 'THI_HUONG') {
+      weekRange = Array.from({ length: 18 }, (_, i) => i + 1); // Tuần 1-18
+    } else if (examType === 'THI_HOI') {
+      weekRange = Array.from({ length: 17 }, (_, i) => i + 19); // Tuần 19-35
+    } else {
+      // THI ĐÌNH: Tất cả tuần (1-35)
+      weekRange = Array.from({ length: 35 }, (_, i) => i + 1);
+    }
+
+    // Load tất cả questions từ các tuần và môn
+    const allQuestions: { subject: string; questions: Question[] }[] = [];
+
+    for (const subjectFolder of subjects) {
+      const subjectQuestions: Question[] = [];
+
+      // Load questions từ tất cả tuần trong range
+      for (const week of weekRange) {
+        try {
+          const dataPath = `/data/questions/${bookSeriesFolder}/grade-${grade}/${subjectFolder}/week-${week}.json`;
+          const response = await fetch(dataPath);
+
+          if (response.ok) {
+            const weekData: WeekData = await response.json();
+            // Lấy tất cả questions từ tất cả lessons
+            weekData.lessons?.forEach(lesson => {
+              lesson.questions?.forEach(q => {
+                subjectQuestions.push({
+                  ...q,
+                  id: `${subjectFolder}-week-${week}-${q.id}`, // Unique ID
+                });
+              });
+            });
+          }
+        } catch (error) {
+          console.warn(`Failed to load week ${week} for ${subjectFolder}:`, error);
+        }
+      }
+
+      // Lấy ngẫu nhiên 10 câu từ môn này
+      const shuffled = subjectQuestions.sort(() => Math.random() - 0.5);
+      const selectedQuestions = shuffled.slice(0, 10);
+      allQuestions.push({ subject: subjectFolder, questions: selectedQuestions });
+    }
+
+    // Xáo trộn câu hỏi xen kẽ giữa 3 môn
+    // Gộp tất cả questions lại và xáo trộn ngẫu nhiên
+    const allMixedQuestions: Question[] = [];
+    allQuestions.forEach(({ questions }) => {
+      allMixedQuestions.push(...questions);
+    });
+
+    // Xáo trộn ngẫu nhiên để đảm bảo xen kẽ giữa 3 môn
+    const finalQuestions = allMixedQuestions.sort(() => Math.random() - 0.5);
+
+    // Tạo WeekData structure
+    const examData: WeekData = {
+      week: weekId,
+      subject: 'mixed', // Mixed subjects
+      grade: grade,
+      bookSeries: bookSeries,
+      lessons: [
+        {
+          id: `exam-${examType}`,
+          title: examType === 'THI_HUONG' ? 'THI HƯƠNG' : examType === 'THI_HOI' ? 'THI HỘI' : 'THI ĐÌNH',
+          duration: examType === 'THI_DINH' ? 30 : 15, // 30 phút cho THI ĐÌNH, 15 phút cho THI HƯƠNG/HỘI
+          questions: finalQuestions,
+        },
+      ],
+    };
+
+    return examData;
+  };
+
   // Load week data and restore progress
   useEffect(() => {
     const loadWeekData = async () => {
       try {
+        // Nếu là ôn tập → Load questions từ nhiều tuần
+        if (examType) {
+          const examData = await loadExamQuestions(examType, bookSeries, grade);
+          setWeekData(examData);
+          return; // Không restore progress cho ôn tập
+        }
+
         // Map book series name to folder name
         const bookSeriesMap: { [key: string]: string } = {
           'Kết nối tri thức': 'ket-noi-tri-thuc',
@@ -195,7 +306,7 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
     };
 
     loadWeekData();
-  }, [weekId, bookSeries, grade, subject, showToast]);
+  }, [weekId, bookSeries, grade, subject, examType, showToast]);
 
   const currentLesson = weekData?.lessons[0]; // Use first lesson for now
   const currentQuestion = currentLesson?.questions[currentQuestionIndex];
@@ -329,6 +440,21 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
     }
   }, [currentQuestionIndex, currentQuestion]);
 
+  // Helper function để tính thưởng sao cho ôn tập
+  const calculateReviewExamStars = (examType: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH', completionRate: number): number => {
+    if (examType === 'THI_HUONG') {
+      // THI HƯƠNG: 150/120/90/60 sao
+      return completionRate >= 100 ? 150 : (completionRate >= 80 ? 120 : (completionRate >= 60 ? 90 : 60));
+    } else if (examType === 'THI_HOI') {
+      // THI HỘI: 200/160/120/80 sao
+      return completionRate >= 100 ? 200 : (completionRate >= 80 ? 160 : (completionRate >= 60 ? 120 : 80));
+    } else if (examType === 'THI_DINH') {
+      // THI ĐÌNH: 300/250/200/150 sao
+      return completionRate >= 100 ? 300 : (completionRate >= 80 ? 250 : (completionRate >= 60 ? 200 : 150));
+    }
+    return 0;
+  };
+
   // Helper function để thưởng coins và stars (async, gọi ngoài callback)
   const rewardCoinsForWeek = async (
     correctCount: number,
@@ -339,17 +465,40 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
       ? (completionRate >= 100 ? 10 : (completionRate >= 80 ? 5 : 0))
       : 10;
     
-    // Tính sao dựa trên performance: 100% = 5 sao, 80-99% = 3 sao, 60-79% = 2 sao, <60% = 1 sao
-    const starsReward = completionRate !== undefined
-      ? (completionRate >= 100 ? 5 : (completionRate >= 80 ? 3 : (completionRate >= 60 ? 2 : 1)))
-      : 3; // Mặc định 3 sao nếu không có completionRate
+    // Tính sao: Nếu là ôn tập → dùng logic riêng, nếu không → dùng logic học chính
+    let starsReward: number;
+    if (examType && completionRate !== undefined) {
+      // Ôn tập: THI HƯƠNG/HỘI/ĐÌNH
+      starsReward = calculateReviewExamStars(examType, completionRate);
+    } else {
+      // Học chính: 100% = 100 sao, 80-99% = 80 sao, 60-79% = 60 sao, <60% = 40 sao
+      // Mục tiêu: 60% từ học chính = 9,300 sao / 86 chặn = ~108 sao/chặn
+      // Với 100% đúng: 100 sao (tuần) + 10 sao (challenge-2) = 110 sao → đủ 9,460 sao (102% mục tiêu)
+      // Với 80-99%: 80 sao (tuần) + 10 sao (challenge-2) = 90 sao → 7,740 sao (83% mục tiêu)
+      starsReward = completionRate !== undefined
+        ? (completionRate >= 100 ? 100 : (completionRate >= 80 ? 80 : (completionRate >= 60 ? 60 : 40)))
+        : 60; // Mặc định 60 sao nếu không có completionRate
+    }
     
     if (coinsReward === 0 && starsReward === 0) return;
     
-    const rewardKey = `week-${weekId}-${bookSeries}-${grade}-${subject}-rewarded`;
-    const alreadyRewarded = localStorage.getItem(rewardKey);
+    // Key thưởng: Nếu là ôn tập → dùng examType, nếu không → dùng weekId
+    const rewardKey = examType 
+      ? `exam-${examType}-${bookSeries}-${grade}-${subject}-rewarded`
+      : `week-${weekId}-${bookSeries}-${grade}-${subject}-rewarded`;
     
-    if (alreadyRewarded) return;
+    // Ôn tập có thể làm lại nhiều lần để tích lũy sao (không check alreadyRewarded)
+    // Học chính chỉ thưởng 1 lần
+    if (!examType) {
+      const alreadyRewarded = localStorage.getItem(rewardKey);
+      if (alreadyRewarded) {
+        console.log(`[Reward] Already rewarded for ${rewardKey}, skipping...`);
+        return;
+      }
+      console.log(`[Reward] Awarding ${starsReward} stars for ${rewardKey}`);
+    } else {
+      console.log(`[Reward] Awarding ${starsReward} stars for ${examType} (can repeat)`);
+    }
     
     if (user?.id) {
       try {
@@ -357,7 +506,9 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
         if (coinsReward > 0) {
           await awardCoins({
             amount: coinsReward,
-            reason: completionRate !== undefined
+            reason: examType
+              ? `Hoàn thành ${examType} - ${subject} lớp ${grade} (${Math.round(completionRate || 0)}%)`
+              : completionRate !== undefined
               ? `Hoàn thành tuần ${weekId} - ${subject} lớp ${grade} (${Math.round(completionRate)}%)`
               : `Hoàn thành tuần ${weekId} - ${subject} lớp ${grade}`,
             metadata: {
@@ -372,44 +523,43 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
           });
         }
 
-        // Award stars (localStorage only)
+        // Award stars (localStorage only) - theo lớp
         if (starsReward > 0) {
-          awardStarsLocal(starsReward);
+          awardStarsLocal(starsReward, grade);
         }
 
-        localStorage.setItem(rewardKey, 'true');
+        // Chỉ lưu rewardKey cho học chính (không lưu cho ôn tập vì có thể làm lại)
+        if (!examType) {
+          localStorage.setItem(rewardKey, 'true');
+        }
         const rewards = [];
         if (coinsReward > 0) rewards.push(`${coinsReward} coins`);
         if (starsReward > 0) rewards.push(`${starsReward} ⭐`);
         showToast(`🎉 Nhận được ${rewards.join(' và ')}!`, 'success');
       } catch (error) {
         console.error('Error awarding rewards:', error);
-        // Fallback to demo mode
-        const currentCoins = parseInt(localStorage.getItem('user_coins') || '100', 10);
-        const newCoins = currentCoins + coinsReward;
-        localStorage.setItem('user_coins', newCoins.toString());
+        // Fallback to demo mode - theo lớp
+        const newCoins = addCoinsForGrade(grade, coinsReward);
+        const newStars = addStarsForGrade(grade, starsReward);
         
-        const currentStars = parseInt(localStorage.getItem('user_stars') || '0', 10);
-        const newStars = currentStars + starsReward;
-        localStorage.setItem('user_stars', newStars.toString());
-        
-        localStorage.setItem(rewardKey, 'true');
+        // Chỉ lưu rewardKey cho học chính (không lưu cho ôn tập vì có thể làm lại)
+        if (!examType) {
+          localStorage.setItem(rewardKey, 'true');
+        }
         const rewards = [];
         if (coinsReward > 0) rewards.push(`${coinsReward} coins`);
         if (starsReward > 0) rewards.push(`${starsReward} ⭐`);
         showToast(`🎉 Nhận được ${rewards.join(' và ')}! (Demo mode)`, 'success');
       }
     } else {
-      // Demo mode
-      const currentCoins = parseInt(localStorage.getItem('user_coins') || '100', 10);
-      const newCoins = currentCoins + coinsReward;
-      localStorage.setItem('user_coins', newCoins.toString());
+      // Demo mode - theo lớp
+      const newCoins = addCoinsForGrade(grade, coinsReward);
+      const newStars = addStarsForGrade(grade, starsReward);
       
-      const currentStars = parseInt(localStorage.getItem('user_stars') || '0', 10);
-      const newStars = currentStars + starsReward;
-      localStorage.setItem('user_stars', newStars.toString());
-      
-      localStorage.setItem(rewardKey, 'true');
+      // Chỉ lưu rewardKey cho học chính (không lưu cho ôn tập vì có thể làm lại)
+      if (!examType) {
+        localStorage.setItem(rewardKey, 'true');
+      }
       const rewards = [];
       if (coinsReward > 0) rewards.push(`${coinsReward} coins`);
       if (starsReward > 0) rewards.push(`${starsReward} ⭐`);

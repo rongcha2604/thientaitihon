@@ -1612,6 +1612,36 @@ Trước KHI gọi MCP, AI PHẢI phân tích 4 nhóm rủi ro để include tro
 - ❌ Sau khi đã implement xong (quá muộn!)
 - ❌ Khi user chỉ hỏi thông tin/giải thích
 
+### 🧹 **CLEANUP SAU MCP FEEDBACK**
+
+**⚠️ QUAN TRỌNG:** Sau khi gọi MCP Interactive Feedback xong, AI PHẢI tự động dừng tiến trình Python MCP Feedback để máy nhẹ.
+
+**Workflow:**
+1. Gọi MCP Interactive Feedback
+2. Nhận feedback từ user (nếu có)
+3. **Tự động cleanup MCP Feedback processes:**
+   - Detect Python processes liên quan MCP Interactive Feedback
+   - Terminate các processes này (không dừng system services như VS Code extensions, Memory server)
+   - Verify cleanup thành công
+4. Confirm với user: "✅ Đã cleanup MCP Feedback processes! Máy đã nhẹ lại."
+
+**Detect MCP Feedback Processes:**
+```bash
+# Detect Python processes liên quan MCP Feedback
+ps aux | grep -E "python.*mcp.*feedback|python.*interactive.*feedback" | grep -v grep
+```
+
+**Terminate MCP Feedback Processes:**
+```bash
+# Kill MCP Feedback processes (nếu có)
+pkill -f "mcp.*feedback" || pkill -f "interactive.*feedback" || true
+```
+
+**⚠️ LƯU Ý:**
+- **KHÔNG dừng system services:** VS Code extensions, Memory server, PostgreSQL MCP server
+- **CHỈ dừng MCP Feedback processes:** Python processes liên quan MCP Interactive Feedback
+- **Verify cleanup:** Kiểm tra không còn processes trước khi confirm
+
 ---
 
 ### 📝 **Examples Cụ Thể**
@@ -2356,6 +2386,693 @@ Nếu có ≥1 cảnh báo → dừng và **feedback lại user**.
 
 ---
 
+## Backup System Rules - Quy Tắc Backup Hệ Thống
+
+### 🎯 **Mục Tiêu:**
+- ✅ Backup source code + database (đủ để restore khi lỗi)
+- ✅ Tối ưu: Nhẹ nhất có thể (không nặng máy)
+- ✅ Focus: Restore capability (có thể restore và chạy lại được)
+
+### 📦 **Backup Scope (Lightweight):**
+
+**1. Source Code (Essential Files Only):**
+- ✅ Source files: `src/`, `app/`, `lib/`, `components/`, `pages/`, v.v.
+- ✅ Config files: `package.json`, `requirements.txt`, `go.mod`, `pom.xml`
+- ✅ Config essential: `.env.example` (không backup .env với secrets)
+- ✅ Git metadata: `.git/` (để có thể restore Git history)
+- ✅ Migration files: `migrations/`, `prisma/migrations/`, `alembic/versions/`
+- ✅ Documentation: `README.md`, `docs/` (nếu có)
+
+**2. Database:**
+- ✅ Database dump: Full database backup (PostgreSQL/MySQL/MongoDB/SQLite)
+
+**3. EXCLUDE (Không backup để giảm size - QUAN TRỌNG!):**
+- ❌ `node_modules/` (có thể install lại: `npm install` - **RẤT NẶNG, KHÔNG BAO GIỜ backup!**)
+- ❌ `vendor/` (có thể install lại: `composer install` - **RẤT NẶNG, KHÔNG BAO GIỜ backup!**)
+- ❌ `dist/`, `build/`, `out/` (có thể build lại)
+- ❌ `.next/`, `.nuxt/`, `.cache/` (có thể generate lại)
+- ❌ `logs/`, `*.log` (không cần thiết)
+- ❌ `uploads/`, `media/` (nếu quá lớn, backup riêng nếu cần)
+- ❌ `.env` với secrets (chỉ backup .env.example)
+- ❌ `__pycache__/`, `*.pyc` (có thể generate lại)
+- ❌ `.venv/`, `venv/`, `env/` (có thể tạo lại: `python -m venv` - **RẤT NẶNG, KHÔNG BAO GIỜ backup!**)
+- ❌ Test files lớn: `test-data/`, `fixtures/` (nếu quá lớn)
+
+### 🗜️ **Backup Strategy (Lightweight):**
+
+**1. Copy Direct (Default):**
+- ✅ Format: Copy trực tiếp files/folders (không nén)
+- ✅ Ưu điểm: Truy cập trực tiếp, không cần giải nén, dễ xem nội dung
+- ✅ **Workflow:** Backup copy → Lưu vào `1.Backup/YYYY-MM-DD/` → Có thể truy cập trực tiếp
+- ✅ **Truy cập:** Có thể xem code, files ngay trong backup folder
+
+**2. Selective Backup:**
+- ✅ Chỉ backup essential files
+- ✅ Exclude patterns: `node_modules/`, `dist/`, `build/`, `.cache/`
+
+**3. Git Archive (Recommended):**
+- ✅ Dùng `git archive` thay vì copy toàn bộ (nhẹ hơn, không có .git folder)
+- ✅ Hoặc backup `.git/` riêng nếu cần Git history
+
+**4. Database Backup:**
+- ✅ PostgreSQL: `pg_dump` (không compress)
+- ✅ MySQL: `mysqldump` (không compress)
+- ✅ MongoDB: `mongodump` (không compress)
+- ✅ SQLite: Copy file trực tiếp
+
+### 📁 **Backup Structure:**
+
+```
+1.Backup/
+├── 2025-01-27/
+│   ├── manifest.json          # Backup metadata
+│   ├── code/                  # Source code (copy trực tiếp - truy cập ngay được)
+│   │   ├── src/
+│   │   ├── app/
+│   │   ├── package.json
+│   │   └── ...
+│   ├── database.dump          # Database (copy trực tiếp - restore ngay được)
+│   └── checksums.txt          # File checksums
+```
+
+**Lưu ý:**
+- Files trực tiếp, truy cập ngay được (không cần giải nén)
+- Có thể xem code, files ngay trong backup folder
+
+**Lưu ý:**
+- Thư mục backup: `1.Backup/` (trong project root)
+- Thư mục theo ngày: `YYYY-MM-DD/` (ví dụ: `2025-01-27/`)
+- **Backup nhiều lần trong ngày:** Nếu backup nhiều lần trong cùng ngày, sẽ **ghi đè** backup cũ (giữ backup mới nhất của ngày)
+  - Ví dụ: Backup lúc 10:00 → `1.Backup/2025-01-27/`
+  - Backup lại lúc 15:00 → Ghi đè `1.Backup/2025-01-27/` (giữ backup 15:00)
+  - Mỗi ngày chỉ có 1 backup (backup mới nhất của ngày)
+
+**Size estimate:**
+- Code: 50-200MB (copy trực tiếp, đã exclude node_modules, dist, build)
+- Database: 20-200MB (copy dump file trực tiếp)
+- Total: 70-400MB (nhẹ hơn nhiều so với backup tất cả vì đã exclude unnecessary files)
+
+### 🔄 **Restore Procedures:**
+
+**1. Restore Code:**
+```bash
+# Copy trực tiếp (không cần giải nén)
+cp -r 1.Backup/2025-01-27/code/ restore/
+
+# Install dependencies
+cd restore/
+npm install  # hoặc pip install -r requirements.txt
+```
+
+**2. Restore Database:**
+```bash
+# PostgreSQL (restore trực tiếp)
+pg_restore -h localhost -U postgres -d mydb \
+  1.Backup/2025-01-27/database.dump
+
+# MySQL (restore trực tiếp)
+mysql -u root -p mydb < 1.Backup/2025-01-27/database.sql
+
+# MongoDB (restore trực tiếp)
+mongorestore --uri="mongodb://localhost:27017/mydb" \
+  --archive=1.Backup/2025-01-27/database.archive
+
+# SQLite (copy trực tiếp)
+cp 1.Backup/2025-01-27/database.db mydb.db
+```
+
+### 📋 **Backup Best Practices:**
+
+- ✅ **Always backup before:** Migration, major refactoring, production deployment
+- ✅ **Verify backup:** Check backup files exist, size > 0, checksums valid
+- ✅ **Test restore:** Test restore procedure monthly (đảm bảo backup hoạt động)
+- ✅ **Keep multiple versions:** Keep last 7 backups hoặc 30 days (configurable)
+- ✅ **Document restore:** Document restore procedures cho từng component
+- ✅ **Monitor backup size:** Alert nếu backup size tăng đột biến
+- ✅ **Cleanup old backups:** Auto cleanup backups > 30 days (hoặc manual)
+
+---
+
+## On-Demand Backup Commands - Lệnh Backup Theo Yêu Cầu
+
+### 🎯 **Mục Đích:**
+Khi user yêu cầu backup (ví dụ: "Backup toàn bộ dự án code này cho tôi"), AI tự động thực hiện backup lightweight (code + database).
+
+### 🔍 **Auto-Detection Rules:**
+
+**AI PHẢI tự động detect backup requests:**
+
+**Keywords:**
+- "backup", "tạo backup", "backup dự án", "backup project"
+- "backup database", "backup db", "backup cơ sở dữ liệu"
+- "backup code", "backup source code", "backup mã nguồn"
+- "backup toàn bộ", "backup everything", "backup all"
+- "tạo bản sao lưu", "sao lưu dự án"
+
+**Scope Detection:**
+- "toàn bộ" / "all" / "everything" → Full backup (code + database)
+- "database" / "db" / "cơ sở dữ liệu" → Database only
+- "code" / "source" / "mã nguồn" → Code only
+- Không specify → Full backup (code + database - default)
+
+**Format:**
+- Luôn dùng Copy Direct (không nén) - truy cập trực tiếp
+
+### 🚨 **AUTO-TRIGGER RULES (MANDATORY):**
+
+**AI PHẢI tự động detect và EXECUTE backup commands khi:**
+
+1. **User đề cập đến backup keywords:**
+   - `backup`, `tạo backup`, `backup dự án`, `backup project`
+   - `backup database`, `backup db`, `backup code`
+   - `backup toàn bộ`, `sao lưu dự án`
+
+2. **Auto-trigger workflow:**
+   ```
+   Step 1: Detect backup keywords trong user request
+   Step 2: Tự động detect project structure:
+     - Check database type (PostgreSQL/MySQL/MongoDB/SQLite/None)
+     - Check Git repository (Yes/No)
+     - Check source code structure (src/, app/, lib/, v.v.)
+   Step 3: Tự động EXECUTE backup commands:
+     - Create backup directory: `1.Backup/YYYY-MM-DD/` (theo ngày tháng)
+     - Backup code (Copy trực tiếp files/folders - không nén)
+     - Backup database (Copy dump file - không compress)
+     - Create manifest.json
+     - Calculate checksums
+     - **Lưu ý:** Nếu backup nhiều lần trong ngày, sẽ ghi đè backup cũ (giữ backup mới nhất)
+   Step 4: Verify backup:
+     - Check backup files exist và size > 0
+     - Verify checksums
+   Step 5: Report results:
+     - Show backup location, size
+     - Show what was backed up và what was skipped
+     - Show restore instructions
+   ```
+
+3. **Ví dụ auto-trigger:**
+   - User: "Backup toàn bộ dự án code này cho tôi"
+     → AI tự động: Detect project → Execute backup → Report results
+   - User: "Backup database cho tôi"
+     → AI tự động: Detect database → Execute database backup → Report results
+   - User: "Tạo backup cho project này"
+     → AI tự động: Detect project → Execute full backup → Report results
+
+**⚠️ QUAN TRỌNG:**
+- ✅ AI PHẢI tự động execute backup commands (không cần hỏi user)
+- ✅ AI PHẢI report results sau khi backup xong
+- ✅ AI PHẢI verify backup integrity (checksums, file size)
+- ❌ KHÔNG cần MCP Feedback cho backup commands (đây là operational task, không phải code change)
+
+### 🔄 **Backup Workflow (Auto-Detection):**
+
+```
+BƯỚC 1: DETECT PROJECT STRUCTURE
+───────────────────
+AI tự động check:
+→ [ ] Database? (PostgreSQL/MySQL/MongoDB/SQLite/None)
+→ [ ] Git repository? (Yes/No)
+→ [ ] Source code structure? (src/, app/, lib/, v.v.)
+
+BƯỚC 2: DETERMINE BACKUP SCOPE
+───────────────────
+Based on user request + detection:
+→ Full backup: Code + Database (nếu có)
+→ Code only: Chỉ code (nếu user chỉ yêu cầu code)
+→ Database only: Chỉ database (nếu user chỉ yêu cầu database)
+
+BƯỚC 3: EXECUTE BACKUP (Conditional)
+───────────────────
+→ IF code requested → Backup code (Copy trực tiếp files/folders)
+→ IF database requested AND detected → Backup database (Copy dump file - không compress)
+→ IF not detected → Skip và report (ví dụ: "No database detected, skipping database backup")
+
+BƯỚC 4: VERIFY & REPORT
+───────────────────
+→ Check backup files exist và size > 0
+→ Calculate checksums
+→ Create manifest.json
+→ Report backup results với details
+```
+
+### 💻 **Backup Commands (AI tự động execute):**
+
+**1. Code Backup (Copy Direct):**
+```bash
+# Copy trực tiếp files (không nén)
+# ⚠️ QUAN TRỌNG: KHÔNG copy node_modules/ và dependencies folders (nặng, có thể install lại)
+BACKUP_DIR="1.Backup/$(date +%Y-%m-%d)/code"
+mkdir -p "$BACKUP_DIR"
+
+# Copy source files (chỉ copy essential files, KHÔNG copy dependencies)
+cp -r src/ "$BACKUP_DIR/" 2>/dev/null || true
+cp -r app/ "$BACKUP_DIR/" 2>/dev/null || true
+cp -r lib/ "$BACKUP_DIR/" 2>/dev/null || true
+cp -r components/ "$BACKUP_DIR/" 2>/dev/null || true
+cp -r pages/ "$BACKUP_DIR/" 2>/dev/null || true
+cp package.json "$BACKUP_DIR/" 2>/dev/null || true
+cp requirements.txt "$BACKUP_DIR/" 2>/dev/null || true
+cp README.md "$BACKUP_DIR/" 2>/dev/null || true
+cp -r migrations/ "$BACKUP_DIR/" 2>/dev/null || true
+cp -r prisma/ "$BACKUP_DIR/" 2>/dev/null || true
+
+# ⚠️ EXCLUDE (KHÔNG copy - để giảm size):
+# ❌ node_modules/ (có thể install lại: npm install)
+# ❌ dist/, build/, out/ (có thể build lại)
+# ❌ .next/, .nuxt/, .cache/ (có thể generate lại)
+# ❌ logs/, *.log (không cần thiết)
+# ❌ __pycache__/, *.pyc (có thể generate lại)
+# ❌ .venv/, venv/, env/ (có thể tạo lại: python -m venv)
+# ❌ vendor/ (có thể install lại: composer install)
+# ❌ .env (chỉ backup .env.example)
+# ❌ uploads/, media/ (nếu quá lớn, backup riêng nếu cần)
+```
+
+**2. Database Backup (Copy Direct):**
+```bash
+BACKUP_DIR="1.Backup/$(date +%Y-%m-%d)"
+mkdir -p "$BACKUP_DIR"
+
+# PostgreSQL (không compress)
+pg_dump -h localhost -U postgres -d mydb -F c \
+  -f "$BACKUP_DIR/database.dump"
+
+# MySQL (không compress)
+mysqldump -u root -p mydb > "$BACKUP_DIR/database.sql"
+
+# MongoDB (không compress)
+mongodump --uri="mongodb://localhost:27017/mydb" \
+  --archive="$BACKUP_DIR/database.archive"
+
+# SQLite (copy trực tiếp)
+sqlite3 mydb.db ".backup $BACKUP_DIR/database.db"
+```
+
+**3. Create Manifest:**
+```bash
+# AI sẽ generate manifest.json với metadata
+cat > "$BACKUP_DIR/manifest.json" << EOF
+{
+  "backup_id": "$(date +%Y-%m-%d)",
+  "timestamp": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+  "backup_type": "lightweight",
+  "project_name": "$(basename $(pwd))",
+  "backup_scope": {
+    "code": true,
+    "database": true
+  },
+  "files": {
+    "code": "code/",
+    "database": "database.dump"
+  },
+  "sizes": {
+    "code": "$(du -sh "$BACKUP_DIR/code" | cut -f1)",
+    "database": "$(du -h "$BACKUP_DIR/database.dump" | cut -f1)",
+    "total": "$(du -sh "$BACKUP_DIR" | cut -f1)"
+  },
+  "excluded": [
+    "node_modules/",
+    "dist/",
+    "build/",
+    ".next/",
+    ".cache/",
+    "logs/",
+    "__pycache__/",
+    ".venv/",
+    ".env"
+  ],
+  "restore_instructions": {
+    "code": "cp -r code/ restore/ && cd restore/ && npm install",
+    "database": "pg_restore -d mydb database.dump"
+  }
+}
+EOF
+```
+
+**4. Calculate Checksums:**
+```bash
+# Calculate checksums cho verification
+find "$BACKUP_DIR" -type f -exec sha256sum {} \; > "$BACKUP_DIR/checksums.txt"
+```
+
+### 📊 **Backup Report Format:**
+
+```
+✅ BACKUP THÀNH CÔNG! (Lightweight)
+
+📦 Backup Location: 1.Backup/2025-01-27/
+📅 Timestamp: 2025-01-27
+🎯 Backup Type: Lightweight (Code + Database)
+
+🔍 Detection Results:
+- ✅ Code: Source code detected → Backed up (copy trực tiếp)
+- ✅ Database: PostgreSQL detected → Backed up (copy dump file)
+
+📊 Backup Contents:
+- ✅ Code: 120MB (copy trực tiếp)
+- ✅ Database: 80MB (copy trực tiếp)
+- 📦 Total: 200MB
+
+🚫 Excluded (để giảm size):
+- node_modules/, dist/, build/, .next/, .cache/
+- logs/, __pycache__/, .venv/, .env
+
+📝 Manifest: 1.Backup/2025-01-27/manifest.json
+🔐 Checksums: 1.Backup/2025-01-27/checksums.txt
+✅ Backup verified và ready to restore!
+```
+
+### ⚠️ **Edge Cases:**
+
+**1. No Database Detected:**
+```
+⚠️  Database: No database detected (no .env DATABASE_URL, no docker-compose.yml)
+→ Skipping database backup
+→ Backup: Code only
+```
+
+**2. No Git Repository:**
+```
+⚠️  Git: No .git/ folder found
+→ Using tar with exclude patterns instead of git archive
+→ Backup: Source files only
+```
+
+**3. Database Connection Failed:**
+```
+❌ Database: Connection failed (check credentials)
+→ Skipping database backup
+→ Backup: Code only
+→ Warning: Database backup failed, code backup successful
+```
+
+### 🧹 **Backup Cleanup (Optional):**
+
+**Auto cleanup old backups:**
+```bash
+# Keep last 7 backups (7 ngày gần nhất)
+ls -t 1.Backup/ | tail -n +8 | xargs -r rm -rf
+
+# Or keep last 30 days
+find 1.Backup/ -type d -mtime +30 -exec rm -rf {} +
+```
+
+### ✅ **AI Implementation Checklist:**
+
+Khi user yêu cầu backup, AI PHẢI:
+
+1. **Detect request:**
+   - [ ] Parse user request để xác định scope (full/code/database)
+   - [ ] Detect project structure (database type, Git, source code)
+
+2. **Execute backup:**
+   - [ ] Create backup directory: `1.Backup/YYYY-MM-DD/` (theo ngày tháng)
+   - [ ] Backup code (Copy trực tiếp files/folders - không nén)
+   - [ ] Backup database (Copy dump file - không compress)
+   - [ ] Create manifest.json
+   - [ ] Calculate checksums
+
+3. **Verify backup:**
+   - [ ] Check backup files exist và size > 0
+   - [ ] Verify checksums
+   - [ ] Test backup integrity (nếu có thể)
+
+4. **Report results:**
+   - [ ] Show backup location
+   - [ ] Show backup size
+   - [ ] Show what was backed up và what was skipped
+   - [ ] Show restore instructions
+
+---
+
+## On-Demand Restore Commands - Lệnh Khôi Phục Theo Yêu Cầu
+
+### 🎯 **Mục Đích:**
+Khi user yêu cầu restore (ví dụ: "Check backup dự án cũ và tìm giải pháp cũ để khôi phục"), AI tự động tìm backup, verify, và restore dự án.
+
+### 🔍 **Auto-Detection Rules:**
+
+**AI PHẢI tự động detect restore requests:**
+
+**Keywords:**
+- "restore", "khôi phục", "restore backup", "khôi phục backup"
+- "restore dự án", "restore project", "khôi phục dự án"
+- "check backup", "kiểm tra backup", "xem backup"
+- "tìm backup", "find backup", "list backups"
+- "restore database", "khôi phục database", "restore db"
+- "restore code", "khôi phục code", "restore source"
+- "rollback", "quay lại", "revert", "hoàn nguyên"
+- "check backup dự án cũ và tìm giải pháp cũ để khôi phục"
+
+**Scope Detection:**
+- "toàn bộ" / "all" / "everything" → Full restore (code + database)
+- "database" / "db" / "cơ sở dữ liệu" → Database only
+- "code" / "source" / "mã nguồn" → Code only
+- "backup cũ" / "old backup" / "previous backup" → Tìm backup gần nhất
+- Không specify → Full restore (code + database - default)
+
+### 🚨 **AUTO-TRIGGER RULES (MANDATORY):**
+
+**AI PHẢI tự động detect và EXECUTE restore commands khi:**
+
+1. **User đề cập đến restore keywords:**
+   - `restore`, `khôi phục`, `restore backup`, `khôi phục backup`
+   - `check backup`, `tìm backup`, `list backups`
+   - `restore dự án`, `rollback`, `revert`
+   - `check backup dự án cũ và tìm giải pháp cũ để khôi phục`
+
+2. **Auto-trigger workflow:**
+   ```
+   Step 1: Detect restore keywords trong user request
+   Step 2: Tìm backup files:
+     - List backups trong 1.Backup/ directory
+     - Tìm backup gần nhất (hoặc backup cụ thể nếu user chỉ định)
+     - Verify backup files exist và valid
+   Step 3: Verify backup:
+     - Check manifest.json exists
+     - Verify checksums
+     - Check backup integrity
+   Step 4: Tự động EXECUTE restore commands:
+     - Restore code (copy code folder, install dependencies)
+     - Restore database (pg_restore, mysql, mongorestore, sqlite)
+     - Verify restore successful
+   Step 5: Report results:
+     - Show restore location
+     - Show what was restored
+     - Show verification results
+     - Show next steps (nếu cần)
+   ```
+
+3. **Ví dụ auto-trigger:**
+   - User: "Check backup dự án cũ và tìm giải pháp cũ để khôi phục"
+     → AI tự động: List backups → Find latest → Verify → Restore → Report
+   - User: "Restore backup gần nhất cho tôi"
+     → AI tự động: Find latest backup → Verify → Restore → Report
+   - User: "Khôi phục database từ backup hôm qua"
+     → AI tự động: Find backup from yesterday → Restore database → Report
+
+**⚠️ QUAN TRỌNG:**
+- ✅ AI PHẢI tự động execute restore commands (không cần hỏi user)
+- ✅ AI PHẢI verify backup trước khi restore
+- ✅ AI PHẢI report results sau khi restore xong
+- ✅ AI PHẢI hỏi xác nhận nếu restore sẽ overwrite data hiện tại
+- ❌ KHÔNG cần MCP Feedback cho restore commands (đây là operational task)
+
+### 🔄 **Restore Workflow (Auto-Detection):**
+
+```
+BƯỚC 1: LIST BACKUPS
+───────────────────
+AI tự động:
+→ [ ] List tất cả backups trong 1.Backup/ directory
+→ [ ] Sort by date (newest first)
+→ [ ] Show backup info (date, size, type, scope)
+→ [ ] Ask user chọn backup (nếu có nhiều backups)
+
+BƯỚC 2: SELECT BACKUP
+───────────────────
+Based on user request:
+→ "backup cũ" / "old backup" → Latest backup
+→ "backup hôm qua" / "yesterday" → Backup from yesterday
+→ "backup ngày X" → Backup from specific date
+→ Không specify → Latest backup (default)
+
+BƯỚC 3: VERIFY BACKUP
+───────────────────
+→ Check manifest.json exists
+→ Verify checksums
+→ Check backup files exist và size > 0
+→ Verify backup integrity
+→ Report backup info (what was backed up)
+
+BƯỚC 4: EXECUTE RESTORE (Conditional)
+───────────────────
+→ IF code requested → Restore code (extract, install dependencies)
+→ IF database requested → Restore database (pg_restore, mysql, etc.)
+→ IF full restore → Restore code + database
+→ Ask confirmation nếu sẽ overwrite data hiện tại
+
+BƯỚC 5: VERIFY & REPORT
+───────────────────
+→ Verify restore successful
+→ Check code runs correctly
+→ Check database connection
+→ Report restore results
+```
+
+### 💻 **Restore Commands (AI tự động execute):**
+
+**1. List Backups:**
+```bash
+# List all backups
+ls -lt 1.Backup/ | head -10
+
+# Show backup info
+for dir in 1.Backup/*/; do
+  if [ -f "$dir/manifest.json" ]; then
+    echo "Backup: $(basename $dir)"
+    cat "$dir/manifest.json" | jq '.timestamp, .backup_type, .sizes.total'
+  fi
+done
+```
+
+**2. Restore Code:**
+```bash
+BACKUP_DIR="1.Backup/2025-01-27"
+
+# Copy trực tiếp (không cần giải nén)
+cp -r "$BACKUP_DIR/code/" restore/
+
+# Install dependencies
+cd restore/
+if [ -f "package.json" ]; then
+  npm install
+elif [ -f "requirements.txt" ]; then
+  pip install -r requirements.txt
+elif [ -f "go.mod" ]; then
+  go mod download
+fi
+```
+
+**3. Restore Database:**
+```bash
+BACKUP_DIR="1.Backup/2025-01-27"
+
+# PostgreSQL (restore trực tiếp)
+pg_restore -h localhost -U postgres -d mydb "$BACKUP_DIR/database.dump"
+
+# MySQL (restore trực tiếp)
+mysql -u root -p mydb < "$BACKUP_DIR/database.sql"
+
+# MongoDB (restore trực tiếp)
+mongorestore --uri="mongodb://localhost:27017/mydb" \
+  --archive="$BACKUP_DIR/database.archive"
+
+# SQLite (copy trực tiếp)
+cp "$BACKUP_DIR/database.db" mydb.db
+```
+
+**4. Verify Restore:**
+```bash
+# Verify code
+cd restore/
+npm test  # hoặc python -m pytest, go test, etc.
+
+# Verify database
+psql -h localhost -U postgres -d mydb -c "SELECT COUNT(*) FROM users;"
+# hoặc
+mysql -u root -p mydb -e "SELECT COUNT(*) FROM users;"
+```
+
+### 📊 **Restore Report Format:**
+
+```
+✅ RESTORE THÀNH CÔNG!
+
+📦 Backup Used: 1.Backup/2025-01-27/
+📅 Backup Date: 2025-01-27
+🎯 Restore Type: Full Restore (Code + Database)
+
+🔍 Backup Info:
+- ✅ Code: 120MB (copy trực tiếp)
+- ✅ Database: 80MB (copy trực tiếp)
+- ✅ Manifest: Valid
+- ✅ Checksums: Verified
+
+📊 Restore Results:
+- ✅ Code: Copied to restore/
+- ✅ Dependencies: Installed (npm install completed)
+- ✅ Database: Restored (pg_restore completed)
+- ✅ Verification: All checks passed
+
+📝 Next Steps:
+- [ ] Test application: cd restore/ && npm start
+- [ ] Verify database: Check data integrity
+- [ ] Update environment: Copy .env if needed
+- [ ] Deploy: Deploy restored version if ready
+
+✅ Restore completed successfully!
+```
+
+### ⚠️ **Edge Cases:**
+
+**1. No Backups Found:**
+```
+❌ No backups found in 1.Backup/ directory
+→ Report: "Không tìm thấy backup nào. Bạn có muốn tạo backup mới không?"
+```
+
+**2. Backup Corrupted:**
+```
+❌ Backup corrupted (checksum mismatch)
+→ Report: "Backup bị lỗi. Vui lòng chọn backup khác hoặc tạo backup mới."
+```
+
+**3. Restore Will Overwrite:**
+```
+⚠️  Restore will overwrite current data
+→ Ask user: "Restore sẽ ghi đè dữ liệu hiện tại. Bạn có chắc muốn tiếp tục?"
+→ Wait for confirmation before restore
+```
+
+**4. Database Connection Failed:**
+```
+❌ Database connection failed
+→ Report: "Không thể kết nối database. Vui lòng kiểm tra credentials và connection."
+```
+
+### ✅ **AI Implementation Checklist:**
+
+Khi user yêu cầu restore, AI PHẢI:
+
+1. **Detect request:**
+   - [ ] Parse user request để xác định scope (full/code/database)
+   - [ ] Detect backup selection (latest/specific date)
+
+2. **Find backup:**
+   - [ ] List backups trong 1.Backup/ directory
+   - [ ] Select backup (latest hoặc specific)
+   - [ ] Verify backup exists và valid
+
+3. **Verify backup:**
+   - [ ] Check manifest.json exists
+   - [ ] Verify checksums
+   - [ ] Check backup integrity
+
+4. **Execute restore:**
+   - [ ] Ask confirmation nếu sẽ overwrite data
+   - [ ] Restore code (extract, install dependencies)
+   - [ ] Restore database (nếu requested)
+   - [ ] Verify restore successful
+
+5. **Report results:**
+   - [ ] Show restore location
+   - [ ] Show what was restored
+   - [ ] Show verification results
+   - [ ] Show next steps
+
+---
+
 ## Git Commits & Version Control
 
 **Format:** `<type>: <message tiếng Việt>`
@@ -2521,6 +3238,14 @@ BƯỚC 8: DONE
 - ✅ Chưa có database, chưa có API, chưa có frontend
 
 **Chiến lược:** **Hybrid Cải Tiến** - Tối ưu ROI dài hạn (ROI 2 năm: +35.8%)
+
+**🎨 UI/UX Design Requirements (MANDATORY cho dự án mới):**
+- ✅ **Chuẩn UI/UX:** Tuân thủ best practices, accessibility (WCAG AA), usability standards
+- ✅ **Tiện dụng:** Giao diện dễ sử dụng, hiệu quả, dễ học
+- ✅ **Trải nghiệm liền mạch:** Smooth flow, no friction, seamless transitions
+- ✅ **Chuẩn mắt nhìn:** Visual design principles (hierarchy, color, typography, whitespace, alignment, contrast)
+- ✅ **Chuẩn tâm lý hành vi:** UX psychology principles (Fitts' Law, Hick's Law, Gestalt, Cognitive Load, Mental Models)
+- ✅ **Áp dụng trong:** Architecture Design (Bước 1), UI Wireframes (Bước 2), Frontend Foundation (Bước 5)
 
 ---
 
@@ -2803,6 +3528,16 @@ BƯỚC 1: ARCHITECTURE DESIGN (Ngày 3-5)
   - MacBook compatibility (development)
   - Linux deployment strategy (production)
   - Port và network configuration
+- 🧠 **UI/UX Design Strategy (MANDATORY):**
+  - **Chuẩn UI/UX:** Design theo best practices, accessibility standards (WCAG AA), usability principles
+  - **Tiện dụng:** Design cho ease of use, efficiency, learnability
+  - **Trải nghiệm liền mạch:** Design seamless flow, no friction, smooth transitions
+  - **Chuẩn mắt nhìn:** Design theo visual design principles (hierarchy, color, typography, whitespace, alignment, contrast)
+  - **Chuẩn tâm lý hành vi:** Design theo UX psychology principles (Fitts' Law, Hick's Law, Gestalt, Cognitive Load, Mental Models)
+  - **Design Principles:**
+    * UX Psychology: Fitts' Law (button sizes), Hick's Law (choice reduction), Gestalt (grouping), Cognitive Load (hierarchy), Mental Models (familiar patterns), Feedback (immediate), Error Prevention
+    * Visual Design: Visual Hierarchy, Color Psychology, Typography Hierarchy, Whitespace, Alignment & Grid, Contrast & Readability
+    * User Experience: Seamless Flow, Ease of Use, Efficiency, Learnability, Memorability, Satisfaction, Accessibility
 
 → 🚨 MCP Round 1: Approve architecture design
 → ⏸️ WAIT for design approval
@@ -2813,6 +3548,15 @@ BƯỚC 2: UI WIREFRAMES (Ngày 6-7)
 - ✅ Validate UX với user
 - 📝 Design component structure
 - 🎨 Design style guide (colors, typography, spacing)
+- 🧠 **UI/UX Design Principles (MANDATORY):**
+  - **Chuẩn UI/UX:** Tuân thủ best practices, accessibility, usability
+  - **Tiện dụng:** Dễ sử dụng, hiệu quả, dễ học
+  - **Trải nghiệm liền mạch:** Smooth flow, no friction
+  - **Chuẩn mắt nhìn:** Visual design principles, Gestalt principles
+  - **Chuẩn tâm lý hành vi:** Fitts' Law, Hick's Law, cognitive load, mental models
+  - **UX Psychology:** Fitts' Law (buttons 44x44px+), Hick's Law (max 7 menu items), Gestalt Principles (grouping, consistency), Cognitive Load (hierarchy, progressive disclosure), Mental Models (familiar patterns), Feedback (immediate), Error Prevention
+  - **Visual Design:** Visual Hierarchy (size, color, position), Color Psychology (consistent, appropriate emotions), Typography Hierarchy, Whitespace (breathing room), Alignment & Grid (8px system), Contrast (WCAG AA)
+  - **User Experience:** Seamless Flow (smooth transitions), Ease of Use (intuitive), Efficiency (3 clicks max), Learnability (familiar patterns), Memorability (consistent), Satisfaction (pleasant), Accessibility (keyboard, screen reader)
 
 → 🚨 MCP Round 2A: Approve UI wireframes
 → ⏸️ WAIT for wireframes approval
@@ -2820,12 +3564,62 @@ BƯỚC 2: UI WIREFRAMES (Ngày 6-7)
 BƯỚC 3: DATABASE FOUNDATION (Ngày 8-9)
 ───────────────────
 - 🗄️ Create migration (tables, relationships, indexes)
-- 📊 Seed data (dev/test data)
-- ✅ Verify database
+- ✅ Verify database schema
   → 🐘 PostgreSQL MCP: list_tables (verify tables created)
   → 🐘 PostgreSQL MCP: get_table_schema (verify structure)
   → 🐘 PostgreSQL MCP: get_table_relationships (verify foreign keys)
-  → 🐘 PostgreSQL MCP: execute_sql (test queries)
+  → 🐘 PostgreSQL MCP: execute_sql (test schema queries)
+
+BƯỚC 3A: SEED DATA PREPARATION (Ngày 9) ⭐ QUAN TRỌNG
+───────────────────
+- 📊 Create seed data script (dev/test data)
+  - **Entities mẫu:**
+    * Customers, Products, Services, Projects, Documents, etc. (tùy domain)
+    * Đủ data để test CRUD operations (10-20 records mỗi entity)
+    * Data realistic và diverse (không chỉ test data đơn giản)
+  - **Transactions mẫu:**
+    * Orders, Bookings, Requests, Payments, Approvals, etc. (tùy domain)
+    * Đủ data để test transaction workflows
+    * Data với các status khác nhau (pending, completed, cancelled, etc.)
+  - **Users mẫu với roles:**
+    * Admin users (nếu có multi-user)
+    * Regular users với permissions khác nhau
+    * Test users cho authentication/authorization testing
+  - **Relationships mẫu:**
+    * Foreign keys relationships (one-to-many, many-to-many)
+    * Đủ data để test joins, cascading, constraints
+    * Data với relationships hợp lệ và edge cases
+  - **Edge cases data:**
+    * Null values (nullable fields)
+    * Empty strings (nếu business logic cho phép)
+    * Special characters (unicode, emoji, SQL injection patterns để test security)
+    * Large data (nếu cần test performance)
+    * Boundary values (min, max, zero, negative nếu applicable)
+- ✅ Verify seed data
+  → 🐘 PostgreSQL MCP: execute_sql (verify entities inserted - COUNT queries)
+  → 🐘 PostgreSQL MCP: execute_sql (verify relationships - JOIN queries)
+  → 🐘 PostgreSQL MCP: execute_sql (verify edge cases data)
+  → 🐘 PostgreSQL MCP: get_table_stats (verify row counts, data distribution)
+- 📝 Document seed data structure
+  - List entities có trong seed data
+  - List relationships có trong seed data
+  - List edge cases có trong seed data
+  - Purpose của mỗi loại data (why this data exists)
+
+→ 🚨 MCP Round 3A: Approve seed data approach
+→ ⏸️ WAIT for seed data approval
+
+**📋 SEED DATA CHECKLIST:**
+- [ ] Entities mẫu (customers, products, services, projects, documents, etc.)
+- [ ] Transactions mẫu (orders, bookings, requests, payments, etc.)
+- [ ] Users mẫu với roles (admin, user, guest, etc.)
+- [ ] Relationships (foreign keys, many-to-many relationships)
+- [ ] Edge cases (null, empty, special characters, boundary values)
+- [ ] Data realistic và diverse (không chỉ test data đơn giản)
+- [ ] Đủ data để test CRUD operations (10-20 records mỗi entity)
+- [ ] Đủ data để test pagination, filtering, sorting
+- [ ] Seed data script có thể chạy lại (idempotent - không duplicate data)
+- [ ] Seed data script có thể reset (clear và seed lại)
 
 BƯỚC 4: API BACKEND CORE (Ngày 10-12)
 ───────────────────
@@ -2847,13 +3641,33 @@ BƯỚC 4: API BACKEND CORE (Ngày 10-12)
 → 🚨 MCP Round 3: Approve backend implementation
 → ⏸️ WAIT for backend approval
 
-**🧪 TEST INTEGRATION: BE ↔ DB (Sau khi code xong)**
+**🧪 TEST INTEGRATION: BE ↔ DB (Sau khi code xong - Với Seed Data)**
 - ✅ Test BE kết nối DB thành công (connection test)
-- ✅ Test CRUD operations (CREATE, READ, UPDATE, DELETE)
-- ✅ Test queries với foreign keys (relationships)
-- ✅ Test error handling (invalid data, database errors)
-- ✅ Test transactions (rollback nếu có lỗi)
-- 📊 Verify data integrity (constraints, validations)
+- ✅ Test CRUD operations với seed data:
+  - **CREATE:** Tạo entity mới (verify với seed data - không duplicate)
+  - **READ:** Đọc entities từ seed data (verify data đúng, format đúng)
+  - **UPDATE:** Sửa entities từ seed data (verify updated, không ảnh hưởng relationships)
+  - **DELETE:** Xóa entities từ seed data (verify deleted, verify cascade nếu có)
+- ✅ Test queries với foreign keys (relationships từ seed data):
+  - Test JOIN queries với seed data
+  - Test cascading operations (delete parent → delete children)
+  - Test constraints (foreign key violations với seed data)
+- ✅ Test error handling:
+  - Invalid data (test với seed data patterns)
+  - Database errors (test với seed data edge cases)
+  - Constraint violations (test với seed data relationships)
+- ✅ Test transactions:
+  - Multiple operations với seed data (rollback nếu có lỗi)
+  - Verify data consistency sau transactions
+- ✅ Test edge cases với seed data:
+  - Null values (test với seed data có null)
+  - Empty strings (test với seed data có empty)
+  - Special characters (test với seed data có unicode/emoji)
+  - Boundary values (test với seed data có min/max)
+- 📊 Verify data integrity:
+  - Constraints (test với seed data)
+  - Validations (test với seed data)
+  - Relationships (test với seed data)
 
 BƯỚC 5: FRONTEND FOUNDATION (Ngày 13-16)
 ───────────────────
@@ -2872,18 +3686,66 @@ BƯỚC 5: FRONTEND FOUNDATION (Ngày 13-16)
   - Resource optimization (tối ưu tài nguyên thiết bị)
   - Cache thông minh (load nhanh nhưng không quá)
   - Load time optimization (<3s target)
+- 🧠 **UI/UX Implementation Guidelines (MANDATORY):**
+  - **Chuẩn UI/UX:** Implement theo wireframes đã approve, tuân thủ UI/UX standards
+  - **Tiện dụng:** Components dễ sử dụng, intuitive, efficient
+  - **Trải nghiệm liền mạch:** Smooth transitions, clear navigation, no friction
+  - **Chuẩn mắt nhìn:** Visual hierarchy, color psychology, typography, whitespace, alignment, contrast
+  - **Chuẩn tâm lý hành vi:** Fitts' Law (buttons 44x44px+), Hick's Law (max 7 menu items), Gestalt Principles (grouping), Cognitive Load (hierarchy), Mental Models (familiar patterns), Feedback (immediate), Error Prevention
+  - **UX Psychology Implementation:**
+    * Fitts' Law: Buttons minimum 44x44px, adequate spacing (16px+)
+    * Hick's Law: Navigation max 7 items, progressive disclosure
+    * Gestalt Principles: Related items grouped, consistent patterns
+    * Cognitive Load: Information hierarchy, chunking, progressive disclosure
+    * Mental Models: Follow user expectations, familiar patterns
+    * Feedback: Immediate visual feedback cho mọi action (hover, click, loading)
+    * Error Prevention: Validation trước khi submit, confirmation dialogs
+  - **Visual Design Implementation:**
+    * Visual Hierarchy: Size (larger = important), Color (brighter = attention), Position (top-left = important), Contrast (high = attention)
+    * Color Psychology: Blue (trust), Green (success), Red (danger), Gray (neutral)
+    * Typography: Clear hierarchy (32px > 24px > 20px > 16px), readable fonts, proper line height (1.5-1.6)
+    * Whitespace: Adequate padding (16px+), grouping (more space between groups)
+    * Alignment: Consistent alignment, 8px grid system
+    * Contrast: WCAG AA minimum (4.5:1 cho body text, 3:1 cho large text)
+  - **User Experience Implementation:**
+    * Seamless Flow: Smooth transitions (CSS transitions), clear navigation (breadcrumbs, active states)
+    * Ease of Use: Intuitive interface (familiar patterns), clear labels (descriptive text)
+    * Efficiency: Minimal clicks (3 clicks max to any feature), keyboard shortcuts (power users)
+    * Learnability: Familiar patterns (industry standards), consistent UI (same patterns)
+    * Memorability: Consistent patterns, visual cues (icons, colors)
+    * Satisfaction: Pleasant aesthetics (clean, modern), smooth performance (fast loading)
+    * Accessibility: Keyboard navigation (Tab order), screen reader support (ARIA labels), color contrast (WCAG AA)
 
 → 🚨 MCP Round 4: Approve frontend foundation
 → ⏸️ WAIT for frontend approval
 
-**🧪 TEST INTEGRATION: FE ↔ BE (Sau khi code xong)**
+**🧪 TEST INTEGRATION: FE ↔ BE (Sau khi code xong - Với Seed Data)**
 - ✅ Test FE kết nối BE thành công (API calls)
-- ✅ Test GET requests (lấy data từ BE)
-- ✅ Test POST/PUT/DELETE requests (gửi data lên BE)
-- ✅ Test error handling (network errors, API errors)
-- ✅ Test loading states (spinner, skeleton)
-- ✅ Test authentication (JWT tokens, protected routes)
-- 📊 Verify data flow FE → BE → DB (end-to-end cho 1-2 flows cơ bản)
+- ✅ Test GET requests với seed data:
+  - Lấy danh sách entities từ seed data (verify hiển thị đúng)
+  - Lấy chi tiết entity từ seed data (verify data format đúng)
+  - Test pagination với seed data (nếu có > 10 records)
+  - Test filtering/sorting với seed data (nếu có)
+- ✅ Test POST/PUT/DELETE requests với seed data:
+  - **POST:** Tạo entity mới (verify không duplicate với seed data)
+  - **PUT:** Update entity từ seed data (verify updated)
+  - **DELETE:** Xóa entity từ seed data (verify deleted)
+- ✅ Test error handling:
+  - Network errors (test với seed data context)
+  - API errors (test với seed data invalid patterns)
+  - Validation errors (test với seed data edge cases)
+- ✅ Test loading states:
+  - Spinner khi loading seed data
+  - Skeleton khi loading seed data
+  - Empty states (nếu không có seed data)
+- ✅ Test authentication với seed data:
+  - JWT tokens (test với seed data users)
+  - Protected routes (test với seed data permissions)
+  - Role-based access (test với seed data roles)
+- 📊 Verify data flow FE → BE → DB với seed data:
+  - End-to-end flow: FE request → BE API → DB query → BE response → FE display
+  - Verify data consistency: FE state = BE response = DB seed data
+  - Test 1-2 flows cơ bản với seed data (CRUD operations)
 
 BƯỚC 6: FEATURE DEVELOPMENT (Ngày 17+)
 ───────────────────
@@ -2892,22 +3754,64 @@ BƯỚC 6: FEATURE DEVELOPMENT (Ngày 17+)
 - 🚨 MCP Round 2: Feature implementation approval (AFTER code)
 - 🔄 Iterate: FE + BE refinement based on feedback
 
-**🧪 TEST INTEGRATION: FE ↔ BE ↔ DB (Sau mỗi feature)**
-- ✅ Test toàn bộ flow: FE → BE → DB → BE → FE
-- ✅ Test feature-specific CRUD operations
-- ✅ Test data validation (FE validation + BE validation + DB constraints)
-- ✅ Test error scenarios (network, API errors, DB errors)
-- ✅ Test edge cases (empty data, large data, special characters)
-- 📊 Verify data consistency (FE state = BE response = DB data)
+**🧪 TEST INTEGRATION: FE ↔ BE ↔ DB (Sau mỗi feature - Với Seed Data)**
+- ✅ Test toàn bộ flow với seed data: FE → BE → DB → BE → FE
+  - Test complete workflow với seed data (tạo → xem → sửa → xóa)
+  - Verify data consistency toàn bộ flow: FE state = BE response = DB seed data
+- ✅ Test feature-specific CRUD operations với seed data:
+  - CREATE: Tạo entity mới (verify không duplicate với seed data)
+  - READ: Đọc entities từ seed data (verify data đúng)
+  - UPDATE: Sửa entities từ seed data (verify updated)
+  - DELETE: Xóa entities từ seed data (verify deleted)
+- ✅ Test data validation với seed data:
+  - FE validation (test với seed data patterns)
+  - BE validation (test với seed data patterns)
+  - DB constraints (test với seed data relationships)
+  - Verify validation consistency across layers
+- ✅ Test error scenarios với seed data:
+  - Network errors (test với seed data context)
+  - API errors (test với seed data invalid patterns)
+  - DB errors (test với seed data constraint violations)
+  - Error propagation: DB error → BE error → FE error (đúng format)
+- ✅ Test edge cases với seed data:
+  - Empty data (test với seed data có empty/null)
+  - Large data (test với seed data lớn nếu có)
+  - Special characters (test với seed data có unicode/emoji)
+  - Boundary values (test với seed data có min/max)
+- 📊 Verify data consistency với seed data:
+  - FE state = BE response = DB seed data (verify ở mỗi step)
+  - Data format consistency (verify format đúng ở mỗi layer)
+  - Relationships consistency (verify relationships đúng với seed data)
 
-**🧪 END-TO-END TEST - CUỐI LỘ TRÌNH (Sau khi hoàn thành tất cả features)**
-- ✅ Test toàn bộ hệ thống: FE ↔ BE ↔ DB (tất cả flows)
-- ✅ Test user journeys (từng bước người dùng thực hiện)
-- ✅ Test performance (response time, load time)
-- ✅ Test security (authentication, authorization, data protection)
-- ✅ Test data integrity toàn hệ thống (consistency checks)
-- ✅ Test error recovery (tự động phục hồi sau lỗi)
-- 📊 Verify hệ thống hoạt động ổn định (stress test, load test)
+**🧪 END-TO-END TEST - CUỐI LỘ TRÌNH (Sau khi hoàn thành tất cả features - Với Seed Data)**
+- ✅ Test toàn bộ hệ thống với seed data: FE ↔ BE ↔ DB (tất cả flows)
+  - Test tất cả workflows với seed data (CRUD, transactions, approvals, etc.)
+  - Verify data consistency toàn hệ thống: FE = BE = DB seed data
+- ✅ Test user journeys với seed data (từng bước người dùng thực hiện):
+  - Complete user workflows với seed data (login → create → view → edit → delete → logout)
+  - Multi-step workflows với seed data (wizard, multi-step forms)
+  - Conditional workflows với seed data (if/else logic)
+- ✅ Test performance với seed data:
+  - Response time với seed data (< 2s target)
+  - Load time với seed data (< 3s target)
+  - Query performance với seed data (verify indexes hoạt động)
+  - Pagination performance với seed data (nếu có > 100 records)
+- ✅ Test security với seed data:
+  - Authentication với seed data users (login, logout, token refresh)
+  - Authorization với seed data roles (permissions, access control)
+  - Data protection với seed data (encryption, masking, audit logging)
+- ✅ Test data integrity toàn hệ thống với seed data (consistency checks):
+  - Verify seed data consistency across all tables
+  - Verify relationships integrity với seed data
+  - Verify constraints enforced với seed data
+- ✅ Test error recovery với seed data (tự động phục hồi sau lỗi):
+  - Test recovery sau network errors
+  - Test recovery sau DB errors
+  - Test rollback mechanisms với seed data
+- 📊 Verify hệ thống hoạt động ổn định với seed data:
+  - Stress test với seed data (high load scenarios)
+  - Load test với seed data (normal load scenarios)
+  - Verify system stability với seed data patterns
 
 BƯỚC 7: DEPLOYMENT & PRODUCTION SETUP (Sau khi hoàn thành MVP)
 ───────────────────
@@ -2997,11 +3901,12 @@ BƯỚC 8: MONITORING & DOCUMENTATION (Sau deployment)
 
 1. **Wireframes trước** → Validate UX sớm (tiết kiệm 12 ngày refactor UX)
 2. **Database foundation** → Nền tảng vững (tiết kiệm 15 ngày migration refactor)
-3. **API core** → Interface rõ (tiết kiệm 10 ngày API refactor)
-4. **Frontend foundation** → Components sẵn sàng (tiết kiệm 18 ngày component refactor)
-5. **Feature development** → Hybrid approach (nhanh hơn 30% so với tuần tự)
-6. **Deployment setup** → Sẵn sàng production (tiết kiệm 8 ngày manual deployment)
-7. **Monitoring setup** → Catch issues sớm (tiết kiệm 12 ngày debugging production issues)
+3. **Seed data preparation** → Test có data đầy đủ (tiết kiệm 5 ngày test integration + debug)
+4. **API core** → Interface rõ (tiết kiệm 10 ngày API refactor)
+5. **Frontend foundation** → Components sẵn sàng (tiết kiệm 18 ngày component refactor)
+6. **Feature development** → Hybrid approach (nhanh hơn 30% so với tuần tự)
+7. **Deployment setup** → Sẵn sàng production (tiết kiệm 8 ngày manual deployment)
+8. **Monitoring setup** → Catch issues sớm (tiết kiệm 12 ngày debugging production issues)
 
 **Timeline:**
 - Ngắn hạn (1-2 tuần): Foundation + 1-2 features core
@@ -3009,14 +3914,14 @@ BƯỚC 8: MONITORING & DOCUMENTATION (Sau deployment)
 - Dài hạn (3-6 tháng): Production-ready với optimization + deployment + monitoring
 
 **ROI Calculation:**
-- Chi phí ban đầu: 16 ngày (Foundation)
+- Chi phí ban đầu: 17 ngày (Foundation - thêm 1 ngày seed data)
 - Chi phí features: 45 ngày (10 features)
 - Chi phí deployment: 8 ngày (Bước 7)
 - Chi phí monitoring: 6 ngày (Bước 8)
 - Chi phí bảo trì (6 tháng): 14 ngày
-- **Tổng chi phí: 89 ngày**
-- Lợi ích (6 tháng): 55 ngày (từ Foundation) + 20 ngày (từ deployment/monitoring)
-- **ROI (2 năm): +35.8%** ✅ (tăng lợi ích từ monitoring setup)
+- **Tổng chi phí: 90 ngày** (+1 ngày seed data)
+- Lợi ích (6 tháng): 60 ngày (từ Foundation + seed data) + 20 ngày (từ deployment/monitoring)
+- **ROI (2 năm): +36.2%** ✅ (tăng lợi ích từ seed data - test nhanh hơn, debug ít hơn)
 
 ---
 
@@ -4437,6 +5342,674 @@ Priority Order:
 ---
 
 ## Testing & Quality Assurance
+
+---
+
+## 🐛 Bug Fixing Workflow - Quy Trình Sửa Lỗi
+
+### 🎯 **MỤC ĐÍCH:**
+Quy trình sửa lỗi theo thứ tự: **Backend → Database → Frontend → Integration** để đảm bảo:
+- ✅ Sửa từ gốc (backend/database) trước
+- ✅ Kiểm tra từng layer một cách có hệ thống
+- ✅ Đảm bảo integration chặt chẽ giữa các layers
+- ✅ Tránh sửa lỗi ở layer trên mà không fix root cause
+
+### 🚨 **AUTO-DETECTION: Khi Nào Áp Dụng**
+
+**AI PHẢI tự động detect khi:**
+- ✅ User nói: "sửa lỗi", "fix bug", "bug", "lỗi", "error", "issue"
+- ✅ User mô tả vấn đề: "không hoạt động", "bị lỗi", "sai", "không đúng"
+- ✅ Task type: `fix` trong git commit message
+- ✅ Error logs, stack traces, exception messages
+
+**Khi detect → Áp dụng Bug Fixing Workflow ngay lập tức!**
+
+---
+
+### 📋 **BUG FIXING WORKFLOW - Quy Trình 4 Bước**
+
+```
+BƯỚC 1: BACKEND ANALYSIS & FIX (Ưu tiên cao nhất)
+───────────────────
+🎯 Mục đích: Tìm và sửa root cause ở backend trước
+
+1. **Phân tích lỗi:**
+   → Đọc error logs, stack traces
+   → Xác định lỗi xảy ra ở đâu (service, controller, middleware)
+   → Tìm nguyên nhân gốc (logic error, validation, business rules)
+
+2. **Kiểm tra Backend Code:**
+   → Tìm file/service liên quan đến lỗi
+   → Kiểm tra logic xử lý
+   → Kiểm tra validation rules
+   → Kiểm tra error handling
+   → Kiểm tra API endpoints (request/response)
+
+3. **Sửa lỗi Backend:**
+   → Fix logic error
+   → Fix validation
+   → Fix error handling
+   → Fix business rules
+   → Add proper error messages
+
+4. **Test Backend:**
+   → Unit test cho service/controller
+   → Integration test cho API endpoint
+   → Verify backend hoạt động đúng
+   → ✅ Backend fixed và tested
+
+5. **Verify Backend Response:**
+   → Test API endpoint với Postman/curl
+   → Verify response format đúng
+   → Verify error handling đúng
+   → Verify data structure đúng
+
+→ 🚨 MCP Round 1: Approve backend fix approach
+→ ⏸️ WAIT for approval
+→ [Implement backend fix]
+→ 🚨 MCP Round 2: Approve backend implementation
+→ ⏸️ WAIT for approval
+
+BƯỚC 2: DATABASE ANALYSIS & FIX
+───────────────────
+🎯 Mục đích: Kiểm tra và sửa database issues (nếu có)
+
+1. **Phân tích Database:**
+   → 🐘 PostgreSQL MCP: list_tables (xem tables liên quan)
+   → 🐘 PostgreSQL MCP: get_table_schema (kiểm tra schema)
+   → 🐘 PostgreSQL MCP: get_table_relationships (kiểm tra foreign keys)
+   → 🐘 PostgreSQL MCP: execute_sql (test queries liên quan)
+   → Xác định vấn đề database (nếu có):
+     * Schema mismatch
+     * Missing constraints
+     * Foreign key issues
+     * Data integrity issues
+     * Query performance issues
+
+2. **Kiểm tra Database:**
+   → Kiểm tra schema đúng chưa
+   → Kiểm tra constraints (NOT NULL, UNIQUE, CHECK)
+   → Kiểm tra foreign keys
+   → Kiểm tra indexes (nếu liên quan performance)
+   → Kiểm tra data integrity
+
+3. **Sửa lỗi Database (nếu có):**
+   → Fix schema (migration nếu cần)
+   → Fix constraints
+   → Fix foreign keys
+   → Fix data integrity
+   → Fix query performance
+
+4. **Test Database:**
+   → 🐘 PostgreSQL MCP: execute_sql (test queries)
+   → 🐘 PostgreSQL MCP: analyze_query (nếu performance issue)
+   → Verify queries hoạt động đúng
+   → Verify data integrity
+   → ✅ Database fixed và tested (nếu có vấn đề)
+
+→ 🚨 MCP Round 1: Approve database fix approach (nếu có vấn đề DB)
+→ ⏸️ WAIT for approval
+→ [Implement database fix nếu cần]
+→ 🚨 MCP Round 2: Approve database implementation
+→ ⏸️ WAIT for approval
+
+BƯỚC 3: FRONTEND ANALYSIS & FIX
+───────────────────
+🎯 Mục đích: Kiểm tra và sửa frontend issues (nếu có)
+
+1. **Phân tích Frontend:**
+   → Xác định component/page liên quan
+   → Kiểm tra API calls (fetch, axios, etc.)
+   → Kiểm tra data handling (state, props)
+   → Kiểm tra UI rendering
+   → Kiểm tra error handling trong frontend
+
+2. **Kiểm tra Frontend Code:**
+   → Kiểm tra API client (cách gọi backend)
+   → Kiểm tra data transformation (format data từ backend)
+   → Kiểm tra error handling (hiển thị lỗi)
+   → Kiểm tra loading states
+   → Kiểm tra form validation (nếu có)
+
+3. **Sửa lỗi Frontend (nếu có):**
+   → Fix API calls (endpoint, method, headers)
+   → Fix data transformation
+   → Fix error handling
+   → Fix UI rendering
+   → Fix form validation
+   → Fix loading states
+
+4. **Test Frontend:**
+   → Test component rendering
+   → Test API calls (mock hoặc real)
+   → Test error handling
+   → Test form validation
+   → Verify frontend hoạt động đúng
+   → ✅ Frontend fixed và tested (nếu có vấn đề)
+
+→ 🚨 MCP Round 1: Approve frontend fix approach (nếu có vấn đề FE)
+→ ⏸️ WAIT for approval
+→ [Implement frontend fix nếu cần]
+→ 🚨 MCP Round 2: Approve frontend implementation
+→ ⏸️ WAIT for approval
+
+BƯỚC 4: INTEGRATION VERIFICATION (Kiểm tra mối liên kết)
+───────────────────
+🎯 Mục đích: Đảm bảo các layers liên kết chặt chẽ và chuẩn
+
+1. **Kiểm tra Integration FE ↔ BE:**
+   → Test API calls từ frontend → backend
+   → Verify request format đúng (headers, body, query params)
+   → Verify response format đúng (status code, data structure)
+   → Verify error handling (frontend nhận error từ backend)
+   → Verify data flow: Frontend → Backend → Response
+
+2. **Kiểm tra Integration BE ↔ DB:**
+   → Test database queries từ backend
+   → Verify queries đúng (SELECT, INSERT, UPDATE, DELETE)
+   → Verify transactions (nếu có)
+   → Verify data consistency (BE response = DB data)
+   → Verify error handling (DB errors → BE errors)
+
+3. **Kiểm tra Integration End-to-End:**
+   → Test complete flow: Frontend → Backend → Database → Backend → Frontend
+   → Verify data consistency toàn bộ flow:
+     * Frontend state = Backend response = Database data
+   → Verify error propagation:
+     * DB error → BE error → FE error (hiển thị đúng)
+   → Verify data transformation:
+     * DB format → BE format → FE format (đúng ở mỗi layer)
+
+4. **Kiểm tra Integration Quality:**
+   → ✅ **Data Consistency:** FE state = BE response = DB data
+   → ✅ **Error Propagation:** DB error → BE error → FE error (đúng format)
+   → ✅ **Request/Response:** FE request format = BE expected format
+   → ✅ **Data Transformation:** Format đúng ở mỗi layer
+   → ✅ **Status Codes:** HTTP status codes đúng (200, 400, 404, 500)
+   → ✅ **Error Messages:** Error messages rõ ràng và helpful
+   → ✅ **Loading States:** Loading states hiển thị đúng
+   → ✅ **Edge Cases:** Xử lý edge cases đúng (null, empty, invalid)
+
+5. **Test Integration Scenarios:**
+   → Happy path: Tạo → Xem → Sửa → Xóa (end-to-end)
+   → Error scenarios: Invalid input → Error → Retry
+   → Edge cases: Empty data, null values, large data
+   → Performance: Response time, load time
+   → Security: Authentication, authorization, validation
+
+6. **Verify Integration Standards:**
+   → ✅ **API Contract:** Frontend và Backend tuân thủ API contract
+   → ✅ **Data Schema:** Database schema = Backend model = Frontend type
+   → ✅ **Error Handling:** Consistent error handling across layers
+   → ✅ **Validation:** Validation ở cả FE và BE (defense in depth)
+   → ✅ **Type Safety:** TypeScript types match giữa FE và BE
+   → ✅ **Documentation:** API docs, type definitions up-to-date
+
+→ 🚨 MCP Round 1: Approve integration verification approach
+→ ⏸️ WAIT for approval
+→ [Run integration tests]
+→ 🚨 MCP Round 2: Approve integration verification results
+→ ⏸️ WAIT for approval
+
+BƯỚC 5: FINAL VERIFICATION & CLEANUP
+───────────────────
+───────────────────
+1. **Final Verification:**
+   → Test lại toàn bộ flow (end-to-end)
+   → Verify bug đã được fix
+   → Verify không có regression (không break features khác)
+   → Verify performance không bị ảnh hưởng
+
+2. **Cleanup:**
+   → Remove debug code (console.log, debug statements)
+   → Remove temporary files
+   → Cleanup test data (nếu có)
+   → 🧹 Cleanup processes (stop dev servers, close DB connections)
+
+3. **Documentation:**
+   → Update bug fix trong commit message
+   → Document root cause (nếu cần)
+   → Document solution approach
+
+→ ✅ Bug fixed và verified!
+```
+
+---
+
+### 🔍 **DETAILED STEPS - Chi Tiết Từng Bước**
+
+#### **BƯỚC 1: BACKEND ANALYSIS & FIX (Chi Tiết)**
+
+**1.1. Phân tích lỗi:**
+```markdown
+- Đọc error logs, stack traces
+- Xác định:
+  * File/service nào gây lỗi?
+  * Function/method nào gây lỗi?
+  * Line number nào gây lỗi?
+  * Error type: Logic error? Validation error? Business rule error?
+- Tìm root cause:
+  * Logic sai ở đâu?
+  * Validation thiếu gì?
+  * Business rule sai gì?
+  * Error handling thiếu gì?
+```
+
+**1.2. Kiểm tra Backend Code:**
+```markdown
+- Tìm file/service liên quan:
+  * Service files (business logic)
+  * Controller files (API endpoints)
+  * Middleware files (authentication, validation)
+  * Model files (data models)
+- Kiểm tra:
+  * Logic xử lý đúng chưa?
+  * Validation đầy đủ chưa?
+  * Error handling có chưa?
+  * Business rules đúng chưa?
+  * API contract đúng chưa?
+```
+
+**1.3. Sửa lỗi Backend:**
+```markdown
+- Fix logic error
+- Fix validation (add missing validation)
+- Fix error handling (add try-catch, proper error messages)
+- Fix business rules
+- Add proper error messages (tiếng Việt, user-friendly)
+```
+
+**1.4. Test Backend:**
+```markdown
+- Unit test:
+  * Test service methods
+  * Test controller endpoints
+  * Test validation logic
+- Integration test:
+  * Test API endpoints với real database
+  * Test error scenarios
+- Manual test:
+  * Test với Postman/curl
+  * Verify response format
+  * Verify error handling
+```
+
+#### **BƯỚC 2: DATABASE ANALYSIS & FIX (Chi Tiết)**
+
+**2.1. Phân tích Database:**
+```markdown
+- 🐘 PostgreSQL MCP tools:
+  * list_tables → Xem tables liên quan
+  * get_table_schema → Kiểm tra schema
+  * get_table_relationships → Kiểm tra foreign keys
+  * execute_sql → Test queries
+  * analyze_query → Phân tích performance (nếu cần)
+- Xác định vấn đề:
+  * Schema mismatch?
+  * Missing constraints?
+  * Foreign key issues?
+  * Data integrity issues?
+  * Query performance issues?
+```
+
+**2.2. Kiểm tra Database:**
+```markdown
+- Schema:
+  * Columns đúng chưa?
+  * Data types đúng chưa?
+  * Constraints đúng chưa? (NOT NULL, UNIQUE, CHECK)
+- Relationships:
+  * Foreign keys đúng chưa?
+  * Cascade rules đúng chưa?
+- Data Integrity:
+  * Data có consistent không?
+  * Có orphaned records không?
+- Performance:
+  * Queries có chậm không?
+  * Indexes có đủ không?
+```
+
+**2.3. Sửa lỗi Database (nếu có):**
+```markdown
+- Migration (nếu cần):
+  * Add missing columns
+  * Fix data types
+  * Add constraints
+  * Fix foreign keys
+- Data fix (nếu cần):
+  * Fix data integrity
+  * Remove orphaned records
+- Performance (nếu cần):
+  * Add indexes
+  * Optimize queries
+```
+
+**2.4. Test Database:**
+```markdown
+- 🐘 PostgreSQL MCP: execute_sql → Test queries
+- Verify:
+  * Queries hoạt động đúng
+  * Data integrity maintained
+  * Performance acceptable
+```
+
+#### **BƯỚC 3: FRONTEND ANALYSIS & FIX (Chi Tiết)**
+
+**3.1. Phân tích Frontend:**
+```markdown
+- Xác định component/page liên quan
+- Kiểm tra:
+  * API calls (endpoint, method, headers, body)
+  * Data handling (state, props, transformation)
+  * UI rendering (conditional rendering, lists)
+  * Error handling (error messages, retry)
+  * Loading states (spinner, skeleton)
+```
+
+**3.2. Kiểm tra Frontend Code:**
+```markdown
+- API Client:
+  * Endpoint đúng chưa?
+  * Method đúng chưa? (GET, POST, PUT, DELETE)
+  * Headers đúng chưa? (Authorization, Content-Type)
+  * Body format đúng chưa?
+- Data Transformation:
+  * Transform data từ backend format → frontend format
+  * Format dates, numbers, currency
+- Error Handling:
+  * Hiển thị error messages đúng chưa?
+  * Retry logic có chưa?
+  * Error states có chưa?
+```
+
+**3.3. Sửa lỗi Frontend (nếu có):**
+```markdown
+- Fix API calls (endpoint, method, headers, body)
+- Fix data transformation
+- Fix error handling (error messages, retry)
+- Fix UI rendering
+- Fix form validation
+- Fix loading states
+```
+
+**3.4. Test Frontend:**
+```markdown
+- Component test:
+  * Test rendering
+  * Test user interactions
+  * Test error states
+- Integration test:
+  * Test API calls (mock hoặc real)
+  * Test data flow
+- Manual test:
+  * Test trong browser
+  * Test error scenarios
+  * Test loading states
+```
+
+#### **BƯỚC 4: INTEGRATION VERIFICATION (Chi Tiết)**
+
+**4.1. Kiểm tra Integration FE ↔ BE:**
+```markdown
+- Request Format:
+  * Frontend gửi request đúng format?
+  * Headers đúng? (Authorization, Content-Type)
+  * Body format đúng? (JSON, FormData, etc.)
+  * Query params đúng?
+- Response Format:
+  * Backend trả về response đúng format?
+  * Status code đúng? (200, 400, 404, 500)
+  * Data structure đúng?
+  * Error format đúng?
+- Error Handling:
+  * Frontend nhận error từ backend đúng chưa?
+  * Error messages hiển thị đúng chưa?
+  * Error states hiển thị đúng chưa?
+```
+
+**4.2. Kiểm tra Integration BE ↔ DB:**
+```markdown
+- Query Execution:
+  * Backend queries database đúng chưa?
+  * Queries return đúng data?
+  * Transactions hoạt động đúng?
+- Data Consistency:
+  * Backend response = Database data?
+  * Data format đúng?
+  * Data integrity maintained?
+- Error Handling:
+  * Database errors → Backend errors đúng chưa?
+  * Error messages rõ ràng chưa?
+```
+
+**4.3. Kiểm tra Integration End-to-End:**
+```markdown
+- Complete Flow:
+  * Frontend → Backend → Database → Backend → Frontend
+  * Test happy path: Tạo → Xem → Sửa → Xóa
+  * Test error scenarios: Invalid input → Error → Retry
+- Data Consistency:
+  * Frontend state = Backend response = Database data
+  * Verify ở mỗi step
+- Error Propagation:
+  * DB error → BE error → FE error
+  * Verify error format đúng ở mỗi layer
+```
+
+**4.4. Kiểm tra Integration Quality:**
+```markdown
+- ✅ Data Consistency: FE state = BE response = DB data
+- ✅ Error Propagation: DB error → BE error → FE error (đúng format)
+- ✅ Request/Response: FE request format = BE expected format
+- ✅ Data Transformation: Format đúng ở mỗi layer
+- ✅ Status Codes: HTTP status codes đúng (200, 400, 404, 500)
+- ✅ Error Messages: Error messages rõ ràng và helpful
+- ✅ Loading States: Loading states hiển thị đúng
+- ✅ Edge Cases: Xử lý edge cases đúng (null, empty, invalid)
+```
+
+---
+
+### 🎯 **INTEGRATION QUALITY CHECKLIST - Checklist Chất Lượng Integration**
+
+**✅ FE ↔ BE Integration:**
+- [ ] Request format đúng (headers, body, query params)
+- [ ] Response format đúng (status code, data structure)
+- [ ] Error handling đúng (error messages, error states)
+- [ ] Loading states đúng (spinner, skeleton)
+- [ ] Data transformation đúng (backend format → frontend format)
+- [ ] Type safety (TypeScript types match)
+
+**✅ BE ↔ DB Integration:**
+- [ ] Queries đúng (SELECT, INSERT, UPDATE, DELETE)
+- [ ] Transactions hoạt động đúng (rollback nếu error)
+- [ ] Data consistency (BE response = DB data)
+- [ ] Error handling đúng (DB errors → BE errors)
+- [ ] Performance acceptable (query time < 2s)
+
+**✅ End-to-End Integration:**
+- [ ] Complete flow hoạt động đúng (FE → BE → DB → BE → FE)
+- [ ] Data consistency toàn bộ flow (FE state = BE response = DB data)
+- [ ] Error propagation đúng (DB error → BE error → FE error)
+- [ ] Edge cases xử lý đúng (null, empty, invalid)
+- [ ] Performance acceptable (response time < 2s, load time < 3s)
+
+**✅ Integration Standards:**
+- [ ] API contract tuân thủ (Frontend và Backend)
+- [ ] Data schema consistent (Database = Backend model = Frontend type)
+- [ ] Error handling consistent (cùng format, cùng messages)
+- [ ] Validation consistent (FE validation + BE validation + DB constraints)
+- [ ] Type safety (TypeScript types match giữa FE và BE)
+- [ ] Documentation up-to-date (API docs, type definitions)
+
+---
+
+### ⚠️ **IMPORTANT NOTES - Lưu Ý Quan Trọng**
+
+**1. Thứ tự ưu tiên:**
+- ✅ **Backend trước** - Sửa root cause ở backend trước
+- ✅ **Database tiếp theo** - Kiểm tra database issues (nếu có)
+- ✅ **Frontend sau** - Sửa frontend issues (nếu có)
+- ✅ **Integration cuối** - Đảm bảo integration chặt chẽ
+
+**2. Không bỏ qua bước nào:**
+- ❌ Không sửa frontend mà không fix backend (nếu backend là root cause)
+- ❌ Không bỏ qua database check (có thể có schema/data issues)
+- ❌ Không bỏ qua integration verification (đảm bảo liên kết chặt chẽ)
+
+**3. MCP Rounds vẫn áp dụng:**
+- ✅ Mỗi bước vẫn có 2 rounds MCP (BEFORE + AFTER code)
+- ✅ Version 4.0 ULTRA-SAFE MODE vẫn áp dụng
+- ✅ Không skip MCP rounds vì "đây là bug fix"
+
+**4. Testing trong mỗi bước:**
+- ✅ Test backend sau khi fix backend
+- ✅ Test database sau khi fix database (nếu có)
+- ✅ Test frontend sau khi fix frontend (nếu có)
+- ✅ Test integration sau khi fix integration
+
+**5. Integration là bước quan trọng nhất:**
+- ✅ Đảm bảo FE ↔ BE ↔ DB liên kết chặt chẽ
+- ✅ Verify data consistency toàn bộ flow
+- ✅ Verify error propagation đúng
+- ✅ Verify integration standards
+
+---
+
+### 📝 **EXAMPLE - Ví Dụ Cụ Thể**
+
+**Scenario: Lỗi "Không thể tạo entity mới"**
+
+```
+BƯỚC 1: BACKEND ANALYSIS & FIX
+───────────────────
+1. Phân tích lỗi:
+   → Error log: "ValidationError: name is required"
+   → Root cause: Backend validation thiếu field "description" (optional nhưng validation sai)
+
+2. Kiểm tra Backend:
+   → File: src/services/entity.service.ts
+   → Function: createEntity()
+   → Issue: Validation rule sai - yêu cầu "description" là required nhưng business rule là optional
+
+3. Sửa Backend:
+   → Fix validation: "description" → optional
+   → Add proper error message: "Tên entity là bắt buộc"
+
+4. Test Backend:
+   → Unit test: Test createEntity() với description = null → Pass
+   → Integration test: POST /api/entities → 201 Created
+   → ✅ Backend fixed
+
+BƯỚC 2: DATABASE ANALYSIS & FIX
+───────────────────
+1. Phân tích Database:
+   → 🐘 PostgreSQL MCP: get_table_schema('entities')
+   → Schema: name (NOT NULL), description (NULL) → OK
+   → Constraints: OK
+   → ✅ Database không có vấn đề
+
+2. Skip database fix (không có vấn đề)
+
+BƯỚC 3: FRONTEND ANALYSIS & FIX
+───────────────────
+1. Phân tích Frontend:
+   → Component: CreateEntityForm
+   → API call: POST /api/entities
+   → Issue: Frontend gửi description = "" (empty string) thay vì null
+
+2. Kiểm tra Frontend:
+   → File: src/components/CreateEntityForm.tsx
+   → Issue: Form gửi empty string thay vì null cho optional fields
+
+3. Sửa Frontend:
+   → Fix: Convert empty string → null cho optional fields
+   → Fix: Only send fields có giá trị
+
+4. Test Frontend:
+   → Test form submission với description = empty → Pass
+   → ✅ Frontend fixed
+
+BƯỚC 4: INTEGRATION VERIFICATION
+───────────────────
+1. Kiểm tra FE ↔ BE:
+   → Request: POST /api/entities { name: "Test", description: null }
+   → Response: 201 Created { id: 1, name: "Test", description: null }
+   → ✅ Request/Response format đúng
+
+2. Kiểm tra BE ↔ DB:
+   → Query: INSERT INTO entities (name, description) VALUES ('Test', NULL)
+   → Result: Entity created với description = NULL
+   → ✅ Database query đúng
+
+3. Kiểm tra End-to-End:
+   → Flow: Frontend form → Backend API → Database → Backend response → Frontend display
+   → Test: Tạo entity với description = empty → Success
+   → Verify: FE state = BE response = DB data
+   → ✅ Integration chặt chẽ
+
+4. Verify Integration Quality:
+   → ✅ Data Consistency: FE state = BE response = DB data
+   → ✅ Error Propagation: N/A (no errors)
+   → ✅ Request/Response: Format đúng
+   → ✅ Data Transformation: Empty string → null (đúng)
+   → ✅ Status Codes: 201 Created (đúng)
+   → ✅ Integration Standards: API contract tuân thủ
+
+→ ✅ Bug fixed và verified!
+```
+
+---
+
+### 🔄 **INTEGRATION VỚI EXISTING WORKFLOW**
+
+**Compatible với:**
+- ✅ **Version 4.0:** MCP Rounds vẫn áp dụng (BEFORE + AFTER code cho mỗi bước)
+- ✅ **Universal Workflow:** Bug Fixing Workflow tích hợp vào BƯỚC 4 (IMPLEMENT CODE)
+- ✅ **Testing Strategy:** Testing trong mỗi bước của Bug Fixing Workflow
+- ✅ **Resource Management:** Cleanup sau khi fix xong (BƯỚC 5)
+
+**Workflow Integration:**
+```
+BƯỚC 1: PHÂN TÍCH TASK
+  → Detect: "Đây là bug fix" → Áp dụng Bug Fixing Workflow
+
+BƯỚC 2: DATABASE ANALYSIS (nếu có)
+  → 🐘 PostgreSQL MCP tools (nếu liên quan database)
+
+BƯỚC 3: 🚨 MCP ROUND 1 - BEFORE CODE
+  → Approve bug fixing approach (Backend → Database → Frontend → Integration)
+
+BƯỚC 4: IMPLEMENT CODE (Bug Fixing Workflow)
+  → BƯỚC 1: Backend Analysis & Fix
+    → 🚨 MCP Round 1: Approve backend fix
+    → [Fix backend]
+    → 🚨 MCP Round 2: Approve backend implementation
+  → BƯỚC 2: Database Analysis & Fix (nếu có)
+    → 🚨 MCP Round 1: Approve database fix (nếu có)
+    → [Fix database nếu cần]
+    → 🚨 MCP Round 2: Approve database implementation
+  → BƯỚC 3: Frontend Analysis & Fix (nếu có)
+    → 🚨 MCP Round 1: Approve frontend fix (nếu có)
+    → [Fix frontend nếu cần]
+    → 🚨 MCP Round 2: Approve frontend implementation
+  → BƯỚC 4: Integration Verification
+    → 🚨 MCP Round 1: Approve integration verification approach
+    → [Run integration tests]
+    → 🚨 MCP Round 2: Approve integration verification results
+
+BƯỚC 5: 🚨 MCP ROUND 2 - AFTER CODE
+  → Approve overall bug fix implementation
+
+BƯỚC 6: TESTING
+  → Comprehensive testing (nếu cần)
+
+BƯỚC 7: 🧹 CLEANUP
+  → Cleanup processes, temp files
+
+BƯỚC 8: DONE
+  → ✅ Bug fixed và verified!
+```
 
 ---
 
@@ -6348,6 +7921,7 @@ AI PHẢI tự động detect các processes sau:
 - Local tunnels (ngrok, localtunnel)
 - Mock servers (MSW, nock)
 - Proxy servers
+- **MCP Interactive Feedback processes** (Python processes sau khi gọi MCP Feedback)
 
 ---
 
@@ -6637,7 +8211,14 @@ AI PHẢI tự động TẮT TẤT CẢ processes khi:
    - User: "Máy nặng quá" → Tắt tất cả
    - User: "Kiểm tra processes" → Tắt tất cả
 
-4. **System resource high:**
+4. **Sau khi gọi MCP Interactive Feedback:**
+   - ✅ Sau khi MCP Feedback completes
+   - ✅ Tự động cleanup MCP Feedback Python processes
+   - ✅ Verify cleanup thành công
+   - ✅ Confirm với user: "✅ Đã cleanup MCP Feedback processes! Máy đã nhẹ lại."
+   - ⚠️ **LƯU Ý:** KHÔNG dừng system services (VS Code extensions, Memory server, PostgreSQL MCP server)
+
+5. **System resource high:**
    - CPU usage > 80% → Tắt tất cả
    - Memory usage > 85% → Tắt tất cả
    - Nhiều processes đang chạy → Tắt tất cả

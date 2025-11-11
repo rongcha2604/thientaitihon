@@ -401,7 +401,13 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
                                 <h3 className="font-bold text-amber-800 mb-2">📖 Chọn lớp</h3>
                                 <div className="grid grid-cols-5 gap-2 bg-amber-100/50 p-2 rounded-2xl">
                                     {grades.map(grade => (
-                                        <button key={grade} onClick={() => setSelectedGrade(grade)} className={`aspect-square rounded-full font-black text-2xl flex items-center justify-center transition-all duration-200 transform ${selectedGrade === grade ? 'bg-red-400 text-white shadow-viet-style-pressed scale-95' : 'bg-[#FDFBF5] text-amber-800 shadow-viet-style-raised hover:scale-105'}`}>
+                                        <button key={grade} onClick={() => {
+                                            setSelectedGrade(grade);
+                                            // Lưu grade mới vào localStorage để các component khác biết
+                                            localStorage.setItem('selectedGrade', grade.toString());
+                                            // Trigger reload để load stars/coins từ lớp mới (nếu cần)
+                                            window.dispatchEvent(new Event('gradeChanged'));
+                                        }} className={`aspect-square rounded-full font-black text-2xl flex items-center justify-center transition-all duration-200 transform ${selectedGrade === grade ? 'bg-red-400 text-white shadow-viet-style-pressed scale-95' : 'bg-[#FDFBF5] text-amber-800 shadow-viet-style-raised hover:scale-105'}`}>
                                             {grade}
                                         </button>
                                     ))}

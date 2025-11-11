@@ -1,14 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { awardCoins } from '../src/lib/api/coins';
-
-// Helper function để award stars (localStorage only)
-const awardStarsLocal = (amount: number) => {
-  const currentStars = parseInt(localStorage.getItem('user_stars') || '0', 10);
-  const newStars = currentStars + amount;
-  localStorage.setItem('user_stars', newStars.toString());
-  return newStars;
-};
 import { useAuth } from '../src/contexts/AuthContext';
+import { getCurrentGrade, addStarsForGrade, addCoinsForGrade } from '../src/lib/storage/gradeStorage';
 
 export interface DailyChallenge {
   id: string;
@@ -146,17 +139,15 @@ export const DailyChallengeProvider: React.FC<{ children: React.ReactNode }> = (
               metadata: { challengeId, challengeType: challenge.type },
             });
           } catch (error) {
-            // Nếu backend fail, fallback về localStorage
+            // Nếu backend fail, fallback về localStorage - theo lớp
             console.log('Backend not available, using localStorage');
-            const currentCoins = parseInt(localStorage.getItem('user_coins') || '0', 10);
-            const newCoins = currentCoins + coinsToAward;
-            localStorage.setItem('user_coins', newCoins.toString());
+            const currentGrade = getCurrentGrade();
+            addCoinsForGrade(currentGrade, coinsToAward);
           }
         } else {
-          // Không có user → dùng localStorage
-          const currentCoins = parseInt(localStorage.getItem('user_coins') || '0', 10);
-          const newCoins = currentCoins + coinsToAward;
-          localStorage.setItem('user_coins', newCoins.toString());
+          // Không có user → dùng localStorage - theo lớp
+          const currentGrade = getCurrentGrade();
+          addCoinsForGrade(currentGrade, coinsToAward);
         }
       } catch (error) {
         console.error('Error awarding coins:', error);
@@ -189,6 +180,8 @@ export const DailyChallengeProvider: React.FC<{ children: React.ReactNode }> = (
             const coinsToAward = challenge.reward.rice || 0;
             const starsToAward = challenge.reward.stars || 0;
             
+            console.log(`[DailyChallenge] Awarding ${starsToAward} stars for challenge ${challengeId} (${challenge.title})`);
+            
             if (coinsToAward > 0 || starsToAward > 0) {
               try {
                 if (user?.id) {
@@ -199,28 +192,25 @@ export const DailyChallengeProvider: React.FC<{ children: React.ReactNode }> = (
                       reason: `Hoàn thành thử thách: ${challenge.title}`,
                       metadata: { challengeId, challengeType: challenge.type },
                     }).catch(() => {
-                      // Fallback về localStorage nếu backend fail
-                      const currentCoins = parseInt(localStorage.getItem('user_coins') || '0', 10);
-                      const newCoins = currentCoins + coinsToAward;
-                      localStorage.setItem('user_coins', newCoins.toString());
+                      // Fallback về localStorage nếu backend fail - theo lớp
+                      const currentGrade = getCurrentGrade();
+                      addCoinsForGrade(currentGrade, coinsToAward);
                     });
                   }
 
-                  // Award stars (localStorage only)
+                  // Award stars (localStorage only) - theo lớp
                   if (starsToAward > 0) {
-                    awardStarsLocal(starsToAward);
+                    const currentGrade = getCurrentGrade();
+                    addStarsForGrade(currentGrade, starsToAward);
                   }
                 } else {
-                  // Không có user → dùng localStorage
+                  // Không có user → dùng localStorage - theo lớp
+                  const currentGrade = getCurrentGrade();
                   if (coinsToAward > 0) {
-                    const currentCoins = parseInt(localStorage.getItem('user_coins') || '0', 10);
-                    const newCoins = currentCoins + coinsToAward;
-                    localStorage.setItem('user_coins', newCoins.toString());
+                    addCoinsForGrade(currentGrade, coinsToAward);
                   }
                   if (starsToAward > 0) {
-                    const currentStars = parseInt(localStorage.getItem('user_stars') || '0', 10);
-                    const newStars = currentStars + starsToAward;
-                    localStorage.setItem('user_stars', newStars.toString());
+                    addStarsForGrade(currentGrade, starsToAward);
                   }
                 }
               } catch (error) {

@@ -8,6 +8,7 @@ import DonateButton from '../common/DonateButton';
 import DonateModal from '../common/DonateModal';
 import DeleteDataModal from '../common/DeleteDataModal';
 import { useToast } from '../common/ToastNotification';
+import { getSpiritPetsForGrade, getCurrentGrade } from '../../src/lib/storage/gradeStorage';
 import { clearAllProgressForUser } from '../../src/lib/storage/exerciseProgress';
 import { useDailyChallenge } from '../../contexts/DailyChallengeContext';
 
@@ -120,15 +121,14 @@ const HoSoPage: React.FC = () => {
         return levels.find((l: any) => l.star === level);
     };
 
-    // Load active spirit pet từ localStorage (ưu tiên hơn selectedCharacter)
+    // Load active spirit pet từ localStorage (ưu tiên hơn selectedCharacter) - theo lớp
     const loadActiveSpiritPet = useCallback(async () => {
         try {
             const userId = user?.id || 'guest';
-            const userPetsKey = `user_spirit_pets_${userId}`;
-            const storedUserPets = localStorage.getItem(userPetsKey);
+            const currentGrade = getCurrentGrade();
+            const userPets = getSpiritPetsForGrade(userId, currentGrade);
             
-            if (storedUserPets) {
-                const userPets = JSON.parse(storedUserPets);
+            if (userPets && userPets.length > 0) {
                 // Tìm spirit pet đang active
                 const activeUserPet = userPets.find((up: any) => up.isActive === true);
                 
