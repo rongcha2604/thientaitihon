@@ -68,7 +68,7 @@ const spiritPetsData = [
     code: 'PHOEN',
     baseNameVi: 'Chim Phượng',
     maxStars: 5,
-    theme: 'Tiếng Anh',
+    theme: 'Tổng hợp',
     color: 'Đỏ hồng',
     specialEffect: 'Revival & protect score',
     levels: [

@@ -172,14 +172,14 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
       allQuestions.push({ subject: subjectFolder, questions: selectedQuestions });
     }
 
-    // Xáo trộn câu hỏi xen kẽ giữa 3 môn
+    // Xáo trộn câu hỏi xen kẽ giữa 2 môn (Toán và Tiếng Việt)
     // Gộp tất cả questions lại và xáo trộn ngẫu nhiên
     const allMixedQuestions: Question[] = [];
     allQuestions.forEach(({ questions }) => {
       allMixedQuestions.push(...questions);
     });
 
-    // Xáo trộn ngẫu nhiên để đảm bảo xen kẽ giữa 3 môn
+    // Xáo trộn ngẫu nhiên để đảm bảo xen kẽ giữa 2 môn
     const finalQuestions = allMixedQuestions.sort(() => Math.random() - 0.5);
 
     // Tạo WeekData structure

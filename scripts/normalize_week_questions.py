@@ -276,7 +276,7 @@ def backup_files(base_dir):
 def main():
     """Main function"""
     base_dir = Path("src/data/questions/ket-noi-tri-thuc/grade-1")
-    subjects = ["math", "vietnamese", "english"]
+    subjects = ["math", "vietnamese"]
     
     print("=" * 70)
     print("CHUẨN HÓA SỐ CÂU HỎI CHO TẤT CẢ THỬ THÁCH TUẦN (10-15 câu)")

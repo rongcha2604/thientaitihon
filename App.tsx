@@ -43,26 +43,24 @@ const App: React.FC = () => {
     typeof window !== 'undefined' && (window as any).Capacitor !== undefined
   );
 
-  // Fix: Inject necessary scripts and font links into the document head.
+  // Prefetch pages khi user có thể navigate (optimize performance)
   useEffect(() => {
-    // Add Google Fonts
-    if (!document.querySelector('link[href^="https://fonts.googleapis.com"]')) {
-        const fontPreconnect1 = document.createElement('link');
-        fontPreconnect1.rel = 'preconnect';
-        fontPreconnect1.href = 'https://fonts.googleapis.com';
-        document.head.appendChild(fontPreconnect1);
-
-        const fontPreconnect2 = document.createElement('link');
-        fontPreconnect2.rel = 'preconnect';
-        fontPreconnect2.href = 'https://fonts.gstatic.com';
-        fontPreconnect2.crossOrigin = "anonymous";
-        document.head.appendChild(fontPreconnect2);
-
-        const fontLink = document.createElement('link');
-        fontLink.href = 'https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap';
-        fontLink.rel = 'stylesheet';
-        document.head.appendChild(fontLink);
-    }
+    // Prefetch các pages có thể được navigate
+    const prefetchPages = [
+      () => import('./components/pages/OnTapPage'),
+      () => import('./components/pages/AlbumPage'),
+      () => import('./components/pages/HoSoPage'),
+      () => import('./components/pages/PhuHuynhPage'),
+    ];
+    
+    // Prefetch sau 2 giây (không block initial load)
+    const prefetchTimer = setTimeout(() => {
+      prefetchPages.forEach((prefetchFn) => {
+        prefetchFn().catch(() => {}); // Ignore errors
+      });
+    }, 2000);
+    
+    return () => clearTimeout(prefetchTimer);
   }, []);
 
   const handleStartWeek = (weekId: number, bookSeries: string, grade: number, subject: string, examType?: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH') => {

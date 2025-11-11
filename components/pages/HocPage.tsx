@@ -265,7 +265,6 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
                                 try {
                                     const data = await response.json();
                                     // Đếm số câu hỏi thực tế trong tất cả lessons
-                                    // Với tiếng Anh: 10 câu, với Toán/Tiếng Việt: có thể nhiều hơn
                                     totalQuestions = data.lessons?.reduce((sum: number, lesson: any) => {
                                         return sum + (lesson.questions?.length || 0);
                                     }, 0) || 0;
@@ -292,8 +291,6 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
                     // Progress = số câu đúng (completedQuestions chứa indices của câu đã làm đúng)
                     const progressCount = completedQuestions.length;
                     // Mục tiêu: Hoàn thành = làm đúng TẤT CẢ câu hỏi trong tuần
-                    // Với tiếng Anh: 10/10 câu đúng
-                    // Với Toán/Tiếng Việt: Tất cả câu đúng
                     const targetCorrectAnswers = totalQuestions > 0 ? totalQuestions : 20; // Fallback: 20 nếu không load được
                     
                     let status: 'completed' | 'inprogress' | 'locked';
@@ -328,8 +325,6 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
                         }
                         
                         // Tuần trước hoàn thành khi có >= số câu hỏi của tuần trước
-                        // Với tiếng Anh: 10/10 câu đúng
-                        // Với Toán/Tiếng Việt: Tất cả câu đúng
                         const prevWeekTarget = prevWeekTotalQuestions > 0 ? prevWeekTotalQuestions : 20;
                         const prevWeekCompleted = prevWeekCompletedQuestions.length >= prevWeekTarget;
                         

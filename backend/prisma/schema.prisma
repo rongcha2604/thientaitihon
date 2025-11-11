@@ -43,7 +43,7 @@ model UserProgress {
   userId      String   @map("user_id")
   bookSeries  String   @map("book_series") // Bộ sách
   grade       Int
-  subject     String   // math, vietnamese, english
+  subject     String   // math, vietnamese
   week        Int      // Tuần 1-35
   lessonId    String   @map("lesson_id") // ID bài học
   status      String   // completed, in_progress, locked

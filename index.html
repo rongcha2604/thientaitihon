@@ -9,12 +9,24 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="Thiên Tài Đất Việt" />
+    <!-- Cache Control: Prevent browser caching HTML -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <title>Thiên Tài Đất Việt - Học Tập Vui Vẻ</title>
     <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    
+    <!-- Resource Hints: Preconnect để tăng tốc độ load fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts với font-display swap để không block rendering -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/icons/icon-192x192.png" as="image" type="image/png">
+    <link rel="preload" href="/manifest.json" as="manifest">
   </head>
   <body>
     <div id="root"></div>
