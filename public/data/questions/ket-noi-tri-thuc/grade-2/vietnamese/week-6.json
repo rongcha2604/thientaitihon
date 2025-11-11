@@ -1,0 +1,183 @@
+{
+  "week": 6,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-6",
+      "title": "Mái ấm gia đình (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Cái trống trường em', cái trống được miêu tả như thế nào?",
+          "options": [
+            "To, tròn",
+            "Nhỏ, dẹp",
+            "Dài, mỏng",
+            "Vuông, dẹp"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Cái trống được miêu tả là to, tròn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "cái trống",
+            "cái trống",
+            "cái trống",
+            "cái trống"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'cái trống' (cái với chữ c, trống với chữ tr).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'cái trống' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Cái trống' là danh từ chỉ đồ vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa M được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa M viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi miêu tả đồ vật, em nên miêu tả những gì?",
+          "options": [
+            "Hình dáng",
+            "Cả A và B",
+            "Màu sắc",
+            "Không miêu tả gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi miêu tả đồ vật, em nên miêu tả hình dáng và màu sắc.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Cái trống kêu to', từ nào là tính từ?",
+          "options": [
+            "Cái trống",
+            "to",
+            "kêu",
+            "Cả A, B, C"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'to' là tính từ chỉ đặc điểm, tính chất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "danh sách",
+            "danh sách",
+            "danh sách",
+            "danh sách"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'danh sách' (danh với chữ d, sách với chữ s).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Danh sách học sinh', danh sách dùng để làm gì?",
+          "options": [
+            "Liệt kê tên giáo viên",
+            "Liệt kê tên môn học",
+            "Liệt kê tên học sinh",
+            "Liệt kê tên lớp"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Danh sách học sinh dùng để liệt kê tên các học sinh trong lớp.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa N được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa N viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu gạch ngang đúng?",
+          "options": [
+            "Danh sách Lan, Mai, Hoa",
+            "Danh sách! Lan, Mai, Hoa",
+            "Danh sách? Lan, Mai, Hoa",
+            "Danh sách: - Lan, - Mai, - Hoa"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Dấu gạch ngang dùng để liệt kê các mục.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "học sin",
+            "học xinh",
+            "học xinh",
+            "học sinh"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'học sinh' (học với chữ h, sinh với chữ s).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi đọc danh sách, em cần đọc những gì?",
+          "options": [
+            "Tên học sinh",
+            "Thứ tự",
+            "Không đọc gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi đọc danh sách, em cần đọc tên học sinh và thứ tự.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

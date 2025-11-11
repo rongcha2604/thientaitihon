@@ -1,0 +1,183 @@
+{
+  "week": 3,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-3",
+      "title": "Mái ấm gia đình",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Em có xinh không?', câu hỏi này được hỏi bởi ai?",
+          "options": [
+            "Cả A, B, C đều có thể",
+            "Bạn bè",
+            "Bố mẹ",
+            "Cô giáo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Câu hỏi 'Em có xinh không?' có thể được hỏi bởi nhiều người khác nhau.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "xinh đẹp",
+            "xinh đẹp",
+            "xinh đẹp",
+            "xinh đẹp"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'xinh đẹp' (xinh với chữ x, đẹp với chữ đ).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'xinh đẹp' thuộc loại từ gì?",
+          "options": [
+            "Tính từ",
+            "Danh từ",
+            "Động từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Xinh đẹp' là tính từ chỉ đặc điểm, tính chất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa E được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa E viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi khen ngợi người khác, em nên nói như thế nào?",
+          "options": [
+            "Bạn rất xinh!",
+            "Cả A và B",
+            "Bạn rất đẹp!",
+            "Không nói gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi khen ngợi, em có thể nói 'Bạn rất xinh!' hoặc 'Bạn rất đẹp!'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Em có xinh không?', từ nào là tính từ?",
+          "options": [
+            "Em",
+            "xinh",
+            "có",
+            "không"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'xinh' là tính từ chỉ đặc điểm, tính chất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết sai chính tả?",
+          "options": [
+            "gia đình",
+            "gia đình",
+            "gia đình",
+            "gia đình"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tất cả đều đúng, nhưng cần kiểm tra lại: 'gia đình' (gia với chữ g, đình với chữ đ).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Một giờ học', bài đọc nói về điều gì?",
+          "options": [
+            "Một giờ học ở nhà",
+            "Một giờ học ngoài trời",
+            "Một giờ học ở lớp",
+            "Cả A, B, C đều có thể"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Bài đọc nói về một giờ học ở lớp, các hoạt động trong giờ học.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa G được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa G viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm đúng?",
+          "options": [
+            "Em đi học?",
+            "Em đi học!",
+            "Em đi học,",
+            "Em đi học."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu kể phải kết thúc bằng dấu chấm (.).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "giờ học",
+            "giờ học",
+            "giờ học",
+            "giờ học"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'giờ học' (giờ với chữ g và i, học với chữ h và c).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về giờ học, em nên kể những gì?",
+          "options": [
+            "Môn học",
+            "Hoạt động trong giờ",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về giờ học, em nên kể môn học và các hoạt động trong giờ.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

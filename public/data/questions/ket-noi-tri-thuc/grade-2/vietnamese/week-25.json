@@ -1,0 +1,183 @@
+{
+  "week": 25,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-25",
+      "title": "Hành trình xanh của em (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Những con sao biển', sao biển là gì?",
+          "options": [
+            "Động vật biển",
+            "Động vật trên cạn",
+            "Thực vật",
+            "Khoáng vật"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Sao biển là động vật biển, có hình dáng giống ngôi sao.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "sao biển",
+            "sao biển",
+            "sao biển",
+            "sao biển"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'sao biển' (sao với chữ s, biển với chữ b).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'sao biển' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Sao biển' là danh từ chỉ con vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ư được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Ư viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi kể về sao biển, em nên kể những gì?",
+          "options": [
+            "Hình dáng",
+            "Cả A và B",
+            "Môi trường sống",
+            "Không kể gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi kể về sao biển, em nên kể hình dáng và môi trường sống.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Sao biển đẹp quá', từ nào là tính từ?",
+          "options": [
+            "Sao biển",
+            "đẹp",
+            "quá",
+            "Cả A, B, C"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'đẹp' là tính từ chỉ đặc điểm, tính chất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "tạm biệt",
+            "tạm biệt",
+            "tạm biệt",
+            "tạm biệt"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'tạm biệt' (tạm với chữ t, biệt với chữ b).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Tạm biệt cánh cam', cánh cam là gì?",
+          "options": [
+            "Loài chim",
+            "Loài cá",
+            "Loài côn trùng",
+            "Loài hoa"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Cánh cam là loài côn trùng, có cánh màu cam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm đúng?",
+          "options": [
+            "Tạm biệt cánh cam?",
+            "Tạm biệt cánh cam!",
+            "Tạm biệt cánh cam,",
+            "Tạm biệt cánh cam."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu kể phải kết thúc bằng dấu chấm (.).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "côn trùng",
+            "côn trùng",
+            "côn trùng",
+            "côn trùng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'côn trùng' (côn với chữ c, trùng với chữ tr).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về côn trùng, em nên kể những gì?",
+          "options": [
+            "Tên côn trùng",
+            "Đặc điểm",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về côn trùng, em nên kể tên côn trùng và đặc điểm.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

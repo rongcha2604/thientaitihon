@@ -1,0 +1,183 @@
+{
+  "week": 5,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-5",
+      "title": "Mái ấm gia đình (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Cô giáo lớp em', cô giáo được miêu tả như thế nào?",
+          "options": [
+            "Hiền lành, yêu thương học sinh",
+            "Nghiêm khắc",
+            "Không quan tâm",
+            "Rất xa cách"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Cô giáo được miêu tả là hiền lành, yêu thương học sinh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "cô giáo",
+            "cô giáo",
+            "cô giáo",
+            "cô giáo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'cô giáo' (cô với chữ c, giáo với chữ g).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'cô giáo' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Cô giáo' là danh từ chỉ người, chỉ nghề nghiệp.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa K được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa K viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi nói về cô giáo, em nên nói những gì?",
+          "options": [
+            "Tên cô",
+            "Cả A và B",
+            "Tính cách của cô",
+            "Không nói gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi nói về cô giáo, em có thể nói tên cô và tính cách của cô.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Cô giáo dạy em học', từ nào là động từ?",
+          "options": [
+            "Cô giáo",
+            "dạy",
+            "em",
+            "học"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'dạy' là động từ chỉ hành động.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "thời khóa biểu",
+            "thời khóa biểu",
+            "thời khóa biểu",
+            "thời khóa biểu"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'thời khóa biểu' (thời với chữ th, khóa với chữ kh, biểu với chữ b).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Thời khóa biểu', thời khóa biểu dùng để làm gì?",
+          "options": [
+            "Xem lịch nghỉ",
+            "Xem lịch chơi",
+            "Xem lịch học",
+            "Xem lịch ăn"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Thời khóa biểu dùng để xem lịch học các môn trong tuần.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa L được viết như thế nào?",
+          "options": [
+            "Nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa L viết với nét thẳng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu hai chấm đúng?",
+          "options": [
+            "Môn học Toán, Tiếng Việt",
+            "Môn học! Toán, Tiếng Việt",
+            "Môn học? Toán, Tiếng Việt",
+            "Môn học: Toán, Tiếng Việt"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Dấu hai chấm dùng để liệt kê, giải thích.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "lớp họ",
+            "lớp hộc",
+            "lớp hộc",
+            "lớp học"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'lớp học' (lớp với chữ l, học với chữ h và c).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi đọc thời khóa biểu, em cần đọc những gì?",
+          "options": [
+            "Tên môn học",
+            "Thời gian học",
+            "Không đọc gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi đọc thời khóa biểu, em cần đọc tên môn học và thời gian học.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

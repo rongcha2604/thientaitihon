@@ -1,0 +1,183 @@
+{
+  "week": 16,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-16",
+      "title": "Mái ấm gia đình (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Cánh cửa nhớ bà', cánh cửa nhớ bà vì sao?",
+          "options": [
+            "Bà thường mở cửa",
+            "Bà thường đóng cửa",
+            "Bà không bao giờ mở cửa",
+            "Bà không bao giờ đóng cửa"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Cánh cửa nhớ bà vì bà thường mở cửa, chào đón mọi người.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "cánh cửa",
+            "cánh cửa",
+            "cánh cửa",
+            "cánh cửa"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'cánh cửa' (cánh với chữ c, cửa với chữ c).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'cánh cửa' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Cánh cửa' là danh từ chỉ đồ vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ư được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Ư viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi nói về bà, em nên nói những gì?",
+          "options": [
+            "Tên bà",
+            "Cả A và B",
+            "Tình cảm với bà",
+            "Không nói gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi nói về bà, em có thể nói tên bà và tình cảm với bà.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Cánh cửa nhớ bà', từ nào là động từ?",
+          "options": [
+            "Cánh cửa",
+            "nhớ",
+            "bà",
+            "Cả A, B, C"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'nhớ' là động từ chỉ tình cảm, hành động.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "thương ông",
+            "thương ông",
+            "thương ông",
+            "thương ông"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'thương ông' (thương với chữ th, ông với chữ ô).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Thương ông', em thương ông vì sao?",
+          "options": [
+            "Ông yêu thương em",
+            "Ông chăm sóc em",
+            "Cả A và B",
+            "Không thương gì"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Em thương ông vì ông yêu thương và chăm sóc em.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu phẩy đúng?",
+          "options": [
+            "Em thương ông thương bà.",
+            "Em thương ông! thương bà.",
+            "Em thương ông? thương bà.",
+            "Em thương ông, thương bà."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Dấu phẩy dùng để ngăn cách các thành phần trong câu.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "ông bà",
+            "ông bà",
+            "ông bà",
+            "ông bà"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'ông bà' (ông với chữ ô, bà với chữ b).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về ông bà, em nên kể những gì?",
+          "options": [
+            "Tên ông bà",
+            "Tình cảm",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về ông bà, em nên kể tên ông bà và tình cảm.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

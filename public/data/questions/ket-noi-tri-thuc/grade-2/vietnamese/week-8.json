@@ -1,0 +1,183 @@
+{
+  "week": 8,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-8",
+      "title": "Đi học vui sao (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Cuốn sách của em', cuốn sách được miêu tả như thế nào?",
+          "options": [
+            "Đẹp, có nhiều tranh",
+            "Xấu, không có tranh",
+            "Cũ, rách",
+            "Mới, trắng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Cuốn sách được miêu tả là đẹp, có nhiều tranh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "cuốn sách",
+            "cuốn sách",
+            "cuốn sách",
+            "cuốn sách"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'cuốn sách' (cuốn với chữ c, sách với chữ s).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'cuốn sách' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Cuốn sách' là danh từ chỉ đồ vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Q được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Q viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi giới thiệu cuốn sách, em nên giới thiệu những gì?",
+          "options": [
+            "Tên sách",
+            "Cả A và B",
+            "Nội dung sách",
+            "Không giới thiệu gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi giới thiệu cuốn sách, em nên giới thiệu tên sách và nội dung sách.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Cuốn sách rất đẹp', từ nào là tính từ?",
+          "options": [
+            "Cuốn sách",
+            "đẹp",
+            "rất",
+            "Cả A, B, C"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'đẹp' là tính từ chỉ đặc điểm, tính chất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "trang sách",
+            "trang sách",
+            "trang sách",
+            "trang sách"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'trang sách' (trang với chữ tr, sách với chữ s).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Khi trang sách mở ra', trang sách mở ra để làm gì?",
+          "options": [
+            "Đọc sách",
+            "Xem tranh",
+            "Cả A và B",
+            "Không làm gì"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trang sách mở ra để đọc sách và xem tranh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa R được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa R viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu ngoặc kép đúng?",
+          "options": [
+            "Em đọc sách Truyện cổ tích.",
+            "Em đọc sách! Truyện cổ tích.",
+            "Em đọc sách? Truyện cổ tích.",
+            "Em đọc sách 'Truyện cổ tích'."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Dấu ngoặc kép dùng để đánh dấu tên sách, tên bài.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "đọc sách",
+            "đọc sách",
+            "đọc sách",
+            "đọc sách"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'đọc sách' (đọc với chữ đ, sách với chữ s).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về việc đọc sách, em nên kể những gì?",
+          "options": [
+            "Tên sách",
+            "Nội dung thích",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về việc đọc sách, em nên kể tên sách và nội dung em thích.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "week": 11,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-11",
+      "title": "Niềm vui tuổi thơ (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Chữ A và những người bạn', chữ A có những người bạn nào?",
+          "options": [
+            "Tất cả các chữ cái",
+            "Chữ B, C, D",
+            "Chữ E, F, G",
+            "Không có bạn"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chữ A có tất cả các chữ cái khác làm bạn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "chữ cái",
+            "chữ cái",
+            "chữ cái",
+            "chữ cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'chữ cái' (chữ với chữ ch, cái với chữ c).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'chữ cái' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Chữ cái' là danh từ chỉ sự vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa X được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa X viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi học chữ cái, em nên học như thế nào?",
+          "options": [
+            "Đọc tên chữ",
+            "Cả A và B",
+            "Viết chữ",
+            "Không học gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi học chữ cái, em nên đọc tên chữ và viết chữ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Chữ A có nhiều bạn', từ nào là tính từ?",
+          "options": [
+            "Chữ A",
+            "nhiều",
+            "có",
+            "bạn"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'nhiều' là tính từ chỉ số lượng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "nhím nâu",
+            "nhím nâu",
+            "nhím nâu",
+            "nhím nâu"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'nhím nâu' (nhím với chữ nh, nâu với chữ n).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Nhím Nâu kết bạn', Nhím Nâu kết bạn với ai?",
+          "options": [
+            "Các cây cối",
+            "Các đồ vật",
+            "Các con vật khác",
+            "Không kết bạn với ai"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Nhím Nâu kết bạn với các con vật khác.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Y được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Y viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu ngoặc đơn đúng?",
+          "options": [
+            "Chữ A chữ cái đầu tiên có nhiều bạn.",
+            "Chữ A! chữ cái đầu tiên có nhiều bạn.",
+            "Chữ A? chữ cái đầu tiên có nhiều bạn.",
+            "Chữ A (chữ cái đầu tiên) có nhiều bạn."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Dấu ngoặc đơn dùng để giải thích, bổ sung thông tin.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "kết bạn",
+            "kết bạn",
+            "kết bạn",
+            "kết bạn"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'kết bạn' (kết với chữ k, bạn với chữ b).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về việc kết bạn, em nên kể những gì?",
+          "options": [
+            "Cách kết bạn",
+            "Lý do kết bạn",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về việc kết bạn, em nên kể cách kết bạn và lý do kết bạn.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "week": 4,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-4",
+      "title": "Mái ấm gia đình (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Cây xấu hổ', cây xấu hổ có đặc điểm gì?",
+          "options": [
+            "Lá cụp lại khi chạm vào",
+            "Lá luôn mở rộng",
+            "Lá không bao giờ cụp",
+            "Lá cụp lại khi có gió"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Cây xấu hổ có đặc điểm lá cụp lại khi chạm vào.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "xấu hổ",
+            "xấu hổ",
+            "xấu hổ",
+            "xấu hổ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'xấu hổ' (xấu với chữ x, hổ với chữ h).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'xấu hổ' thuộc loại từ gì?",
+          "options": [
+            "Tính từ",
+            "Danh từ",
+            "Động từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Xấu hổ' là tính từ chỉ cảm xúc, tình cảm.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa H được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét ngang",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa H viết với nét thẳng và nét ngang.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi quan sát cây cối, em nên quan sát những gì?",
+          "options": [
+            "Hình dáng lá",
+            "Cả A và B",
+            "Màu sắc",
+            "Không quan sát gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi quan sát cây cối, em nên quan sát hình dáng lá và màu sắc.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Cây xấu hổ cụp lá lại', từ nào là động từ?",
+          "options": [
+            "Cây",
+            "cụp",
+            "xấu hổ",
+            "lá"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'cụp' là động từ chỉ hành động.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "cầu thủ",
+            "cầu thủ",
+            "cầu thủ",
+            "cầu thủ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'cầu thủ' (cầu với chữ c, thủ với chữ th).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Cầu thủ dự bị', cầu thủ dự bị là gì?",
+          "options": [
+            "Cầu thủ đang chơi",
+            "Cầu thủ đã nghỉ",
+            "Cầu thủ ngồi trên ghế dự bị",
+            "Cầu thủ bị thương"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Cầu thủ dự bị là cầu thủ ngồi trên ghế dự bị, chờ được vào sân.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa I được viết như thế nào?",
+          "options": [
+            "Nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa I viết với nét thẳng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu phẩy đúng?",
+          "options": [
+            "Em học bài làm bài tập.",
+            "Em học bài! làm bài tập.",
+            "Em học bài? làm bài tập.",
+            "Em học bài, làm bài tập."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Dấu phẩy dùng để ngăn cách các thành phần trong câu.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "dự bị",
+            "dự bị",
+            "dự bị",
+            "dự bị"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'dự bị' (dự với chữ d, bị với chữ b).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về trò chơi thể thao, em nên kể những gì?",
+          "options": [
+            "Tên trò chơi",
+            "Luật chơi",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về trò chơi thể thao, em nên kể tên trò chơi và luật chơi.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

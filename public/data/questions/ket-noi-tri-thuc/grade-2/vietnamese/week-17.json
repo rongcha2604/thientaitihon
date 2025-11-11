@@ -1,0 +1,183 @@
+{
+  "week": 17,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-17",
+      "title": "Mái ấm gia đình (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Ánh sáng của yêu thương', ánh sáng tượng trưng cho điều gì?",
+          "options": [
+            "Tình yêu thương",
+            "Ánh sáng mặt trời",
+            "Ánh sáng đèn",
+            "Ánh sáng trăng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Ánh sáng tượng trưng cho tình yêu thương trong gia đình.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "ánh sáng",
+            "ánh sáng",
+            "ánh sáng",
+            "ánh sáng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'ánh sáng' (ánh với chữ á, sáng với chữ s).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'ánh sáng' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Ánh sáng' là danh từ chỉ sự vật, hiện tượng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi nói về tình yêu thương, em nên nói những gì?",
+          "options": [
+            "Biểu hiện của yêu thương",
+            "Cả A và B",
+            "Cảm nghĩ",
+            "Không nói gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi nói về tình yêu thương, em có thể nói biểu hiện và cảm nghĩ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Ánh sáng tỏa sáng khắp nơi', từ nào là động từ?",
+          "options": [
+            "Ánh sáng",
+            "tỏa sáng",
+            "khắp",
+            "nơi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'tỏa sáng' là động từ chỉ hành động.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "chơi chông chóng",
+            "chơi chông chóng",
+            "chơi chông chóng",
+            "chơi chông chóng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'chơi chông chóng' (chơi với chữ ch, chông với chữ ch, chóng với chữ ch).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Chơi chông chóng', chông chóng là gì?",
+          "options": [
+            "Đồ chơi bay",
+            "Đồ chơi nhảy",
+            "Đồ chơi quay",
+            "Đồ chơi chạy"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chông chóng là đồ chơi quay, có cánh quay khi có gió.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm hỏi đúng?",
+          "options": [
+            "Chông chóng quay như thế nào.",
+            "Chông chóng quay như thế nào!",
+            "Chông chóng quay như thế nào,",
+            "Chông chóng quay như thế nào?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu hỏi phải kết thúc bằng dấu chấm hỏi (?).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "đồ chơi",
+            "đồ chơi",
+            "đồ chơi",
+            "đồ chơi"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'đồ chơi' (đồ với chữ đ, chơi với chữ ch).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về đồ chơi quay, em nên kể những gì?",
+          "options": [
+            "Cách chơi",
+            "Cảm giác khi chơi",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về đồ chơi quay, em nên kể cách chơi và cảm giác khi chơi.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

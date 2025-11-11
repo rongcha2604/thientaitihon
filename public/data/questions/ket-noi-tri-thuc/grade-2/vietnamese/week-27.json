@@ -1,0 +1,183 @@
+{
+  "week": 27,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-27",
+      "title": "Ôn tập giữa học kì II",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Những cách chào độc đáo', có những cách chào nào?",
+          "options": [
+            "Nhiều cách chào khác nhau",
+            "Chỉ một cách chào",
+            "Không có cách chào nào",
+            "Chỉ chào bằng tay"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Có nhiều cách chào độc đáo khác nhau tùy theo văn hóa.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "chào hỏi",
+            "chào hỏi",
+            "chào hỏi",
+            "chào hỏi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'chào hỏi' (chào với chữ ch, hỏi với chữ h).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'chào hỏi' thuộc loại từ gì?",
+          "options": [
+            "Động từ",
+            "Danh từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Chào hỏi' là động từ chỉ hành động.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi chào hỏi, em nên làm gì?",
+          "options": [
+            "Nói lời chào",
+            "Cả A và B",
+            "Cử chỉ lịch sự",
+            "Không làm gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi chào hỏi, em nên nói lời chào và có cử chỉ lịch sự.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Em chào cô giáo', từ nào là danh từ?",
+          "options": [
+            "Em",
+            "cô giáo",
+            "chào",
+            "Cả A, B, C"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'cô giáo' là danh từ chỉ người.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "thư viện",
+            "thư viện",
+            "thư viện",
+            "thư viện"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'thư viện' (thư với chữ th, viện với chữ v).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Thư viện biết đi', thư viện biết đi là gì?",
+          "options": [
+            "Thư viện cố định",
+            "Thư viện nhỏ",
+            "Thư viện di động",
+            "Thư viện lớn"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Thư viện biết đi là thư viện di động, có thể di chuyển.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm hỏi đúng?",
+          "options": [
+            "Thư viện ở đâu.",
+            "Thư viện ở đâu!",
+            "Thư viện ở đâu,",
+            "Thư viện ở đâu?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu hỏi phải kết thúc bằng dấu chấm hỏi (?).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "sách vở",
+            "sách vở",
+            "sách vở",
+            "sách vở"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'sách vở' (sách với chữ s, vở với chữ v).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về thư viện, em nên kể những gì?",
+          "options": [
+            "Vị trí",
+            "Sách trong thư viện",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về thư viện, em nên kể vị trí và sách trong thư viện.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

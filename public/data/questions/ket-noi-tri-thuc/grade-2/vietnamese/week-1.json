@@ -1,0 +1,183 @@
+{
+  "week": 1,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "Em lớn lên từng ngày",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Tôi là học sinh lớp 2', nhân vật chính là ai?",
+          "options": [
+            "Học sinh lớp 2",
+            "Học sinh lớp 1",
+            "Học sinh lớp 3",
+            "Học sinh lớp 4"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Bài đọc nói về học sinh lớp 2, nên nhân vật chính là học sinh lớp 2.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "học sinh",
+            "học sin",
+            "học xinh",
+            "học xinh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'học sinh' (sinh với chữ s).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'học sinh' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Học sinh' là danh từ chỉ người, chỉ người đi học.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa A được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa A viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi giới thiệu bản thân, em nên nói như thế nào?",
+          "options": [
+            "Xin chào, tôi là...",
+            "Cả A, B, C đều đúng",
+            "Chào bạn, mình là...",
+            "Xin chào, em là..."
+          ],
+          "correctAnswer": 1,
+          "explanation": "Có nhiều cách giới thiệu bản thân, tùy vào hoàn cảnh và đối tượng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Tôi là học sinh lớp 2', từ nào là động từ?",
+          "options": [
+            "Tôi",
+            "là",
+            "học sinh",
+            "lớp 2"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'là' là động từ nối, dùng để giới thiệu, định nghĩa.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết sai chính tả?",
+          "options": [
+            "ngày hôm qua",
+            "ngày hôm quà",
+            "ngày hôm quá",
+            "ngày hôm quả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'ngày hôm qua' (qua với chữ q), không phải 'quá'.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Ngày hôm qua đâu rồi?', tác giả muốn nói về điều gì?",
+          "options": [
+            "Ngày hôm qua bị mất",
+            "Tìm ngày hôm qua",
+            "Thời gian trôi qua",
+            "Ngày hôm qua quay lại"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Bài thơ nói về thời gian trôi qua, ngày hôm qua đã qua đi không thể quay lại.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa B được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và hai nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa B viết với nét thẳng và hai nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm hỏi đúng?",
+          "options": [
+            "Bạn tên là gì.",
+            "Bạn tên là gì!",
+            "Bạn tên là gì,",
+            "Bạn tên là gì?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu hỏi phải kết thúc bằng dấu chấm hỏi (?).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "lớp họ",
+            "lớp hộc",
+            "lớp hộc",
+            "lớp học"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'lớp học' (học với chữ h và c).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về bản thân, em nên kể những gì?",
+          "options": [
+            "Tên, tuổi, lớp",
+            "Sở thích, gia đình",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về bản thân, em có thể kể tên, tuổi, lớp, sở thích, gia đình...",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

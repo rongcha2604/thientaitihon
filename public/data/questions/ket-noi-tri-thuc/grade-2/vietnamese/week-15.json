@@ -1,0 +1,183 @@
+{
+  "week": 15,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-15",
+      "title": "Mái ấm gia đình",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Mẹ', bài thơ nói về ai?",
+          "options": [
+            "Mẹ",
+            "Bố",
+            "Anh chị",
+            "Bạn bè"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Bài thơ nói về mẹ, người mẹ yêu thương con.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "mẹ yêu",
+            "mẹ yêu",
+            "mẹ yêu",
+            "mẹ yêu"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'mẹ yêu' (mẹ với chữ m, yêu với chữ y).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'mẹ yêu' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Mẹ yêu' là danh từ chỉ người, chỉ mối quan hệ gia đình.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Â được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Â viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi nói về mẹ, em nên nói những gì?",
+          "options": [
+            "Tên mẹ",
+            "Cả A và B",
+            "Tình cảm với mẹ",
+            "Không nói gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi nói về mẹ, em có thể nói tên mẹ và tình cảm với mẹ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Mẹ yêu thương con', từ nào là động từ?",
+          "options": [
+            "Mẹ",
+            "yêu thương",
+            "con",
+            "Cả A, B, C"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'yêu thương' là động từ chỉ tình cảm, hành động.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "trò chơi",
+            "trò chơi",
+            "trò chơi",
+            "trò chơi"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'trò chơi' (trò với chữ tr, chơi với chữ ch).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Trò chơi của bố', bố chơi trò chơi gì với em?",
+          "options": [
+            "Chỉ một trò chơi",
+            "Không chơi gì",
+            "Nhiều trò chơi khác nhau",
+            "Chơi điện tử"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Bố chơi nhiều trò chơi khác nhau với em.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ô được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ô viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm than đúng?",
+          "options": [
+            "Bố yêu con lắm.",
+            "Bố yêu con lắm?",
+            "Bố yêu con lắm,",
+            "Bố yêu con lắm!"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu cảm thán phải kết thúc bằng dấu chấm than (!).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "bố mẹ",
+            "bố mẹ",
+            "bố mẹ",
+            "bố mẹ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'bố mẹ' (bố với chữ b, mẹ với chữ m).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về bố, em nên kể những gì?",
+          "options": [
+            "Tên bố",
+            "Tính cách",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về bố, em nên kể tên bố và tính cách của bố.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

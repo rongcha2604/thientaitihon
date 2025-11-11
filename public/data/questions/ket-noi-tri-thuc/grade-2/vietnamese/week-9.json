@@ -1,0 +1,183 @@
+{
+  "week": 9,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-9",
+      "title": "Ôn tập giữa học kì I",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong tuần ôn tập giữa học kì I, em cần ôn tập những gì?",
+          "options": [
+            "Cả A và B",
+            "Tập đọc",
+            "Chính tả",
+            "Không ôn tập gì"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong tuần ôn tập, em cần ôn tập tất cả các nội dung đã học, bao gồm Tập đọc và Chính tả.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "ôn tập",
+            "ôn tập",
+            "ôn tập",
+            "ôn tập"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'ôn tập' (ôn với chữ ô, tập với chữ t).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'ôn tập' thuộc loại từ gì?",
+          "options": [
+            "Động từ",
+            "Danh từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Ôn tập' là động từ chỉ hành động.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa S được viết như thế nào?",
+          "options": [
+            "Nét thẳng",
+            "Nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa S viết với nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi ôn tập, em nên làm gì?",
+          "options": [
+            "Đọc lại bài cũ",
+            "Cả A và B",
+            "Làm bài tập",
+            "Không làm gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi ôn tập, em nên đọc lại bài cũ và làm bài tập.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Em ôn tập bài cũ', từ nào là danh từ?",
+          "options": [
+            "Em",
+            "bài",
+            "ôn tập",
+            "cũ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'bài' là danh từ chỉ sự vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "kiểm tra",
+            "kiểm tra",
+            "kiểm tra",
+            "kiểm tra"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'kiểm tra' (kiểm với chữ k, tra với chữ tr).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong tuần ôn tập, em sẽ làm gì?",
+          "options": [
+            "Làm bài kiểm tra",
+            "Ôn tập bài cũ",
+            "Cả A và B",
+            "Không làm gì"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong tuần ôn tập, em sẽ ôn tập bài cũ và làm bài kiểm tra.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa T được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang",
+            "Nét thẳng và nét cong"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa T viết với nét thẳng và nét ngang.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm phẩy đúng?",
+          "options": [
+            "Em học Toán, Tiếng Việt.",
+            "Em học Toán! Tiếng Việt.",
+            "Em học Toán? Tiếng Việt.",
+            "Em học Toán; Tiếng Việt."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Dấu chấm phẩy dùng để ngăn cách các mục trong danh sách.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "học kì",
+            "học kì",
+            "học kì",
+            "học kì"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'học kì' (học với chữ h, kì với chữ k).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi chuẩn bị kiểm tra, em cần làm gì?",
+          "options": [
+            "Ôn tập bài cũ",
+            "Chuẩn bị đồ dùng",
+            "Không làm gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi chuẩn bị kiểm tra, em cần ôn tập bài cũ và chuẩn bị đồ dùng.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

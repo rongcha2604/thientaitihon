@@ -1,0 +1,183 @@
+{
+  "week": 24,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-24",
+      "title": "Hành trình xanh của em",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Bờ tre đón khách', bờ tre đón khách như thế nào?",
+          "options": [
+            "Nhiệt tình, thân thiện",
+            "Lạnh lùng",
+            "Xa cách",
+            "Không đón"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Bờ tre đón khách nhiệt tình, thân thiện.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "bờ tre",
+            "bờ tre",
+            "bờ tre",
+            "bờ tre"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'bờ tre' (bờ với chữ b, tre với chữ tr).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'bờ tre' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Bờ tre' là danh từ chỉ địa điểm, nơi chốn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Â được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Â viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi kể về bờ tre, em nên kể những gì?",
+          "options": [
+            "Vị trí",
+            "Cả A và B",
+            "Cảnh vật",
+            "Không kể gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi kể về bờ tre, em nên kể vị trí và cảnh vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Bờ tre đón khách', từ nào là động từ?",
+          "options": [
+            "Bờ tre",
+            "đón",
+            "khách",
+            "Cả A, B, C"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'đón' là động từ chỉ hành động.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "tiếng chổi tre",
+            "tiếng chổi tre",
+            "tiếng chổi tre",
+            "tiếng chổi tre"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'tiếng chổi tre' (tiếng với chữ t, chổi với chữ ch, tre với chữ tr).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Tiếng chổi tre', tiếng chổi tre là gì?",
+          "options": [
+            "Âm thanh gió thổi",
+            "Âm thanh mưa rơi",
+            "Âm thanh quét rác",
+            "Âm thanh chim hót"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tiếng chổi tre là âm thanh quét rác, làm sạch đường phố.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ô được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ô viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm than đúng?",
+          "options": [
+            "Tiếng chổi tre kêu xào xạc.",
+            "Tiếng chổi tre kêu xào xạc?",
+            "Tiếng chổi tre kêu xào xạc,",
+            "Tiếng chổi tre kêu xào xạc!"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu cảm thán phải kết thúc bằng dấu chấm than (!).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "cỏ non",
+            "cỏ non",
+            "cỏ non",
+            "cỏ non"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'cỏ non' (cỏ với chữ c, non với chữ n).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Cỏ non cười rồi', cỏ non cười vì sao?",
+          "options": [
+            "Vui mừng",
+            "Hạnh phúc",
+            "Không cười gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Cỏ non cười vì vui mừng và hạnh phúc.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

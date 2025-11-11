@@ -1,0 +1,183 @@
+{
+  "week": 2,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-2",
+      "title": "Em lớn lên từng ngày (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Niềm vui của Bi và Bống', Bi và Bống là ai?",
+          "options": [
+            "Cả A, B, C đều có thể",
+            "Hai bạn học sinh",
+            "Hai anh em",
+            "Hai người bạn"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Bi và Bống có thể là bạn học, anh em, hoặc bạn bè, tùy vào cách hiểu của người đọc.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "niềm vui",
+            "niềm vùi",
+            "niềm vui",
+            "niềm vùi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'niềm vui' (vui với chữ v và u).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'niềm vui' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Niềm vui' là danh từ chỉ cảm xúc, tình cảm.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa C được viết như thế nào?",
+          "options": [
+            "Nét thẳng",
+            "Nét cong",
+            "Nét ngang",
+            "Nét thẳng và nét cong"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa C viết với nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi kể về niềm vui, em nên kể như thế nào?",
+          "options": [
+            "Kể ngắn gọn",
+            "Cả A, B, C đều đúng",
+            "Kể chi tiết",
+            "Kể có cảm xúc"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi kể về niềm vui, em có thể kể ngắn gọn, chi tiết, và có cảm xúc.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Làm việc thật là vui', từ nào là tính từ?",
+          "options": [
+            "Làm",
+            "vui",
+            "việc",
+            "thật"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'vui' là tính từ chỉ cảm xúc, tình cảm.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "làm việc",
+            "làm việc",
+            "làm việc",
+            "làm việc"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'làm việc' (làm với chữ l, việc với chữ v).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Bài 'Làm việc thật là vui' muốn nói về điều gì?",
+          "options": [
+            "Làm việc rất mệt",
+            "Làm việc rất khó",
+            "Làm việc rất vui",
+            "Làm việc rất chán"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Bài đọc muốn nói rằng làm việc thật là vui, giúp ta cảm thấy hạnh phúc.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa D được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa D viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm than đúng?",
+          "options": [
+            "Làm việc thật là vui.",
+            "Làm việc thật là vui?",
+            "Làm việc thật là vui,",
+            "Làm việc thật là vui!"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu cảm thán phải kết thúc bằng dấu chấm than (!).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "hạnh phúc",
+            "hạnh phúc",
+            "hạnh phúc",
+            "hạnh phúc"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'hạnh phúc' (hạnh với chữ h, phúc với chữ ph).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về công việc em thích làm, em nên kể những gì?",
+          "options": [
+            "Tên công việc",
+            "Lý do thích",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về công việc em thích, em nên kể tên công việc và lý do thích.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

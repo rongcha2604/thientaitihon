@@ -121,13 +121,10 @@ const loadSelection = (user: User | null) => {
         const stored = localStorage.getItem(selectionKey);
         if (stored) {
             const parsed = JSON.parse(stored);
+            // Ưu tiên localStorage hơn user.grade để giữ selection của user
             return {
                 selectedBook: parsed.selectedBook || bookSeries[0].name,
-                // Nếu có user.grade và valid, ưu tiên user.grade cho grade
-                // Nhưng vẫn giữ selectedSubject và selectedBook từ localStorage
-                selectedGrade: (user?.grade && user.grade >= 1 && user.grade <= 5) 
-                    ? user.grade 
-                    : (parsed.selectedGrade || grades[0]),
+                selectedGrade: parsed.selectedGrade || (user?.grade && user.grade >= 1 && user.grade <= 5 ? user.grade : grades[0]),
                 selectedSubject: parsed.selectedSubject || subjects[0].name,
             };
         }
@@ -189,11 +186,17 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
     const [weeks, setWeeks] = useState<Week[]>([]);
     
     // Auto-update selectedGrade when user.grade changes (e.g., after login)
+    // CHỈ update nếu chưa có selection trong localStorage (để không override selection của user)
     useEffect(() => {
         if (user?.grade && user.grade >= 1 && user.grade <= 5) {
-            setSelectedGrade(user.grade);
+            const selectionKey = getSelectionKey(user?.id || null);
+            const stored = localStorage.getItem(selectionKey);
+            // Chỉ update nếu chưa có selection trong localStorage
+            if (!stored) {
+                setSelectedGrade(user.grade);
+            }
         }
-    }, [user?.grade]);
+    }, [user?.grade, user?.id]);
     
     // Reload selection when component mounts or user changes (khi quay lại từ ExercisePage)
     useEffect(() => {
@@ -202,6 +205,21 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
         setSelectedGrade(reloadedSelection.selectedGrade);
         setSelectedSubject(reloadedSelection.selectedSubject);
     }, [user?.id]); // Reload khi user thay đổi (login/logout) hoặc component mount lại
+    
+    // Reload selection khi quay lại từ ExercisePage
+    useEffect(() => {
+        const handleExercisePageClosed = () => {
+            const reloadedSelection = loadSelection(user);
+            setSelectedBook(reloadedSelection.selectedBook);
+            setSelectedGrade(reloadedSelection.selectedGrade);
+            setSelectedSubject(reloadedSelection.selectedSubject);
+        };
+        
+        window.addEventListener('exercisePageClosed', handleExercisePageClosed);
+        return () => {
+            window.removeEventListener('exercisePageClosed', handleExercisePageClosed);
+        };
+    }, [user]);
     
     // Save selection when changed (gắn với user ID)
     useEffect(() => {

@@ -1,0 +1,183 @@
+{
+  "week": 26,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-26",
+      "title": "Hành trình xanh của em (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong tuần ôn tập giữa học kì II, em cần ôn tập những gì?",
+          "options": [
+            "Tất cả nội dung đã học",
+            "Chỉ Tập đọc",
+            "Chỉ Chính tả",
+            "Không ôn tập gì"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong tuần ôn tập giữa học kì, em cần ôn tập tất cả nội dung đã học.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "giữa học kì",
+            "giữa học kì",
+            "giữa học kì",
+            "giữa học kì"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'giữa học kì' (giữa với chữ g, học với chữ h, kì với chữ k).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'giữa học kì' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Giữa học kì' là danh từ chỉ thời gian.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi ôn tập giữa học kì, em nên làm gì?",
+          "options": [
+            "Ôn tập tất cả bài",
+            "Cả A và B",
+            "Làm bài kiểm tra",
+            "Không làm gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi ôn tập giữa học kì, em nên ôn tập tất cả bài và làm bài kiểm tra.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Em ôn tập để thi', từ nào là động từ?",
+          "options": [
+            "Em",
+            "thi",
+            "ôn tập",
+            "để"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'thi' là động từ chỉ hành động.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "kiểm tra",
+            "kiểm tra",
+            "kiểm tra",
+            "kiểm tra"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'kiểm tra' (kiểm với chữ k, tra với chữ tr).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong tuần kiểm tra giữa học kì, em sẽ làm gì?",
+          "options": [
+            "Làm bài kiểm tra",
+            "Nhận kết quả",
+            "Cả A và B",
+            "Không làm gì"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong tuần kiểm tra, em sẽ làm bài kiểm tra và nhận kết quả.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm đúng?",
+          "options": [
+            "Em đã hoàn thành kiểm tra?",
+            "Em đã hoàn thành kiểm tra!",
+            "Em đã hoàn thành kiểm tra,",
+            "Em đã hoàn thành kiểm tra."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu kể phải kết thúc bằng dấu chấm (.).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "hoàn thành",
+            "hoàn thành",
+            "hoàn thành",
+            "hoàn thành"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'hoàn thành' (hoàn với chữ h, thành với chữ th).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi chuẩn bị kiểm tra giữa học kì, em cần làm gì?",
+          "options": [
+            "Ôn tập kỹ",
+            "Chuẩn bị tinh thần",
+            "Không làm gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi chuẩn bị kiểm tra giữa học kì, em cần ôn tập kỹ và chuẩn bị tinh thần.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

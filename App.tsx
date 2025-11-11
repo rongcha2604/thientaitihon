@@ -73,6 +73,8 @@ const App: React.FC = () => {
   const handleBackFromExercise = () => {
     setIsExerciseMode(false);
     setExerciseData(null);
+    // Dispatch event để HocPage reload selection khi quay lại
+    window.dispatchEvent(new Event('exercisePageClosed'));
   };
 
   const handleNavigate = (page: 'Hoc' | 'OnTap' | 'Album' | 'HoSo' | 'PhuHuynh') => {

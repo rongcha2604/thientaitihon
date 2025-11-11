@@ -1,0 +1,183 @@
+{
+  "week": 12,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-12",
+      "title": "Niềm vui tuổi thơ (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Thả diều', bài thơ nói về hoạt động gì?",
+          "options": [
+            "Thả diều",
+            "Thả chim",
+            "Thả cá",
+            "Thả bóng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Bài thơ nói về hoạt động thả diều.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "thả diều",
+            "thả diều",
+            "thả diều",
+            "thả diều"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'thả diều' (thả với chữ th, diều với chữ d).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'thả diều' thuộc loại từ gì?",
+          "options": [
+            "Động từ",
+            "Danh từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Thả diều' là động từ chỉ hành động.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Z được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Z viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi kể về hoạt động thả diều, em nên kể những gì?",
+          "options": [
+            "Cách thả diều",
+            "Cả A và B",
+            "Cảm giác khi thả diều",
+            "Không kể gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi kể về hoạt động thả diều, em nên kể cách thả diều và cảm giác khi thả diều.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Diều bay cao trên trời', từ nào là tính từ?",
+          "options": [
+            "Diều",
+            "cao",
+            "bay",
+            "trời"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'cao' là tính từ chỉ đặc điểm, tính chất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "Lê- Gô",
+            "Lê- Gô",
+            "Lê- Gô",
+            "Lê- Gô"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'Lê- Gô' (Lê với chữ L, Gô với chữ G).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Tớ là Lê- Gô', Lê- Gô là gì?",
+          "options": [
+            "Tên người",
+            "Tên con vật",
+            "Tên đồ chơi",
+            "Tên cây cối"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Lê- Gô là tên một loại đồ chơi xếp hình.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Đ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Đ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu gạch ngang đúng?",
+          "options": [
+            "Tớ là Lê Gô.",
+            "Tớ là Lê! Gô.",
+            "Tớ là Lê? Gô.",
+            "Tớ là Lê- Gô."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Dấu gạch ngang dùng để nối các từ trong tên riêng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "đồ chơi",
+            "đồ chơi",
+            "đồ chơi",
+            "đồ chơi"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'đồ chơi' (đồ với chữ đ, chơi với chữ ch).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về đồ chơi, em nên kể những gì?",
+          "options": [
+            "Tên đồ chơi",
+            "Cách chơi",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về đồ chơi, em nên kể tên đồ chơi và cách chơi.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

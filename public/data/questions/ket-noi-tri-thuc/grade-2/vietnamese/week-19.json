@@ -1,0 +1,183 @@
+{
+  "week": 19,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-19",
+      "title": "Vẻ đẹp quanh em",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Chuyện bốn mùa', bốn mùa là gì?",
+          "options": [
+            "Xuân, Hạ, Thu, Đông",
+            "Xuân, Hạ, Thu, Đông",
+            "Xuân, Hạ, Thu, Đông",
+            "Xuân, Hạ, Thu, Đông"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Bốn mùa là Xuân, Hạ, Thu, Đông.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "bốn mùa",
+            "bốn mùa",
+            "bốn mùa",
+            "bốn mùa"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'bốn mùa' (bốn với chữ b, mùa với chữ m).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'bốn mùa' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Bốn mùa' là danh từ chỉ thời gian.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa V được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa V viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi kể về bốn mùa, em nên kể những gì?",
+          "options": [
+            "Đặc điểm từng mùa",
+            "Cả A và B",
+            "Thời tiết",
+            "Không kể gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi kể về bốn mùa, em nên kể đặc điểm từng mùa và thời tiết.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Mùa xuân ấm áp', từ nào là tính từ?",
+          "options": [
+            "Mùa xuân",
+            "ấm áp",
+            "Cả A và B",
+            "Không có tính từ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'ấm áp' là tính từ chỉ đặc điểm, tính chất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "mùa nước nổi",
+            "mùa nước nổi",
+            "mùa nước nổi",
+            "mùa nước nổi"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'mùa nước nổi' (mùa với chữ m, nước với chữ n, nổi với chữ n).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Mùa nước nổi', mùa nước nổi là mùa gì?",
+          "options": [
+            "Mùa khô",
+            "Mùa mưa",
+            "Mùa lũ",
+            "Mùa nắng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Mùa nước nổi là mùa lũ, nước dâng cao.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa W được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa W viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm đúng?",
+          "options": [
+            "Mùa nước nổi đến rồi?",
+            "Mùa nước nổi đến rồi!",
+            "Mùa nước nổi đến rồi,",
+            "Mùa nước nổi đến rồi."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu kể phải kết thúc bằng dấu chấm (.).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "thời tiết",
+            "thời tiết",
+            "thời tiết",
+            "thời tiết"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'thời tiết' (thời với chữ th, tiết với chữ t).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về thời tiết, em nên kể những gì?",
+          "options": [
+            "Nhiệt độ",
+            "Mưa, nắng",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về thời tiết, em nên kể nhiệt độ và mưa, nắng.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

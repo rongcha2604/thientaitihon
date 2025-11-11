@@ -1,0 +1,183 @@
+{
+  "week": 22,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-22",
+      "title": "Vẻ đẹp quanh em (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Hạt thóc', hạt thóc có vai trò gì?",
+          "options": [
+            "Cả A và B",
+            "Làm lương thực",
+            "Làm thức ăn",
+            "Không có vai trò gì"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hạt thóc có vai trò làm lương thực và thức ăn cho con người.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "hạt thóc",
+            "hạt thóc",
+            "hạt thóc",
+            "hạt thóc"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'hạt thóc' (hạt với chữ h, thóc với chữ th).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'hạt thóc' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Hạt thóc' là danh từ chỉ sự vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ê được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Ê viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi kể về hạt thóc, em nên kể những gì?",
+          "options": [
+            "Hình dáng",
+            "Cả A và B",
+            "Công dụng",
+            "Không kể gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi kể về hạt thóc, em nên kể hình dáng và công dụng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Hạt thóc nhỏ bé', từ nào là tính từ?",
+          "options": [
+            "Hạt thóc",
+            "nhỏ bé",
+            "Cả A và B",
+            "Không có tính từ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'nhỏ bé' là tính từ chỉ đặc điểm, tính chất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "lũy tre",
+            "lũy tre",
+            "lũy tre",
+            "lũy tre"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'lũy tre' (lũy với chữ l, tre với chữ tr).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Lũy tre', lũy tre là gì?",
+          "options": [
+            "Cây tre đơn lẻ",
+            "Rừng tre",
+            "Hàng tre dày",
+            "Vườn tre"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Lũy tre là hàng tre dày, mọc thành hàng dài.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ơ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét cong và nét móc",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ơ viết với nét cong và nét móc.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm đúng?",
+          "options": [
+            "Lũy tre xanh mướt?",
+            "Lũy tre xanh mướt!",
+            "Lũy tre xanh mướt,",
+            "Lũy tre xanh mướt."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu kể phải kết thúc bằng dấu chấm (.).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "cây tre",
+            "cây tre",
+            "cây tre",
+            "cây tre"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'cây tre' (cây với chữ c, tre với chữ tr).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về lũy tre, em nên kể những gì?",
+          "options": [
+            "Vị trí",
+            "Đặc điểm",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về lũy tre, em nên kể vị trí và đặc điểm.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "week": 28,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-28",
+      "title": "Giao tiếp và kết nối",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Cảm ơn anh hà mã', em cảm ơn anh hà mã vì sao?",
+          "options": [
+            "Cả A và B",
+            "Anh giúp đỡ em",
+            "Anh yêu thương em",
+            "Không cảm ơn gì"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Em cảm ơn anh hà mã vì anh giúp đỡ và yêu thương em.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "cảm ơn",
+            "cảm ơn",
+            "cảm ơn",
+            "cảm ơn"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'cảm ơn' (cảm với chữ c, ơn với chữ ơ).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'cảm ơn' thuộc loại từ gì?",
+          "options": [
+            "Động từ",
+            "Danh từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Cảm ơn' là động từ chỉ hành động, lời nói.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi nói lời cảm ơn, em nên nói như thế nào?",
+          "options": [
+            "Chân thành",
+            "Cả A và B",
+            "Lịch sự",
+            "Không nói gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi nói lời cảm ơn, em nên nói chân thành và lịch sự.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Em cảm ơn anh', từ nào là đại từ?",
+          "options": [
+            "cảm ơn",
+            "Em",
+            "anh",
+            "Cả A và C"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'Em' là đại từ chỉ người nói.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "in-tơ-nét",
+            "in-tơ-nét",
+            "in-tơ-nét",
+            "in-tơ-nét"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'in-tơ-nét' (in với chữ i, tơ với chữ t, nét với chữ n).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Từ chú bồ câu đến in-tơ-nét', bài đọc nói về điều gì?",
+          "options": [
+            "Sự phát triển của thông tin",
+            "Sự phát triển của công nghệ",
+            "Cả A và B",
+            "Không nói gì"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Bài đọc nói về sự phát triển của thông tin và công nghệ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm đúng?",
+          "options": [
+            "In-tơ-nét rất tiện lợi?",
+            "In-tơ-nét rất tiện lợi!",
+            "In-tơ-nét rất tiện lợi,",
+            "In-tơ-nét rất tiện lợi."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu kể phải kết thúc bằng dấu chấm (.).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "thông tin",
+            "thông tin",
+            "thông tin",
+            "thông tin"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'thông tin' (thông với chữ th, tin với chữ t).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về công nghệ, em nên kể những gì?",
+          "options": [
+            "Tên công nghệ",
+            "Công dụng",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về công nghệ, em nên kể tên công nghệ và công dụng.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

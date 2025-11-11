@@ -1,0 +1,183 @@
+{
+  "week": 30,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-30",
+      "title": "Con người Việt Nam",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Bóp nát quả cam', ai bóp nát quả cam?",
+          "options": [
+            "Trần Quốc Toản",
+            "Mai An Tiêm",
+            "Thánh Gióng",
+            "Lê Lợi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trần Quốc Toản bóp nát quả cam vì tức giận.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "bóp nát",
+            "bóp nát",
+            "bóp nát",
+            "bóp nát"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'bóp nát' (bóp với chữ b, nát với chữ n).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'bóp nát' thuộc loại từ gì?",
+          "options": [
+            "Động từ",
+            "Danh từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Bóp nát' là động từ chỉ hành động.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi kể về nhân vật lịch sử, em nên kể những gì?",
+          "options": [
+            "Tên nhân vật",
+            "Cả A và B",
+            "Sự kiện",
+            "Không kể gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi kể về nhân vật lịch sử, em nên kể tên nhân vật và sự kiện.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Trần Quốc Toản bóp nát quả cam', từ nào là danh từ?",
+          "options": [
+            "Trần Quốc Toản",
+            "quả cam",
+            "bóp nát",
+            "Cả A và C"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'quả cam' là danh từ chỉ sự vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "chiếc rễ",
+            "chiếc rễ",
+            "chiếc rễ",
+            "chiếc rễ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'chiếc rễ' (chiếc với chữ ch, rễ với chữ r).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Chiếc rễ đa tròn', chiếc rễ đa tròn là gì?",
+          "options": [
+            "Rễ cây tre",
+            "Rễ cây bàng",
+            "Rễ cây đa",
+            "Rễ cây phượng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chiếc rễ đa tròn là rễ cây đa, có hình tròn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm đúng?",
+          "options": [
+            "Chiếc rễ đa tròn?",
+            "Chiếc rễ đa tròn!",
+            "Chiếc rễ đa tròn,",
+            "Chiếc rễ đa tròn."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu kể phải kết thúc bằng dấu chấm (.).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "cây đa",
+            "cây đa",
+            "cây đa",
+            "cây đa"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'cây đa' (cây với chữ c, đa với chữ đ).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về cây đa, em nên kể những gì?",
+          "options": [
+            "Hình dáng",
+            "Vị trí",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về cây đa, em nên kể hình dáng và vị trí.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

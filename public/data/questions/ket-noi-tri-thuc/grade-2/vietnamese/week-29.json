@@ -1,0 +1,183 @@
+{
+  "week": 29,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-29",
+      "title": "Giao tiếp và kết nối (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Mai An Tiêm', Mai An Tiêm là ai?",
+          "options": [
+            "Nhân vật trong truyện cổ tích",
+            "Nhân vật lịch sử",
+            "Nhân vật hiện đại",
+            "Nhân vật tưởng tượng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Mai An Tiêm là nhân vật trong truyện cổ tích Việt Nam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "Mai An Tiêm",
+            "Mai An Tiêm",
+            "Mai An Tiêm",
+            "Mai An Tiêm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'Mai An Tiêm' (Mai với chữ M, An với chữ A, Tiêm với chữ T).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'Mai An Tiêm' thuộc loại từ gì?",
+          "options": [
+            "Danh từ riêng",
+            "Danh từ chung",
+            "Động từ",
+            "Tính từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Mai An Tiêm' là danh từ riêng chỉ tên người.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi kể về nhân vật trong truyện, em nên kể những gì?",
+          "options": [
+            "Tên nhân vật",
+            "Cả A và B",
+            "Tính cách",
+            "Không kể gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi kể về nhân vật, em nên kể tên nhân vật và tính cách.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Mai An Tiêm thông minh', từ nào là tính từ?",
+          "options": [
+            "Mai An Tiêm",
+            "thông minh",
+            "Cả A và B",
+            "Không có tính từ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'thông minh' là tính từ chỉ đặc điểm, tính chất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "thư gửi",
+            "thư gửi",
+            "thư gửi",
+            "thư gửi"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'thư gửi' (thư với chữ th, gửi với chữ g).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Thư gửi bố ngoài đảo', thư gửi cho ai?",
+          "options": [
+            "Mẹ ở nhà",
+            "Anh chị",
+            "Bố ngoài đảo",
+            "Bạn bè"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Thư gửi cho bố đang làm việc ngoài đảo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm đúng?",
+          "options": [
+            "Em viết thư cho bố?",
+            "Em viết thư cho bố!",
+            "Em viết thư cho bố,",
+            "Em viết thư cho bố."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu kể phải kết thúc bằng dấu chấm (.).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "hòn đảo",
+            "hòn đảo",
+            "hòn đảo",
+            "hòn đảo"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'hòn đảo' (hòn với chữ h, đảo với chữ đ).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi viết thư, em nên viết những gì?",
+          "options": [
+            "Lời chào",
+            "Nội dung",
+            "Không viết gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi viết thư, em nên viết lời chào và nội dung.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

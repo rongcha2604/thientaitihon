@@ -1,0 +1,183 @@
+{
+  "week": 20,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-20",
+      "title": "Vẻ đẹp quanh em (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Họa mi hót', họa mi là gì?",
+          "options": [
+            "Loài chim",
+            "Loài cá",
+            "Loài hoa",
+            "Loài cây"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Họa mi là loài chim, có tiếng hót hay.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "họa mi",
+            "họa mi",
+            "họa mi",
+            "họa mi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'họa mi' (họa với chữ h, mi với chữ m).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'họa mi' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Họa mi' là danh từ chỉ con vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa X được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa X viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi kể về loài chim, em nên kể những gì?",
+          "options": [
+            "Tên chim",
+            "Cả A và B",
+            "Đặc điểm",
+            "Không kể gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi kể về loài chim, em nên kể tên chim và đặc điểm.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Họa mi hót hay', từ nào là tính từ?",
+          "options": [
+            "Họa mi",
+            "hay",
+            "hót",
+            "Cả A, B, C"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'hay' là tính từ chỉ đặc điểm, tính chất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "Tết đến",
+            "Tết đến",
+            "Tết đến",
+            "Tết đến"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'Tết đến' (Tết với chữ T, đến với chữ đ).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Tết đến rồi', Tết là gì?",
+          "options": [
+            "Ngày nghỉ",
+            "Ngày học",
+            "Ngày lễ lớn",
+            "Ngày làm việc"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tết là ngày lễ lớn của dân tộc Việt Nam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Y được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Y viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm than đúng?",
+          "options": [
+            "Tết đến rồi.",
+            "Tết đến rồi?",
+            "Tết đến rồi,",
+            "Tết đến rồi!"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu cảm thán phải kết thúc bằng dấu chấm than (!).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "ngày lễ",
+            "ngày lễ",
+            "ngày lễ",
+            "ngày lễ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'ngày lễ' (ngày với chữ ng, lễ với chữ l).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về ngày Tết, em nên kể những gì?",
+          "options": [
+            "Hoạt động trong Tết",
+            "Món ăn",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về ngày Tết, em nên kể hoạt động trong Tết và món ăn.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

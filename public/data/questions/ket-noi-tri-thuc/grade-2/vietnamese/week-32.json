@@ -1,0 +1,183 @@
+{
+  "week": 32,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-32",
+      "title": "Con người Việt Nam (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Chuyện quả bầu', quả bầu có vai trò gì?",
+          "options": [
+            "Cứu sống con người",
+            "Làm thức ăn",
+            "Làm đồ chơi",
+            "Làm vật trang trí"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Quả bầu có vai trò cứu sống con người trong câu chuyện.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "quả bầu",
+            "quả bầu",
+            "quả bầu",
+            "quả bầu"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'quả bầu' (quả với chữ q, bầu với chữ b).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'quả bầu' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Quả bầu' là danh từ chỉ sự vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi kể về truyện cổ tích, em nên kể những gì?",
+          "options": [
+            "Tên truyện",
+            "Cả A và B",
+            "Nội dung",
+            "Không kể gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi kể về truyện cổ tích, em nên kể tên truyện và nội dung.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Quả bầu cứu sống con người', từ nào là động từ?",
+          "options": [
+            "Quả bầu",
+            "cứu sống",
+            "con người",
+            "Cả A, B, C"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'cứu sống' là động từ chỉ hành động.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "khám phá",
+            "khám phá",
+            "khám phá",
+            "khám phá"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'khám phá' (khám với chữ kh, phá với chữ ph).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Khám phá đáy biển ở Trường Sa', Trường Sa là gì?",
+          "options": [
+            "Quần đảo nước ngoài",
+            "Thành phố",
+            "Quần đảo Việt Nam",
+            "Tỉnh thành"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trường Sa là quần đảo của Việt Nam trên biển Đông.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm hỏi đúng?",
+          "options": [
+            "Trường Sa ở đâu.",
+            "Trường Sa ở đâu!",
+            "Trường Sa ở đâu,",
+            "Trường Sa ở đâu?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu hỏi phải kết thúc bằng dấu chấm hỏi (?).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "quần đảo",
+            "quần đảo",
+            "quần đảo",
+            "quần đảo"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'quần đảo' (quần với chữ q, đảo với chữ đ).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về quần đảo, em nên kể những gì?",
+          "options": [
+            "Vị trí",
+            "Đặc điểm",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về quần đảo, em nên kể vị trí và đặc điểm.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

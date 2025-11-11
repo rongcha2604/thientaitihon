@@ -1,0 +1,183 @@
+{
+  "week": 31,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-31",
+      "title": "Con người Việt Nam (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Đất nước chúng mình', đất nước là gì?",
+          "options": [
+            "Quê hương Việt Nam",
+            "Quê hương nước ngoài",
+            "Quê hương châu Á",
+            "Quê hương châu Âu"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đất nước chúng mình là quê hương Việt Nam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "đất nước",
+            "đất nước",
+            "đất nước",
+            "đất nước"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'đất nước' (đất với chữ đ, nước với chữ n).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'đất nước' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Đất nước' là danh từ chỉ địa danh, quê hương.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi nói về đất nước, em nên nói những gì?",
+          "options": [
+            "Tên đất nước",
+            "Cả A và B",
+            "Đặc điểm",
+            "Không nói gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi nói về đất nước, em có thể nói tên đất nước và đặc điểm.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Đất nước chúng mình đẹp quá', từ nào là tính từ?",
+          "options": [
+            "Đất nước",
+            "đẹp",
+            "chúng mình",
+            "quá"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'đẹp' là tính từ chỉ đặc điểm, tính chất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "miền đất",
+            "miền đất",
+            "miền đất",
+            "miền đất"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'miền đất' (miền với chữ m, đất với chữ đ).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Trên các miền đất nước', có những miền nào?",
+          "options": [
+            "Chỉ miền Bắc",
+            "Chỉ miền Nam",
+            "Miền Bắc, Trung, Nam",
+            "Chỉ miền Trung"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Có ba miền: miền Bắc, miền Trung, miền Nam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ứ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ứ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu phẩy đúng?",
+          "options": [
+            "Miền Bắc Trung Nam đều đẹp.",
+            "Miền Bắc! Trung! Nam đều đẹp.",
+            "Miền Bắc? Trung? Nam đều đẹp.",
+            "Miền Bắc, Trung, Nam đều đẹp."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Dấu phẩy dùng để ngăn cách các thành phần trong câu.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "quê hương",
+            "quê hương",
+            "quê hương",
+            "quê hương"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'quê hương' (quê với chữ q, hương với chữ h).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về quê hương, em nên kể những gì?",
+          "options": [
+            "Tên quê hương",
+            "Đặc điểm",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về quê hương, em nên kể tên quê hương và đặc điểm.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

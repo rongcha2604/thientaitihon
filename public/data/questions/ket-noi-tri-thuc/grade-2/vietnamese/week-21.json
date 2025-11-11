@@ -1,0 +1,183 @@
+{
+  "week": 21,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-21",
+      "title": "Vẻ đẹp quanh em (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Giọt nước và biển lớn', giọt nước tượng trưng cho điều gì?",
+          "options": [
+            "Cái nhỏ",
+            "Cái lớn",
+            "Cái vừa",
+            "Cái trung bình"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Giọt nước tượng trưng cho cái nhỏ, cái đơn lẻ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "giọt nước",
+            "giọt nước",
+            "giọt nước",
+            "giọt nước"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'giọt nước' (giọt với chữ g, nước với chữ n).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'giọt nước' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Giọt nước' là danh từ chỉ sự vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Z được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Z viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi kể về giọt nước, em nên kể những gì?",
+          "options": [
+            "Hình dáng",
+            "Cả A và B",
+            "Vai trò",
+            "Không kể gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi kể về giọt nước, em nên kể hình dáng và vai trò.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Giọt nước nhỏ bé', từ nào là tính từ?",
+          "options": [
+            "Giọt nước",
+            "nhỏ bé",
+            "Cả A và B",
+            "Không có tính từ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'nhỏ bé' là tính từ chỉ đặc điểm, tính chất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "mùa vàng",
+            "mùa vàng",
+            "mùa vàng",
+            "mùa vàng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'mùa vàng' (mùa với chữ m, vàng với chữ v).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Mùa vàng', mùa vàng là mùa gì?",
+          "options": [
+            "Mùa hoa nở",
+            "Mùa trái cây",
+            "Mùa lúa chín",
+            "Mùa lá rụng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Mùa vàng là mùa lúa chín, đồng lúa vàng rực.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Đ được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Đ viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm đúng?",
+          "options": [
+            "Mùa vàng đẹp quá?",
+            "Mùa vàng đẹp quá!",
+            "Mùa vàng đẹp quá,",
+            "Mùa vàng đẹp quá."
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu kể phải kết thúc bằng dấu chấm (.).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "lúa chín",
+            "lúa chín",
+            "lúa chín",
+            "lúa chín"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'lúa chín' (lúa với chữ l, chín với chữ ch).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khi kể về mùa vàng, em nên kể những gì?",
+          "options": [
+            "Màu sắc",
+            "Cảm giác",
+            "Không kể gì",
+            "Cả A và B"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi kể về mùa vàng, em nên kể màu sắc và cảm giác.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

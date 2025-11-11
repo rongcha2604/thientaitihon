@@ -1,0 +1,183 @@
+{
+  "week": 23,
+  "subject": "vietnamese",
+  "grade": 2,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-23",
+      "title": "Vẻ đẹp quanh em (tiếp)",
+      "duration": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Vè chim', vè là gì?",
+          "options": [
+            "Thể thơ dân gian",
+            "Thể thơ hiện đại",
+            "Thể thơ cổ điển",
+            "Thể thơ tự do"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Vè là thể thơ dân gian, dễ nhớ, dễ thuộc.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "vè chim",
+            "vè chim",
+            "vè chim",
+            "vè chim"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là 'vè chim' (vè với chữ v, chim với chữ ch).",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Từ 'vè chim' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Đại từ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "'Vè chim' là danh từ chỉ thể loại văn học.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ư được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Nét thẳng và nét cong",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chữ hoa Ư viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khi đọc vè, em nên đọc như thế nào?",
+          "options": [
+            "Nhịp nhàng",
+            "Cả A và B",
+            "Vui vẻ",
+            "Không đọc gì"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi đọc vè, em nên đọc nhịp nhàng và vui vẻ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Trong câu 'Vè chim hay quá', từ nào là tính từ?",
+          "options": [
+            "Vè chim",
+            "hay",
+            "quá",
+            "Cả A, B, C"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ 'hay' là tính từ chỉ đặc điểm, tính chất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "khủng long",
+            "khủng long",
+            "khủng long",
+            "khủng long"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là 'khủng long' (khủng với chữ kh, long với chữ l).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Khủng long', khủng long là gì?",
+          "options": [
+            "Động vật hiện đại",
+            "Động vật nhỏ",
+            "Động vật cổ đại",
+            "Động vật bay"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Khủng long là động vật cổ đại, đã tuyệt chủng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Chữ hoa Ă được viết như thế nào?",
+          "options": [
+            "Chỉ có nét thẳng",
+            "Chỉ có nét cong",
+            "Nét thẳng và nét cong",
+            "Nét thẳng và nét ngang"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chữ hoa Ă viết với nét thẳng và nét cong.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu nào sau đây có dấu chấm hỏi đúng?",
+          "options": [
+            "Khủng long sống ở đâu.",
+            "Khủng long sống ở đâu!",
+            "Khủng long sống ở đâu,",
+            "Khủng long sống ở đâu?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu hỏi phải kết thúc bằng dấu chấm hỏi (?).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "sự tích",
+            "sự tích",
+            "sự tích",
+            "sự tích"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là 'sự tích' (sự với chữ s, tích với chữ t).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Trong bài 'Sự tích cây thì là', sự tích là gì?",
+          "options": [
+            "Câu chuyện hiện đại",
+            "Câu chuyện cổ tích",
+            "Câu chuyện ngụ ngôn",
+            "Câu chuyện dân gian"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Sự tích là câu chuyện dân gian, giải thích nguồn gốc sự vật.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
