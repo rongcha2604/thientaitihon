@@ -119,14 +119,12 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
     const subjectMap: { [key: string]: string } = {
       'Toán': 'math',
       'Tiếng Việt': 'vietnamese',
-      'Tiếng Anh': 'english',
       'math': 'math',
       'vietnamese': 'vietnamese',
-      'english': 'english',
     };
 
     const bookSeriesFolder = bookSeriesMap[bookSeries] || 'ket-noi-tri-thuc';
-    const subjects = ['math', 'vietnamese', 'english']; // 3 môn: Toán, Tiếng Việt, Anh văn
+    const subjects = ['math', 'vietnamese']; // 2 môn: Toán, Tiếng Việt
 
     // Xác định range tuần dựa trên examType
     let weekRange: number[];
@@ -225,7 +223,6 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
         const subjectMap: { [key: string]: string } = {
           'Toán': 'math',
           'Tiếng Việt': 'vietnamese',
-          'Tiếng Anh': 'english',
         };
 
         const bookSeriesFolder = bookSeriesMap[bookSeries] || 'ket-noi-tri-thuc';
@@ -250,7 +247,6 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
             const totalQuestions = data.lessons[0]?.questions.length || 0;
             const completedQuestions = savedProgress.completedQuestions || [];
             // Mục tiêu: Hoàn thành = làm đúng TẤT CẢ câu hỏi trong tuần
-            // Với tiếng Anh: 10/10 câu đúng
             // Với Toán/Tiếng Việt: Tất cả câu đúng
             const targetCorrectAnswers = totalQuestions;
             
@@ -314,8 +310,7 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
   // Progress chỉ tính theo số câu ĐÚNG (completedQuestions.length), không phải số câu đã làm
   const progress = totalQuestions > 0 ? Math.round((completedQuestions.length / totalQuestions) * 100) : 0;
   
-  // Mục tiêu: Với tiếng Anh (10 câu) → cần 10 câu đúng
-  // Với Toán/Tiếng Việt (có thể nhiều câu hơn) → cần tất cả câu đúng
+  // Mục tiêu: Với Toán/Tiếng Việt → cần tất cả câu đúng
   // Hoàn thành = làm đúng tất cả câu hỏi trong tuần đó
   const targetCorrectAnswers = totalQuestions;
 
@@ -441,15 +436,20 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
   }, [currentQuestionIndex, currentQuestion]);
 
   // Helper function để tính thưởng sao cho ôn tập
+  // Hệ thống mới: 28 thử thách ôn tập (THI HƯƠNG: 9, THI HỘI: 9, THI ĐÌNH: 10)
+  // Tổng sao từ ôn tập: 2,800 sao (40% của tổng 7,000 sao)
+  // - THI HƯƠNG: 9 thử thách × 100 sao = 900 sao (100% = 150, 80% = 120, 60% = 90, <60% = 60)
+  // - THI HỘI: 9 thử thách × 100 sao = 900 sao (100% = 200, 80% = 160, 60% = 120, <60% = 80)
+  // - THI ĐÌNH: 10 thử thách × 100 sao = 1,000 sao (100% = 300, 80% = 250, 60% = 200, <60% = 150)
   const calculateReviewExamStars = (examType: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH', completionRate: number): number => {
     if (examType === 'THI_HUONG') {
-      // THI HƯƠNG: 150/120/90/60 sao
+      // THI HƯƠNG: 150/120/90/60 sao (9 thử thách × 100 sao = 900 sao)
       return completionRate >= 100 ? 150 : (completionRate >= 80 ? 120 : (completionRate >= 60 ? 90 : 60));
     } else if (examType === 'THI_HOI') {
-      // THI HỘI: 200/160/120/80 sao
+      // THI HỘI: 200/160/120/80 sao (9 thử thách × 100 sao = 900 sao)
       return completionRate >= 100 ? 200 : (completionRate >= 80 ? 160 : (completionRate >= 60 ? 120 : 80));
     } else if (examType === 'THI_DINH') {
-      // THI ĐÌNH: 300/250/200/150 sao
+      // THI ĐÌNH: 300/250/200/150 sao (10 thử thách × 100 sao = 1,000 sao)
       return completionRate >= 100 ? 300 : (completionRate >= 80 ? 250 : (completionRate >= 60 ? 200 : 150));
     }
     return 0;
@@ -472,9 +472,10 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
       starsReward = calculateReviewExamStars(examType, completionRate);
     } else {
       // Học chính: 100% = 100 sao, 80-99% = 80 sao, 60-79% = 60 sao, <60% = 40 sao
-      // Mục tiêu: 60% từ học chính = 9,300 sao / 86 chặn = ~108 sao/chặn
-      // Với 100% đúng: 100 sao (tuần) + 10 sao (challenge-2) = 110 sao → đủ 9,460 sao (102% mục tiêu)
-      // Với 80-99%: 80 sao (tuần) + 10 sao (challenge-2) = 90 sao → 7,740 sao (83% mục tiêu)
+      // Hệ thống mới: 70 thử thách (35 tuần × 2 môn = 70)
+      // - 60% cho vật phẩm + linh vật = 42 thử thách học chính → 4,200 sao (100% đúng)
+      // - 40% cho ôn tập = 28 thử thách ôn tập → 2,800 sao
+      // Tổng: 7,000 sao
       starsReward = completionRate !== undefined
         ? (completionRate >= 100 ? 100 : (completionRate >= 80 ? 80 : (completionRate >= 60 ? 60 : 40)))
         : 60; // Mặc định 60 sao nếu không có completionRate
@@ -577,7 +578,6 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
       setCompletedQuestions(currentCompleted => {
         setCorrectStreak(currentStreak => {
           // Mục tiêu: Hoàn thành = làm đúng TẤT CẢ câu hỏi trong tuần
-          // Với tiếng Anh: 10/10 câu đúng
           // Với Toán/Tiếng Việt: Tất cả câu đúng
           const targetCorrectAnswers = totalQuestions;
           const currentCorrectCount = currentCompleted.length;

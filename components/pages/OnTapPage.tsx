@@ -111,7 +111,6 @@ const OnTapPage: React.FC<OnTapPageProps> = ({ onStartExam }) => {
         const subjectMap: { [key: string]: string } = {
             'math': 'Toán',
             'vietnamese': 'Tiếng Việt',
-            'english': 'Tiếng Anh',
         };
         const subjectDisplay = subjectMap[selection.subject] || selection.subject;
         

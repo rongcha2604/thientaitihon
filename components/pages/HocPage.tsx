@@ -57,7 +57,7 @@ const VietButton: React.FC<{onClick: () => void; children: React.ReactNode; isAc
 
 const bookSeries = [ { name: 'Kết nối tri thức', color: 'bg-blue-200' }, { name: 'Chân trời sáng tạo', color: 'bg-green-200' }, { name: 'Phát triển năng lực', color: 'bg-yellow-200' }, { name: 'Bình đẳng & Dân chủ', color: 'bg-purple-200' }, ];
 const grades = [1, 2, 3, 4, 5];
-const subjects = [ { name: 'Toán', icon: '🧮', color: 'bg-red-200' }, { name: 'Tiếng Việt', icon: '📝', color: 'bg-sky-200' }, { name: 'Tiếng Anh', icon: '🌐', color: 'bg-lime-200' }, ];
+const subjects = [ { name: 'Toán', icon: '🧮', color: 'bg-red-200' }, { name: 'Tiếng Việt', icon: '📝', color: 'bg-sky-200' }, ];
 // Week metadata (titles, dates) - Base titles cho 5 tuần đầu
 const baseWeekTitles: { [key: number]: string } = {
   1: 'Cây Đa Đầu Làng',
@@ -240,7 +240,6 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
             const subjectMap: { [key: string]: string } = {
                 'Toán': 'math',
                 'Tiếng Việt': 'vietnamese',
-                'Tiếng Anh': 'english',
             };
             
             const bookSeriesFolder = bookSeriesMap[selectedBook] || 'ket-noi-tri-thuc';
@@ -433,9 +432,9 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
                             </div>
                             <div className="flex-1">
                                 <h3 className="font-bold text-amber-800 mb-2">🚀 Chọn môn</h3>
-                                <div className="grid grid-cols-3 gap-3">
+                                <div className="grid grid-cols-2 gap-3">
                                     {subjects.map((subject, index) => {
-                                        const glowColors: ('red' | 'sky' | 'lime')[] = ['red', 'sky', 'lime'];
+                                        const glowColors: ('red' | 'sky')[] = ['red', 'sky'];
                                         return (
                                             <VietButton 
                                                 key={subject.name} 
