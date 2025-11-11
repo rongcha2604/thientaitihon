@@ -29,9 +29,9 @@
           "question": "Từ nào viết đúng chính tả?",
           "options": [
             "cái trống",
-            "cái trống",
-            "cái trống",
-            "cái trống"
+            "cái trốn",
+            "cáy trống",
+            "cái trốngx"
           ],
           "correctAnswer": 0,
           "explanation": "Từ đúng là 'cái trống' (cái với chữ c, trống với chữ tr).",
@@ -99,11 +99,11 @@
           "question": "Từ nào sau đây viết đúng chính tả?",
           "options": [
             "danh sách",
-            "danh sách",
-            "danh sách",
-            "danh sách"
+            "danh xách",
+            "danh sác",
+            "danh sáchx"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Từ đúng là 'danh sách' (danh với chữ d, sách với chữ s).",
           "imageUrl": null
         },
@@ -154,12 +154,12 @@
           "type": "multiple-choice",
           "question": "Từ nào sau đây viết đúng chính tả?",
           "options": [
+            "học sinh",
+            "học xinh",
             "học sin",
-            "học xinh",
-            "học xinh",
-            "học sinh"
+            "học synh"
           ],
-          "correctAnswer": 3,
+          "correctAnswer": 0,
           "explanation": "Từ đúng là 'học sinh' (học với chữ h, sinh với chữ s).",
           "imageUrl": null
         },

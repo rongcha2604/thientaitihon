@@ -29,9 +29,9 @@
           "question": "Từ nào viết đúng chính tả?",
           "options": [
             "cuốn sách",
-            "cuốn sách",
-            "cuốn sách",
-            "cuốn sách"
+            "cuốn xách",
+            "cuốn sác",
+            "cuốn sáchx"
           ],
           "correctAnswer": 0,
           "explanation": "Từ đúng là 'cuốn sách' (cuốn với chữ c, sách với chữ s).",
@@ -99,11 +99,11 @@
           "question": "Từ nào sau đây viết đúng chính tả?",
           "options": [
             "trang sách",
-            "trang sách",
-            "trang sách",
-            "trang sách"
+            "trang xách",
+            "trang sác",
+            "trang sáchx"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Từ đúng là 'trang sách' (trang với chữ tr, sách với chữ s).",
           "imageUrl": null
         },
@@ -155,11 +155,11 @@
           "question": "Từ nào sau đây viết đúng chính tả?",
           "options": [
             "đọc sách",
-            "đọc sách",
-            "đọc sách",
-            "đọc sách"
+            "đọc xách",
+            "đọc sác",
+            "đọc sáchx"
           ],
-          "correctAnswer": 3,
+          "correctAnswer": 0,
           "explanation": "Từ đúng là 'đọc sách' (đọc với chữ đ, sách với chữ s).",
           "imageUrl": null
         },

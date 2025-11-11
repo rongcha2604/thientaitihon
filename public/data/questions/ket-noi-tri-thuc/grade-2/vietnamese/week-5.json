@@ -29,9 +29,9 @@
           "question": "Từ nào viết đúng chính tả?",
           "options": [
             "cô giáo",
-            "cô giáo",
-            "cô giáo",
-            "cô giáo"
+            "cô giá",
+            "cô gyáo",
+            "cô giáox"
           ],
           "correctAnswer": 0,
           "explanation": "Từ đúng là 'cô giáo' (cô với chữ c, giáo với chữ g).",
@@ -99,11 +99,11 @@
           "question": "Từ nào sau đây viết đúng chính tả?",
           "options": [
             "thời khóa biểu",
-            "thời khóa biểu",
-            "thời khóa biểu",
-            "thời khóa biểu"
+            "thời khóa biể",
+            "thờy khóa biểu",
+            "thời khóa biểux"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 0,
           "explanation": "Từ đúng là 'thời khóa biểu' (thời với chữ th, khóa với chữ kh, biểu với chữ b).",
           "imageUrl": null
         },
@@ -154,12 +154,12 @@
           "type": "multiple-choice",
           "question": "Từ nào sau đây viết đúng chính tả?",
           "options": [
+            "lớp học",
             "lớp họ",
-            "lớp hộc",
-            "lớp hộc",
-            "lớp học"
+            "lớp họx",
+            "lớp học3"
           ],
-          "correctAnswer": 3,
+          "correctAnswer": 0,
           "explanation": "Từ đúng là 'lớp học' (lớp với chữ l, học với chữ h và c).",
           "imageUrl": null
         },
