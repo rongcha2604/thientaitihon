@@ -282,7 +282,17 @@ const AlbumPage: React.FC = () => {
         loadData();
     }, [filter]);
 
-    // Reload stars và coins khi component mount, khi quay lại từ trang khác, hoặc khi đổi lớp
+    // Reload spirit pets khi filter thay đổi (đặc biệt khi quay lại tab "Linh vật" hoặc "Sở hữu")
+    useEffect(() => {
+        if (filter === 'spirit-pet' || filter === 'owned') {
+            const userId = user?.id || 'guest';
+            const currentGrade = getCurrentGrade();
+            const userPets = getSpiritPetsForGrade(userId, currentGrade);
+            setUserSpiritPets(userPets);
+        }
+    }, [filter, user?.id]);
+
+    // Reload stars, coins và spirit pets khi component mount, khi quay lại từ trang khác, hoặc khi đổi lớp
     useEffect(() => {
         const loadStarsAndCoins = () => {
             const currentGrade = getCurrentGrade();
@@ -292,20 +302,37 @@ const AlbumPage: React.FC = () => {
             setCoins(storedCoins);
         };
         
+        const loadSpiritPets = () => {
+            const userId = user?.id || 'guest';
+            const currentGrade = getCurrentGrade();
+            const userPets = getSpiritPetsForGrade(userId, currentGrade);
+            setUserSpiritPets(userPets);
+        };
+        
         loadStarsAndCoins();
+        loadSpiritPets();
         
         // Listen to gradeChanged event
         const handleGradeChange = () => {
             loadStarsAndCoins();
-            // Reload spirit pets từ lớp mới
-            const userId = user?.id || 'guest';
-            const newGrade = getCurrentGrade();
-            const newPets = getSpiritPetsForGrade(userId, newGrade);
-            setUserSpiritPets(newPets);
+            loadSpiritPets();
+        };
+        
+        // Reload khi quay lại tab/window (visibility change)
+        const handleVisibilityChange = () => {
+            if (!document.hidden) {
+                loadStarsAndCoins();
+                loadSpiritPets();
+            }
         };
         
         window.addEventListener('gradeChanged', handleGradeChange);
-        return () => window.removeEventListener('gradeChanged', handleGradeChange);
+        document.addEventListener('visibilitychange', handleVisibilityChange);
+        
+        return () => {
+            window.removeEventListener('gradeChanged', handleGradeChange);
+            document.removeEventListener('visibilitychange', handleVisibilityChange);
+        };
     }, [user?.id]);
 
     // Load selected items khi user thay đổi hoặc component mount
@@ -820,6 +847,13 @@ const AlbumPage: React.FC = () => {
                                             {canUnlock && (
                                                 <button
                                                     onClick={() => {
+                                                        // Kiểm tra đã unlock chưa
+                                                        const existingPet = userSpiritPets.find(up => up.spiritPetId === pet.id);
+                                                        if (existingPet) {
+                                                            showToast(`${pet.baseNameVi} đã được mở khóa rồi!`, 'error');
+                                                            return;
+                                                        }
+
                                                         // Unlock linh vật cấp 1
                                                         const level1 = getLevelData(pet, 1);
                                                         const cost = level1?.unlock_cost?.STAR || 50;
@@ -831,6 +865,7 @@ const AlbumPage: React.FC = () => {
 
                                                         // Trừ sao - theo lớp
                                                         const currentGrade = getCurrentGrade();
+                                                        const userId = user?.id || 'guest';
                                                         const newStars = stars - cost;
                                                         setStars(newStars);
                                                         setStarsForGrade(currentGrade, newStars);
@@ -838,7 +873,7 @@ const AlbumPage: React.FC = () => {
                                                         // Tạo user pet mới
                                                         const newUserPet = {
                                                             id: `user-pet-${pet.id}-${Date.now()}`,
-                                                            userId: user?.id || 'guest',
+                                                            userId: userId,
                                                             spiritPetId: pet.id,
                                                             currentLevel: 1,
                                                             isActive: false,
