@@ -145,7 +145,7 @@
             "169",
             "189"
           ],
-          "correctAnswer": 1,
+          "correctAnswer": 3,
           "explanation": "456 - 267 = 189. Ta tính: 6 không trừ được 7, mượn 1 từ 5, 16 - 7 = 9 (viết 9, nhớ 1), 4 - 6 - 1 không được, mượn 1 từ 4, 14 - 6 - 1 = 7 (viết 7, nhớ 1), 3 - 2 - 1 = 0 (viết 1).",
           "imageUrl": null
         },
@@ -173,7 +173,7 @@
             "169",
             "189"
           ],
-          "correctAnswer": 2,
+          "correctAnswer": 3,
           "explanation": "678 - 489 = 189. Ta tính: 8 không trừ được 9, mượn 1 từ 7, 18 - 9 = 9 (viết 9, nhớ 1), 6 - 8 - 1 không được, mượn 1 từ 6, 16 - 8 - 1 = 7 (viết 7, nhớ 1), 5 - 4 - 1 = 0 (viết 1).",
           "imageUrl": null
         }
@@ -181,4 +181,3 @@
     }
   ]
 }
-
