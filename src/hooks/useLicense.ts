@@ -5,7 +5,6 @@ import {
   activateLicense,
   clearLicense,
   getOrCreateMachineId,
-  getRemainingTime,
   type LicenseInfo
 } from "../lib/license";
 

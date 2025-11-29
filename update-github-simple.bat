@@ -1,11 +1,11 @@
 @echo off
 chcp 65001 >nul
-cd /d "%~dp0"
-
 echo ====================================
 echo    Tu dong cap nhat len GitHub
 echo ====================================
 echo.
+
+cd /d "%~dp0"
 
 git --version >nul 2>&1
 if errorlevel 1 (
@@ -21,7 +21,7 @@ echo.
 echo [2/3] Dang commit...
 git commit -m "Update: Them hinh anh dep"
 if errorlevel 1 (
-    echo [INFO] Khong co thay doi de commit.
+    echo [INFO] Khong co thay doi de commit hoac da commit roi.
     echo.
 )
 echo.
