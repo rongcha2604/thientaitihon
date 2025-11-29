@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import { motion } from "framer-motion";
 
 interface ActivationScreenProps {
@@ -13,8 +13,19 @@ export default function ActivationScreen({ machineId, onActivate, isActivating =
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
   const [copied, setCopied] = useState(false);
-  const [qrImageSrc, setQrImageSrc] = useState("/zalo-qr.jpg");
-  const [qrImageError, setQrImageError] = useState(false);
+  const [qrImageSrc, setQrImageSrc] = useState<string>("/zalo-qr.jpg");
+  const [qrImageError, setQrImageError] = useState<boolean>(false);
+  
+  const handleImageError = useCallback(() => {
+    setQrImageSrc((currentSrc) => {
+      if (currentSrc === "/zalo-qr.jpg") {
+        return "/zalo-qr.png";
+      } else {
+        setQrImageError(true);
+        return currentSrc;
+      }
+    });
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -168,15 +179,7 @@ export default function ActivationScreen({ machineId, onActivate, isActivating =
                       src={qrImageSrc}
                       alt="Zalo QR Code - Rồng Cha"
                       className="w-48 h-48 object-contain"
-                      onError={() => {
-                        // Thử PNG nếu JPG không tìm thấy
-                        if (qrImageSrc === "/zalo-qr.jpg") {
-                          setQrImageSrc("/zalo-qr.png");
-                        } else {
-                          // Cả hai đều không tìm thấy, hiển thị placeholder
-                          setQrImageError(true);
-                        }
-                      }}
+                      onError={handleImageError}
                     />
                   )}
                 </div>
