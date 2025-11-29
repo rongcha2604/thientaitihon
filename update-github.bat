@@ -36,7 +36,7 @@ REM Nhận message từ user
 echo [2/3] Nhập message cho commit:
 echo (Để trống sẽ dùng: "Update: Cập nhật bộ đề và code")
 set /p commit_msg="> "
-if "%commit_msg%"=="" set commit_msg=Update: Thêm mã QR Zalo vào màn hình kích hoạt bản quyền
+if "%commit_msg%"=="" set commit_msg=Update: Thêm hình ảnh đẹp
 
 echo.
 echo [3/3] Đang commit...

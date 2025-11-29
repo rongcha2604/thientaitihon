@@ -43,7 +43,7 @@ if ($status) {
     Write-Host ""
     
     # Commit
-    $commitMsg = "Update: Thêm mã QR Zalo vào màn hình kích hoạt bản quyền"
+    $commitMsg = "Update: Thêm hình ảnh đẹp"
     Write-Host "[4/4] Đang commit..." -ForegroundColor Yellow
     git commit -m $commitMsg
     Write-Host "✓ Đã commit: $commitMsg" -ForegroundColor Green

@@ -48,7 +48,7 @@ echo.
 
 REM Commit
 echo [4/4] Đang commit...
-git commit -m "Update: Thêm mã QR Zalo vào màn hình kích hoạt bản quyền"
+git commit -m "Update: Thêm hình ảnh đẹp"
 if errorlevel 1 (
     echo [WARNING] Commit thất bại hoặc không có thay đổi mới
     echo.
