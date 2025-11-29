@@ -14,6 +14,7 @@ export default function ActivationScreen({ machineId, onActivate, isActivating =
   const [success, setSuccess] = useState("");
   const [copied, setCopied] = useState(false);
   const [qrImageSrc, setQrImageSrc] = useState("/zalo-qr.jpg");
+  const [qrImageError, setQrImageError] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -155,27 +156,29 @@ export default function ActivationScreen({ machineId, onActivate, isActivating =
               </h3>
               <div className="flex flex-col items-center gap-3">
                 <div className="bg-white p-3 rounded-lg shadow-md min-h-[192px] min-w-[192px] flex items-center justify-center">
-                  <img
-                    src={qrImageSrc}
-                    alt="Zalo QR Code - Rồng Cha"
-                    className="w-48 h-48 object-contain"
-                    onError={() => {
-                      // Thử PNG nếu JPG không tìm thấy
-                      if (qrImageSrc === "/zalo-qr.jpg") {
-                        setQrImageSrc("/zalo-qr.png");
-                      } else {
-                        // Cả hai đều không tìm thấy, hiển thị placeholder
-                        setQrImageSrc("");
-                      }
-                    }}
-                    style={{ display: qrImageSrc ? "block" : "none" }}
-                  />
-                  {!qrImageSrc && (
+                  {!qrImageError ? (
+                    <img
+                      src={qrImageSrc}
+                      alt="Zalo QR Code - Rồng Cha"
+                      className="w-48 h-48 object-contain"
+                      onError={(e) => {
+                        // Thử PNG nếu JPG không tìm thấy
+                        if (qrImageSrc === "/zalo-qr.jpg") {
+                          setQrImageSrc("/zalo-qr.png");
+                        } else {
+                          // Cả hai đều không tìm thấy, hiển thị placeholder
+                          setQrImageError(true);
+                          e.currentTarget.style.display = "none";
+                        }
+                      }}
+                    />
+                  ) : null}
+                  {qrImageError && (
                     <div className="flex flex-col items-center justify-center gap-2 text-gray-400">
                       <div className="w-32 h-32 border-4 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
                         <span className="text-4xl">📱</span>
                       </div>
-                      <p className="text-xs text-gray-500 mt-2">Vui lòng đặt file zalo-qr.jpg<br />hoặc zalo-qr.png vào thư mục public</p>
+                      <p className="text-xs text-gray-500 mt-2 text-center">Vui lòng đặt file zalo-qr.jpg<br />hoặc zalo-qr.png vào thư mục public</p>
                     </div>
                   )}
                 </div>
