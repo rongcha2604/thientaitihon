@@ -23,3 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
+# Deploy scripts - không cần commit lên GitHub
+deploy-now.bat
+quick-deploy.ps1
+deploy-github.ps1
+DEPLOY_QR_UPDATE.md
+
