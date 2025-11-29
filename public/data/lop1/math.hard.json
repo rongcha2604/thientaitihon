@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "grade": 1,
+    "subject": "Toán",
+    "level": "hard",
+    "language": "vi",
+    "created_date": "2025-01-27"
+  },
+  "topics": [
+    {
+      "id": "MATH1H01",
+      "name": "Số có hai chữ số (Tuần 19-20)",
+      "questions": [
+        {"id":"MATH1H01Q01","question":"Số lớn nhất có hai chữ số là?","options":["98","99","100","97"],"answer_index":1,"answer_text":"99","explanation":"Số lớn nhất có hai chữ số là 99."},
+        {"id":"MATH1H01Q02","question":"Số nhỏ nhất có hai chữ số là?","options":["0","1","10","11"],"answer_index":2,"answer_text":"10","explanation":"Số nhỏ nhất có hai chữ số là 10."},
+        {"id":"MATH1H01Q03","question":"Số liền sau của 99 là?","options":["98","99","100","101"],"answer_index":2,"answer_text":"100","explanation":"Sau 99 là 100."},
+        {"id":"MATH1H01Q04","question":"Số liền trước của 50 là?","options":["48","49","50","51"],"answer_index":1,"answer_text":"49","explanation":"Trước 50 là 49."},
+        {"id":"MATH1H01Q05","question":"Số 45 có chữ số hàng chục là?","options":["4","5","45","54"],"answer_index":0,"answer_text":"4","explanation":"Số 45 có chữ số hàng chục là 4."},
+        {"id":"MATH1H01Q06","question":"Số 67 có chữ số hàng đơn vị là?","options":["6","7","67","76"],"answer_index":1,"answer_text":"7","explanation":"Số 67 có chữ số hàng đơn vị là 7."},
+        {"id":"MATH1H01Q07","question":"Có bao nhiêu số có hai chữ số?","options":["89","90","99","100"],"answer_index":1,"answer_text":"90","explanation":"Từ 10 đến 99 có 90 số."},
+        {"id":"MATH1H01Q08","question":"Số nào lớn hơn: 43 hay 34?","options":["43","34","Bằng nhau","Không biết"],"answer_index":0,"answer_text":"43","explanation":"43 > 34 (hàng chục 4 > 3)."},
+        {"id":"MATH1H01Q09","question":"Số 56 đọc là?","options":["Năm mươi sáu","Sáu mươi năm","Năm sáu","Sáu năm"],"answer_index":0,"answer_text":"Năm mươi sáu","explanation":"56 đọc là \"năm mươi sáu\"."},
+        {"id":"MATH1H01Q10","question":"Số nào có hàng chục là 8 và hàng đơn vị là 3?","options":["38","83","88","33"],"answer_index":1,"answer_text":"83","explanation":"Số có hàng chục 8 và đơn vị 3 là 83."}
+      ]
+    },
+    {
+      "id": "MATH1H02",
+      "name": "So sánh số có hai chữ số (Tuần 21)",
+      "questions": [
+        {"id":"MATH1H02Q01","question":"47 ... 74","options":[">","<","=","Không so sánh"],"answer_index":1,"answer_text":"<","explanation":"47 < 74 (hàng chục 4 < 7)."},
+        {"id":"MATH1H02Q02","question":"65 ... 56","options":[">","<","=","Không so sánh"],"answer_index":0,"answer_text":">","explanation":"65 > 56 (hàng chục 6 > 5)."},
+        {"id":"MATH1H02Q03","question":"88 ... 88","options":[">","<","=","Không so sánh"],"answer_index":2,"answer_text":"=","explanation":"Hai số bằng nhau."},
+        {"id":"MATH1H02Q04","question":"Số nào lớn nhất: 52, 25, 62, 26?","options":["52","25","62","26"],"answer_index":2,"answer_text":"62","explanation":"62 là số lớn nhất (hàng chục 6 lớn nhất)."},
+        {"id":"MATH1H02Q05","question":"Số nào nhỏ nhất: 34, 43, 23, 32?","options":["34","43","23","32"],"answer_index":2,"answer_text":"23","explanation":"23 là số nhỏ nhất (hàng chục 2 nhỏ nhất)."},
+        {"id":"MATH1H02Q06","question":"Sắp xếp theo thứ tự tăng dần: 45, 54, 34, 43","options":["34, 43, 45, 54","43, 34, 45, 54","45, 54, 34, 43","34, 45, 43, 54"],"answer_index":0,"answer_text":"34, 43, 45, 54","explanation":"Từ nhỏ đến lớn: 34 < 43 < 45 < 54."},
+        {"id":"MATH1H02Q07","question":"Sắp xếp theo thứ tự giảm dần: 67, 76, 57, 75","options":["76, 75, 67, 57","67, 76, 57, 75","57, 67, 75, 76","76, 67, 75, 57"],"answer_index":0,"answer_text":"76, 75, 67, 57","explanation":"Từ lớn đến nhỏ: 76 > 75 > 67 > 57."},
+        {"id":"MATH1H02Q08","question":"93 ... 39","options":[">","<","=","Không so sánh"],"answer_index":0,"answer_text":">","explanation":"93 > 39 (hàng chục 9 > 3)."},
+        {"id":"MATH1H02Q09","question":"Số nào lớn hơn 78 nhưng nhỏ hơn 82?","options":["76","79","83","85"],"answer_index":1,"answer_text":"79","explanation":"79 nằm giữa 78 và 82."},
+        {"id":"MATH1H02Q10","question":"Điền số thích hợp: 35 < ? < 38","options":["34","36","38","39"],"answer_index":1,"answer_text":"36","explanation":"36 nằm giữa 35 và 38 (35 < 36 < 38)."}
+      ]
+    },
+    {
+      "id": "MATH1H03",
+      "name": "Đo độ dài - cm (Tuần 23-24)",
+      "questions": [
+        {"id":"MATH1H03Q01","question":"1 mét bằng bao nhiêu cm?","options":["10","50","100","1000"],"answer_index":2,"answer_text":"100","explanation":"1 mét = 100 cm."},
+        {"id":"MATH1H03Q02","question":"Thước dài 20 cm, bút chì dài 15 cm. Vật nào dài hơn?","options":["Thước","Bút chì","Bằng nhau","Không biết"],"answer_index":0,"answer_text":"Thước","explanation":"20 cm > 15 cm."},
+        {"id":"MATH1H03Q03","question":"Đoạn dây dài 25 cm, cắt bớt 8 cm. Còn lại bao nhiêu cm?","options":["16","17","18","19"],"answer_index":1,"answer_text":"17","explanation":"25 - 8 = 17 cm."},
+        {"id":"MATH1H03Q04","question":"Đoạn dây 12 cm, nối thêm 13 cm. Tổng chiều dài là?","options":["24","25","26","27"],"answer_index":1,"answer_text":"25","explanation":"12 + 13 = 25 cm."},
+        {"id":"MATH1H03Q05","question":"Cái bút dài 18 cm, cái thước dài hơn bút 5 cm. Thước dài bao nhiêu cm?","options":["22","23","24","25"],"answer_index":1,"answer_text":"23","explanation":"18 + 5 = 23 cm."},
+        {"id":"MATH1H03Q06","question":"Thước 30 cm ngắn hơn dây 45 cm bao nhiêu cm?","options":["14","15","16","17"],"answer_index":1,"answer_text":"15","explanation":"45 - 30 = 15 cm."},
+        {"id":"MATH1H03Q07","question":"Đoạn dây 20 cm, cắt làm 2 đoạn bằng nhau. Mỗi đoạn dài?","options":["8","9","10","11"],"answer_index":2,"answer_text":"10","explanation":"20 : 2 = 10 cm."},
+        {"id":"MATH1H03Q08","question":"3 đoạn dây, mỗi đoạn 10 cm. Tổng dài bao nhiêu cm?","options":["28","29","30","31"],"answer_index":2,"answer_text":"30","explanation":"3 × 10 = 30 cm."},
+        {"id":"MATH1H03Q09","question":"Sắp xếp theo thứ tự tăng dần: 15 cm, 8 cm, 22 cm, 5 cm","options":["5 cm, 8 cm, 15 cm, 22 cm","8 cm, 5 cm, 15 cm, 22 cm","15 cm, 8 cm, 22 cm, 5 cm","22 cm, 15 cm, 8 cm, 5 cm"],"answer_index":0,"answer_text":"5 cm, 8 cm, 15 cm, 22 cm","explanation":"Từ ngắn đến dài: 5 < 8 < 15 < 22."},
+        {"id":"MATH1H03Q10","question":"Một sợi dây dài 35 cm, cắt 2 đoạn, mỗi đoạn 10 cm. Còn lại bao nhiêu cm?","options":["14","15","16","17"],"answer_index":1,"answer_text":"15","explanation":"35 - 10 - 10 = 15 cm."}
+      ]
+    },
+    {
+      "id": "MATH1H04",
+      "name": "Cộng số có hai chữ số với số có một chữ số (Tuần 25)",
+      "questions": [
+        {"id":"MATH1H04Q01","question":"47 + 5 = ?","options":["51","52","53","54"],"answer_index":1,"answer_text":"52","explanation":"7 + 5 = 12, viết 2 nhớ 1; 4 + 1 = 5 → 52."},
+        {"id":"MATH1H04Q02","question":"38 + 7 = ?","options":["44","45","46","47"],"answer_index":1,"answer_text":"45","explanation":"8 + 7 = 15, viết 5 nhớ 1; 3 + 1 = 4 → 45."},
+        {"id":"MATH1H04Q03","question":"56 + 8 = ?","options":["63","64","65","66"],"answer_index":1,"answer_text":"64","explanation":"6 + 8 = 14, viết 4 nhớ 1; 5 + 1 = 6 → 64."},
+        {"id":"MATH1H04Q04","question":"29 + 6 = ?","options":["34","35","36","37"],"answer_index":1,"answer_text":"35","explanation":"9 + 6 = 15, viết 5 nhớ 1; 2 + 1 = 3 → 35."},
+        {"id":"MATH1H04Q05","question":"45 + 9 = ?","options":["53","54","55","56"],"answer_index":1,"answer_text":"54","explanation":"5 + 9 = 14, viết 4 nhớ 1; 4 + 1 = 5 → 54."},
+        {"id":"MATH1H04Q06","question":"67 + 4 = ?","options":["70","71","72","73"],"answer_index":1,"answer_text":"71","explanation":"7 + 4 = 11, viết 1 nhớ 1; 6 + 1 = 7 → 71."},
+        {"id":"MATH1H04Q07","question":"53 + 8 = ?","options":["60","61","62","63"],"answer_index":1,"answer_text":"61","explanation":"3 + 8 = 11, viết 1 nhớ 1; 5 + 1 = 6 → 61."},
+        {"id":"MATH1H04Q08","question":"74 + 6 = ?","options":["79","80","81","82"],"answer_index":1,"answer_text":"80","explanation":"4 + 6 = 10, viết 0 nhớ 1; 7 + 1 = 8 → 80."},
+        {"id":"MATH1H04Q09","question":"82 + 9 = ?","options":["90","91","92","93"],"answer_index":1,"answer_text":"91","explanation":"2 + 9 = 11, viết 1 nhớ 1; 8 + 1 = 9 → 91."},
+        {"id":"MATH1H04Q10","question":"Có 48 quả táo, thêm 7 quả nữa. Có tất cả bao nhiêu quả?","options":["54","55","56","57"],"answer_index":1,"answer_text":"55","explanation":"48 + 7 = 55 quả."}
+      ]
+    },
+    {
+      "id": "MATH1H05",
+      "name": "Cộng số có hai chữ số với số có hai chữ số (Tuần 26)",
+      "questions": [
+        {"id":"MATH1H05Q01","question":"27 + 35 = ?","options":["61","62","63","64"],"answer_index":1,"answer_text":"62","explanation":"7 + 5 = 12, viết 2 nhớ 1; 2 + 3 + 1 = 6 → 62."},
+        {"id":"MATH1H05Q02","question":"46 + 28 = ?","options":["73","74","75","76"],"answer_index":1,"answer_text":"74","explanation":"6 + 8 = 14, viết 4 nhớ 1; 4 + 2 + 1 = 7 → 74."},
+        {"id":"MATH1H05Q03","question":"39 + 47 = ?","options":["85","86","87","88"],"answer_index":1,"answer_text":"86","explanation":"9 + 7 = 16, viết 6 nhớ 1; 3 + 4 + 1 = 8 → 86."},
+        {"id":"MATH1H05Q04","question":"58 + 26 = ?","options":["83","84","85","86"],"answer_index":1,"answer_text":"84","explanation":"8 + 6 = 14, viết 4 nhớ 1; 5 + 2 + 1 = 8 → 84."},
+        {"id":"MATH1H05Q05","question":"67 + 19 = ?","options":["85","86","87","88"],"answer_index":1,"answer_text":"86","explanation":"7 + 9 = 16, viết 6 nhớ 1; 6 + 1 + 1 = 8 → 86."},
+        {"id":"MATH1H05Q06","question":"34 + 48 = ?","options":["81","82","83","84"],"answer_index":1,"answer_text":"82","explanation":"4 + 8 = 12, viết 2 nhớ 1; 3 + 4 + 1 = 8 → 82."},
+        {"id":"MATH1H05Q07","question":"52 + 39 = ?","options":["90","91","92","93"],"answer_index":1,"answer_text":"91","explanation":"2 + 9 = 11, viết 1 nhớ 1; 5 + 3 + 1 = 9 → 91."},
+        {"id":"MATH1H05Q08","question":"63 + 27 = ?","options":["89","90","91","92"],"answer_index":1,"answer_text":"90","explanation":"3 + 7 = 10, viết 0 nhớ 1; 6 + 2 + 1 = 9 → 90."},
+        {"id":"MATH1H05Q09","question":"75 + 16 = ?","options":["90","91","92","93"],"answer_index":1,"answer_text":"91","explanation":"5 + 6 = 11, viết 1 nhớ 1; 7 + 1 + 1 = 9 → 91."},
+        {"id":"MATH1H05Q10","question":"Có 28 quyển vở, mua thêm 37 quyển nữa. Tổng cộng có bao nhiêu quyển?","options":["64","65","66","67"],"answer_index":1,"answer_text":"65","explanation":"28 + 37 = 65 quyển."}
+      ]
+    },
+    {
+      "id": "MATH1H06",
+      "name": "Trừ số có hai chữ số với số có một chữ số (Tuần 27)",
+      "questions": [
+        {"id":"MATH1H06Q01","question":"45 - 7 = ?","options":["37","38","39","40"],"answer_index":1,"answer_text":"38","explanation":"Mượn 1 chục: 15 - 7 = 8; 3 - 0 = 3 → 38."},
+        {"id":"MATH1H06Q02","question":"52 - 8 = ?","options":["43","44","45","46"],"answer_index":1,"answer_text":"44","explanation":"Mượn 1 chục: 12 - 8 = 4; 4 - 0 = 4 → 44."},
+        {"id":"MATH1H06Q03","question":"63 - 9 = ?","options":["53","54","55","56"],"answer_index":1,"answer_text":"54","explanation":"Mượn 1 chục: 13 - 9 = 4; 5 - 0 = 5 → 54."},
+        {"id":"MATH1H06Q04","question":"71 - 5 = ?","options":["65","66","67","68"],"answer_index":1,"answer_text":"66","explanation":"1 - 5 không được, mượn 1 chục: 11 - 5 = 6; 6 - 0 = 6 → 66."},
+        {"id":"MATH1H06Q05","question":"48 - 9 = ?","options":["38","39","40","41"],"answer_index":1,"answer_text":"39","explanation":"Mượn 1 chục: 18 - 9 = 9; 3 - 0 = 3 → 39."},
+        {"id":"MATH1H06Q06","question":"56 - 8 = ?","options":["47","48","49","50"],"answer_index":1,"answer_text":"48","explanation":"Mượn 1 chục: 16 - 8 = 8; 4 - 0 = 4 → 48."},
+        {"id":"MATH1H06Q07","question":"67 - 9 = ?","options":["57","58","59","60"],"answer_index":1,"answer_text":"58","explanation":"Mượn 1 chục: 17 - 9 = 8; 5 - 0 = 5 → 58."},
+        {"id":"MATH1H06Q08","question":"74 - 6 = ?","options":["67","68","69","70"],"answer_index":1,"answer_text":"68","explanation":"Mượn 1 chục: 14 - 6 = 8; 6 - 0 = 6 → 68."},
+        {"id":"MATH1H06Q09","question":"82 - 7 = ?","options":["74","75","76","77"],"answer_index":1,"answer_text":"75","explanation":"Mượn 1 chục: 12 - 7 = 5; 7 - 0 = 7 → 75."},
+        {"id":"MATH1H06Q10","question":"Có 53 cái kẹo, ăn 8 cái. Còn lại bao nhiêu cái?","options":["44","45","46","47"],"answer_index":1,"answer_text":"45","explanation":"53 - 8 = 45 cái."}
+      ]
+    },
+    {
+      "id": "MATH1H07",
+      "name": "Trừ số có hai chữ số cho số có hai chữ số (Tuần 28)",
+      "questions": [
+        {"id":"MATH1H07Q01","question":"52 - 27 = ?","options":["24","25","26","27"],"answer_index":1,"answer_text":"25","explanation":"Mượn 1 chục: 12 - 7 = 5; 4 - 2 = 2 → 25."},
+        {"id":"MATH1H07Q02","question":"64 - 38 = ?","options":["25","26","27","28"],"answer_index":1,"answer_text":"26","explanation":"Mượn 1 chục: 14 - 8 = 6; 5 - 3 = 2 → 26."},
+        {"id":"MATH1H07Q03","question":"73 - 46 = ?","options":["26","27","28","29"],"answer_index":1,"answer_text":"27","explanation":"Mượn 1 chục: 13 - 6 = 7; 6 - 4 = 2 → 27."},
+        {"id":"MATH1H07Q04","question":"81 - 39 = ?","options":["41","42","43","44"],"answer_index":1,"answer_text":"42","explanation":"Mượn 1 chục: 11 - 9 = 2; 7 - 3 = 4 → 42."},
+        {"id":"MATH1H07Q05","question":"65 - 28 = ?","options":["36","37","38","39"],"answer_index":1,"answer_text":"37","explanation":"Mượn 1 chục: 15 - 8 = 7; 5 - 2 = 3 → 37."},
+        {"id":"MATH1H07Q06","question":"57 - 29 = ?","options":["27","28","29","30"],"answer_index":1,"answer_text":"28","explanation":"Mượn 1 chục: 17 - 9 = 8; 4 - 2 = 2 → 28."},
+        {"id":"MATH1H07Q07","question":"84 - 47 = ?","options":["36","37","38","39"],"answer_index":1,"answer_text":"37","explanation":"Mượn 1 chục: 14 - 7 = 7; 7 - 4 = 3 → 37."},
+        {"id":"MATH1H07Q08","question":"76 - 48 = ?","options":["27","28","29","30"],"answer_index":1,"answer_text":"28","explanation":"Mượn 1 chục: 16 - 8 = 8; 6 - 4 = 2 → 28."},
+        {"id":"MATH1H07Q09","question":"93 - 56 = ?","options":["36","37","38","39"],"answer_index":1,"answer_text":"37","explanation":"Mượn 1 chục: 13 - 6 = 7; 8 - 5 = 3 → 37."},
+        {"id":"MATH1H07Q10","question":"Có 68 quả cam, bán 39 quả. Còn lại bao nhiêu quả?","options":["28","29","30","31"],"answer_index":1,"answer_text":"29","explanation":"68 - 39 = 29 quả."}
+      ]
+    },
+    {
+      "id": "MATH1H08",
+      "name": "Phép tính hai bước (Tuần 22, 29, 32)",
+      "questions": [
+        {"id":"MATH1H08Q01","question":"45 + 18 - 23 = ?","options":["39","40","41","42"],"answer_index":1,"answer_text":"40","explanation":"45 + 18 = 63; 63 - 23 = 40."},
+        {"id":"MATH1H08Q02","question":"67 - 29 + 15 = ?","options":["52","53","54","55"],"answer_index":1,"answer_text":"53","explanation":"67 - 29 = 38; 38 + 15 = 53."},
+        {"id":"MATH1H08Q03","question":"38 + 27 - 19 = ?","options":["45","46","47","48"],"answer_index":1,"answer_text":"46","explanation":"38 + 27 = 65; 65 - 19 = 46."},
+        {"id":"MATH1H08Q04","question":"56 - 18 + 25 = ?","options":["62","63","64","65"],"answer_index":1,"answer_text":"63","explanation":"56 - 18 = 38; 38 + 25 = 63."},
+        {"id":"MATH1H08Q05","question":"42 + 19 - 28 = ?","options":["32","33","34","35"],"answer_index":1,"answer_text":"33","explanation":"42 + 19 = 61; 61 - 28 = 33."},
+        {"id":"MATH1H08Q06","question":"73 - 35 + 14 = ?","options":["51","52","53","54"],"answer_index":1,"answer_text":"52","explanation":"73 - 35 = 38; 38 + 14 = 52."},
+        {"id":"MATH1H08Q07","question":"29 + 36 - 27 = ?","options":["37","38","39","40"],"answer_index":1,"answer_text":"38","explanation":"29 + 36 = 65; 65 - 27 = 38."},
+        {"id":"MATH1H08Q08","question":"84 - 47 + 16 = ?","options":["52","53","54","55"],"answer_index":1,"answer_text":"53","explanation":"84 - 47 = 37; 37 + 16 = 53."},
+        {"id":"MATH1H08Q09","question":"51 + 28 - 39 = ?","options":["39","40","41","42"],"answer_index":1,"answer_text":"40","explanation":"51 + 28 = 79; 79 - 39 = 40."},
+        {"id":"MATH1H08Q10","question":"Có 48 quyển vở, mua thêm 27 quyển, sau đó cho bạn 19 quyển. Còn lại bao nhiêu quyển?","options":["55","56","57","58"],"answer_index":1,"answer_text":"56","explanation":"48 + 27 = 75; 75 - 19 = 56 quyển."}
+      ]
+    },
+    {
+      "id": "MATH1H09",
+      "name": "Xem giờ đúng trên đồng hồ (Tuần 30)",
+      "questions": [
+        {"id":"MATH1H09Q01","question":"Kim ngắn chỉ số 3, kim dài chỉ số 12. Đồng hồ chỉ mấy giờ?","options":["2 giờ","3 giờ","4 giờ","5 giờ"],"answer_index":1,"answer_text":"3 giờ","explanation":"Kim ngắn chỉ 3 là 3 giờ đúng."},
+        {"id":"MATH1H09Q02","question":"Kim ngắn chỉ số 7, kim dài chỉ số 12. Đồng hồ chỉ mấy giờ?","options":["6 giờ","7 giờ","8 giờ","9 giờ"],"answer_index":1,"answer_text":"7 giờ","explanation":"Kim ngắn chỉ 7 là 7 giờ đúng."},
+        {"id":"MATH1H09Q03","question":"Kim ngắn chỉ số 9, kim dài chỉ số 12. Đồng hồ chỉ mấy giờ?","options":["8 giờ","9 giờ","10 giờ","11 giờ"],"answer_index":1,"answer_text":"9 giờ","explanation":"Kim ngắn chỉ 9 là 9 giờ đúng."},
+        {"id":"MATH1H09Q04","question":"Buổi sáng 7 giờ, học sinh thường làm gì?","options":["Ngủ","Ăn trưa","Đi học","Chơi"],"answer_index":2,"answer_text":"Đi học","explanation":"7 giờ sáng là giờ đi học."},
+        {"id":"MATH1H09Q05","question":"Buổi tối 8 giờ, thường làm gì?","options":["Ăn sáng","Ăn tối","Đi học","Chơi"],"answer_index":1,"answer_text":"Ăn tối","explanation":"8 giờ tối là giờ ăn tối."},
+        {"id":"MATH1H09Q06","question":"12 giờ trưa là lúc nào trong ngày?","options":["Buổi sáng","Buổi trưa","Buổi chiều","Buổi tối"],"answer_index":1,"answer_text":"Buổi trưa","explanation":"12 giờ là giữa trưa."},
+        {"id":"MATH1H09Q07","question":"Kim ngắn chỉ số 6, kim dài chỉ số 12. Đồng hồ chỉ mấy giờ?","options":["5 giờ","6 giờ","7 giờ","8 giờ"],"answer_index":1,"answer_text":"6 giờ","explanation":"Kim ngắn chỉ 6 là 6 giờ đúng."},
+        {"id":"MATH1H09Q08","question":"Kim ngắn chỉ số 10, kim dài chỉ số 12. Đồng hồ chỉ mấy giờ?","options":["9 giờ","10 giờ","11 giờ","12 giờ"],"answer_index":1,"answer_text":"10 giờ","explanation":"Kim ngắn chỉ 10 là 10 giờ đúng."},
+        {"id":"MATH1H09Q09","question":"Buổi sáng 6 giờ, thường làm gì?","options":["Ngủ dậy","Ăn trưa","Đi học","Chơi"],"answer_index":0,"answer_text":"Ngủ dậy","explanation":"6 giờ sáng là lúc ngủ dậy."},
+        {"id":"MATH1H09Q10","question":"Kim ngắn chỉ số 11, kim dài chỉ số 12. Đồng hồ chỉ mấy giờ?","options":["10 giờ","11 giờ","12 giờ","1 giờ"],"answer_index":1,"answer_text":"11 giờ","explanation":"Kim ngắn chỉ 11 là 11 giờ đúng."}
+      ]
+    },
+    {
+      "id": "MATH1H10",
+      "name": "Các ngày trong tuần (Tuần 31)",
+      "questions": [
+        {"id":"MATH1H10Q01","question":"Một tuần có bao nhiêu ngày?","options":["5","6","7","8"],"answer_index":2,"answer_text":"7","explanation":"Một tuần có 7 ngày."},
+        {"id":"MATH1H10Q02","question":"Ngày đầu tiên trong tuần là?","options":["Thứ Hai","Thứ Ba","Chủ nhật","Thứ Bảy"],"answer_index":2,"answer_text":"Chủ nhật","explanation":"Chủ nhật là ngày đầu tiên trong tuần."},
+        {"id":"MATH1H10Q03","question":"Ngày cuối cùng trong tuần là?","options":["Thứ Sáu","Thứ Bảy","Chủ nhật","Thứ Hai"],"answer_index":1,"answer_text":"Thứ Bảy","explanation":"Thứ Bảy là ngày cuối cùng trong tuần."},
+        {"id":"MATH1H10Q04","question":"Ngày nào đứng sau Thứ Tư?","options":["Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu"],"answer_index":2,"answer_text":"Thứ Năm","explanation":"Sau Thứ Tư là Thứ Năm."},
+        {"id":"MATH1H10Q05","question":"Ngày nào đứng trước Thứ Hai?","options":["Chủ nhật","Thứ Hai","Thứ Ba","Thứ Tư"],"answer_index":0,"answer_text":"Chủ nhật","explanation":"Trước Thứ Hai là Chủ nhật."},
+        {"id":"MATH1H10Q06","question":"Hôm nay là Thứ Ba, ngày mai là?","options":["Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm"],"answer_index":2,"answer_text":"Thứ Tư","explanation":"Sau Thứ Ba là Thứ Tư."},
+        {"id":"MATH1H10Q07","question":"Hôm nay là Thứ Sáu, hôm qua là?","options":["Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy"],"answer_index":1,"answer_text":"Thứ Năm","explanation":"Trước Thứ Sáu là Thứ Năm."},
+        {"id":"MATH1H10Q08","question":"Các ngày đi học trong tuần là?","options":["Thứ Hai đến Thứ Sáu","Chủ nhật đến Thứ Sáu","Thứ Hai đến Thứ Bảy","Chủ nhật đến Thứ Bảy"],"answer_index":0,"answer_text":"Thứ Hai đến Thứ Sáu","explanation":"Đi học từ Thứ Hai đến Thứ Sáu."},
+        {"id":"MATH1H10Q09","question":"2 tuần có bao nhiêu ngày?","options":["12","13","14","15"],"answer_index":2,"answer_text":"14","explanation":"2 × 7 = 14 ngày."},
+        {"id":"MATH1H10Q10","question":"Hôm nay là Thứ Năm, ngày kia là?","options":["Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy"],"answer_index":3,"answer_text":"Thứ Bảy","explanation":"Ngày kia = ngày mai + 1 = Thứ Sáu + 1 = Thứ Bảy."}
+      ]
+    },
+    {
+      "id": "MATH1H11",
+      "name": "Tìm số còn thiếu trong phạm vi 100",
+      "questions": [
+        {"id":"MATH1H11Q01","question":"? + 28 = 65","options":["36","37","38","39"],"answer_index":1,"answer_text":"37","explanation":"65 - 28 = 37."},
+        {"id":"MATH1H11Q02","question":"47 + ? = 73","options":["25","26","27","28"],"answer_index":1,"answer_text":"26","explanation":"73 - 47 = 26."},
+        {"id":"MATH1H11Q03","question":"? - 35 = 28","options":["62","63","64","65"],"answer_index":1,"answer_text":"63","explanation":"28 + 35 = 63."},
+        {"id":"MATH1H11Q04","question":"56 - ? = 29","options":["26","27","28","29"],"answer_index":1,"answer_text":"27","explanation":"56 - 29 = 27."},
+        {"id":"MATH1H11Q05","question":"? + 19 = 84","options":["64","65","66","67"],"answer_index":1,"answer_text":"65","explanation":"84 - 19 = 65."},
+        {"id":"MATH1H11Q06","question":"38 + ? = 92","options":["53","54","55","56"],"answer_index":1,"answer_text":"54","explanation":"92 - 38 = 54."},
+        {"id":"MATH1H11Q07","question":"? - 42 = 31","options":["72","73","74","75"],"answer_index":1,"answer_text":"73","explanation":"31 + 42 = 73."},
+        {"id":"MATH1H11Q08","question":"67 - ? = 39","options":["27","28","29","30"],"answer_index":1,"answer_text":"28","explanation":"67 - 39 = 28."},
+        {"id":"MATH1H11Q09","question":"? + 45 = 89","options":["43","44","45","46"],"answer_index":1,"answer_text":"44","explanation":"89 - 45 = 44."},
+        {"id":"MATH1H11Q10","question":"53 - ? = 18","options":["34","35","36","37"],"answer_index":1,"answer_text":"35","explanation":"53 - 18 = 35."}
+      ]
+    },
+    {
+      "id": "MATH1H12",
+      "name": "Bài toán lời văn hai bước",
+      "questions": [
+        {"id":"MATH1H12Q01","question":"Có 45 quả táo, mua thêm 28 quả, sau đó cho bạn 19 quả. Còn lại bao nhiêu quả?","options":["53","54","55","56"],"answer_index":1,"answer_text":"54","explanation":"45 + 28 = 73; 73 - 19 = 54 quả."},
+        {"id":"MATH1H12Q02","question":"Có 67 quyển vở, cho bạn 24 quyển, sau đó mua thêm 15 quyển. Có tất cả bao nhiêu quyển?","options":["57","58","59","60"],"answer_index":1,"answer_text":"58","explanation":"67 - 24 = 43; 43 + 15 = 58 quyển."},
+        {"id":"MATH1H12Q03","question":"Có 52 cái bánh, ăn 18 cái, sau đó mua thêm 27 cái. Có tất cả bao nhiêu cái?","options":["60","61","62","63"],"answer_index":1,"answer_text":"61","explanation":"52 - 18 = 34; 34 + 27 = 61 cái."},
+        {"id":"MATH1H12Q04","question":"Có 89 viên bi, cho bạn 35 viên, sau đó nhận lại 22 viên. Có tất cả bao nhiêu viên?","options":["75","76","77","78"],"answer_index":1,"answer_text":"76","explanation":"89 - 35 = 54; 54 + 22 = 76 viên."},
+        {"id":"MATH1H12Q05","question":"Có 76 quả cam, bán 29 quả, sau đó mua thêm 18 quả. Có tất cả bao nhiêu quả?","options":["64","65","66","67"],"answer_index":1,"answer_text":"65","explanation":"76 - 29 = 47; 47 + 18 = 65 quả."},
+        {"id":"MATH1H12Q06","question":"Có 58 cái kẹo, ăn 16 cái, sau đó mẹ cho thêm 25 cái. Có tất cả bao nhiêu cái?","options":["66","67","68","69"],"answer_index":1,"answer_text":"67","explanation":"58 - 16 = 42; 42 + 25 = 67 cái."},
+        {"id":"MATH1H12Q07","question":"Có 93 quyển sách, tặng bạn 37 quyển, sau đó mua thêm 14 quyển. Có tất cả bao nhiêu quyển?","options":["69","70","71","72"],"answer_index":1,"answer_text":"70","explanation":"93 - 37 = 56; 56 + 14 = 70 quyển."},
+        {"id":"MATH1H12Q08","question":"Có 64 cái bút, mất 18 cái, sau đó mua thêm 23 cái. Có tất cả bao nhiêu cái?","options":["68","69","70","71"],"answer_index":1,"answer_text":"69","explanation":"64 - 18 = 46; 46 + 23 = 69 cái."},
+        {"id":"MATH1H12Q09","question":"Có 71 quả bóng, nổ 15 quả, sau đó mua thêm 19 quả. Có tất cả bao nhiêu quả?","options":["74","75","76","77"],"answer_index":1,"answer_text":"75","explanation":"71 - 15 = 56; 56 + 19 = 75 quả."},
+        {"id":"MATH1H12Q10","question":"Có 85 cái bánh, ăn 27 cái, sau đó mẹ cho thêm 18 cái. Còn lại bao nhiêu cái?","options":["75","76","77","78"],"answer_index":1,"answer_text":"76","explanation":"85 - 27 = 58; 58 + 18 = 76 cái."}
+      ]
+    },
+    {
+      "id": "MATH1H13",
+      "name": "Ôn tập giữa kỳ II (Tổng hợp)",
+      "questions": [
+        {"id":"MATH1H13Q01","question":"Số lớn nhất có hai chữ số là?","options":["98","99","100","97"],"answer_index":1,"answer_text":"99","explanation":"Số lớn nhất có hai chữ số là 99."},
+        {"id":"MATH1H13Q02","question":"47 + 28 = ?","options":["74","75","76","77"],"answer_index":1,"answer_text":"75","explanation":"47 + 28 = 75."},
+        {"id":"MATH1H13Q03","question":"65 - 39 = ?","options":["25","26","27","28"],"answer_index":1,"answer_text":"26","explanation":"65 - 39 = 26."},
+        {"id":"MATH1H13Q04","question":"1 mét = ? cm","options":["10","50","100","1000"],"answer_index":2,"answer_text":"100","explanation":"1 mét = 100 cm."},
+        {"id":"MATH1H13Q05","question":"Kim ngắn chỉ 8, kim dài chỉ 12. Đồng hồ chỉ mấy giờ?","options":["7 giờ","8 giờ","9 giờ","10 giờ"],"answer_index":1,"answer_text":"8 giờ","explanation":"Kim ngắn chỉ 8 là 8 giờ đúng."},
+        {"id":"MATH1H13Q06","question":"52 ... 25","options":[">","<","=","Không so sánh"],"answer_index":0,"answer_text":">","explanation":"52 > 25 (hàng chục 5 > 2)."},
+        {"id":"MATH1H13Q07","question":"Có 56 quả táo, cho bạn 19 quả. Còn lại bao nhiêu quả?","options":["36","37","38","39"],"answer_index":1,"answer_text":"37","explanation":"56 - 19 = 37 quả."},
+        {"id":"MATH1H13Q08","question":"38 + 47 = ?","options":["84","85","86","87"],"answer_index":1,"answer_text":"85","explanation":"38 + 47 = 85."},
+        {"id":"MATH1H13Q09","question":"Thước 25 cm, cắt bớt 8 cm. Còn lại?","options":["16","17","18","19"],"answer_index":1,"answer_text":"17","explanation":"25 - 8 = 17 cm."},
+        {"id":"MATH1H13Q10","question":"Số liền sau của 89 là?","options":["88","89","90","91"],"answer_index":2,"answer_text":"90","explanation":"Sau 89 là 90."}
+      ]
+    },
+    {
+      "id": "MATH1H14",
+      "name": "Ôn tập cuối năm (Tổng hợp)",
+      "questions": [
+        {"id":"MATH1H14Q01","question":"74 - 28 + 35 = ?","options":["80","81","82","83"],"answer_index":1,"answer_text":"81","explanation":"74 - 28 = 46; 46 + 35 = 81."},
+        {"id":"MATH1H14Q02","question":"Có 67 quyển vở, mua thêm 29 quyển, sau đó cho bạn 18 quyển. Còn lại bao nhiêu?","options":["77","78","79","80"],"answer_index":1,"answer_text":"78","explanation":"67 + 29 = 96; 96 - 18 = 78 quyển."},
+        {"id":"MATH1H14Q03","question":"? + 37 = 84","options":["46","47","48","49"],"answer_index":1,"answer_text":"47","explanation":"84 - 37 = 47."},
+        {"id":"MATH1H14Q04","question":"Số nào lớn nhất: 47, 74, 57, 75?","options":["47","74","57","75"],"answer_index":3,"answer_text":"75","explanation":"75 là số lớn nhất (hàng chục 7 lớn nhất, đơn vị 5 lớn nhất)."},
+        {"id":"MATH1H14Q05","question":"Một tuần có bao nhiêu ngày?","options":["5","6","7","8"],"answer_index":2,"answer_text":"7","explanation":"Một tuần có 7 ngày."},
+        {"id":"MATH1H14Q06","question":"56 - ? = 29","options":["26","27","28","29"],"answer_index":1,"answer_text":"27","explanation":"56 - 29 = 27."},
+        {"id":"MATH1H14Q07","question":"3 đoạn dây, mỗi đoạn 15 cm. Tổng dài bao nhiêu?","options":["43","44","45","46"],"answer_index":2,"answer_text":"45","explanation":"3 × 15 = 45 cm."},
+        {"id":"MATH1H14Q08","question":"Có 82 quả cam, bán 36 quả, sau đó mua thêm 27 quả. Có tất cả?","options":["72","73","74","75"],"answer_index":1,"answer_text":"73","explanation":"82 - 36 = 46; 46 + 27 = 73 quả."},
+        {"id":"MATH1H14Q09","question":"Kim ngắn chỉ 11, kim dài chỉ 12. Đồng hồ chỉ mấy giờ?","options":["10 giờ","11 giờ","12 giờ","1 giờ"],"answer_index":1,"answer_text":"11 giờ","explanation":"Kim ngắn chỉ 11 là 11 giờ đúng."},
+        {"id":"MATH1H14Q10","question":"Số liền trước của 100 là?","options":["98","99","100","101"],"answer_index":1,"answer_text":"99","explanation":"Trước 100 là 99."}
+      ]
+    }
+  ]
+}

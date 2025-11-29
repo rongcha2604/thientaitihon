@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "grade": 2,
+    "subject": "Toán",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "easy",
+    "curriculum": "CTGDPT 2018 (Theo Lộ Trình Mới)"
+  },
+  "topics": [
+    {
+      "id": "MATH2_EASY_NEW_01",
+      "name": "Nhận biết khái niệm cơ bản",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "M2EN01Q01",
+          "question": "Trong phép tính 25 + 10 = 35, số 25 được gọi là gì?",
+          "options": [
+            "Tổng",
+            "Số hạng",
+            "Hiệu",
+            "Tích"
+          ],
+          "answer_index": 1,
+          "answer_text": "Số hạng",
+          "explanation": "Trong phép cộng, các số được cộng với nhau gọi là số hạng."
+        },
+        {
+          "id": "M2EN01Q02",
+          "question": "Trong phép tính 5 x 3 = 15, số 15 được gọi là gì?",
+          "options": [
+            "Thừa số",
+            "Tổng",
+            "Tích",
+            "Thương"
+          ],
+          "answer_index": 2,
+          "answer_text": "Tích",
+          "explanation": "Kết quả của phép nhân được gọi là tích."
+        },
+        {
+          "id": "M2EN01Q03",
+          "question": "Trong phép tính 20 : 4 = 5, số 20 được gọi là gì?",
+          "options": [
+            "Thương",
+            "Số hạng",
+            "Số chia",
+            "Số bị chia"
+          ],
+          "answer_index": 3,
+          "answer_text": "Số bị chia",
+          "explanation": "Trong phép chia, số đứng trước dấu chia được gọi là số bị chia."
+        },
+        {
+          "id": "M2EN01Q04",
+          "question": "1 dm bằng bao nhiêu cm?",
+          "options": [
+            "100 cm",
+            "10 cm",
+            "1 cm",
+            "1000 cm"
+          ],
+          "answer_index": 1,
+          "answer_text": "10 cm",
+          "explanation": "dm là viết tắt của đề-xi-mét. 1 dm = 10 cm."
+        },
+        {
+          "id": "M2EN01Q05",
+          "question": "'kg' là đơn vị đo gì?",
+          "options": [
+            "Thể tích",
+            "Độ dài",
+            "Thời gian",
+            "Khối lượng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Khối lượng",
+          "explanation": "'kg' là viết tắt của ki-lô-gam, dùng để đo cân nặng (khối lượng)."
+        },
+        {
+          "id": "M2EN01Q06",
+          "question": "'l' là đơn vị đo gì?",
+          "options": [
+            "Thể tích",
+            "Khối lượng",
+            "Nhiệt độ",
+            "Độ dài"
+          ],
+          "answer_index": 0,
+          "answer_text": "Thể tích",
+          "explanation": "'l' là viết tắt của lít, dùng để đo thể tích chất lỏng."
+        },
+        {
+          "id": "M2EN01Q07",
+          "question": "Hình nào có 4 cạnh và 4 góc vuông?",
+          "options": [
+            "Hình tròn",
+            "Hình tam giác",
+            "Hình chữ nhật",
+            "Hình tứ giác bất kỳ"
+          ],
+          "answer_index": 2,
+          "answer_text": "Hình chữ nhật",
+          "explanation": "Hình chữ nhật là một loại hình tứ giác đặc biệt có 4 góc vuông."
+        },
+        {
+          "id": "M2EN01Q08",
+          "question": "Một tuần có mấy ngày?",
+          "options": [
+            "12 ngày",
+            "7 ngày",
+            "5 ngày",
+            "30 ngày"
+          ],
+          "answer_index": 1,
+          "answer_text": "7 ngày",
+          "explanation": "Một tuần lễ có 7 ngày, từ thứ Hai đến Chủ Nhật."
+        },
+        {
+          "id": "M2EN01Q09",
+          "question": "Phép nhân nào có kết quả bằng 0?",
+          "options": [
+            "5 + 0",
+            "5 - 5",
+            "5 x 1",
+            "5 x 0"
+          ],
+          "answer_index": 3,
+          "answer_text": "5 x 0",
+          "explanation": "Bất kỳ số nào nhân với 0 cũng bằng 0."
+        },
+        {
+          "id": "M2EN01Q10",
+          "question": "Phép chia nào có số 1 là thương?",
+          "options": [
+            "8 : 1",
+            "8 + 1",
+            "8 : 8",
+            "0 : 8"
+          ],
+          "answer_index": 2,
+          "answer_text": "8 : 8",
+          "explanation": "Một số bất kỳ (khác 0) chia cho chính nó thì bằng 1."
+        },
+        {
+          "id": "M2EN01Q11",
+          "question": "1/2 còn được gọi là gì?",
+          "options": [
+            "Một phần tư",
+            "Gấp đôi",
+            "Một nửa",
+            "Một phần ba"
+          ],
+          "answer_index": 2,
+          "answer_text": "Một nửa",
+          "explanation": "1/2 là biểu diễn của một nửa."
+        },
+        {
+          "id": "M2EN01Q12",
+          "question": "Tờ tiền nào có giá trị lớn nhất trong các tờ tiền sau?",
+          "options": [
+            "500 đồng",
+            "1.000 đồng",
+            "5.000 đồng",
+            "2.000 đồng"
+          ],
+          "answer_index": 2,
+          "answer_text": "5.000 đồng",
+          "explanation": "So sánh các số 5000, 1000, 2000, 500, số 5000 là lớn nhất."
+        },
+        {
+          "id": "M2EN01Q13",
+          "question": "Trong phép tính 50 - 10 = 40, số 40 được gọi là gì?",
+          "options": [
+            "Hiệu",
+            "Tổng",
+            "Số bị trừ",
+            "Số trừ"
+          ],
+          "answer_index": 0,
+          "answer_text": "Hiệu",
+          "explanation": "Kết quả của phép trừ được gọi là hiệu."
+        },
+        {
+          "id": "M2EN01Q14",
+          "question": "Trong phép tính 2 x 8 = 16, số 2 và số 8 được gọi là gì?",
+          "options": [
+            "Số hạng",
+            "Tích",
+            "Thừa số",
+            "Tổng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Thừa số",
+          "explanation": "Các số trong phép nhân được gọi là thừa số."
+        },
+        {
+          "id": "M2EN01Q15",
+          "question": "Trong phép tính 18 : 3 = 6, số 3 được gọi là gì?",
+          "options": [
+            "Số bị chia",
+            "Số chia",
+            "Hiệu",
+            "Thương"
+          ],
+          "answer_index": 1,
+          "answer_text": "Số chia",
+          "explanation": "Số đứng sau dấu chia được gọi là số chia."
+        }
+      ]
+    },
+    {
+      "id": "MATH2_EASY_NEW_02",
+      "name": "Phép cộng trừ không nhớ và Bảng cửu chương 2, 5",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "M2EN02Q01",
+          "question": "Kết quả của phép tính 123 + 456 là:",
+          "options": [
+            "578",
+            "479",
+            "579",
+            "569"
+          ],
+          "answer_index": 2,
+          "answer_text": "579",
+          "explanation": "Đây là phép cộng không nhớ. 123 + 456 = 579."
+        },
+        {
+          "id": "M2EN02Q02",
+          "question": "Kết quả của phép tính 789 - 123 là:",
+          "options": [
+            "667",
+            "766",
+            "656",
+            "666"
+          ],
+          "answer_index": 3,
+          "answer_text": "666",
+          "explanation": "Đây là phép trừ không nhớ. 789 - 123 = 666."
+        },
+        {
+          "id": "M2EN02Q03",
+          "question": "2 x 7 = ?",
+          "options": [
+            "9",
+            "14",
+            "16",
+            "27"
+          ],
+          "answer_index": 1,
+          "answer_text": "14",
+          "explanation": "Theo bảng cửu chương 2, 2 nhân 7 bằng 14."
+        },
+        {
+          "id": "M2EN02Q04",
+          "question": "5 x 6 = ?",
+          "options": [
+            "30",
+            "11",
+            "35",
+            "25"
+          ],
+          "answer_index": 0,
+          "answer_text": "30",
+          "explanation": "Theo bảng cửu chương 5, 5 nhân 6 bằng 30."
+        },
+        {
+          "id": "M2EN02Q05",
+          "question": "10 : 2 = ?",
+          "options": [
+            "12",
+            "8",
+            "5",
+            "4"
+          ],
+          "answer_index": 2,
+          "answer_text": "5",
+          "explanation": "Theo bảng chia 2, 10 chia 2 bằng 5."
+        },
+        {
+          "id": "M2EN02Q06",
+          "question": "45 : 5 = ?",
+          "options": [
+            "7",
+            "10",
+            "8",
+            "9"
+          ],
+          "answer_index": 3,
+          "answer_text": "9",
+          "explanation": "Theo bảng chia 5, 45 chia 5 bằng 9."
+        },
+        {
+          "id": "M2EN02Q07",
+          "question": "Tổng của 510 và 230 là:",
+          "options": [
+            "740",
+            "840",
+            "640",
+            "730"
+          ],
+          "answer_index": 0,
+          "answer_text": "740",
+          "explanation": "510 + 230 = 740."
+        },
+        {
+          "id": "M2EN02Q08",
+          "question": "Hiệu của 950 và 50 là:",
+          "options": [
+            "900",
+            "1000",
+            "850",
+            "905"
+          ],
+          "answer_index": 0,
+          "answer_text": "900",
+          "explanation": "950 - 50 = 900."
+        },
+        {
+          "id": "M2EN02Q09",
+          "question": "Một nửa của 18 là bao nhiêu?",
+          "options": [
+            "20",
+            "9",
+            "16",
+            "36"
+          ],
+          "answer_index": 1,
+          "answer_text": "9",
+          "explanation": "Một nửa của 18 là 18 : 2 = 9."
+        },
+        {
+          "id": "M2EN02Q10",
+          "question": "1/5 của 25 là bao nhiêu?",
+          "options": [
+            "5",
+            "20",
+            "10",
+            "30"
+          ],
+          "answer_index": 0,
+          "answer_text": "5",
+          "explanation": "1/5 của 25 là 25 : 5 = 5."
+        },
+        {
+          "id": "M2EN02Q11",
+          "question": "Tìm x, biết x + 111 = 333",
+          "options": [
+            "333",
+            "222",
+            "111",
+            "444"
+          ],
+          "answer_index": 1,
+          "answer_text": "222",
+          "explanation": "x = 333 - 111 = 222."
+        },
+        {
+          "id": "M2EN02Q12",
+          "question": "2 x 9 = ?",
+          "options": [
+            "11",
+            "18",
+            "7",
+            "29"
+          ],
+          "answer_index": 1,
+          "answer_text": "18",
+          "explanation": "Theo bảng cửu chương 2."
+        },
+        {
+          "id": "M2EN02Q13",
+          "question": "5 x 1 = ?",
+          "options": [
+            "6",
+            "51",
+            "4",
+            "5"
+          ],
+          "answer_index": 3,
+          "answer_text": "5",
+          "explanation": "Bất kỳ số nào nhân với 1 cũng bằng chính nó."
+        },
+        {
+          "id": "M2EN02Q14",
+          "question": "16 : 2 = ?",
+          "options": [
+            "7",
+            "8",
+            "18",
+            "14"
+          ],
+          "answer_index": 1,
+          "answer_text": "8",
+          "explanation": "Theo bảng chia 2."
+        },
+        {
+          "id": "M2EN02Q15",
+          "question": "35 : 5 = ?",
+          "options": [
+            "40",
+            "6",
+            "30",
+            "7"
+          ],
+          "answer_index": 3,
+          "answer_text": "7",
+          "explanation": "Theo bảng chia 5."
+        }
+      ]
+    },
+    {
+      "id": "MATH2_EASY_NEW_03",
+      "name": "Bài toán lời văn đơn giản",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "M2EN03Q01",
+          "question": "Lớp 2A có 20 bạn nam và 15 bạn nữ. Hỏi lớp 2A có tất cả bao nhiêu bạn?",
+          "options": [
+            "45 bạn",
+            "5 bạn",
+            "35 bạn",
+            "25 bạn"
+          ],
+          "answer_index": 2,
+          "answer_text": "35 bạn",
+          "explanation": "Ta thực hiện phép cộng: 20 + 15 = 35 bạn."
+        },
+        {
+          "id": "M2EN03Q02",
+          "question": "Mẹ có 50.000 đồng, mẹ mua rau hết 10.000 đồng. Hỏi mẹ còn lại bao nhiêu tiền?",
+          "options": [
+            "10.000 đồng",
+            "40.000 đồng",
+            "50.000 đồng",
+            "60.000 đồng"
+          ],
+          "answer_index": 1,
+          "answer_text": "40.000 đồng",
+          "explanation": "Ta thực hiện phép trừ: 50.000 - 10.000 = 40.000 đồng."
+        },
+        {
+          "id": "M2EN03Q03",
+          "question": "An có 2 túi bi, mỗi túi có 8 viên bi. Hỏi An có tất cả bao nhiêu viên bi?",
+          "options": [
+            "16 viên",
+            "28 viên",
+            "6 viên",
+            "10 viên"
+          ],
+          "answer_index": 0,
+          "answer_text": "16 viên",
+          "explanation": "Ta thực hiện phép nhân: 2 x 8 = 16 viên."
+        },
+        {
+          "id": "M2EN03Q04",
+          "question": "Có 20 cái bánh chia đều vào 5 hộp. Hỏi mỗi hộp có bao nhiêu cái bánh?",
+          "options": [
+            "5 cái",
+            "15 cái",
+            "25 cái",
+            "4 cái"
+          ],
+          "answer_index": 3,
+          "answer_text": "4 cái",
+          "explanation": "Ta thực hiện phép chia: 20 : 5 = 4 cái."
+        },
+        {
+          "id": "M2EN03Q05",
+          "question": "Bút chì của em dài 15cm. Thước kẻ dài hơn bút chì 10cm. Hỏi thước kẻ dài bao nhiêu cm?",
+          "options": [
+            "15 cm",
+            "25 cm",
+            "5 cm",
+            "10 cm"
+          ],
+          "answer_index": 1,
+          "answer_text": "25 cm",
+          "explanation": "Độ dài thước kẻ là: 15 + 10 = 25 cm."
+        },
+        {
+          "id": "M2EN03Q06",
+          "question": "Quả cam cân nặng 200g, quả táo nhẹ hơn quả cam 50g. Hỏi quả táo cân nặng bao nhiêu gam?",
+          "options": [
+            "250g",
+            "50g",
+            "200g",
+            "150g"
+          ],
+          "answer_index": 3,
+          "answer_text": "150g",
+          "explanation": "Cân nặng quả táo là: 200 - 50 = 150g."
+        },
+        {
+          "id": "M2EN03Q07",
+          "question": "Một can dầu 10 lít, một can nước 5 lít. Hỏi cả hai can chứa bao nhiêu lít?",
+          "options": [
+            "5 lít",
+            "15 lít",
+            "2 lít",
+            "10 lít"
+          ],
+          "answer_index": 1,
+          "answer_text": "15 lít",
+          "explanation": "Tổng số lít là: 10 + 5 = 15 lít."
+        },
+        {
+          "id": "M2EN03Q08",
+          "question": "Hôm nay là ngày 15. Hỏi 3 ngày nữa là ngày bao nhiêu?",
+          "options": [
+            "Ngày 18",
+            "Ngày 3",
+            "Ngày 5",
+            "Ngày 12"
+          ],
+          "answer_index": 0,
+          "answer_text": "Ngày 18",
+          "explanation": "15 + 3 = 18. Vậy 3 ngày nữa là ngày 18."
+        },
+        {
+          "id": "M2EN03Q09",
+          "question": "Có 12 quả bóng bay, một nửa trong số đó màu đỏ. Hỏi có bao nhiêu quả bóng bay màu đỏ?",
+          "options": [
+            "10 quả",
+            "12 quả",
+            "6 quả",
+            "24 quả"
+          ],
+          "answer_index": 2,
+          "answer_text": "6 quả",
+          "explanation": "Một nửa của 12 là 12 : 2 = 6 quả."
+        },
+        {
+          "id": "M2EN03Q10",
+          "question": "An có 15 cái kẹo, An cho bạn 1/3 số kẹo đó. Hỏi An đã cho bạn mấy cái kẹo?",
+          "options": [
+            "18 cái",
+            "10 cái",
+            "12 cái",
+            "5 cái"
+          ],
+          "answer_index": 3,
+          "answer_text": "5 cái",
+          "explanation": "1/3 của 15 là 15 : 3 = 5 cái."
+        }
+      ]
+    }
+  ]
+}

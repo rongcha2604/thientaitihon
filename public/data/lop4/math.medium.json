@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "grade": 4,
+    "subject": "Toán",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "medium",
+    "curriculum": "Chương trình mới"
+  },
+  "topics": [
+    {
+      "id": "MATH4_MEDIUM_01",
+      "name": "Chủ đề 1: Số tự nhiên và Dấu hiệu chia hết",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M4M01Q01",
+          "question": "Số nào sau đây vừa chia hết cho 2 vừa chia hết cho 5?",
+          "options": [
+            "55552",
+            "12345",
+            "67890",
+            "24685"
+          ],
+          "answer_index": 2,
+          "answer_text": "67890"
+        },
+        {
+          "id": "M4M01Q02",
+          "question": "Số nào sau đây chia hết cho 3?",
+          "options": [
+            "4444",
+            "1234",
+            "2025",
+            "5678"
+          ],
+          "answer_index": 2,
+          "answer_text": "2025"
+        },
+        {
+          "id": "M4M01Q03",
+          "question": "Số nào sau đây chia hết cho 9?",
+          "options": [
+            "9876",
+            "12345",
+            "7209",
+            "5555"
+          ],
+          "answer_index": 2,
+          "answer_text": "7209"
+        },
+        {
+          "id": "M4M01Q04",
+          "question": "Trong các số 120, 345, 554, 890, số nào chia hết cho cả 2 và 5?",
+          "options": [
+            "345, 554",
+            "120, 890",
+            "554, 890",
+            "120, 345"
+          ],
+          "answer_index": 1,
+          "answer_text": "120, 890"
+        },
+        {
+          "id": "M4M01Q05",
+          "question": "Giá trị của biểu thức 450 - (50 + 25 x 2) là:",
+          "options": [
+            "750",
+            "400",
+            "350",
+            "800"
+          ],
+          "answer_index": 2,
+          "answer_text": "350"
+        },
+        {
+          "id": "M4M01Q06",
+          "question": "Tìm x, biết: x * 15 = 450",
+          "options": [
+            "30",
+            "50",
+            "20",
+            "40"
+          ],
+          "answer_index": 0,
+          "answer_text": "30"
+        },
+        {
+          "id": "M4M01Q07",
+          "question": "Số 'bốn triệu không trăm linh năm nghìn' được viết là:",
+          "options": [
+            "4 000 050",
+            "4 000 500",
+            "4 500 000",
+            "4 005 000"
+          ],
+          "answer_index": 3,
+          "answer_text": "4 005 000"
+        },
+        {
+          "id": "M4M01Q08",
+          "question": "Số lớn nhất có 6 chữ số khác nhau là:",
+          "options": [
+            "987564",
+            "102345",
+            "999999",
+            "987654"
+          ],
+          "answer_index": 3,
+          "answer_text": "987654"
+        },
+        {
+          "id": "M4M01Q09",
+          "question": "Để số 12* chia hết cho cả 3 và 5, chữ số * là:",
+          "options": [
+            "Không có số nào",
+            "3",
+            "5",
+            "0"
+          ],
+          "answer_index": 3,
+          "answer_text": "0"
+        },
+        {
+          "id": "M4M01Q10",
+          "question": "Trung bình cộng của các số 4, 5, 6 là:",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "15"
+          ],
+          "answer_index": 1,
+          "answer_text": "5"
+        },
+        {
+          "id": "M4M01Q11",
+          "question": "Một xí nghiệp may mỗi ngày may được 215 bộ quần áo. Hỏi trong 12 ngày xí nghiệp đó may được bao nhiêu bộ quần áo?",
+          "options": [
+            "2570 bộ",
+            "2580 bộ",
+            "2470 bộ",
+            "2480 bộ"
+          ],
+          "answer_index": 1,
+          "answer_text": "2580 bộ"
+        },
+        {
+          "id": "M4M01Q12",
+          "question": "Kết quả của phép tính 105 x (10 + 5) là:",
+          "options": [
+            "1575",
+            "1500",
+            "1050",
+            "1105"
+          ],
+          "answer_index": 0,
+          "answer_text": "1575"
+        },
+        {
+          "id": "M4M01Q13",
+          "question": "Số nào sau đây không chia hết cho 3?",
+          "options": [
+            "112",
+            "333",
+            "456",
+            "789"
+          ],
+          "answer_index": 0,
+          "answer_text": "112"
+        },
+        {
+          "id": "M4M01Q14",
+          "question": "Tìm số tự nhiên x, biết 12 < x < 15 và x là số chẵn.",
+          "options": [
+            "15",
+            "13",
+            "12",
+            "14"
+          ],
+          "answer_index": 3,
+          "answer_text": "14"
+        },
+        {
+          "id": "M4M01Q15",
+          "question": "Số nào là số lẻ nhỏ nhất có 4 chữ số khác nhau?",
+          "options": [
+            "1023",
+            "1003",
+            "1235",
+            "1001"
+          ],
+          "answer_index": 0,
+          "answer_text": "1023"
+        }
+      ]
+    },
+    {
+      "id": "MATH4_MEDIUM_02",
+      "name": "Chủ đề 2: Phân số",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M4M02Q01",
+          "question": "Quy đồng mẫu số của 2/3 và 3/4 ta được:",
+          "options": [
+            "2/12 và 3/12",
+            "4/7 và 6/7",
+            "8/12 và 9/12",
+            "6/12 và 12/12"
+          ],
+          "answer_index": 2,
+          "answer_text": "8/12 và 9/12"
+        },
+        {
+          "id": "M4M02Q02",
+          "question": "Kết quả của phép tính 1/2 + 1/3 là:",
+          "options": [
+            "5/6",
+            "2/6",
+            "1/6",
+            "2/5"
+          ],
+          "answer_index": 0,
+          "answer_text": "5/6"
+        },
+        {
+          "id": "M4M02Q03",
+          "question": "Kết quả của phép tính 3/4 - 1/8 là:",
+          "options": [
+            "7/8",
+            "1/2",
+            "5/8",
+            "2/4"
+          ],
+          "answer_index": 2,
+          "answer_text": "5/8"
+        },
+        {
+          "id": "M4M02Q04",
+          "question": "Kết quả của phép tính 2/5 x 3/4 là:",
+          "options": [
+            "5/9",
+            "3/10",
+            "Cả A và B đều đúng",
+            "6/20"
+          ],
+          "answer_index": 2,
+          "answer_text": "Cả A và B đều đúng"
+        },
+        {
+          "id": "M4M02Q05",
+          "question": "Kết quả của phép tính 3/5 : 2/7 là:",
+          "options": [
+            "10/21",
+            "6/35",
+            "21/10",
+            "5/12"
+          ],
+          "answer_index": 2,
+          "answer_text": "21/10"
+        },
+        {
+          "id": "M4M02Q06",
+          "question": "Sắp xếp các phân số sau theo thứ tự từ bé đến lớn: 1/2, 2/3, 5/6",
+          "options": [
+            "5/6, 2/3, 1/2",
+            "1/2, 5/6, 2/3",
+            "2/3, 1/2, 5/6",
+            "1/2, 2/3, 5/6"
+          ],
+          "answer_index": 3,
+          "answer_text": "1/2, 2/3, 5/6"
+        },
+        {
+          "id": "M4M02Q07",
+          "question": "Tìm x, biết x + 1/4 = 5/8",
+          "options": [
+            "1/2",
+            "1/8",
+            "3/8",
+            "6/12"
+          ],
+          "answer_index": 2,
+          "answer_text": "3/8"
+        },
+        {
+          "id": "M4M02Q08",
+          "question": "Một mảnh vườn có 1/3 diện tích trồng rau, 2/5 diện tích trồng cây ăn quả. Phân số chỉ phần diện tích còn lại là:",
+          "options": [
+            "4/15",
+            "11/15",
+            "8/15",
+            "7/15"
+          ],
+          "answer_index": 0,
+          "answer_text": "4/15"
+        },
+        {
+          "id": "M4M02Q09",
+          "question": "Phân số nào không bằng phân số 12/18?",
+          "options": [
+            "2/3",
+            "3/4",
+            "6/9",
+            "24/36"
+          ],
+          "answer_index": 1,
+          "answer_text": "3/4"
+        },
+        {
+          "id": "M4M02Q10",
+          "question": "Tính: 2 x 3/8",
+          "options": [
+            "6/16",
+            "Cả A và B đều đúng",
+            "6/8",
+            "3/4"
+          ],
+          "answer_index": 1,
+          "answer_text": "Cả A và B đều đúng"
+        }
+      ]
+    },
+    {
+      "id": "MATH4_MEDIUM_03",
+      "name": "Chủ đề 3: Hình học và Đo lường",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M4M03Q01",
+          "question": "Một sân trường hình chữ nhật có nửa chu vi là 120m, chiều dài hơn chiều rộng 20m. Diện tích sân trường là:",
+          "options": [
+            "2400 m²",
+            "3500 m²",
+            "1200 m²",
+            "7000 m²"
+          ],
+          "answer_index": 1,
+          "answer_text": "3500 m²"
+        },
+        {
+          "id": "M4M03Q02",
+          "question": "Một hình bình hành có độ dài đáy là 18cm, chiều cao bằng 2/3 độ dài đáy. Diện tích hình bình hành đó là:",
+          "options": [
+            "216 cm²",
+            "180 cm²",
+            "270 cm²",
+            "108 cm²"
+          ],
+          "answer_index": 0,
+          "answer_text": "216 cm²"
+        },
+        {
+          "id": "M4M03Q03",
+          "question": "Một hình thoi có độ dài hai đường chéo là 12cm và 16cm. Diện tích hình thoi đó là:",
+          "options": [
+            "56 cm²",
+            "192 cm²",
+            "96 cm²",
+            "28 cm²"
+          ],
+          "answer_index": 2,
+          "answer_text": "96 cm²"
+        },
+        {
+          "id": "M4M03Q04",
+          "question": "2 tấn 50 kg = ... kg?",
+          "options": [
+            "2005 kg",
+            "2500 kg",
+            "2050 kg",
+            "250 kg"
+          ],
+          "answer_index": 2,
+          "answer_text": "2050 kg"
+        },
+        {
+          "id": "M4M03Q05",
+          "question": "3 giờ 15 phút = ... phút?",
+          "options": [
+            "195 phút",
+            "180 phút",
+            "315 phút",
+            "190 phút"
+          ],
+          "answer_index": 0,
+          "answer_text": "195 phút"
+        },
+        {
+          "id": "M4M03Q06",
+          "question": "Một hình vuông có chu vi 36cm. Diện tích của hình vuông đó là:",
+          "options": [
+            "144 cm²",
+            "9 cm²",
+            "36 cm²",
+            "81 cm²"
+          ],
+          "answer_index": 3,
+          "answer_text": "81 cm²"
+        },
+        {
+          "id": "M4M03Q07",
+          "question": "Diện tích hình chữ nhật là 48 cm², chiều dài là 8cm. Chu vi của hình chữ nhật đó là:",
+          "options": [
+            "56 cm",
+            "32 cm",
+            "14 cm",
+            "28 cm"
+          ],
+          "answer_index": 3,
+          "answer_text": "28 cm"
+        },
+        {
+          "id": "M4M03Q08",
+          "question": "5 m² 9 dm² = ... dm²?",
+          "options": [
+            "590 dm²",
+            "509 dm²",
+            "5009 dm²",
+            "59 dm²"
+          ],
+          "answer_index": 1,
+          "answer_text": "509 dm²"
+        },
+        {
+          "id": "M4M03Q09",
+          "question": "Một khu đất hình chữ nhật có diện tích 1 hecta, chiều rộng là 50m. Chiều dài khu đất là:",
+          "options": [
+            "200 m",
+            "20 m",
+            "500 m",
+            "100 m"
+          ],
+          "answer_index": 0,
+          "answer_text": "200 m"
+        },
+        {
+          "id": "M4M03Q10",
+          "question": "Một vòi nước mỗi phút chảy được 25 lít nước. Hỏi trong 1/4 giờ vòi nước đó chảy được bao nhiêu lít nước?",
+          "options": [
+            "375 lít",
+            "250 lít",
+            "6.25 lít",
+            "100 lít"
+          ],
+          "answer_index": 0,
+          "answer_text": "375 lít"
+        }
+      ]
+    },
+    {
+      "id": "MATH4_MEDIUM_04",
+      "name": "Chủ đề 4: Giải toán có lời văn",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M4M04Q01",
+          "question": "Tổng của hai số là 80. Hiệu của hai số là 20. Tìm hai số đó.",
+          "options": [
+            "45 và 35",
+            "60 và 20",
+            "50 và 30",
+            "55 và 25"
+          ],
+          "answer_index": 2,
+          "answer_text": "50 và 30"
+        },
+        {
+          "id": "M4M04Q02",
+          "question": "Một lớp học có 35 học sinh, trong đó số học sinh nữ nhiều hơn số học sinh nam là 5 bạn. Hỏi lớp đó có bao nhiêu học sinh nam?",
+          "options": [
+            "20 bạn",
+            "15 bạn",
+            "10 bạn",
+            "25 bạn"
+          ],
+          "answer_index": 1,
+          "answer_text": "15 bạn"
+        },
+        {
+          "id": "M4M04Q03",
+          "question": "Tuổi của mẹ và tuổi của con cộng lại là 48 tuổi. Mẹ hơn con 30 tuổi. Hỏi con bao nhiêu tuổi?",
+          "options": [
+            "9 tuổi",
+            "18 tuổi",
+            "39 tuổi",
+            "12 tuổi"
+          ],
+          "answer_index": 0,
+          "answer_text": "9 tuổi"
+        },
+        {
+          "id": "M4M04Q04",
+          "question": "Trung bình cộng của ba số là 60. Tổng của ba số đó là:",
+          "options": [
+            "180",
+            "120",
+            "90",
+            "20"
+          ],
+          "answer_index": 0,
+          "answer_text": "180"
+        },
+        {
+          "id": "M4M04Q05",
+          "question": "Một ô tô trong 3 giờ đầu đi được 120km, trong 2 giờ sau đi được 90km. Hỏi trung bình mỗi giờ ô tô đi được bao nhiêu ki-lô-mét?",
+          "options": [
+            "42 km",
+            "45 km",
+            "50 km",
+            "40 km"
+          ],
+          "answer_index": 0,
+          "answer_text": "42 km"
+        },
+        {
+          "id": "M4M04Q06",
+          "question": "Mua 5 quyển vở hết 40000 đồng. Hỏi mua 8 quyển vở như thế hết bao nhiêu tiền?",
+          "options": [
+            "72000 đồng",
+            "32000 đồng",
+            "50000 đồng",
+            "64000 đồng"
+          ],
+          "answer_index": 3,
+          "answer_text": "64000 đồng"
+        },
+        {
+          "id": "M4M04Q07",
+          "question": "Một đội trồng cây có 10 người, trong một ngày trồng được 80 cây. Nếu bổ sung thêm 5 người nữa thì trong một ngày đội đó trồng được bao nhiêu cây?",
+          "options": [
+            "100 cây",
+            "120 cây",
+            "40 cây",
+            "160 cây"
+          ],
+          "answer_index": 1,
+          "answer_text": "120 cây"
+        },
+        {
+          "id": "M4M04Q08",
+          "question": "Tổng của hai số chẵn liên tiếp là 50. Tìm hai số đó.",
+          "options": [
+            "22 và 28",
+            "20 và 30",
+            "24 và 26",
+            "25 và 25"
+          ],
+          "answer_index": 2,
+          "answer_text": "24 và 26"
+        },
+        {
+          "id": "M4M04Q09",
+          "question": "An có 24 viên bi. Bình có số bi bằng 2/3 số bi của An. Hỏi cả hai bạn có tất cả bao nhiêu viên bi?",
+          "options": [
+            "48 viên",
+            "16 viên",
+            "40 viên",
+            "32 viên"
+          ],
+          "answer_index": 2,
+          "answer_text": "40 viên"
+        },
+        {
+          "id": "M4M04Q10",
+          "question": "Có 45 lít dầu chia đều vào 9 can. Hỏi 30 lít dầu thì chia đều được vào mấy can như thế?",
+          "options": [
+            "5 can",
+            "7 can",
+            "6 can",
+            "8 can"
+          ],
+          "answer_index": 2,
+          "answer_text": "6 can"
+        }
+      ]
+    }
+  ]
+}

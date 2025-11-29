@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "grade": 3,
+    "subject": "Toán",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "easy",
+    "curriculum": "Chân trời sáng tạo"
+  },
+  "topics": [
+    {
+      "id": "MATH3_EASY_01",
+      "name": "Chủ đề 1: Ôn tập và bổ sung",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "M3E01Q01",
+          "question": "Số 891 được đọc là:",
+          "options": [
+            "Tám trăm chín một",
+            "Tám chín một",
+            "Tám trăm chín mươi mốt",
+            "Tám trăm linh một"
+          ],
+          "answer_index": 2,
+          "answer_text": "Tám trăm chín mươi mốt"
+        },
+        {
+          "id": "M3E01Q02",
+          "question": "Kết quả của phép tính 567 + 123 là:",
+          "options": [
+            "680",
+            "690",
+            "790",
+            "689"
+          ],
+          "answer_index": 1,
+          "answer_text": "690"
+        },
+        {
+          "id": "M3E01Q03",
+          "question": "Số 9 trong chữ số La Mã được viết là:",
+          "options": [
+            "IX",
+            "XI",
+            "IV",
+            "VI"
+          ],
+          "answer_index": 0,
+          "answer_text": "IX"
+        }
+      ]
+    },
+    {
+      "id": "MATH3_EASY_02",
+      "name": "Chủ đề 2: Phép nhân, phép chia",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "M3E02Q01",
+          "question": "Kết quả của phép tính 6 x 8 là:",
+          "options": [
+            "42",
+            "48",
+            "54",
+            "56"
+          ],
+          "answer_index": 1,
+          "answer_text": "48"
+        },
+        {
+          "id": "M3E02Q02",
+          "question": "Kết quả của phép tính 56 : 7 là:",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer_index": 2,
+          "answer_text": "8"
+        }
+      ]
+    },
+    {
+      "id": "MATH3_EASY_03",
+      "name": "Chủ đề 3: Các số đến 100 000",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "M3E03Q01",
+          "question": "Số 'Mười hai nghìn ba trăm bốn mươi lăm' được viết là:",
+          "options": [
+            "12345",
+            "12305",
+            "1245",
+            "102345"
+          ],
+          "answer_index": 0,
+          "answer_text": "12345"
+        }
+      ]
+    },
+    {
+      "id": "MATH3_EASY_04",
+      "name": "Chủ đề 4: Hình học và Đo lường",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "M3E04Q01",
+          "question": "Một mét bằng bao nhiêu xăng-ti-mét?",
+          "options": [
+            "10 cm",
+            "100 cm",
+            "1000 cm",
+            "1 cm"
+          ],
+          "answer_index": 1,
+          "answer_text": "100 cm"
+        }
+      ]
+    }
+  ]
+}

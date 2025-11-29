@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "grade": 1,
+    "subject": "English",
+    "language": "en",
+    "created_date": "2025-11-03",
+    "level": "easy",
+    "curriculum": "CTGDPT 2018 – Chuẩn 2025"
+  },
+  "topics": [
+    {
+      "id": "ENG1_EASY_01",
+      "name": "Chủ đề 1",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "ENG1E01Q01",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafing",
+            "leaves",
+            "leafs",
+            "leaf"
+          ],
+          "answer_index": 1,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1E01Q02",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dress",
+            "dresses",
+            "dresss",
+            "dressing"
+          ],
+          "answer_index": 1,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1E01Q03",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "the",
+            "an",
+            "a",
+            "(không đúng)"
+          ],
+          "answer_index": 2,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1E01Q04",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "book",
+            "cat",
+            "table",
+            "mother"
+          ],
+          "answer_index": 3,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "ENG1E01Q05",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "on",
+            "in",
+            "under"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "ENG1E01Q06",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "under",
+            "behind",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "ENG1E01Q07",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "cat",
+            "big",
+            "table",
+            "book"
+          ],
+          "answer_index": 1,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "ENG1E01Q08",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "a",
+            "the",
+            "(không đúng)",
+            "an"
+          ],
+          "answer_index": 0,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1E01Q09",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "table",
+            "big",
+            "book",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "ENG1E01Q10",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "an",
+            "a",
+            "(không đúng)",
+            "the"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1E01Q11",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "an",
+            "a",
+            "the",
+            "(không đúng)"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1E01Q12",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "in",
+            "on",
+            "under"
+          ],
+          "answer_index": 3,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "ENG1E01Q13",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "cat",
+            "cats",
+            "(không đúng)",
+            "cating"
+          ],
+          "answer_index": 1,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1E01Q14",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "a",
+            "an",
+            "(không đúng)",
+            "the"
+          ],
+          "answer_index": 0,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1E01Q15",
+          "question": "Similar to 'dad' is __",
+          "options": [
+            "cat",
+            "father",
+            "book",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "father",
+          "explanation": "'father' ≈ 'dad'."
+        },
+        {
+          "id": "ENG1E01Q16",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leaves",
+            "leafing",
+            "leafs",
+            "leaf"
+          ],
+          "answer_index": 0,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1E01Q17",
+          "question": "Choose the article: __ egg",
+          "options": [
+            "(không đúng)",
+            "the",
+            "a",
+            "an"
+          ],
+          "answer_index": 3,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1E01Q18",
+          "question": "Which is a color meaning 'white'?",
+          "options": [
+            "car",
+            "desk",
+            "white",
+            "apple"
+          ],
+          "answer_index": 2,
+          "answer_text": "white",
+          "explanation": "'white' is a color."
+        },
+        {
+          "id": "ENG1E01Q19",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dress",
+            "dresss",
+            "dresses",
+            "dressing"
+          ],
+          "answer_index": 2,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1E01Q20",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "in",
+            "on",
+            "behind"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        }
+      ]
+    },
+    {
+      "id": "ENG1_EASY_02",
+      "name": "Chủ đề 2",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "ENG1E02Q01",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "under",
+            "in",
+            "behind"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "ENG1E02Q02",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "apple",
+            "car",
+            "yellow",
+            "desk"
+          ],
+          "answer_index": 2,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "ENG1E02Q03",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "behind",
+            "in",
+            "under"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "ENG1E02Q04",
+          "question": "Plural of 'box' is __",
+          "options": [
+            "box",
+            "boxing",
+            "boxs",
+            "boxes"
+          ],
+          "answer_index": 3,
+          "answer_text": "boxes",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1E02Q05",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dress",
+            "dressing",
+            "dresses",
+            "dresss"
+          ],
+          "answer_index": 2,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1E02Q06",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "under",
+            "behind",
+            "in"
+          ],
+          "answer_index": 3,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "ENG1E02Q07",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "an",
+            "the",
+            "a",
+            "(không đúng)"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1E02Q08",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafs",
+            "leafing",
+            "leaf",
+            "leaves"
+          ],
+          "answer_index": 3,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1E02Q09",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "small",
+            "book",
+            "cat",
+            "table"
+          ],
+          "answer_index": 0,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "ENG1E02Q10",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "on",
+            "in",
+            "behind"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        }
+      ]
+    },
+    {
+      "id": "ENG1_EASY_03",
+      "name": "Chủ đề 3",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "ENG1E03Q01",
+          "question": "Which is a color meaning 'black'?",
+          "options": [
+            "desk",
+            "car",
+            "apple",
+            "black"
+          ],
+          "answer_index": 3,
+          "answer_text": "black",
+          "explanation": "'black' is a color."
+        },
+        {
+          "id": "ENG1E03Q02",
+          "question": "The ball is __ the box.",
+          "options": [
+            "under",
+            "on",
+            "in",
+            "behind"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "ENG1E03Q03",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "under",
+            "on",
+            "behind"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "ENG1E03Q04",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "desk",
+            "car",
+            "blue",
+            "apple"
+          ],
+          "answer_index": 2,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "ENG1E03Q05",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "under",
+            "behind",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "ENG1E03Q06",
+          "question": "Plural of 'box' is __",
+          "options": [
+            "box",
+            "boxes",
+            "boxs",
+            "boxing"
+          ],
+          "answer_index": 1,
+          "answer_text": "boxes",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1E03Q07",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "in",
+            "behind",
+            "under"
+          ],
+          "answer_index": 0,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "ENG1E03Q08",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "book",
+            "table",
+            "cat",
+            "small"
+          ],
+          "answer_index": 3,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "ENG1E03Q09",
+          "question": "The ball is __ the box.",
+          "options": [
+            "behind",
+            "on",
+            "in",
+            "under"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "ENG1E03Q10",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "book",
+            "happy",
+            "cat",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        }
+      ]
+    }
+  ]
+}

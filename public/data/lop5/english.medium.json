@@ -1,0 +1,1240 @@
+{
+  "meta": {
+    "grade": 5,
+    "subject": "English",
+    "language": "en",
+    "created_date": "2025-11-04",
+    "level": "medium",
+    "curriculum": "New Program"
+  },
+  "topics": [
+    {
+      "id": "ENG5_MEDIUM_01",
+      "name": "Topic 1: Past Simple Tense",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "E5M01Q01",
+          "question": "I ____ to the zoo last weekend.",
+          "options": [
+            "go",
+            "goes",
+            "went",
+            "am going"
+          ],
+          "answer_index": 2,
+          "answer_text": "went"
+        },
+        {
+          "id": "E5M01Q02",
+          "question": "She ____ a new dress yesterday.",
+          "options": [
+            "buy",
+            "buys",
+            "bought",
+            "is buying"
+          ],
+          "answer_index": 2,
+          "answer_text": "bought"
+        },
+        {
+          "id": "E5M01Q03",
+          "question": "____ you see the movie last night?",
+          "options": [
+            "Do",
+            "Does",
+            "Did",
+            "Are"
+          ],
+          "answer_index": 2,
+          "answer_text": "Did"
+        },
+        {
+          "id": "E5M01Q04",
+          "question": "They ____ at home last Sunday.",
+          "options": [
+            "was",
+            "were",
+            "is",
+            "are"
+          ],
+          "answer_index": 1,
+          "answer_text": "were"
+        },
+        {
+          "id": "E5M01Q05",
+          "question": "He didn't ____ his homework.",
+          "options": [
+            "do",
+            "does",
+            "did",
+            "doing"
+          ],
+          "answer_index": 0,
+          "answer_text": "do"
+        },
+        {
+          "id": "E5M01Q06",
+          "question": "My father ____ a car two years ago.",
+          "options": [
+            "has",
+            "have",
+            "had",
+            "is having"
+          ],
+          "answer_index": 2,
+          "answer_text": "had"
+        },
+        {
+          "id": "E5M01Q07",
+          "question": "What did you ____ for breakfast?",
+          "options": [
+            "eat",
+            "ate",
+            "eaten",
+            "eating"
+          ],
+          "answer_index": 0,
+          "answer_text": "eat"
+        },
+        {
+          "id": "E5M01Q08",
+          "question": "We ____ to our grandparents' house last summer.",
+          "options": [
+            "travel",
+            "travels",
+            "traveled",
+            "are traveling"
+          ],
+          "answer_index": 2,
+          "answer_text": "traveled"
+        },
+        {
+          "id": "E5M01Q09",
+          "question": "It ____ rainy yesterday, so we stayed indoors.",
+          "options": [
+            "is",
+            "was",
+            "are",
+            "were"
+          ],
+          "answer_index": 1,
+          "answer_text": "was"
+        },
+        {
+          "id": "E5M01Q10",
+          "question": "She ____ me a story last night.",
+          "options": [
+            "tells",
+            "told",
+            "tell",
+            "is telling"
+          ],
+          "answer_index": 1,
+          "answer_text": "told"
+        },
+        {
+          "id": "E5M01Q11",
+          "question": "Where ____ you go on your last holiday?",
+          "options": [
+            "do",
+            "did",
+            "are",
+            "were"
+          ],
+          "answer_index": 1,
+          "answer_text": "did"
+        },
+        {
+          "id": "E5M01Q12",
+          "question": "I ____ a strange noise outside a minute ago.",
+          "options": [
+            "hear",
+            "heard",
+            "hears",
+            "am hearing"
+          ],
+          "answer_index": 1,
+          "answer_text": "heard"
+        },
+        {
+          "id": "E5M01Q13",
+          "question": "He wasn't happy because he ____ the game.",
+          "options": [
+            "loses",
+            "lost",
+            "lose",
+            "is losing"
+          ],
+          "answer_index": 1,
+          "answer_text": "lost"
+        },
+        {
+          "id": "E5M01Q14",
+          "question": "They ____ a lot of photos during their trip.",
+          "options": [
+            "take",
+            "took",
+            "takes",
+            "are taking"
+          ],
+          "answer_index": 1,
+          "answer_text": "took"
+        },
+        {
+          "id": "E5M01Q15",
+          "question": "Did she ____ the exam?",
+          "options": [
+            "pass",
+            "passed",
+            "passes",
+            "passing"
+          ],
+          "answer_index": 0,
+          "answer_text": "pass"
+        },
+        {
+          "id": "E5M01Q16",
+          "question": "The children ____ happy with their presents.",
+          "options": [
+            "was",
+            "were",
+            "is",
+            "are"
+          ],
+          "answer_index": 1,
+          "answer_text": "were"
+        },
+        {
+          "id": "E5M01Q17",
+          "question": "He ____ his leg while playing football.",
+          "options": [
+            "break",
+            "broke",
+            "breaks",
+            "is breaking"
+          ],
+          "answer_index": 1,
+          "answer_text": "broke"
+        },
+        {
+          "id": "E5M01Q18",
+          "question": "I ____ a letter to my friend last week.",
+          "options": [
+            "write",
+            "wrote",
+            "writes",
+            "am writing"
+          ],
+          "answer_index": 1,
+          "answer_text": "wrote"
+        },
+        {
+          "id": "E5M01Q19",
+          "question": "What time did the party ____?",
+          "options": [
+            "finish",
+            "finished",
+            "finishes",
+            "finishing"
+          ],
+          "answer_index": 0,
+          "answer_text": "finish"
+        },
+        {
+          "id": "E5M01Q20",
+          "question": "She ____ her keys and couldn't get into the house.",
+          "options": [
+            "forgets",
+            "forgot",
+            "forget",
+            "is forgetting"
+          ],
+          "answer_index": 1,
+          "answer_text": "forgot"
+        },
+        {
+          "id": "E5M01Q21",
+          "question": "We ____ our first teacher in 2015.",
+          "options": [
+            "meet",
+            "met",
+            "meets",
+            "are meeting"
+          ],
+          "answer_index": 1,
+          "answer_text": "met"
+        },
+        {
+          "id": "E5M01Q22",
+          "question": "____ he at the library yesterday afternoon?",
+          "options": [
+            "Was",
+            "Were",
+            "Is",
+            "Did"
+          ],
+          "answer_index": 0,
+          "answer_text": "Was"
+        },
+        {
+          "id": "E5M01Q23",
+          "question": "My sister ____ a delicious cake for my birthday.",
+          "options": [
+            "make",
+            "made",
+            "makes",
+            "is making"
+          ],
+          "answer_index": 1,
+          "answer_text": "made"
+        },
+        {
+          "id": "E5M01Q24",
+          "question": "They didn't ____ to music last night.",
+          "options": [
+            "listen",
+            "listened",
+            "listens",
+            "listening"
+          ],
+          "answer_index": 0,
+          "answer_text": "listen"
+        },
+        {
+          "id": "E5M01Q25",
+          "question": "Who ____ this window?",
+          "options": [
+            "open",
+            "opened",
+            "opens",
+            "is opening"
+          ],
+          "answer_index": 1,
+          "answer_text": "opened"
+        }
+      ]
+    },
+    {
+      "id": "ENG5_MEDIUM_02",
+      "name": "Topic 2: Comparatives & Superlatives",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "E5M02Q01",
+          "question": "An elephant is ____ than a mouse.",
+          "options": [
+            "big",
+            "bigger",
+            "biggest",
+            "the bigger"
+          ],
+          "answer_index": 1,
+          "answer_text": "bigger"
+        },
+        {
+          "id": "E5M02Q02",
+          "question": "This is the ____ book I have ever read.",
+          "options": [
+            "interesting",
+            "more interesting",
+            "most interesting",
+            "interestinger"
+          ],
+          "answer_index": 2,
+          "answer_text": "most interesting"
+        },
+        {
+          "id": "E5M02Q03",
+          "question": "My sister is ____ than me.",
+          "options": [
+            "tall",
+            "taller",
+            "tallest",
+            "the tallest"
+          ],
+          "answer_index": 1,
+          "answer_text": "taller"
+        },
+        {
+          "id": "E5M02Q04",
+          "question": "Ho Chi Minh City is the ____ city in Vietnam.",
+          "options": [
+            "large",
+            "larger",
+            "largest",
+            "the larger"
+          ],
+          "answer_index": 2,
+          "answer_text": "largest"
+        },
+        {
+          "id": "E5M02Q05",
+          "question": "A turtle is ____ than a rabbit.",
+          "options": [
+            "slow",
+            "slower",
+            "slowest",
+            "the slower"
+          ],
+          "answer_index": 1,
+          "answer_text": "slower"
+        },
+        {
+          "id": "E5M02Q06",
+          "question": "The weather today is ____ than yesterday.",
+          "options": [
+            "good",
+            "better",
+            "best",
+            "the best"
+          ],
+          "answer_index": 1,
+          "answer_text": "better"
+        },
+        {
+          "id": "E5M02Q07",
+          "question": "He is the ____ student in his class.",
+          "options": [
+            "intelligent",
+            "more intelligent",
+            "most intelligent",
+            "intelligenter"
+          ],
+          "answer_index": 2,
+          "answer_text": "most intelligent"
+        },
+        {
+          "id": "E5M02Q08",
+          "question": "This exercise is ____ than the last one.",
+          "options": [
+            "difficult",
+            "more difficult",
+            "most difficult",
+            "difficulter"
+          ],
+          "answer_index": 1,
+          "answer_text": "more difficult"
+        },
+        {
+          "id": "E5M02Q09",
+          "question": "Mount Everest is the ____ mountain in the world.",
+          "options": [
+            "high",
+            "higher",
+            "highest",
+            "the higher"
+          ],
+          "answer_index": 2,
+          "answer_text": "highest"
+        },
+        {
+          "id": "E5M02Q10",
+          "question": "My new phone is ____ than my old one.",
+          "options": [
+            "expensive",
+            "more expensive",
+            "most expensive",
+            "expensiver"
+          ],
+          "answer_index": 1,
+          "answer_text": "more expensive"
+        },
+        {
+          "id": "E5M02Q11",
+          "question": "She is the ____ girl I know.",
+          "options": [
+            "beautiful",
+            "more beautiful",
+            "most beautiful",
+            "beautifuller"
+          ],
+          "answer_index": 2,
+          "answer_text": "most beautiful"
+        },
+        {
+          "id": "E5M02Q12",
+          "question": "This car is ____ than that one.",
+          "options": [
+            "fast",
+            "faster",
+            "fastest",
+            "the fastest"
+          ],
+          "answer_index": 1,
+          "answer_text": "faster"
+        },
+        {
+          "id": "E5M02Q13",
+          "question": "The situation is ____ than we thought.",
+          "options": [
+            "bad",
+            "worse",
+            "worst",
+            "the worst"
+          ],
+          "answer_index": 1,
+          "answer_text": "worse"
+        },
+        {
+          "id": "E5M02Q14",
+          "question": "Summer is the ____ season of the year.",
+          "options": [
+            "hot",
+            "hotter",
+            "hottest",
+            "the hotter"
+          ],
+          "answer_index": 2,
+          "answer_text": "hottest"
+        },
+        {
+          "id": "E5M02Q15",
+          "question": "Health is ____ than money.",
+          "options": [
+            "important",
+            "more important",
+            "most important",
+            "importanter"
+          ],
+          "answer_index": 1,
+          "answer_text": "more important"
+        },
+        {
+          "id": "E5M02Q16",
+          "question": "Who is the ____ person in your family?",
+          "options": [
+            "old",
+            "older",
+            "oldest",
+            "the older"
+          ],
+          "answer_index": 2,
+          "answer_text": "oldest"
+        },
+        {
+          "id": "E5M02Q17",
+          "question": "My result was ____ than yours.",
+          "options": [
+            "good",
+            "better",
+            "best",
+            "the better"
+          ],
+          "answer_index": 1,
+          "answer_text": "better"
+        },
+        {
+          "id": "E5M02Q18",
+          "question": "This is the ____ movie I've seen.",
+          "options": [
+            "exciting",
+            "more exciting",
+            "most exciting",
+            "excitinger"
+          ],
+          "answer_index": 2,
+          "answer_text": "most exciting"
+        },
+        {
+          "id": "E5M02Q19",
+          "question": "A plane is ____ than a car.",
+          "options": [
+            "fast",
+            "faster",
+            "fastest",
+            "the fastest"
+          ],
+          "answer_index": 1,
+          "answer_text": "faster"
+        },
+        {
+          "id": "E5M02Q20",
+          "question": "I think English is ____ than History.",
+          "options": [
+            "easy",
+            "easier",
+            "easiest",
+            "the easiest"
+          ],
+          "answer_index": 1,
+          "answer_text": "easier"
+        },
+        {
+          "id": "E5M02Q21",
+          "question": "He is the ____ player in the team.",
+          "options": [
+            "good",
+            "better",
+            "best",
+            "the better"
+          ],
+          "answer_index": 2,
+          "answer_text": "best"
+        },
+        {
+          "id": "E5M02Q22",
+          "question": "The Nile is the ____ river in the world.",
+          "options": [
+            "long",
+            "longer",
+            "longest",
+            "the longer"
+          ],
+          "answer_index": 2,
+          "answer_text": "longest"
+        },
+        {
+          "id": "E5M02Q23",
+          "question": "This homework is ____ than the previous one.",
+          "options": [
+            "hard",
+            "harder",
+            "hardest",
+            "the harder"
+          ],
+          "answer_index": 1,
+          "answer_text": "harder"
+        },
+        {
+          "id": "E5M02Q24",
+          "question": "The red dress is ____ than the blue one.",
+          "options": [
+            "pretty",
+            "prettier",
+            "prettiest",
+            "the prettiest"
+          ],
+          "answer_index": 1,
+          "answer_text": "prettier"
+        },
+        {
+          "id": "E5M02Q25",
+          "question": "What is the ____ month of the year?",
+          "options": [
+            "cold",
+            "colder",
+            "coldest",
+            "the colder"
+          ],
+          "answer_index": 2,
+          "answer_text": "coldest"
+        }
+      ]
+    },
+    {
+      "id": "ENG5_MEDIUM_03",
+      "name": "Topic 3: Should/Shouldn't & Vocabulary",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "E5M03Q01",
+          "question": "You have a test tomorrow. You ____ study hard.",
+          "options": [
+            "should",
+            "shouldn't",
+            "can",
+            "can't"
+          ],
+          "answer_index": 0,
+          "answer_text": "should"
+        },
+        {
+          "id": "E5M03Q02",
+          "question": "It's raining outside. You ____ take an umbrella.",
+          "options": [
+            "should",
+            "shouldn't",
+            "must",
+            "mustn't"
+          ],
+          "answer_index": 0,
+          "answer_text": "should"
+        },
+        {
+          "id": "E5M03Q03",
+          "question": "You ____ be rude to your parents.",
+          "options": [
+            "should",
+            "shouldn't",
+            "can",
+            "can't"
+          ],
+          "answer_index": 1,
+          "answer_text": "shouldn't"
+        },
+        {
+          "id": "E5M03Q04",
+          "question": "He is sick. He ____ see a doctor.",
+          "options": [
+            "should",
+            "shouldn't",
+            "can",
+            "is"
+          ],
+          "answer_index": 0,
+          "answer_text": "should"
+        },
+        {
+          "id": "E5M03Q05",
+          "question": "You ____ eat too much candy. It's not good for your teeth.",
+          "options": [
+            "should",
+            "shouldn't",
+            "have to",
+            "don't have to"
+          ],
+          "answer_index": 1,
+          "answer_text": "shouldn't"
+        },
+        {
+          "id": "E5M03Q06",
+          "question": "What's the matter with you? - I have a ____.",
+          "options": [
+            "headache",
+            "book",
+            "car",
+            "house"
+          ],
+          "answer_index": 0,
+          "answer_text": "headache"
+        },
+        {
+          "id": "E5M03Q07",
+          "question": "To stay healthy, you should eat a lot of ____.",
+          "options": [
+            "fruits and vegetables",
+            "candy and cake",
+            "fast food",
+            "soda"
+          ],
+          "answer_index": 0,
+          "answer_text": "fruits and vegetables"
+        },
+        {
+          "id": "E5M03Q08",
+          "question": "Where can you go to see a lot of old things?",
+          "options": [
+            "a museum",
+            "a cinema",
+            "a stadium",
+            "a supermarket"
+          ],
+          "answer_index": 0,
+          "answer_text": "a museum"
+        },
+        {
+          "id": "E5M03Q09",
+          "question": "What's your hobby? - I like ____ books.",
+          "options": [
+            "read",
+            "to reading",
+            "reading",
+            "reads"
+          ],
+          "answer_index": 2,
+          "answer_text": "reading"
+        },
+        {
+          "id": "E5M03Q10",
+          "question": "The library is quiet. You ____ make noise.",
+          "options": [
+            "should",
+            "shouldn't",
+            "must",
+            "can"
+          ],
+          "answer_index": 1,
+          "answer_text": "shouldn't"
+        },
+        {
+          "id": "E5M03Q11",
+          "question": "I want to send a letter. I should go to the ____.",
+          "options": [
+            "post office",
+            "bakery",
+            "bookstore",
+            "pharmacy"
+          ],
+          "answer_index": 0,
+          "answer_text": "post office"
+        },
+        {
+          "id": "E5M03Q12",
+          "question": "What does your father do? - He's an ____.",
+          "options": [
+            "engineer",
+            "sing",
+            "tall",
+            "blue"
+          ],
+          "answer_index": 0,
+          "answer_text": "engineer"
+        },
+        {
+          "id": "E5M03Q13",
+          "question": "The children feel tired. They ____ go to bed early.",
+          "options": [
+            "should",
+            "shouldn't",
+            "can't",
+            "don't"
+          ],
+          "answer_index": 0,
+          "answer_text": "should"
+        },
+        {
+          "id": "E5M03Q14",
+          "question": "I'd like to visit Ha Long Bay because it's very ____.",
+          "options": [
+            "beautiful",
+            "ugly",
+            "boring",
+            "noisy"
+          ],
+          "answer_index": 0,
+          "answer_text": "beautiful"
+        },
+        {
+          "id": "E5M03Q15",
+          "question": "You ____ touch the animals in the zoo.",
+          "options": [
+            "should",
+            "shouldn't",
+            "can",
+            "must"
+          ],
+          "answer_index": 1,
+          "answer_text": "shouldn't"
+        },
+        {
+          "id": "E5M03Q16",
+          "question": "What did you do at the party? - We ____ and danced.",
+          "options": [
+            "sang",
+            "sing",
+            "sings",
+            "sung"
+          ],
+          "answer_index": 0,
+          "answer_text": "sang"
+        },
+        {
+          "id": "E5M03Q17",
+          "question": "He wants to be a ____ because he likes flying.",
+          "options": [
+            "pilot",
+            "driver",
+            "dentist",
+            "writer"
+          ],
+          "answer_index": 0,
+          "answer_text": "pilot"
+        },
+        {
+          "id": "E5M03Q18",
+          "question": "I have a toothache. I should go to the ____.",
+          "options": [
+            "dentist",
+            "doctor",
+            "teacher",
+            "baker"
+          ],
+          "answer_index": 0,
+          "answer_text": "dentist"
+        },
+        {
+          "id": "E5M03Q19",
+          "question": "You look tired. You ____ take a rest.",
+          "options": [
+            "should",
+            "shouldn't",
+            "mustn't",
+            "can't"
+          ],
+          "answer_index": 0,
+          "answer_text": "should"
+        },
+        {
+          "id": "E5M03Q20",
+          "question": "The film is very boring. We ____ watch it.",
+          "options": [
+            "should",
+            "shouldn't",
+            "must",
+            "can"
+          ],
+          "answer_index": 1,
+          "answer_text": "shouldn't"
+        },
+        {
+          "id": "E5M03Q21",
+          "question": "What would you like to be in the future? - I'd like to be an ____.",
+          "options": [
+            "architect",
+            "farm",
+            "fly",
+            "draw"
+          ],
+          "answer_index": 0,
+          "answer_text": "architect"
+        },
+        {
+          "id": "E5M03Q22",
+          "question": "My favorite drink is ____.",
+          "options": [
+            "orange juice",
+            "chicken",
+            "rice",
+            "pizza"
+          ],
+          "answer_index": 0,
+          "answer_text": "orange juice"
+        },
+        {
+          "id": "E5M03Q23",
+          "question": "You ____ play with matches. It's dangerous.",
+          "options": [
+            "should",
+            "shouldn't",
+            "must",
+            "can"
+          ],
+          "answer_index": 1,
+          "answer_text": "shouldn't"
+        },
+        {
+          "id": "E5M03Q24",
+          "question": "Let's go to the ____ to buy some bread.",
+          "options": [
+            "bakery",
+            "post office",
+            "pharmacy",
+            "library"
+          ],
+          "answer_index": 0,
+          "answer_text": "bakery"
+        },
+        {
+          "id": "E5M03Q25",
+          "question": "What's the matter with her? - She has a ____.",
+          "options": [
+            "fever",
+            "happy",
+            "book",
+            "cold drink"
+          ],
+          "answer_index": 0,
+          "answer_text": "fever"
+        }
+      ]
+    },
+    {
+      "id": "ENG5_MEDIUM_04",
+      "name": "Topic 4: Reading Comprehension",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "E5M04Q01",
+          "question": "Read the text: 'My name is Phong. I live with my parents and my younger sister in a house in the city. My father is a doctor. He works in a big hospital. My mother is a teacher. She teaches English at a primary school. My sister and I are students.' How many people are there in Phong's family?",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+          ],
+          "answer_index": 2,
+          "answer_text": "Four"
+        },
+        {
+          "id": "E5M04Q02",
+          "question": "Read the text from Q1. What does Phong's father do?",
+          "options": [
+            "He is a teacher.",
+            "He is a doctor.",
+            "He is a student.",
+            "He is an engineer."
+          ],
+          "answer_index": 1,
+          "answer_text": "He is a doctor."
+        },
+        {
+          "id": "E5M04Q03",
+          "question": "Read the text from Q1. Where does Phong's mother work?",
+          "options": [
+            "In a hospital.",
+            "In a house.",
+            "In a primary school.",
+            "In a factory."
+          ],
+          "answer_index": 2,
+          "answer_text": "In a primary school."
+        },
+        {
+          "id": "E5M04Q04",
+          "question": "Read the text from Q1. Does Phong have a brother?",
+          "options": [
+            "Yes, he does.",
+            "No, he doesn't.",
+            "Yes, he is.",
+            "No, he isn't."
+          ],
+          "answer_index": 1,
+          "answer_text": "No, he doesn't."
+        },
+        {
+          "id": "E5M04Q05",
+          "question": "Read the text from Q1. Who is younger, Phong or his sister?",
+          "options": [
+            "Phong is younger.",
+            "His sister is younger.",
+            "They are the same age.",
+            "The text doesn't say."
+          ],
+          "answer_index": 1,
+          "answer_text": "His sister is younger."
+        },
+        {
+          "id": "E5M04Q06",
+          "question": "Read the text: 'Yesterday, Nam went to the bookshop. He bought a new comic book and a pen. The comic book was about superheroes. It was very exciting. After that, he went home and read the book.' What did Nam buy?",
+          "options": [
+            "A comic book and a pencil.",
+            "A comic book and a pen.",
+            "A textbook and a pen.",
+            "A notebook and a comic book."
+          ],
+          "answer_index": 1,
+          "answer_text": "A comic book and a pen."
+        },
+        {
+          "id": "E5M04Q07",
+          "question": "Read the text from Q6. How was the comic book?",
+          "options": [
+            "Boring",
+            "Sad",
+            "Funny",
+            "Exciting"
+          ],
+          "answer_index": 3,
+          "answer_text": "Exciting"
+        },
+        {
+          "id": "E5M04Q08",
+          "question": "Read the text from Q6. Where did Nam go yesterday?",
+          "options": [
+            "To the school.",
+            "To the bookshop.",
+            "To the cinema.",
+            "To the park."
+          ],
+          "answer_index": 1,
+          "answer_text": "To the bookshop."
+        },
+        {
+          "id": "E5M04Q09",
+          "question": "Read the text from Q6. What did Nam do after he went home?",
+          "options": [
+            "He played football.",
+            "He did his homework.",
+            "He read the book.",
+            "He watched TV."
+          ],
+          "answer_index": 2,
+          "answer_text": "He read the book."
+        },
+        {
+          "id": "E5M04Q10",
+          "question": "Read the text from Q6. Did Nam buy a notebook?",
+          "options": [
+            "Yes, he did.",
+            "No, he didn't.",
+            "Yes, he was.",
+            "No, he wasn't."
+          ],
+          "answer_index": 1,
+          "answer_text": "No, he didn't."
+        },
+        {
+          "id": "E5M04Q11",
+          "question": "Read the text: 'Mai's favorite season is summer. In the summer, the weather is hot and sunny. She often goes swimming with her friends. She also likes eating ice cream. She doesn't like winter because it's very cold.' What is Mai's favorite season?",
+          "options": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+          ],
+          "answer_index": 1,
+          "answer_text": "Summer"
+        },
+        {
+          "id": "E5M04Q12",
+          "question": "Read the text from Q11. What is the weather like in summer?",
+          "options": [
+            "Cold and snowy.",
+            "Warm and windy.",
+            "Cool and rainy.",
+            "Hot and sunny."
+          ],
+          "answer_index": 3,
+          "answer_text": "Hot and sunny."
+        },
+        {
+          "id": "E5M04Q13",
+          "question": "Read the text from Q11. What does Mai often do in summer?",
+          "options": [
+            "She goes skiing.",
+            "She builds a snowman.",
+            "She goes swimming.",
+            "She stays at home."
+          ],
+          "answer_index": 2,
+          "answer_text": "She goes swimming."
+        },
+        {
+          "id": "E5M04Q14",
+          "question": "Read the text from Q11. Why doesn't Mai like winter?",
+          "options": [
+            "Because it's hot.",
+            "Because it's rainy.",
+            "Because it's very cold.",
+            "Because it's warm."
+          ],
+          "answer_index": 2,
+          "answer_text": "Because it's very cold."
+        },
+        {
+          "id": "E5M04Q15",
+          "question": "Read the text from Q11. What does Mai like to eat in summer?",
+          "options": [
+            "Hot soup",
+            "Ice cream",
+            "Bread",
+            "Apples"
+          ],
+          "answer_index": 1,
+          "answer_text": "Ice cream"
+        },
+        {
+          "id": "E5M04Q16",
+          "question": "Read the text: 'Linh is a student in class 5A. Her favorite subject is Art. She likes drawing pictures of animals and flowers. She can draw very well. In her free time, she often goes to the art club at her school.' What is Linh's favorite subject?",
+          "options": [
+            "Math",
+            "English",
+            "Music",
+            "Art"
+          ],
+          "answer_index": 3,
+          "answer_text": "Art"
+        },
+        {
+          "id": "E5M04Q17",
+          "question": "Read the text from Q16. What does Linh like drawing?",
+          "options": [
+            "Houses and cars.",
+            "People and trees.",
+            "Animals and flowers.",
+            "Books and pens."
+          ],
+          "answer_index": 2,
+          "answer_text": "Animals and flowers."
+        },
+        {
+          "id": "E5M04Q18",
+          "question": "Read the text from Q16. What can Linh do very well?",
+          "options": [
+            "She can sing well.",
+            "She can dance well.",
+            "She can draw well.",
+            "She can cook well."
+          ],
+          "answer_index": 2,
+          "answer_text": "She can draw well."
+        },
+        {
+          "id": "E5M04Q19",
+          "question": "Read the text from Q16. Where does she go in her free time?",
+          "options": [
+            "To the library.",
+            "To the cinema.",
+            "To the art club.",
+            "To the gym."
+          ],
+          "answer_index": 2,
+          "answer_text": "To the art club."
+        },
+        {
+          "id": "E5M04Q20",
+          "question": "Read the text from Q16. Is Linh good at drawing?",
+          "options": [
+            "Yes, she is.",
+            "No, she isn't.",
+            "Yes, she can.",
+            "No, she can't."
+          ],
+          "answer_index": 0,
+          "answer_text": "Yes, she is."
+        },
+        {
+          "id": "E5M04Q21",
+          "question": "Read the text: 'The Mid-Autumn Festival is a popular festival in Vietnam. It is for children. On that day, children wear beautiful clothes, carry star-shaped lanterns, and watch the lion dance. They also eat mooncakes.' When is the Mid-Autumn Festival?",
+          "options": [
+            "The text doesn't say.",
+            "In the spring.",
+            "In the summer.",
+            "In the autumn."
+          ],
+          "answer_index": 3,
+          "answer_text": "In the autumn."
+        },
+        {
+          "id": "E5M04Q22",
+          "question": "Read the text from Q21. Who is the festival mainly for?",
+          "options": [
+            "Adults",
+            "Old people",
+            "Teenagers",
+            "Children"
+          ],
+          "answer_index": 3,
+          "answer_text": "Children"
+        },
+        {
+          "id": "E5M04Q23",
+          "question": "Read the text from Q21. What do children carry on that day?",
+          "options": [
+            "Books",
+            "Flowers",
+            "Star-shaped lanterns",
+            "Balloons"
+          ],
+          "answer_index": 2,
+          "answer_text": "Star-shaped lanterns"
+        },
+        {
+          "id": "E5M04Q24",
+          "question": "Read the text from Q21. What special food do they eat?",
+          "options": [
+            "Pizza",
+            "Mooncakes",
+            "Banh Chung",
+            "Sushi"
+          ],
+          "answer_index": 1,
+          "answer_text": "Mooncakes"
+        },
+        {
+          "id": "E5M04Q25",
+          "question": "Read the text from Q21. What do they watch?",
+          "options": [
+            "A football match",
+            "A movie",
+            "The lion dance",
+            "A concert"
+          ],
+          "answer_index": 2,
+          "answer_text": "The lion dance"
+        }
+      ]
+    }
+  ]
+}

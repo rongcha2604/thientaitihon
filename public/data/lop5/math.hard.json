@@ -1,0 +1,1240 @@
+{
+  "meta": {
+    "grade": 5,
+    "subject": "Toán",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "hard",
+    "curriculum": "Chương trình mới"
+  },
+  "topics": [
+    {
+      "id": "MATH5_HARD_01",
+      "name": "Chủ đề 1: Phân số và các bài toán liên quan",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M5H01Q01",
+          "question": "Tìm một phân số biết rằng nếu cộng thêm 4 vào tử số và giữ nguyên mẫu số thì được phân số bằng 1, còn nếu giữ nguyên tử số và cộng thêm 3 vào mẫu số thì được phân số bằng 1/2.",
+          "options": [
+            "7/11",
+            "5/9",
+            "8/12",
+            "9/13"
+          ],
+          "answer_index": 0,
+          "answer_text": "7/11"
+        },
+        {
+          "id": "M5H01Q02",
+          "question": "Tổng của hai số là 120. Nếu chuyển 5 đơn vị từ số thứ nhất sang số thứ hai thì số thứ nhất bằng 3/5 số thứ hai. Tìm số thứ nhất.",
+          "options": [
+            "50",
+            "45",
+            "70",
+            "75"
+          ],
+          "answer_index": 0,
+          "answer_text": "50"
+        },
+        {
+          "id": "M5H01Q03",
+          "question": "Tính giá trị biểu thức: (1 - 1/4) x (1 - 1/9) x (1 - 1/16) x ... x (1 - 1/100)",
+          "options": [
+            "11/20",
+            "9/20",
+            "1/2",
+            "9/10"
+          ],
+          "answer_index": 0,
+          "answer_text": "11/20"
+        },
+        {
+          "id": "M5H01Q04",
+          "question": "Một đội công nhân sửa một đoạn đường trong 3 ngày. Ngày đầu sửa được 1/3 đoạn đường. Ngày thứ hai sửa được 40% đoạn đường còn lại. Ngày thứ ba sửa nốt 120m. Hỏi đoạn đường dài bao nhiêu mét?",
+          "options": [
+            "300m",
+            "400m",
+            "500m",
+            "600m"
+          ],
+          "answer_index": 0,
+          "answer_text": "300m"
+        },
+        {
+          "id": "M5H01Q05",
+          "question": "Tìm phân số tối giản a/b, biết rằng khi cộng thêm 8 vào tử số và 10 vào mẫu số thì giá trị phân số không đổi.",
+          "options": [
+            "3/4",
+            "4/5",
+            "1/2",
+            "2/3"
+          ],
+          "answer_index": 1,
+          "answer_text": "4/5"
+        },
+        {
+          "id": "M5H01Q06",
+          "question": "Tìm x trong dãy tính sau: x + x/3 + x/6 + x/12 = 25",
+          "options": [
+            "10",
+            "12",
+            "15",
+            "20"
+          ],
+          "answer_index": 1,
+          "answer_text": "12"
+        },
+        {
+          "id": "M5H01Q07",
+          "question": "An và Bình có tổng cộng 150 viên bi. Nếu An cho Bình 15 viên bi thì số bi của Bình bằng 2/3 số bi của An. Hỏi lúc đầu An có bao nhiêu viên bi?",
+          "options": [
+            "90",
+            "105",
+            "45",
+            "60"
+          ],
+          "answer_index": 1,
+          "answer_text": "105"
+        },
+        {
+          "id": "M5H01Q08",
+          "question": "Trong một phép chia hai số tự nhiên, thương là 3, số dư là 7. Biết tổng của số bị chia, số chia và số dư là 114. Tìm số bị chia.",
+          "options": [
+            "79",
+            "83",
+            "25",
+            "28"
+          ],
+          "answer_index": 0,
+          "answer_text": "79"
+        },
+        {
+          "id": "M5H01Q09",
+          "question": "Một người bán hàng, lần đầu bán 1/4 số cam. Lần thứ hai bán 1/3 số cam còn lại và thêm 1 quả thì còn lại 23 quả. Hỏi lúc đầu người đó có bao nhiêu quả cam?",
+          "options": [
+            "48",
+            "36",
+            "44",
+            "52"
+          ],
+          "answer_index": 0,
+          "answer_text": "48"
+        },
+        {
+          "id": "M5H01Q10",
+          "question": "Cho phân số 51/101. Hỏi phải chuyển từ tử số xuống mẫu số bao nhiêu đơn vị để được phân số bằng 3/5?",
+          "options": [
+            "11",
+            "9",
+            "10",
+            "12"
+          ],
+          "answer_index": 0,
+          "answer_text": "11"
+        },
+        {
+          "id": "M5H01Q11",
+          "question": "Tính tổng: S = 1/2 + 1/6 + 1/12 + 1/20 + ... + 1/90",
+          "options": [
+            "1",
+            "9/10",
+            "8/9",
+            "10/11"
+          ],
+          "answer_index": 1,
+          "answer_text": "9/10"
+        },
+        {
+          "id": "M5H01Q12",
+          "question": "Ba lớp 5A, 5B, 5C trồng cây. Số cây lớp 5A và 5B trồng được là 234 cây. Số cây lớp 5B và 5C là 258 cây. Số cây lớp 5A và 5C là 240 cây. Hỏi lớp 5B trồng được bao nhiêu cây?",
+          "options": [
+            "126",
+            "108",
+            "132",
+            "114"
+          ],
+          "answer_index": 0,
+          "answer_text": "126"
+        },
+        {
+          "id": "M5H01Q13",
+          "question": "Một cái chai khi đựng 1/3 chai nước thì nặng 425g. Khi đựng 1/2 chai nước thì nặng 500g. Hỏi vỏ chai nặng bao nhiêu gam?",
+          "options": [
+            "300g",
+            "250g",
+            "275g",
+            "325g"
+          ],
+          "answer_index": 2,
+          "answer_text": "275g"
+        },
+        {
+          "id": "M5H01Q14",
+          "question": "Tìm hai số biết tổng của chúng bằng 198 và nếu xóa chữ số 0 ở bên phải số lớn thì được số bé.",
+          "options": [
+            "180 và 18",
+            "170 và 28",
+            "160 và 38",
+            "190 và 8"
+          ],
+          "answer_index": 0,
+          "answer_text": "180 và 18"
+        },
+        {
+          "id": "M5H01Q15",
+          "question": "So sánh M và N biết M = (1/4 + 1/5 + ... + 1/9) và N = (1/10 + 1/11 + ... + 1/19).",
+          "options": [
+            "M = N",
+            "M < N",
+            "M > N",
+            "Không so sánh được"
+          ],
+          "answer_index": 2,
+          "answer_text": "M > N"
+        },
+        {
+          "id": "M5H01Q16",
+          "question": "Một cửa hàng có 3 thùng dầu. 2/3 số dầu thùng thứ nhất bằng 3/4 số dầu thùng thứ hai và bằng 4/5 số dầu thùng thứ ba. Thùng thứ nhất hơn thùng thứ ba 14 lít. Hỏi thùng thứ hai có bao nhiêu lít?",
+          "options": [
+            "80 lít",
+            "72 lít",
+            "96 lít",
+            "84 lít"
+          ],
+          "answer_index": 0,
+          "answer_text": "80 lít"
+        },
+        {
+          "id": "M5H01Q17",
+          "question": "Tìm một số có 2 chữ số, biết rằng nếu viết thêm chữ số 5 vào bên phải số đó thì số đó tăng thêm 230 đơn vị.",
+          "options": [
+            "25",
+            "23",
+            "28",
+            "35"
+          ],
+          "answer_index": 0,
+          "answer_text": "25"
+        },
+        {
+          "id": "M5H01Q18",
+          "question": "Tích của 10 số tự nhiên đầu tiên (1x2x3...x10) có tận cùng bằng mấy chữ số 0?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 1,
+          "answer_text": "2"
+        },
+        {
+          "id": "M5H01Q19",
+          "question": "An nghĩ ra một số. An lấy số đó chia cho 3, được bao nhiêu cộng với 2 rồi nhân với 4 thì được kết quả là 36. Tìm số An nghĩ.",
+          "options": [
+            "21",
+            "27",
+            "18",
+            "24"
+          ],
+          "answer_index": 0,
+          "answer_text": "21"
+        },
+        {
+          "id": "M5H01Q20",
+          "question": "Tìm một phân số bằng 4/5, biết tổng của tử số và mẫu số là 108.",
+          "options": [
+            "48/60",
+            "40/50",
+            "52/66",
+            "44/55"
+          ],
+          "answer_index": 0,
+          "answer_text": "48/60"
+        },
+        {
+          "id": "M5H01Q21",
+          "question": "Hiệu của hai số là 1.2. Nếu gấp số lớn lên 5 lần và giữ nguyên số bé thì hiệu mới là 45.2. Tìm số lớn.",
+          "options": [
+            "11",
+            "12.2",
+            "10",
+            "9.8"
+          ],
+          "answer_index": 0,
+          "answer_text": "11"
+        },
+        {
+          "id": "M5H01Q22",
+          "question": "Cho A = 1/2 + 1/4 + 1/8 + ... + 1/128. Tính giá trị của A.",
+          "options": [
+            "127/128",
+            "1",
+            "129/128",
+            "63/64"
+          ],
+          "answer_index": 0,
+          "answer_text": "127/128"
+        },
+        {
+          "id": "M5H01Q23",
+          "question": "Tìm số tự nhiên nhỏ nhất chia cho 2, 3, 4, 5, 6 đều dư 1.",
+          "options": [
+            "31",
+            "61",
+            "121",
+            "59"
+          ],
+          "answer_index": 1,
+          "answer_text": "61"
+        },
+        {
+          "id": "M5H01Q24",
+          "question": "Tuổi của con hiện nay bằng 1/4 tuổi mẹ. 5 năm nữa tổng số tuổi của hai mẹ con là 55 tuổi. Tính tuổi mẹ hiện nay.",
+          "options": [
+            "32",
+            "35",
+            "40",
+            "36"
+          ],
+          "answer_index": 3,
+          "answer_text": "36"
+        },
+        {
+          "id": "M5H01Q25",
+          "question": "Một phép chia có số chia là 8, số dư là 5. Để phép chia là phép chia hết và thương tăng 2 đơn vị thì phải thêm vào số bị chia bao nhiêu đơn vị?",
+          "options": [
+            "11",
+            "13",
+            "16",
+            "21"
+          ],
+          "answer_index": 0,
+          "answer_text": "11"
+        }
+      ]
+    },
+    {
+      "id": "MATH5_HARD_02",
+      "name": "Chủ đề 2: Số thập phân và các bài toán nâng cao",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M5H02Q01",
+          "question": "Khi nhân một số với 2,05, một học sinh đã quên viết chữ số 0 ở số 2,05 nên tích tìm được là 51,25. Tìm tích đúng.",
+          "options": [
+            "21,0125",
+            "10,5125",
+            "210,125",
+            "105,125"
+          ],
+          "answer_index": 0,
+          "answer_text": "21,0125"
+        },
+        {
+          "id": "M5H02Q02",
+          "question": "Tìm một số thập phân A, biết rằng nếu chuyển dấu phẩy của nó sang phải một hàng thì được số B, chuyển sang trái một hàng thì được số C. Biết B - C = 244,332.",
+          "options": [
+            "24,68",
+            "2,468",
+            "246,8",
+            "0,2468"
+          ],
+          "answer_index": 0,
+          "answer_text": "24,68"
+        },
+        {
+          "id": "M5H02Q03",
+          "question": "Tổng của hai số thập phân là 60,1. Nếu dịch dấu phẩy của số bé sang phải một hàng thì được số lớn. Tìm số lớn.",
+          "options": [
+            "54,64",
+            "5,464",
+            "54,54",
+            "5,56"
+          ],
+          "answer_index": 0,
+          "answer_text": "54,64"
+        },
+        {
+          "id": "M5H02Q04",
+          "question": "Một cửa hàng định giá một chiếc cặp là 65 000 đồng. Nhân dịp khai giảng, cửa hàng giảm giá 12%. Tuy vậy, cửa hàng vẫn lãi 4%. Hỏi giá vốn của chiếc cặp là bao nhiêu?",
+          "options": [
+            "55000 đồng",
+            "50000 đồng",
+            "52000 đồng",
+            "54000 đồng"
+          ],
+          "answer_index": 0,
+          "answer_text": "55000 đồng"
+        },
+        {
+          "id": "M5H02Q05",
+          "question": "Tính nhanh: 0,2 x 17 x 9 + 0,18 x 540 + 29 x 1,8",
+          "options": [
+            "180",
+            "18",
+            "90",
+            "270"
+          ],
+          "answer_index": 0,
+          "answer_text": "180"
+        },
+        {
+          "id": "M5H02Q06",
+          "question": "Tìm số dư của phép chia 45,3 : 0,7 nếu chỉ lấy đến hai chữ số ở phần thập phân của thương.",
+          "options": [
+            "0,05",
+            "0,5",
+            "0,005",
+            "5"
+          ],
+          "answer_index": 0,
+          "answer_text": "0,05"
+        },
+        {
+          "id": "M5H02Q07",
+          "question": "Tìm hai số biết thương của chúng bằng 0,5 và tổng của chúng bằng 12,6.",
+          "options": [
+            "4,2 và 8,4",
+            "4 và 8,6",
+            "4,4 và 8,2",
+            "3,6 và 9"
+          ],
+          "answer_index": 0,
+          "answer_text": "4,2 và 8,4"
+        },
+        {
+          "id": "M5H02Q08",
+          "question": "Trung bình cộng của ba số là 25,5. Số thứ nhất hơn số thứ hai 4,8 và kém số thứ ba 1,5. Tìm số thứ ba.",
+          "options": [
+            "30",
+            "28,2",
+            "23,4",
+            "26,7"
+          ],
+          "answer_index": 0,
+          "answer_text": "30"
+        },
+        {
+          "id": "M5H02Q09",
+          "question": "Trong một phép trừ, tổng của số bị trừ, số trừ và hiệu là 1998. Biết số trừ lớn hơn hiệu là 13,5. Tìm số trừ.",
+          "options": [
+            "499,5",
+            "506,25",
+            "492,75",
+            "999"
+          ],
+          "answer_index": 1,
+          "answer_text": "506,25"
+        },
+        {
+          "id": "M5H02Q10",
+          "question": "Số A chia cho số B được thương là 1,25. Nếu giảm A đi 3,7 và giữ nguyên B thì được thương mới là 1. Tìm số A.",
+          "options": [
+            "18,5",
+            "14,8",
+            "15",
+            "22,2"
+          ],
+          "answer_index": 0,
+          "answer_text": "18,5"
+        },
+        {
+          "id": "M5H02Q11",
+          "question": "Giá hoa tháng 5 giảm 10% so với tháng 4. Giá hoa tháng 6 tăng 10% so với tháng 5. Hỏi giá hoa tháng 6 so với tháng 4 thì đắt hơn hay rẻ hơn bao nhiêu phần trăm?",
+          "options": [
+            "Rẻ hơn 1%",
+            "Đắt hơn 1%",
+            "Bằng nhau",
+            "Rẻ hơn 10%"
+          ],
+          "answer_index": 0,
+          "answer_text": "Rẻ hơn 1%"
+        },
+        {
+          "id": "M5H02Q12",
+          "question": "Khi cộng một số tự nhiên với một số thập phân, một bạn đã quên dấu phẩy của số thập phân và cộng như hai số tự nhiên nên được kết quả là 4029. Tìm số thập phân đó, biết tổng đúng là 69,21.",
+          "options": [
+            "34,2",
+            "3,42",
+            "3,39",
+            "33,9"
+          ],
+          "answer_index": 3,
+          "answer_text": "33,9"
+        },
+        {
+          "id": "M5H02Q13",
+          "question": "Tìm x, biết: (x + 1) + (x + 4) + (x + 7) + ... + (x + 28) = 155.",
+          "options": [
+            "1,5",
+            "2",
+            "2,5",
+            "1"
+          ],
+          "answer_index": 0,
+          "answer_text": "1,5"
+        },
+        {
+          "id": "M5H02Q14",
+          "question": "Tính giá trị của A biết A = 20,18 x 20,19 - 20,17 x 20,20.",
+          "options": [
+            "0,0038",
+            "0,002",
+            "2,018",
+            "0"
+          ],
+          "answer_index": 0,
+          "answer_text": "0,0038"
+        },
+        {
+          "id": "M5H02Q15",
+          "question": "Một người bán một món hàng được lãi 25% so với giá bán. Hỏi người đó lãi bao nhiêu phần trăm so với giá vốn?",
+          "options": [
+            "25%",
+            "33,33%",
+            "20%",
+            "30%"
+          ],
+          "answer_index": 1,
+          "answer_text": "33,33%"
+        },
+        {
+          "id": "M5H02Q16",
+          "question": "Tìm số có 3 chữ số, biết rằng nếu viết thêm chữ số 2 vào bên trái số đó thì được số mới gấp 9 lần số phải tìm.",
+          "options": [
+            "200",
+            "225",
+            "250",
+            "275"
+          ],
+          "answer_index": 2,
+          "answer_text": "250"
+        },
+        {
+          "id": "M5H02Q17",
+          "question": "Cho ba số có trung bình cộng là 21. Tìm ba số đó biết số thứ ba gấp 3 lần số thứ hai, số thứ hai gấp 2 lần số thứ nhất.",
+          "options": [
+            "7, 14, 42",
+            "6, 12, 45",
+            "8, 16, 39",
+            "9, 18, 36"
+          ],
+          "answer_index": 0,
+          "answer_text": "7, 14, 42"
+        },
+        {
+          "id": "M5H02Q18",
+          "question": "Một số giảm đi 20% thì được số mới. Hỏi phải tăng số mới lên bao nhiêu phần trăm để được số ban đầu?",
+          "options": [
+            "20%",
+            "25%",
+            "15%",
+            "30%"
+          ],
+          "answer_index": 1,
+          "answer_text": "25%"
+        },
+        {
+          "id": "M5H02Q19",
+          "question": "Tìm số thập phân bé nhất có 4 chữ số khác nhau mà tổng các chữ số của nó bằng 9.",
+          "options": [
+            "0,126",
+            "1,026",
+            "0,135",
+            "1,233"
+          ],
+          "answer_index": 0,
+          "answer_text": "0,126"
+        },
+        {
+          "id": "M5H02Q20",
+          "question": "Nếu A gấp 1,5 lần B và B bằng 0,4 lần C. Hỏi A bằng bao nhiêu phần trăm của C?",
+          "options": [
+            "60%",
+            "40%",
+            "150%",
+            "6%"
+          ],
+          "answer_index": 0,
+          "answer_text": "60%"
+        },
+        {
+          "id": "M5H02Q21",
+          "question": "Tổng của 4 số là 100. Trung bình cộng của 3 số đầu là 22,3. Tìm số thứ tư.",
+          "options": [
+            "33,1",
+            "34,1",
+            "32,1",
+            "77,7"
+          ],
+          "answer_index": 0,
+          "answer_text": "33,1"
+        },
+        {
+          "id": "M5H02Q22",
+          "question": "Tìm một số thập phân, biết rằng lấy số đó cộng với 4,75 sau đó nhân với 2,5 rồi trừ đi 0,2 thì được 17,3.",
+          "options": [
+            "2,35",
+            "3,25",
+            "2,25",
+            "1,25"
+          ],
+          "answer_index": 2,
+          "answer_text": "2,25"
+        },
+        {
+          "id": "M5H02Q23",
+          "question": "Phép chia 2 số có thương là 6 và số dư là 3. Tổng số bị chia, số chia và số dư là 199. Tìm số bị chia.",
+          "options": [
+            "165",
+            "175",
+            "28",
+            "27"
+          ],
+          "answer_index": 0,
+          "answer_text": "165"
+        },
+        {
+          "id": "M5H02Q24",
+          "question": "Lớp 5A có 40 học sinh. Cuối năm có 30% là học sinh giỏi, 50% là học sinh khá. Còn lại là học sinh trung bình. Số học sinh trung bình là:",
+          "options": [
+            "12",
+            "20",
+            "8",
+            "10"
+          ],
+          "answer_index": 2,
+          "answer_text": "8"
+        },
+        {
+          "id": "M5H02Q25",
+          "question": "Hiệu của hai số là 15,4. Nếu ta dời dấu phẩy của số bé sang phải một hàng thì được số lớn. Tìm số lớn.",
+          "options": [
+            "17,11",
+            "1,71",
+            "18,2",
+            "16,8"
+          ],
+          "answer_index": 0,
+          "answer_text": "17,11"
+        }
+      ]
+    },
+    {
+      "id": "MATH5_HARD_03",
+      "name": "Chủ đề 3: Hình học và các bài toán suy luận",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M5H03Q01",
+          "question": "Một mảnh đất hình chữ nhật có chu vi 120m. Nếu giảm chiều dài đi 1/5 số đo của nó và tăng chiều rộng thêm 1/3 số đo của nó thì mảnh đất trở thành hình vuông. Tính diện tích mảnh đất ban đầu.",
+          "options": [
+            "875m²",
+            "900m²",
+            "800m²",
+            "600m²"
+          ],
+          "answer_index": 0,
+          "answer_text": "875m²"
+        },
+        {
+          "id": "M5H03Q02",
+          "question": "Cho tam giác ABC. Trên cạnh BC lấy điểm D sao cho BD = 2/3 DC. Nối A với D. Biết diện tích tam giác ABD là 24cm². Tính diện tích tam giác ABC.",
+          "options": [
+            "60cm²",
+            "36cm²",
+            "40cm²",
+            "48cm²"
+          ],
+          "answer_index": 0,
+          "answer_text": "60cm²"
+        },
+        {
+          "id": "M5H03Q03",
+          "question": "Một bể nước hình hộp chữ nhật có kích thước trong lòng bể là dài 2m, rộng 1,5m. Hiện 75% bể đang có nước. Người ta thả một hòn đá vào bể thì mực nước dâng lên thêm 0,2m. Tính thể tích hòn đá.",
+          "options": [
+            "0,6m³",
+            "6m³",
+            "60m³",
+            "600m³"
+          ],
+          "answer_index": 0,
+          "answer_text": "0,6m³"
+        },
+        {
+          "id": "M5H03Q04",
+          "question": "Một cái sân hình vuông được mở rộng về bên phải 3m và lên phía trên 3m thì diện tích tăng thêm 99m². Tính diện tích cái sân ban đầu.",
+          "options": [
+            "144m²",
+            "196m²",
+            "225m²",
+            "256m²"
+          ],
+          "answer_index": 2,
+          "answer_text": "225m²"
+        },
+        {
+          "id": "M5H03Q05",
+          "question": "Nếu tăng đường kính của một hình tròn lên 20% thì diện tích của nó tăng thêm bao nhiêu phần trăm?",
+          "options": [
+            "20%",
+            "40%",
+            "44%",
+            "144%"
+          ],
+          "answer_index": 2,
+          "answer_text": "44%"
+        },
+        {
+          "id": "M5H03Q06",
+          "question": "Một miếng bìa hình tam giác có tổng độ dài cạnh đáy và chiều cao là 24cm. Chiều cao bằng 1/3 cạnh đáy. Tính diện tích miếng bìa.",
+          "options": [
+            "54cm²",
+            "108cm²",
+            "72cm²",
+            "48cm²"
+          ],
+          "answer_index": 0,
+          "answer_text": "54cm²"
+        },
+        {
+          "id": "M5H03Q07",
+          "question": "Một hình thang có diện tích 4,5dm², chiều cao 0,5m. Tính tổng độ dài hai đáy của hình thang đó.",
+          "options": [
+            "18dm",
+            "9dm",
+            "1,8dm",
+            "0,9dm"
+          ],
+          "answer_index": 2,
+          "answer_text": "1,8dm"
+        },
+        {
+          "id": "M5H03Q08",
+          "question": "Xung quanh một cái ao hình tròn người ta trồng 100 cây dừa, hai cây liền nhau cách nhau 3,14m. Tính bán kính của cái ao.",
+          "options": [
+            "100m",
+            "50m",
+            "314m",
+            "157m"
+          ],
+          "answer_index": 1,
+          "answer_text": "50m"
+        },
+        {
+          "id": "M5H03Q09",
+          "question": "Một cái thùng không nắp hình lập phương có cạnh 8dm. Người ta sơn cả mặt trong và mặt ngoài của thùng. Diện tích cần sơn là:",
+          "options": [
+            "320dm²",
+            "640dm²",
+            "384dm²",
+            "512dm²"
+          ],
+          "answer_index": 1,
+          "answer_text": "640dm²"
+        },
+        {
+          "id": "M5H03Q10",
+          "question": "Cho tam giác ABC. Trên AC lấy điểm M sao cho AM=MC. Trên BC lấy điểm N sao cho BN=1/3BC. Nối M và N. Biết diện tích tam giác CMN là 10cm². Tính diện tích tam giác ABC.",
+          "options": [
+            "40cm²",
+            "60cm²",
+            "80cm²",
+            "30cm²"
+          ],
+          "answer_index": 1,
+          "answer_text": "60cm²"
+        },
+        {
+          "id": "M5H03Q11",
+          "question": "Một mảnh đất hình chữ nhật có chiều dài gấp 3 lần chiều rộng. Nếu giảm chiều dài đi 4m và tăng chiều rộng thêm 4m thì diện tích tăng thêm 112m². Tính diện tích ban đầu.",
+          "options": [
+            "300m²",
+            "675m²",
+            "432m²",
+            "588m²"
+          ],
+          "answer_index": 1,
+          "answer_text": "675m²"
+        },
+        {
+          "id": "M5H03Q12",
+          "question": "Một hình lập phương có diện tích toàn phần là 150cm². Thể tích của hình lập phương đó là:",
+          "options": [
+            "150cm³",
+            "125cm³",
+            "100cm³",
+            "216cm³"
+          ],
+          "answer_index": 1,
+          "answer_text": "125cm³"
+        },
+        {
+          "id": "M5H03Q13",
+          "question": "Cho hình thang ABCD có đáy nhỏ AB bằng 1/3 đáy lớn CD. Hai đường chéo AC và BD cắt nhau tại O. Biết diện tích tam giác AOB là 4cm². Tính diện tích hình thang ABCD.",
+          "options": [
+            "36cm²",
+            "48cm²",
+            "64cm²",
+            "72cm²"
+          ],
+          "answer_index": 2,
+          "answer_text": "64cm²"
+        },
+        {
+          "id": "M5H03Q14",
+          "question": "Một bể nước có thể tích lòng bể là 2,4m³. Hiện bể đang chứa 1500 lít nước. Tỉ số phần trăm của lượng nước đang có so với thể tích bể là:",
+          "options": [
+            "60%",
+            "62,5%",
+            "70%",
+            "75%"
+          ],
+          "answer_index": 1,
+          "answer_text": "62,5%"
+        },
+        {
+          "id": "M5H03Q15",
+          "question": "Nếu cạnh hình lập phương tăng lên 10% thì thể tích của nó tăng lên bao nhiêu phần trăm?",
+          "options": [
+            "10%",
+            "21%",
+            "30%",
+            "33,1%"
+          ],
+          "answer_index": 3,
+          "answer_text": "33,1%"
+        },
+        {
+          "id": "M5H03Q16",
+          "question": "Một cái sân hình chữ nhật có chu vi 140m. Chiều rộng bằng 3/4 chiều dài. Người ta lát sân bằng những viên gạch hình vuông cạnh 50cm. Hỏi cần bao nhiêu viên gạch?",
+          "options": [
+            "4800 viên",
+            "1200 viên",
+            "2400 viên",
+            "9600 viên"
+          ],
+          "answer_index": 0,
+          "answer_text": "4800 viên"
+        },
+        {
+          "id": "M5H03Q17",
+          "question": "Tính diện tích hình vành khăn được tạo bởi hai hình tròn đồng tâm có bán kính lần lượt là 5cm và 4cm.",
+          "options": [
+            "3,14 cm²",
+            "28,26 cm²",
+            "9 cm²",
+            "50,24 cm²"
+          ],
+          "answer_index": 1,
+          "answer_text": "28,26 cm²"
+        },
+        {
+          "id": "M5H03Q18",
+          "question": "Một hình thang vuông có đáy bé bằng chiều cao và bằng nửa đáy lớn. Diện tích hình thang là 48m². Tính đáy bé.",
+          "options": [
+            "4m",
+            "6m",
+            "8m",
+            "12m"
+          ],
+          "answer_index": 1,
+          "answer_text": "6m"
+        },
+        {
+          "id": "M5H03Q19",
+          "question": "Một bể cá không nắp hình hộp chữ nhật có chiều dài 1m, chiều rộng 0,6m, chiều cao 0,5m. Người ta dùng kính để làm bể. Giá 1m² kính là 250.000 đồng. Tiền kính để làm bể là:",
+          "options": [
+            "550.000 đồng",
+            "650.000 đồng",
+            "750.000 đồng",
+            "500.000 đồng"
+          ],
+          "answer_index": 0,
+          "answer_text": "550.000 đồng"
+        },
+        {
+          "id": "M5H03Q20",
+          "question": "Cho tam giác ABC, M là trung điểm của BC. Nối AM. Trên AM lấy điểm I sao cho AI = 2 IM. Nối BI, CI. So sánh diện tích tam giác ABI và diện tích tam giác ACI.",
+          "options": [
+            "S(ABI) = 2 S(ACI)",
+            "S(ABI) < S(ACI)",
+            "S(ABI) > S(ACI)",
+            "S(ABI) = S(ACI)"
+          ],
+          "answer_index": 3,
+          "answer_text": "S(ABI) = S(ACI)"
+        },
+        {
+          "id": "M5H03Q21",
+          "question": "Diện tích một hình chữ nhật sẽ thay đổi thế nào nếu tăng chiều dài 20% và giảm chiều rộng 20%?",
+          "options": [
+            "Tăng 4%",
+            "Giảm 4%",
+            "Không đổi",
+            "Giảm 2%"
+          ],
+          "answer_index": 1,
+          "answer_text": "Giảm 4%"
+        },
+        {
+          "id": "M5H03Q22",
+          "question": "Một cái thùng hình lập phương bằng sắt không có nắp, có cạnh 0,8m. Bề ngoài thùng được sơn màu xanh, bên trong được sơn màu đỏ. Diện tích quét sơn màu đỏ là:",
+          "options": [
+            "3,2 m²",
+            "2,56 m²",
+            "3,84 m²",
+            "0,64 m²"
+          ],
+          "answer_index": 0,
+          "answer_text": "3,2 m²"
+        },
+        {
+          "id": "M5H03Q23",
+          "question": "Một thửa ruộng hình thang có đáy lớn hơn đáy bé 12m và đáy lớn gấp 3 lần đáy bé. Chiều cao là 10m. Diện tích thửa ruộng là:",
+          "options": [
+            "120 m²",
+            "180 m²",
+            "240 m²",
+            "360 m²"
+          ],
+          "answer_index": 2,
+          "answer_text": "240 m²"
+        },
+        {
+          "id": "M5H03Q24",
+          "question": "Một hình tròn nội tiếp một hình vuông có cạnh 10cm. Diện tích hình tròn là:",
+          "options": [
+            "314 cm²",
+            "78,5 cm²",
+            "157 cm²",
+            "100 cm²"
+          ],
+          "answer_index": 1,
+          "answer_text": "78,5 cm²"
+        },
+        {
+          "id": "M5H03Q25",
+          "question": "Người ta cắt một khối gỗ hình hộp chữ nhật có kích thước 10cm x 8cm x 6cm thành các hình lập phương nhỏ cạnh 2cm. Có thể cắt được bao nhiêu hình lập phương nhỏ?",
+          "options": [
+            "48",
+            "60",
+            "480",
+            "80"
+          ],
+          "answer_index": 1,
+          "answer_text": "60"
+        }
+      ]
+    },
+    {
+      "id": "MATH5_HARD_04",
+      "name": "Chủ đề 4: Toán chuyển động phức tạp",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M5H04Q01",
+          "question": "Lúc 7 giờ, một người đi xe máy từ A đến B với vận tốc 40 km/giờ. Sau đó 30 phút, một ô tô cũng đi từ A đến B và đuổi theo xe máy với vận tốc 60 km/giờ. Hỏi ô tô đuổi kịp xe máy lúc mấy giờ?",
+          "options": [
+            "8 giờ",
+            "8 giờ 30 phút",
+            "9 giờ",
+            "7 giờ 30 phút"
+          ],
+          "answer_index": 1,
+          "answer_text": "8 giờ 30 phút"
+        },
+        {
+          "id": "M5H04Q02",
+          "question": "Một ca nô đi xuôi dòng từ A đến B mất 4 giờ và đi ngược dòng từ B về A mất 5 giờ. Biết vận tốc dòng nước là 2 km/giờ. Tính độ dài quãng sông AB.",
+          "options": [
+            "80 km",
+            "72 km",
+            "90 km",
+            "100 km"
+          ],
+          "answer_index": 0,
+          "answer_text": "80 km"
+        },
+        {
+          "id": "M5H04Q03",
+          "question": "Hai người đi xe đạp ngược chiều nhau từ hai điểm A và B cách nhau 45 km. Người thứ nhất đi từ A với vận tốc 12 km/giờ. Sau 1,5 giờ họ gặp nhau. Tính vận tốc của người thứ hai.",
+          "options": [
+            "15 km/giờ",
+            "18 km/giờ",
+            "20 km/giờ",
+            "10 km/giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "18 km/giờ"
+        },
+        {
+          "id": "M5H04Q04",
+          "question": "Một đoàn tàu chạy qua một đường hầm dài 450m hết 40 giây. Biết vận tốc của tàu là 15m/giây. Tính chiều dài của đoàn tàu.",
+          "options": [
+            "100m",
+            "120m",
+            "150m",
+            "200m"
+          ],
+          "answer_index": 2,
+          "answer_text": "150m"
+        },
+        {
+          "id": "M5H04Q05",
+          "question": "An và Bình cùng đi từ A đến B. An đi với vận tốc 12 km/giờ. Bình khởi hành sau An 15 phút và đi với vận tốc 15 km/giờ. Hỏi Bình cần bao nhiêu thời gian để đuổi kịp An?",
+          "options": [
+            "1 giờ",
+            "1 giờ 15 phút",
+            "1 giờ 30 phút",
+            "45 phút"
+          ],
+          "answer_index": 0,
+          "answer_text": "1 giờ"
+        },
+        {
+          "id": "M5H04Q06",
+          "question": "Bây giờ là 3 giờ. Hỏi sau ít nhất bao lâu nữa thì kim giờ và kim phút sẽ vuông góc với nhau?",
+          "options": [
+            "Khoảng 30 phút",
+            "Khoảng 32,7 phút",
+            "Khoảng 35 phút",
+            "1 giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "Khoảng 32,7 phút"
+        },
+        {
+          "id": "M5H04Q07",
+          "question": "Một người dự định đi từ A đến B trong 4 giờ. Nhưng do đường xấu, người đó chỉ đi được với vận tốc bằng 3/4 vận tốc dự định. Hỏi người đó đến B muộn hơn dự định bao lâu?",
+          "options": [
+            "1 giờ",
+            "1 giờ 20 phút",
+            "1 giờ 30 phút",
+            "40 phút"
+          ],
+          "answer_index": 1,
+          "answer_text": "1 giờ 20 phút"
+        },
+        {
+          "id": "M5H04Q08",
+          "question": "Một chiếc thuyền đi ngược dòng 60km, sau đó đi xuôi dòng 60km trên cùng một dòng sông. Thời gian đi ngược dòng nhiều hơn thời gian đi xuôi dòng là 1 giờ. Vận tốc khi xuôi dòng là 30km/h. Vận tốc thực của thuyền là?",
+          "options": [
+            "25 km/h",
+            "27 km/h",
+            "28 km/h",
+            "24 km/h"
+          ],
+          "answer_index": 1,
+          "answer_text": "27 km/h"
+        },
+        {
+          "id": "M5H04Q09",
+          "question": "Một ô tô đi từ A đến B. Nửa quãng đường đầu đi với vận tốc 60 km/h, nửa sau đi với vận tốc 40 km/h. Vận tốc trung bình của ô tô trên cả quãng đường là:",
+          "options": [
+            "50 km/h",
+            "48 km/h",
+            "52 km/h",
+            "45 km/h"
+          ],
+          "answer_index": 1,
+          "answer_text": "48 km/h"
+        },
+        {
+          "id": "M5H04Q10",
+          "question": "Hai vòi nước cùng chảy vào một bể không có nước. Nếu chảy một mình, vòi thứ nhất cần 5 giờ để đầy bể, vòi thứ hai cần 7 giờ. Hỏi nếu mở cả hai vòi cùng lúc thì sau bao lâu bể sẽ đầy?",
+          "options": [
+            "2 giờ 55 phút",
+            "6 giờ",
+            "12 giờ",
+            "2 giờ 55 phút gần đúng"
+          ],
+          "answer_index": 3,
+          "answer_text": "2 giờ 55 phút gần đúng"
+        },
+        {
+          "id": "M5H04Q11",
+          "question": "Một người đi xe máy từ A đến B. Nếu đi với vận tốc 30 km/h thì đến sớm hơn 1 giờ so với dự định. Nếu đi với vận tốc 20 km/h thì đến muộn hơn 1 giờ so với dự định. Tính quãng đường AB.",
+          "options": [
+            "100 km",
+            "120 km",
+            "150 km",
+            "180 km"
+          ],
+          "answer_index": 1,
+          "answer_text": "120 km"
+        },
+        {
+          "id": "M5H04Q12",
+          "question": "Một đoàn tàu đi qua một người đứng bên đường hết 10 giây và đi qua một cây cầu dài 225m hết 25 giây. Tính vận tốc của đoàn tàu.",
+          "options": [
+            "15 m/s",
+            "20 m/s",
+            "22,5 m/s",
+            "25 m/s"
+          ],
+          "answer_index": 0,
+          "answer_text": "15 m/s"
+        },
+        {
+          "id": "M5H04Q13",
+          "question": "Một người đi từ A đến B. Người đó đi trong 20 phút đầu với vận tốc 15km/h, nghỉ 10 phút, rồi đi tiếp 30 phút cuối với vận tốc 12km/h. Quãng đường AB dài:",
+          "options": [
+            "11 km",
+            "10 km",
+            "12 km",
+            "15 km"
+          ],
+          "answer_index": 0,
+          "answer_text": "11 km"
+        },
+        {
+          "id": "M5H04Q14",
+          "question": "Một con chó đuổi một con thỏ. Con chó cách con thỏ 20 bước của chó. Con thỏ cách hang của nó 80 bước của thỏ. Khi thỏ chạy được 3 bước thì chó chạy được 1 bước. Một bước của chó bằng 8 bước của thỏ. Hỏi chó có bắt được thỏ không?",
+          "options": [
+            "Có, ngay miệng hang",
+            "Không",
+            "Có, trước miệng hang",
+            "Có, sau miệng hang"
+          ],
+          "answer_index": 0,
+          "answer_text": "Có, ngay miệng hang"
+        },
+        {
+          "id": "M5H04Q15",
+          "question": "Lúc 12 giờ trưa, kim giờ và kim phút của đồng hồ trùng nhau. Hỏi thời điểm gần nhất tiếp theo chúng trùng nhau là khi nào?",
+          "options": [
+            "13 giờ",
+            "13 giờ 5 phút",
+            "Khoảng 13 giờ 5 phút 27 giây",
+            "13 giờ 10 phút"
+          ],
+          "answer_index": 2,
+          "answer_text": "Khoảng 13 giờ 5 phút 27 giây"
+        },
+        {
+          "id": "M5H04Q16",
+          "question": "Một ô tô đi lên dốc với vận tốc 24 km/h và đi xuống dốc với vận tốc 40 km/h. Cả đi và về hết 3 giờ 12 phút. Tính quãng đường lên dốc.",
+          "options": [
+            "40 km",
+            "48 km",
+            "60 km",
+            "36 km"
+          ],
+          "answer_index": 1,
+          "answer_text": "48 km"
+        },
+        {
+          "id": "M5H04Q17",
+          "question": "Một người đi bộ từ A đến B rồi quay trở lại A. Lúc đi anh ta đi với vận tốc 6km/h, lúc về vì mệt nên chỉ đi với vận tốc 4km/h. Tổng thời gian cả đi và về là 5 giờ. Tính quãng đường AB.",
+          "options": [
+            "10 km",
+            "12 km",
+            "15 km",
+            "24 km"
+          ],
+          "answer_index": 1,
+          "answer_text": "12 km"
+        },
+        {
+          "id": "M5H04Q18",
+          "question": "Hai tỉnh A và B cách nhau 180 km. Cùng một lúc, một ô tô đi từ A về B và một xe máy đi từ B về A. Chúng gặp nhau sau 2 giờ. Biết vận tốc ô tô lớn hơn vận tốc xe máy là 10km/h. Vận tốc ô tô là:",
+          "options": [
+            "40 km/h",
+            "50 km/h",
+            "60 km/h",
+            "45 km/h"
+          ],
+          "answer_index": 1,
+          "answer_text": "50 km/h"
+        },
+        {
+          "id": "M5H04Q19",
+          "question": "An đi từ nhà đến trường. Sau khi đi được 1/4 quãng đường thì An tăng vận tốc thêm 1/3 vận tốc ban đầu và đến trường sớm hơn dự định 15 phút. Tính thời gian An dự định đi từ nhà đến trường.",
+          "options": [
+            "1 giờ",
+            "1 giờ 15 phút",
+            "1 giờ 30 phút",
+            "1 giờ 45 phút"
+          ],
+          "answer_index": 2,
+          "answer_text": "1 giờ 30 phút"
+        },
+        {
+          "id": "M5H04Q20",
+          "question": "Một người đi xe đạp từ A đến B gồm một đoạn lên dốc và một đoạn xuống dốc. Vận tốc lên dốc là 6 km/h, xuống dốc là 15 km/h. Thời gian đi hết 54 phút. Thời gian về từ B đến A hết 45 phút. Tính quãng đường AB.",
+          "options": [
+            "9 km",
+            "10,5 km",
+            "12 km",
+            "13,5 km"
+          ],
+          "answer_index": 0,
+          "answer_text": "9 km"
+        },
+        {
+          "id": "M5H04Q21",
+          "question": "Một chiếc đồng hồ cứ 30 phút lại chạy chậm 2 giây. Lúc 6 giờ sáng người ta chỉnh đồng hồ đúng giờ. Hỏi lúc 6 giờ tối cùng ngày đồng hồ chỉ mấy giờ?",
+          "options": [
+            "6 giờ kém 24 giây",
+            "6 giờ kém 48 giây",
+            "5 giờ 59 phút 36 giây",
+            "5 giờ 59 phút 12 giây"
+          ],
+          "answer_index": 2,
+          "answer_text": "5 giờ 59 phút 36 giây"
+        },
+        {
+          "id": "M5H04Q22",
+          "question": "Quãng đường AB dài 120km. Một ô tô đi từ A đến B với vận tốc 60km/h. Cùng lúc, một xe đạp đi từ B về A với vận tốc 20km/h. Sau khi gặp nhau, ô tô quay lại A ngay. Hỏi kể từ lúc khởi hành đến lúc ô tô về đến A, xe đạp đi được bao nhiêu km?",
+          "options": [
+            "30 km",
+            "45 km",
+            "60 km",
+            "50 km"
+          ],
+          "answer_index": 2,
+          "answer_text": "60 km"
+        },
+        {
+          "id": "M5H04Q23",
+          "question": "Để bơm đầy một cái bể, vòi A cần 6 giờ, vòi B cần 9 giờ. Ban đầu người ta mở vòi A, sau 2 giờ thì mở thêm vòi B. Hỏi từ lúc mở thêm vòi B, sau bao lâu thì bể đầy?",
+          "options": [
+            "2 giờ 24 phút",
+            "3 giờ",
+            "2 giờ 30 phút",
+            "2 giờ"
+          ],
+          "answer_index": 0,
+          "answer_text": "2 giờ 24 phút"
+        },
+        {
+          "id": "M5H04Q24",
+          "question": "Một người đi từ A đến B, dự định đến lúc 10 giờ. Nếu đi với vận tốc 36 km/h thì đến chậm 12 phút. Nếu đi với vận tốc 42 km/h thì đến sớm 8 phút. Tính quãng đường AB.",
+          "options": [
+            "120 km",
+            "140 km",
+            "108 km",
+            "84 km"
+          ],
+          "answer_index": 3,
+          "answer_text": "84 km"
+        },
+        {
+          "id": "M5H04Q25",
+          "question": "Hai vận động viên chạy thi trên một đường đua vòng. Vận tốc người thứ nhất là 250m/phút, người thứ hai là 200m/phút. Họ xuất phát cùng lúc, cùng chiều. Chu vi đường đua là 1km. Sau bao lâu họ lại gặp nhau?",
+          "options": [
+            "10 phút",
+            "15 phút",
+            "20 phút",
+            "25 phút"
+          ],
+          "answer_index": 2,
+          "answer_text": "20 phút"
+        }
+      ]
+    }
+  ]
+}

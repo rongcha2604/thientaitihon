@@ -1,0 +1,902 @@
+{
+  "meta": {
+    "grade": 1,
+    "subject": "Tiếng Việt",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "easy",
+    "curriculum": "CTGDPT 2018 – Chuẩn 2025"
+  },
+  "topics": [
+    {
+      "id": "VIE1E_SUM",
+      "name": "Tổng hợp 70 câu hỏi chọn lọc",
+      "questions": [
+        {
+          "id": "VIE1E26Q01",
+          "question": "Từ nào có chứa phụ âm 'ph'?",
+          "options": [
+            "pha",
+            "mèo",
+            "cây",
+            "chim"
+          ],
+          "answer_index": 0,
+          "answer_text": "pha",
+          "explanation": "Từ 'pha' có chứa phụ âm 'ph'."
+        },
+        {
+          "id": "VIE1E22Q10",
+          "question": "Tìm từ có phụ âm 'tr'",
+          "options": [
+            "tra",
+            "chim",
+            "cây",
+            "mèo"
+          ],
+          "answer_index": 0,
+          "answer_text": "tra",
+          "explanation": "Từ 'tra' có chứa phụ âm 'tr'."
+        },
+        {
+          "id": "VIE1E06Q03",
+          "question": "Từ nào viết đúng chính tả có vần 'o'?",
+          "options": [
+            "bó",
+            "cơ",
+            "có",
+            "bơ"
+          ],
+          "answer_index": 2,
+          "answer_text": "có",
+          "explanation": "Từ 'có' viết đúng chính tả có vần 'o'."
+        },
+        {
+          "id": "VIE1E13Q10",
+          "question": "Tìm từ có vần 'âp'",
+          "options": [
+            "cây",
+            "mèo",
+            "tập",
+            "chim"
+          ],
+          "answer_index": 2,
+          "answer_text": "tập",
+          "explanation": "Từ 'tập' có chứa vần 'âp'."
+        },
+        {
+          "id": "VIE1E20Q03",
+          "question": "Từ nào viết đúng chính tả có vần 'ê'?",
+          "options": [
+            "tập",
+            "kể",
+            "chuyện",
+            "ôn"
+          ],
+          "answer_index": 1,
+          "answer_text": "kể",
+          "explanation": "Từ 'kể' viết đúng chính tả có vần 'ê'."
+        },
+        {
+          "id": "VIE1E04Q06",
+          "question": "Từ nào có chứa vần 'e'?",
+          "options": [
+            "cây",
+            "xe",
+            "mèo",
+            "chim"
+          ],
+          "answer_index": 1,
+          "answer_text": "xe",
+          "explanation": "Từ 'xe' có chứa vần 'e'."
+        },
+        {
+          "id": "VIE1E08Q03",
+          "question": "Từ nào viết đúng chính tả có phụ âm 'đ'?",
+          "options": [
+            "đã",
+            "đà",
+            "da",
+            "đá"
+          ],
+          "answer_index": 0,
+          "answer_text": "đã",
+          "explanation": "Từ 'đã' viết đúng chính tả có phụ âm 'đ'."
+        },
+        {
+          "id": "VIE1E25Q10",
+          "question": "Tìm từ có vần 'âp'",
+          "options": [
+            "mèo",
+            "cây",
+            "tập",
+            "chim"
+          ],
+          "answer_index": 2,
+          "answer_text": "tập",
+          "explanation": "Từ 'tập' có chứa vần 'âp'."
+        },
+        {
+          "id": "VIE1E26Q02",
+          "question": "Từ nào có chứa phụ âm 'ph'?",
+          "options": [
+            "qua",
+            "phà",
+            "ca",
+            "quà"
+          ],
+          "answer_index": 1,
+          "answer_text": "phà",
+          "explanation": "Từ 'phà' có chứa phụ âm 'ph'."
+        },
+        {
+          "id": "VIE1E18Q07",
+          "question": "Tìm từ có phụ âm 'gh'",
+          "options": [
+            "cây",
+            "mèo",
+            "chim",
+            "ghế"
+          ],
+          "answer_index": 3,
+          "answer_text": "ghế",
+          "explanation": "Từ 'ghế' có chứa phụ âm 'gh'."
+        },
+        {
+          "id": "VIE1E03Q07",
+          "question": "Tìm từ có âm 'c'",
+          "options": [
+            "nhà",
+            "cô",
+            "bạn",
+            "mèo"
+          ],
+          "answer_index": 1,
+          "answer_text": "cô",
+          "explanation": "Từ 'cô' có chứa âm 'c'."
+        },
+        {
+          "id": "VIE1E21Q03",
+          "question": "Từ nào viết đúng chính tả có phụ âm 'r'?",
+          "options": [
+            "ra",
+            "rả",
+            "sa",
+            "sả"
+          ],
+          "answer_index": 1,
+          "answer_text": "rả",
+          "explanation": "Từ 'rả' viết đúng chính tả có phụ âm 'r'."
+        },
+        {
+          "id": "VIE1E13Q08",
+          "question": "Chọn từ có vần 'âp'",
+          "options": [
+            "cây",
+            "chim",
+            "tập",
+            "mèo"
+          ],
+          "answer_index": 2,
+          "answer_text": "tập",
+          "explanation": "Từ 'tập' có chứa vần 'âp'."
+        },
+        {
+          "id": "VIE1E16Q05",
+          "question": "Chọn từ có phụ âm 'm'",
+          "options": [
+            "ma",
+            "nhà",
+            "bạn",
+            "cây"
+          ],
+          "answer_index": 0,
+          "answer_text": "ma",
+          "explanation": "Từ 'ma' có chứa phụ âm 'm'."
+        },
+        {
+          "id": "VIE1E12Q12",
+          "question": "Tìm từ có vần 'âp'",
+          "options": [
+            "tập",
+            "chim",
+            "cây",
+            "mèo"
+          ],
+          "answer_index": 0,
+          "answer_text": "tập",
+          "explanation": "Từ 'tập' có chứa vần 'âp'."
+        },
+        {
+          "id": "VIE1E02Q07",
+          "question": "Tìm từ có phụ âm 'b'",
+          "options": [
+            "mèo",
+            "cây",
+            "chim",
+            "bà"
+          ],
+          "answer_index": 3,
+          "answer_text": "bà",
+          "explanation": "Từ 'bà' có chứa âm 'b'."
+        },
+        {
+          "id": "VIE1E20Q05",
+          "question": "Chọn từ có vần 'ôn'",
+          "options": [
+            "chim",
+            "ôn",
+            "cây",
+            "mèo"
+          ],
+          "answer_index": 1,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1E08Q05",
+          "question": "Chọn từ có phụ âm 'd'",
+          "options": [
+            "mèo",
+            "cây",
+            "da",
+            "chim"
+          ],
+          "answer_index": 2,
+          "answer_text": "da",
+          "explanation": "Từ 'da' có chứa phụ âm 'd'."
+        },
+        {
+          "id": "VIE1E22Q08",
+          "question": "Chọn từ có phụ âm 'tr'",
+          "options": [
+            "mèo",
+            "chim",
+            "tra",
+            "cây"
+          ],
+          "answer_index": 2,
+          "answer_text": "tra",
+          "explanation": "Từ 'tra' có chứa phụ âm 'tr'."
+        },
+        {
+          "id": "VIE1E26Q04",
+          "question": "Từ nào có chứa phụ âm 'qu'?",
+          "options": [
+            "pha",
+            "phà",
+            "qua",
+            "mèo"
+          ],
+          "answer_index": 2,
+          "answer_text": "qua",
+          "explanation": "Từ 'qua' có chứa phụ âm 'qu'."
+        },
+        {
+          "id": "VIE1E00Q03",
+          "question": "Từ nào viết đúng chính tả có vần 'ao'?",
+          "options": [
+            "chào",
+            "em",
+            "lớp",
+            "vào"
+          ],
+          "answer_index": 0,
+          "answer_text": "chào",
+          "explanation": "Từ 'chào' viết đúng chính tả có vần 'ao'."
+        },
+        {
+          "id": "VIE1E15Q08",
+          "question": "Chọn từ có vần 'âp'",
+          "options": [
+            "cây",
+            "tập",
+            "chim",
+            "mèo"
+          ],
+          "answer_index": 1,
+          "answer_text": "tập",
+          "explanation": "Từ 'tập' có chứa vần 'âp'."
+        },
+        {
+          "id": "VIE1E12Q01",
+          "question": "Từ nào có chứa phụ âm 'h'?",
+          "options": [
+            "cây",
+            "ha",
+            "bạn",
+            "mèo"
+          ],
+          "answer_index": 1,
+          "answer_text": "ha",
+          "explanation": "Từ 'ha' có chứa phụ âm 'h'."
+        },
+        {
+          "id": "VIE1E30Q02",
+          "question": "Ghép vần 'ôn' với phụ âm để tạo từ nào?",
+          "options": [
+            "chuyện",
+            "kể",
+            "ôn",
+            "tập"
+          ],
+          "answer_index": 2,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1E24Q04",
+          "question": "Chọn từ có chứa vần 'ua'",
+          "options": [
+            "cua",
+            "cây",
+            "mèo",
+            "chim"
+          ],
+          "answer_index": 0,
+          "answer_text": "cua",
+          "explanation": "Từ 'cua' có chứa vần 'ua'."
+        },
+        {
+          "id": "VIE1E01Q09",
+          "question": "Từ nào có chứa vần 'a'?",
+          "options": [
+            "mèo",
+            "cây",
+            "chim",
+            "ba"
+          ],
+          "answer_index": 3,
+          "answer_text": "ba",
+          "explanation": "Từ 'ba' có chứa vần 'a'."
+        },
+        {
+          "id": "VIE1E10Q07",
+          "question": "Tìm từ có vần 'ôn'",
+          "options": [
+            "mèo",
+            "chim",
+            "ôn",
+            "cây"
+          ],
+          "answer_index": 2,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1E13Q02",
+          "question": "Ghép vần 'u' với phụ âm để tạo từ nào?",
+          "options": [
+            "cư",
+            "bu",
+            "lư",
+            "bư"
+          ],
+          "answer_index": 1,
+          "answer_text": "bu",
+          "explanation": "Ghép vần 'u' với phụ âm tạo thành từ 'bu'."
+        },
+        {
+          "id": "VIE1E11Q01",
+          "question": "Từ nào có chứa vần 'i'?",
+          "options": [
+            "nhà",
+            "mèo",
+            "ki",
+            "cây"
+          ],
+          "answer_index": 2,
+          "answer_text": "ki",
+          "explanation": "Từ 'ki' có chứa vần 'i'."
+        },
+        {
+          "id": "VIE1E00Q02",
+          "question": "Ghép vần 'ao' với phụ âm để tạo từ nào?",
+          "options": [
+            "em",
+            "vào",
+            "lớp",
+            "chào"
+          ],
+          "answer_index": 3,
+          "answer_text": "chào",
+          "explanation": "Ghép vần 'ao' với phụ âm 'ch' và thanh huyền tạo thành từ 'chào'."
+        },
+        {
+          "id": "VIE1E10Q05",
+          "question": "Chọn từ có vần 'ôn'",
+          "options": [
+            "chim",
+            "mèo",
+            "cây",
+            "ôn"
+          ],
+          "answer_index": 3,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1E30Q03",
+          "question": "Từ nào viết đúng chính tả có vần 'ôn'?",
+          "options": [
+            "tập",
+            "ôn",
+            "kể",
+            "chuyện"
+          ],
+          "answer_index": 2,
+          "answer_text": "kể",
+          "explanation": "Từ 'kể' viết đúng chính tả có vần 'ôn'."
+        },
+        {
+          "id": "VIE1E28Q02",
+          "question": "Ghép vần 'y' với phụ âm để tạo từ nào?",
+          "options": [
+            "ý",
+            "ỳ",
+            "y",
+            "ỵ"
+          ],
+          "answer_index": 0,
+          "answer_text": "ý",
+          "explanation": "Ghép vần 'y' với phụ âm tạo thành từ 'ý'."
+        },
+        {
+          "id": "VIE1E07Q01",
+          "question": "Từ nào có chứa vần 'ô'?",
+          "options": [
+            "chim",
+            "mèo",
+            "cây",
+            "bố"
+          ],
+          "answer_index": 3,
+          "answer_text": "bố",
+          "explanation": "Từ 'bố' có chứa vần 'ô'."
+        },
+        {
+          "id": "VIE1E12Q02",
+          "question": "Từ nào có chứa phụ âm 'h'?",
+          "options": [
+            "la",
+            "là",
+            "hà",
+            "ha"
+          ],
+          "answer_index": 2,
+          "answer_text": "hà",
+          "explanation": "Từ 'hà' có chứa phụ âm 'h'."
+        },
+        {
+          "id": "VIE1E04Q07",
+          "question": "Tìm từ có vần 'e'",
+          "options": [
+            "mèo",
+            "chim",
+            "cây",
+            "de"
+          ],
+          "answer_index": 3,
+          "answer_text": "de",
+          "explanation": "Từ 'de' có chứa vần 'e'."
+        },
+        {
+          "id": "VIE1E28Q09",
+          "question": "Từ nào có chứa vần 'y'?",
+          "options": [
+            "mèo",
+            "chim",
+            "nhà",
+            "y"
+          ],
+          "answer_index": 3,
+          "answer_text": "y",
+          "explanation": "Từ 'y' có chứa vần 'y'."
+        },
+        {
+          "id": "VIE1E23Q03",
+          "question": "Từ nào viết đúng chính tả có phụ âm 'th'?",
+          "options": [
+            "thà",
+            "tía",
+            "tha",
+            "tia"
+          ],
+          "answer_index": 0,
+          "answer_text": "thà",
+          "explanation": "Từ 'thà' viết đúng chính tả có phụ âm 'th'."
+        },
+        {
+          "id": "VIE1E11Q06",
+          "question": "Từ nào có chứa phụ âm 'k'?",
+          "options": [
+            "chim",
+            "cây",
+            "ki",
+            "mèo"
+          ],
+          "answer_index": 2,
+          "answer_text": "ki",
+          "explanation": "Từ 'ki' có chứa phụ âm 'k'."
+        },
+        {
+          "id": "VIE1E21Q10",
+          "question": "Tìm từ có phụ âm 's'",
+          "options": [
+            "mèo",
+            "chim",
+            "sa",
+            "cây"
+          ],
+          "answer_index": 2,
+          "answer_text": "sa",
+          "explanation": "Từ 'sa' có chứa phụ âm 's'."
+        },
+        {
+          "id": "VIE1E24Q02",
+          "question": "Ghép vần 'ua' với phụ âm để tạo từ nào?",
+          "options": [
+            "cua",
+            "lua",
+            "tua",
+            "mua"
+          ],
+          "answer_index": 1,
+          "answer_text": "lua",
+          "explanation": "Ghép vần 'ua' với phụ âm tạo thành từ 'lua'."
+        },
+        {
+          "id": "VIE1E01Q08",
+          "question": "Chọn từ có vần 'a'",
+          "options": [
+            "chim",
+            "mèo",
+            "la",
+            "cây"
+          ],
+          "answer_index": 2,
+          "answer_text": "la",
+          "explanation": "Từ 'la' có chứa vần 'a'."
+        },
+        {
+          "id": "VIE1E18Q01",
+          "question": "Từ nào có chứa phụ âm 'gh'?",
+          "options": [
+            "ghế",
+            "cây",
+            "mèo",
+            "chim"
+          ],
+          "answer_index": 0,
+          "answer_text": "ghế",
+          "explanation": "Từ 'ghế' có chứa phụ âm 'gh'."
+        },
+        {
+          "id": "VIE1E06Q01",
+          "question": "Từ nào có chứa vần 'o'?",
+          "options": [
+            "chim",
+            "cây",
+            "nhà",
+            "bó"
+          ],
+          "answer_index": 3,
+          "answer_text": "bó",
+          "explanation": "Từ 'bó' có chứa vần 'o'."
+        },
+        {
+          "id": "VIE1E04Q08",
+          "question": "Chọn từ có vần 'e'",
+          "options": [
+            "chim",
+            "cây",
+            "me",
+            "mèo"
+          ],
+          "answer_index": 2,
+          "answer_text": "me",
+          "explanation": "Từ 'me' có chứa vần 'e'."
+        },
+        {
+          "id": "VIE1E12Q09",
+          "question": "Từ nào có chứa phụ âm 'h'?",
+          "options": [
+            "ha",
+            "bạn",
+            "cây",
+            "mèo"
+          ],
+          "answer_index": 0,
+          "answer_text": "ha",
+          "explanation": "Từ 'ha' có chứa phụ âm 'h'."
+        },
+        {
+          "id": "VIE1E22Q07",
+          "question": "Tìm từ có phụ âm 't'",
+          "options": [
+            "chim",
+            "cây",
+            "tà",
+            "mèo"
+          ],
+          "answer_index": 2,
+          "answer_text": "tà",
+          "explanation": "Từ 'tà' có chứa phụ âm 't'."
+        },
+        {
+          "id": "VIE1E25Q02",
+          "question": "Ghép vần 'ôn' với phụ âm để tạo từ nào?",
+          "options": [
+            "tập",
+            "kể",
+            "ôn",
+            "chuyện"
+          ],
+          "answer_index": 2,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1E29Q01",
+          "question": "Từ nào có chứa vần 'uyên'?",
+          "options": [
+            "mèo",
+            "chim",
+            "luyện",
+            "cây"
+          ],
+          "answer_index": 2,
+          "answer_text": "luyện",
+          "explanation": "Từ 'luyện' có chứa vần 'uyên'."
+        },
+        {
+          "id": "VIE1E09Q04",
+          "question": "Chọn từ có chứa vần 'ơ'",
+          "options": [
+            "bơ",
+            "chim",
+            "cây",
+            "mèo"
+          ],
+          "answer_index": 0,
+          "answer_text": "bơ",
+          "explanation": "Từ 'bơ' có chứa vần 'ơ'."
+        },
+        {
+          "id": "VIE1E04Q03",
+          "question": "Từ nào viết đúng chính tả có vần 'e'?",
+          "options": [
+            "de",
+            "bé",
+            "me",
+            "xe"
+          ],
+          "answer_index": 3,
+          "answer_text": "xe",
+          "explanation": "Từ 'xe' viết đúng chính tả có vần 'e'."
+        },
+        {
+          "id": "VIE1E22Q09",
+          "question": "Từ nào có chứa phụ âm 't'?",
+          "options": [
+            "ta",
+            "cây",
+            "mèo",
+            "chim"
+          ],
+          "answer_index": 0,
+          "answer_text": "ta",
+          "explanation": "Từ 'ta' có chứa phụ âm 't'."
+        },
+        {
+          "id": "VIE1E22Q02",
+          "question": "Từ nào có chứa phụ âm 't'?",
+          "options": [
+            "tra",
+            "trà",
+            "ta",
+            "tà"
+          ],
+          "answer_index": 0,
+          "answer_text": "tra",
+          "explanation": "Ghép vần 't' với phụ âm tạo thành từ 'tra'."
+        },
+        {
+          "id": "VIE1E03Q06",
+          "question": "Từ nào có chứa âm 'c'?",
+          "options": [
+            "nhà",
+            "bạn",
+            "mèo",
+            "có"
+          ],
+          "answer_index": 3,
+          "answer_text": "có",
+          "explanation": "Từ 'có' có chứa âm 'c'."
+        },
+        {
+          "id": "VIE1E13Q03",
+          "question": "Từ nào viết đúng chính tả có vần 'inh'?",
+          "options": [
+            "luyện",
+            "chính",
+            "tả",
+            "tập"
+          ],
+          "answer_index": 1,
+          "answer_text": "chính",
+          "explanation": "Từ 'chính' viết đúng chính tả có vần 'inh'."
+        },
+        {
+          "id": "VIE1E23Q02",
+          "question": "Từ nào có chứa phụ âm 'th'?",
+          "options": [
+            "thà",
+            "tía",
+            "tha",
+            "tia"
+          ],
+          "answer_index": 0,
+          "answer_text": "thà",
+          "explanation": "Từ 'thà' viết đúng chính tả có phụ âm 'th'."
+        },
+        {
+          "id": "VIE1E12Q05",
+          "question": "Chọn từ có phụ âm 'h'",
+          "options": [
+            "bạn",
+            "cây",
+            "ha",
+            "mèo"
+          ],
+          "answer_index": 2,
+          "answer_text": "ha",
+          "explanation": "Từ 'ha' có chứa phụ âm 'h'."
+        },
+        {
+          "id": "VIE1E15Q07",
+          "question": "Tìm từ có vần 'ôn'",
+          "options": [
+            "chim",
+            "ôn",
+            "cây",
+            "mèo"
+          ],
+          "answer_index": 1,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1E09Q02",
+          "question": "Ghép vần 'ơ' với phụ âm để tạo từ nào?",
+          "options": [
+            "lơ",
+            "dơ",
+            "bơ",
+            "cơ"
+          ],
+          "answer_index": 3,
+          "answer_text": "cơ",
+          "explanation": "Ghép vần 'ơ' với phụ âm tạo thành từ 'cơ'."
+        },
+        {
+          "id": "VIE1E03Q03",
+          "question": "Từ nào viết đúng chính tả có âm 'c'?",
+          "options": [
+            "cô",
+            "cá",
+            "có",
+            "ca"
+          ],
+          "answer_index": 0,
+          "answer_text": "cô",
+          "explanation": "Từ 'cô' viết đúng chính tả có âm 'c'."
+        },
+        {
+          "id": "VIE1E28Q07",
+          "question": "Tìm từ có vần 'y'",
+          "options": [
+            "y",
+            "nhà",
+            "mèo",
+            "chim"
+          ],
+          "answer_index": 0,
+          "answer_text": "y",
+          "explanation": "Từ 'y' có chứa vần 'y'."
+        },
+        {
+          "id": "VIE1E07Q10",
+          "question": "Tìm từ có vần 'ô'",
+          "options": [
+            "cây",
+            "ô",
+            "mèo",
+            "chim"
+          ],
+          "answer_index": 1,
+          "answer_text": "ô",
+          "explanation": "Từ 'ô' có chứa vần 'ô'."
+        },
+        {
+          "id": "VIE1E21Q02",
+          "question": "Từ nào có chứa phụ âm 'r'?",
+          "options": [
+            "sả",
+            "rả",
+            "ra",
+            "sa"
+          ],
+          "answer_index": 3,
+          "answer_text": "sa",
+          "explanation": "Ghép vần 'r' với phụ âm tạo thành từ 'sa'."
+        },
+        {
+          "id": "VIE1E14Q07",
+          "question": "Tìm từ có phụ âm 'ch'",
+          "options": [
+            "mèo",
+            "cha",
+            "nhà",
+            "cây"
+          ],
+          "answer_index": 1,
+          "answer_text": "cha",
+          "explanation": "Từ 'cha' có chứa phụ âm 'ch'."
+        },
+        {
+          "id": "VIE1E10Q08",
+          "question": "Chọn từ có vần 'âp'",
+          "options": [
+            "cây",
+            "tập",
+            "chim",
+            "mèo"
+          ],
+          "answer_index": 1,
+          "answer_text": "tập",
+          "explanation": "Từ 'tập' có chứa vần 'âp'."
+        },
+        {
+          "id": "VIE1E08Q07",
+          "question": "Tìm từ có phụ âm 'd'",
+          "options": [
+            "chim",
+            "da",
+            "cây",
+            "mèo"
+          ],
+          "answer_index": 1,
+          "answer_text": "da",
+          "explanation": "Từ 'da' có chứa phụ âm 'd'."
+        },
+        {
+          "id": "VIE1E16Q02",
+          "question": "Từ nào có chứa phụ âm 'm'?",
+          "options": [
+            "na",
+            "ná",
+            "má",
+            "ma"
+          ],
+          "answer_index": 3,
+          "answer_text": "ma",
+          "explanation": "Từ 'ma' có chứa phụ âm 'm'."
+        },
+        {
+          "id": "VIE1E27Q10",
+          "question": "Tìm từ có phụ âm 'x'",
+          "options": [
+            "chim",
+            "xa",
+            "mèo",
+            "cây"
+          ],
+          "answer_index": 1,
+          "answer_text": "xa",
+          "explanation": "Từ 'xa' có chứa phụ âm 'x'."
+        }
+      ]
+    }
+  ]
+}

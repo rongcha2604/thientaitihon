@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "grade": 2,
+    "subject": "Tiếng Việt",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "hard",
+    "curriculum": "Chân trời sáng tạo"
+  },
+  "topics": [
+    {
+      "id": "VIE2_HARD_01",
+      "name": "Chủ đề 2: Mỗi người một vẻ",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "V2H01Q01",
+          "question": "Tìm từ không cùng nhóm trong các từ sau: 'nhân hậu, hiền lành, đoàn kết, độc ác'",
+          "options": [
+            "nhân hậu",
+            "hiền lành",
+            "đoàn kết",
+            "độc ác"
+          ],
+          "answer_index": 3,
+          "answer_text": "độc ác"
+        },
+        {
+          "id": "V2H01Q02",
+          "question": "Câu 'Mỗi người một vẻ' có ý nghĩa là gì?",
+          "options": [
+            "Ai cũng có nét riêng, không nên so sánh.",
+            "Mọi người đều giống hệt nhau.",
+            "Chỉ có một người là đặc biệt.",
+            "Ngoại hình là quan trọng nhất."
+          ],
+          "answer_index": 0,
+          "answer_text": "Ai cũng có nét riêng, không nên so sánh."
+        },
+        {
+          "id": "V2H01Q03",
+          "question": "Để miêu tả một người bạn, em sẽ không dùng từ nào sau đây?",
+          "options": [
+            "tốt bụng",
+            "chăm chỉ",
+            "ích kỷ",
+            "vui vẻ"
+          ],
+          "answer_index": 2,
+          "answer_text": "ích kỷ"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_HARD_02",
+      "name": "Chủ đề 5: Bố mẹ thương yêu",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "V2H02Q01",
+          "question": "Thành ngữ, tục ngữ nào nói về lòng biết ơn cha mẹ?",
+          "options": [
+            "Uống nước nhớ nguồn",
+            "Ăn quả nhớ kẻ trồng cây",
+            "Công cha như núi Thái Sơn",
+            "Gần mực thì đen, gần đèn thì rạng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Công cha như núi Thái Sơn"
+        },
+        {
+          "id": "V2H02Q02",
+          "question": "Đặt một câu thể hiện lòng biết ơn đối với cha mẹ.",
+          "options": [
+            "Cha mẹ cho con rất nhiều tiền.",
+            "Con luôn biết ơn sự hi sinh và tình yêu thương vô bờ bến mà cha mẹ đã dành cho con.",
+            "Con thích được cha mẹ mua đồ chơi mới.",
+            "Cha mẹ nên làm mọi thứ cho con."
+          ],
+          "answer_index": 1,
+          "answer_text": "Con luôn biết ơn sự hi sinh và tình yêu thương vô bờ bến mà cha mẹ đã dành cho con."
+        },
+        {
+          "id": "V2H02Q03",
+          "question": "Trong câu 'Mẹ thức trắng đêm quạt cho con ngủ.', từ 'thức trắng' có nghĩa là gì?",
+          "options": [
+            "Thức và bật đèn màu trắng",
+            "Thức suốt đêm không ngủ",
+            "Đêm có màu trắng",
+            "Thức dậy sớm"
+          ],
+          "answer_index": 1,
+          "answer_text": "Thức suốt đêm không ngủ"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_HARD_03",
+      "name": "Chủ đề 8: Em lớn lên cùng bạn",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "V2H03Q01",
+          "question": "Viết một câu có sử dụng biện pháp so sánh để tả về tình bạn.",
+          "options": [
+            "Tình bạn thật đẹp.",
+            "Em và Lan là đôi bạn thân.",
+            "Tình bạn của chúng em trong sáng như pha lê.",
+            "Em rất quý Lan."
+          ],
+          "answer_index": 2,
+          "answer_text": "Tình bạn của chúng em trong sáng như pha lê."
+        },
+        {
+          "id": "V2H03Q02",
+          "question": "Thành ngữ nào nói về tình bạn thân thiết, gắn bó?",
+          "options": [
+            "Như hình với bóng",
+            "Nước chảy đá mòn",
+            "Lên thác xuống ghềnh",
+            "Cưỡi ngựa xem hoa"
+          ],
+          "answer_index": 0,
+          "answer_text": "Như hình với bóng"
+        },
+        {
+          "id": "V2H03Q03",
+          "question": "Nếu bạn em bị ngã, em sẽ làm gì đầu tiên?",
+          "options": [
+            "Cười bạn",
+            "Bỏ đi và không quan tâm",
+            "Đỡ bạn dậy và hỏi bạn có sao không",
+            "Kể cho các bạn khác"
+          ],
+          "answer_index": 2,
+          "answer_text": "Đỡ bạn dậy và hỏi bạn có sao không"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_HARD_04",
+      "name": "Chủ đề 12: Bài ca Trái Đất",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "V2H04Q01",
+          "question": "Dòng nào dưới đây thể hiện đúng nhất ý nghĩa của việc bảo vệ môi trường?",
+          "options": [
+            "Để có không khí trong lành.",
+            "Để Trái Đất mãi xanh và là ngôi nhà chung của muôn loài.",
+            "Để không bị người lớn nhắc nhở.",
+            "Để thành phố sạch đẹp hơn."
+          ],
+          "answer_index": 1,
+          "answer_text": "Để Trái Đất mãi xanh và là ngôi nhà chung của muôn loài."
+        },
+        {
+          "id": "V2H04Q02",
+          "question": "Hành động nào sau đây thể hiện tình yêu với thiên nhiên, Trái Đất?",
+          "options": [
+            "Hái hoa, bẻ cành",
+            "Khắc tên lên cây",
+            "Vứt rác xuống sông, hồ",
+            "Tham gia trồng cây gây rừng"
+          ],
+          "answer_index": 3,
+          "answer_text": "Tham gia trồng cây gây rừng"
+        },
+        {
+          "id": "V2H04Q03",
+          "question": "Thông điệp 'Hãy cứu lấy Trái Đất' có nghĩa là gì?",
+          "options": [
+            "Kêu gọi mọi người cùng nhau bảo vệ môi trường sống",
+            "Trái Đất đang bị người ngoài hành tinh tấn công",
+            "Kêu gọi mọi người rời khỏi Trái Đất",
+            "Trái Đất sắp nổ tung"
+          ],
+          "answer_index": 0,
+          "answer_text": "Kêu gọi mọi người cùng nhau bảo vệ môi trường sống"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_HARD_05",
+      "name": "Chủ đề 14: Việt Nam mến yêu",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "V2H05Q01",
+          "question": "Trong khổ thơ sau, tác giả đã sử dụng biện pháp nghệ thuật gì? 'Việt Nam đất nước ta ơi / Mênh mông biển lúa đâu trời đẹp hơn'",
+          "options": [
+            "So sánh",
+            "Nhân hóa",
+            "Điệp ngữ",
+            "Câu hỏi tu từ (câu hỏi không cần câu trả lời)"
+          ],
+          "answer_index": 3,
+          "answer_text": "Câu hỏi tu từ (câu hỏi không cần câu trả lời)"
+        },
+        {
+          "id": "V2H05Q02",
+          "question": "Câu thơ 'Đường vô xứ Huế quanh quanh / Non xanh nước biếc như tranh họa đồ' ca ngợi vẻ đẹp của vùng đất nào?",
+          "options": [
+            "Hà Nội",
+            "Sài Gòn",
+            "Huế",
+            "Đà Nẵng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Huế"
+        },
+        {
+          "id": "V2H05Q03",
+          "question": "Lòng yêu nước không được thể hiện qua hành động nào sau đây?",
+          "options": [
+            "Phá hoại của công",
+            "Giữ gìn bản sắc văn hóa dân tộc",
+            "Học tập tốt để xây dựng đất nước",
+            "Tự hào về lịch sử dân tộc"
+          ],
+          "answer_index": 0,
+          "answer_text": "Phá hoại của công"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_HARD_06",
+      "name": "Tập làm văn và suy luận",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "V2H06Q01",
+          "question": "Để viết một đoạn văn ngắn kể về một người bạn thân, em sẽ không cần những thông tin nào?",
+          "options": [
+            "Tên, đặc điểm ngoại hình của bạn",
+            "Tính tình, sở thích của bạn",
+            "Một kỉ niệm đáng nhớ với bạn",
+            "Lương tháng của bố mẹ bạn"
+          ],
+          "answer_index": 3,
+          "answer_text": "Lương tháng của bố mẹ bạn"
+        },
+        {
+          "id": "V2H06Q02",
+          "question": "Câu chuyện 'Sự tích cây vú sữa' chủ yếu nói về điều gì?",
+          "options": [
+            "Tình bạn",
+            "Tình thầy trò",
+            "Lòng hiếu thảo và tình mẹ con",
+            "Tình yêu quê hương"
+          ],
+          "answer_index": 2,
+          "answer_text": "Lòng hiếu thảo và tình mẹ con"
+        },
+        {
+          "id": "V2H06Q03",
+          "question": "Nếu em được tặng một món quà, em sẽ nói gì?",
+          "options": [
+            "Chê món quà xấu.",
+            "Không nói gì cả.",
+            "Cảm ơn và nhận quà bằng hai tay.",
+            "Đòi một món quà khác."
+          ],
+          "answer_index": 2,
+          "answer_text": "Cảm ơn và nhận quà bằng hai tay."
+        },
+        {
+          "id": "V2H06Q04",
+          "question": "Dựa vào câu 'Mặt trời như một quả cầu lửa khổng lồ.', hãy cho biết sự vật nào được so sánh với nhau?",
+          "options": [
+            "Mặt trời và quả cầu",
+            "Mặt trời và quả cầu lửa",
+            "Quả cầu và lửa",
+            "Mặt trời và lửa"
+          ],
+          "answer_index": 1,
+          "answer_text": "Mặt trời và quả cầu lửa"
+        },
+        {
+          "id": "V2H06Q05",
+          "question": "Ý nghĩa của câu tục ngữ 'Lá lành đùm lá rách' là gì?",
+          "options": [
+            "Lấy lá lành để gói lá rách.",
+            "Khuyên người ta giúp đỡ, cưu mang những người gặp khó khăn, hoạn nạn.",
+            "Phải biết tiết kiệm lá cây.",
+            "Lá rách thì nên vứt đi."
+          ],
+          "answer_index": 1,
+          "answer_text": "Khuyên người ta giúp đỡ, cưu mang những người gặp khó khăn, hoạn nạn."
+        },
+        {
+          "id": "V2H06Q06",
+          "question": "Trong bài thơ 'Mẹ', hình ảnh nào được dùng để so sánh với mẹ? 'Những ngôi sao thức ngoài kia / Chẳng bằng mẹ đã thức vì chúng con'",
+          "options": [
+            "Mặt trăng",
+            "Bầu trời",
+            "Những ngôi sao",
+            "Mặt trời"
+          ],
+          "answer_index": 2,
+          "answer_text": "Những ngôi sao"
+        },
+        {
+          "id": "V2H06Q07",
+          "question": "Khi muốn nhờ người khác giúp đỡ, em nên dùng kiểu câu nào?",
+          "options": [
+            "Câu kể",
+            "Câu hỏi",
+            "Câu cảm",
+            "Câu khiến (câu cầu khiến)"
+          ],
+          "answer_index": 3,
+          "answer_text": "Câu khiến (câu cầu khiến)"
+        },
+        {
+          "id": "V2H06Q08",
+          "question": "Câu 'Hôm qua, lớp em đã đi thăm viện bảo tàng.' có bộ phận trạng ngữ chỉ gì?",
+          "options": [
+            "Chỉ thời gian",
+            "Chỉ nơi chốn",
+            "Chỉ mục đích",
+            "Chỉ nguyên nhân"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chỉ thời gian"
+        },
+        {
+          "id": "V2H06Q09",
+          "question": "Từ 'vàng' trong câu nào dưới đây được dùng với nghĩa chuyển? 'Tấm lòng vàng của bác nông dân.'",
+          "options": [
+            "Bông lúa chín vàng.",
+            "Chiếc nhẫn bằng vàng.",
+            "Tấm lòng vàng của bác nông dân.",
+            "Màu vàng của nắng."
+          ],
+          "answer_index": 2,
+          "answer_text": "Tấm lòng vàng của bác nông dân."
+        },
+        {
+          "id": "V2H06Q10",
+          "question": "Để tả cơn mưa, em sẽ dùng những từ ngữ nào?",
+          "options": [
+            "Nắng chang chang, oi ả",
+            "Lộp độp, ào ào, rả rích",
+            "Trong xanh, lồng lộng",
+            "Ấm áp, dịu nhẹ"
+          ],
+          "answer_index": 1,
+          "answer_text": "Lộp độp, ào ào, rả rích"
+        },
+        {
+          "id": "V2H06Q11",
+          "question": "Nhân vật Cám trong truyện Tấm Cám đại diện cho kiểu người nào trong xã hội?",
+          "options": [
+            "Hiền lành, tốt bụng",
+            "Thật thà, chăm chỉ",
+            "Độc ác, mưu mô",
+            "Ngốc nghếch, đáng thương"
+          ],
+          "answer_index": 2,
+          "answer_text": "Độc ác, mưu mô"
+        }
+      ]
+    }
+  ]
+}

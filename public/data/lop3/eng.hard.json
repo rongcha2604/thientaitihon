@@ -1,0 +1,1274 @@
+{
+  "meta": {
+    "grade": 3,
+    "subject": "English",
+    "language": "en",
+    "created_date": "2025-11-04",
+    "level": "hard",
+    "curriculum": "Generated based on common Grade 3 topics (CTGDPT 2018)"
+  },
+  "topics": [
+    {
+      "id": "ENG3_HARD_ALL",
+      "name": "General English Practice",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "ENG3HV001",
+          "question": "Which one is a 'adjectives simple'?",
+          "options": [
+            "young",
+            "sad",
+            "brother",
+            "one"
+          ],
+          "answer_index": 0,
+          "answer_text": "young",
+          "explanation": "'young' is a adjectives simple."
+        },
+        {
+          "id": "ENG3HV002",
+          "question": "Which one is a 'places basic'?",
+          "options": [
+            "read",
+            "happy",
+            "eraser",
+            "zoo"
+          ],
+          "answer_index": 3,
+          "answer_text": "zoo",
+          "explanation": "'zoo' is a places basic."
+        },
+        {
+          "id": "ENG3HV003",
+          "question": "Which one is a 'weather'?",
+          "options": [
+            "fish",
+            "sunny",
+            "happy",
+            "run"
+          ],
+          "answer_index": 1,
+          "answer_text": "sunny",
+          "explanation": "'sunny' is a weather."
+        },
+        {
+          "id": "ENG3HV004",
+          "question": "Which one is a 'places basic'?",
+          "options": [
+            "park",
+            "six",
+            "one",
+            "head"
+          ],
+          "answer_index": 0,
+          "answer_text": "park",
+          "explanation": "'park' is a places basic."
+        },
+        {
+          "id": "ENG3HG005",
+          "question": "How many mothers are there?",
+          "options": [
+            "mother",
+            "a mother",
+            "mothers",
+            "teddy bears"
+          ],
+          "answer_index": 2,
+          "answer_text": "mothers",
+          "explanation": "This question tests 'how many'."
+        },
+        {
+          "id": "ENG3HG006",
+          "question": "A bird can __.",
+          "options": [
+            "swim",
+            "fly",
+            "run"
+          ],
+          "answer_index": 1,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HV007",
+          "question": "Which one is a 'actions verbs'?",
+          "options": [
+            "swim",
+            "zoo",
+            "five",
+            "windy"
+          ],
+          "answer_index": 0,
+          "answer_text": "swim",
+          "explanation": "'swim' is a actions verbs."
+        },
+        {
+          "id": "ENG3HG008",
+          "question": "How many heads are there?",
+          "options": [
+            "a head",
+            "head",
+            "grandpas",
+            "heads"
+          ],
+          "answer_index": 3,
+          "answer_text": "heads",
+          "explanation": "This question tests 'how many'."
+        },
+        {
+          "id": "ENG3HV009",
+          "question": "Which one is a 'places basic'?",
+          "options": [
+            "water",
+            "sister",
+            "one",
+            "house"
+          ],
+          "answer_index": 3,
+          "answer_text": "house",
+          "explanation": "'house' is a places basic."
+        },
+        {
+          "id": "ENG3HV010",
+          "question": "Which one is a 'adjectives simple'?",
+          "options": [
+            "big",
+            "doll",
+            "small",
+            "blue"
+          ],
+          "answer_index": 2,
+          "answer_text": "small",
+          "explanation": "'small' is a adjectives simple."
+        },
+        {
+          "id": "ENG3HG011",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "in",
+            "under",
+            "on"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HV012",
+          "question": "Which one is a 'places basic'?",
+          "options": [
+            "jump",
+            "zoo",
+            "teddy bear",
+            "blue"
+          ],
+          "answer_index": 1,
+          "answer_text": "zoo",
+          "explanation": "'zoo' is a places basic."
+        },
+        {
+          "id": "ENG3HV013",
+          "question": "Which one is a 'weather'?",
+          "options": [
+            "sunny",
+            "teddy bear",
+            "four",
+            "draw"
+          ],
+          "answer_index": 0,
+          "answer_text": "sunny",
+          "explanation": "'sunny' is a weather."
+        },
+        {
+          "id": "ENG3HG014",
+          "question": "How many apples are there?",
+          "options": [
+            "a apple",
+            "apple",
+            "apples",
+            "eyes"
+          ],
+          "answer_index": 2,
+          "answer_text": "apples",
+          "explanation": "This question tests 'how many'."
+        },
+        {
+          "id": "ENG3HG015",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "under",
+            "on",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HV016",
+          "question": "Which one is a 'adjectives simple'?",
+          "options": [
+            "apple",
+            "foot",
+            "short",
+            "young"
+          ],
+          "answer_index": 2,
+          "answer_text": "short",
+          "explanation": "'short' is a adjectives simple."
+        },
+        {
+          "id": "ENG3HG017",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "under",
+            "on",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HG018",
+          "question": "A bird can __.",
+          "options": [
+            "run",
+            "fly",
+            "swim"
+          ],
+          "answer_index": 1,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HG019",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "on",
+            "under",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HG020",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "on",
+            "under",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HV021",
+          "question": "Which one is a 'weather'?",
+          "options": [
+            "bird",
+            "rainy",
+            "seven",
+            "car"
+          ],
+          "answer_index": 1,
+          "answer_text": "rainy",
+          "explanation": "'rainy' is a weather."
+        },
+        {
+          "id": "ENG3HG022",
+          "question": "A bird can __.",
+          "options": [
+            "run",
+            "swim",
+            "fly"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HG023",
+          "question": "A bird can __.",
+          "options": [
+            "swim",
+            "fly",
+            "run"
+          ],
+          "answer_index": 1,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HG024",
+          "question": "A bird can __.",
+          "options": [
+            "fly",
+            "swim",
+            "run"
+          ],
+          "answer_index": 0,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HG025",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "on",
+            "under",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HG026",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "in",
+            "on",
+            "under"
+          ],
+          "answer_index": 2,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HV027",
+          "question": "Which one is a 'places basic'?",
+          "options": [
+            "two",
+            "doll",
+            "three",
+            "house"
+          ],
+          "answer_index": 3,
+          "answer_text": "house",
+          "explanation": "'house' is a places basic."
+        },
+        {
+          "id": "ENG3HG028",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "under",
+            "in",
+            "on"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HV029",
+          "question": "Which one is a 'weather'?",
+          "options": [
+            "windy",
+            "apple",
+            "four",
+            "foot"
+          ],
+          "answer_index": 0,
+          "answer_text": "windy",
+          "explanation": "'windy' is a weather."
+        },
+        {
+          "id": "ENG3HV030",
+          "question": "Which one is a 'actions verbs'?",
+          "options": [
+            "yellow",
+            "ruler",
+            "run",
+            "doll"
+          ],
+          "answer_index": 2,
+          "answer_text": "run",
+          "explanation": "'run' is a actions verbs."
+        },
+        {
+          "id": "ENG3HG031",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "on",
+            "under",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HV032",
+          "question": "Which one is a 'actions verbs'?",
+          "options": [
+            "draw",
+            "mother",
+            "sunny",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "draw",
+          "explanation": "'draw' is a actions verbs."
+        },
+        {
+          "id": "ENG3HG033",
+          "question": "How many apples are there?",
+          "options": [
+            "dogs",
+            "a apple",
+            "apple",
+            "apples"
+          ],
+          "answer_index": 3,
+          "answer_text": "apples",
+          "explanation": "This question tests 'how many'."
+        },
+        {
+          "id": "ENG3HG034",
+          "question": "A bird can __.",
+          "options": [
+            "swim",
+            "run",
+            "fly"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HV035",
+          "question": "Which one is a 'weather'?",
+          "options": [
+            "rainy",
+            "windy",
+            "jump",
+            "read"
+          ],
+          "answer_index": 0,
+          "answer_text": "rainy",
+          "explanation": "'rainy' is a weather."
+        },
+        {
+          "id": "ENG3HV036",
+          "question": "Which one is a 'actions verbs'?",
+          "options": [
+            "robot",
+            "sing",
+            "green",
+            "ball"
+          ],
+          "answer_index": 1,
+          "answer_text": "sing",
+          "explanation": "'sing' is a actions verbs."
+        },
+        {
+          "id": "ENG3HG037",
+          "question": "A bird can __.",
+          "options": [
+            "fly",
+            "swim",
+            "run"
+          ],
+          "answer_index": 0,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HV038",
+          "question": "Which one is a 'places basic'?",
+          "options": [
+            "school",
+            "three",
+            "green",
+            "robot"
+          ],
+          "answer_index": 0,
+          "answer_text": "school",
+          "explanation": "'school' is a places basic."
+        },
+        {
+          "id": "ENG3HG039",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "in",
+            "under",
+            "on"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HG040",
+          "question": "A bird can __.",
+          "options": [
+            "run",
+            "swim",
+            "fly"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HG041",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "under",
+            "on",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HV042",
+          "question": "Which one is a 'actions verbs'?",
+          "options": [
+            "milk",
+            "jump",
+            "big",
+            "car"
+          ],
+          "answer_index": 1,
+          "answer_text": "jump",
+          "explanation": "'jump' is a actions verbs."
+        },
+        {
+          "id": "ENG3HV043",
+          "question": "Which one is a 'weather'?",
+          "options": [
+            "rainy",
+            "sunny",
+            "rice",
+            "fish"
+          ],
+          "answer_index": 0,
+          "answer_text": "rainy",
+          "explanation": "'rainy' is a weather."
+        },
+        {
+          "id": "ENG3HG044",
+          "question": "How many grandmas are there?",
+          "options": [
+            "a grandma",
+            "twos",
+            "grandma",
+            "grandmas"
+          ],
+          "answer_index": 3,
+          "answer_text": "grandmas",
+          "explanation": "This question tests 'how many'."
+        },
+        {
+          "id": "ENG3HV045",
+          "question": "Which one is a 'actions verbs'?",
+          "options": [
+            "read",
+            "one",
+            "foot",
+            "hand"
+          ],
+          "answer_index": 0,
+          "answer_text": "read",
+          "explanation": "'read' is a actions verbs."
+        },
+        {
+          "id": "ENG3HG046",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "under",
+            "on",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HG047",
+          "question": "How many fathers are there?",
+          "options": [
+            "fathers",
+            "grandpas",
+            "a father",
+            "father"
+          ],
+          "answer_index": 0,
+          "answer_text": "fathers",
+          "explanation": "This question tests 'how many'."
+        },
+        {
+          "id": "ENG3HG048",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "under",
+            "in",
+            "on"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HV049",
+          "question": "Which one is a 'places basic'?",
+          "options": [
+            "four",
+            "ball",
+            "zoo",
+            "old"
+          ],
+          "answer_index": 2,
+          "answer_text": "zoo",
+          "explanation": "'zoo' is a places basic."
+        },
+        {
+          "id": "ENG3HV050",
+          "question": "Which one is a 'adjectives simple'?",
+          "options": [
+            "red",
+            "small",
+            "school",
+            "draw"
+          ],
+          "answer_index": 1,
+          "answer_text": "small",
+          "explanation": "'small' is a adjectives simple."
+        },
+        {
+          "id": "ENG3HV051",
+          "question": "Which one is a 'weather'?",
+          "options": [
+            "sing",
+            "sunny",
+            "nine",
+            "jump"
+          ],
+          "answer_index": 1,
+          "answer_text": "sunny",
+          "explanation": "'sunny' is a weather."
+        },
+        {
+          "id": "ENG3HG052",
+          "question": "How many rices are there?",
+          "options": [
+            "grandpas",
+            "rice",
+            "a rice",
+            "rices"
+          ],
+          "answer_index": 3,
+          "answer_text": "rices",
+          "explanation": "This question tests 'how many'."
+        },
+        {
+          "id": "ENG3HV053",
+          "question": "Which one is a 'actions verbs'?",
+          "options": [
+            "sister",
+            "black",
+            "cloudy",
+            "read"
+          ],
+          "answer_index": 3,
+          "answer_text": "read",
+          "explanation": "'read' is a actions verbs."
+        },
+        {
+          "id": "ENG3HG054",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "in",
+            "on",
+            "under"
+          ],
+          "answer_index": 2,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HG055",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "on",
+            "under",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HG056",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "on",
+            "in",
+            "under"
+          ],
+          "answer_index": 2,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HG057",
+          "question": "A bird can __.",
+          "options": [
+            "fly",
+            "run",
+            "swim"
+          ],
+          "answer_index": 0,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HV058",
+          "question": "Which one is a 'actions verbs'?",
+          "options": [
+            "pen",
+            "write",
+            "grandma",
+            "cat"
+          ],
+          "answer_index": 1,
+          "answer_text": "write",
+          "explanation": "'write' is a actions verbs."
+        },
+        {
+          "id": "ENG3HV059",
+          "question": "Which one is a 'adjectives simple'?",
+          "options": [
+            "run",
+            "big",
+            "cloudy",
+            "draw"
+          ],
+          "answer_index": 1,
+          "answer_text": "big",
+          "explanation": "'big' is a adjectives simple."
+        },
+        {
+          "id": "ENG3HV060",
+          "question": "Which one is a 'weather'?",
+          "options": [
+            "swim",
+            "jump",
+            "cloudy",
+            "bird"
+          ],
+          "answer_index": 2,
+          "answer_text": "cloudy",
+          "explanation": "'cloudy' is a weather."
+        },
+        {
+          "id": "ENG3HG061",
+          "question": "A bird can __.",
+          "options": [
+            "swim",
+            "fly",
+            "run"
+          ],
+          "answer_index": 1,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HG062",
+          "question": "How many mothers are there?",
+          "options": [
+            "mother",
+            "mothers",
+            "a mother",
+            "pens"
+          ],
+          "answer_index": 1,
+          "answer_text": "mothers",
+          "explanation": "This question tests 'how many'."
+        },
+        {
+          "id": "ENG3HG063",
+          "question": "A bird can __.",
+          "options": [
+            "run",
+            "swim",
+            "fly"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HV064",
+          "question": "Which one is a 'places basic'?",
+          "options": [
+            "water",
+            "school",
+            "windy",
+            "black"
+          ],
+          "answer_index": 1,
+          "answer_text": "school",
+          "explanation": "'school' is a places basic."
+        },
+        {
+          "id": "ENG3HG065",
+          "question": "How many fathers are there?",
+          "options": [
+            "fathers",
+            "a father",
+            "father",
+            "fathers"
+          ],
+          "answer_index": 0,
+          "answer_text": "fathers",
+          "explanation": "This question tests 'how many'."
+        },
+        {
+          "id": "ENG3HG066",
+          "question": "A bird can __.",
+          "options": [
+            "fly",
+            "swim",
+            "run"
+          ],
+          "answer_index": 0,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HG067",
+          "question": "A bird can __.",
+          "options": [
+            "swim",
+            "fly",
+            "run"
+          ],
+          "answer_index": 1,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HV068",
+          "question": "Which one is a 'adjectives simple'?",
+          "options": [
+            "doll",
+            "tall",
+            "dog",
+            "swim"
+          ],
+          "answer_index": 1,
+          "answer_text": "tall",
+          "explanation": "'tall' is a adjectives simple."
+        },
+        {
+          "id": "ENG3HV069",
+          "question": "Which one is a 'actions verbs'?",
+          "options": [
+            "run",
+            "blue",
+            "seven",
+            "ball"
+          ],
+          "answer_index": 0,
+          "answer_text": "run",
+          "explanation": "'run' is a actions verbs."
+        },
+        {
+          "id": "ENG3HV070",
+          "question": "Which one is a 'weather'?",
+          "options": [
+            "rainy",
+            "foot",
+            "black",
+            "read"
+          ],
+          "answer_index": 0,
+          "answer_text": "rainy",
+          "explanation": "'rainy' is a weather."
+        },
+        {
+          "id": "ENG3HG071",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "on",
+            "under",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HG072",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "under",
+            "on",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HV073",
+          "question": "Which one is a 'actions verbs'?",
+          "options": [
+            "blue",
+            "read",
+            "white",
+            "happy"
+          ],
+          "answer_index": 1,
+          "answer_text": "read",
+          "explanation": "'read' is a actions verbs."
+        },
+        {
+          "id": "ENG3HG074",
+          "question": "How many waters are there?",
+          "options": [
+            "a water",
+            "water",
+            "robots",
+            "waters"
+          ],
+          "answer_index": 3,
+          "answer_text": "waters",
+          "explanation": "This question tests 'how many'."
+        },
+        {
+          "id": "ENG3HV075",
+          "question": "Which one is a 'places basic'?",
+          "options": [
+            "apple",
+            "school",
+            "robot",
+            "sing"
+          ],
+          "answer_index": 1,
+          "answer_text": "school",
+          "explanation": "'school' is a places basic."
+        },
+        {
+          "id": "ENG3HG076",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "under",
+            "on",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HG077",
+          "question": "How many bananas are there?",
+          "options": [
+            "a banana",
+            "windys",
+            "bananas",
+            "banana"
+          ],
+          "answer_index": 2,
+          "answer_text": "bananas",
+          "explanation": "This question tests 'how many'."
+        },
+        {
+          "id": "ENG3HG078",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "in",
+            "under",
+            "on"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HG079",
+          "question": "A bird can __.",
+          "options": [
+            "run",
+            "swim",
+            "fly"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HV080",
+          "question": "Which one is a 'actions verbs'?",
+          "options": [
+            "pig",
+            "dog",
+            "sing",
+            "doll"
+          ],
+          "answer_index": 2,
+          "answer_text": "sing",
+          "explanation": "'sing' is a actions verbs."
+        },
+        {
+          "id": "ENG3HG081",
+          "question": "A bird can __.",
+          "options": [
+            "swim",
+            "fly",
+            "run"
+          ],
+          "answer_index": 1,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HG082",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "in",
+            "on",
+            "under"
+          ],
+          "answer_index": 2,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HG083",
+          "question": "A bird can __.",
+          "options": [
+            "fly",
+            "run",
+            "swim"
+          ],
+          "answer_index": 0,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HG084",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "under",
+            "on",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HV085",
+          "question": "Which one is a 'adjectives simple'?",
+          "options": [
+            "mother",
+            "young",
+            "zoo",
+            "head"
+          ],
+          "answer_index": 1,
+          "answer_text": "young",
+          "explanation": "'young' is a adjectives simple."
+        },
+        {
+          "id": "ENG3HV086",
+          "question": "Which one is a 'adjectives simple'?",
+          "options": [
+            "tall",
+            "four",
+            "ruler",
+            "blue"
+          ],
+          "answer_index": 0,
+          "answer_text": "tall",
+          "explanation": "'tall' is a adjectives simple."
+        },
+        {
+          "id": "ENG3HG087",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "in",
+            "under",
+            "on"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HV088",
+          "question": "Which one is a 'weather'?",
+          "options": [
+            "duck",
+            "windy",
+            "mother",
+            "zoo"
+          ],
+          "answer_index": 1,
+          "answer_text": "windy",
+          "explanation": "'windy' is a weather."
+        },
+        {
+          "id": "ENG3HV089",
+          "question": "Which one is a 'actions verbs'?",
+          "options": [
+            "swim",
+            "water",
+            "rainy",
+            "cat"
+          ],
+          "answer_index": 0,
+          "answer_text": "swim",
+          "explanation": "'swim' is a actions verbs."
+        },
+        {
+          "id": "ENG3HG090",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "on",
+            "under",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        },
+        {
+          "id": "ENG3HV091",
+          "question": "Which one is a 'adjectives simple'?",
+          "options": [
+            "foot",
+            "six",
+            "sister",
+            "small"
+          ],
+          "answer_index": 3,
+          "answer_text": "small",
+          "explanation": "'small' is a adjectives simple."
+        },
+        {
+          "id": "ENG3HV092",
+          "question": "Which one is a 'weather'?",
+          "options": [
+            "apple",
+            "sunny",
+            "father",
+            "pig"
+          ],
+          "answer_index": 1,
+          "answer_text": "sunny",
+          "explanation": "'sunny' is a weather."
+        },
+        {
+          "id": "ENG3HG093",
+          "question": "A bird can __.",
+          "options": [
+            "swim",
+            "run",
+            "fly"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HG094",
+          "question": "How many noses are there?",
+          "options": [
+            "nose",
+            "a nose",
+            "noses",
+            "hands"
+          ],
+          "answer_index": 2,
+          "answer_text": "noses",
+          "explanation": "This question tests 'how many'."
+        },
+        {
+          "id": "ENG3HV095",
+          "question": "Which one is a 'weather'?",
+          "options": [
+            "foot",
+            "cloudy",
+            "hand",
+            "white"
+          ],
+          "answer_index": 1,
+          "answer_text": "cloudy",
+          "explanation": "'cloudy' is a weather."
+        },
+        {
+          "id": "ENG3HV096",
+          "question": "Which one is a 'adjectives simple'?",
+          "options": [
+            "pencil",
+            "eye",
+            "happy",
+            "windy"
+          ],
+          "answer_index": 2,
+          "answer_text": "happy",
+          "explanation": "'happy' is a adjectives simple."
+        },
+        {
+          "id": "ENG3HG097",
+          "question": "A bird can __.",
+          "options": [
+            "swim",
+            "fly",
+            "run"
+          ],
+          "answer_index": 1,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HG098",
+          "question": "A bird can __.",
+          "options": [
+            "swim",
+            "run",
+            "fly"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HG099",
+          "question": "A bird can __.",
+          "options": [
+            "swim",
+            "fly",
+            "run"
+          ],
+          "answer_index": 1,
+          "answer_text": "fly",
+          "explanation": "This question tests 'can cant'."
+        },
+        {
+          "id": "ENG3HG100",
+          "question": "Where is the ball? - It is __ the table.",
+          "options": [
+            "on",
+            "under",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "under",
+          "explanation": "This question tests 'where is'."
+        }
+      ]
+    }
+  ]
+}

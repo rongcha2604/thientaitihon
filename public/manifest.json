@@ -1,0 +1,170 @@
+{
+  "version": "1.0",
+  "grades": [
+    {
+      "grade": 1,
+      "label": "Lớp 1",
+      "subjects": [
+        {
+          "id": "math",
+          "name": "Toán",
+          "paths": [
+            "/data/lop1/math.easy.json",
+            "/data/lop1/math.medium.json",
+            "/data/lop1/math.hard.json"
+          ]
+        },
+        {
+          "id": "vietnamese",
+          "name": "Tiếng Việt",
+          "paths": [
+            "/data/lop1/vie.easy.json",
+            "/data/lop1/vie.medium.json",
+            "/data/lop1/vie.hard.json"
+          ]
+        },
+        {
+          "id": "english",
+          "name": "Tiếng Anh",
+          "paths": [
+            "/data/lop1/eng.easy.json",
+            "/data/lop1/eng.medium.json",
+            "/data/lop1/eng.hard.json"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "label": "Lớp 2",
+      "subjects": [
+        {
+          "id": "math",
+          "name": "Toán",
+          "paths": [
+            "/data/lop2/math.easy.json",
+            "/data/lop2/math.medium.json",
+            "/data/lop2/math.hard.json"
+          ]
+        },
+        {
+          "id": "vietnamese",
+          "name": "Tiếng Việt",
+          "paths": [
+            "/data/lop2/vie.easy.json",
+            "/data/lop2/vie.medium.json",
+            "/data/lop2/vie.hard.json"
+          ]
+        },
+        {
+          "id": "english",
+          "name": "Tiếng Anh",
+          "paths": [
+            "/data/lop2/eng.easy.json",
+            "/data/lop2/eng.medium.json",
+            "/data/lop2/eng.hard.json"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "label": "Lớp 3",
+      "subjects": [
+        {
+          "id": "math",
+          "name": "Toán",
+          "paths": [
+            "/data/lop3/math.easy.json",
+            "/data/lop3/math.medium.json",
+            "/data/lop3/math.hard.json"
+          ]
+        },
+        {
+          "id": "vietnamese",
+          "name": "Tiếng Việt",
+          "paths": [
+            "/data/lop3/vie.easy.json",
+            "/data/lop3/vie.medium.json",
+            "/data/lop3/vie.hard.json"
+          ]
+        },
+        {
+          "id": "english",
+          "name": "Tiếng Anh",
+          "paths": [
+            "/data/lop3/eng.easy.json",
+            "/data/lop3/eng.medium.json",
+            "/data/lop3/eng.hard.json"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "label": "Lớp 4",
+      "subjects": [
+        {
+          "id": "math",
+          "name": "Toán",
+          "paths": [
+            "/data/lop4/math.easy.json",
+            "/data/lop4/math.medium.json",
+            "/data/lop4/math.hard.json"
+          ]
+        },
+        {
+          "id": "vietnamese",
+          "name": "Tiếng Việt",
+          "paths": [
+            "/data/lop4/vie_custom.easy.json",
+            "/data/lop4/vie_custom.medium.json",
+            "/data/lop4/vie_custom.hard.json"
+          ]
+        },
+        {
+          "id": "english",
+          "name": "Tiếng Anh",
+          "paths": [
+            "/data/lop4/eng.easy.json",
+            "/data/lop4/eng.medium.json",
+            "/data/lop4/eng.hard.json"
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 5,
+      "label": "Lớp 5",
+      "subjects": [
+        {
+          "id": "math",
+          "name": "Toán",
+          "paths": [
+            "/data/lop5/math.easy.json",
+            "/data/lop5/math.medium.json",
+            "/data/lop5/math.hard.json"
+          ]
+        },
+        {
+          "id": "vietnamese",
+          "name": "Tiếng Việt",
+          "paths": [
+            "/data/lop5/vie.easy.json",
+            "/data/lop5/vie.medium.json",
+            "/data/lop5/vie.hard.json"
+          ]
+        },
+        {
+          "id": "english",
+          "name": "Tiếng Anh",
+          "paths": [
+            "/data/lop5/eng.easy.json",
+            "/data/lop5/eng.medium.json",
+            "/data/lop5/eng.hard.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

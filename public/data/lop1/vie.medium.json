@@ -1,0 +1,915 @@
+{
+  "meta": {
+    "grade": 1,
+    "subject": "Tiếng Việt",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "medium",
+    "curriculum": "CTGDPT 2018 – Chuẩn 2025"
+  },
+  "topics": [
+    {
+      "id": "VIE1E_SUM",
+      "name": "Tổng hợp 70 câu hỏi chọn lọc",
+      "questions": [
+        {
+          "id": "VIE1M35Q04",
+          "question": "Từ nào có chứa vần 'âp'?",
+          "options": [
+            "kể",
+            "chuyện",
+            "tập",
+            "ôn"
+          ],
+          "answer_index": 2,
+          "answer_text": "tập",
+          "explanation": "Từ 'tập' có chứa vần 'âp'."
+        },
+        {
+          "id": "VIE1M60Q02",
+          "question": "Ghép vần 'ôn' với phụ âm để tạo từ nào?",
+          "options": [
+            "tập",
+            "chuyện",
+            "kể",
+            "ôn"
+          ],
+          "answer_index": 3,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1M53Q10",
+          "question": "Tìm từ có vần 'ắp'",
+          "options": [
+            "chim",
+            "cây",
+            "mèo",
+            "bắp"
+          ],
+          "answer_index": 3,
+          "answer_text": "bắp",
+          "explanation": "Từ 'bắp' có chứa vần 'ắp'."
+        },
+        {
+          "id": "VIE1M49Q02",
+          "question": "Ghép vần 'ot' với phụ âm để tạo từ nào?",
+          "options": [
+            "bot",
+            "cot",
+            "bôt",
+            "bơt"
+          ],
+          "answer_index": 0,
+          "answer_text": "bot",
+          "explanation": "Ghép vần 'ot' với phụ âm tạo thành từ 'bot'."
+        },
+        {
+          "id": "VIE1M48Q08",
+          "question": "Chọn từ có vần 'át'",
+          "options": [
+            "mèo",
+            "cây",
+            "chim",
+            "bát"
+          ],
+          "answer_index": 3,
+          "answer_text": "bát",
+          "explanation": "Từ 'bát' có chứa vần 'át'."
+        },
+        {
+          "id": "VIE1M43Q04",
+          "question": "Từ nào có chứa vần 'âu'?",
+          "options": [
+            "cau",
+            "bêu",
+            "bau",
+            "bâu"
+          ],
+          "answer_index": 3,
+          "answer_text": "bâu",
+          "explanation": "Từ 'bâu' có chứa vần 'âu'."
+        },
+        {
+          "id": "VIE1M31Q05",
+          "question": "Chọn từ có vần 'an'",
+          "options": [
+            "mèo",
+            "cây",
+            "chim",
+            "ban"
+          ],
+          "answer_index": 3,
+          "answer_text": "ban",
+          "explanation": "Từ 'ban' có chứa vần 'an'."
+        },
+        {
+          "id": "VIE1M49Q05",
+          "question": "Chọn từ có vần 'ot'",
+          "options": [
+            "mèo",
+            "bot",
+            "cây",
+            "chim"
+          ],
+          "answer_index": 1,
+          "answer_text": "bot",
+          "explanation": "Từ 'bot' có chứa vần 'ot'."
+        },
+        {
+          "id": "VIE1M56Q03",
+          "question": "Từ nào viết đúng chính tả có vần 'ep'?",
+          "options": [
+            "bip",
+            "bup",
+            "bép",
+            "bep"
+          ],
+          "answer_index": 3,
+          "answer_text": "bep",
+          "explanation": "Từ 'bep' viết đúng chính tả có vần 'ep'."
+        },
+        {
+          "id": "VIE1M56Q06",
+          "question": "Từ nào có chứa vần 'ép'?",
+          "options": [
+            "bép",
+            "mèo",
+            "chim",
+            "cây"
+          ],
+          "answer_index": 0,
+          "answer_text": "bép",
+          "explanation": "Từ 'bép' có chứa vần 'ép'."
+        },
+        {
+          "id": "VIE1M59Q09",
+          "question": "Từ nào có chứa vần 'ông'?",
+          "options": [
+            "cây",
+            "mèo",
+            "bông",
+            "chim"
+          ],
+          "answer_index": 2,
+          "answer_text": "bông",
+          "explanation": "Từ 'bông' có chứa vần 'ông'."
+        },
+        {
+          "id": "VIE1M54Q06",
+          "question": "Từ nào có chứa vần 'ốp'?",
+          "options": [
+            "bốp",
+            "cây",
+            "chim",
+            "mèo"
+          ],
+          "answer_index": 0,
+          "answer_text": "bốp",
+          "explanation": "Từ 'bốp' có chứa vần 'ốp'."
+        },
+        {
+          "id": "VIE1M51Q06",
+          "question": "Từ nào có chứa vần 'êt'?",
+          "options": [
+            "mèo",
+            "bêt",
+            "chim",
+            "cây"
+          ],
+          "answer_index": 1,
+          "answer_text": "bêt",
+          "explanation": "Từ 'bêt' có chứa vần 'êt'."
+        },
+        {
+          "id": "VIE1M39Q09",
+          "question": "Từ nào có chứa vần 'ơi'?",
+          "options": [
+            "bơi",
+            "chim",
+            "mèo",
+            "cây"
+          ],
+          "answer_index": 0,
+          "answer_text": "bơi",
+          "explanation": "Từ 'bơi' có chứa vần 'ơi'."
+        },
+        {
+          "id": "VIE1M54Q09",
+          "question": "Từ nào có chứa vần 'ộp'?",
+          "options": [
+            "bộp",
+            "chim",
+            "mèo",
+            "cây"
+          ],
+          "answer_index": 0,
+          "answer_text": "bộp",
+          "explanation": "Từ 'bộp' có chứa vần 'ộp'."
+        },
+        {
+          "id": "VIE1M42Q03",
+          "question": "Từ nào viết đúng chính tả có vần 'ao'?",
+          "options": [
+            "beo",
+            "ceo",
+            "cao",
+            "bao"
+          ],
+          "answer_index": 2,
+          "answer_text": "cao",
+          "explanation": "Từ 'cao' viết đúng chính tả có vần 'ao'."
+        },
+        {
+          "id": "VIE1M60Q06",
+          "question": "Từ nào có chứa vần 'âp'?",
+          "options": [
+            "chim",
+            "mèo",
+            "cây",
+            "tập"
+          ],
+          "answer_index": 3,
+          "answer_text": "tập",
+          "explanation": "Từ 'tập' có chứa vần 'âp'."
+        },
+        {
+          "id": "VIE1M35Q10",
+          "question": "Tìm từ có vần 'âp'",
+          "options": [
+            "cây",
+            "chim",
+            "tập",
+            "mèo"
+          ],
+          "answer_index": 2,
+          "answer_text": "tập",
+          "explanation": "Từ 'tập' có chứa vần 'âp'."
+        },
+        {
+          "id": "VIE1M44Q06",
+          "question": "Từ nào có chứa vần 'ưu'?",
+          "options": [
+            "mèo",
+            "cây",
+            "chim",
+            "bưu"
+          ],
+          "answer_index": 3,
+          "answer_text": "bưu",
+          "explanation": "Từ 'bưu' có chứa vần 'ưu'."
+        },
+        {
+          "id": "VIE1M36Q09",
+          "question": "Từ nào có chứa vần 'ơm'?",
+          "options": [
+            "chim",
+            "bơm",
+            "cây",
+            "mèo"
+          ],
+          "answer_index": 1,
+          "answer_text": "bơm",
+          "explanation": "Từ 'bơm' có chứa vần 'ơm'."
+        },
+        {
+          "id": "VIE1M52Q04",
+          "question": "Từ nào có chứa vần 'ưt'?",
+          "options": [
+            "but",
+            "mèo",
+            "cut",
+            "bưt"
+          ],
+          "answer_index": 3,
+          "answer_text": "bưt",
+          "explanation": "Từ 'bưt' có chứa vần 'ưt'."
+        },
+        {
+          "id": "VIE1M48Q04",
+          "question": "Từ nào có chứa vần 'át'?",
+          "options": [
+            "bat",
+            "bất",
+            "bát",
+            "cat"
+          ],
+          "answer_index": 2,
+          "answer_text": "bát",
+          "explanation": "Từ 'bát' có chứa vần 'át'."
+        },
+        {
+          "id": "VIE1M53Q07",
+          "question": "Tìm từ có vần 'ap'",
+          "options": [
+            "chim",
+            "bap",
+            "cây",
+            "mèo"
+          ],
+          "answer_index": 1,
+          "answer_text": "bap",
+          "explanation": "Từ 'bap' có chứa vần 'ap'."
+        },
+        {
+          "id": "VIE1M45Q08",
+          "question": "Chọn từ có vần 'âp'",
+          "options": [
+            "mèo",
+            "chim",
+            "tập",
+            "cây"
+          ],
+          "answer_index": 2,
+          "answer_text": "tập",
+          "explanation": "Từ 'tập' có chứa vần 'âp'."
+        },
+        {
+          "id": "VIE1M52Q02",
+          "question": "Ghép vần 'ut' với phụ âm để tạo từ nào?",
+          "options": [
+            "bưt",
+            "cut",
+            "cưt",
+            "but"
+          ],
+          "answer_index": 3,
+          "answer_text": "but",
+          "explanation": "Ghép vần 'ut' với phụ âm tạo thành từ 'but'."
+        },
+        {
+          "id": "VIE1M35Q05",
+          "question": "Chọn từ có vần 'ôn'",
+          "options": [
+            "mèo",
+            "chim",
+            "ôn",
+            "cây"
+          ],
+          "answer_index": 2,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1M43Q06",
+          "question": "Từ nào có chứa vần 'âu'?",
+          "options": [
+            "chim",
+            "mèo",
+            "bâu",
+            "cây"
+          ],
+          "answer_index": 2,
+          "answer_text": "bâu",
+          "explanation": "Từ 'bâu' có chứa vần 'âu'."
+        },
+        {
+          "id": "VIE1M60Q04",
+          "question": "Từ nào có chứa vần 'âp'?",
+          "options": [
+            "chuyện",
+            "tập",
+            "ôn",
+            "kể"
+          ],
+          "answer_index": 1,
+          "answer_text": "tập",
+          "explanation": "Từ 'tập' có chứa vần 'âp'."
+        },
+        {
+          "id": "VIE1M49Q08",
+          "question": "Chọn từ có vần 'ôt'",
+          "options": [
+            "bôt",
+            "chim",
+            "cây",
+            "mèo"
+          ],
+          "answer_index": 0,
+          "answer_text": "bôt",
+          "explanation": "Từ 'bôt' có chứa vần 'ôt'."
+        },
+        {
+          "id": "VIE1M45Q02",
+          "question": "Ghép vần 'ôn' với phụ âm để tạo từ nào?",
+          "options": [
+            "tập",
+            "kể",
+            "ôn",
+            "chuyện"
+          ],
+          "answer_index": 2,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1M58Q01",
+          "question": "Từ nào có chứa vần 'ach'?",
+          "options": [
+            "mèo",
+            "chim",
+            "cây",
+            "bach"
+          ],
+          "answer_index": 3,
+          "answer_text": "bach",
+          "explanation": "Từ 'bach' có chứa vần 'ach'."
+        },
+        {
+          "id": "VIE1M38Q07",
+          "question": "Tìm từ có vần 'ai'",
+          "options": [
+            "cây",
+            "chim",
+            "mèo",
+            "bai"
+          ],
+          "answer_index": 3,
+          "answer_text": "bai",
+          "explanation": "Từ 'bai' có chứa vần 'ai'."
+        },
+        {
+          "id": "VIE1M43Q01",
+          "question": "Từ nào có chứa vần 'au'?",
+          "options": [
+            "cây",
+            "chim",
+            "mèo",
+            "bau"
+          ],
+          "answer_index": 3,
+          "answer_text": "bau",
+          "explanation": "Từ 'bau' có chứa vần 'au'."
+        },
+        {
+          "id": "VIE1M54Q02",
+          "question": "Ghép vần 'op' với phụ âm để tạo từ nào?",
+          "options": [
+            "bộp",
+            "bốp",
+            "bop",
+            "cop"
+          ],
+          "answer_index": 1,
+          "answer_text": "bốp",
+          "explanation": "Ghép vần 'op' với phụ âm tạo thành từ 'bốp'."
+        },
+        {
+          "id": "VIE1M55Q05",
+          "question": "Chọn từ có vần 'ôn'",
+          "options": [
+            "ôn",
+            "mèo",
+            "cây",
+            "chim"
+          ],
+          "answer_index": 0,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1M59Q08",
+          "question": "Chọn từ có vần 'ăng'",
+          "options": [
+            "chim",
+            "mèo",
+            "cây",
+            "băng"
+          ],
+          "answer_index": 3,
+          "answer_text": "băng",
+          "explanation": "Từ 'băng' có chứa vần 'ăng'."
+        },
+        {
+          "id": "VIE1M38Q09",
+          "question": "Từ nào có chứa vần 'ây'?",
+          "options": [
+            "chim",
+            "nhà",
+            "mèo",
+            "bây"
+          ],
+          "answer_index": 3,
+          "answer_text": "bây",
+          "explanation": "Từ 'bây' có chứa vần 'ây'."
+        },
+        {
+          "id": "VIE1M32Q03",
+          "question": "Từ nào viết đúng chính tả có vần 'on'?",
+          "options": [
+            "bôn",
+            "bon",
+            "bơn",
+            "con"
+          ],
+          "answer_index": 3,
+          "answer_text": "con",
+          "explanation": "Từ 'con' viết đúng chính tả có vần 'on'."
+        },
+        {
+          "id": "VIE1M48Q09",
+          "question": "Từ nào có chứa vần 'ất'?",
+          "options": [
+            "cây",
+            "mèo",
+            "bất",
+            "chim"
+          ],
+          "answer_index": 2,
+          "answer_text": "bất",
+          "explanation": "Từ 'bất' có chứa vần 'ất'."
+        },
+        {
+          "id": "VIE1M45Q04",
+          "question": "Từ nào có chứa vần 'âp'?",
+          "options": [
+            "kể",
+            "chuyện",
+            "tập",
+            "ôn"
+          ],
+          "answer_index": 2,
+          "answer_text": "tập",
+          "explanation": "Từ 'tập' có chứa vần 'âp'."
+        },
+        {
+          "id": "VIE1M47Q01",
+          "question": "Từ nào có chứa vần 'oc'?",
+          "options": [
+            "mèo",
+            "boc",
+            "chim",
+            "cây"
+          ],
+          "answer_index": 1,
+          "answer_text": "boc",
+          "explanation": "Từ 'boc' có chứa vần 'oc'."
+        },
+        {
+          "id": "VIE1M41Q01",
+          "question": "Từ nào có chứa vần 'ui'?",
+          "options": [
+            "mèo",
+            "cây",
+            "bui",
+            "chim"
+          ],
+          "answer_index": 2,
+          "answer_text": "bui",
+          "explanation": "Từ 'bui' có chứa vần 'ui'."
+        },
+        {
+          "id": "VIE1M52Q10",
+          "question": "Tìm từ có vần 'ưt'",
+          "options": [
+            "cây",
+            "bưt",
+            "chim",
+            "mèo"
+          ],
+          "answer_index": 1,
+          "answer_text": "bưt",
+          "explanation": "Từ 'bưt' có chứa vần 'ưt'."
+        },
+        {
+          "id": "VIE1M33Q06",
+          "question": "Từ nào có chứa vần 'ên'?",
+          "options": [
+            "bên",
+            "mèo",
+            "chim",
+            "cây"
+          ],
+          "answer_index": 0,
+          "answer_text": "bên",
+          "explanation": "Từ 'bên' có chứa vần 'ên'."
+        },
+        {
+          "id": "VIE1M34Q02",
+          "question": "Ghép vần 'am' với phụ âm để tạo từ nào?",
+          "options": [
+            "băm",
+            "bâm",
+            "bam",
+            "cam"
+          ],
+          "answer_index": 2,
+          "answer_text": "bam",
+          "explanation": "Ghép vần 'am' với phụ âm tạo thành từ 'bam'."
+        },
+        {
+          "id": "VIE1M41Q04",
+          "question": "Từ nào có chứa vần 'ưi'?",
+          "options": [
+            "mèo",
+            "cui",
+            "bui",
+            "bưi"
+          ],
+          "answer_index": 3,
+          "answer_text": "bưi",
+          "explanation": "Từ 'bưi' có chứa vần 'ưi'."
+        },
+        {
+          "id": "VIE1M34Q05",
+          "question": "Chọn từ có vần 'am'",
+          "options": [
+            "chim",
+            "mèo",
+            "cây",
+            "bam"
+          ],
+          "answer_index": 3,
+          "answer_text": "bam",
+          "explanation": "Từ 'bam' có chứa vần 'am'."
+        },
+        {
+          "id": "VIE1M33Q08",
+          "question": "Chọn từ có vần 'ên'",
+          "options": [
+            "cây",
+            "chim",
+            "mèo",
+            "bên"
+          ],
+          "answer_index": 3,
+          "answer_text": "bên",
+          "explanation": "Từ 'bên' có chứa vần 'ên'."
+        },
+        {
+          "id": "VIE1M50Q07",
+          "question": "Tìm từ có vần 'ôn'",
+          "options": [
+            "ôn",
+            "cây",
+            "mèo",
+            "chim"
+          ],
+          "answer_index": 0,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1M37Q03",
+          "question": "Từ nào viết đúng chính tả có vần 'em'?",
+          "options": [
+            "bêm",
+            "bim",
+            "bum",
+            "bem"
+          ],
+          "answer_index": 3,
+          "answer_text": "bem",
+          "explanation": "Từ 'bem' viết đúng chính tả có vần 'em'."
+        },
+        {
+          "id": "VIE1M57Q07",
+          "question": "Tìm từ có vần 'anh'",
+          "options": [
+            "mèo",
+            "chim",
+            "cây",
+            "banh"
+          ],
+          "answer_index": 3,
+          "answer_text": "banh",
+          "explanation": "Từ 'banh' có chứa vần 'anh'."
+        },
+        {
+          "id": "VIE1M36Q07",
+          "question": "Tìm từ có vần 'om'",
+          "options": [
+            "bom",
+            "cây",
+            "chim",
+            "mèo"
+          ],
+          "answer_index": 0,
+          "answer_text": "bom",
+          "explanation": "Từ 'bom' có chứa vần 'om'."
+        },
+        {
+          "id": "VIE1M36Q10",
+          "question": "Tìm từ có vần 'ôm'",
+          "options": [
+            "bôm",
+            "chim",
+            "cây",
+            "mèo"
+          ],
+          "answer_index": 0,
+          "answer_text": "bôm",
+          "explanation": "Từ 'bôm' có chứa vần 'ôm'."
+        },
+        {
+          "id": "VIE1M37Q08",
+          "question": "Chọn từ có vần 'êm'",
+          "options": [
+            "cây",
+            "chim",
+            "mèo",
+            "bêm"
+          ],
+          "answer_index": 3,
+          "answer_text": "bêm",
+          "explanation": "Từ 'bêm' có chứa vần 'êm'."
+        },
+        {
+          "id": "VIE1M33Q02",
+          "question": "Ghép vần 'en' với phụ âm để tạo từ nào?",
+          "options": [
+            "bin",
+            "bên",
+            "ben",
+            "bun"
+          ],
+          "answer_index": 2,
+          "answer_text": "ben",
+          "explanation": "Ghép vần 'en' với phụ âm tạo thành từ 'ben'."
+        },
+        {
+          "id": "VIE1M51Q04",
+          "question": "Từ nào có chứa vần 'êt'?",
+          "options": [
+            "cet",
+            "bet",
+            "bêt",
+            "bit"
+          ],
+          "answer_index": 2,
+          "answer_text": "bêt",
+          "explanation": "Từ 'bêt' có chứa vần 'êt'."
+        },
+        {
+          "id": "VIE1M45Q01",
+          "question": "Từ nào có chứa vần 'ôn'?",
+          "options": [
+            "chim",
+            "cây",
+            "mèo",
+            "ôn"
+          ],
+          "answer_index": 3,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1M35Q01",
+          "question": "Từ nào có chứa vần 'ôn'?",
+          "options": [
+            "cây",
+            "mèo",
+            "ôn",
+            "chim"
+          ],
+          "answer_index": 2,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1M45Q03",
+          "question": "Từ nào viết đúng chính tả có vần 'ôn'?",
+          "options": [
+            "tập",
+            "chuyện",
+            "ôn",
+            "kể"
+          ],
+          "answer_index": 2,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' viết đúng chính tả có vần 'ôn'."
+        },
+        {
+          "id": "VIE1M44Q02",
+          "question": "Ghép vần 'iu' với phụ âm để tạo từ nào?",
+          "options": [
+            "ciu",
+            "cưu",
+            "bưu",
+            "biu"
+          ],
+          "answer_index": 3,
+          "answer_text": "biu",
+          "explanation": "Ghép vần 'iu' với phụ âm tạo thành từ 'biu'."
+        },
+        {
+          "id": "VIE1M55Q09",
+          "question": "Từ nào có chứa vần 'ê'?",
+          "options": [
+            "mèo",
+            "kể",
+            "cây",
+            "chim"
+          ],
+          "answer_index": 1,
+          "answer_text": "kể",
+          "explanation": "Từ 'kể' có chứa vần 'ê'."
+        },
+        {
+          "id": "VIE1M40Q08",
+          "question": "Chọn từ có vần 'ôn'",
+          "options": [
+            "cây",
+            "chim",
+            "mèo",
+            "ôn"
+          ],
+          "answer_index": 3,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1M46Q06",
+          "question": "Từ nào có chứa vần 'ác'?",
+          "options": [
+            "chim",
+            "bác",
+            "mèo",
+            "cây"
+          ],
+          "answer_index": 1,
+          "answer_text": "bác",
+          "explanation": "Từ 'bác' có chứa vần 'ác'."
+        },
+        {
+          "id": "VIE1M57Q09",
+          "question": "Từ nào có chứa vần 'inh'?",
+          "options": [
+            "mèo",
+            "binh",
+            "chim",
+            "cây"
+          ],
+          "answer_index": 1,
+          "answer_text": "binh",
+          "explanation": "Từ 'binh' có chứa vần 'inh'."
+        },
+        {
+          "id": "VIE1M42Q01",
+          "question": "Từ nào có chứa vần 'ao'?",
+          "options": [
+            "bao",
+            "mèo",
+            "cây",
+            "chim"
+          ],
+          "answer_index": 0,
+          "answer_text": "bao",
+          "explanation": "Từ 'bao' có chứa vần 'ao'."
+        },
+        {
+          "id": "VIE1M47Q07",
+          "question": "Tìm từ có vần 'oc'",
+          "options": [
+            "boc",
+            "mèo",
+            "chim",
+            "cây"
+          ],
+          "answer_index": 0,
+          "answer_text": "boc",
+          "explanation": "Từ 'boc' có chứa vần 'oc'."
+        },
+        {
+          "id": "VIE1M33Q05",
+          "question": "Chọn từ có vần 'en'",
+          "options": [
+            "ben",
+            "chim",
+            "mèo",
+            "cây"
+          ],
+          "answer_index": 0,
+          "answer_text": "ben",
+          "explanation": "Từ 'ben' có chứa vần 'en'."
+        },
+        {
+          "id": "VIE1M50Q01",
+          "question": "Từ nào có chứa vần 'ôn'?",
+          "options": [
+            "ôn",
+            "mèo",
+            "cây",
+            "chim"
+          ],
+          "answer_index": 0,
+          "answer_text": "ôn",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        },
+        {
+          "id": "VIE1M40Q06",
+          "question": "Từ nào có chứa vần 'ôn'?",
+          "options": [
+            "mèo",
+            "cây",
+            "chim",
+            "ôn"
+          ],
+          "answer_index": 1,
+          "answer_text": "cây",
+          "explanation": "Từ 'ôn' có chứa vần 'ôn'."
+        }
+      ]
+    }
+  ]
+}

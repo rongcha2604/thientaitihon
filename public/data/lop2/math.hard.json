@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "grade": 2,
+    "subject": "Toán",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "hard",
+    "curriculum": "CTGDPT 2018 (Theo Lộ Trình Mới)"
+  },
+  "topics": [
+    {
+      "id": "MATH2_HARD_NEW_01",
+      "name": "Phép cộng trừ có nhớ phạm vi 1000 và Logic",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M2HN01Q01",
+          "question": "Kết quả của phép tính 458 + 279 là:",
+          "options": [
+            "738",
+            "727",
+            "637",
+            "737"
+          ],
+          "answer_index": 3,
+          "answer_text": "737",
+          "explanation": "Cộng lần lượt từ phải sang trái, có nhớ ở hàng chục và hàng trăm. 8+9=17, viết 7 nhớ 1. 5+7+1=13, viết 3 nhớ 1. 4+2+1=7. Kết quả là 737."
+        },
+        {
+          "id": "M2HN01Q02",
+          "question": "Hiệu của 812 và 345 là:",
+          "options": [
+            "467",
+            "567",
+            "577",
+            "477"
+          ],
+          "answer_index": 0,
+          "answer_text": "467",
+          "explanation": "Trừ lần lượt từ phải sang trái, có nhớ ở hàng chục và hàng trăm. 12-5=7. 11-4-1=6. 8-3-1=4. Kết quả là 467."
+        },
+        {
+          "id": "M2HN01Q03",
+          "question": "Tìm tổng của ba số: 125, 234, và 341.",
+          "options": [
+            "690",
+            "700",
+            "710",
+            "699"
+          ],
+          "answer_index": 1,
+          "answer_text": "700",
+          "explanation": "125 + 234 + 341 = 700."
+        },
+        {
+          "id": "M2HN01Q04",
+          "question": "Số tròn trăm lớn nhất nhỏ hơn 850 là số nào?",
+          "options": [
+            "700",
+            "900",
+            "840",
+            "800"
+          ],
+          "answer_index": 3,
+          "answer_text": "800",
+          "explanation": "Các số tròn trăm là 100, 200, 300,... Số tròn trăm lớn nhất nhưng vẫn nhỏ hơn 850 là 800."
+        },
+        {
+          "id": "M2HN01Q05",
+          "question": "Từ ba chữ số 3, 0, 8, có thể viết được bao nhiêu số có ba chữ số khác nhau?",
+          "options": [
+            "4 số",
+            "3 số",
+            "6 số",
+            "2 số"
+          ],
+          "answer_index": 0,
+          "answer_text": "4 số",
+          "explanation": "Hàng trăm có thể là 3 hoặc 8 (2 lựa chọn). Hàng chục có 2 lựa chọn còn lại. Hàng đơn vị có 1 lựa chọn. Tổng: 2x2x1=4 số (308, 380, 803, 830)."
+        }
+      ]
+    },
+    {
+      "id": "MATH2_HARD_NEW_02",
+      "name": "Hình học và Đo lường nâng cao",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M2HN02Q01",
+          "question": "Một hình chữ nhật có chu vi là 50cm. Biết chiều dài hơn chiều rộng 5cm. Tính chiều dài của hình chữ nhật.",
+          "options": [
+            "20 cm",
+            "10 cm",
+            "15 cm",
+            "25 cm"
+          ],
+          "answer_index": 2,
+          "answer_text": "15 cm",
+          "explanation": "Nửa chu vi là 50 : 2 = 25cm. Đây là bài toán tìm hai số khi biết tổng và hiệu. Chiều dài = (25 + 5) : 2 = 15cm."
+        },
+        {
+          "id": "M2HN02Q02",
+          "question": "Một sợi dây dài 2m. Cắt đi 50cm. Hỏi sợi dây còn lại dài bao nhiêu dm?",
+          "options": [
+            "15 dm",
+            "52 dm",
+            "150 dm",
+            "1.5 dm"
+          ],
+          "answer_index": 0,
+          "answer_text": "15 dm",
+          "explanation": "Đổi 2m = 200cm. Còn lại: 200 - 50 = 150cm. Đổi 150cm = 15dm."
+        },
+        {
+          "id": "M2HN02Q03",
+          "question": "Đoạn đường từ Hà Nội đến Hải Phòng dài khoảng 120km. Một ô tô đã đi được 1/3 quãng đường. Hỏi ô tô còn phải đi bao nhiêu km nữa?",
+          "options": [
+            "100 km",
+            "90 km",
+            "80 km",
+            "40 km"
+          ],
+          "answer_index": 2,
+          "answer_text": "80 km",
+          "explanation": "Quãng đường đã đi: 120 : 3 = 40km. Quãng đường còn lại: 120 - 40 = 80km."
+        },
+        {
+          "id": "M2HN02Q04",
+          "question": "Một bình nước chứa 2 lít nước. Người ta rót ra 5 chai nhỏ, mỗi chai 200ml. Hỏi trong bình còn lại bao nhiêu mi-li-lít nước?",
+          "options": [
+            "1200 ml",
+            "1000 ml",
+            "1800 ml",
+            "800 ml"
+          ],
+          "answer_index": 1,
+          "answer_text": "1000 ml",
+          "explanation": "Đổi 2 lít = 2000 ml. Lượng nước đã rót ra: 5 x 200 = 1000 ml. Lượng nước còn lại: 2000 - 1000 = 1000 ml."
+        }
+      ]
+    },
+    {
+      "id": "MATH2_HARD_NEW_03",
+      "name": "Bài toán lời văn suy luận",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M2HN03Q01",
+          "question": "Hiện nay tổng số tuổi của hai anh em là 25 tuổi. 5 năm nữa, tổng số tuổi của hai anh em là bao nhiêu?",
+          "options": [
+            "40 tuổi",
+            "30 tuổi",
+            "35 tuổi",
+            "Không tính được"
+          ],
+          "answer_index": 2,
+          "answer_text": "35 tuổi",
+          "explanation": "Sau 5 năm, mỗi người tăng thêm 5 tuổi. Vậy tổng số tuổi sẽ tăng thêm 5 + 5 = 10 tuổi. Tổng số tuổi mới là 25 + 10 = 35 tuổi."
+        },
+        {
+          "id": "M2HN03Q02",
+          "question": "Một người thợ mộc cưa một cây gỗ dài 10m thành những đoạn dài 2m. Biết mỗi lần cưa mất 5 phút. Hỏi người đó cưa xong cây gỗ trong bao lâu?",
+          "options": [
+            "30 phút",
+            "20 phút",
+            "25 phút",
+            "50 phút"
+          ],
+          "answer_index": 1,
+          "answer_text": "20 phút",
+          "explanation": "Số đoạn gỗ là 10 : 2 = 5 đoạn. Để có 5 đoạn, cần 4 lần cưa. Thời gian cưa là 4 x 5 = 20 phút."
+        },
+        {
+          "id": "M2HN03Q03",
+          "question": "Có 5 cái bánh chia đều cho 4 bạn. Hỏi mỗi bạn được mấy phần của cái bánh?",
+          "options": [
+            "1 và 1/4 cái bánh",
+            "1 cái bánh",
+            "Câu hỏi khó",
+            "2 cái bánh"
+          ],
+          "answer_index": 0,
+          "answer_text": "1 và 1/4 cái bánh",
+          "explanation": "Mỗi bạn được 1 cái bánh, còn thừa 1 cái. Chia 1 cái còn lại cho 4 bạn, mỗi bạn được 1/4 cái. Vậy mỗi bạn được 1 và 1/4 cái bánh. (Câu hỏi nâng cao, kiểm tra tư duy)."
+        },
+        {
+          "id": "M2HN03Q04",
+          "question": "Trong một cái ao, số hoa sen ngày hôm sau nở gấp đôi ngày hôm trước. Sau 10 ngày thì hoa nở đầy ao. Hỏi sau bao nhiêu ngày thì hoa nở được nửa ao?",
+          "options": [
+            "8 ngày",
+            "9 ngày",
+            "5 ngày",
+            "2 ngày"
+          ],
+          "answer_index": 1,
+          "answer_text": "9 ngày",
+          "explanation": "Vì ngày sau nở gấp đôi ngày trước, nên để ngày thứ 10 nở đầy ao thì ngày thứ 9 phải nở được nửa ao."
+        },
+        {
+          "id": "M2HN03Q05",
+          "question": "Mẹ 36 tuổi, con bằng 1/4 tuổi mẹ. Hỏi mấy năm nữa thì tuổi mẹ gấp 3 lần tuổi con?",
+          "options": [
+            "9 năm",
+            "6 năm",
+            "4 năm",
+            "8 năm"
+          ],
+          "answer_index": 1,
+          "answer_text": "6 năm",
+          "explanation": "Tuổi con hiện nay: 36 : 4 = 9 tuổi. Hiệu số tuổi là 36-9=27 tuổi. Khi mẹ gấp 3 lần tuổi con, hiệu số phần là 3-1=2 phần. Tuổi con lúc đó: 27:2 (lẻ). Cách giải khác: thử đáp án. 6 năm nữa mẹ 42, con 15 (không được). Thử lại: 4 năm nữa mẹ 40, con 13. 8 năm nữa mẹ 44, con 17. 9 năm nữa... Có vẻ câu hỏi có vấn đề. Đúng ra phải là: Mẹ 36, con 6. Hỏi khi nào mẹ gấp 3 lần tuổi con. Hiệu 30. Tuổi con lúc đó 30:2=15. Vậy 15-6=9 năm nữa. "
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "grade": 1,
+    "subject": "English",
+    "language": "en",
+    "created_date": "2025-11-03",
+    "level": "medium",
+    "curriculum": "CTGDPT 2018 – Chuẩn 2025"
+  },
+  "topics": [
+    {
+      "id": "ENG1_MEDIUM_01",
+      "name": "Chủ đề 1",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "ENG1M01Q01",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "desk",
+            "yellow",
+            "car",
+            "apple"
+          ],
+          "answer_index": 1,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "ENG1M01Q02",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "desk",
+            "green",
+            "car",
+            "apple"
+          ],
+          "answer_index": 1,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "ENG1M01Q03",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "apple",
+            "desk",
+            "yellow",
+            "car"
+          ],
+          "answer_index": 2,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "ENG1M01Q04",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "the",
+            "a",
+            "an",
+            "(không đúng)"
+          ],
+          "answer_index": 1,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1M01Q05",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "red",
+            "apple",
+            "desk",
+            "car"
+          ],
+          "answer_index": 0,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "ENG1M01Q06",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "(không đúng)",
+            "an",
+            "a",
+            "the"
+          ],
+          "answer_index": 2,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1M01Q07",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "a",
+            "an",
+            "(không đúng)",
+            "the"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1M01Q08",
+          "question": "Choose the article: __ umbrella",
+          "options": [
+            "(không đúng)",
+            "a",
+            "an",
+            "the"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1M01Q09",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "in",
+            "behind",
+            "under"
+          ],
+          "answer_index": 1,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "ENG1M01Q10",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "book",
+            "mother",
+            "cat",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "ENG1M01Q11",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dress",
+            "dressing",
+            "dresses",
+            "dresss"
+          ],
+          "answer_index": 2,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1M01Q12",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "car",
+            "desk",
+            "apple",
+            "green"
+          ],
+          "answer_index": 3,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "ENG1M01Q13",
+          "question": "Choose the article: __ apple",
+          "options": [
+            "an",
+            "a",
+            "the",
+            "(không đúng)"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1M01Q14",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "book",
+            "cat",
+            "table",
+            "mother"
+          ],
+          "answer_index": 3,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "ENG1M01Q15",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "red",
+            "car",
+            "desk",
+            "apple"
+          ],
+          "answer_index": 0,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "ENG1M01Q16",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafs",
+            "leaf",
+            "leaves",
+            "leafing"
+          ],
+          "answer_index": 2,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1M01Q17",
+          "question": "Choose the article: __ cat",
+          "options": [
+            "the",
+            "(không đúng)",
+            "a",
+            "an"
+          ],
+          "answer_index": 2,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1M01Q18",
+          "question": "Which is a color meaning 'black'?",
+          "options": [
+            "apple",
+            "car",
+            "desk",
+            "black"
+          ],
+          "answer_index": 3,
+          "answer_text": "black",
+          "explanation": "'black' is a color."
+        },
+        {
+          "id": "ENG1M01Q19",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "car",
+            "desk",
+            "red",
+            "apple"
+          ],
+          "answer_index": 2,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "ENG1M01Q20",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "table",
+            "small",
+            "cat",
+            "book"
+          ],
+          "answer_index": 1,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        }
+      ]
+    },
+    {
+      "id": "ENG1_MEDIUM_02",
+      "name": "Chủ đề 2",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "ENG1M02Q01",
+          "question": "Similar to 'large' is __",
+          "options": [
+            "book",
+            "big",
+            "cat",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "big",
+          "explanation": "'big' ≈ 'large'."
+        },
+        {
+          "id": "ENG1M02Q02",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "apple",
+            "desk",
+            "car",
+            "blue"
+          ],
+          "answer_index": 3,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "ENG1M02Q03",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "(không đúng)",
+            "cat",
+            "cats",
+            "cating"
+          ],
+          "answer_index": 2,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1M02Q04",
+          "question": "Similar to 'mom' is __",
+          "options": [
+            "mother",
+            "table",
+            "book",
+            "cat"
+          ],
+          "answer_index": 0,
+          "answer_text": "mother",
+          "explanation": "'mother' ≈ 'mom'."
+        },
+        {
+          "id": "ENG1M02Q05",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "apple",
+            "car",
+            "red",
+            "desk"
+          ],
+          "answer_index": 2,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "ENG1M02Q06",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "desk",
+            "blue",
+            "car",
+            "apple"
+          ],
+          "answer_index": 1,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "ENG1M02Q07",
+          "question": "The ball is __ the box.",
+          "options": [
+            "in",
+            "on",
+            "under",
+            "behind"
+          ],
+          "answer_index": 0,
+          "answer_text": "in",
+          "explanation": "in: inside; on: on top; under: below."
+        },
+        {
+          "id": "ENG1M02Q08",
+          "question": "Plural of 'cat' is __",
+          "options": [
+            "(không đúng)",
+            "cat",
+            "cats",
+            "cating"
+          ],
+          "answer_index": 2,
+          "answer_text": "cats",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1M02Q09",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "car",
+            "apple",
+            "desk",
+            "green"
+          ],
+          "answer_index": 3,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "ENG1M02Q10",
+          "question": "Plural of 'leaf' is __",
+          "options": [
+            "leafs",
+            "leaves",
+            "leafing",
+            "leaf"
+          ],
+          "answer_index": 1,
+          "answer_text": "leaves",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        }
+      ]
+    },
+    {
+      "id": "ENG1_MEDIUM_03",
+      "name": "Chủ đề 3",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "ENG1M03Q01",
+          "question": "Similar to 'little' is __",
+          "options": [
+            "table",
+            "cat",
+            "book",
+            "small"
+          ],
+          "answer_index": 3,
+          "answer_text": "small",
+          "explanation": "'small' ≈ 'little'."
+        },
+        {
+          "id": "ENG1M03Q02",
+          "question": "Similar to 'glad' is __",
+          "options": [
+            "cat",
+            "happy",
+            "book",
+            "table"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "'happy' ≈ 'glad'."
+        },
+        {
+          "id": "ENG1M03Q03",
+          "question": "Choose the article: __ dog",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "(không đúng)"
+          ],
+          "answer_index": 0,
+          "answer_text": "a",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1M03Q04",
+          "question": "Which is a color meaning 'yellow'?",
+          "options": [
+            "apple",
+            "desk",
+            "yellow",
+            "car"
+          ],
+          "answer_index": 2,
+          "answer_text": "yellow",
+          "explanation": "'yellow' is a color."
+        },
+        {
+          "id": "ENG1M03Q05",
+          "question": "Which is a color meaning 'red'?",
+          "options": [
+            "apple",
+            "red",
+            "car",
+            "desk"
+          ],
+          "answer_index": 1,
+          "answer_text": "red",
+          "explanation": "'red' is a color."
+        },
+        {
+          "id": "ENG1M03Q06",
+          "question": "Plural of 'dress' is __",
+          "options": [
+            "dress",
+            "dresss",
+            "dresses",
+            "dressing"
+          ],
+          "answer_index": 2,
+          "answer_text": "dresses",
+          "explanation": "Rules: +s, +es (bus→buses), f→ves (leaf→leaves)."
+        },
+        {
+          "id": "ENG1M03Q07",
+          "question": "Choose the article: __ orange",
+          "options": [
+            "a",
+            "(không đúng)",
+            "the",
+            "an"
+          ],
+          "answer_index": 3,
+          "answer_text": "an",
+          "explanation": "Use 'an' before vowel sounds; else 'a'."
+        },
+        {
+          "id": "ENG1M03Q08",
+          "question": "Which is a color meaning 'blue'?",
+          "options": [
+            "apple",
+            "car",
+            "desk",
+            "blue"
+          ],
+          "answer_index": 3,
+          "answer_text": "blue",
+          "explanation": "'blue' is a color."
+        },
+        {
+          "id": "ENG1M03Q09",
+          "question": "Which is a color meaning 'green'?",
+          "options": [
+            "green",
+            "car",
+            "desk",
+            "apple"
+          ],
+          "answer_index": 0,
+          "answer_text": "green",
+          "explanation": "'green' is a color."
+        },
+        {
+          "id": "ENG1M03Q10",
+          "question": "The ball is __ the box.",
+          "options": [
+            "on",
+            "in",
+            "behind",
+            "under"
+          ],
+          "answer_index": 0,
+          "answer_text": "on",
+          "explanation": "in: inside; on: on top; under: below."
+        }
+      ]
+    }
+  ]
+}

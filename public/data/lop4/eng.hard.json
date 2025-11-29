@@ -1,0 +1,1319 @@
+{
+  "meta": {
+    "grade": 4,
+    "subject": "English",
+    "language": "en",
+    "created_date": "2025-11-04",
+    "level": "hard",
+    "curriculum": "Generated based on common Grade 4 topics"
+  },
+  "topics": [
+    {
+      "id": "ENG4_HARD_ALL",
+      "name": "General English Practice",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "ENG4HG001",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "playing",
+            "am playing",
+            "play",
+            "played"
+          ],
+          "answer_index": 3,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HV002",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "have breakfast",
+            "playing football",
+            "monkey",
+            "watching TV"
+          ],
+          "answer_index": 3,
+          "answer_text": "watching TV",
+          "explanation": "'watching TV' is a hobbies."
+        },
+        {
+          "id": "ENG4HV003",
+          "question": "Which word is a type of months?",
+          "options": [
+            "orange",
+            "school",
+            "beautiful",
+            "September"
+          ],
+          "answer_index": 3,
+          "answer_text": "September",
+          "explanation": "'September' is a months."
+        },
+        {
+          "id": "ENG4HG004",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "am playing",
+            "played",
+            "play",
+            "playing"
+          ],
+          "answer_index": 1,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HV005",
+          "question": "Which word is a type of months?",
+          "options": [
+            "house",
+            "reading books",
+            "lion",
+            "June"
+          ],
+          "answer_index": 3,
+          "answer_text": "June",
+          "explanation": "'June' is a months."
+        },
+        {
+          "id": "ENG4HV006",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "nine",
+            "reading books",
+            "sister",
+            "watching TV"
+          ],
+          "answer_index": 3,
+          "answer_text": "watching TV",
+          "explanation": "'watching TV' is a hobbies."
+        },
+        {
+          "id": "ENG4HG007",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "play",
+            "played",
+            "playing",
+            "am playing"
+          ],
+          "answer_index": 1,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HG008",
+          "question": "___ is your name?",
+          "options": [
+            "When",
+            "What",
+            "Where",
+            "Who"
+          ],
+          "answer_index": 1,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HG009",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "bigger",
+            "as big",
+            "the biggest",
+            "big"
+          ],
+          "answer_index": 0,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HG010",
+          "question": "___ is your name?",
+          "options": [
+            "Where",
+            "Who",
+            "What",
+            "When"
+          ],
+          "answer_index": 2,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HV011",
+          "question": "Which word is a type of months?",
+          "options": [
+            "swimming",
+            "June",
+            "monkey",
+            "park"
+          ],
+          "answer_index": 1,
+          "answer_text": "June",
+          "explanation": "'June' is a months."
+        },
+        {
+          "id": "ENG4HV012",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "singer",
+            "Art",
+            "small",
+            "English"
+          ],
+          "answer_index": 2,
+          "answer_text": "small",
+          "explanation": "'small' is a adjectives."
+        },
+        {
+          "id": "ENG4HG013",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "bigger",
+            "as big",
+            "the biggest",
+            "big"
+          ],
+          "answer_index": 0,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HV014",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "December",
+            "have lunch",
+            "apple",
+            "old"
+          ],
+          "answer_index": 3,
+          "answer_text": "old",
+          "explanation": "'old' is a adjectives."
+        },
+        {
+          "id": "ENG4HV015",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "reading books",
+            "apple",
+            "two",
+            "green"
+          ],
+          "answer_index": 0,
+          "answer_text": "reading books",
+          "explanation": "'reading books' is a hobbies."
+        },
+        {
+          "id": "ENG4HG016",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "playing",
+            "play",
+            "played",
+            "am playing"
+          ],
+          "answer_index": 2,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HG017",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "the biggest",
+            "bigger",
+            "as big",
+            "big"
+          ],
+          "answer_index": 1,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HV018",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "new",
+            "playing football",
+            "apple",
+            "swimming"
+          ],
+          "answer_index": 0,
+          "answer_text": "new",
+          "explanation": "'new' is a adjectives."
+        },
+        {
+          "id": "ENG4HG019",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "playing",
+            "am playing",
+            "play",
+            "played"
+          ],
+          "answer_index": 3,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HV020",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "reading books",
+            "fish",
+            "Science",
+            "November"
+          ],
+          "answer_index": 0,
+          "answer_text": "reading books",
+          "explanation": "'reading books' is a hobbies."
+        },
+        {
+          "id": "ENG4HG021",
+          "question": "___ is your name?",
+          "options": [
+            "When",
+            "What",
+            "Who",
+            "Where"
+          ],
+          "answer_index": 1,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HG022",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "bigger",
+            "the biggest",
+            "big",
+            "as big"
+          ],
+          "answer_index": 0,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HV023",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "listening to music",
+            "green",
+            "driver",
+            "young"
+          ],
+          "answer_index": 3,
+          "answer_text": "young",
+          "explanation": "'young' is a adjectives."
+        },
+        {
+          "id": "ENG4HV024",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "seven",
+            "bag",
+            "short",
+            "playing football"
+          ],
+          "answer_index": 3,
+          "answer_text": "playing football",
+          "explanation": "'playing football' is a hobbies."
+        },
+        {
+          "id": "ENG4HG025",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "played",
+            "play",
+            "playing",
+            "am playing"
+          ],
+          "answer_index": 0,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HV026",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "January",
+            "small",
+            "Vietnamese",
+            "park"
+          ],
+          "answer_index": 1,
+          "answer_text": "small",
+          "explanation": "'small' is a adjectives."
+        },
+        {
+          "id": "ENG4HV027",
+          "question": "Which word is a type of months?",
+          "options": [
+            "long",
+            "August",
+            "monkey",
+            "English"
+          ],
+          "answer_index": 1,
+          "answer_text": "August",
+          "explanation": "'August' is a months."
+        },
+        {
+          "id": "ENG4HG028",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "am playing",
+            "playing",
+            "play",
+            "played"
+          ],
+          "answer_index": 3,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HG029",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "the biggest",
+            "as big",
+            "big",
+            "bigger"
+          ],
+          "answer_index": 3,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HV030",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "February",
+            "mother",
+            "beautiful",
+            "zoo"
+          ],
+          "answer_index": 2,
+          "answer_text": "beautiful",
+          "explanation": "'beautiful' is a adjectives."
+        },
+        {
+          "id": "ENG4HG031",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "as big",
+            "bigger",
+            "big",
+            "the biggest"
+          ],
+          "answer_index": 1,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HV032",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "young",
+            "December",
+            "short",
+            "big"
+          ],
+          "answer_index": 3,
+          "answer_text": "big",
+          "explanation": "'big' is a adjectives."
+        },
+        {
+          "id": "ENG4HG033",
+          "question": "___ is your name?",
+          "options": [
+            "When",
+            "Who",
+            "Where",
+            "What"
+          ],
+          "answer_index": 3,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HG034",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "played",
+            "am playing",
+            "playing",
+            "play"
+          ],
+          "answer_index": 0,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HV035",
+          "question": "Which word is a type of months?",
+          "options": [
+            "mother",
+            "pen",
+            "Science",
+            "January"
+          ],
+          "answer_index": 3,
+          "answer_text": "January",
+          "explanation": "'January' is a months."
+        },
+        {
+          "id": "ENG4HG036",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "played",
+            "playing",
+            "play",
+            "am playing"
+          ],
+          "answer_index": 0,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HV037",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "driver",
+            "reading books",
+            "cake",
+            "swimming"
+          ],
+          "answer_index": 1,
+          "answer_text": "reading books",
+          "explanation": "'reading books' is a hobbies."
+        },
+        {
+          "id": "ENG4HG038",
+          "question": "___ is your name?",
+          "options": [
+            "Where",
+            "When",
+            "What",
+            "Who"
+          ],
+          "answer_index": 2,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HV039",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "young",
+            "nurse",
+            "rice",
+            "six"
+          ],
+          "answer_index": 0,
+          "answer_text": "young",
+          "explanation": "'young' is a adjectives."
+        },
+        {
+          "id": "ENG4HV040",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "August",
+            "five",
+            "listening to music",
+            "apple"
+          ],
+          "answer_index": 2,
+          "answer_text": "listening to music",
+          "explanation": "'listening to music' is a hobbies."
+        },
+        {
+          "id": "ENG4HV041",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "book",
+            "singer",
+            "listening to music",
+            "milk"
+          ],
+          "answer_index": 2,
+          "answer_text": "listening to music",
+          "explanation": "'listening to music' is a hobbies."
+        },
+        {
+          "id": "ENG4HG042",
+          "question": "___ is your name?",
+          "options": [
+            "When",
+            "Who",
+            "What",
+            "Where"
+          ],
+          "answer_index": 2,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HV043",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "apple",
+            "rice",
+            "one",
+            "big"
+          ],
+          "answer_index": 3,
+          "answer_text": "big",
+          "explanation": "'big' is a adjectives."
+        },
+        {
+          "id": "ENG4HG044",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "the biggest",
+            "bigger",
+            "big",
+            "as big"
+          ],
+          "answer_index": 1,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HV045",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "blue",
+            "go home",
+            "big",
+            "fish"
+          ],
+          "answer_index": 2,
+          "answer_text": "big",
+          "explanation": "'big' is a adjectives."
+        },
+        {
+          "id": "ENG4HV046",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "teacher",
+            "swimming",
+            "five",
+            "October"
+          ],
+          "answer_index": 1,
+          "answer_text": "swimming",
+          "explanation": "'swimming' is a hobbies."
+        },
+        {
+          "id": "ENG4HV047",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "October",
+            "listening to music",
+            "Music",
+            "beautiful"
+          ],
+          "answer_index": 3,
+          "answer_text": "beautiful",
+          "explanation": "'beautiful' is a adjectives."
+        },
+        {
+          "id": "ENG4HV048",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "nine",
+            "young",
+            "green",
+            "water"
+          ],
+          "answer_index": 1,
+          "answer_text": "young",
+          "explanation": "'young' is a adjectives."
+        },
+        {
+          "id": "ENG4HV049",
+          "question": "Which word is a type of months?",
+          "options": [
+            "grandpa",
+            "green",
+            "February",
+            "April"
+          ],
+          "answer_index": 2,
+          "answer_text": "February",
+          "explanation": "'February' is a months."
+        },
+        {
+          "id": "ENG4HG050",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "played",
+            "play",
+            "playing",
+            "am playing"
+          ],
+          "answer_index": 0,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HV051",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "have dinner",
+            "go to school",
+            "blue",
+            "watching TV"
+          ],
+          "answer_index": 3,
+          "answer_text": "watching TV",
+          "explanation": "'watching TV' is a hobbies."
+        },
+        {
+          "id": "ENG4HV052",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "book",
+            "playing football",
+            "blue",
+            "Science"
+          ],
+          "answer_index": 1,
+          "answer_text": "playing football",
+          "explanation": "'playing football' is a hobbies."
+        },
+        {
+          "id": "ENG4HV053",
+          "question": "Which word is a type of months?",
+          "options": [
+            "old",
+            "February",
+            "bird",
+            "pencil"
+          ],
+          "answer_index": 1,
+          "answer_text": "February",
+          "explanation": "'February' is a months."
+        },
+        {
+          "id": "ENG4HV054",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "Art",
+            "new",
+            "July",
+            "Vietnamese"
+          ],
+          "answer_index": 1,
+          "answer_text": "new",
+          "explanation": "'new' is a adjectives."
+        },
+        {
+          "id": "ENG4HG055",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "big",
+            "as big",
+            "the biggest",
+            "bigger"
+          ],
+          "answer_index": 3,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HV056",
+          "question": "Which word is a type of months?",
+          "options": [
+            "go to bed",
+            "November",
+            "May",
+            "pink"
+          ],
+          "answer_index": 1,
+          "answer_text": "November",
+          "explanation": "'November' is a months."
+        },
+        {
+          "id": "ENG4HV057",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "red",
+            "listening to music",
+            "tall",
+            "four"
+          ],
+          "answer_index": 1,
+          "answer_text": "listening to music",
+          "explanation": "'listening to music' is a hobbies."
+        },
+        {
+          "id": "ENG4HG058",
+          "question": "___ is your name?",
+          "options": [
+            "When",
+            "What",
+            "Where",
+            "Who"
+          ],
+          "answer_index": 1,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HG059",
+          "question": "___ is your name?",
+          "options": [
+            "Where",
+            "Who",
+            "What",
+            "When"
+          ],
+          "answer_index": 2,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HV060",
+          "question": "Which word is a type of months?",
+          "options": [
+            "April",
+            "bookshop",
+            "sister",
+            "pencil"
+          ],
+          "answer_index": 0,
+          "answer_text": "April",
+          "explanation": "'April' is a months."
+        },
+        {
+          "id": "ENG4HG061",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "as big",
+            "the biggest",
+            "big",
+            "bigger"
+          ],
+          "answer_index": 3,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HV062",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "monkey",
+            "June",
+            "nine",
+            "listening to music"
+          ],
+          "answer_index": 3,
+          "answer_text": "listening to music",
+          "explanation": "'listening to music' is a hobbies."
+        },
+        {
+          "id": "ENG4HV063",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "August",
+            "tall",
+            "school",
+            "April"
+          ],
+          "answer_index": 1,
+          "answer_text": "tall",
+          "explanation": "'tall' is a adjectives."
+        },
+        {
+          "id": "ENG4HV064",
+          "question": "Which word is a type of months?",
+          "options": [
+            "orange",
+            "bird",
+            "three",
+            "February"
+          ],
+          "answer_index": 3,
+          "answer_text": "February",
+          "explanation": "'February' is a months."
+        },
+        {
+          "id": "ENG4HG065",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "played",
+            "playing",
+            "play",
+            "am playing"
+          ],
+          "answer_index": 0,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HV066",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "tiger",
+            "park",
+            "listening to music",
+            "April"
+          ],
+          "answer_index": 2,
+          "answer_text": "listening to music",
+          "explanation": "'listening to music' is a hobbies."
+        },
+        {
+          "id": "ENG4HG067",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "the biggest",
+            "bigger",
+            "big",
+            "as big"
+          ],
+          "answer_index": 1,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HG068",
+          "question": "___ is your name?",
+          "options": [
+            "What",
+            "When",
+            "Who",
+            "Where"
+          ],
+          "answer_index": 0,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HV069",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "black",
+            "pink",
+            "singer",
+            "tall"
+          ],
+          "answer_index": 3,
+          "answer_text": "tall",
+          "explanation": "'tall' is a adjectives."
+        },
+        {
+          "id": "ENG4HG070",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "playing",
+            "played",
+            "am playing",
+            "play"
+          ],
+          "answer_index": 1,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HG071",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "big",
+            "the biggest",
+            "bigger",
+            "as big"
+          ],
+          "answer_index": 2,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HG072",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "bigger",
+            "big",
+            "as big",
+            "the biggest"
+          ],
+          "answer_index": 0,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HV073",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "have lunch",
+            "playing football",
+            "seven",
+            "tall"
+          ],
+          "answer_index": 1,
+          "answer_text": "playing football",
+          "explanation": "'playing football' is a hobbies."
+        },
+        {
+          "id": "ENG4HG074",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "as big",
+            "bigger",
+            "big",
+            "the biggest"
+          ],
+          "answer_index": 1,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HV075",
+          "question": "Which word is a type of months?",
+          "options": [
+            "bookshop",
+            "February",
+            "May",
+            "mother"
+          ],
+          "answer_index": 1,
+          "answer_text": "February",
+          "explanation": "'February' is a months."
+        },
+        {
+          "id": "ENG4HV076",
+          "question": "Which word is a type of months?",
+          "options": [
+            "February",
+            "reading books",
+            "nurse",
+            "house"
+          ],
+          "answer_index": 0,
+          "answer_text": "February",
+          "explanation": "'February' is a months."
+        },
+        {
+          "id": "ENG4HV077",
+          "question": "Which word is a type of months?",
+          "options": [
+            "water",
+            "December",
+            "big",
+            "supermarket"
+          ],
+          "answer_index": 1,
+          "answer_text": "December",
+          "explanation": "'December' is a months."
+        },
+        {
+          "id": "ENG4HV078",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "November",
+            "nine",
+            "swimming",
+            "supermarket"
+          ],
+          "answer_index": 2,
+          "answer_text": "swimming",
+          "explanation": "'swimming' is a hobbies."
+        },
+        {
+          "id": "ENG4HG079",
+          "question": "___ is your name?",
+          "options": [
+            "Who",
+            "Where",
+            "What",
+            "When"
+          ],
+          "answer_index": 2,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HV080",
+          "question": "Which word is a type of months?",
+          "options": [
+            "February",
+            "July",
+            "banana",
+            "green"
+          ],
+          "answer_index": 1,
+          "answer_text": "July",
+          "explanation": "'July' is a months."
+        },
+        {
+          "id": "ENG4HV081",
+          "question": "Which word is a type of months?",
+          "options": [
+            "September",
+            "rice",
+            "June",
+            "apple"
+          ],
+          "answer_index": 2,
+          "answer_text": "June",
+          "explanation": "'June' is a months."
+        },
+        {
+          "id": "ENG4HG082",
+          "question": "___ is your name?",
+          "options": [
+            "When",
+            "Who",
+            "Where",
+            "What"
+          ],
+          "answer_index": 3,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HV083",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "Art",
+            "nurse",
+            "go home",
+            "reading books"
+          ],
+          "answer_index": 3,
+          "answer_text": "reading books",
+          "explanation": "'reading books' is a hobbies."
+        },
+        {
+          "id": "ENG4HG084",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "played",
+            "play",
+            "playing",
+            "am playing"
+          ],
+          "answer_index": 0,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HG085",
+          "question": "___ is your name?",
+          "options": [
+            "Who",
+            "When",
+            "What",
+            "Where"
+          ],
+          "answer_index": 2,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HG086",
+          "question": "___ is your name?",
+          "options": [
+            "Where",
+            "What",
+            "Who",
+            "When"
+          ],
+          "answer_index": 1,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HG087",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "playing",
+            "play",
+            "am playing",
+            "played"
+          ],
+          "answer_index": 3,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HV088",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "nine",
+            "beautiful",
+            "fish",
+            "new"
+          ],
+          "answer_index": 3,
+          "answer_text": "new",
+          "explanation": "'new' is a adjectives."
+        },
+        {
+          "id": "ENG4HG089",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "am playing",
+            "playing",
+            "played",
+            "play"
+          ],
+          "answer_index": 2,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HV090",
+          "question": "Which word is a type of months?",
+          "options": [
+            "green",
+            "September",
+            "December",
+            "three"
+          ],
+          "answer_index": 1,
+          "answer_text": "September",
+          "explanation": "'September' is a months."
+        },
+        {
+          "id": "ENG4HV091",
+          "question": "Which word is a type of months?",
+          "options": [
+            "beautiful",
+            "March",
+            "old",
+            "orange"
+          ],
+          "answer_index": 1,
+          "answer_text": "March",
+          "explanation": "'March' is a months."
+        },
+        {
+          "id": "ENG4HG092",
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            "bigger",
+            "as big",
+            "the biggest",
+            "big"
+          ],
+          "answer_index": 0,
+          "answer_text": "bigger",
+          "explanation": "This question tests the 'comparative' grammar point."
+        },
+        {
+          "id": "ENG4HV093",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "six",
+            "reading books",
+            "Science",
+            "English"
+          ],
+          "answer_index": 1,
+          "answer_text": "reading books",
+          "explanation": "'reading books' is a hobbies."
+        },
+        {
+          "id": "ENG4HV094",
+          "question": "Which word is a type of months?",
+          "options": [
+            "go to school",
+            "dog",
+            "blue",
+            "September"
+          ],
+          "answer_index": 3,
+          "answer_text": "September",
+          "explanation": "'September' is a months."
+        },
+        {
+          "id": "ENG4HV095",
+          "question": "Which word is a type of adjectives?",
+          "options": [
+            "cake",
+            "tall",
+            "eraser",
+            "have breakfast"
+          ],
+          "answer_index": 1,
+          "answer_text": "tall",
+          "explanation": "'tall' is a adjectives."
+        },
+        {
+          "id": "ENG4HG096",
+          "question": "___ is your name?",
+          "options": [
+            "When",
+            "Where",
+            "What",
+            "Who"
+          ],
+          "answer_index": 2,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        },
+        {
+          "id": "ENG4HV097",
+          "question": "Which word is a type of months?",
+          "options": [
+            "September",
+            "Music",
+            "pen",
+            "October"
+          ],
+          "answer_index": 3,
+          "answer_text": "October",
+          "explanation": "'October' is a months."
+        },
+        {
+          "id": "ENG4HG098",
+          "question": "Yesterday, I ___ football with my friends.",
+          "options": [
+            "played",
+            "am playing",
+            "playing",
+            "play"
+          ],
+          "answer_index": 0,
+          "answer_text": "played",
+          "explanation": "This question tests the 'past_simple' grammar point."
+        },
+        {
+          "id": "ENG4HV099",
+          "question": "Which word is a type of hobbies?",
+          "options": [
+            "pencil",
+            "singing",
+            "old",
+            "reading books"
+          ],
+          "answer_index": 3,
+          "answer_text": "reading books",
+          "explanation": "'reading books' is a hobbies."
+        },
+        {
+          "id": "ENG4HG100",
+          "question": "___ is your name?",
+          "options": [
+            "Who",
+            "Where",
+            "What",
+            "When"
+          ],
+          "answer_index": 2,
+          "answer_text": "What",
+          "explanation": "This question tests the 'wh_question' grammar point."
+        }
+      ]
+    }
+  ]
+}

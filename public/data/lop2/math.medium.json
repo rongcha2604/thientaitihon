@@ -1,0 +1,424 @@
+{
+  "meta": {
+    "grade": 2,
+    "subject": "Toán",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "medium",
+    "curriculum": "CTGDPT 2018 (Theo Lộ Trình Mới)"
+  },
+  "topics": [
+    {
+      "id": "MATH2_MEDIUM_NEW_01",
+      "name": "Phép cộng trừ có nhớ và Tìm thành phần",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M2MN01Q01",
+          "question": "Kết quả của phép tính 47 + 38 là:",
+          "options": [
+            "86",
+            "76",
+            "85",
+            "75"
+          ],
+          "answer_index": 2,
+          "answer_text": "85",
+          "explanation": "Phép cộng có nhớ: 7 + 8 = 15, viết 5 nhớ 1. 4 + 3 + 1 = 8. Kết quả là 85."
+        },
+        {
+          "id": "M2MN01Q02",
+          "question": "Kết quả của phép tính 91 - 27 là:",
+          "options": [
+            "63",
+            "74",
+            "73",
+            "64"
+          ],
+          "answer_index": 3,
+          "answer_text": "64",
+          "explanation": "Phép trừ có nhớ: 1 không trừ được 7, lấy 11 - 7 = 4, viết 4 nhớ 1. 2 + 1 = 3, 9 - 3 = 6. Kết quả là 64."
+        },
+        {
+          "id": "M2MN01Q03",
+          "question": "Tìm x, biết: x + 56 = 82",
+          "options": [
+            "26",
+            "34",
+            "138",
+            "36"
+          ],
+          "answer_index": 0,
+          "answer_text": "26",
+          "explanation": "Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết. x = 82 - 56 = 26."
+        },
+        {
+          "id": "M2MN01Q04",
+          "question": "Tìm x, biết: 100 - x = 45",
+          "options": [
+            "65",
+            "55",
+            "145",
+            "50"
+          ],
+          "answer_index": 1,
+          "answer_text": "55",
+          "explanation": "Muốn tìm số trừ, ta lấy số bị trừ trừ đi hiệu. x = 100 - 45 = 55."
+        },
+        {
+          "id": "M2MN01Q05",
+          "question": "Tìm x, biết: x - 33 = 67",
+          "options": [
+            "99",
+            "90",
+            "100",
+            "34"
+          ],
+          "answer_index": 2,
+          "answer_text": "100",
+          "explanation": "Muốn tìm số bị trừ, ta lấy hiệu cộng với số trừ. x = 67 + 33 = 100."
+        },
+        {
+          "id": "M2MN01Q06",
+          "question": "Trong một phép cộng, tổng là 78, một số hạng là 29. Số hạng còn lại là bao nhiêu?",
+          "options": [
+            "107",
+            "49",
+            "51",
+            "59"
+          ],
+          "answer_index": 1,
+          "answer_text": "49",
+          "explanation": "Số hạng còn lại = Tổng - Số hạng đã biết = 78 - 29 = 49."
+        },
+        {
+          "id": "M2MN01Q07",
+          "question": "Trong một phép trừ, số bị trừ là 90, hiệu là 35. Số trừ là bao nhiêu?",
+          "options": [
+            "60",
+            "125",
+            "55",
+            "65"
+          ],
+          "answer_index": 2,
+          "answer_text": "55",
+          "explanation": "Số trừ = Số bị trừ - Hiệu = 90 - 35 = 55."
+        }
+      ]
+    },
+    {
+      "id": "MATH2_MEDIUM_NEW_02",
+      "name": "Bài toán lời văn (Nhiều hơn, Ít hơn)",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M2MN02Q01",
+          "question": "Thùng thứ nhất có 45 lít dầu, thùng thứ hai có ít hơn thùng thứ nhất 18 lít. Hỏi thùng thứ hai có bao nhiêu lít dầu?",
+          "options": [
+            "37 lít",
+            "63 lít",
+            "27 lít",
+            "33 lít"
+          ],
+          "answer_index": 2,
+          "answer_text": "27 lít",
+          "explanation": "Số lít dầu thùng thứ hai có là: 45 - 18 = 27 lít."
+        },
+        {
+          "id": "M2MN02Q02",
+          "question": "Cành trên có 16 quả táo. Cành dưới có nhiều hơn cành trên 7 quả. Hỏi cành dưới có bao nhiêu quả táo?",
+          "options": [
+            "22 quả",
+            "24 quả",
+            "9 quả",
+            "23 quả"
+          ],
+          "answer_index": 3,
+          "answer_text": "23 quả",
+          "explanation": "Số táo cành dưới có là: 16 + 7 = 23 quả."
+        },
+        {
+          "id": "M2MN02Q03",
+          "question": "Năm nay mẹ 35 tuổi. Mẹ nhiều hơn con 28 tuổi. Hỏi năm nay con bao nhiêu tuổi?",
+          "options": [
+            "8 tuổi",
+            "7 tuổi",
+            "63 tuổi",
+            "17 tuổi"
+          ],
+          "answer_index": 1,
+          "answer_text": "7 tuổi",
+          "explanation": "Tuổi của con là: 35 - 28 = 7 tuổi."
+        }
+      ]
+    },
+    {
+      "id": "MATH2_MEDIUM_NEW_03",
+      "name": "Hình học và Đo lường cơ bản",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M2MN03Q01",
+          "question": "Nối 3 điểm không thẳng hàng ta được hình gì?",
+          "options": [
+            "Đoạn thẳng",
+            "Hình vuông",
+            "Đường thẳng",
+            "Hình tam giác"
+          ],
+          "answer_index": 3,
+          "answer_text": "Hình tam giác",
+          "explanation": "Ba điểm không thẳng hàng là ba đỉnh của một hình tam giác."
+        },
+        {
+          "id": "M2MN03Q02",
+          "question": "Đường gấp khúc ABC gồm đoạn AB dài 35cm và đoạn BC dài 45cm. Độ dài đường gấp khúc ABC là:",
+          "options": [
+            "90 cm",
+            "10 cm",
+            "80 cm",
+            "70 cm"
+          ],
+          "answer_index": 2,
+          "answer_text": "80 cm",
+          "explanation": "Độ dài đường gấp khúc bằng tổng độ dài các đoạn thẳng: 35 + 45 = 80 cm."
+        },
+        {
+          "id": "M2MN03Q03",
+          "question": "Chu vi hình tam giác có ba cạnh bằng nhau và mỗi cạnh dài 10cm là:",
+          "options": [
+            "30 cm",
+            "10 cm",
+            "20 cm",
+            "40 cm"
+          ],
+          "answer_index": 0,
+          "answer_text": "30 cm",
+          "explanation": "Chu vi hình tam giác là tổng độ dài ba cạnh: 10 + 10 + 10 = 30 cm."
+        },
+        {
+          "id": "M2MN03Q04",
+          "question": "Chu vi của một hình tứ giác có độ dài các cạnh là 12cm, 14cm, 16cm, 18cm là:",
+          "options": [
+            "58 cm",
+            "70 cm",
+            "60 cm",
+            "50 cm"
+          ],
+          "answer_index": 2,
+          "answer_text": "60 cm",
+          "explanation": "Chu vi hình tứ giác là tổng độ dài bốn cạnh: 12 + 14 + 16 + 18 = 60 cm."
+        },
+        {
+          "id": "M2MN03Q05",
+          "question": "Hôm nay là thứ Ba. 7 ngày nữa là thứ mấy?",
+          "options": [
+            "Thứ Hai",
+            "Chủ Nhật",
+            "Thứ Ba",
+            "Thứ Tư"
+          ],
+          "answer_index": 2,
+          "answer_text": "Thứ Ba",
+          "explanation": "Sau 7 ngày (một tuần), thứ trong tuần sẽ lặp lại."
+        },
+        {
+          "id": "M2MN03Q06",
+          "question": "Đồng hồ chỉ 3 giờ 30 phút. Cách nói nào khác là đúng?",
+          "options": [
+            "Bốn giờ kém ba mươi",
+            "Ba giờ mười lăm",
+            "Ba giờ kém ba mươi",
+            "Ba giờ rưỡi"
+          ],
+          "answer_index": 3,
+          "answer_text": "Ba giờ rưỡi",
+          "explanation": "30 phút còn được gọi là 'rưỡi'."
+        }
+      ]
+    },
+    {
+      "id": "MATH2_MEDIUM_NEW_04",
+      "name": "Bảng cửu chương 3, 4 và Tìm thành phần",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M2MN04Q01",
+          "question": "3 x 8 = ?",
+          "options": [
+            "24",
+            "11",
+            "27",
+            "21"
+          ],
+          "answer_index": 0,
+          "answer_text": "24",
+          "explanation": "Theo bảng cửu chương 3."
+        },
+        {
+          "id": "M2MN04Q02",
+          "question": "4 x 9 = ?",
+          "options": [
+            "49",
+            "13",
+            "36",
+            "32"
+          ],
+          "answer_index": 2,
+          "answer_text": "36",
+          "explanation": "Theo bảng cửu chương 4."
+        },
+        {
+          "id": "M2MN04Q03",
+          "question": "Tìm x, biết x * 3 = 21",
+          "options": [
+            "18",
+            "7",
+            "24",
+            "63"
+          ],
+          "answer_index": 1,
+          "answer_text": "7",
+          "explanation": "Muốn tìm thừa số chưa biết, ta lấy tích chia cho thừa số đã biết. x = 21 : 3 = 7."
+        },
+        {
+          "id": "M2MN04Q04",
+          "question": "Tìm x, biết 28 : x = 4",
+          "options": [
+            "6",
+            "32",
+            "7",
+            "24"
+          ],
+          "answer_index": 2,
+          "answer_text": "7",
+          "explanation": "Muốn tìm số chia, ta lấy số bị chia chia cho thương. x = 28 : 4 = 7."
+        },
+        {
+          "id": "M2MN04Q05",
+          "question": "Một lớp học có 32 học sinh được chia thành 4 hàng đều nhau. Hỏi mỗi hàng có bao nhiêu học sinh?",
+          "options": [
+            "28 học sinh",
+            "8 học sinh",
+            "7 học sinh",
+            "9 học sinh"
+          ],
+          "answer_index": 1,
+          "answer_text": "8 học sinh",
+          "explanation": "Số học sinh mỗi hàng là: 32 : 4 = 8 học sinh."
+        },
+        {
+          "id": "M2MN04Q06",
+          "question": "Mỗi bó hoa có 3 bông. Hỏi 9 bó hoa như vậy có tất cả bao nhiêu bông hoa?",
+          "options": [
+            "6 bông",
+            "27 bông",
+            "30 bông",
+            "12 bông"
+          ],
+          "answer_index": 1,
+          "answer_text": "27 bông",
+          "explanation": "Tổng số bông hoa là: 3 x 9 = 27 bông."
+        }
+      ]
+    },
+    {
+      "id": "MATH2_MEDIUM_NEW_05",
+      "name": "Số có ba chữ số",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M2MN05Q01",
+          "question": "Số 'bốn trăm năm mươi hai' được viết là:",
+          "options": [
+            "402",
+            "542",
+            "425",
+            "452"
+          ],
+          "answer_index": 3,
+          "answer_text": "452",
+          "explanation": "Số gồm 4 trăm, 5 chục và 2 đơn vị."
+        },
+        {
+          "id": "M2MN05Q02",
+          "question": "Số 709 được đọc là:",
+          "options": [
+            "Bảy trăm chín mươi",
+            "Bảy trăm chín",
+            "Bảy trăm linh chín",
+            "Bảy không chín"
+          ],
+          "answer_index": 2,
+          "answer_text": "Bảy trăm linh chín",
+          "explanation": "Khi chữ số hàng chục là 0, ta đọc là 'linh'."
+        },
+        {
+          "id": "M2MN05Q03",
+          "question": "So sánh hai số 589 và 598. Dấu thích hợp là:",
+          "options": [
+            "<",
+            "=",
+            ">",
+            "+"
+          ],
+          "answer_index": 0,
+          "answer_text": "<",
+          "explanation": "Hai số có cùng chữ số hàng trăm (5). So sánh chữ số hàng chục, 8 < 9. Vậy 589 < 598."
+        },
+        {
+          "id": "M2MN05Q04",
+          "question": "Số bé nhất có ba chữ số là số nào?",
+          "options": [
+            "999",
+            "100",
+            "101",
+            "111"
+          ],
+          "answer_index": 1,
+          "answer_text": "100",
+          "explanation": "Số bé nhất có ba chữ số bắt đầu bằng 1, tiếp theo là hai số 0."
+        },
+        {
+          "id": "M2MN05Q05",
+          "question": "Số liền sau của số 399 là số nào?",
+          "options": [
+            "390",
+            "398",
+            "400",
+            "401"
+          ],
+          "answer_index": 2,
+          "answer_text": "400",
+          "explanation": "Số liền sau của một số là số đó cộng thêm 1. 399 + 1 = 400."
+        },
+        {
+          "id": "M2MN05Q06",
+          "question": "Số liền trước của số 800 là số nào?",
+          "options": [
+            "700",
+            "799",
+            "790",
+            "801"
+          ],
+          "answer_index": 1,
+          "answer_text": "799",
+          "explanation": "Số liền trước của một số là số đó trừ đi 1. 800 - 1 = 799."
+        },
+        {
+          "id": "M2MN05Q07",
+          "question": "Sắp xếp các số sau theo thứ tự từ bé đến lớn: 678, 876, 687, 786",
+          "options": [
+            "678, 786, 687, 876",
+            "876, 786, 687, 678",
+            "678, 687, 786, 876",
+            "687, 678, 876, 786"
+          ],
+          "answer_index": 2,
+          "answer_text": "678, 687, 786, 876",
+          "explanation": "So sánh chữ số hàng trăm trước, sau đó đến hàng chục và hàng đơn vị."
+        }
+      ]
+    }
+  ]
+}

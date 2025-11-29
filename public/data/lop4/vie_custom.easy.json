@@ -1,0 +1,568 @@
+{
+  "meta": {
+    "grade": 4,
+    "subject": "Tiếng Việt",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "easy",
+    "source": "Custom-made from TOC"
+  },
+  "topics": [
+    {
+      "id": "VIE4E_CUSTOM",
+      "name": "Bộ đề tùy chỉnh - Dễ",
+      "questions": [
+        {
+          "question": "Từ nào sau đây là danh từ riêng?",
+          "options": [
+            "cô bé",
+            "danh từ",
+            "Mi-đát",
+            "nhà vua"
+          ],
+          "answer_index": 2,
+          "answer_text": "Mi-đát"
+        },
+        {
+          "question": "Trong câu 'Bé thích đọc truyện cổ tích.', từ nào là động từ?",
+          "options": [
+            "Bé",
+            "thích",
+            "truyện",
+            "cổ tích"
+          ],
+          "answer_index": 1,
+          "answer_text": "thích"
+        },
+        {
+          "question": "Đâu là tên một bài đọc trong chủ điểm 'Tuổi nhỏ làm việc nhỏ'?",
+          "options": [
+            "Điều ước của vua Mi-đát",
+            "Cuộc phiêu lưu của bồ công anh",
+            "Lên nương",
+            "Bác sĩ của nhân dân"
+          ],
+          "answer_index": 2,
+          "answer_text": "Lên nương"
+        },
+        {
+          "question": "Danh từ 'sông Hương' được viết đúng chính tả chưa?",
+          "options": [
+            "Rồi, vì 'sông' là danh từ chung, 'Hương' là danh từ riêng.",
+            "Chưa, phải viết là 'Sông Hương'.",
+            "Chưa, phải viết là 'Sông hương'.",
+            "Rồi, vì cả hai đều là danh từ riêng."
+          ],
+          "answer_index": 1,
+          "answer_text": "Chưa, phải viết là 'Sông Hương'."
+        },
+        {
+          "question": "Loại văn bản nào yêu cầu 'Lập dàn ý' trong các bài học đã cho?",
+          "options": [
+            "Văn kể chuyện",
+            "Văn miêu tả cây cối",
+            "Cả hai loại trên",
+            "Không có loại nào"
+          ],
+          "answer_index": 2,
+          "answer_text": "Cả hai loại trên"
+        },
+        {
+          "question": "Từ 'viết' trong cụm 'Luyện tập về danh từ' thuộc loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Không phải các loại trên"
+          ],
+          "answer_index": 1,
+          "answer_text": "Động từ"
+        },
+        {
+          "question": "Chủ đề 'Cuộc sống mến yêu' nói về điều gì?",
+          "options": [
+            "Tình yêu quê hương, đất nước",
+            "Những chuyến phiêu lưu kỳ thú",
+            "Công việc hàng ngày của người lớn",
+            "Tình cảm gia đình"
+          ],
+          "answer_index": 0,
+          "answer_text": "Tình yêu quê hương, đất nước"
+        },
+        {
+          "question": "Từ 'Trái Đất' là danh từ chung hay danh từ riêng?",
+          "options": [
+            "Danh từ chung",
+            "Danh từ riêng",
+            "Cả hai đều sai",
+            "Động từ"
+          ],
+          "answer_index": 1,
+          "answer_text": "Danh từ riêng"
+        },
+        {
+          "question": "Trong các từ sau, từ nào là danh từ chung: Hà Nội, An, bạn bè, Cửu Long?",
+          "options": [
+            "Hà Nội",
+            "bạn bè",
+            "An",
+            "Cửu Long"
+          ],
+          "answer_index": 1,
+          "answer_text": "bạn bè"
+        },
+        {
+          "question": "Từ 'yêu' trong câu 'Em yêu trường em' là loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Tính từ",
+            "Động từ",
+            "Trạng từ"
+          ],
+          "answer_index": 2,
+          "answer_text": "Động từ"
+        },
+        {
+          "question": "Tìm động từ trong câu: 'Mẹ đang nấu cơm.'",
+          "options": [
+            "Mẹ",
+            "nấu",
+            "cơm",
+            "đang"
+          ],
+          "answer_index": 1,
+          "answer_text": "nấu"
+        },
+        {
+          "question": "Bước đầu tiên khi viết một bài văn kể chuyện thường là gì?",
+          "options": [
+            "Viết kết bài",
+            "Viết thân bài",
+            "Lập dàn ý",
+            "Viết mở bài"
+          ],
+          "answer_index": 2,
+          "answer_text": "Lập dàn ý"
+        },
+        {
+          "question": "Bài văn kể chuyện thường có mấy phần chính?",
+          "options": [
+            "1 phần",
+            "2 phần",
+            "3 phần (Mở bài, Thân bài, Kết bài)",
+            "4 phần"
+          ],
+          "answer_index": 2,
+          "answer_text": "3 phần (Mở bài, Thân bài, Kết bài)"
+        },
+        {
+          "question": "Bài đọc 'Đoá hoa đồng thoại' thuộc chủ điểm nào?",
+          "options": [
+            "Cuộc sống mến yêu",
+            "Tuổi nhỏ làm việc nhỏ",
+            "Khám phá thế giới",
+            "Ước mơ tuổi thơ"
+          ],
+          "answer_index": 1,
+          "answer_text": "Tuổi nhỏ làm việc nhỏ"
+        },
+        {
+          "question": "Vua Mi-đát là nhân vật trong bài đọc nào?",
+          "options": [
+            "Lên nương",
+            "Gieo ngày mới",
+            "Điều ước của vua Mi-đát",
+            "Cô bé ấy đã lớn"
+          ],
+          "answer_index": 2,
+          "answer_text": "Điều ước của vua Mi-đát"
+        },
+        {
+          "question": "Dấu chấm dùng để làm gì?",
+          "options": [
+            "Kết thúc một câu hỏi",
+            "Ngăn cách các bộ phận trong câu",
+            "Bắt đầu một câu mới",
+            "Kết thúc một câu kể"
+          ],
+          "answer_index": 3,
+          "answer_text": "Kết thúc một câu kể"
+        },
+        {
+          "question": "Câu 'Bạn đang làm gì?' là loại câu gì?",
+          "options": [
+            "Câu kể",
+            "Câu cảm",
+            "Câu hỏi",
+            "Câu cầu khiến"
+          ],
+          "answer_index": 2,
+          "answer_text": "Câu hỏi"
+        },
+        {
+          "question": "Khi miêu tả cây cối, chúng ta thường quan sát những gì đầu tiên?",
+          "options": [
+            "Mùi vị của quả",
+            "Âm thanh của lá",
+            "Hình dáng bao quát của cây",
+            "Cảm giác khi sờ vào thân cây"
+          ],
+          "answer_index": 2,
+          "answer_text": "Hình dáng bao quát của cây"
+        },
+        {
+          "question": "Để bài văn tả cây cối sinh động, ta có thể dùng giác quan nào?",
+          "options": [
+            "Chỉ dùng mắt (thị giác)",
+            "Chỉ dùng tai (thính giác)",
+            "Nên kết hợp nhiều giác quan",
+            "Chỉ dùng mũi (khứu giác)"
+          ],
+          "answer_index": 2,
+          "answer_text": "Nên kết hợp nhiều giác quan"
+        },
+        {
+          "question": "Hoạt động 'Nói và nghe' giúp chúng ta rèn luyện kỹ năng gì?",
+          "options": [
+            "Chỉ kỹ năng nói",
+            "Kỹ năng giao tiếp",
+            "Chỉ kỹ năng nghe",
+            "Kỹ năng viết"
+          ],
+          "answer_index": 1,
+          "answer_text": "Kỹ năng giao tiếp"
+        },
+        {
+          "question": "Từ nào viết SAI chính tả?",
+          "options": [
+            "dòng sông",
+            "Sông Hồng",
+            "dòng Sông",
+            "sông nước"
+          ],
+          "answer_index": 2,
+          "answer_text": "dòng Sông"
+        },
+        {
+          "question": "Động từ là những từ chỉ...",
+          "options": [
+            "Sự vật, hiện tượng",
+            "Đặc điểm, tính chất",
+            "Hoạt động, trạng thái",
+            "Số lượng, thứ tự"
+          ],
+          "answer_index": 2,
+          "answer_text": "Hoạt động, trạng thái"
+        },
+        {
+          "question": "Bài đọc 'Lên nương' có trong chủ điểm nào?",
+          "options": [
+            "Tuổi nhỏ làm việc nhỏ",
+            "Cuộc sống mến yêu",
+            "Cả hai đều đúng",
+            "Cả hai đều sai"
+          ],
+          "answer_index": 0,
+          "answer_text": "Tuổi nhỏ làm việc nhỏ"
+        },
+        {
+          "question": "Tên riêng 'Mi-đát' cần được viết hoa chữ cái nào?",
+          "options": [
+            "Chỉ chữ 'M'",
+            "Chỉ chữ 'đ'",
+            "Cả 'M' và 'đ'",
+            "Không cần viết hoa"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chỉ chữ 'M'"
+        },
+        {
+          "question": "Loại văn bản nào kể lại một chuỗi sự việc có đầu có cuối?",
+          "options": [
+            "Văn miêu tả",
+            "Văn kể chuyện",
+            "Văn biểu cảm",
+            "Thơ"
+          ],
+          "answer_index": 1,
+          "answer_text": "Văn kể chuyện"
+        },
+        {
+          "question": "Trong các từ sau, từ nào là động từ: 'cái cây', 'xanh', 'lớn', 'trồng'?",
+          "options": [
+            "cái cây",
+            "xanh",
+            "lớn",
+            "trồng"
+          ],
+          "answer_index": 3,
+          "answer_text": "trồng"
+        },
+        {
+          "question": "Đâu là tên một bài luyện từ và câu trong mục lục?",
+          "options": [
+            "Danh từ",
+            "Viết bài văn kể chuyện",
+            "Đoá hoa đồng thoại",
+            "Gieo ngày mới"
+          ],
+          "answer_index": 0,
+          "answer_text": "Danh từ"
+        },
+        {
+          "question": "Mục 'Viết' ở Bài 1 (Tuần 1) hướng dẫn viết loại văn bản nào?",
+          "options": [
+            "Văn miêu tả cây cối",
+            "Bài văn kể chuyện",
+            "Thư",
+            "Văn tả cảnh"
+          ],
+          "answer_index": 1,
+          "answer_text": "Bài văn kể chuyện"
+        },
+        {
+          "question": "Từ 'bồ công anh' trong 'Cuộc phiêu lưu của bồ công anh' là danh từ chung hay riêng?",
+          "options": [
+            "Danh từ riêng",
+            "Danh từ chung",
+            "Động từ",
+            "Tính từ"
+          ],
+          "answer_index": 1,
+          "answer_text": "Danh từ chung"
+        },
+        {
+          "question": "Chủ điểm 'Tuổi nhỏ làm việc nhỏ' hướng đến điều gì?",
+          "options": [
+            "Ca ngợi những việc làm tốt của trẻ em",
+            "Kể về các loài cây",
+            "Miêu tả các vị vua",
+            "Kể về các bác sĩ"
+          ],
+          "answer_index": 0,
+          "answer_text": "Ca ngợi những việc làm tốt của trẻ em"
+        },
+        {
+          "question": "Câu 'Ôi, bông hoa đẹp quá!' thuộc loại câu gì?",
+          "options": [
+            "Câu kể",
+            "Câu hỏi",
+            "Câu cầu khiến",
+            "Câu cảm"
+          ],
+          "answer_index": 3,
+          "answer_text": "Câu cảm"
+        },
+        {
+          "question": "Từ nào sau đây viết đúng chính tả tên riêng nước ngoài?",
+          "options": [
+            "Mi đát",
+            "Mi-đát",
+            "mi-đát",
+            "Mi-Đát"
+          ],
+          "answer_index": 1,
+          "answer_text": "Mi-đát"
+        },
+        {
+          "question": "Trong bài 'Bác sĩ của nhân dân', nhân vật chính làm nghề gì?",
+          "options": [
+            "Giáo viên",
+            "Kỹ sư",
+            "Bác sĩ",
+            "Nông dân"
+          ],
+          "answer_index": 2,
+          "answer_text": "Bác sĩ"
+        },
+        {
+          "question": "Từ 'luyện tập' trong 'Luyện tập về chủ ngữ' là loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Cụm danh từ"
+          ],
+          "answer_index": 1,
+          "answer_text": "Động từ"
+        },
+        {
+          "question": "Mục 'Nói và nghe' ở Bài 2 (Tuần 1) nói về chủ đề gì?",
+          "options": [
+            "Kể chuyện lòng nhân ái",
+            "Xây dựng tủ sách lớp em",
+            "Kể về một tấm gương lạc quan",
+            "Tả một món ăn ngon"
+          ],
+          "answer_index": 1,
+          "answer_text": "Xây dựng tủ sách lớp em"
+        },
+        {
+          "question": "Kết thúc một bài văn thường gọi là gì?",
+          "options": [
+            "Mở bài",
+            "Thân bài",
+            "Đoạn văn",
+            "Kết bài"
+          ],
+          "answer_index": 3,
+          "answer_text": "Kết bài"
+        },
+        {
+          "question": "Trong các tên bài sau, đâu không phải là tên một bài đọc?",
+          "options": [
+            "Luyện tập về danh từ",
+            "Lên nương",
+            "Gieo ngày mới",
+            "Xôn xao mùa hè"
+          ],
+          "answer_index": 0,
+          "answer_text": "Luyện tập về danh từ"
+        },
+        {
+          "question": "Danh từ 'Hà Nội' là danh từ chung hay danh từ riêng?",
+          "options": [
+            "Danh từ chung",
+            "Danh từ riêng",
+            "Động từ",
+            "Tính từ"
+          ],
+          "answer_index": 1,
+          "answer_text": "Danh từ riêng"
+        },
+        {
+          "question": "Trong câu 'Bầu trời trong xanh.', từ nào là tính từ?",
+          "options": [
+            "Bầu trời",
+            "trong",
+            "xanh",
+            "trong xanh"
+          ],
+          "answer_index": 3,
+          "answer_text": "trong xanh"
+        },
+        {
+          "question": "Đâu là một hoạt động trong mục 'Nói và nghe'?",
+          "options": [
+            "Nghe – kể câu chuyện về lòng nhân ái",
+            "Luyện tập về chủ ngữ",
+            "Viết bài văn kể chuyện",
+            "Đọc bài 'Lên nương'"
+          ],
+          "answer_index": 0,
+          "answer_text": "Nghe – kể câu chuyện về lòng nhân ái"
+        },
+        {
+          "question": "Loại văn bản nào tập trung vào việc tái hiện đặc điểm của sự vật, con người hoặc cảnh vật?",
+          "options": [
+            "Văn kể chuyện",
+            "Văn miêu tả",
+            "Thơ",
+            "Kịch"
+          ],
+          "answer_index": 1,
+          "answer_text": "Văn miêu tả"
+        },
+        {
+          "question": "Mục 'Luyện từ và câu' ở tuần 21 nói về vấn đề gì?",
+          "options": [
+            "Luyện tập về chủ ngữ",
+            "Danh từ",
+            "Câu",
+            "Động từ"
+          ],
+          "answer_index": 0,
+          "answer_text": "Luyện tập về chủ ngữ"
+        },
+        {
+          "question": "Tìm danh từ trong câu: 'Ngôi nhà của em rất đẹp.'",
+          "options": [
+            "Ngôi nhà",
+            "của em",
+            "rất đẹp",
+            "đẹp"
+          ],
+          "answer_index": 0,
+          "answer_text": "Ngôi nhà"
+        },
+        {
+          "question": "Từ 'phiêu lưu' trong 'Cuộc phiêu lưu của bồ công anh' mang ý nghĩa gì?",
+          "options": [
+            "Một chuyến đi nguy hiểm, kỳ thú",
+            "Một công việc hàng ngày",
+            "Một giấc mơ",
+            "Một bữa ăn"
+          ],
+          "answer_index": 0,
+          "answer_text": "Một chuyến đi nguy hiểm, kỳ thú"
+        },
+        {
+          "question": "Môn học 'Tiếng Việt' giúp chúng ta điều gì?",
+          "options": [
+            "Chỉ học về lịch sử",
+            "Rèn luyện kỹ năng đọc, viết, nói, nghe",
+            "Chỉ học về toán học",
+            "Học cách vẽ"
+          ],
+          "answer_index": 1,
+          "answer_text": "Rèn luyện kỹ năng đọc, viết, nói, nghe"
+        },
+        {
+          "question": "Tên bài đọc nào có liên quan đến một hiện tượng của mùa hè?",
+          "options": [
+            "Gieo ngày mới",
+            "Xôn xao mùa hè",
+            "Lên nương",
+            "Điều ước của vua Mi-đát"
+          ],
+          "answer_index": 1,
+          "answer_text": "Xôn xao mùa hè"
+        },
+        {
+          "question": "Từ 'chăm chỉ' là loại từ gì?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Trạng từ"
+          ],
+          "answer_index": 2,
+          "answer_text": "Tính từ"
+        },
+        {
+          "question": "Để viết một bài văn, sau khi lập dàn ý, chúng ta sẽ làm gì tiếp theo?",
+          "options": [
+            "Nộp bài",
+            "Đọc lại bài",
+            "Viết thành bài văn hoàn chỉnh",
+            "Nghĩ ra một ý tưởng khác"
+          ],
+          "answer_index": 2,
+          "answer_text": "Viết thành bài văn hoàn chỉnh"
+        },
+        {
+          "question": "Bài đọc 'Món ngon mùa nước nổi' gợi tả về đặc sản ở vùng nào?",
+          "options": [
+            "Vùng núi cao",
+            "Vùng biển",
+            "Vùng sông nước miền Tây",
+            "Thành phố lớn"
+          ],
+          "answer_index": 2,
+          "answer_text": "Vùng sông nước miền Tây"
+        },
+        {
+          "question": "Từ 'nhân dân' là loại từ gì?",
+          "options": [
+            "Danh từ chung",
+            "Danh từ riêng",
+            "Động từ",
+            "Tính từ"
+          ],
+          "answer_index": 0,
+          "answer_text": "Danh từ chung"
+        }
+      ]
+    }
+  ]
+}
