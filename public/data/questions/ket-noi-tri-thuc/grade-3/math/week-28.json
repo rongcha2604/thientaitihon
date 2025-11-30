@@ -1,0 +1,183 @@
+{
+  "week": 28,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 28 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số 52 425 được đọc là:",
+          "options": [
+            "Năm hai bốn hai năm",
+            "Năm mươi hai nghìn bốn trăm hai lăm",
+            "Năm mươi hai nghìn bốn trăm hai mươi lăm",
+            "Năm hai nghìn bốn trăm hai mươi lăm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 52 425 được đọc là: Năm mươi hai nghìn bốn trăm hai mươi lăm",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số 32 549 có chữ số hàng chục nghìn là số mấy?",
+          "options": [
+            "3",
+            "5",
+            "4",
+            "2"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số 32 549 có các chữ số: hàng chục nghìn là 3, hàng nghìn là 2, hàng trăm là 5, hàng chục là 4, hàng đơn vị là 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số 42 429 gồm:",
+          "options": [
+            "4 chục nghìn 4 nghìn 4 trăm 9 chục 2 đơn vị",
+            "4 chục nghìn 3 nghìn 4 trăm 2 chục 9 đơn vị",
+            "4 chục nghìn 2 nghìn 2 trăm 4 chục 9 đơn vị",
+            "4 chục nghìn 2 nghìn 4 trăm 2 chục 9 đơn vị"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 42 429 gồm: 4 chục nghìn (40 000), 2 nghìn (2 000), 4 trăm (400), 2 chục (20), 9 đơn vị (9)",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "52 325 > ............ Số cần điền vào chỗ chấm là:",
+          "options": [
+            "52 323",
+            "52 325",
+            "52 326",
+            "53 234"
+          ],
+          "correctAnswer": 0,
+          "explanation": "52 325 > 52 323 vì 52 325 lớn hơn 52 323. Các số 52 325, 52 326, 53 234 đều lớn hơn hoặc bằng 52 325 nên không thỏa mãn",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Dãy số nào sau đây được xếp theo thứ tự từ bé đến lớn?",
+          "options": [
+            "12 634; 12 424; 14 752; 14 875; 15 431",
+            "12 424; 12 634; 14 752; 14 875; 15 431",
+            "12 424; 12 634; 14 875; 14 752; 15 431",
+            "12 634; 12 424; 14 875; 14 752; 15 431"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Dãy số được xếp theo thứ tự từ bé đến lớn: 12 424 < 12 634 < 14 752 < 14 875 < 15 431",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Cho dãy số 88 910; 88 920; 88 930; .....; ......; ...... Ba số tiếp theo của dãy số trên là:",
+          "options": [
+            "88 940; 88 945; 88 950",
+            "88 935; 88 940; 88 945",
+            "88 945; 88 950; 88 955",
+            "88 940; 88 950; 88 960"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Dãy số tăng dần 10 đơn vị: 88 910, 88 920, 88 930. Ba số tiếp theo là: 88 940, 88 950, 88 960",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Cho dãy số: 56 215; 53 768; 55 889; 56 990; 54 766. Sắp xếp các số trên theo thứ tự từ bé đến lớn:",
+          "options": [
+            "54 766; 53 768; 55 889; 56 215; 56 990",
+            "53 768; 54 766; 55 889; 56 215; 56 990",
+            "53 768; 55 889; 54 766; 56 215; 56 990",
+            "56 990; 56 215; 55 889; 54 766; 53 768"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Sắp xếp từ bé đến lớn: 53 768 < 54 766 < 55 889 < 56 215 < 56 990",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Cho dãy số: 56 215; 53 768; 55 889; 56 990; 54 766. Sắp xếp các số trên theo thứ tự từ lớn đến bé:",
+          "options": [
+            "56 990; 56 215; 55 889; 54 766; 53 768",
+            "56 990; 55 889; 56 215; 54 766; 53 768",
+            "53 768; 54 766; 55 889; 56 215; 56 990",
+            "56 215; 56 990; 55 889; 54 766; 53 768"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Sắp xếp từ lớn đến bé: 56 990 > 56 215 > 55 889 > 54 766 > 53 768",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Cho bảng số liệu quãng đường từ Việt Nam đến các nước: Anh: 10 033 km, Cu Ba: 16 008 km, Pháp: 10 125 km, Pê-ru: 19 354 km. Quãng đường từ Việt Nam đến nước nào ngắn nhất?",
+          "options": [
+            "Cu Ba",
+            "Pháp",
+            "Anh",
+            "Pê-ru"
+          ],
+          "correctAnswer": 2,
+          "explanation": "So sánh quãng đường: Anh 10 033 km, Pháp 10 125 km, Cu Ba 16 008 km, Pê-ru 19 354 km. Quãng đường đến Anh ngắn nhất (10 033 km)",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Cho bảng số liệu quãng đường từ Việt Nam đến các nước: Anh: 10 033 km, Cu Ba: 16 008 km, Pháp: 10 125 km, Pê-ru: 19 354 km. Quãng đường từ Việt Nam đến nước nào dài nhất?",
+          "options": [
+            "Anh",
+            "Pê-ru",
+            "Cu Ba",
+            "Pháp"
+          ],
+          "correctAnswer": 1,
+          "explanation": "So sánh quãng đường: Anh 10 033 km, Pháp 10 125 km, Cu Ba 16 008 km, Pê-ru 19 354 km. Quãng đường đến Pê-ru dài nhất (19 354 km)",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Số 52 410 được viết thành tổng là:",
+          "options": [
+            "50 000 + 2 000 + 410",
+            "52 000 + 400 + 10",
+            "50 000 + 2 000 + 400 + 10",
+            "50 000 + 2 400 + 10"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 52 410 = 50 000 + 2 000 + 400 + 10 (5 chục nghìn + 2 nghìn + 4 trăm + 1 chục)",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Năm bạn Trung, Trí, Ngọc, Mai, Dũng chơi bắt bóng. Có 10 quả bóng đánh số từ 12 450 đến 12 459. Trung đã bắt được bóng số 12 456 và 12 453. Trí đã bắt được bóng số 12 450 và 12 459. Hỏi bạn Ngọc có thể bắt được quả bóng số nào?",
+          "options": [
+            "12 450",
+            "12 456",
+            "12 459",
+            "12 457"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Các bóng còn lại: 12 451, 12 452, 12 454, 12 455, 12 457, 12 458. Bạn Ngọc có thể bắt được một trong các bóng này, ví dụ bóng số 12 457",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

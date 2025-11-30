@@ -1,13 +1,16 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { Page } from './types';
 import BottomNav from './components/BottomNav';
+import ActivationScreen from './components/security/ActivationScreen';
+import LicenseStatus from './components/security/LicenseStatus';
+import { isLicenseActive } from './src/lib/license';
+import { isLicenseRequired } from './src/lib/licenseCheck';
 
 // Lazy load pages for code splitting
 const HocPage = lazy(() => import('./components/pages/HocPage'));
 const OnTapPage = lazy(() => import('./components/pages/OnTapPage'));
 const AlbumPage = lazy(() => import('./components/pages/AlbumPage'));
 const HoSoPage = lazy(() => import('./components/pages/HoSoPage'));
-const PhuHuynhPage = lazy(() => import('./components/pages/PhuHuynhPage'));
 const ExercisePage = lazy(() => import('./components/pages/ExercisePage'));
 import VietnameseScenery from './components/VietnameseScenery';
 import LoginPage from './src/components/auth/LoginPage';
@@ -37,11 +40,31 @@ const App: React.FC = () => {
     examType?: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH';
   } | null>(null);
   const { user, loading, isAuthenticated } = useAuth();
+  const [needsLicense, setNeedsLicense] = useState(false);
+  const [hasLicense, setHasLicense] = useState(false);
+  const [licenseChecked, setLicenseChecked] = useState(false);
   
   // Auto-sync data when app starts (only on mobile/Capacitor)
   const { isSyncing, syncProgress, lastSync, error: syncError } = useSyncData(
     typeof window !== 'undefined' && (window as any).Capacitor !== undefined
   );
+
+  // Check license requirement
+  useEffect(() => {
+    const checkLicense = async () => {
+      if (!loading) {
+        const userId = user?.id || null;
+        const requiresLicense = await isLicenseRequired(userId);
+        const licenseActive = isLicenseActive();
+        
+        setNeedsLicense(requiresLicense);
+        setHasLicense(licenseActive);
+        setLicenseChecked(true);
+      }
+    };
+    
+    checkLicense();
+  }, [loading, user]);
 
   // Prefetch pages khi user có thể navigate (optimize performance)
   useEffect(() => {
@@ -50,7 +73,6 @@ const App: React.FC = () => {
       () => import('./components/pages/OnTapPage'),
       () => import('./components/pages/AlbumPage'),
       () => import('./components/pages/HoSoPage'),
-      () => import('./components/pages/PhuHuynhPage'),
     ];
     
     // Prefetch sau 2 giây (không block initial load)
@@ -75,13 +97,12 @@ const App: React.FC = () => {
     window.dispatchEvent(new Event('exercisePageClosed'));
   };
 
-  const handleNavigate = (page: 'Hoc' | 'OnTap' | 'Album' | 'HoSo' | 'PhuHuynh') => {
+  const handleNavigate = (page: 'Hoc' | 'OnTap' | 'Album' | 'HoSo') => {
     const pageMap: { [key: string]: Page } = {
       'Hoc': Page.Hoc,
       'OnTap': Page.OnTap,
       'Album': Page.Album,
       'HoSo': Page.HoSo,
-      'PhuHuynh': Page.PhuHuynh,
     };
     setActivePage(pageMap[page]);
   };
@@ -111,20 +132,30 @@ const App: React.FC = () => {
         return <AlbumPage />;
       case Page.HoSo:
         return <HoSoPage />;
-      case Page.PhuHuynh:
-        // Tab "Ủng hộ" mở DonateModal trực tiếp
-        return <PhuHuynhPage />;
       default:
         return <HocPage onStartWeek={handleStartWeek} />;
     }
   };
 
   // Show loading screen
-  if (loading) {
+  if (loading || !licenseChecked) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[#FDFBF5]">
         <div className="text-2xl font-black text-amber-900">Đang tải...</div>
       </div>
+    );
+  }
+
+  // Show activation screen if license required but not active
+  if (needsLicense && !hasLicense) {
+    return (
+      <ActivationScreen
+        onActivated={() => {
+          setHasLicense(true);
+          // Reload to refresh UI
+          window.location.reload();
+        }}
+      />
     );
   }
 
@@ -149,6 +180,8 @@ const App: React.FC = () => {
           <OfflineIndicator />
           <InstallPrompt />
           <VietnameseScenery />
+          {/* License Status (if active) */}
+          {hasLicense && <LicenseStatus />}
           <div className="relative w-full max-w-5xl mx-auto min-h-screen">
             {/* Admin mode button (only for admin users) */}
             {user?.role === 'admin' && (

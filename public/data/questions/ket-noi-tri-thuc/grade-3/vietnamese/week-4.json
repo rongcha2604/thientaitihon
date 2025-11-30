@@ -1,0 +1,183 @@
+{
+  "week": 4,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 4 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Giờ ra chơi, sân trường ồn ào như vỡ tổ. Nhóm thì nhảy dây, nhóm thì đá cầu. Dưới gốc cây phượng già, Mai và Hoa đang ngồi đọc truyện. Thỉnh thoảng, hai bạn lại cùng nhau cười khúc khích vì một chi tiết vui nhộn.\"\n\nSân trường giờ ra chơi được so sánh với hình ảnh gì?",
+          "options": [
+            "Bầy chim non",
+            "Cái chợ",
+            "Ngày hội",
+            "Vỡ tổ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong đoạn văn có viết: \"sân trường ồn ào như vỡ tổ\" - sân trường được so sánh với hình ảnh \"vỡ tổ\" (tổ chim bị vỡ, chim con bay tán loạn, ồn ào).",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Giờ ra chơi, sân trường ồn ào như vỡ tổ. Nhóm thì nhảy dây, nhóm thì đá cầu. Dưới gốc cây phượng già, Mai và Hoa đang ngồi đọc truyện. Thỉnh thoảng, hai bạn lại cùng nhau cười khúc khích vì một chi tiết vui nhộn.\"\n\nDưới gốc cây phượng, Mai và Hoa đang làm gì?",
+          "options": [
+            "Đọc truyện",
+            "Nhảy dây",
+            "Đá cầu",
+            "Ăn quà vặt"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong đoạn văn có viết: \"Dưới gốc cây phượng già, Mai và Hoa đang ngồi đọc truyện\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Giờ ra chơi, sân trường ồn ào như vỡ tổ. Nhóm thì nhảy dây, nhóm thì đá cầu. Dưới gốc cây phượng già, Mai và Hoa đang ngồi đọc truyện. Thỉnh thoảng, hai bạn lại cùng nhau cười khúc khích vì một chi tiết vui nhộn.\"\n\nVì sao hai bạn cười khúc khích?",
+          "options": [
+            "Vì thấy bạn khác bị ngã",
+            "Vì cô giáo kể chuyện cười",
+            "Vì một chi tiết vui nhộn trong truyện",
+            "Vì được điểm cao"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong đoạn văn có viết: \"hai bạn lại cùng nhau cười khúc khích vì một chi tiết vui nhộn\" - hai bạn cười vì chi tiết vui nhộn trong truyện đang đọc.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Giờ ra chơi, sân trường ồn ào như vỡ tổ. Nhóm thì nhảy dây, nhóm thì đá cầu. Dưới gốc cây phượng già, Mai và Hoa đang ngồi đọc truyện. Thỉnh thoảng, hai bạn lại cùng nhau cười khúc khích vì một chi tiết vui nhộn.\"\n\nTừ \"ồn ào\" trong đoạn văn là từ chỉ gì?",
+          "options": [
+            "Sự vật",
+            "Đặc điểm",
+            "Hoạt động",
+            "Tên riêng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ \"ồn ào\" là từ chỉ đặc điểm - nó miêu tả tính chất, đặc điểm của sân trường (sân trường như thế nào? - ồn ào).",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Tìm từ ngữ so sánh trong câu: \"Hai bàn tay em như hai con bướm xinh.\"",
+          "options": [
+            "Hai bàn tay",
+            "Em",
+            "Như",
+            "Hai con bướm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ ngữ so sánh là \"Như\" - đây là từ dùng để so sánh, nối \"Hai bàn tay em\" với \"hai con bướm xinh\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Điền dấu câu thích hợp vào ô trống: \"Mẹ ơi [ ] con đi học về rồi ạ [ ]\"",
+          "options": [
+            "Dấu phẩy, dấu chấm",
+            "Dấu phẩy, dấu chấm hỏi",
+            "Dấu chấm, dấu phẩy",
+            "Dấu phẩy, dấu chấm than"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu đúng là: \"Mẹ ơi, con đi học về rồi ạ!\" - Sau \"Mẹ ơi\" cần dấu phẩy, cuối câu là câu cảm thán nên dùng dấu chấm than.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào viết **sai** chính tả?",
+          "options": [
+            "Ngỉ ngơi",
+            "Ngọt ngào",
+            "Nghe ngóng",
+            "Nghĩ nghợi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ viết sai là \"Ngỉ ngơi\" - đúng phải là \"Nghỉ ngơi\" (viết bằng \"ngh\"). Theo quy tắc chính tả: \"ngh\" đứng trước các nguyên âm e, ê, i; \"ng\" đứng trước các nguyên âm a, o, ô, ơ, u, ư.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Nhóm từ nào dưới đây là từ chỉ cộng đồng?",
+          "options": [
+            "Lớp học, bút chì, thước kẻ",
+            "Lớp học, trường học, xóm làng",
+            "Xóm làng, đi cấy, gặt lúa",
+            "Cộng đồng, cá nhân, ngủ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Nhóm \"Lớp học, trường học, xóm làng\" gồm các từ chỉ cộng đồng - đây là các danh từ chỉ tập thể, nhóm người. Các nhóm khác có lẫn từ chỉ hoạt động (\"đi cấy\", \"gặt lúa\", \"ngủ\") hoặc từ chỉ đồ vật (\"bút chì\", \"thước kẻ\").",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Câu nào dưới đây sử dụng đúng dấu phẩy?",
+          "options": [
+            "Sách, vở bút thước, đều là đồ dùng học tập",
+            "Sách vở bút, thước đều là đồ dùng học tập",
+            "Sách, vở, bút, thước đều là đồ dùng học tập",
+            "Sách vở, bút thước, đều là đồ dùng học tập"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Câu đúng là: \"Sách, vở, bút, thước đều là đồ dùng học tập\" - dấu phẩy được đặt giữa các từ trong dãy liệt kê để ngăn cách các thành phần cùng loại.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Chọn từ thích hợp điền vào chỗ trống: \"Một con ngựa đau, cả tàu bỏ ......\"",
+          "options": [
+            "Cỏ",
+            "Ăn",
+            "Chạy",
+            "Đi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Thành ngữ đúng là \"Một con ngựa đau, cả tàu bỏ cỏ\" - nghĩa là khi một người trong tập thể gặp khó khăn, cả tập thể đều lo lắng, không yên.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào đồng nghĩa với từ \"chăm chỉ\"?",
+          "options": [
+            "Lười biếng",
+            "Cần cù",
+            "Thông minh",
+            "Nhanh nhẹn"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ đồng nghĩa với \"chăm chỉ\" là \"Cần cù\" - cả hai từ đều có nghĩa là siêng năng, chịu khó làm việc.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Câu \"Chú mèo mướp đang sưởi nắng bên thềm.\" có bộ phận \"đang sưởi nắng bên thềm\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Ai?",
+            "Là gì?",
+            "Thế nào?",
+            "Làm gì?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bộ phận \"đang sưởi nắng bên thềm\" trong câu \"Chú mèo mướp đang sưởi nắng bên thềm\" trả lời cho câu hỏi \"Làm gì?\" - đây là vị ngữ chỉ hoạt động của chủ ngữ.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

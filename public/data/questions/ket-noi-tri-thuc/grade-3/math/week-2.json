@@ -1,0 +1,183 @@
+{
+  "week": 2,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 2 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Biết [ ] + 132 = 454, số thích hợp điền vào ô trống là:",
+          "options": [
+            "322",
+            "320",
+            "324",
+            "326"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Gọi số cần tìm là x: x + 132 = 454, suy ra x = 454 - 132 = 322",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Hiệu của hai số bằng 8, số trừ bằng 5. Giá trị của số bị trừ là:",
+          "options": [
+            "12",
+            "14",
+            "13",
+            "15"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số bị trừ = Hiệu + Số trừ = 8 + 5 = 13",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số trừ là bao nhiêu biết rằng số bị trừ là 352 và hiệu là 338?",
+          "options": [
+            "15",
+            "14",
+            "16",
+            "17"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số trừ = Số bị trừ - Hiệu = 352 - 338 = 14",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Tìm số bị trừ biết số trừ là 620 và hiệu là 380:",
+          "options": [
+            "990",
+            "1010",
+            "1020",
+            "1000"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số bị trừ = Số trừ + Hiệu = 620 + 380 = 1000",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Số thích hợp cần điền vào chỗ trống là: 10 < 5 × [ ] < 20",
+          "options": [
+            "3",
+            "2",
+            "4",
+            "5"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 × 2 = 10 (không lớn hơn 10), 5 × 3 = 15 (thỏa mãn 10 < 15 < 20), 5 × 4 = 20 (không nhỏ hơn 20). Vậy số cần tìm là 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Số cần điền vào ô trống trong phép tính sau là: [ ] × 5 = 95 - 55",
+          "options": [
+            "7",
+            "8",
+            "6",
+            "9"
+          ],
+          "correctAnswer": 1,
+          "explanation": "95 - 55 = 40. Gọi số cần tìm là x: x × 5 = 40, suy ra x = 40 : 5 = 8",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Mỗi bạn được cô giáo tặng 2 quyển vở. Biết số vở cô đã tặng là 20 quyển. Hỏi có bao nhiêu bạn được tặng vở?",
+          "options": [
+            "8 bạn",
+            "9 bạn",
+            "10 bạn",
+            "11 bạn"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số bạn được tặng vở = Tổng số vở : Số vở mỗi bạn = 20 : 2 = 10 bạn",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Mỗi túi có 5 kg gạo. 7 túi như vậy thì có tất cả bao nhiêu kg gạo?",
+          "options": [
+            "30 kg",
+            "40 kg",
+            "45 kg",
+            "35 kg"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tổng số kg gạo = Số kg mỗi túi × Số túi = 5 × 7 = 35 kg",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Mỗi chiếc xe đạp có 2 bánh xe. Hỏi có 18 chiếc bánh xe đạp thì lắp được mấy chiếc xe?",
+          "options": [
+            "9 chiếc",
+            "7 chiếc",
+            "8 chiếc",
+            "10 chiếc"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số chiếc xe = Tổng số bánh xe : Số bánh mỗi xe = 18 : 2 = 9 chiếc",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Mỗi ngôi sao có 5 cánh. Hỏi 6 ngôi sao có tất cả bao nhiêu cánh?",
+          "options": [
+            "25 cánh",
+            "30 cánh",
+            "35 cánh",
+            "40 cánh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tổng số cánh = Số cánh mỗi sao × Số sao = 5 × 6 = 30 cánh",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Mỗi bạn nhỏ có 2 cây kem. Hỏi 5 bạn nhỏ như vậy có bao nhiêu cây kem?",
+          "options": [
+            "8 cây",
+            "9 cây",
+            "10 cây",
+            "11 cây"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tổng số cây kem = Số kem mỗi bạn × Số bạn = 2 × 5 = 10 cây",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Có 30 bông hoa cắm vào các bình hoa, mỗi bình có 5 bông. Hỏi cắm được mấy bình hoa?",
+          "options": [
+            "5 bình",
+            "7 bình",
+            "8 bình",
+            "6 bình"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số bình hoa = Tổng số hoa : Số hoa mỗi bình = 30 : 5 = 6 bình",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

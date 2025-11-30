@@ -11,6 +11,7 @@ import { useAdaptiveDifficulty } from '../../contexts/AdaptiveDifficultyContext'
 import AdaptiveDifficulty from '../learning/AdaptiveDifficulty';
 import SuccessCelebration from '../common/SuccessCelebration';
 import { saveExerciseProgress, getExerciseProgress, clearExerciseProgress } from '../../src/lib/storage/exerciseProgress';
+import { clearLicenseCheckCache } from '../../src/lib/licenseCheck';
 import { awardCoins as awardCoinsAPI } from '../../src/lib/api/coins';
 import { getStarsForGrade, setStarsForGrade, getCoinsForGrade, setCoinsForGrade, addStarsForGrade, addCoinsForGrade } from '../../src/lib/storage/gradeStorage';
 
@@ -104,17 +105,8 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
     bookSeries: string,
     grade: number
   ): Promise<WeekData> => {
-    // Map book series name to folder name
-    const bookSeriesMap: { [key: string]: string } = {
-      'Kết nối tri thức': 'ket-noi-tri-thuc',
-      'Chân trời sáng tạo': 'chan-troi-sang-tao',
-      'Phát triển năng lực': 'cung-hoc',
-      'Bình đẳng & Dân chủ': 'vi-su-binh-dang',
-      'ket-noi-tri-thuc': 'ket-noi-tri-thuc',
-      'chan-troi-sang-tao': 'chan-troi-sang-tao',
-      'cung-hoc': 'cung-hoc',
-      'vi-su-binh-dang': 'vi-su-binh-dang',
-    };
+    // Hardcode bookSeriesFolder - chỉ dùng ket-noi-tri-thuc
+    const bookSeriesFolder = 'ket-noi-tri-thuc';
 
     const subjectMap: { [key: string]: string } = {
       'Toán': 'math',
@@ -122,8 +114,6 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
       'math': 'math',
       'vietnamese': 'vietnamese',
     };
-
-    const bookSeriesFolder = bookSeriesMap[bookSeries] || 'ket-noi-tri-thuc';
     const subjects = ['math', 'vietnamese']; // 2 môn: Toán, Tiếng Việt
 
     // Xác định range tuần dựa trên examType
@@ -131,10 +121,10 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
     if (examType === 'THI_HUONG') {
       weekRange = Array.from({ length: 18 }, (_, i) => i + 1); // Tuần 1-18
     } else if (examType === 'THI_HOI') {
-      weekRange = Array.from({ length: 17 }, (_, i) => i + 19); // Tuần 19-35
+      weekRange = Array.from({ length: 18 }, (_, i) => i + 19); // Tuần 19-36
     } else {
-      // THI ĐÌNH: Tất cả tuần (1-35)
-      weekRange = Array.from({ length: 35 }, (_, i) => i + 1);
+      // THI ĐÌNH: Tất cả tuần (1-36)
+      weekRange = Array.from({ length: 36 }, (_, i) => i + 1);
     }
 
     // Load tất cả questions từ các tuần và môn
@@ -166,9 +156,9 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
         }
       }
 
-      // Lấy ngẫu nhiên 10 câu từ môn này
+      // Lấy ngẫu nhiên 15 câu từ môn này (15 toán + 15 tiếng việt = 30 câu)
       const shuffled = subjectQuestions.sort(() => Math.random() - 0.5);
-      const selectedQuestions = shuffled.slice(0, 10);
+      const selectedQuestions = shuffled.slice(0, 15);
       allQuestions.push({ subject: subjectFolder, questions: selectedQuestions });
     }
 
@@ -212,20 +202,13 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
           return; // Không restore progress cho ôn tập
         }
 
-        // Map book series name to folder name
-        const bookSeriesMap: { [key: string]: string } = {
-          'Kết nối tri thức': 'ket-noi-tri-thuc',
-          'Chân trời sáng tạo': 'chan-troi-sang-tao',
-          'Phát triển năng lực': 'cung-hoc',
-          'Bình đẳng & Dân chủ': 'vi-su-binh-dang',
-        };
+        // Hardcode bookSeriesFolder - chỉ dùng ket-noi-tri-thuc
+        const bookSeriesFolder = 'ket-noi-tri-thuc';
 
         const subjectMap: { [key: string]: string } = {
           'Toán': 'math',
           'Tiếng Việt': 'vietnamese',
         };
-
-        const bookSeriesFolder = bookSeriesMap[bookSeries] || 'ket-noi-tri-thuc';
         const subjectFolder = subjectMap[subject] || 'math';
 
         // Use fetch to load JSON from public folder (works in both dev and production/APK)
@@ -605,6 +588,9 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
               correctStreak: currentStreak,
             });
             
+            // Clear license check cache (week completed, need to recheck)
+            clearLicenseCheckCache();
+            
             // Auto go back after 2 seconds
             setTimeout(() => {
               onBack();
@@ -675,18 +661,21 @@ const ExercisePage: React.FC<ExercisePageProps> = ({ weekId, bookSeries, grade, 
                 console.error('Error in rewardCoinsForWeek:', err);
               });
               
-              // Save final progress
-              saveExerciseProgress(userId, weekId, bookSeries, grade, subject, {
-                currentQuestionIndex: currentQuestionIndex,
-                score: currentCorrectCount,
-                completedQuestions: currentCompleted,
-                correctStreak: currentStreak,
-              });
-              
-              // Auto go back after 2 seconds
-              setTimeout(() => {
-                onBack();
-              }, 2000);
+            // Save final progress
+            saveExerciseProgress(userId, weekId, bookSeries, grade, subject, {
+              currentQuestionIndex: currentQuestionIndex,
+              score: currentCorrectCount,
+              completedQuestions: currentCompleted,
+              correctStreak: currentStreak,
+            });
+            
+            // Clear license check cache (week completed, need to recheck)
+            clearLicenseCheckCache();
+            
+            // Auto go back after 2 seconds
+            setTimeout(() => {
+              onBack();
+            }, 2000);
             }
           }
           return currentStreak;

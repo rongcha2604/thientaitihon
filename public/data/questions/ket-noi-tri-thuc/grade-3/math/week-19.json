@@ -1,0 +1,183 @@
+{
+  "week": 19,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 19 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số gồm 9 nghìn, 5 trăm, 2 đơn vị được viết là:",
+          "options": [
+            "9502",
+            "9520",
+            "9205",
+            "9503"
+          ],
+          "correctAnswer": 0,
+          "explanation": "9 nghìn = 9000, 5 trăm = 500, 2 đơn vị = 2. Vậy số là: 9000 + 500 + 2 = 9502",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số bé nhất có 4 chữ số khác nhau là:",
+          "options": [
+            "1000",
+            "1023",
+            "1234",
+            "1001"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số bé nhất có 4 chữ số khác nhau phải bắt đầu bằng 1 (không thể là 0), các chữ số còn lại là 0, 2, 3. Vậy số là 1023",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số nào dưới đây có chữ số hàng nghìn là 3?",
+          "options": [
+            "1880",
+            "8098",
+            "3980",
+            "2358"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 3980 có chữ số hàng nghìn là 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Số \"Tám nghìn chín trăm ba mươi mốt\" được viết là:",
+          "options": [
+            "9835",
+            "8953",
+            "8932",
+            "8931"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tám nghìn = 8000, chín trăm = 900, ba mươi mốt = 31. Vậy số là: 8000 + 900 + 31 = 8931",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Số 2424 được đọc là:",
+          "options": [
+            "Hai nghìn bốn trăm hai mươi",
+            "Hai nghìn bốn trăm hai mươi tư",
+            "Hai bốn hai tư",
+            "Hai nghìn bốn trăm hai tư"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2424 = 2000 + 400 + 20 + 4. Đọc là: Hai nghìn bốn trăm hai mươi tư",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Số \"Chín nghìn sáu trăm hai mươi\" được viết là:",
+          "options": [
+            "9602",
+            "9260",
+            "9620",
+            "9062"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chín nghìn = 9000, sáu trăm = 600, hai mươi = 20. Vậy số là: 9000 + 600 + 20 = 9620",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Số \"Tám nghìn năm trăm linh một\" được viết là:",
+          "options": [
+            "8500",
+            "8051",
+            "8510",
+            "8501"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tám nghìn = 8000, năm trăm = 500, linh một = 1. Vậy số là: 8000 + 500 + 1 = 8501",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Số \"Sáu nghìn bốn trăm hai mươi sáu\" được viết là:",
+          "options": [
+            "6426",
+            "6246",
+            "6462",
+            "6624"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Sáu nghìn = 6000, bốn trăm = 400, hai mươi sáu = 26. Vậy số là: 6000 + 400 + 26 = 6426",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Số \"Một nghìn ba trăm sáu mươi\" được viết là:",
+          "options": [
+            "1306",
+            "1036",
+            "1603",
+            "1360"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Một nghìn = 1000, ba trăm = 300, sáu mươi = 60. Vậy số là: 1000 + 300 + 60 = 1360",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "So sánh: 4245 và 4345",
+          "options": [
+            "4245 > 4345",
+            "4245 = 4345",
+            "4245 < 4345",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 2,
+          "explanation": "So sánh từ trái sang phải: hàng nghìn đều là 4, hàng trăm: 2 < 3. Vậy 4245 < 4345",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Một trường tiểu học có 1042 học sinh khối lớp Một, 1238 học sinh khối lớp Hai và 913 học sinh khối lớp Ba. Hỏi cả ba khối của trường tiểu học đó có tất cả bao nhiêu học sinh?",
+          "options": [
+            "3193 học sinh",
+            "3183 học sinh",
+            "3293 học sinh",
+            "3283 học sinh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tổng số học sinh: 1042 + 1238 + 913 = 3193 học sinh",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Thửa ruộng thứ nhất thu hoạch được 3251kg thóc, thửa ruộng thứ hai thu hoạch được nhiều hơn thửa ruộng thứ nhất là 234kg. Cả hai thửa ruộng thu hoạch được bao nhiêu ki-lô-gam thóc?",
+          "options": [
+            "6726kg",
+            "6736kg",
+            "6836kg",
+            "6826kg"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thửa ruộng thứ hai: 3251 + 234 = 3485 kg. Tổng: 3251 + 3485 = 6736 kg",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

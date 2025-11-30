@@ -1,0 +1,183 @@
+{
+  "week": 14,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 14 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Nước Việt Nam có 54 dân tộc anh em. Dù là người Kinh, người Tày, người Mường hay người Ê-đê, tất cả đều là con cháu Lạc Hồng, cùng chung một bọc trứng của Mẹ Âu Cơ. Mỗi dân tộc có một bản sắc văn hóa riêng, tiếng nói riêng nhưng luôn đoàn kết, yêu thương và giúp đỡ lẫn nhau để xây dựng đất nước.\"\n\nNước Việt Nam có bao nhiêu dân tộc?",
+          "options": [
+            "50 dân tộc",
+            "52 dân tộc",
+            "53 dân tộc",
+            "54 dân tộc"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong đoạn văn có viết: \"Nước Việt Nam có 54 dân tộc anh em\" - nước Việt Nam có 54 dân tộc.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Nước Việt Nam có 54 dân tộc anh em. Dù là người Kinh, người Tày, người Mường hay người Ê-đê, tất cả đều là con cháu Lạc Hồng, cùng chung một bọc trứng của Mẹ Âu Cơ. Mỗi dân tộc có một bản sắc văn hóa riêng, tiếng nói riêng nhưng luôn đoàn kết, yêu thương và giúp đỡ lẫn nhau để xây dựng đất nước.\"\n\nTheo truyền thuyết, các dân tộc Việt Nam có chung nguồn gốc từ đâu?",
+          "options": [
+            "Từ biển cả",
+            "Từ rừng núi",
+            "Cùng chung một bọc trứng của Mẹ Âu Cơ",
+            "Từ trên trời xuống"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong đoạn văn có viết: \"tất cả đều là con cháu Lạc Hồng, cùng chung một bọc trứng của Mẹ Âu Cơ\" - các dân tộc Việt Nam có chung nguồn gốc từ một bọc trứng của Mẹ Âu Cơ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Nước Việt Nam có 54 dân tộc anh em. Dù là người Kinh, người Tày, người Mường hay người Ê-đê, tất cả đều là con cháu Lạc Hồng, cùng chung một bọc trứng của Mẹ Âu Cơ. Mỗi dân tộc có một bản sắc văn hóa riêng, tiếng nói riêng nhưng luôn đoàn kết, yêu thương và giúp đỡ lẫn nhau để xây dựng đất nước.\"\n\nCác dân tộc đối xử với nhau như thế nào?",
+          "options": [
+            "Luôn đoàn kết, yêu thương và giúp đỡ nhau",
+            "Cạnh tranh gay gắt",
+            "Ít khi gặp gỡ nhau",
+            "Sống tách biệt, không quan tâm nhau"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong đoạn văn có viết: \"nhưng luôn đoàn kết, yêu thương và giúp đỡ lẫn nhau\" - các dân tộc đối xử với nhau bằng tình đoàn kết, yêu thương và giúp đỡ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Nước Việt Nam có 54 dân tộc anh em. Dù là người Kinh, người Tày, người Mường hay người Ê-đê, tất cả đều là con cháu Lạc Hồng, cùng chung một bọc trứng của Mẹ Âu Cơ. Mỗi dân tộc có một bản sắc văn hóa riêng, tiếng nói riêng nhưng luôn đoàn kết, yêu thương và giúp đỡ lẫn nhau để xây dựng đất nước.\"\n\nÝ chính của đoạn văn là gì?",
+          "options": [
+            "Kể tên các dân tộc",
+            "Miêu tả trang phục dân tộc",
+            "Ca ngợi tình đoàn kết của các dân tộc Việt Nam",
+            "Kể về Mẹ Âu Cơ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Ý chính của đoạn văn là ca ngợi tình đoàn kết của các dân tộc Việt Nam - đoạn văn nhấn mạnh các dân tộc dù khác nhau về bản sắc văn hóa nhưng luôn đoàn kết, yêu thương và giúp đỡ nhau.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Nhà Rông là nét văn hóa đặc sắc của vùng nào?",
+          "options": [
+            "Đồng bằng sông Cửu Long",
+            "Tây Nguyên",
+            "Trung du Bắc Bộ",
+            "Thủ đô Hà Nội"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Nhà Rông là nét văn hóa đặc sắc của vùng Tây Nguyên - đây là kiến trúc truyền thống của các dân tộc ở Tây Nguyên, nơi sinh hoạt cộng đồng của làng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Từ nào dưới đây viết đúng chính tả (vần uôt/uôc)?",
+          "options": [
+            "Bắt buộc",
+            "Bắt buột",
+            "Lạnh buột",
+            "Chải chuốc"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng chính tả là \"Bắt buộc\" (viết bằng \"uôc\") - nghĩa là phải làm, không thể tránh được. Các từ khác: \"Bắt buột\" và \"Lạnh buột\" viết sai (đúng là \"buốt\"); \"Chải chuốc\" viết đúng nhưng không phải vần uôt/uôc.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Câu \"Ruộng bậc thang ở Sa Pa đẹp như một bức tranh.\" thuộc kiểu so sánh nào?",
+          "options": [
+            "So sánh hơn kém",
+            "So sánh ngang bằng",
+            "So sánh hoạt động",
+            "So sánh âm thanh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Câu \"Ruộng bậc thang ở Sa Pa đẹp như một bức tranh\" thuộc kiểu so sánh ngang bằng - dùng từ \"như\" để so sánh hai sự vật có đặc điểm tương đồng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Điền từ thích hợp: \"Bầu ơi thương lấy bí cùng / Tuy rằng khác ..... nhưng chung một giàn.\"",
+          "options": [
+            "Loại",
+            "Họ",
+            "Loài",
+            "Giống"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Thành ngữ đúng là: \"Bầu ơi thương lấy bí cùng / Tuy rằng khác giống nhưng chung một giàn\" - nghĩa là dù khác nhau nhưng vẫn phải yêu thương, đùm bọc lẫn nhau.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Điền **s** hoặc **x**: \"Làng ...óm\"",
+          "options": [
+            "s",
+            "tr",
+            "x",
+            "ch"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là \"Làng xóm\" (viết bằng \"x\") - nghĩa là làng mạc, thôn xóm. Theo quy tắc chính tả: \"x\" thường đứng trước các nguyên âm o, ô, ơ, u, ư.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Từ nào đồng nghĩa với từ \"đoàn kết\"?",
+          "options": [
+            "Chia rẽ",
+            "Gắn bó",
+            "Xa lánh",
+            "Thù ghét"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ đồng nghĩa với \"đoàn kết\" là \"Gắn bó\" - cả hai từ đều có nghĩa là liên kết chặt chẽ với nhau, cùng nhau làm việc.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Câu \"Các bạn học sinh dân tộc Thái đang múa sạp.\" thuộc mẫu câu nào?",
+          "options": [
+            "Ai là gì?",
+            "Ai thế nào?",
+            "Cái gì làm gì?",
+            "Ai làm gì?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu \"Các bạn học sinh dân tộc Thái đang múa sạp\" trả lời cho câu hỏi \"Ai làm gì?\" - \"Các bạn học sinh dân tộc Thái\" (ai) \"đang múa sạp\" (làm gì).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Trong câu \"Anh em như thể tay chân\", hai sự vật được so sánh là:",
+          "options": [
+            "Anh em - Tay chân",
+            "Anh - Em",
+            "Tay - Chân",
+            "Thể - Tay"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong câu \"Anh em như thể tay chân\", hai sự vật được so sánh là \"Anh em\" (sự vật được so sánh) và \"Tay chân\" (sự vật dùng để so sánh) - nghĩa là anh em gắn bó, liên quan mật thiết với nhau như tay chân.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

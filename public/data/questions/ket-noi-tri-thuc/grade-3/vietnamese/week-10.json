@@ -1,0 +1,183 @@
+{
+  "week": 10,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 10 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ:\n\n\"Vẽ quê hương\nBút chì xanh đỏ\nEm gọt hai đầu\nEm thử hai màu\nXanh tươi, đỏ thắm.\nEm vẽ làng xóm\nTre xanh, lúa xanh\nSông máng lượn quanh\nMột dòng xanh mát...\" (Định Hải)\n\nBạn nhỏ trong bài thơ dùng bút gì để vẽ?",
+          "options": [
+            "Bút mực",
+            "Bút sáp",
+            "Bút lông",
+            "Bút chì xanh đỏ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài thơ có câu: \"Bút chì xanh đỏ\" - bạn nhỏ dùng bút chì xanh đỏ để vẽ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ:\n\n\"Vẽ quê hương\nBút chì xanh đỏ\nEm gọt hai đầu\nEm thử hai màu\nXanh tươi, đỏ thắm.\nEm vẽ làng xóm\nTre xanh, lúa xanh\nSông máng lượn quanh\nMột dòng xanh mát...\" (Định Hải)\n\nBạn nhỏ đã vẽ những cảnh vật gì của quê hương?",
+          "options": [
+            "Nhà cao tầng, xe cộ, công viên",
+            "Biển xanh, cát trắng, nắng vàng",
+            "Làng xóm, tre, lúa, sông máng",
+            "Rừng núi, suối chảy, chim hót"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong bài thơ có các câu: \"Em vẽ làng xóm / Tre xanh, lúa xanh / Sông máng lượn quanh\" - bạn nhỏ đã vẽ làng xóm, tre, lúa, sông máng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ:\n\n\"Vẽ quê hương\nBút chì xanh đỏ\nEm gọt hai đầu\nEm thử hai màu\nXanh tươi, đỏ thắm.\nEm vẽ làng xóm\nTre xanh, lúa xanh\nSông máng lượn quanh\nMột dòng xanh mát...\" (Định Hải)\n\nMàu sắc chủ đạo trong bức tranh quê hương là màu gì?",
+          "options": [
+            "Màu xanh",
+            "Màu đỏ",
+            "Màu vàng",
+            "Màu tím"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong bài thơ có nhiều từ chỉ màu xanh: \"Xanh tươi\", \"Tre xanh, lúa xanh\", \"Một dòng xanh mát\" - màu sắc chủ đạo là màu xanh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ:\n\n\"Vẽ quê hương\nBút chì xanh đỏ\nEm gọt hai đầu\nEm thử hai màu\nXanh tươi, đỏ thắm.\nEm vẽ làng xóm\nTre xanh, lúa xanh\nSông máng lượn quanh\nMột dòng xanh mát...\" (Định Hải)\n\nTình cảm của bạn nhỏ đối với quê hương như thế nào?",
+          "options": [
+            "Bạn nhỏ muốn đi xa quê hương",
+            "Bạn nhỏ thấy quê hương buồn tẻ",
+            "Bạn nhỏ rất yêu mến và tự hào về quê hương",
+            "Bạn nhỏ không thích quê hương"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Qua việc bạn nhỏ vẽ quê hương với những cảnh vật đẹp đẽ, tươi tắn (làng xóm, tre xanh, lúa xanh, sông máng xanh mát), thể hiện tình cảm yêu mến và tự hào về quê hương.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Từ nào dưới đây viết đúng chính tả (vần uôn/uông)?",
+          "options": [
+            "Buông làng",
+            "Buôn làng",
+            "Bôn làng",
+            "Bung làng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ đúng chính tả là \"Buôn làng\" (viết bằng \"uôn\") - nghĩa là làng mạc, thôn xóm. Theo quy tắc chính tả: \"uôn\" đứng trước các phụ âm; \"uông\" thường đứng cuối từ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Câu \"Quê hương em có con sông xanh biếc.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Ai làm gì?",
+            "Ai là gì?",
+            "Ai thế nào? (Cái gì thế nào?)",
+            "Khi nào?"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Câu \"Quê hương em có con sông xanh biếc\" trả lời cho câu hỏi \"Cái gì thế nào?\" - \"Quê hương em\" (cái gì) \"có con sông xanh biếc\" (thế nào).",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Dòng nào dưới đây gồm các từ chỉ sự vật ở nông thôn?",
+          "options": [
+            "Nhà máy, ô tô, siêu thị",
+            "Cây đa, bến nước, con đò",
+            "Đèn giao thông, vỉa hè, rạp chiếu phim",
+            "Máy tính, công viên, bể bơi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Dòng \"Cây đa, bến nước, con đò\" gồm các từ chỉ sự vật ở nông thôn. Các dòng khác: \"Nhà máy, ô tô, siêu thị\", \"Đèn giao thông, vỉa hè, rạp chiếu phim\", \"Máy tính, công viên, bể bơi\" là từ chỉ sự vật ở thành phố.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Điền từ so sánh thích hợp vào câu: \"Tiếng mưa rơi lộp độp như .......\"",
+          "options": [
+            "Tiếng vỗ tay",
+            "Tiếng sấm",
+            "Tiếng trống",
+            "Tiếng đàn"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Câu đúng là: \"Tiếng mưa rơi lộp độp như tiếng vỗ tay\" - tiếng mưa rơi \"lộp độp\" giống với tiếng vỗ tay, đều có âm thanh ngắn, đều đều.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Từ nào trái nghĩa với \"yên tĩnh\"?",
+          "options": [
+            "Vắng vẻ",
+            "Thanh bình",
+            "Lặng lẽ",
+            "Ồn ào"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ trái nghĩa với \"yên tĩnh\" là \"Ồn ào\" - \"yên tĩnh\" nghĩa là không có tiếng động, còn \"ồn ào\" nghĩa là có nhiều tiếng động, náo nhiệt.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Chọn từ viết đúng chính tả:",
+          "options": [
+            "Che chở",
+            "Cây che",
+            "Cái che",
+            "Tre nắng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng chính tả là \"Che chở\" (viết bằng \"ch\") - nghĩa là bảo vệ, giúp đỡ, bênh vực. Các từ khác không đúng chính tả hoặc không có nghĩa.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Dấu chấm trong câu dùng để làm gì?",
+          "options": [
+            "Ngăn cách các ý trong câu",
+            "Kết thúc một câu kể",
+            "Báo hiệu lời nói trực tiếp",
+            "Kết thúc câu hỏi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Dấu chấm trong câu dùng để kết thúc một câu kể - đây là dấu câu kết thúc câu trần thuật, câu kể.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Câu nào có hình ảnh nhân hóa?",
+          "options": [
+            "Gió thổi mạnh làm cây nghiêng ngả",
+            "Gió mát quá",
+            "Em rất thích gió mùa hè",
+            "Chị gió dạo chơi trên cánh đồng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu \"Chị gió dạo chơi trên cánh đồng\" có hình ảnh nhân hóa - gọi gió là \"chị\" và gán cho gió hoạt động của con người \"dạo chơi\".",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

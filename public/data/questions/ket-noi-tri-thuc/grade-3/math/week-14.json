@@ -1,0 +1,183 @@
+{
+  "week": 14,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 14 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Một đơn vị Thanh niên xung phong có 410 người chia thành 5 đội. Hỏi mỗi đội có bao nhiêu người?",
+          "options": [
+            "82 người",
+            "80 người",
+            "85 người",
+            "95 người"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số người mỗi đội = Tổng số người : Số đội = 410 : 5 = 82 người",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Tìm một số, biết rằng nếu gấp số đó lên 7 lần thì được 182",
+          "options": [
+            "25",
+            "90",
+            "26",
+            "46"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số đó = 182 : 7 = 26",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Một phép chia có số bị chia bằng 267, thương bằng 8 và số dư bằng 3. Số chia của phép chia đó là:",
+          "options": [
+            "33",
+            "32",
+            "34",
+            "35"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số chia = (Số bị chia - Số dư) : Thương = (267 - 3) : 8 = 264 : 8 = 33",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "817 chia cho số chẵn lớn nhất có một chữ số được kết quả là:",
+          "options": [
+            "101",
+            "102",
+            "102 dư 1",
+            "101 dư 1"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số chẵn lớn nhất có một chữ số là 8. 817 : 8 = 102 dư 1",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Năm 2022 có 365 ngày, 1 tuần lễ có 7 ngày. Vậy năm 2022 có:",
+          "options": [
+            "52 tuần lễ",
+            "5 tuần lễ và 15 ngày",
+            "52 tuần lễ và 1 ngày",
+            "52 tuần lễ và 15 ngày"
+          ],
+          "correctAnswer": 2,
+          "explanation": "365 : 7 = 52 dư 1. Vậy năm 2022 có 52 tuần lễ và 1 ngày",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Tích của 229 và 3 là:",
+          "options": [
+            "371",
+            "361",
+            "226",
+            "687"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tích = 229 × 3 = 687",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 967 : 4 là:",
+          "options": [
+            "836",
+            "844",
+            "241",
+            "241 (dư 3)"
+          ],
+          "correctAnswer": 3,
+          "explanation": "967 : 4 = 241 dư 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "420 giảm 7 lần là:",
+          "options": [
+            "60",
+            "413",
+            "427",
+            "6"
+          ],
+          "correctAnswer": 0,
+          "explanation": "420 giảm 7 lần = 420 : 7 = 60",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Phép chia 984 : 6 có số dư là:",
+          "options": [
+            "2",
+            "0",
+            "3",
+            "4"
+          ],
+          "correctAnswer": 1,
+          "explanation": "984 : 6 = 164 dư 0. Vậy số dư là 0",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Bà có 79 kg gạo nếp. Bà định cho số gạo nếp đó vào các túi nhỏ, mỗi túi chỉ chứa được 7 kg. Bà cần ít nhất số túi như vậy là:",
+          "options": [
+            "11 túi",
+            "12 túi",
+            "11 (dư 2)",
+            "13 túi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "79 : 7 = 11 dư 2. Vì còn dư 2 kg nên bà cần thêm 1 túi nữa. Vậy cần ít nhất 12 túi",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Lúc đầu trong giỏ có 126 quả trứng. Sau một buổi bán hàng, trong rỗ còn lại 1/6 số trứng. Hỏi người ta đã bán bao nhiêu quả trứng?",
+          "options": [
+            "21 quả",
+            "105 quả",
+            "147 quả",
+            "120 quả"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số trứng còn lại = 126 : 6 = 21 quả. Số trứng đã bán = 126 - 21 = 105 quả",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Số có ba chữ số mà chữ số hàng chục bằng 1/2 chữ số hàng trăm và nhiều hơn chữ số hàng đơn vị là 4 là:",
+          "options": [
+            "820",
+            "841",
+            "804",
+            "840"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Chữ số hàng trăm = 8, hàng chục = 8 : 2 = 4, hàng đơn vị = 4 - 4 = 0. Kiểm tra: 4 = 8/2 ✓, 4 - 0 = 4 ✓. Vậy số là 840",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

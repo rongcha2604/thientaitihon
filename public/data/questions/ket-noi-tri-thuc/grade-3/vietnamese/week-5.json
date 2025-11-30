@@ -1,0 +1,183 @@
+{
+  "week": 5,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 5 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn sau:\n\n\"Bà nội của An đã già nhưng bà vẫn thích làm việc. Hằng ngày, bà ra vườn chăm sóc luống rau xanh tốt. Buổi tối, bà thường đeo kính, ngồi khâu lại những chiếc áo bị sứt chỉ cho cả nhà. An thương bà lắm, đi học về là sà vào lòng bà để được bà xoa đầu và kể chuyện cổ tích.\"\n\nHằng ngày, bà nội của An thường làm việc gì ngoài vườn?",
+          "options": [
+            "Trồng hoa hồng",
+            "Chăm sóc luống rau",
+            "Nuôi gà",
+            "Quét sân"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong đoạn văn có viết: \"Hằng ngày, bà ra vườn chăm sóc luống rau xanh tốt\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn sau:\n\n\"Bà nội của An đã già nhưng bà vẫn thích làm việc. Hằng ngày, bà ra vườn chăm sóc luống rau xanh tốt. Buổi tối, bà thường đeo kính, ngồi khâu lại những chiếc áo bị sứt chỉ cho cả nhà. An thương bà lắm, đi học về là sà vào lòng bà để được bà xoa đầu và kể chuyện cổ tích.\"\n\nBuổi tối, bà làm gì cho cả nhà?",
+          "options": [
+            "Xem ti vi",
+            "Nấu cơm tối",
+            "Đọc báo",
+            "Khâu lại những chiếc áo bị sứt chỉ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong đoạn văn có viết: \"Buổi tối, bà thường đeo kính, ngồi khâu lại những chiếc áo bị sứt chỉ cho cả nhà\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn sau:\n\n\"Bà nội của An đã già nhưng bà vẫn thích làm việc. Hằng ngày, bà ra vườn chăm sóc luống rau xanh tốt. Buổi tối, bà thường đeo kính, ngồi khâu lại những chiếc áo bị sứt chỉ cho cả nhà. An thương bà lắm, đi học về là sà vào lòng bà để được bà xoa đầu và kể chuyện cổ tích.\"\n\nChi tiết nào cho thấy An rất thương bà?",
+          "options": [
+            "An giúp bà nhổ cỏ",
+            "An mua quà cho bà",
+            "Đi học về là sà vào lòng bà",
+            "An đọc sách cho bà nghe"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong đoạn văn có viết: \"An thương bà lắm, đi học về là sà vào lòng bà để được bà xoa đầu và kể chuyện cổ tích\" - thể hiện tình cảm yêu thương của An với bà.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn sau:\n\n\"Bà nội của An đã già nhưng bà vẫn thích làm việc. Hằng ngày, bà ra vườn chăm sóc luống rau xanh tốt. Buổi tối, bà thường đeo kính, ngồi khâu lại những chiếc áo bị sứt chỉ cho cả nhà. An thương bà lắm, đi học về là sà vào lòng bà để được bà xoa đầu và kể chuyện cổ tích.\"\n\nCâu chuyện nói lên điều gì?",
+          "options": [
+            "Tình cảm yêu thương gắn bó giữa bà và cháu",
+            "Sự chăm chỉ của An",
+            "Vẻ đẹp của khu vườn",
+            "Công việc vất vả của bà"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Câu chuyện thể hiện tình cảm yêu thương gắn bó giữa bà và cháu qua các chi tiết: bà chăm sóc, khâu áo cho cả nhà; An sà vào lòng bà để được bà xoa đầu và kể chuyện.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Dòng nào dưới đây gồm những từ chỉ người trong gia đình?",
+          "options": [
+            "Ông bà, cha mẹ, cô giáo",
+            "Cha mẹ, anh chị, bạn bè",
+            "Chú bác, cậu mợ, thím",
+            "Hàng xóm, ông bà, cháu"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Dòng \"Chú bác, cậu mợ, thím\" gồm toàn các từ chỉ người trong gia đình (họ hàng). Các dòng khác có lẫn từ chỉ người ngoài gia đình như \"cô giáo\", \"bạn bè\", \"hàng xóm\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Câu nào dưới đây có hình ảnh so sánh?",
+          "options": [
+            "Con mèo đang nằm ngủ ngon lành",
+            "Chú mèo mướp rất đáng yêu",
+            "Lông mèo mềm mại và ấm áp",
+            "Mắt mèo tròn như hòn bi ve"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu \"Mắt mèo tròn như hòn bi ve\" có hình ảnh so sánh - so sánh mắt mèo với hòn bi ve bằng từ \"như\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Điền từ thích hợp vào chỗ chấm: \"Chị ngã em ......\"",
+          "options": [
+            "Đỡ",
+            "Nâng",
+            "Cười",
+            "Khóc"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thành ngữ đúng là \"Chị ngã em nâng\" - nghĩa là chị em trong nhà phải yêu thương, đùm bọc lẫn nhau.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ nào viết **sai** chính tả?",
+          "options": [
+            "Dành dật",
+            "Giao thừa",
+            "Con dao",
+            "Giao hàng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ viết sai là \"Dành dật\" - đúng phải là \"Giành giật\" (viết bằng \"gi\"). Các từ khác đều viết đúng chính tả.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Từ \"chăm sóc\" trong đoạn văn trên thuộc loại từ gì?",
+          "options": [
+            "Từ chỉ sự vật",
+            "Từ chỉ đặc điểm",
+            "Từ chỉ thời gian",
+            "Từ chỉ hoạt động"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ \"chăm sóc\" là từ chỉ hoạt động (động từ) - chỉ hành động chăm nom, bảo vệ, nuôi dưỡng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Điền **l** hoặc **n**: \"Im ...ặng\"",
+          "options": [
+            "n",
+            "ng",
+            "l",
+            "nh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là \"Im lặng\" (viết bằng \"l\") - nghĩa là không có tiếng động, yên tĩnh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Câu \"Mẹ em là người phụ nữ đảm đang nhất.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Ai làm gì?",
+            "Ai là gì?",
+            "Ai thế nào?",
+            "Cái gì là gì?"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Câu \"Mẹ em là người phụ nữ đảm đang nhất\" trả lời cho câu hỏi \"Ai là gì?\" - đây là mẫu câu giới thiệu, định danh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Tìm từ chỉ đặc điểm trong câu: \"Chiếc áo len màu đỏ rất ấm.\"",
+          "options": [
+            "Màu đỏ, ấm",
+            "Chiếc áo len",
+            "Rất",
+            "Chiếc áo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ chỉ đặc điểm là \"Màu đỏ\" và \"ấm\" - đây là các từ miêu tả tính chất, đặc điểm của chiếc áo len.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

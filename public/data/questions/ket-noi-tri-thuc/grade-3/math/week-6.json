@@ -1,0 +1,184 @@
+{
+  "week": 6,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 6 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Giá trị biểu thức: 32 + 8 × 2 là:",
+          "options": [
+            "40",
+            "34",
+            "48",
+            "80"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Thực hiện phép nhân trước: 8 × 2 = 16. Sau đó cộng: 32 + 16 = 48",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Dấu thích hợp để điền vào chỗ chấm là: 136 – 20...2 = 126",
+          "options": [
+            "+",
+            "-",
+            "×",
+            ":"
+          ],
+          "correctAnswer": 3,
+          "explanation": "136 - 20 = 116. Để được 126, ta cần: 116 + 10 = 126. Vậy 20 : 2 = 10. Dấu cần điền là :",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Khi lấy hiệu giữa 489 và 482 rồi nhân với 5 thì ta được biểu thức:",
+          "options": [
+            "489 - 482 + 5",
+            "(489 - 482) × 5",
+            "489 - 482 × 5",
+            "(489 + 482) × 5"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Lấy hiệu giữa 489 và 482: (489 - 482), rồi nhân với 5: (489 - 482) × 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức 2 × (10 – 5) là:",
+          "options": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thực hiện phép tính trong ngoặc trước: 10 - 5 = 5. Sau đó nhân: 2 × 5 = 10",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Số thích hợp để điền vào chỗ chấm là: 50 + 5 × ........= 100",
+          "options": [
+            "1",
+            "2",
+            "5",
+            "10"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Gọi số cần tìm là x: 50 + 5 × x = 100. Suy ra 5 × x = 100 - 50 = 50. Vậy x = 50 : 5 = 10",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Tổng của 60 với tích của 5 và 5 là:",
+          "options": [
+            "55",
+            "65",
+            "85",
+            "70"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tích của 5 và 5 là: 5 × 5 = 25. Tổng của 60 với 25 là: 60 + 25 = 85",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Tích của số bé nhất có 1 chữ số với tổng của 5 và 5 là:",
+          "options": [
+            "0",
+            "25",
+            "26",
+            "35"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số bé nhất có 1 chữ số là 0. Tổng của 5 và 5 là: 5 + 5 = 10. Tích: 0 × 10 = 0",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Làm tròn số 68 đến hàng chục thì được số:",
+          "options": [
+            "50",
+            "60",
+            "70",
+            "80"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số 68 có chữ số hàng đơn vị là 8 (≥ 5), nên làm tròn lên. Làm tròn 68 đến hàng chục được 70",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Làm tròn số 364 đến hàng trăm thì được số:",
+          "options": [
+            "300",
+            "360",
+            "370",
+            "400"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số 364 có chữ số hàng chục là 6 (≥ 5), nên làm tròn lên. Làm tròn 364 đến hàng trăm được 400",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Khoanh tròn vào dãy số mà khi làm tròn đến hàng chục ta được số 60:",
+          "options": [
+            "55; 56; 61; 63",
+            "55; 66; 65; 66",
+            "52; 54; 61; 63",
+            "55; 56; 68; 69"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Làm tròn đến hàng chục: 55 → 60, 56 → 60, 61 → 60, 63 → 60. Tất cả đều làm tròn được 60",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Khoanh tròn vào dãy số mà khi làm tròn đến hàng trăm ta được số 400:",
+          "options": [
+            "355; 376; 489; 490",
+            "323; 314; 430; 418",
+            "323; 314; 489; 490",
+            "355; 376; 430; 418"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Làm tròn đến hàng trăm: 355 → 400, 376 → 400, 430 → 400, 418 → 400. Tất cả đều làm tròn được 400",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Em có 6 hộp sô-cô-la, mỗi hộp có 2 thanh. Em cho các bạn 5 thanh. Sau đó, em còn lại bao nhiêu thanh sô-cô-la?",
+          "options": [
+            "5 thanh",
+            "7 thanh",
+            "6 thanh",
+            "8 thanh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tổng số thanh sô-cô-la: 6 × 2 = 12 thanh. Sau khi cho bạn 5 thanh, còn lại: 12 - 5 = 7 thanh",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

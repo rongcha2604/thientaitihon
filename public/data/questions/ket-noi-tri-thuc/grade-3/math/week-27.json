@@ -1,0 +1,183 @@
+{
+  "week": 27,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 27 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Những tháng trong năm có 30 ngày là:",
+          "options": [
+            "4, 7, 9, 11",
+            "5, 6, 9, 11",
+            "4, 6, 9, 11",
+            "1, 4, 7, 9, 11"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Các tháng có 30 ngày trong năm là: tháng 4, tháng 6, tháng 9, tháng 11",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Ngày 24 tháng 8 là chủ nhật, ngày 3 tháng 9 cùng năm đó là thứ mấy?",
+          "options": [
+            "Thứ tư",
+            "Thứ hai",
+            "Thứ ba",
+            "Thứ năm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 24/8 (chủ nhật) đến 3/9: Từ 24/8 đến 31/8 là 7 ngày (31-24=7), từ 1/9 đến 3/9 là 2 ngày. Tổng: 7+2=9 ngày. 9 ngày = 1 tuần + 2 ngày. Vậy 3/9 là thứ tư (chủ nhật + 2 ngày = thứ ba, + 1 ngày nữa = thứ tư)",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức (1426 + 2354) : 4 là:",
+          "options": [
+            "94",
+            "940",
+            "944",
+            "945"
+          ],
+          "correctAnswer": 3,
+          "explanation": "(1426 + 2354) : 4 = 3780 : 4 = 945",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Một hình chữ nhật có chu vi là 50dm. Tính chiều dài của hình chữ nhật đó, biết chiều rộng là 6dm.",
+          "options": [
+            "26dm",
+            "44dm",
+            "19dm",
+            "12dm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Nửa chu vi = 50 : 2 = 25 (dm). Chiều dài = nửa chu vi - chiều rộng = 25 - 6 = 19 (dm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Bốn bạn Bình, Chi, Nga, Hùng tham gia quay trúng thưởng. Hỏi bạn nào có khả năng trúng thưởng?",
+          "options": [
+            "Hùng",
+            "Một trong bốn bạn",
+            "Chi",
+            "Không bạn nào"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khi quay trúng thưởng, bất kỳ ai trong bốn bạn (Bình, Chi, Nga, Hùng) đều có khả năng trúng thưởng. Vậy một trong bốn bạn có thể trúng thưởng",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Kết quả phép tính 4576 - 2835 là:",
+          "options": [
+            "1740",
+            "1742",
+            "1741",
+            "1739"
+          ],
+          "correctAnswer": 2,
+          "explanation": "4576 - 2835 = 1741",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Kết quả phép tính 4165 + 547 là:",
+          "options": [
+            "4712",
+            "4711",
+            "4710",
+            "4713"
+          ],
+          "correctAnswer": 0,
+          "explanation": "4165 + 547 = 4712",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Kết quả phép tính 2292 × 3 là:",
+          "options": [
+            "6874",
+            "6875",
+            "6877",
+            "6876"
+          ],
+          "correctAnswer": 3,
+          "explanation": "2292 × 3 = 6876",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Kết quả phép tính 4218 : 3 là:",
+          "options": [
+            "1405",
+            "1406",
+            "1404",
+            "1407"
+          ],
+          "correctAnswer": 1,
+          "explanation": "4218 : 3 = 1406",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Trong chuyến đi dã ngoại, Minh được tham quan một trang trại chăn nuôi và thấy trang trại có 7254 con gà. Số vịt bằng 1/4 số gà. Hỏi số gà nhiều hơn số vịt bao nhiêu con?",
+          "options": [
+            "5440 con",
+            "5439 con",
+            "5441 con",
+            "5442 con"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số vịt = 7254 : 4 = 1813,5. Làm tròn = 1814 con. Số gà nhiều hơn số vịt = 7254 - 1814 = 5440 con. Hoặc tính: Số gà nhiều hơn = 7254 × 3/4 = 5440,5 ≈ 5440 con",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Để chuẩn bị cho ngày 8/3, khối 3 trường em cùng gấp hoa tặng cô. Có 9 lớp 3 làm được 4689 bông hoa. Hỏi 5 lớp làm như thế được bao nhiêu bông hoa? (Biết rằng năng suất làm việc của mỗi lớp là như nhau)",
+          "options": [
+            "2604 bông",
+            "2605 bông",
+            "2606 bông",
+            "2603 bông"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mỗi lớp làm được: 4689 : 9 = 521 (bông). 5 lớp làm được: 521 × 5 = 2605 (bông)",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Trong giờ thể dục, cô giáo cho học sinh tham gia chơi trò bắt bóng. Cô giáo tung bóng về phía các bạn học sinh. Hỏi ai có thể bắt được quả bóng đó?",
+          "options": [
+            "Chỉ có Huy",
+            "Tất cả các bạn",
+            "Không bạn nào",
+            "Một trong các bạn học sinh"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khi cô giáo tung bóng, bất kỳ học sinh nào trong lớp đều có thể bắt được quả bóng. Vậy một trong các bạn học sinh có thể bắt được quả bóng",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

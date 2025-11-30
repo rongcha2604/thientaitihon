@@ -1,0 +1,183 @@
+{
+  "week": 12,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 12 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Cho dãy số sau: 8; 16; 24; 32;... 64. Số thích hợp vào chỗ chấm là:",
+          "options": [
+            "40; 48; 56",
+            "33; 34; 35",
+            "33; 49; 57",
+            "40; 50; 60"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Dãy số nhân 8: 8 × 1 = 8, 8 × 2 = 16, 8 × 3 = 24, 8 × 4 = 32, 8 × 5 = 40, 8 × 6 = 48, 8 × 7 = 56, 8 × 8 = 64. Vậy số thích hợp là 40; 48; 56",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Có 60 kg gạo chia đều vào 6 bao. Hỏi mỗi bao đựng bao nhiêu ki-lô-gam gạo?",
+          "options": [
+            "10kg gạo",
+            "360kg gạo",
+            "54kg gạo",
+            "66kg gạo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số kg gạo mỗi bao = Tổng số kg gạo : Số bao = 60 : 6 = 10kg",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Mai có 7 gói kẹo, mỗi gói có 8 cái kẹo. Vậy Mai có số cái kẹo là:",
+          "options": [
+            "12 cái kẹo",
+            "26 cái kẹo",
+            "54 cái kẹo",
+            "56 cái kẹo"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tổng số cái kẹo = Số gói × Số kẹo mỗi gói = 7 × 8 = 56 cái kẹo",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Mỗi thùng dầu có 5 lít dầu. Hỏi 8 thùng dầu như thế có tất cả bao nhiêu lít dầu?",
+          "options": [
+            "24 lít dầu",
+            "16 lít dầu",
+            "6 lít dầu",
+            "40 lít dầu"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tổng số lít dầu = Số lít mỗi thùng × Số thùng = 5 × 8 = 40 lít dầu",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Mẹ mua bó hoa về cắm vào 3 lọ hoa, mỗi lọ có 7 bông thì còn thừa 2 bông. Hỏi bó hoa lúc đầu của mẹ có bao nhiêu bông hoa?",
+          "options": [
+            "12 bông",
+            "21 bông",
+            "22 bông",
+            "23 bông"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số hoa đã cắm: 3 × 7 = 21 bông. Tổng số hoa: 21 + 2 = 23 bông",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Mai có số bông hoa bằng số bông hoa của Hà giảm đi 7 lần. Biết số hoa của Hà là 63 bông. Tìm số hoa của Mai.",
+          "options": [
+            "56 bông",
+            "9 bông",
+            "8 bông",
+            "70 bông"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số hoa của Mai = Số hoa của Hà : 7 = 63 : 7 = 9 bông",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 70 : 7 là:",
+          "options": [
+            "7",
+            "8",
+            "10",
+            "9"
+          ],
+          "correctAnswer": 2,
+          "explanation": "70 : 7 = 10",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 24 : 6 là:",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctAnswer": 1,
+          "explanation": "24 : 6 = 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng ngày thứ nhất bán được 64 quyển sách, số quyển sách bán được trong ngày thứ hai giảm đi 8 lần so với ngày thứ nhất. Hỏi ngày thứ hai cửa hàng đó bán được bao nhiêu quyển sách?",
+          "options": [
+            "7 quyển sách",
+            "9 quyển sách",
+            "8 quyển sách",
+            "10 quyển sách"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số sách ngày thứ hai = Số sách ngày thứ nhất : 8 = 64 : 8 = 8 quyển sách",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Em có 6 hộp sô-cô-la, mỗi hộp có 7 thanh. Em cho các bạn 12 thanh. Sau đó, em còn lại bao nhiêu thanh sô-cô-la?",
+          "options": [
+            "28 thanh",
+            "30 thanh",
+            "32 thanh",
+            "34 thanh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tổng số thanh: 6 × 7 = 42 thanh. Số thanh còn lại: 42 - 12 = 30 thanh",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 48 giảm 6 lần rồi bớt đi 2 đơn vị là:",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correctAnswer": 2,
+          "explanation": "48 giảm 6 lần: 48 : 6 = 8. Bớt đi 2 đơn vị: 8 - 2 = 6",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 35 giảm đi 5 lần rồi lại giảm tiếp 7 lần là:",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctAnswer": 0,
+          "explanation": "35 giảm 5 lần: 35 : 5 = 7. Giảm tiếp 7 lần: 7 : 7 = 1",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "week": 3,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 3 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Dấu thích hợp điền vào chỗ chấm là: 2 × 7 ......... 5 × 3",
+          "options": [
+            "<",
+            ">",
+            "=",
+            "≥"
+          ],
+          "correctAnswer": 0,
+          "explanation": "2 × 7 = 14, 5 × 3 = 15. Vì 14 < 15 nên 2 × 7 < 5 × 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Điền số thích hợp vào ô trống: [ ] : 5 = 8",
+          "options": [
+            "35",
+            "40",
+            "45",
+            "50"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Gọi số cần tìm là x: x : 5 = 8, suy ra x = 8 × 5 = 40",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Phép tính nào có kết quả lớn nhất?",
+          "options": [
+            "18 : 3",
+            "16 : 4",
+            "32 : 4",
+            "21 : 3"
+          ],
+          "correctAnswer": 2,
+          "explanation": "32 : 4 = 8, 18 : 3 = 6, 16 : 4 = 4, 21 : 3 = 7. Kết quả lớn nhất là 8 (32 : 4)",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng nhập về 5 thùng kẹo, mỗi thùng chứa 5 hộp kẹo. Hỏi cửa hàng đã nhập về bao nhiêu hộp kẹo?",
+          "options": [
+            "10 hộp kẹo",
+            "15 hộp kẹo",
+            "20 hộp kẹo",
+            "25 hộp kẹo"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tổng số hộp kẹo = Số thùng × Số hộp mỗi thùng = 5 × 5 = 25 hộp",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Tìm số chia biết rằng thương là 5 và số bị chia là 35.",
+          "options": [
+            "5",
+            "7",
+            "35",
+            "12"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số chia = Số bị chia : Thương = 35 : 5 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Tìm số bị chia, biết số chia là 2, thương là 10.",
+          "options": [
+            "12",
+            "8",
+            "20",
+            "18"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số bị chia = Số chia × Thương = 2 × 10 = 20",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Tìm một số biết số đó chia 5 thì được 9. Số đó là:",
+          "options": [
+            "4",
+            "14",
+            "40",
+            "45"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Gọi số cần tìm là x: x : 5 = 9, suy ra x = 9 × 5 = 45",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Muốn tìm số chia, ta lấy:",
+          "options": [
+            "Số bị chia chia cho thương",
+            "Số bị chia nhân với thương",
+            "Thương nhân với số bị chia",
+            "Thương chia cho số bị chia"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Muốn tìm số chia, ta lấy số bị chia chia cho thương",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Độ dài một gang tay người khoảng:",
+          "options": [
+            "20mm",
+            "20cm",
+            "20dm",
+            "20m"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Độ dài một gang tay người khoảng 20cm (khoảng 20 xăng-ti-mét)",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Bề dày quyển vở khoảng:",
+          "options": [
+            "5mm",
+            "5cm",
+            "5dm",
+            "5m"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Bề dày quyển vở khoảng 5mm (5 mi-li-mét)",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Năm bạn học sinh có 15 cái bút. Biết số bút của mỗi bạn bằng nhau. Hỏi mỗi bạn có bao nhiêu cái bút?",
+          "options": [
+            "2 cái bút",
+            "4 cái bút",
+            "3 cái bút",
+            "5 cái bút"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số bút mỗi bạn = Tổng số bút : Số bạn = 15 : 5 = 3 cái bút",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Trên bàn có 6 lọ hoa, mỗi lọ có 5 bông hoa. Vậy trên bàn có tất cả bao nhiêu bông hoa?",
+          "options": [
+            "25 bông hoa",
+            "35 bông hoa",
+            "40 bông hoa",
+            "30 bông hoa"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tổng số bông hoa = Số lọ × Số hoa mỗi lọ = 6 × 5 = 30 bông hoa",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "week": 22,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 22 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "6l = ...... ml?",
+          "options": [
+            "60",
+            "600",
+            "60000",
+            "6000"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1 lít = 1000 ml. Vậy 6 lít = 6 × 1000 = 6000 ml",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "An đi chợ mua hộ mẹ một quả bưởi nặng 1 kg 600 g và một quả dưa nặng 2 kg. Quả dưa nặng hơn quả bưởi số gam là:",
+          "options": [
+            "400 gam",
+            "40 gam",
+            "3600 gam",
+            "2000 gam"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Quả bưởi: 1 kg 600 g = 1600 g. Quả dưa: 2 kg = 2000 g. Quả dưa nặng hơn: 2000 - 1600 = 400 gam",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Một xe chở 2345kg than. Ba xe như vậy chở được bao nhiêu ki-lô-gam than?",
+          "options": [
+            "7935 kg",
+            "6935 kg",
+            "7035 kg",
+            "6035 kg"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Ba xe chở được: 2345 × 3 = 7035 kg",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Tích của số lớn nhất có 4 chữ số và số nhỏ nhất có 1 chữ số là:",
+          "options": [
+            "0",
+            "9999",
+            "9",
+            "1111"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số lớn nhất có 4 chữ số là 9999. Số nhỏ nhất có 1 chữ số là 0. Tích: 9999 × 0 = 0",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Mỗi gói kẹo cân nặng 150g, mỗi gói bánh cân nặng 200g. Hỏi 3 gói kẹo và 2 gói bánh cân nặng bao nhiêu gam?",
+          "options": [
+            "800",
+            "850",
+            "900",
+            "950"
+          ],
+          "correctAnswer": 1,
+          "explanation": "3 gói kẹo: 150 × 3 = 450 g. 2 gói bánh: 200 × 2 = 400 g. Tổng: 450 + 400 = 850 g",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 1500g + 2500g là:",
+          "options": [
+            "4100g",
+            "3900g",
+            "3800g",
+            "4000g"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1500g + 2500g = 4000g",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 2400g × 3 là:",
+          "options": [
+            "7200g",
+            "7100g",
+            "7300g",
+            "7400g"
+          ],
+          "correctAnswer": 0,
+          "explanation": "2400g × 3 = 7200g",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 4800ml + 2100ml là:",
+          "options": [
+            "6800ml",
+            "7000ml",
+            "7100ml",
+            "6900ml"
+          ],
+          "correctAnswer": 3,
+          "explanation": "4800ml + 2100ml = 6900ml",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "1l = ........... ml",
+          "options": [
+            "10",
+            "100",
+            "1000",
+            "10000"
+          ],
+          "correctAnswer": 2,
+          "explanation": "1 lít = 1000 ml",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Một lon nước ngọt 750ml, đổ 2 chai như thế vào một cốc nước lớn thì cốc chứa bao nhiêu mi-li-lít nước ngọt?",
+          "options": [
+            "1400ml",
+            "1500ml",
+            "1600ml",
+            "1700ml"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2 lon nước ngọt: 750 × 2 = 1500 ml",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Hộp cà phê cân nặng 132g, riêng vỏ hộp cân nặng 12g. Biết mỗi gói cà phê nhỏ ở trong hộp nặng 8g. Hỏi hộp cà phê đó có bao nhiêu gói?",
+          "options": [
+            "14 gói",
+            "16 gói",
+            "15 gói",
+            "17 gói"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Cân nặng cà phê: 132 - 12 = 120 g. Số gói: 120 ÷ 8 = 15 gói",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Cho các chai đựng nước: Chai 1 (500ml), Chai 2 (100ml), Chai 3 (350ml), Chai 4 (200ml), Chai 5 (100ml). Tìm 2 chai khác nhau để được 550ml nước.",
+          "options": [
+            "Chai 1 và Chai 2",
+            "Chai 3 và Chai 4",
+            "Chai 1 và Chai 3",
+            "Chai 2 và Chai 4"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chai 3 (350ml) + Chai 4 (200ml) = 550ml",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

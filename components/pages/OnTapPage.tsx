@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../src/contexts/AuthContext';
+import { type User } from '../../src/lib/api/auth';
 
 const VietHeader: React.FC<{ title: string; icon: string }> = ({ title, icon }) => (
     <header className="p-4 text-center">
@@ -69,108 +70,252 @@ const SkillBar: React.FC<{ name: string; percentage: number; level: 'Yếu' | 'C
     );
 };
 
+const VietButton: React.FC<{onClick: () => void; children: React.ReactNode; isActive: boolean; className?: string; glowColor?: 'blue' | 'green' | 'yellow' | 'purple' | 'red' | 'sky' | 'lime';}> = ({ onClick, children, isActive, className, glowColor }) => {
+    const baseClasses = `p-3 rounded-2xl font-extrabold transition-all duration-200 transform active:scale-95 border-2 border-amber-800/20`;
+    
+    // Get glow animation class based on glowColor
+    const getGlowClass = () => {
+        if (!glowColor) return 'animate-glow';
+        const glowClassMap: { [key: string]: string } = {
+            'blue': 'animate-glow-blue',
+            'green': 'animate-glow-green',
+            'yellow': 'animate-glow-yellow',
+            'purple': 'animate-glow-purple',
+            'red': 'animate-glow-red',
+            'sky': 'animate-glow-sky',
+            'lime': 'animate-glow-lime',
+        };
+        return glowClassMap[glowColor] || 'animate-glow';
+    };
+    
+    const activeClasses = `shadow-viet-style-pressed scale-95 opacity-100 ${getGlowClass()}`;
+    const inactiveClasses = `shadow-viet-style-raised hover:scale-105 opacity-80 hover:opacity-100`;
+    return (
+        <button onClick={onClick} className={`${baseClasses} ${isActive ? activeClasses : inactiveClasses} ${className}`}>
+            {children}
+        </button>
+    )
+};
+
+const DEFAULT_BOOK_SERIES = 'Kết nối tri thức';
+const grades = [1, 2, 3, 4, 5];
+const subjects = [
+    { name: 'Toán', icon: '🧮', color: 'bg-red-200' },
+    { name: 'Tiếng Việt', icon: '📝', color: 'bg-sky-200' },
+];
+
+const SELECTION_STORAGE_KEY = 'review_selection';
+
+// Get selection storage key for user
+const getSelectionKey = (userId: string | null): string => {
+    return userId ? `${SELECTION_STORAGE_KEY}_${userId}` : SELECTION_STORAGE_KEY;
+};
+
+// Load selection with priority: localStorage > user.grade > default
+const loadSelection = (user: User | null) => {
+    // Priority 1: localStorage (nếu có) - gắn với user ID
+    try {
+        const selectionKey = getSelectionKey(user?.id || null);
+        const stored = localStorage.getItem(selectionKey);
+        if (stored) {
+            const parsed = JSON.parse(stored);
+            return {
+                selectedGrade: parsed.selectedGrade || (user?.grade && user.grade >= 1 && user.grade <= 5 ? user.grade : grades[0]),
+                selectedSubject: parsed.selectedSubject || subjects[0].name,
+            };
+        }
+    } catch (error) {
+        console.error('Error loading selection:', error);
+    }
+    
+    // Priority 2: user.grade (nếu có và valid)
+    if (user?.grade && user.grade >= 1 && user.grade <= 5) {
+        return {
+            selectedGrade: user.grade,
+            selectedSubject: subjects[0].name,
+        };
+    }
+    
+    // Priority 3: default
+    return {
+        selectedGrade: grades[0],
+        selectedSubject: subjects[0].name,
+    };
+};
+
+// Save selection to localStorage (gắn với user ID)
+const saveSelection = (userId: string | null, selectedGrade: number, selectedSubject: string) => {
+    try {
+        const selectionKey = getSelectionKey(userId);
+        localStorage.setItem(selectionKey, JSON.stringify({
+            selectedGrade,
+            selectedSubject,
+        }));
+    } catch (error) {
+        console.error('Error saving selection:', error);
+    }
+};
+
 interface OnTapPageProps {
   onStartExam?: (examType: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH', weekId: number, bookSeries: string, grade: number, subject: string) => void;
 }
 
 const OnTapPage: React.FC<OnTapPageProps> = ({ onStartExam }) => {
-    const { user } = useAuth();
+    // Safe access to useAuth
+    let user: User | null = null;
+    try {
+        const authContext = useAuth();
+        user = authContext.user;
+    } catch (error) {
+        console.warn('OnTapPage: useAuth error:', error);
+        user = null;
+    }
     
-    // Lấy thông tin từ localStorage hoặc user (tương tự HocPage)
-    const getDefaultSelection = () => {
+    const initialSelection = loadSelection(user);
+    const [selectedGrade, setSelectedGrade] = useState(initialSelection.selectedGrade);
+    const [selectedSubject, setSelectedSubject] = useState(initialSelection.selectedSubject);
+    
+    // Auto-update selectedGrade when user.grade changes
+    useEffect(() => {
         if (user?.grade && user.grade >= 1 && user.grade <= 5) {
-            return {
-                bookSeries: 'ket-noi-tri-thuc', // Default
-                grade: user.grade,
-                subject: 'math', // Default
-            };
+            const selectionKey = getSelectionKey(user?.id || null);
+            const stored = localStorage.getItem(selectionKey);
+            // Chỉ update nếu chưa có selection trong localStorage
+            if (!stored) {
+                setSelectedGrade(user.grade);
+            }
         }
-        // Fallback từ localStorage
-        const savedBook = localStorage.getItem('selectedBook') || 'ket-noi-tri-thuc';
-        const savedGrade = parseInt(localStorage.getItem('selectedGrade') || '1', 10);
-        const savedSubject = localStorage.getItem('selectedSubject') || 'math';
-        return {
-            bookSeries: savedBook,
-            grade: savedGrade,
-            subject: savedSubject,
-        };
-    };
+    }, [user?.grade, user?.id]);
+    
+    // Reload selection when component mounts or user changes
+    useEffect(() => {
+        const reloadedSelection = loadSelection(user);
+        setSelectedGrade(reloadedSelection.selectedGrade);
+        setSelectedSubject(reloadedSelection.selectedSubject);
+    }, [user?.id]);
+    
+    // Save selection when changed
+    useEffect(() => {
+        const userId = user?.id || null;
+        saveSelection(userId, selectedGrade, selectedSubject);
+    }, [user?.id, selectedGrade, selectedSubject]);
 
     const handleStartExam = (examType: 'THI_HUONG' | 'THI_HOI' | 'THI_DINH') => {
-        const selection = getDefaultSelection();
-        // Map bookSeries từ folder name về display name (nếu cần)
-        const bookSeriesMap: { [key: string]: string } = {
-            'ket-noi-tri-thuc': 'Kết nối tri thức',
-            'chan-troi-sang-tao': 'Chân trời sáng tạo',
-            'cung-hoc': 'Phát triển năng lực',
-            'vi-su-binh-dang': 'Bình đẳng & Dân chủ',
-        };
-        const bookSeriesDisplay = bookSeriesMap[selection.bookSeries] || selection.bookSeries;
-        
-        // Map subject từ folder name về display name
+        // Map subject từ display name về folder name
         const subjectMap: { [key: string]: string } = {
-            'math': 'Toán',
-            'vietnamese': 'Tiếng Việt',
+            'Toán': 'math',
+            'Tiếng Việt': 'vietnamese',
         };
-        const subjectDisplay = subjectMap[selection.subject] || selection.subject;
+        const subjectFolder = subjectMap[selectedSubject] || 'math';
         
         // THI HƯƠNG: Học Kỳ 1 (tuần 1-18), THI HỘI: Học Kỳ 2 (tuần 19-35), THI ĐÌNH: Cả Năm
         // Dùng weekId = 1 làm placeholder, ExercisePage sẽ tự load questions phù hợp
         const weekId = 1; // Placeholder, ExercisePage sẽ load questions từ nhiều tuần
         
         if (onStartExam) {
-            onStartExam(examType, weekId, bookSeriesDisplay, selection.grade, subjectDisplay);
+            onStartExam(examType, weekId, DEFAULT_BOOK_SERIES, selectedGrade, selectedSubject);
         }
     };
 
     return (
         <div>
             <VietHeader title="Thử Tài Trạng Tí" icon="📜" />
-            <main className="p-4 md:p-6 grid grid-cols-1 lg:grid-cols-3 gap-6">
-                <div className="lg:col-span-2">
-                    <VietSection title="Chọn Vòng Thi">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <ReviewCard
-                                title="THI HƯƠNG"
-                                weeks="Học Kỳ 1"
-                                duration="15 phút"
-                                questions="30 câu"
-                                color="bg-pink-200/70"
-                                examType="THI_HUONG"
-                                onStartExam={handleStartExam}
-                            />
-                            <ReviewCard
-                                title="THI HỘI"
-                                weeks="Học Kỳ 2"
-                                duration="15 phút"
-                                questions="30 câu"
-                                color="bg-sky-200/70"
-                                examType="THI_HOI"
-                                onStartExam={handleStartExam}
-                            />
-                             <div className="md:col-span-2">
+            <main className="p-4 md:p-6 space-y-6">
+                <VietSection title="Hành Trang">
+                    <div className="space-y-6">
+                        <div className="flex flex-col md:flex-row gap-6">
+                            <div className="flex-1">
+                                <h3 className="font-bold text-amber-800 mb-2">📖 Chọn lớp</h3>
+                                <div className="grid grid-cols-5 gap-2 bg-amber-100/50 p-2 rounded-2xl">
+                                    {grades.map(grade => (
+                                        <button 
+                                            key={grade} 
+                                            onClick={() => {
+                                                setSelectedGrade(grade);
+                                                localStorage.setItem('selectedGrade', grade.toString());
+                                                window.dispatchEvent(new Event('gradeChanged'));
+                                            }} 
+                                            className={`aspect-square rounded-full font-black text-2xl flex items-center justify-center transition-all duration-200 transform ${
+                                                selectedGrade === grade 
+                                                    ? 'bg-red-400 text-white shadow-viet-style-pressed scale-95' 
+                                                    : 'bg-[#FDFBF5] text-amber-800 shadow-viet-style-raised hover:scale-105'
+                                            }`}
+                                        >
+                                            {grade}
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className="flex-1">
+                                <h3 className="font-bold text-amber-800 mb-2">🚀 Chọn môn</h3>
+                                <div className="grid grid-cols-2 gap-3">
+                                    {subjects.map((subject, index) => {
+                                        const glowColors: ('red' | 'sky')[] = ['red', 'sky'];
+                                        return (
+                                            <VietButton 
+                                                key={subject.name} 
+                                                onClick={() => setSelectedSubject(subject.name)} 
+                                                isActive={selectedSubject === subject.name}
+                                                glowColor={glowColors[index]}
+                                                className={`${subject.color} text-slate-800 text-sm flex flex-col items-center justify-center`}
+                                            >
+                                                <span className="text-3xl drop-shadow">{subject.icon}</span>
+                                                <span>{subject.name}</span>
+                                            </VietButton>
+                                        );
+                                    })}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </VietSection>
+                
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <div className="lg:col-span-2">
+                        <VietSection title="Chọn Vòng Thi">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <ReviewCard
-                                    title="THI ĐÌNH"
-                                    weeks="Cả Năm"
-                                    duration="30 phút"
+                                    title="THI HƯƠNG"
+                                    weeks="Học Kỳ 1"
+                                    duration="15 phút"
                                     questions="30 câu"
-                                    color="bg-lime-200/70"
-                                    examType="THI_DINH"
+                                    color="bg-pink-200/70"
+                                    examType="THI_HUONG"
                                     onStartExam={handleStartExam}
                                 />
-                             </div>
-                        </div>
-                    </VietSection>
+                                <ReviewCard
+                                    title="THI HỘI"
+                                    weeks="Học Kỳ 2"
+                                    duration="15 phút"
+                                    questions="30 câu"
+                                    color="bg-sky-200/70"
+                                    examType="THI_HOI"
+                                    onStartExam={handleStartExam}
+                                />
+                                <div className="md:col-span-2">
+                                    <ReviewCard
+                                        title="THI ĐÌNH"
+                                        weeks="Cả Năm"
+                                        duration="30 phút"
+                                        questions="30 câu"
+                                        color="bg-lime-200/70"
+                                        examType="THI_DINH"
+                                        onStartExam={handleStartExam}
+                                    />
+                                </div>
+                            </div>
+                        </VietSection>
+                    </div>
+                    <div className="lg:col-span-1">
+                        <VietSection title="Võ Công Của Tí">
+                            <div className="space-y-6 flex-grow">
+                                <SkillBar name="Phép trừ" percentage={60} level="Yếu" />
+                                <SkillBar name="Phép nhân" percentage={70} level="Cần cố gắng" />
+                                <SkillBar name="Phép cộng" percentage={90} level="Tốt" />
+                            </div>
+                        </VietSection>
+                    </div>
                 </div>
-                 <div className="lg:col-span-1">
-                    <VietSection title="Võ Công Của Tí">
-                         <div className="space-y-6 flex-grow">
-                            <SkillBar name="Phép trừ" percentage={60} level="Yếu" />
-                            <SkillBar name="Phép nhân" percentage={70} level="Cần cố gắng" />
-                            <SkillBar name="Phép cộng" percentage={90} level="Tốt" />
-                         </div>
-                    </VietSection>
-                 </div>
             </main>
         </div>
     );

@@ -1,0 +1,183 @@
+{
+  "week": 16,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 16 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Một giờ gấp 5 phút số lần là:",
+          "options": [
+            "12 lần",
+            "20 lần",
+            "15 lần",
+            "10 lần"
+          ],
+          "correctAnswer": 0,
+          "explanation": "1 giờ = 60 phút. Số lần = 60 : 5 = 12 lần",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Gấp 7 lần của 10 mm là:",
+          "options": [
+            "17 mm",
+            "70 mm",
+            "70",
+            "70 lần"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Gấp 7 lần của 10 mm = 7 × 10 = 70 mm",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Giá trị biểu thức 84 – 12 × 3 là:",
+          "options": [
+            "216",
+            "120",
+            "48",
+            "100"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Thực hiện phép nhân trước: 12 × 3 = 36. Sau đó trừ: 84 - 36 = 48",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Con năm nay 5 tuổi. Tuổi của mẹ gấp 6 lần tuổi con. Hỏi mẹ bao nhiêu tuổi?",
+          "options": [
+            "11 tuổi",
+            "56 tuổi",
+            "28 tuổi",
+            "30 tuổi"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tuổi mẹ = Tuổi con × 6 = 5 × 6 = 30 tuổi",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Khoanh vào 1/7 số con mèo. Nếu có 28 con mèo thì khoanh được bao nhiêu con?",
+          "options": [
+            "3 con",
+            "4 con",
+            "5 con",
+            "6 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "1/7 số con mèo = 28 : 7 = 4 con",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức 428 + 237 là:",
+          "options": [
+            "655",
+            "665",
+            "675",
+            "685"
+          ],
+          "correctAnswer": 1,
+          "explanation": "428 + 237 = 665",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức 137 × 5 là:",
+          "options": [
+            "655",
+            "665",
+            "675",
+            "685"
+          ],
+          "correctAnswer": 3,
+          "explanation": "137 × 5 = 685",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức 225 × 3 là:",
+          "options": [
+            "655",
+            "665",
+            "675",
+            "685"
+          ],
+          "correctAnswer": 2,
+          "explanation": "225 × 3 = 675",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Biểu thức 15 × 1 + 9 = 150. Khẳng định này:",
+          "options": [
+            "Đúng",
+            "Sai",
+            "Không xác định được",
+            "Cần tính lại"
+          ],
+          "correctAnswer": 2,
+          "explanation": "15 × 1 + 9 = 15 + 9 = 24 ≠ 150. Vậy khẳng định này sai",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Biểu thức 10 × 10 + 10 = 110. Khẳng định này:",
+          "options": [
+            "Đúng",
+            "Sai",
+            "Không xác định được",
+            "Cần tính lại"
+          ],
+          "correctAnswer": 0,
+          "explanation": "10 × 10 + 10 = 100 + 10 = 110. Vậy khẳng định này đúng",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Tìm giúp bạn Bi những chiếc kẹo có giá trị là 200. Kẹo nào có giá trị 200?",
+          "options": [
+            "800 : 4 = 200",
+            "200 : 2 = 100",
+            "60 × 2 = 120",
+            "400 : 2 = 200"
+          ],
+          "correctAnswer": 3,
+          "explanation": "400 : 2 = 200. Vậy kẹo có giá trị 200 là kẹo D",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Lớp 3A có 35 học sinh, lớp 3B có 40 học sinh. Số học sinh hai lớp được chia vào 5 nhóm. Hỏi mỗi nhóm có bao nhiêu học sinh?",
+          "options": [
+            "14 học sinh",
+            "15 học sinh",
+            "16 học sinh",
+            "17 học sinh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tổng số học sinh: 35 + 40 = 75 học sinh. Mỗi nhóm có: 75 : 5 = 15 học sinh",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

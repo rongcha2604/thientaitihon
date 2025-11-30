@@ -1,0 +1,183 @@
+{
+  "week": 2,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 2 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ sau:\n\n\"Cái trống trường em\nMùa hè cũng nghỉ\nSuốt ba tháng liền\nTrống nằm ngẫm nghĩ\nBuồn không hả trống\nTrong những ngày hè\nBọn mình đi vắng\nChỉ còn tiếng ve?\" (Thanh Hào)\n\nBài thơ nói về đồ vật gì?",
+          "options": [
+            "Cái bảng",
+            "Cái bàn",
+            "Quyển vở",
+            "Cái trống"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bài thơ có tiêu đề và nội dung nói về \"Cái trống trường em\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ sau:\n\n\"Cái trống trường em\nMùa hè cũng nghỉ\nSuốt ba tháng liền\nTrống nằm ngẫm nghĩ\nBuồn không hả trống\nTrong những ngày hè\nBọn mình đi vắng\nChỉ còn tiếng ve?\" (Thanh Hào)\n\nVào mùa hè, cái trống làm gì?",
+          "options": [
+            "Nằm ngẫm nghĩ",
+            "Đi chơi với học sinh",
+            "Kêu tùng tùng tùng",
+            "Học bài"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong bài thơ có câu: \"Trống nằm ngẫm nghĩ\" - cái trống nghỉ ngơi trong mùa hè.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ sau:\n\n\"Cái trống trường em\nMùa hè cũng nghỉ\nSuốt ba tháng liền\nTrống nằm ngẫm nghĩ\nBuồn không hả trống\nTrong những ngày hè\nBọn mình đi vắng\nChỉ còn tiếng ve?\" (Thanh Hào)\n\nVì sao tác giả hỏi trống \"Buồn không hả trống\"?",
+          "options": [
+            "Vì trống bị hỏng",
+            "Vì trời quá nóng",
+            "Vì học sinh đi vắng hết",
+            "Vì trống bị bỏ quên"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tác giả hỏi trống buồn vì \"Bọn mình đi vắng\" - học sinh nghỉ hè nên trống không được sử dụng, cảm thấy buồn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ sau:\n\n\"Cái trống trường em\nMùa hè cũng nghỉ\nSuốt ba tháng liền\nTrống nằm ngẫm nghĩ\nBuồn không hả trống\nTrong những ngày hè\nBọn mình đi vắng\nChỉ còn tiếng ve?\" (Thanh Hào)\n\nTác giả nhân hóa cái trống bằng những từ ngữ nào?",
+          "options": [
+            "Kêu, vang, to",
+            "Nghỉ, ngẫm nghĩ, buồn",
+            "Tròn, to, nâu",
+            "Cũ, kỹ, bền"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tác giả nhân hóa cái trống bằng các từ: \"nghỉ\", \"ngẫm nghĩ\", \"buồn\" - đây là những từ chỉ hoạt động và cảm xúc của con người được gán cho đồ vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Trong câu \"Trẻ em như búp trên cành\", từ dùng để so sánh là từ nào?",
+          "options": [
+            "Trẻ em",
+            "Búp",
+            "Như",
+            "Trên cành"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ \"Như\" là từ dùng để so sánh - nó nối \"Trẻ em\" (sự vật được so sánh) với \"búp trên cành\" (sự vật dùng để so sánh).",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Từ nào viết **sai** chính tả?",
+          "options": [
+            "Ghế đá",
+            "Ghi nhớ",
+            "Gồ ghề",
+            "Ghánh nước"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ viết sai là \"Ghánh nước\" - đúng phải là \"Gánh nước\" (không có h). Theo quy tắc chính tả: \"g\" đứng trước các nguyên âm a, o, ô, ơ, u, ư; \"gh\" đứng trước các nguyên âm e, ê, i.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Dòng nào dưới đây chỉ gồm các từ chỉ hoạt động?",
+          "options": [
+            "Đọc, viết, nghe, nói",
+            "Đọc, sách, nghe, nhạc",
+            "Viết, bút, nói, cười",
+            "Chạy, nhảy, sân, trường"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Dòng \"Đọc, viết, nghe, nói\" gồm toàn các từ chỉ hoạt động (động từ). Các dòng khác có lẫn từ chỉ sự vật như \"sách\", \"nhạc\", \"bút\", \"sân\", \"trường\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Dấu hai chấm trong câu: \"Nhà em có nhiều loại quả: na, ổi, xoài, mít.\" dùng để làm gì?",
+          "options": [
+            "Báo hiệu lời nói nhân vật",
+            "Liệt kê các sự vật",
+            "Kết thúc câu",
+            "Ngăn cách các vế câu"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Dấu hai chấm trong câu này dùng để \"Liệt kê các sự vật\" - nó báo hiệu phần sau sẽ liệt kê các loại quả: na, ổi, xoài, mít.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Điền s hoặc x: \"Chim .....ẻ\"",
+          "options": [
+            "x",
+            "ch",
+            "s",
+            "tr"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là \"Chim sẻ\" (viết bằng \"s\") - đây là tên một loài chim nhỏ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Câu \"Đàn cò trắng đang bay lượn trên cánh đồng.\" thuộc mẫu câu nào?",
+          "options": [
+            "Ai làm gì?",
+            "Ai là gì?",
+            "Ai thế nào?",
+            "Cái gì là gì?"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Câu \"Đàn cò trắng đang bay lượn trên cánh đồng\" trả lời cho câu hỏi \"Ai làm gì?\" - \"Đàn cò trắng\" (ai) \"đang bay lượn\" (làm gì).",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Thành ngữ nào nói về tình cảm thầy trò?",
+          "options": [
+            "Chị ngã em nâng",
+            "Tôn sư trọng đạo",
+            "Máu chảy ruột mềm",
+            "Con hiền cháu thảo"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thành ngữ \"Tôn sư trọng đạo\" nói về tình cảm thầy trò - nghĩa là tôn trọng thầy cô và coi trọng đạo học.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Tìm từ chỉ đặc điểm trong câu: \"Mái tóc của bà bạc trắng.\"",
+          "options": [
+            "Mái tóc",
+            "Của bà",
+            "Bà",
+            "Bạc trắng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ chỉ đặc điểm là \"Bạc trắng\" - đây là từ miêu tả màu sắc, đặc điểm của mái tóc bà.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

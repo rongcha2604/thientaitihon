@@ -1,0 +1,183 @@
+{
+  "week": 11,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 11 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Có 42 học sinh chia đều vào 6 hàng. Hỏi mỗi hàng có bao nhiêu học sinh?",
+          "options": [
+            "6 học sinh",
+            "7 học sinh",
+            "8 học sinh",
+            "9 học sinh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số học sinh mỗi hàng = Tổng số học sinh : Số hàng = 42 : 6 = 7 học sinh",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Tìm 1 số mà khi nhân số đó với bất kì số tự nhiên nào ta cũng nhận được kết quả là 0. Số đó là:",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "10"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Bất kỳ số nào nhân với 0 đều bằng 0. Vậy số đó là 0",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Tìm một số biết rằng lấy số đó trừ đi 34 thì bằng 43 cộng với 58. Số cần tìm là:",
+          "options": [
+            "135",
+            "101",
+            "67",
+            "91"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Gọi số cần tìm là x: x - 34 = 43 + 58 = 101. Suy ra x = 101 + 34 = 135",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Thương của 6 và 6 là:",
+          "options": [
+            "0",
+            "1",
+            "36",
+            "12"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thương của 6 và 6 là: 6 : 6 = 1",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Số nào chia cho 6 để có kết quả là 0?",
+          "options": [
+            "0",
+            "6",
+            "1",
+            "60"
+          ],
+          "correctAnswer": 0,
+          "explanation": "0 : 6 = 0. Vậy số 0 chia cho 6 có kết quả là 0",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Mẹ mua bó hoa về cắm vào 3 lọ hoa, mỗi lọ có 6 bông thì còn thừa 2 bông. Hỏi bó hoa lúc đầu của mẹ có bao nhiêu bông hoa?",
+          "options": [
+            "12 bông hoa",
+            "18 bông hoa",
+            "20 bông hoa",
+            "8 bông hoa"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số hoa đã cắm: 3 × 6 = 18 bông. Tổng số hoa: 18 + 2 = 20 bông",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Mẹ mua 18 quả cam, vậy mẹ cần bao nhiêu chiếc đĩa để xếp hết số cam biết rằng mỗi chiếc đĩa chỉ đựng được 6 quả?",
+          "options": [
+            "12 đĩa",
+            "3 đĩa",
+            "24 đĩa",
+            "4 đĩa"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số đĩa cần = Tổng số cam : Số cam mỗi đĩa = 18 : 6 = 3 đĩa",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Năm nay An 4 tuổi, tuổi dì gấp 6 lần tuổi An. Hỏi năm nay dì của An bao nhiêu tuổi?",
+          "options": [
+            "10 tuổi",
+            "24 tuổi",
+            "25 tuổi",
+            "26 tuổi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tuổi dì = Tuổi An × 6 = 4 × 6 = 24 tuổi",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Mỗi mâm cỗ có 6 vị khách. Hỏi 9 mâm cỗ có mấy vị khách?",
+          "options": [
+            "3 vị khách",
+            "12 vị khách",
+            "54 vị khách",
+            "53 vị khách"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tổng số vị khách = Số khách mỗi mâm × Số mâm = 6 × 9 = 54 vị khách",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Lớp 3A1 có 24 học sinh được chia thành các nhóm, 6 người một nhóm. Hỏi lớp 3A1 chia được bao nhiêu nhóm?",
+          "options": [
+            "3 nhóm",
+            "5 nhóm",
+            "4 nhóm",
+            "6 nhóm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số nhóm = Tổng số học sinh : Số học sinh mỗi nhóm = 24 : 6 = 4 nhóm",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Một đường gấp khúc có sáu đoạn thẳng, độ dài mỗi đoạn thẳng là 4m. Tính độ dài đường gấp khúc đó.",
+          "options": [
+            "20m",
+            "22m",
+            "26m",
+            "24m"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Độ dài đường gấp khúc = Số đoạn × Độ dài mỗi đoạn = 6 × 4 = 24m",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Người bán hàng đổ lạc vào các túi, mỗi túi 6kg lạc. Hỏi có 18 kg lạc thì đổ được vào bao nhiêu túi như thế?",
+          "options": [
+            "2 túi",
+            "4 túi",
+            "5 túi",
+            "3 túi"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số túi = Tổng số kg lạc : Số kg mỗi túi = 18 : 6 = 3 túi",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

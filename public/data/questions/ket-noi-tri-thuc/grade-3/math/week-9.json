@@ -1,0 +1,183 @@
+{
+  "week": 9,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 9 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Tích của 45 và 5 là:",
+          "options": [
+            "225",
+            "205",
+            "215",
+            "220"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tích của 45 và 5 là: 45 × 5 = 225",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Một lớp có 36 học sinh. Hỏi năm lớp như thế có bao nhiêu học sinh?",
+          "options": [
+            "150 học sinh",
+            "160 học sinh",
+            "180 học sinh",
+            "170 học sinh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số học sinh của 5 lớp = Số học sinh mỗi lớp × Số lớp = 36 × 5 = 180 học sinh",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Một thùng đựng nước đựng được 48 lít nước. Hỏi 3 thùng như thế đựng được bao nhiêu lít nước?",
+          "options": [
+            "144 lít",
+            "136 lít",
+            "124 lít",
+            "152 lít"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số lít nước của 3 thùng = Số lít mỗi thùng × Số thùng = 48 × 3 = 144 lít",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Oliver và Otto có chiều cao bằng nhau. Bert thấp hơn Ben. Ben cao hơn Otto. Oliver thấp hơn Bert. Hỏi ai là người cao nhất?",
+          "options": [
+            "Oliver",
+            "Otto",
+            "Ben",
+            "Bert"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đề bài: Oliver = Otto, Bert < Ben, Ben > Otto, Oliver < Bert. Suy ra: Oliver = Otto < Bert < Ben. Vậy Ben là người cao nhất",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Tích của hai số là thừa số thứ nhất. Thừa số thứ hai bằng bao nhiêu?",
+          "options": [
+            "0",
+            "10",
+            "Không xác định được",
+            "1"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Nếu tích = thừa số thứ nhất, tức là: a × b = a. Suy ra b = 1. Vậy thừa số thứ hai bằng 1",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Cho dãy số: 1; 3; 9; 27; 81; .... Số thứ 6 của dãy số là bao nhiêu?",
+          "options": [
+            "243",
+            "82",
+            "108",
+            "90"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Dãy số nhân 3: 1 × 3 = 3, 3 × 3 = 9, 9 × 3 = 27, 27 × 3 = 81, 81 × 3 = 243. Số thứ 6 là 243",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 23 × 4 là:",
+          "options": [
+            "82",
+            "88",
+            "96",
+            "92"
+          ],
+          "correctAnswer": 3,
+          "explanation": "23 × 4 = 92",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 12 × 5 là:",
+          "options": [
+            "50",
+            "60",
+            "55",
+            "65"
+          ],
+          "correctAnswer": 1,
+          "explanation": "12 × 5 = 60",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 236 × 3 là:",
+          "options": [
+            "698",
+            "708",
+            "688",
+            "718"
+          ],
+          "correctAnswer": 1,
+          "explanation": "236 × 3 = 708",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Mỗi tuần đội công nhân sản xuất được 54 sản phẩm. Hỏi 4 tuần đội công nhân sản xuất được bao nhiêu sản phẩm?",
+          "options": [
+            "206 sản phẩm",
+            "216 sản phẩm",
+            "226 sản phẩm",
+            "236 sản phẩm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số sản phẩm 4 tuần = Số sản phẩm mỗi tuần × Số tuần = 54 × 4 = 216 sản phẩm",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Cả nhà Hippo câu được 4 xô cá, mỗi xô có 15 con. Hỏi cả nhà Hippo câu được bao nhiêu con cá?",
+          "options": [
+            "55 con cá",
+            "60 con cá",
+            "65 con cá",
+            "70 con cá"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tổng số con cá = Số xô × Số cá mỗi xô = 4 × 15 = 60 con cá",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Mẹ Lan làm bánh và nhờ Lan xếp bánh vào hộp. Sau khi xếp xong Lan đếm được có 4 hộp, mỗi hộp có 12 chiếc bánh. Hỏi mẹ Lan làm được tất cả bao nhiêu chiếc bánh?",
+          "options": [
+            "46 chiếc bánh",
+            "50 chiếc bánh",
+            "52 chiếc bánh",
+            "48 chiếc bánh"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tổng số chiếc bánh = Số hộp × Số bánh mỗi hộp = 4 × 12 = 48 chiếc bánh",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

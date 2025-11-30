@@ -1,0 +1,184 @@
+{
+  "week": 36,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 36 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Những tháng trong năm có 30 ngày là:",
+          "options": [
+            "4, 7, 9, 11",
+            "5, 6, 9, 11",
+            "4, 6, 9, 11",
+            "1, 4, 7, 9, 11"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Các tháng có 30 ngày trong năm là: tháng 4 (April), tháng 6 (June), tháng 9 (September), và tháng 11 (November)",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đồng hồ chỉ mấy giờ? (Kim giờ ở giữa số 2 và 3, kim phút chỉ số 7)",
+          "options": [
+            "2 giờ 35 phút",
+            "1 giờ 30 phút",
+            "14 giờ 25 phút",
+            "13 giờ 35 phút"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Kim giờ ở giữa số 2 và 3, kim phút chỉ số 7 (tương ứng 35 phút). Vậy đồng hồ chỉ 2 giờ 35 phút",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "20km : 4 = ...... m. Số thích hợp điền vào chỗ trống là:",
+          "options": [
+            "5",
+            "5000",
+            "500",
+            "50"
+          ],
+          "correctAnswer": 1,
+          "explanation": "20km : 4 = 5km. Đổi 5km sang mét: 5km = 5 × 1000m = 5000m",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Một hình vuông có chu vi 3dm 2cm. Vậy hình vuông đó có diện tích là:",
+          "options": [
+            "64cm²",
+            "81cm²",
+            "64cm",
+            "16cm²"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chu vi = 3dm 2cm = 32cm. Cạnh hình vuông = 32cm : 4 = 8cm. Diện tích = 8cm × 8cm = 64cm²",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Một hình chữ nhật có chu vi là 50dm. Tính chiều dài của hình chữ nhật đó, biết chiều rộng là 6dm.",
+          "options": [
+            "26dm",
+            "44dm",
+            "12dm",
+            "19dm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Nửa chu vi = 50dm : 2 = 25dm. Chiều dài = 25dm - 6dm = 19dm",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 21 786 + 34 129 là:",
+          "options": [
+            "55 905",
+            "55 915",
+            "56 015",
+            "55 825"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đặt tính: 21 786 + 34 129. Cộng từ phải sang trái: 6 + 9 = 15 (viết 5, nhớ 1), 8 + 2 + 1 = 11 (viết 1, nhớ 1), 7 + 1 + 1 = 9, 1 + 4 = 5, 2 + 3 = 5. Kết quả: 55 915",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 54 612 - 11 098 là:",
+          "options": [
+            "43 524",
+            "43 604",
+            "43 514",
+            "43 414"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Đặt tính: 54 612 - 11 098. Trừ từ phải sang trái: 12 - 8 = 4, 1 - 9 (mượn 1) = 2, 5 - 0 = 5, 4 - 1 = 3, 5 - 1 = 4. Kết quả: 43 514",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 1 516 × 7 là:",
+          "options": [
+            "10 612",
+            "10 512",
+            "10 712",
+            "10 412"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đặt tính: 1 516 × 7. Nhân từ phải sang trái: 6 × 7 = 42 (viết 2, nhớ 4), 1 × 7 + 4 = 11 (viết 1, nhớ 1), 5 × 7 + 1 = 36 (viết 6, nhớ 3), 1 × 7 + 3 = 10. Kết quả: 10 612",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 67 223 : 8 là:",
+          "options": [
+            "8 403 dư 7",
+            "8 402 dư 3",
+            "8 403 dư 3",
+            "8 402 dư 7"
+          ],
+          "correctAnswer": 3,
+          "explanation": "67 223 : 8 = 8 402 dư 7. Kiểm tra: 8 402 × 8 = 67 216, 67 223 - 67 216 = 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Năm nay An 7 tuổi, tuổi bố gấp 5 lần tuổi An. Hỏi 3 năm nữa bố An bao nhiêu tuổi?",
+          "options": [
+            "35 tuổi",
+            "38 tuổi",
+            "42 tuổi",
+            "40 tuổi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tuổi bố hiện nay: 7 × 5 = 35 tuổi. Tuổi bố 3 năm nữa: 35 + 3 = 38 tuổi",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Một khu vườn hình chữ nhật có chiều dài 18cm, chiều rộng bằng 1/6 chiều dài. Hỏi diện tích khu vườn đó bằng bao nhiêu xăng-ti-mét vuông?",
+          "options": [
+            "48cm²",
+            "36cm²",
+            "54cm²",
+            "72cm²"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chiều rộng = 18cm : 6 = 3cm. Diện tích = 18cm × 3cm = 54cm²",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Cô Linh cho những đứa trẻ hàng xóm một ít bánh quy. Nếu mỗi đứa trẻ nhận 5 cái bánh quy thì sẽ dư 1 cái bánh quy. Nếu mỗi đứa trẻ nhận 6 cái bánh quy, thì cô sẽ thiếu 5 cái bánh quy nữa. Biết số bánh quy cô Linh có không quá 45 cái. Hỏi có bao nhiêu cái bánh quy tất cả?",
+          "options": [
+            "30 cái",
+            "29 cái",
+            "32 cái",
+            "31 cái"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Gọi số trẻ là x. Ta có: 5x + 1 = 6x - 5. Suy ra: x = 6. Số bánh quy = 5 × 6 + 1 = 31 cái. Kiểm tra: 6 × 6 - 5 = 31 (đúng)",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

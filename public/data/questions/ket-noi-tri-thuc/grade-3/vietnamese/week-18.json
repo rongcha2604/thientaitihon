@@ -1,0 +1,183 @@
+{
+  "week": 18,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 18 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ:\n\n\"Công cha như núi Thái Sơn\nNghĩa mẹ như nước trong nguồn chảy ra\nMột lòng thờ mẹ kính cha\nCho tròn chữ hiếu mới là đạo con.\" (Ca dao)\n\n\"Nghĩa mẹ\" được so sánh với hình ảnh nào?",
+          "options": [
+            "Núi Thái Sơn",
+            "Biển rộng",
+            "Nước trong nguồn",
+            "Bầu trời"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong bài ca dao có câu: \"Nghĩa mẹ như nước trong nguồn chảy ra\" - \"Nghĩa mẹ\" được so sánh với \"nước trong nguồn\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ:\n\n\"Công cha như núi Thái Sơn\nNghĩa mẹ như nước trong nguồn chảy ra\nMột lòng thờ mẹ kính cha\nCho tròn chữ hiếu mới là đạo con.\" (Ca dao)\n\nBài ca dao khuyên chúng ta điều gì?",
+          "options": [
+            "Phải hiếu thảo với cha mẹ",
+            "Phải chăm chỉ học tập",
+            "Phải biết yêu thương bạn bè",
+            "Phải biết giữ gìn vệ sinh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Bài ca dao có câu: \"Một lòng thờ mẹ kính cha / Cho tròn chữ hiếu mới là đạo con\" - bài ca dao khuyên chúng ta phải hiếu thảo với cha mẹ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ:\n\n\"Công cha như núi Thái Sơn\nNghĩa mẹ như nước trong nguồn chảy ra\nMột lòng thờ mẹ kính cha\nCho tròn chữ hiếu mới là đạo con.\" (Ca dao)\n\nTừ \"đạo con\" trong bài có nghĩa là gì?",
+          "options": [
+            "Con đường đi",
+            "Đạo đức nghề nghiệp",
+            "Tôn giáo",
+            "Bổn phận làm con"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ \"đạo con\" trong bài ca dao có nghĩa là \"Bổn phận làm con\" - nghĩa là trách nhiệm, phận sự của người con đối với cha mẹ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ:\n\n\"Công cha như núi Thái Sơn\nNghĩa mẹ như nước trong nguồn chảy ra\nMột lòng thờ mẹ kính cha\nCho tròn chữ hiếu mới là đạo con.\" (Ca dao)\n\nHình ảnh \"Núi Thái Sơn\" tượng trưng cho điều gì?",
+          "options": [
+            "Sự dịu dàng",
+            "Công lao to lớn, vững chãi của cha",
+            "Sự lạnh lùng",
+            "Sự xa cách"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình ảnh \"Núi Thái Sơn\" (ngọn núi cao, vững chãi) tượng trưng cho công lao to lớn, vững chãi của cha - thể hiện sự kính trọng, biết ơn đối với công lao của cha.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Nhóm từ nào chỉ gồm các từ chỉ hoạt động của học sinh?",
+          "options": [
+            "Phấn trắng, bảng đen, bàn ghế",
+            "Thầy giáo, cô giáo, bác bảo vệ",
+            "Nghe giảng, phát biểu, làm bài",
+            "Chăm ngoan, lễ phép, siêng năng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Nhóm \"Nghe giảng, phát biểu, làm bài\" gồm các từ chỉ hoạt động của học sinh. Các nhóm khác: \"Phấn trắng, bảng đen, bàn ghế\" là từ chỉ sự vật; \"Thầy giáo, cô giáo, bác bảo vệ\" là từ chỉ người; \"Chăm ngoan, lễ phép, siêng năng\" là từ chỉ đức tính.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Câu \"Đàn chim én đang bay lượn trên bầu trời.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Ai là gì?",
+            "Ai thế nào?",
+            "Cái gì là gì?",
+            "Ai làm gì?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu \"Đàn chim én đang bay lượn trên bầu trời\" trả lời cho câu hỏi \"Ai làm gì?\" - \"Đàn chim én\" (ai) \"đang bay lượn\" (làm gì).",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Điền từ thích hợp vào chỗ chấm: \"Lửa thử vàng, gian nan thử ......\"",
+          "options": [
+            "Sức",
+            "Bạc",
+            "Bạn",
+            "Người"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Thành ngữ đúng là: \"Lửa thử vàng, gian nan thử sức\" - nghĩa là qua khó khăn, thử thách mới biết được sức mạnh, khả năng thực sự của con người.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "Xúc sắc",
+            "Xúc xắc",
+            "Súc sắc",
+            "Súc xắc"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ đúng chính tả là \"Xúc xắc\" (viết bằng \"x\") - nghĩa là đồ chơi hình khối có 6 mặt, mỗi mặt có số chấm từ 1 đến 6, dùng để chơi trò chơi may rủi.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Dòng nào có các từ chỉ gộp những người trong họ hàng?",
+          "options": [
+            "Cha mẹ, thầy cô, bạn bè",
+            "Hàng xóm, láng giềng",
+            "Cô dì, chú bác, cậu mợ",
+            "Ông bà, tổ tiên, công an"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Dòng \"Cô dì, chú bác, cậu mợ\" gồm các từ chỉ gộp những người trong họ hàng (cô dì: cô và dì, chú bác: chú và bác, cậu mợ: cậu và mợ). Các dòng khác không phải từ chỉ họ hàng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Trong câu \"Những anh đom đóm thắp đèn lồng đi chơi.\", tác giả đã nhân hóa con vật bằng cách nào?",
+          "options": [
+            "Tả hình dáng con vật",
+            "Gọi con vật bằng từ dùng để gọi người (anh) và tả hoạt động như người",
+            "So sánh con vật với người",
+            "Nói chuyện với con vật"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong câu \"Những anh đom đóm thắp đèn lồng đi chơi\", tác giả đã nhân hóa con vật bằng cách gọi đom đóm là \"anh\" (từ dùng để gọi người) và tả hoạt động \"thắp đèn lồng đi chơi\" như hoạt động của con người.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Từ nào đồng nghĩa với \"dũng cảm\"?",
+          "options": [
+            "Gan dạ",
+            "Hèn nhát",
+            "Lo sợ",
+            "Yếu đuối"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đồng nghĩa với \"dũng cảm\" là \"Gan dạ\" - cả hai từ đều có nghĩa là có lòng can đảm, không sợ hãi trước khó khăn, nguy hiểm.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Bộ phận in đậm trong câu \"Mùa xuân, **cây cối** đâm chồi nảy lộc.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Khi nào?",
+            "Ở đâu?",
+            "Làm gì?",
+            "Cái gì?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bộ phận \"cây cối\" trong câu \"Mùa xuân, cây cối đâm chồi nảy lộc\" trả lời cho câu hỏi \"Cái gì?\" - đây là chủ ngữ chỉ sự vật thực hiện hành động.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "week": 17,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 17 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Hình trên có bao nhiêu góc vuông?",
+          "options": [
+            "8 góc",
+            "5 góc",
+            "6 góc",
+            "7 góc"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình có 4 góc vuông ở 4 góc của hình chữ nhật lớn, 2 góc vuông ở điểm E (AEF và BEF), 2 góc vuông ở điểm F (EFD và EFC). Tổng: 4 + 2 + 2 = 8 góc vuông",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Hình trên có bao nhiêu góc không vuông?",
+          "options": [
+            "10 góc",
+            "11 góc",
+            "12 góc",
+            "13 góc"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình có các góc không vuông tại các điểm C, D, E. Tổng cộng có 11 góc không vuông",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Phép tính 87 : 5 có số dư là:",
+          "options": [
+            "1",
+            "3",
+            "2",
+            "4"
+          ],
+          "correctAnswer": 2,
+          "explanation": "87 : 5 = 17 dư 2. Vậy số dư là 2",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Hình bên có mấy hình trụ? Mấy hình tam giác?",
+          "options": [
+            "3 hình trụ, 3 hình tam giác",
+            "4 hình trụ, 5 hình tam giác",
+            "4 hình trụ, 10 hình tam giác",
+            "3 hình trụ, 10 hình tam giác"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình có 3 hình trụ (2 tháp nhỏ và 1 tháp chính) và 10 hình tam giác (1 mái nhà chính, 2 mái tháp, 2 cửa sổ tam giác, và các tam giác khác)",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức 12 + 73 × 4 là:",
+          "options": [
+            "266",
+            "304",
+            "315",
+            "408"
+          ],
+          "correctAnswer": 1,
+          "explanation": "12 + 73 × 4 = 12 + 292 = 304",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức 140 + 42 × 3 là:",
+          "options": [
+            "304",
+            "315",
+            "266",
+            "408"
+          ],
+          "correctAnswer": 2,
+          "explanation": "140 + 42 × 3 = 140 + 126 = 266",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức 45 × (40 - 33) là:",
+          "options": [
+            "304",
+            "266",
+            "408",
+            "315"
+          ],
+          "correctAnswer": 3,
+          "explanation": "45 × (40 - 33) = 45 × 7 = 315",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức 306 : 6 × 8 là:",
+          "options": [
+            "408",
+            "304",
+            "266",
+            "315"
+          ],
+          "correctAnswer": 0,
+          "explanation": "306 : 6 × 8 = 51 × 8 = 408",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức (54 + 27) × 8 là:",
+          "options": [
+            "304",
+            "266",
+            "648",
+            "315"
+          ],
+          "correctAnswer": 2,
+          "explanation": "(54 + 27) × 8 = 81 × 8 = 648",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 216 + 764 là:",
+          "options": [
+            "970",
+            "990",
+            "1000",
+            "980"
+          ],
+          "correctAnswer": 3,
+          "explanation": "216 + 764 = 980",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 834 - 115 là:",
+          "options": [
+            "719",
+            "709",
+            "729",
+            "739"
+          ],
+          "correctAnswer": 0,
+          "explanation": "834 - 115 = 719",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 118 × 7 là:",
+          "options": [
+            "816",
+            "826",
+            "836",
+            "846"
+          ],
+          "correctAnswer": 1,
+          "explanation": "118 × 7 = 826",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

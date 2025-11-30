@@ -1,0 +1,183 @@
+{
+  "week": 30,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 30 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Biển cả thật rộng lớn và bí ẩn. Mặt biển xanh biếc trải dài đến tận chân trời. Những con sóng bạc đầu nô đùa đuổi nhau vào bờ. Dưới lòng biển sâu là thế giới của hàng ngàn loài cá rực rỡ sắc màu và những rạn san hô tuyệt đẹp. Biển mang lại tôm cá và muối cho con người.\"\n\nĐoạn văn tả về cảnh gì?",
+          "options": [
+            "Dòng sông",
+            "Hồ nước",
+            "Ao cá",
+            "Biển cả"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong đoạn văn có viết: \"Biển cả thật rộng lớn và bí ẩn\" - đoạn văn tả về cảnh biển cả.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Biển cả thật rộng lớn và bí ẩn. Mặt biển xanh biếc trải dài đến tận chân trời. Những con sóng bạc đầu nô đùa đuổi nhau vào bờ. Dưới lòng biển sâu là thế giới của hàng ngàn loài cá rực rỡ sắc màu và những rạn san hô tuyệt đẹp. Biển mang lại tôm cá và muối cho con người.\"\n\nMàu sắc của mặt biển được miêu tả như thế nào?",
+          "options": [
+            "Xanh biếc",
+            "Đỏ rực",
+            "Vàng óng",
+            "Đen kịt"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong đoạn văn có viết: \"Mặt biển xanh biếc trải dài đến tận chân trời\" - màu sắc của mặt biển được miêu tả là xanh biếc.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Biển cả thật rộng lớn và bí ẩn. Mặt biển xanh biếc trải dài đến tận chân trời. Những con sóng bạc đầu nô đùa đuổi nhau vào bờ. Dưới lòng biển sâu là thế giới của hàng ngàn loài cá rực rỡ sắc màu và những rạn san hô tuyệt đẹp. Biển mang lại tôm cá và muối cho con người.\"\n\nNhững con sóng được nhân hóa qua hành động nào?",
+          "options": [
+            "Nằm ngủ yên",
+            "Gào thét dữ dội",
+            "Nô đùa đuổi nhau",
+            "Khóc nhè"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong đoạn văn có viết: \"Những con sóng bạc đầu nô đùa đuổi nhau vào bờ\" - những con sóng được nhân hóa qua hành động nô đùa đuổi nhau (hoạt động của con người).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Biển cả thật rộng lớn và bí ẩn. Mặt biển xanh biếc trải dài đến tận chân trời. Những con sóng bạc đầu nô đùa đuổi nhau vào bờ. Dưới lòng biển sâu là thế giới của hàng ngàn loài cá rực rỡ sắc màu và những rạn san hô tuyệt đẹp. Biển mang lại tôm cá và muối cho con người.\"\n\nBiển mang lại lợi ích gì cho con người?",
+          "options": [
+            "Mang lại gỗ và củi",
+            "Mang lại tôm cá và muối",
+            "Mang lại lúa gạo",
+            "Mang lại vàng bạc"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong đoạn văn có viết: \"Biển mang lại tôm cá và muối cho con người\" - biển mang lại lợi ích là tôm cá và muối cho con người.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Nhóm từ nào nói về các vật thể trên bầu trời?",
+          "options": [
+            "Cá, tôm, cua, ốc",
+            "Cây, cỏ, hoa, lá",
+            "Núi, đồi, sông, suối",
+            "Sao, trăng, mặt trời, mây"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Nhóm \"Sao, trăng, mặt trời, mây\" nói về các vật thể trên bầu trời. Các nhóm khác: \"Cá, tôm, cua, ốc\" là vật thể dưới biển; \"Cây, cỏ, hoa, lá\" là vật thể trên mặt đất; \"Núi, đồi, sông, suối\" là địa hình trên mặt đất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Câu \"Bầu trời đêm đầy sao lấp lánh.\" thuộc mẫu câu nào?",
+          "options": [
+            "Ai làm gì?",
+            "Cái gì thế nào?",
+            "Ai là gì?",
+            "Khi nào?"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Câu \"Bầu trời đêm đầy sao lấp lánh\" trả lời cho câu hỏi \"Cái gì thế nào?\" - \"Bầu trời đêm\" (cái gì) \"đầy sao lấp lánh\" (thế nào).",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Điền **tr** hoặc **ch**: \"...ăng sáng\"",
+          "options": [
+            "ch",
+            "s",
+            "tr",
+            "x"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là \"Trăng sáng\" (viết bằng \"tr\") - nghĩa là mặt trăng chiếu sáng, sáng rõ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Bộ phận in đậm trong câu \"Người ta đi lại trên sông **bằng thuyền**.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Vì sao?",
+            "Ở đâu?",
+            "Khi nào?",
+            "Bằng gì?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bộ phận \"bằng thuyền\" trong câu \"Người ta đi lại trên sông bằng thuyền\" trả lời cho câu hỏi \"Bằng gì?\" - đây là trạng ngữ chỉ phương tiện.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Trong câu \"Ông Mặt Trời đạp xe qua đỉnh núi.\", sự vật nào được nhân hóa?",
+          "options": [
+            "Mặt Trời",
+            "Xe đạp",
+            "Đỉnh núi",
+            "Ông"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong câu \"Ông Mặt Trời đạp xe qua đỉnh núi\", sự vật được nhân hóa là \"Mặt Trời\" - được gọi là \"Ông\" và có hoạt động \"đạp xe\" như con người.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Điền **l** hoặc **n**: \"...ong lanh\"",
+          "options": [
+            "n",
+            "ng",
+            "l",
+            "nh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng là \"Long lanh\" (viết bằng \"l\") - nghĩa là sáng lấp lánh, rực rỡ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Dấu hai chấm trong câu: \"Bầu trời có nhiều màu sắc: xanh, xám, hồng, tím.\" có tác dụng gì?",
+          "options": [
+            "Liệt kê các sự vật/đặc điểm",
+            "Báo hiệu lời nói nhân vật",
+            "Kết thúc câu",
+            "Ngăn cách các vế câu"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Dấu hai chấm trong câu \"Bầu trời có nhiều màu sắc: xanh, xám, hồng, tím\" có tác dụng liệt kê các sự vật/đặc điểm (các màu sắc: xanh, xám, hồng, tím).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Từ nào đồng nghĩa với \"mênh mông\" (biển cả)?",
+          "options": [
+            "Chật hẹp",
+            "Bao la",
+            "Nhỏ bé",
+            "Tù túng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ đồng nghĩa với \"mênh mông\" là \"Bao la\" - cả hai từ đều có nghĩa là rộng lớn, không có giới hạn. Các từ khác: \"Chật hẹp\", \"Nhỏ bé\", \"Tù túng\" là từ trái nghĩa với \"mênh mông\".",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

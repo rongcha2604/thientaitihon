@@ -1,0 +1,183 @@
+{
+  "week": 7,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 7 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Khu phố của Lan sống rất đoàn kết. Mỗi sáng chủ nhật, mọi người đều cùng nhau ra quân dọn dẹp vệ sinh đường phố. Người quét rác, người nhổ cỏ, người trồng thêm hoa. Nhờ vậy, con đường lúc nào cũng sạch đẹp và thơm ngát hương hoa.\"\n\nKhu phố của Lan thường làm gì vào sáng chủ nhật?",
+          "options": [
+            "Tổ chức tiệc tùng",
+            "Cùng nhau dọn dẹp vệ sinh đường phố",
+            "Đi du lịch cùng nhau",
+            "Họp tổ dân phố"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong đoạn văn có viết: \"Mỗi sáng chủ nhật, mọi người đều cùng nhau ra quân dọn dẹp vệ sinh đường phố\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Khu phố của Lan sống rất đoàn kết. Mỗi sáng chủ nhật, mọi người đều cùng nhau ra quân dọn dẹp vệ sinh đường phố. Người quét rác, người nhổ cỏ, người trồng thêm hoa. Nhờ vậy, con đường lúc nào cũng sạch đẹp và thơm ngát hương hoa.\"\n\nNhờ hoạt động chung đó, con đường trở nên như thế nào?",
+          "options": [
+            "Đông đúc xe cộ",
+            "Nhiều rác thải hơn",
+            "Ồn ào náo nhiệt",
+            "Sạch đẹp và thơm ngát hương hoa"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong đoạn văn có viết: \"Nhờ vậy, con đường lúc nào cũng sạch đẹp và thơm ngát hương hoa\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Khu phố của Lan sống rất đoàn kết. Mỗi sáng chủ nhật, mọi người đều cùng nhau ra quân dọn dẹp vệ sinh đường phố. Người quét rác, người nhổ cỏ, người trồng thêm hoa. Nhờ vậy, con đường lúc nào cũng sạch đẹp và thơm ngát hương hoa.\"\n\nTừ \"đoàn kết\" trong đoạn văn có nghĩa là gì?",
+          "options": [
+            "Hay cãi nhau",
+            "Mạnh ai nấy làm",
+            "Gắn bó, cùng nhau làm việc",
+            "Chia rẽ nội bộ"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ \"đoàn kết\" có nghĩa là gắn bó, cùng nhau làm việc - thể hiện qua việc \"mọi người đều cùng nhau ra quân dọn dẹp vệ sinh\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Khu phố của Lan sống rất đoàn kết. Mỗi sáng chủ nhật, mọi người đều cùng nhau ra quân dọn dẹp vệ sinh đường phố. Người quét rác, người nhổ cỏ, người trồng thêm hoa. Nhờ vậy, con đường lúc nào cũng sạch đẹp và thơm ngát hương hoa.\"\n\nNhững hành động nào được liệt kê trong việc dọn vệ sinh?",
+          "options": [
+            "Quét rác, nhổ cỏ, trồng hoa",
+            "Quét nhà, rửa bát, nấu cơm",
+            "Trồng cây, tưới nước, bón phân",
+            "Hát hò, nhảy múa, vui chơi"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong đoạn văn có viết: \"Người quét rác, người nhổ cỏ, người trồng thêm hoa\" - đây là các hành động được liệt kê trong việc dọn vệ sinh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Từ nào dưới đây là từ chỉ cộng đồng?",
+          "options": [
+            "Lớp học",
+            "Gia đình",
+            "Xóm làng",
+            "Cá nhân"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ \"Xóm làng\" là từ chỉ cộng đồng - đây là danh từ chỉ tập thể, nhóm người sống cùng nhau trong một khu vực. \"Cá nhân\" là từ trái nghĩa với cộng đồng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Chọn câu sử dụng **đúng** dấu hai chấm (:):",
+          "options": [
+            "Nhà em có: chó, mèo, gà",
+            "Bố đi: làm từ sáng sớm",
+            "Em rất thích: ăn kem",
+            "Mẹ nói: \"Con nhớ học bài nhé!\""
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu \"Mẹ nói: 'Con nhớ học bài nhé!'\" sử dụng đúng dấu hai chấm - dấu hai chấm dùng để báo hiệu lời nói trực tiếp của nhân vật. Các câu khác dùng dấu hai chấm không đúng chức năng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Điền **r**, **d** hoặc **gi**: \"...a đình\"",
+          "options": [
+            "r",
+            "gi",
+            "d",
+            "tr"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ đúng là \"Gia đình\" (viết bằng \"gi\") - nghĩa là tập thể những người cùng huyết thống sống chung với nhau.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ so sánh trong câu \"Mặt trời như quả cầu lửa khổng lồ\" là từ nào?",
+          "options": [
+            "Như",
+            "Mặt trời",
+            "Quả cầu lửa",
+            "Khổng lồ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ so sánh là \"Như\" - đây là từ dùng để so sánh, nối \"Mặt trời\" (sự vật được so sánh) với \"quả cầu lửa khổng lồ\" (sự vật dùng để so sánh).",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Thành ngữ \"Bán anh em xa mua láng giềng ......\" điền từ gì vào chỗ trống?",
+          "options": [
+            "Xa",
+            "Tốt",
+            "Thân",
+            "Gần"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Thành ngữ đúng là \"Bán anh em xa mua láng giềng gần\" - nghĩa là người ở gần (hàng xóm) quan trọng hơn người ở xa (anh em họ hàng xa).",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Từ nào viết sai chính tả?",
+          "options": [
+            "Giản dị",
+            "Rành mạch",
+            "Tranh dảnh",
+            "Dành dụm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ viết sai là \"Tranh dảnh\" - đúng phải là \"Tranh ảnh\" (viết bằng \"ảnh\"). Các từ khác đều viết đúng chính tả.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Câu \"Những ngôi sao lấp lánh trên bầu trời.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Ai làm gì?",
+            "Cái gì thế nào?",
+            "Ai là gì?",
+            "Khi nào?"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Câu \"Những ngôi sao lấp lánh trên bầu trời\" trả lời cho câu hỏi \"Cái gì thế nào?\" - \"Những ngôi sao\" (cái gì) \"lấp lánh\" (thế nào).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Tìm từ chỉ hoạt động trong câu: \"Bác nông dân đang cày ruộng.\"",
+          "options": [
+            "Cày ruộng",
+            "Bác nông dân",
+            "Đang",
+            "Ruộng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ chỉ hoạt động là \"Cày ruộng\" - đây là cụm động từ chỉ hành động lao động. \"Bác nông dân\" là từ chỉ người, \"ruộng\" là từ chỉ sự vật, \"đang\" là từ chỉ thời gian.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

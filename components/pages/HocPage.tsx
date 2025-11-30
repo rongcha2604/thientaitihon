@@ -7,6 +7,9 @@ import DailyChallengeBubble from '../curiosity/DailyChallengeBubble';
 import MiniGame from '../curiosity/MiniGame';
 import InteractiveMascot from '../interactive/InteractiveMascot';
 import { getExerciseProgress } from '../../src/lib/storage/exerciseProgress';
+import { isLicenseRequired, countCompletedWeeks } from '../../src/lib/licenseCheck';
+import { isLicenseActive } from '../../src/lib/license';
+import { useToast } from '../common/ToastNotification';
 
 const VietHeader: React.FC<{ title: string; icon: string }> = ({ title, icon }) => (
   <header className="p-4 text-center">
@@ -55,7 +58,8 @@ const VietButton: React.FC<{onClick: () => void; children: React.ReactNode; isAc
     )
 }
 
-const bookSeries = [ { name: 'Kết nối tri thức', color: 'bg-blue-200' }, { name: 'Chân trời sáng tạo', color: 'bg-green-200' }, { name: 'Phát triển năng lực', color: 'bg-yellow-200' }, { name: 'Bình đẳng & Dân chủ', color: 'bg-purple-200' }, ];
+// Hardcode sách giáo khoa - chỉ dùng chung 1 bộ sách tiểu học
+const DEFAULT_BOOK_SERIES = 'Kết nối tri thức';
 const grades = [1, 2, 3, 4, 5];
 const subjects = [ { name: 'Toán', icon: '🧮', color: 'bg-red-200' }, { name: 'Tiếng Việt', icon: '📝', color: 'bg-sky-200' }, ];
 // Week metadata (titles, dates) - Base titles cho 5 tuần đầu
@@ -113,6 +117,7 @@ const getSelectionKey = (userId: string | null): string => {
 };
 
 // Load selection with priority: localStorage > user.grade > default
+// Bỏ chọn sách giáo khoa - hardcode dùng chung 1 bộ sách
 const loadSelection = (user: User | null) => {
     // Priority 1: localStorage (nếu có) - gắn với user ID (ƯU TIÊN CAO NHẤT)
     // Luôn load từ localStorage trước để nhớ selection của user
@@ -123,7 +128,7 @@ const loadSelection = (user: User | null) => {
             const parsed = JSON.parse(stored);
             // Ưu tiên localStorage hơn user.grade để giữ selection của user
             return {
-                selectedBook: parsed.selectedBook || bookSeries[0].name,
+                selectedBook: DEFAULT_BOOK_SERIES, // Hardcode - không cần chọn sách
                 selectedGrade: parsed.selectedGrade || (user?.grade && user.grade >= 1 && user.grade <= 5 ? user.grade : grades[0]),
                 selectedSubject: parsed.selectedSubject || subjects[0].name,
             };
@@ -135,7 +140,7 @@ const loadSelection = (user: User | null) => {
     // Priority 2: user.grade (nếu có và valid) - chỉ dùng khi không có localStorage
     if (user?.grade && user.grade >= 1 && user.grade <= 5) {
         return {
-            selectedBook: bookSeries[0].name, // Default book
+            selectedBook: DEFAULT_BOOK_SERIES, // Hardcode - không cần chọn sách
             selectedGrade: user.grade,
             selectedSubject: subjects[0].name, // Default subject
         };
@@ -143,18 +148,19 @@ const loadSelection = (user: User | null) => {
     
     // Priority 3: default (lớp 1 thay vì lớp 2)
     return {
-        selectedBook: bookSeries[0].name,
+        selectedBook: DEFAULT_BOOK_SERIES, // Hardcode - không cần chọn sách
         selectedGrade: grades[0], // Lớp 1 thay vì lớp 2
         selectedSubject: subjects[0].name,
     };
 };
 
 // Save selection to localStorage (gắn với user ID)
-const saveSelection = (userId: string | null, selectedBook: string, selectedGrade: number, selectedSubject: string) => {
+// Bỏ selectedBook - không cần lưu vì đã hardcode
+const saveSelection = (userId: string | null, selectedGrade: number, selectedSubject: string) => {
     try {
         const selectionKey = getSelectionKey(userId);
         localStorage.setItem(selectionKey, JSON.stringify({
-            selectedBook,
+            selectedBook: DEFAULT_BOOK_SERIES, // Luôn lưu giá trị hardcode
             selectedGrade,
             selectedSubject,
         }));
@@ -177,13 +183,34 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
     }
     
     const initialSelection = loadSelection(user);
-    const [selectedBook, setSelectedBook] = useState(initialSelection.selectedBook);
+    // Bỏ state selectedBook - hardcode dùng DEFAULT_BOOK_SERIES
+    const selectedBook = DEFAULT_BOOK_SERIES;
     const [selectedGrade, setSelectedGrade] = useState(initialSelection.selectedGrade);
     const [selectedSubject, setSelectedSubject] = useState(initialSelection.selectedSubject);
     const [showMiniGame, setShowMiniGame] = useState(false);
     const [miniGameType, setMiniGameType] = useState<'memory' | 'puzzle'>('memory');
     const [mascotState, setMascotState] = useState<'idle' | 'happy' | 'thinking' | 'excited' | 'encouraging' | 'sleep'>('idle');
     const [weeks, setWeeks] = useState<Week[]>([]);
+    const [needsLicense, setNeedsLicense] = useState(false);
+    const [hasLicense, setHasLicense] = useState(false);
+    const [completedWeeksCount, setCompletedWeeksCount] = useState(0);
+    const { showToast } = useToast();
+    
+    // Check license requirement
+    useEffect(() => {
+        const checkLicense = async () => {
+            const userId = user?.id || null;
+            const requiresLicense = await isLicenseRequired(userId);
+            const licenseActive = isLicenseActive();
+            const count = await countCompletedWeeks(userId);
+            
+            setNeedsLicense(requiresLicense);
+            setHasLicense(licenseActive);
+            setCompletedWeeksCount(count);
+        };
+        
+        checkLicense();
+    }, [user?.id]);
     
     // Auto-update selectedGrade when user.grade changes (e.g., after login)
     // CHỈ update nếu chưa có selection trong localStorage (để không override selection của user)
@@ -201,7 +228,7 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
     // Reload selection when component mounts or user changes (khi quay lại từ ExercisePage)
     useEffect(() => {
         const reloadedSelection = loadSelection(user);
-        setSelectedBook(reloadedSelection.selectedBook);
+        // Bỏ setSelectedBook - đã hardcode
         setSelectedGrade(reloadedSelection.selectedGrade);
         setSelectedSubject(reloadedSelection.selectedSubject);
     }, [user?.id]); // Reload khi user thay đổi (login/logout) hoặc component mount lại
@@ -210,7 +237,7 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
     useEffect(() => {
         const handleExercisePageClosed = () => {
             const reloadedSelection = loadSelection(user);
-            setSelectedBook(reloadedSelection.selectedBook);
+            // Bỏ setSelectedBook - đã hardcode
             setSelectedGrade(reloadedSelection.selectedGrade);
             setSelectedSubject(reloadedSelection.selectedSubject);
         };
@@ -222,27 +249,23 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
     }, [user]);
     
     // Save selection when changed (gắn với user ID)
+    // Bỏ selectedBook khỏi dependencies - đã hardcode
     useEffect(() => {
         const userId = user?.id || null;
-        saveSelection(userId, selectedBook, selectedGrade, selectedSubject);
-    }, [user?.id, selectedBook, selectedGrade, selectedSubject]);
+        saveSelection(userId, selectedGrade, selectedSubject);
+    }, [user?.id, selectedGrade, selectedSubject]);
     
     // Load week data and calculate status based on real progress
     useEffect(() => {
         const loadWeeksStatus = async () => {
-            const bookSeriesMap: { [key: string]: string } = {
-                'Kết nối tri thức': 'ket-noi-tri-thuc',
-                'Chân trời sáng tạo': 'chan-troi-sang-tao',
-                'Phát triển năng lực': 'cung-hoc',
-                'Bình đẳng & Dân chủ': 'vi-su-binh-dang',
-            };
+            // Hardcode bookSeriesFolder - chỉ dùng ket-noi-tri-thuc
+            const bookSeriesFolder = 'ket-noi-tri-thuc';
             
             const subjectMap: { [key: string]: string } = {
                 'Toán': 'math',
                 'Tiếng Việt': 'vietnamese',
             };
             
-            const bookSeriesFolder = bookSeriesMap[selectedBook] || 'ket-noi-tri-thuc';
             const subjectFolder = subjectMap[selectedSubject] || 'math';
             
             // Auto-detect số tuần có sẵn
@@ -329,13 +352,20 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
                         const prevWeekCompleted = prevWeekCompletedQuestions.length >= prevWeekTarget;
                         
                         if (prevWeekCompleted) {
-                            // Previous week completed → Check current week status
-                            if (progressCount >= targetCorrectAnswers) {
-                                status = 'completed';
-                            } else if (progressCount > 0) {
-                                status = 'inprogress';
+                            // Previous week completed → Check license requirement
+                            // If needs license but doesn't have one, lock weeks after 10 completed
+                            if (needsLicense && !hasLicense) {
+                                // Lock all weeks if license required but not active
+                                status = 'locked';
                             } else {
-                                status = 'inprogress'; // Unlocked but not started
+                                // Check current week status
+                                if (progressCount >= targetCorrectAnswers) {
+                                    status = 'completed';
+                                } else if (progressCount > 0) {
+                                    status = 'inprogress';
+                                } else {
+                                    status = 'inprogress'; // Unlocked but not started
+                                }
                             }
                         } else {
                             // Previous week not completed → Locked
@@ -358,10 +388,17 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
         };
         
         loadWeeksStatus();
-    }, [user?.id, selectedBook, selectedGrade, selectedSubject]);
+    }, [user?.id, selectedGrade, selectedSubject, needsLicense, hasLicense]); // Thêm needsLicense và hasLicense vào dependencies
     
-    const handleWeekClick = (week: Week) => {
+    const handleWeekClick = async (week: Week) => {
         if (week.status === 'locked') {
+            // Check if locked due to license requirement
+            if (needsLicense && !hasLicense) {
+                showToast(
+                    `🔒 Bạn đã hoàn thành ${completedWeeksCount} thử thách! Để tiếp tục mở khóa các thử thách kế tiếp, vui lòng liên hệ tác giả để nhận license key. 📞 Liên hệ: 0909.127.331 (Long)`,
+                    'error'
+                );
+            }
             return; // Không làm gì nếu bị khóa
         }
         // Click vào tuần đã unlock → Bắt đầu học ngay
@@ -389,25 +426,6 @@ const HocPage: React.FC<HocPageProps> = ({ onStartWeek }) => {
 
                 <VietSection title="Hành Trang">
                     <div className="space-y-6">
-                        <div>
-                            <h3 className="font-bold text-amber-800 mb-2">📚 Chọn sách giáo khoa</h3>
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                                {bookSeries.map((book, index) => {
-                                    const glowColors: ('blue' | 'green' | 'yellow' | 'purple')[] = ['blue', 'green', 'yellow', 'purple'];
-                                    return (
-                                        <VietButton 
-                                            key={book.name} 
-                                            onClick={() => setSelectedBook(book.name)} 
-                                            isActive={selectedBook === book.name}
-                                            glowColor={glowColors[index]}
-                                            className={`${book.color} text-slate-800`}
-                                        >
-                                            <span className="text-center drop-shadow">{book.name}</span>
-                                        </VietButton>
-                                    );
-                                })}
-                            </div>
-                        </div>
                          <div className="flex flex-col md:flex-row gap-6">
                              <div className="flex-1">
                                 <h3 className="font-bold text-amber-800 mb-2">📖 Chọn lớp</h3>

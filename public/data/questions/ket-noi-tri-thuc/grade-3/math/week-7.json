@@ -1,0 +1,183 @@
+{
+  "week": 7,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 7 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Có 12 viên kẹo chia đều cho 3 bạn. Hỏi mỗi bạn được bao nhiêu viên kẹo?",
+          "options": [
+            "4 viên kẹo",
+            "3 viên kẹo",
+            "6 viên kẹo",
+            "5 viên kẹo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Mỗi bạn được: 12 : 3 = 4 viên kẹo",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Tổng của 255 và tích của 5 và 9 là:",
+          "options": [
+            "260",
+            "300",
+            "269",
+            "290"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tích của 5 và 9 là: 5 × 9 = 45. Tổng: 255 + 45 = 300",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Bà sinh mẹ lúc bà 35 tuổi, mẹ sinh chị Uyên lúc mẹ 24 tuổi. Biết năm nay bà 72 tuổi. Hỏi tổng số tuổi của mẹ và chị Uyên là bao nhiêu?",
+          "options": [
+            "46 tuổi",
+            "50 tuổi",
+            "49 tuổi",
+            "59 tuổi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tuổi mẹ hiện tại: 72 - 35 = 37 tuổi. Tuổi chị Uyên: 37 - 24 = 13 tuổi. Tổng số tuổi của mẹ và chị Uyên: 37 + 13 = 50 tuổi",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Tìm số bị trừ biết số trừ là 620 và hiệu là 380",
+          "options": [
+            "1000",
+            "340",
+            "440",
+            "240"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số bị trừ = Số trừ + Hiệu = 620 + 380 = 1000",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Số thích hợp cần điền vào chỗ trống là: 10 < 3 × [ ] < 14",
+          "options": [
+            "4",
+            "3",
+            "5",
+            "6"
+          ],
+          "correctAnswer": 0,
+          "explanation": "3 × 3 = 9 (không > 10), 3 × 4 = 12 (thỏa mãn 10 < 12 < 14), 3 × 5 = 15 (không < 14). Vậy số cần tìm là 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Mỗi bạn được cô giáo tặng 3 quyển vở. Biết số vở cô đã tặng là 30 quyển. Hỏi có bao nhiêu bạn được tặng vở?",
+          "options": [
+            "8 bạn",
+            "9 bạn",
+            "10 bạn",
+            "11 bạn"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số bạn được tặng vở = Tổng số vở : Số vở mỗi bạn = 30 : 3 = 10 bạn",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Mỗi túi có 3kg gạo. 7 túi như vậy thì có tất cả bao nhiêu kg gạo?",
+          "options": [
+            "18 kg",
+            "24 kg",
+            "27 kg",
+            "21 kg"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tổng số kg gạo = Số kg mỗi túi × Số túi = 3 × 7 = 21 kg",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Bạn Hương chơi lắp ghép xe ba bánh. Hương đã dùng hết 18 chiếc bánh xe. Hỏi Hương lắp ghép được mấy chiếc xe?",
+          "options": [
+            "5 chiếc",
+            "7 chiếc",
+            "8 chiếc",
+            "6 chiếc"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số chiếc xe = Tổng số bánh xe : Số bánh mỗi xe = 18 : 3 = 6 chiếc",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Mỗi con thỏ có 2 cái tai. Nam đếm được 18 cái tai thỏ. Hỏi có tất cả bao nhiêu con thỏ?",
+          "options": [
+            "8 con",
+            "9 con",
+            "10 con",
+            "11 con"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số con thỏ = Tổng số tai : Số tai mỗi con = 18 : 2 = 9 con",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Mỗi bạn nhỏ có 2 cây kem. Hỏi 9 bạn nhỏ như vậy có bao nhiêu cây kem?",
+          "options": [
+            "16 cây kem",
+            "20 cây kem",
+            "18 cây kem",
+            "22 cây kem"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tổng số cây kem = Số kem mỗi bạn × Số bạn = 2 × 9 = 18 cây kem",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Có 30 bông hoa cắm vào các bình hoa, mỗi bình có 5 bông. Hỏi cắm được mấy bình hoa?",
+          "options": [
+            "5 bình",
+            "7 bình",
+            "6 bình",
+            "8 bình"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số bình hoa = Tổng số hoa : Số hoa mỗi bình = 30 : 5 = 6 bình",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Lớp em chia thành các nhóm trồng cây, mỗi nhóm có 3 bạn. Hỏi 9 nhóm như vậy có bao nhiêu bạn?",
+          "options": [
+            "24 bạn",
+            "30 bạn",
+            "33 bạn",
+            "27 bạn"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tổng số bạn = Số bạn mỗi nhóm × Số nhóm = 3 × 9 = 27 bạn",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

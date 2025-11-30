@@ -1,0 +1,183 @@
+{
+  "week": 25,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 25 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Một mảnh giấy hình chữ nhật có chiều dài 15 cm, chiều rộng 8 cm. Tính chu vi mảnh giấy hình chữ nhật:",
+          "options": [
+            "38 cm",
+            "46 cm",
+            "40 cm",
+            "43 cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chu vi hình chữ nhật = (chiều dài + chiều rộng) × 2 = (15 + 8) × 2 = 23 × 2 = 46 (cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Chu vi của hình tam giác DEG là: (DG = 19 cm, DE = 11 cm, GE = 28 cm)",
+          "options": [
+            "38 cm",
+            "48 cm",
+            "56 cm",
+            "58 cm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Chu vi tam giác = tổng độ dài 3 cạnh = 19 + 11 + 28 = 58 (cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Một bồn hoa hình vuông có độ dài mỗi cạnh bằng 2018 cm. Chu vi của bồn hoa đó là:",
+          "options": [
+            "8052 cm",
+            "8072 cm",
+            "8042 cm",
+            "8054 cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chu vi hình vuông = độ dài cạnh × 4 = 2018 × 4 = 8072 (cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Một sân chơi hình tứ giác có độ dài mỗi cạnh lần lượt bằng 210m, 115m, 226m, 334m. Chu vi của sân chơi đó là:",
+          "options": [
+            "800m",
+            "805m",
+            "885m",
+            "865m"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chu vi tứ giác = tổng độ dài 4 cạnh = 210 + 115 + 226 + 334 = 885 (m)",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Biết EI = 4 cm; IF = 2 cm; FG = 3 cm. Chu vi của hình chữ nhật EFGH trong hình dưới đây là: (EF = EI + IF = 4 + 2 = 6 cm, FG = 3 cm)",
+          "options": [
+            "18 cm",
+            "16 cm",
+            "20 cm",
+            "12 cm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chiều dài EF = EI + IF = 4 + 2 = 6 (cm). Chiều rộng FG = 3 (cm). Chu vi = (6 + 3) × 2 = 9 × 2 = 18 (cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Một hình chữ nhật có chiều dài 9 cm, chiều rộng 5 cm. Chu vi hình chữ nhật đó là:",
+          "options": [
+            "26 cm",
+            "30 cm",
+            "28 cm",
+            "32 cm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chu vi hình chữ nhật = (chiều dài + chiều rộng) × 2 = (9 + 5) × 2 = 14 × 2 = 28 (cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Một hình chữ nhật có chiều dài 21 m, chiều rộng 9 m. Chu vi hình chữ nhật đó là:",
+          "options": [
+            "58 m",
+            "62 m",
+            "64 m",
+            "60 m"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Chu vi hình chữ nhật = (chiều dài + chiều rộng) × 2 = (21 + 9) × 2 = 30 × 2 = 60 (m)",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Một hình chữ nhật có chiều dài 35 m, chiều rộng 8 m. Chu vi hình chữ nhật đó là:",
+          "options": [
+            "86 m",
+            "84 m",
+            "88 m",
+            "90 m"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chu vi hình chữ nhật = (chiều dài + chiều rộng) × 2 = (35 + 8) × 2 = 43 × 2 = 86 (m)",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Một hình tam giác có 3 cạnh bằng nhau, mỗi cạnh dài 7 cm. Chu vi hình tam giác đó là:",
+          "options": [
+            "19 cm",
+            "20 cm",
+            "22 cm",
+            "21 cm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Chu vi tam giác = tổng độ dài 3 cạnh = 7 + 7 + 7 = 21 (cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Một hình vuông có cạnh 8 cm. Chu vi hình vuông đó là:",
+          "options": [
+            "30 cm",
+            "34 cm",
+            "32 cm",
+            "36 cm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chu vi hình vuông = độ dài cạnh × 4 = 8 × 4 = 32 (cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Một hình chữ nhật có chiều dài 12 cm, chiều rộng 7 cm. Chu vi hình chữ nhật đó là:",
+          "options": [
+            "38 cm",
+            "36 cm",
+            "40 cm",
+            "42 cm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chu vi hình chữ nhật = (chiều dài + chiều rộng) × 2 = (12 + 7) × 2 = 19 × 2 = 38 (cm)",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Một hình chữ nhật có chiều rộng là 36 cm, chu vi là 216 cm. Chiều dài của hình chữ nhật đó là:",
+          "options": [
+            "70 cm",
+            "72 cm",
+            "74 cm",
+            "76 cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Nửa chu vi = 216 : 2 = 108 (cm). Chiều dài = nửa chu vi - chiều rộng = 108 - 36 = 72 (cm)",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

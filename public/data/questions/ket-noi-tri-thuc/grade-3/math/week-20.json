@@ -1,0 +1,183 @@
+{
+  "week": 20,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 20 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Dãy số được viết theo thứ tự từ bé đến lớn là:",
+          "options": [
+            "904; 4577; 5110; 9451",
+            "3426; 2517; 4840; 9599",
+            "9999; 3467; 1290; 2439",
+            "904; 5110; 9451; 4577"
+          ],
+          "correctAnswer": 0,
+          "explanation": "So sánh các số: 904 < 4577 < 5110 < 9451. Vậy dãy số từ bé đến lớn là: 904; 4577; 5110; 9451",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số liền trước của số có 4 chữ số giống nhau và chữ số hàng trăm là 5 là:",
+          "options": [
+            "5556",
+            "5554",
+            "4445",
+            "5544"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số có 4 chữ số giống nhau và chữ số hàng trăm là 5 là 5555. Số liền trước của 5555 là 5554",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 1415 + 8124 là:",
+          "options": [
+            "9549",
+            "8539",
+            "7549",
+            "9539"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1415 + 8124 = 9539",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Thửa ruộng thứ nhất thu hoạch được 3251kg thóc, thửa ruộng thứ hai thu hoạch được nhiều hơn thửa ruộng thứ nhất là 1234kg. Cả hai thửa ruộng thu hoạch được số ki-lô-gam thóc là:",
+          "options": [
+            "6736kg thóc",
+            "7763kg thóc",
+            "7736kg thóc",
+            "7717kg thóc"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Thửa ruộng thứ hai: 3251 + 1234 = 4485 kg. Tổng: 3251 + 4485 = 7736 kg",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Biết 6328 > ? + 3208 > 6326. Số thích hợp điền vào dấu hỏi chấm là:",
+          "options": [
+            "3119",
+            "3110",
+            "6327",
+            "9553"
+          ],
+          "correctAnswer": 0,
+          "explanation": "? + 3208 phải lớn hơn 6326 và nhỏ hơn 6328. Vậy ? + 3208 = 6327. Suy ra ? = 6327 - 3208 = 3119",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 7300 - 5100 là:",
+          "options": [
+            "9300",
+            "2200",
+            "10000",
+            "2500"
+          ],
+          "correctAnswer": 1,
+          "explanation": "7300 - 5100 = 2200",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 5300 + 4000 là:",
+          "options": [
+            "10000",
+            "2200",
+            "9300",
+            "2500"
+          ],
+          "correctAnswer": 2,
+          "explanation": "5300 + 4000 = 9300",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 3700 + 6300 là:",
+          "options": [
+            "10000",
+            "9300",
+            "2200",
+            "2500"
+          ],
+          "correctAnswer": 0,
+          "explanation": "3700 + 6300 = 10000",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Các tổ lớp 3A thi gấp sao trong một tuần từ tổ 1 đến tổ 4 được số sao lần lượt là: 2205; 1067; 1503; 2456. Tổ gấp được nhiều nhất là:",
+          "options": [
+            "Tổ 1",
+            "Tổ 2",
+            "Tổ 3",
+            "Tổ 4"
+          ],
+          "correctAnswer": 3,
+          "explanation": "So sánh: 1067 < 1503 < 2205 < 2456. Vậy tổ 4 gấp được nhiều nhất (2456 sao)",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Trường Hòa Bình có số học sinh là số bé nhất có 4 chữ số. Trường Sơn La có số học sinh nhiều hơn trường Hòa Bình là 1201 em. Hỏi cả hai trường có bao nhiêu học sinh?",
+          "options": [
+            "3202 học sinh",
+            "3203 học sinh",
+            "3201 học sinh",
+            "3204 học sinh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số bé nhất có 4 chữ số là 1000. Trường Sơn La: 1000 + 1201 = 2201. Tổng: 1000 + 2201 = 3201 học sinh",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng bánh cần mua một lượng đường lớn để chuẩn bị làm bánh cho ngày lễ Giáng Sinh. Lần thứ nhất cửa hàng nhập về 3250kg đường, lần thứ hai nhập ít hơn lần thứ nhất 1028kg đường. Hỏi cả hai lần cửa hàng nhập được bao nhiêu ki-lô-gam đường?",
+          "options": [
+            "5473kg",
+            "5474kg",
+            "5475kg",
+            "5472kg"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Lần thứ hai: 3250 - 1028 = 2222 kg. Tổng: 3250 + 2222 = 5472 kg",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Cho bốn chữ số 1; 2; 3; 4. Hiệu của số lớn nhất có bốn chữ số khác nhau và số bé nhất có bốn chữ số khác nhau tạo thành từ các chữ số đã cho có giá trị là:",
+          "options": [
+            "3088",
+            "3087",
+            "3089",
+            "3090"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số lớn nhất: 4321. Số bé nhất: 1234. Hiệu: 4321 - 1234 = 3087",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

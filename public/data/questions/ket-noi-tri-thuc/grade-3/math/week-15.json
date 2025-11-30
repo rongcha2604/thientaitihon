@@ -1,0 +1,183 @@
+{
+  "week": 15,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 15 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số bé là 8, số bé gấp 4 lần thì được số lớn. Số lớn là:",
+          "options": [
+            "24",
+            "36",
+            "32",
+            "48"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số lớn = Số bé × 4 = 8 × 4 = 32",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đã tô màu 1/6 hình nào?",
+          "options": [
+            "Hình ngôi sao 6 cánh (1/6 tô màu)",
+            "Hình tròn (1/4 tô màu)",
+            "Hình vuông (1/4 tô màu)",
+            "Hình thoi (1/2 tô màu)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình ngôi sao 6 cánh có 1 phần trong 6 phần được tô màu, tức là 1/6",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Cho AB = BC và CE = ED. Khẳng định nào sau đây đúng?",
+          "options": [
+            "B là trung điểm của đoạn thẳng AC",
+            "D là trung điểm của đoạn thẳng CE",
+            "E là trung điểm của đoạn thẳng CD",
+            "Cả A và C đều đúng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vì AB = BC nên B là trung điểm AC (đúng). Vì CE = ED nên E là trung điểm CD (đúng). Vậy cả A và C đều đúng",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Nhiệt độ cơ thể của các bạn Gấu, Thỏ, Hươu, Sóc đo được lần lượt là: 37°C, 39°C, 38°C, 36°C. Con vật có nhiệt độ cơ thể cao nhất là:",
+          "options": [
+            "Thỏ",
+            "Gấu",
+            "Hươu",
+            "Sóc"
+          ],
+          "correctAnswer": 0,
+          "explanation": "So sánh: 36°C < 37°C < 38°C < 39°C. Vậy Thỏ có nhiệt độ cao nhất là 39°C",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Cho dãy số: 72 → ? → ? → ? → ? → ? với các phép tính: : 8, × 2, : 3, × 4, : 8. Số cuối cùng là:",
+          "options": [
+            "3",
+            "2",
+            "4",
+            "5"
+          ],
+          "correctAnswer": 0,
+          "explanation": "72 : 8 = 9, 9 × 2 = 18, 18 : 3 = 6, 6 × 4 = 24, 24 : 8 = 3. Vậy số cuối cùng là 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "So sánh: 8 × 10 và 9 × 9",
+          "options": [
+            "8 × 10 < 9 × 9",
+            "8 × 10 > 9 × 9",
+            "8 × 10 = 9 × 9",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 0,
+          "explanation": "8 × 10 = 80, 9 × 9 = 81. Vì 80 < 81 nên 8 × 10 < 9 × 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "So sánh: 56 : 7 và 24 : 3",
+          "options": [
+            "56 : 7 > 24 : 3",
+            "56 : 7 = 24 : 3",
+            "56 : 7 < 24 : 3",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 1,
+          "explanation": "56 : 7 = 8, 24 : 3 = 8. Vì 8 = 8 nên 56 : 7 = 24 : 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "So sánh: 3 × 7 và 4 × 5",
+          "options": [
+            "3 × 7 < 4 × 5",
+            "3 × 7 = 4 × 5",
+            "Không so sánh được",
+            "3 × 7 > 4 × 5"
+          ],
+          "correctAnswer": 3,
+          "explanation": "3 × 7 = 21, 4 × 5 = 20. Vì 21 > 20 nên 3 × 7 > 4 × 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Có 18 cái bánh hamburger. Khoanh 1/3 số bánh hamburger thì được bao nhiêu cái?",
+          "options": [
+            "6 cái",
+            "5 cái",
+            "7 cái",
+            "8 cái"
+          ],
+          "correctAnswer": 0,
+          "explanation": "1/3 số bánh hamburger = 18 : 3 = 6 cái",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Có 12 thịt xiên. Khoanh 1/4 số thịt xiên thì được bao nhiêu xiên?",
+          "options": [
+            "2 xiên",
+            "4 xiên",
+            "3 xiên",
+            "5 xiên"
+          ],
+          "correctAnswer": 2,
+          "explanation": "1/4 số thịt xiên = 12 : 4 = 3 xiên",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Có 18 chai coca. Khoanh 1/6 số chai coca thì được bao nhiêu chai?",
+          "options": [
+            "2 chai",
+            "4 chai",
+            "3 chai",
+            "5 chai"
+          ],
+          "correctAnswer": 2,
+          "explanation": "1/6 số chai coca = 18 : 6 = 3 chai",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Để đốt lửa trại, nhóm cử Nam đi tìm cành cây khô. Nam tìm được tổng cộng 21 cành. Hỏi để đốt 3 ngọn lửa trại thì mỗi đống lửa có mấy cành cây khô?",
+          "options": [
+            "6 cành",
+            "7 cành",
+            "8 cành",
+            "9 cành"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mỗi đống lửa có: 21 : 3 = 7 cành cây khô",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

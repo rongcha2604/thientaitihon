@@ -1,0 +1,183 @@
+{
+  "week": 22,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 22 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Tiếng đàn vi-ô-lông của Thủy vang lên. Âm thanh trong trẻo, bay vút lên cao như những cánh chim sơn ca. Lúc thì du dương, trầm bổng như tiếng gió reo qua kẽ lá, lúc lại dồn dập như mưa rào. Cả hội trường im phăng phắc, say sưa lắng nghe. Khi tiếng đàn vừa dứt, những tràng pháo tay vang lên không ngớt.\"\n\nThủy chơi loại nhạc cụ nào?",
+          "options": [
+            "Đàn pi-a-no",
+            "Đàn ghi-ta",
+            "Sáo trúc",
+            "Đàn vi-ô-lông"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong đoạn văn có viết: \"Tiếng đàn vi-ô-lông của Thủy vang lên\" - Thủy chơi đàn vi-ô-lông.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Tiếng đàn vi-ô-lông của Thủy vang lên. Âm thanh trong trẻo, bay vút lên cao như những cánh chim sơn ca. Lúc thì du dương, trầm bổng như tiếng gió reo qua kẽ lá, lúc lại dồn dập như mưa rào. Cả hội trường im phăng phắc, say sưa lắng nghe. Khi tiếng đàn vừa dứt, những tràng pháo tay vang lên không ngớt.\"\n\nÂm thanh tiếng đàn được so sánh với những hình ảnh nào?",
+          "options": [
+            "Cánh chim sơn ca, tiếng gió reo, mưa rào",
+            "Tiếng suối chảy, tiếng sấm",
+            "Tiếng hát, tiếng cười",
+            "Tiếng sóng biển, tiếng ve kêu"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong đoạn văn có các câu: \"bay vút lên cao như những cánh chim sơn ca\", \"du dương, trầm bổng như tiếng gió reo qua kẽ lá\", \"dồn dập như mưa rào\" - âm thanh tiếng đàn được so sánh với cánh chim sơn ca, tiếng gió reo, mưa rào.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Tiếng đàn vi-ô-lông của Thủy vang lên. Âm thanh trong trẻo, bay vút lên cao như những cánh chim sơn ca. Lúc thì du dương, trầm bổng như tiếng gió reo qua kẽ lá, lúc lại dồn dập như mưa rào. Cả hội trường im phăng phắc, say sưa lắng nghe. Khi tiếng đàn vừa dứt, những tràng pháo tay vang lên không ngớt.\"\n\nPhản ứng của khán giả khi nghe Thủy đàn như thế nào?",
+          "options": [
+            "Ồn ào, mất trật tự",
+            "Bỏ về giữa chừng",
+            "Im phăng phắc, say sưa lắng nghe",
+            "Nói chuyện riêng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong đoạn văn có viết: \"Cả hội trường im phăng phắc, say sưa lắng nghe\" - phản ứng của khán giả là im phăng phắc, say sưa lắng nghe.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Tiếng đàn vi-ô-lông của Thủy vang lên. Âm thanh trong trẻo, bay vút lên cao như những cánh chim sơn ca. Lúc thì du dương, trầm bổng như tiếng gió reo qua kẽ lá, lúc lại dồn dập như mưa rào. Cả hội trường im phăng phắc, say sưa lắng nghe. Khi tiếng đàn vừa dứt, những tràng pháo tay vang lên không ngớt.\"\n\nTừ nào miêu tả không khí trong hội trường khi Thủy đang biểu diễn?",
+          "options": [
+            "Nhốn nháo",
+            "Tưng bừng",
+            "Náo nhiệt",
+            "Trang nghiêm, yên lặng (Im phăng phắc)"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong đoạn văn có viết: \"Cả hội trường im phăng phắc\" - từ miêu tả không khí trong hội trường là trang nghiêm, yên lặng (im phăng phắc).",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Người làm nghề sáng tác nhạc được gọi là gì?",
+          "options": [
+            "Ca sĩ",
+            "Họa sĩ",
+            "Nhạc sĩ",
+            "Kiến trúc sư"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Người làm nghề sáng tác nhạc được gọi là \"Nhạc sĩ\". Các từ khác: \"Ca sĩ\" là người hát; \"Họa sĩ\" là người vẽ tranh; \"Kiến trúc sư\" là người thiết kế công trình xây dựng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Câu nào dưới đây sử dụng biện pháp nhân hóa?",
+          "options": [
+            "Những nốt nhạc đang nhảy múa trên khuông nhạc",
+            "Tiếng hát của cô ấy rất hay",
+            "Bức tranh vẽ cảnh làng quê",
+            "Cây bút chì màu xanh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Câu \"Những nốt nhạc đang nhảy múa trên khuông nhạc\" sử dụng biện pháp nhân hóa - gán cho nốt nhạc hoạt động của con người \"nhảy múa\". Các câu khác không có nhân hóa.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Điền **s** hoặc **x**: \"...ay sưa\"",
+          "options": [
+            "x",
+            "ch",
+            "tr",
+            "s"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là \"Say sưa\" (viết bằng \"s\") - nghĩa là đắm chìm, tập trung hoàn toàn vào một việc gì đó.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ nào viết **sai** chính tả?",
+          "options": [
+            "Biểu diễn",
+            "Biểu dễn",
+            "Ca sỹ",
+            "Họa sỹ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ viết sai là \"Biểu dễn\" - đúng phải là \"Biểu diễn\" (viết bằng \"diễn\"). Các từ khác đều viết đúng chính tả.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Dấu hai chấm trong câu \"Hộp màu của em có đủ các màu: xanh, đỏ, tím, vàng.\" dùng để làm gì?",
+          "options": [
+            "Báo hiệu lời nói nhân vật",
+            "Kết thúc câu",
+            "Liệt kê các sự vật",
+            "Ngăn cách các vế câu"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Dấu hai chấm trong câu \"Hộp màu của em có đủ các màu: xanh, đỏ, tím, vàng\" dùng để liệt kê các sự vật (các màu sắc: xanh, đỏ, tím, vàng).",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Từ nào không thuộc nhóm từ chỉ nghệ thuật?",
+          "options": [
+            "Ảo thuật",
+            "Bác sĩ",
+            "Xiếc",
+            "Kịch nói"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ \"Bác sĩ\" không thuộc nhóm từ chỉ nghệ thuật - đây là từ chỉ nghề nghiệp y tế. Các từ khác: \"Ảo thuật\", \"Xiếc\", \"Kịch nói\" đều thuộc nhóm từ chỉ nghệ thuật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Câu \"Ca sĩ đang hát trên sân khấu.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Ai làm gì?",
+            "Ai là gì?",
+            "Ai thế nào?",
+            "Khi nào?"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Câu \"Ca sĩ đang hát trên sân khấu\" trả lời cho câu hỏi \"Ai làm gì?\" - \"Ca sĩ\" (ai) \"đang hát\" (làm gì).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Tìm từ chỉ đặc điểm trong câu: \"Bức tranh phong cảnh rất đẹp.\"",
+          "options": [
+            "Bức tranh",
+            "Đẹp",
+            "Phong cảnh",
+            "Rất"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ chỉ đặc điểm là \"Đẹp\" - đây là từ miêu tả đặc điểm, tính chất của bức tranh. \"Rất\" là từ chỉ mức độ, không phải từ chỉ đặc điểm.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

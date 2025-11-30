@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useAuth } from '../../src/contexts/AuthContext';
 import DeleteDataModal from '../common/DeleteDataModal';
-import DonateButton from '../common/DonateButton';
-import DonateModal from '../common/DonateModal';
 import { useToast } from '../common/ToastNotification';
 import { clearAllProgressForUser } from '../../src/lib/storage/exerciseProgress';
 import { useDailyChallenge } from '../../contexts/DailyChallengeContext';
@@ -32,12 +30,6 @@ const PhuHuynhPage: React.FC = () => {
     const { resetDaily } = useDailyChallenge();
     const { showToast } = useToast();
     const [showDeleteModal, setShowDeleteModal] = useState(false);
-    const [showDonateModal, setShowDonateModal] = useState(false);
-
-    // Beta mode: Tab "Ủng hộ" auto mở DonateModal khi vào tab
-    useEffect(() => {
-        setShowDonateModal(true);
-    }, []);
 
     const handleDeleteData = () => {
         if (!user?.id) {
@@ -81,9 +73,6 @@ const PhuHuynhPage: React.FC = () => {
             <main className="p-4 md:p-6 space-y-6">
                 <VietSection title="👨‍👩‍👧 Quản Lý">
                     <div className="space-y-4">
-                        {/* Donate Button - Nhẹ nhàng, tinh tế */}
-                        <DonateButton onClick={() => setShowDonateModal(true)} />
-
                         {/* Delete Data Button */}
                         <button
                             onClick={() => setShowDeleteModal(true)}
@@ -120,12 +109,6 @@ const PhuHuynhPage: React.FC = () => {
                 onClose={() => setShowDeleteModal(false)}
                 onDelete={handleDeleteData}
                 parentPin={user?.parentPin || ''}
-            />
-
-            {/* Donate Modal */}
-            <DonateModal
-                isOpen={showDonateModal}
-                onClose={() => setShowDonateModal(false)}
             />
         </div>
     );

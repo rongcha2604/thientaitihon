@@ -1,0 +1,183 @@
+{
+  "week": 26,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 26 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Cho dãy số liệu: 1988; 1998; 1795; 2007; 1000; 7768; 9999. Dãy trên có bao nhiêu số liệu?",
+          "options": [
+            "7 số",
+            "10 số",
+            "9 số",
+            "8 số"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đếm các số trong dãy: 1988, 1998, 1795, 2007, 1000, 7768, 9999. Tổng cộng có 7 số liệu",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Quan sát bảng số liệu sau và cho biết số học sinh lớp nào nhiều nhất: Lớp 3A1: 40 học sinh, 3A2: 39 học sinh, 3A3: 38 học sinh, 3A4: 41 học sinh",
+          "options": [
+            "3A1",
+            "3A4",
+            "3A2",
+            "3A3"
+          ],
+          "correctAnswer": 1,
+          "explanation": "So sánh số học sinh: 3A1 có 40, 3A2 có 39, 3A3 có 38, 3A4 có 41. Lớp 3A4 có nhiều học sinh nhất (41 học sinh)",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Cân nặng của 4 bạn Mai, Hoàng, Dũng, Lân lần lượt là: 12 kg, 15 kg, 14 kg, 16 kg. Bạn nào có số cân nhẹ nhất?",
+          "options": [
+            "Mai",
+            "Hoàng",
+            "Dũng",
+            "Lân"
+          ],
+          "correctAnswer": 0,
+          "explanation": "So sánh cân nặng: Mai 12 kg, Hoàng 15 kg, Dũng 14 kg, Lân 16 kg. Mai có cân nặng nhẹ nhất (12 kg)",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "7 giờ 45 phút sáng Minh vào lớp. Từ nhà Minh đến trường mất khoảng 15 phút đi bộ. Sáng nay Minh ngủ dậy lúc 7 giờ 35 phút. Vậy Minh .......... đến lớp muộn.",
+          "options": [
+            "có thể",
+            "không thể",
+            "chắc chắn",
+            "Không có từ thích hợp"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Để đến lớp đúng 7 giờ 45 phút, Minh cần rời nhà lúc 7 giờ 30 phút (7:45 - 15 phút). Minh ngủ dậy lúc 7 giờ 35 phút, tức là sau thời điểm cần rời nhà 5 phút. Vậy Minh chắc chắn đến lớp muộn",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Trong ba bao lì xì có các mệnh giá tiền là: 5000 đồng, 10000 đồng, 20000 đồng. Hỏi Nam có thể lấy được bao lì xì mệnh giá bao nhiêu tiền?",
+          "options": [
+            "2000 đồng",
+            "15000 đồng",
+            "50000 đồng",
+            "20000 đồng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Các mệnh giá có trong ba bao lì xì là: 5000 đồng, 10000 đồng, 20000 đồng. Nam có thể lấy được bao lì xì mệnh giá 20000 đồng",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Quan sát bảng thống kê số học sinh tham gia câu lạc bộ: Cờ vua: 24 học sinh, Bóng đá: 35 học sinh, Đàn: 20 học sinh, Nhảy: 32 học sinh. Câu lạc bộ nào có số lượng học sinh tham gia đông nhất?",
+          "options": [
+            "Cờ vua",
+            "Đàn",
+            "Bóng đá",
+            "Nhảy"
+          ],
+          "correctAnswer": 2,
+          "explanation": "So sánh số học sinh: Cờ vua 24, Bóng đá 35, Đàn 20, Nhảy 32. Câu lạc bộ Bóng đá có số học sinh tham gia đông nhất (35 học sinh)",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Quan sát bảng thống kê số học sinh tham gia câu lạc bộ: Cờ vua: 24 học sinh, Bóng đá: 35 học sinh, Đàn: 20 học sinh, Nhảy: 32 học sinh. Câu lạc bộ nào có số lượng học sinh tham gia ít nhất?",
+          "options": [
+            "Cờ vua",
+            "Đàn",
+            "Bóng đá",
+            "Nhảy"
+          ],
+          "correctAnswer": 1,
+          "explanation": "So sánh số học sinh: Cờ vua 24, Bóng đá 35, Đàn 20, Nhảy 32. Câu lạc bộ Đàn có số học sinh tham gia ít nhất (20 học sinh)",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Lớp 3A bán các mặt hàng và thu được số tiền: Lì xì handmade: 95000 đồng, Móc trang trí: 78000 đồng, Vòng tay handmade: 85000 đồng, Câu đối Tết: 55000 đồng. Mặt hàng nào thu về số tiền nhiều nhất?",
+          "options": [
+            "Móc trang trí",
+            "Vòng tay handmade",
+            "Lì xì handmade",
+            "Câu đối Tết"
+          ],
+          "correctAnswer": 2,
+          "explanation": "So sánh số tiền: Lì xì handmade 95000 đồng, Móc trang trí 78000 đồng, Vòng tay handmade 85000 đồng, Câu đối Tết 55000 đồng. Mặt hàng Lì xì handmade thu về số tiền nhiều nhất (95000 đồng)",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Lớp 3A bán các mặt hàng và thu được số tiền: Lì xì handmade: 95000 đồng, Móc trang trí: 78000 đồng, Vòng tay handmade: 85000 đồng, Câu đối Tết: 55000 đồng. Mặt hàng nào thu về số tiền ít hơn Vòng tay handmade và nhiều hơn Câu đối Tết?",
+          "options": [
+            "Lì xì handmade",
+            "Vòng tay handmade",
+            "Câu đối Tết",
+            "Móc trang trí"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Vòng tay handmade: 85000 đồng, Câu đối Tết: 55000 đồng. Móc trang trí: 78000 đồng (55000 < 78000 < 85000). Vậy Móc trang trí thu về số tiền ít hơn Vòng tay handmade và nhiều hơn Câu đối Tết",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Mai được mẹ cho 30000 đồng để mua đồ dùng học tập. Biết giá: Kéo: 35000 đồng, Thước kẻ: 12000 đồng, Cục tẩy: 5000 đồng. Mai .......... mua được chiếc kéo.",
+          "options": [
+            "chắc chắn",
+            "không thể",
+            "có thể",
+            "Không xác định được"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mai có 30000 đồng, nhưng chiếc kéo giá 35000 đồng. Vì 30000 < 35000 nên Mai không thể mua được chiếc kéo",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Mai được mẹ cho 30000 đồng để mua đồ dùng học tập. Biết giá: Thước kẻ: 12000 đồng, Cục tẩy: 5000 đồng, Lọ hồ: 28000 đồng, Gọt bút chì: 8000 đồng. Mai .......... mua được thước kẻ và cục tẩy.",
+          "options": [
+            "chắc chắn",
+            "có thể",
+            "không thể",
+            "Không xác định được"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Mai có 30000 đồng. Thước kẻ: 12000 đồng, Cục tẩy: 5000 đồng. Tổng: 12000 + 5000 = 17000 đồng. Vì 17000 < 30000 nên Mai chắc chắn mua được cả hai món",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Cuối tuần, Bình được bố mẹ cho vào khu vui chơi. Ở đây, Bình chọn chơi trò gắp bóng. Trong máy có 3 quả bóng đỏ, 3 quả bóng vàng, 3 quả bóng xanh, 3 quả bóng xanh lá. Bình có thể gắp được quả bóng màu gì?",
+          "options": [
+            "Chỉ màu đỏ",
+            "Chỉ màu vàng",
+            "Không thể gắp được",
+            "Màu đỏ, vàng, xanh hoặc xanh lá"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong máy có các màu bóng: đỏ, vàng, xanh, xanh lá. Bình có thể gắp được bất kỳ màu nào trong số đó (đỏ, vàng, xanh hoặc xanh lá)",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

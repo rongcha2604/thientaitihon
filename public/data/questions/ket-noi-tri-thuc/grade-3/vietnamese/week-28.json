@@ -1,0 +1,183 @@
+{
+  "week": 28,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 28 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc câu chuyện \"Rùa và Thỏ\":\n\n\"Trời mùa thu mát mẻ. Trên bờ sông, một con Rùa đang cố sức tập chạy. Một con Thỏ thấy thế liền mỉa mai: 'Chậm như Rùa mà cũng đòi tập chạy'. Rùa đáp: 'Anh đừng giễu tôi. Anh với tôi thử chạy thi xem ai hơn?'. Thỏ nhận lời. Thỏ nghĩ mình chạy nhanh nên nhởn nhơ hái hoa bắt bướm, rồi nằm ngủ quên. Rùa thì miệt mài chạy và đã về đích trước.\"\n\nThỏ đã có thái độ như thế nào khi thấy Rùa tập chạy?",
+          "options": [
+            "Cổ vũ Rùa",
+            "Mỉa mai, chế giễu Rùa",
+            "Khâm phục Rùa",
+            "Muốn tập chạy cùng Rùa"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong câu chuyện có viết: \"Một con Thỏ thấy thế liền mỉa mai: 'Chậm như Rùa mà cũng đòi tập chạy'\" - Thỏ đã có thái độ mỉa mai, chế giễu Rùa khi thấy Rùa tập chạy.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc câu chuyện \"Rùa và Thỏ\":\n\n\"Trời mùa thu mát mẻ. Trên bờ sông, một con Rùa đang cố sức tập chạy. Một con Thỏ thấy thế liền mỉa mai: 'Chậm như Rùa mà cũng đòi tập chạy'. Rùa đáp: 'Anh đừng giễu tôi. Anh với tôi thử chạy thi xem ai hơn?'. Thỏ nhận lời. Thỏ nghĩ mình chạy nhanh nên nhởn nhơ hái hoa bắt bướm, rồi nằm ngủ quên. Rùa thì miệt mài chạy và đã về đích trước.\"\n\nVì sao Thỏ thua cuộc?",
+          "options": [
+            "Vì Thỏ chủ quan, coi thường đối thủ và ngủ quên",
+            "Vì Thỏ bị đau chân",
+            "Vì Rùa chạy nhanh hơn Thỏ",
+            "Vì Thỏ bị lạc đường"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong câu chuyện có viết: \"Thỏ nghĩ mình chạy nhanh nên nhởn nhơ hái hoa bắt bướm, rồi nằm ngủ quên\" - Thỏ thua cuộc vì chủ quan, coi thường đối thủ và ngủ quên.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc câu chuyện \"Rùa và Thỏ\":\n\n\"Trời mùa thu mát mẻ. Trên bờ sông, một con Rùa đang cố sức tập chạy. Một con Thỏ thấy thế liền mỉa mai: 'Chậm như Rùa mà cũng đòi tập chạy'. Rùa đáp: 'Anh đừng giễu tôi. Anh với tôi thử chạy thi xem ai hơn?'. Thỏ nhận lời. Thỏ nghĩ mình chạy nhanh nên nhởn nhơ hái hoa bắt bướm, rồi nằm ngủ quên. Rùa thì miệt mài chạy và đã về đích trước.\"\n\nRùa giành chiến thắng nhờ đức tính gì?",
+          "options": [
+            "Nhanh nhẹn",
+            "Kiên trì, nhẫn nại, không nản chí",
+            "Thông minh",
+            "May mắn"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong câu chuyện có viết: \"Rùa thì miệt mài chạy và đã về đích trước\" - Rùa giành chiến thắng nhờ đức tính kiên trì, nhẫn nại, không nản chí (miệt mài chạy).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc câu chuyện \"Rùa và Thỏ\":\n\n\"Trời mùa thu mát mẻ. Trên bờ sông, một con Rùa đang cố sức tập chạy. Một con Thỏ thấy thế liền mỉa mai: 'Chậm như Rùa mà cũng đòi tập chạy'. Rùa đáp: 'Anh đừng giễu tôi. Anh với tôi thử chạy thi xem ai hơn?'. Thỏ nhận lời. Thỏ nghĩ mình chạy nhanh nên nhởn nhơ hái hoa bắt bướm, rồi nằm ngủ quên. Rùa thì miệt mài chạy và đã về đích trước.\"\n\nCâu chuyện khuyên chúng ta điều gì?",
+          "options": [
+            "Phải biết ăn ngủ đúng giờ",
+            "Không nên chạy thi với người chậm hơn",
+            "Không được chủ quan, kiêu ngạo; phải kiên trì mới thành công",
+            "Phải biết chọn bạn mà chơi"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Câu chuyện \"Rùa và Thỏ\" khuyên chúng ta không được chủ quan, kiêu ngạo (như Thỏ); phải kiên trì, nhẫn nại mới thành công (như Rùa).",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Câu \"Thỏ chủ quan nên đã thua cuộc.\" thuộc mẫu câu nào?",
+          "options": [
+            "Ai làm gì?",
+            "Ai là gì?",
+            "Khi nào?",
+            "Ai thế nào?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu \"Thỏ chủ quan nên đã thua cuộc\" trả lời cho câu hỏi \"Ai thế nào?\" - \"Thỏ\" (ai) \"chủ quan nên đã thua cuộc\" (thế nào - chỉ đặc điểm, tính chất dẫn đến kết quả).",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Điền từ so sánh: \"Chậm như ......\"",
+          "options": [
+            "Rùa",
+            "Sóc",
+            "Thỏ",
+            "Hổ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Thành ngữ đúng là \"Chậm như Rùa\" - nghĩa là rất chậm chạp, di chuyển hoặc làm việc với tốc độ rất chậm.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào viết **sai** chính tả?",
+          "options": [
+            "Che chở",
+            "Trở về",
+            "Trân trâu",
+            "Chân thành"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ viết sai là \"Trân trâu\" - đúng phải là \"Chăn trâu\" (viết bằng \"chăn\"). Các từ khác đều viết đúng chính tả.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Biện pháp nhân hóa trong truyện trên thể hiện qua chi tiết nào?",
+          "options": [
+            "Rùa có mai cứng",
+            "Rùa và Thỏ biết nói chuyện, thi chạy như người",
+            "Thỏ có tai dài",
+            "Bờ sông rất đẹp"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Biện pháp nhân hóa trong truyện thể hiện qua chi tiết Rùa và Thỏ biết nói chuyện (\"Rùa đáp\", \"Thỏ mỉa mai\"), thi chạy như người - đây là cách gán cho con vật những đặc điểm, hoạt động của con người.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Điền dấu câu thích hợp: \"Rùa nói [ ] Anh đừng giễu tôi.\"",
+          "options": [
+            "Dấu chấm",
+            "Dấu phẩy",
+            "Dấu hai chấm",
+            "Dấu chấm than"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Dấu câu thích hợp là \"Dấu hai chấm\" - \"Rùa nói: Anh đừng giễu tôi.\" - dấu hai chấm báo hiệu lời nói trực tiếp của nhân vật.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Từ nào trái nghĩa với \"kiên trì\"?",
+          "options": [
+            "Bền bỉ",
+            "Nhẫn nại",
+            "Cố gắng",
+            "Nản chí"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ trái nghĩa với \"kiên trì\" là \"Nản chí\" - \"kiên trì\" nghĩa là bền bỉ, không nản lòng, còn \"nản chí\" nghĩa là mất ý chí, không còn quyết tâm.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Chọn từ thích hợp: \"Học thầy không tày học ......\"",
+          "options": [
+            "Bạn",
+            "Cha",
+            "Mẹ",
+            "Anh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Thành ngữ đúng là \"Học thầy không tày học bạn\" - nghĩa là học từ bạn bè cũng quan trọng và có ích không kém học từ thầy cô.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Bộ phận in đậm trong câu \"**Mùa hè**, hoa phượng nở đỏ rực.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Ở đâu?",
+            "Cái gì?",
+            "Làm gì?",
+            "Khi nào?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bộ phận \"Mùa hè\" trong câu \"Mùa hè, hoa phượng nở đỏ rực\" trả lời cho câu hỏi \"Khi nào?\" - đây là trạng ngữ chỉ thời gian.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

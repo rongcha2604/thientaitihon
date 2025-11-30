@@ -1,0 +1,183 @@
+{
+  "week": 30,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 30 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Quả bóng có số bé nhất là:",
+          "options": [
+            "32 155",
+            "51 517",
+            "73 410",
+            "15 231"
+          ],
+          "correctAnswer": 3,
+          "explanation": "So sánh các số: 15 231 < 32 155 < 51 517 < 73 410. Số bé nhất là 15 231",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số lớn nhất có 5 chữ số khác nhau là:",
+          "options": [
+            "98 764",
+            "98 765",
+            "98 766",
+            "96 767"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số lớn nhất có 5 chữ số khác nhau là 98 765 (các chữ số 9, 8, 7, 6, 5 đều khác nhau và được sắp xếp từ lớn đến bé)",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số gồm 5 mươi nghìn, 7 trăm, 5 đơn vị, 4 chục được viết là:",
+          "options": [
+            "50 745",
+            "5 745",
+            "57 045",
+            "54 507"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5 mươi nghìn = 50 000, 7 trăm = 700, 4 chục = 40, 5 đơn vị = 5. Vậy: 50 000 + 700 + 40 + 5 = 50 745",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Tính nhẩm phép tính 23 000 x 3 được:",
+          "options": [
+            "46 000",
+            "69 000",
+            "49 000",
+            "59 000"
+          ],
+          "correctAnswer": 1,
+          "explanation": "23 000 x 3 = 69 000. Ta có thể tính: 23 nghìn x 3 = 69 nghìn",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức 24 183 x 4 - 22 055 là:",
+          "options": [
+            "75 977",
+            "74 977",
+            "74 677",
+            "76 977"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tính: 24 183 x 4 = 96 732, sau đó 96 732 - 22 055 = 74 677",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Số 30 245 được viết thành tổng là:",
+          "options": [
+            "30 000 + 200 + 45",
+            "30 000 + 245",
+            "30 245 + 0",
+            "30 000 + 200 + 40 + 5"
+          ],
+          "correctAnswer": 3,
+          "explanation": "30 245 = 30 000 + 200 + 40 + 5 (30 nghìn + 2 trăm + 4 chục + 5 đơn vị)",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Dãy số: 12 400, 13 400, ........., ........., 16 400, ......... Số thứ ba trong dãy số trên là:",
+          "options": [
+            "14 500",
+            "15 400",
+            "14 400",
+            "15 500"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Dãy số tăng dần 1 000 đơn vị: 12 400, 13 400, 14 400, 15 400, 16 400, 17 400. Số thứ ba là 14 400",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Ba bạn Cáo, Chồn, Nhím cùng đi kiếm ăn. Quãng đường Cáo đi là 12 550 m, Chồn đi là 10 149 m, Nhím đi là 11 868 m. Quãng đường đi của bạn nào ngắn nhất?",
+          "options": [
+            "Cáo",
+            "Nhím",
+            "Cả ba bằng nhau",
+            "Chồn"
+          ],
+          "correctAnswer": 3,
+          "explanation": "So sánh: 10 149 m < 11 868 m < 12 550 m. Quãng đường Chồn đi ngắn nhất (10 149 m)",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Kết quả phép tính 12 462 x 4 là:",
+          "options": [
+            "49 848",
+            "49 638",
+            "48 848",
+            "48 938"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Đặt tính: 12 462 x 4. Nhân từ phải sang trái: 2 x 4 = 8, 6 x 4 = 24 (viết 4, nhớ 2), 4 x 4 + 2 = 18 (viết 8, nhớ 1), 2 x 4 + 1 = 9, 1 x 4 = 4. Kết quả: 49 848",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "So sánh: 14 512 x 4 và 46 145. Dấu thích hợp điền vào chỗ trống là:",
+          "options": [
+            "14 512 x 4 = 46 145",
+            "14 512 x 4 > 46 145",
+            "14 512 x 4 < 46 145",
+            "Không so sánh được"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tính: 14 512 x 4 = 58 048. So sánh: 58 048 > 46 145. Vậy: 14 512 x 4 > 46 145",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức 1 456 + 5 498 - 4 498 là:",
+          "options": [
+            "2 456",
+            "2 556",
+            "2 366",
+            "2 356"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tính từ trái sang phải: 1 456 + 5 498 = 6 954, sau đó 6 954 - 4 498 = 2 456. Hoặc: 1 456 + (5 498 - 4 498) = 1 456 + 1 000 = 2 456",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Giá vé vào khu vui chơi dành cho trẻ em là 25 000 đồng 1 lượt. Giá vé người lớn gấp 2 lần giá vé trẻ em. Bố dắt hai chị em Mai vào khu vui chơi thì phải trả bao nhiêu tiền vé? (Bố mua 1 vé người lớn, Mai và 2 chị em mua 3 vé trẻ em)",
+          "options": [
+            "100 000 đồng",
+            "75 000 đồng",
+            "125 000 đồng",
+            "150 000 đồng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Giá vé người lớn: 25 000 x 2 = 50 000 đồng. Tổng số tiền: 1 vé người lớn + 3 vé trẻ em = 50 000 + (25 000 x 3) = 50 000 + 75 000 = 125 000 đồng",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

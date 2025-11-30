@@ -4,10 +4,9 @@ import StreakCounter from '../common/StreakCounter';
 import ProgressBar from '../common/ProgressBar';
 import AchievementBadge from '../common/AchievementBadge';
 import LearningAnalytics from '../analytics/LearningAnalytics';
-import DonateButton from '../common/DonateButton';
-import DonateModal from '../common/DonateModal';
 import DeleteDataModal from '../common/DeleteDataModal';
 import { useToast } from '../common/ToastNotification';
+import LicensePreview from '../security/LicensePreview';
 import { getSpiritPetsForGrade, getCurrentGrade } from '../../src/lib/storage/gradeStorage';
 import { clearAllProgressForUser } from '../../src/lib/storage/exerciseProgress';
 import { useDailyChallenge } from '../../contexts/DailyChallengeContext';
@@ -98,11 +97,15 @@ const LotusMedal: React.FC<{ type: 'gold' | 'silver' | 'bronze', size: string }>
 
 
 const HoSoPage: React.FC = () => {
-    const { user, logout } = useAuth();
+    const { user, logout, updateProfile } = useAuth();
     const { resetDaily } = useDailyChallenge();
     const { showToast } = useToast();
-    const [showDonateModal, setShowDonateModal] = useState(false);
     const [showDeleteModal, setShowDeleteModal] = useState(false);
+    const [isEditingName, setIsEditingName] = useState(false);
+    const [newName, setNewName] = useState('');
+    const [isEditingGrade, setIsEditingGrade] = useState(false);
+    const [newGrade, setNewGrade] = useState<number | undefined>(undefined);
+    const [showLicensePreview, setShowLicensePreview] = useState(false);
     const [selectedItem, setSelectedItem] = useState<AlbumItem | null>(null); // Đổi từ selectedCharacter thành selectedItem để hỗ trợ tất cả categories
     const [activeSpiritPet, setActiveSpiritPet] = useState<{ pet: any; userPet: any } | null>(null);
 
@@ -219,6 +222,20 @@ const HoSoPage: React.FC = () => {
         loadSelectedItem();
     }, [loadSelectedItem]);
 
+    // Sync newName khi user.fullName thay đổi
+    useEffect(() => {
+        if (!isEditingName && user?.fullName) {
+            setNewName(user.fullName);
+        }
+    }, [user?.fullName, isEditingName]);
+
+    // Sync newGrade khi user.grade thay đổi
+    useEffect(() => {
+        if (!isEditingGrade && user?.grade) {
+            setNewGrade(user.grade);
+        }
+    }, [user?.grade, isEditingGrade]);
+
     // Reload khi localStorage thay đổi (khi user chọn item mới trong Album)
     useEffect(() => {
         const handleStorageChange = (e: StorageEvent) => {
@@ -293,6 +310,62 @@ const HoSoPage: React.FC = () => {
         }, 1000);
     };
 
+    const handleStartEditName = () => {
+        setNewName(user?.fullName || '');
+        setIsEditingName(true);
+    };
+
+    const handleCancelEditName = () => {
+        setIsEditingName(false);
+        setNewName('');
+    };
+
+    const handleSaveName = async () => {
+        if (!newName.trim()) {
+            showToast('Vui lòng nhập tên!', 'error');
+            return;
+        }
+
+        try {
+            await updateProfile({ fullName: newName.trim() });
+            showToast('Đã đổi tên thành công!', 'success');
+            setIsEditingName(false);
+            setNewName('');
+        } catch (error) {
+            console.error('Error updating name:', error);
+            showToast('Không thể đổi tên. Vui lòng thử lại!', 'error');
+        }
+    };
+
+    const handleStartEditGrade = () => {
+        setNewGrade(user?.grade || 1);
+        setIsEditingGrade(true);
+    };
+
+    const handleCancelEditGrade = () => {
+        setIsEditingGrade(false);
+        setNewGrade(undefined);
+    };
+
+    const handleSaveGrade = async () => {
+        if (!newGrade || newGrade < 1 || newGrade > 5) {
+            showToast('Vui lòng chọn lớp từ 1 đến 5!', 'error');
+            return;
+        }
+
+        try {
+            await updateProfile({ grade: newGrade });
+            showToast('Đã đổi lớp thành công!', 'success');
+            setIsEditingGrade(false);
+            setNewGrade(undefined);
+            // Reload spirit pets sau khi đổi lớp
+            loadActiveSpiritPet();
+        } catch (error) {
+            console.error('Error updating grade:', error);
+            showToast('Không thể đổi lớp. Vui lòng thử lại!', 'error');
+        }
+    };
+
     return (
         <div>
             <VietHeader title="Góc Nhỏ Của Tí" icon="🏡" onLogout={handleLogout} />
@@ -359,10 +432,94 @@ const HoSoPage: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <h2 className="text-3xl font-black text-amber-900">{user?.fullName || 'Bạn nhỏ'}</h2>
-                        <p className="text-amber-800 font-semibold">
-                            {user?.grade ? `Lớp ${user.grade}` : 'Chưa chọn lớp'}
-                        </p>
+                        {isEditingName ? (
+                            <div className="w-full space-y-2">
+                                <input
+                                    type="text"
+                                    value={newName}
+                                    onChange={(e) => setNewName(e.target.value)}
+                                    className="w-full px-4 py-2 text-2xl font-black text-amber-900 text-center rounded-2xl border-2 border-amber-700/40 focus:outline-none focus:border-amber-700"
+                                    placeholder="Nhập tên mới"
+                                    autoFocus
+                                    onKeyDown={(e) => {
+                                        if (e.key === 'Enter') {
+                                            handleSaveName();
+                                        } else if (e.key === 'Escape') {
+                                            handleCancelEditName();
+                                        }
+                                    }}
+                                />
+                                <div className="flex gap-2 justify-center">
+                                    <button
+                                        onClick={handleSaveName}
+                                        className="px-4 py-2 bg-green-500 text-white font-bold rounded-xl shadow-viet-style-raised hover:scale-105 active:scale-95 transition-all"
+                                    >
+                                        💾 Lưu
+                                    </button>
+                                    <button
+                                        onClick={handleCancelEditName}
+                                        className="px-4 py-2 bg-gray-300 text-gray-800 font-bold rounded-xl shadow-viet-style-raised hover:scale-105 active:scale-95 transition-all"
+                                    >
+                                        ❌ Hủy
+                                    </button>
+                                </div>
+                            </div>
+                        ) : (
+                            <div className="w-full">
+                                <div className="flex items-center justify-center gap-2">
+                                    <h2 className="text-3xl font-black text-amber-900">{user?.fullName || 'Bạn nhỏ'}</h2>
+                                    <button
+                                        onClick={handleStartEditName}
+                                        className="p-2 hover:bg-amber-100 rounded-full transition-all active:scale-95"
+                                        title="Đổi tên"
+                                    >
+                                        ✏️
+                                    </button>
+                                </div>
+                            </div>
+                        )}
+                        {isEditingGrade ? (
+                            <div className="w-full space-y-2">
+                                <select
+                                    value={newGrade || 1}
+                                    onChange={(e) => setNewGrade(Number(e.target.value))}
+                                    className="w-full px-4 py-2 text-lg font-semibold text-amber-900 text-center rounded-2xl border-2 border-amber-700/40 focus:outline-none focus:border-amber-700 bg-white"
+                                >
+                                    <option value={1}>Lớp 1</option>
+                                    <option value={2}>Lớp 2</option>
+                                    <option value={3}>Lớp 3</option>
+                                    <option value={4}>Lớp 4</option>
+                                    <option value={5}>Lớp 5</option>
+                                </select>
+                                <div className="flex gap-2 justify-center">
+                                    <button
+                                        onClick={handleSaveGrade}
+                                        className="px-4 py-2 bg-green-500 text-white font-bold rounded-xl shadow-viet-style-raised hover:scale-105 active:scale-95 transition-all"
+                                    >
+                                        💾 Lưu
+                                    </button>
+                                    <button
+                                        onClick={handleCancelEditGrade}
+                                        className="px-4 py-2 bg-gray-300 text-gray-800 font-bold rounded-xl shadow-viet-style-raised hover:scale-105 active:scale-95 transition-all"
+                                    >
+                                        ❌ Hủy
+                                    </button>
+                                </div>
+                            </div>
+                        ) : (
+                            <div className="flex items-center justify-center gap-2">
+                                <p className="text-amber-800 font-semibold">
+                                    {user?.grade ? `Lớp ${user.grade}` : 'Chưa chọn lớp'}
+                                </p>
+                                <button
+                                    onClick={handleStartEditGrade}
+                                    className="p-2 hover:bg-amber-100 rounded-full transition-all active:scale-95"
+                                    title="Đổi lớp"
+                                >
+                                    ✏️
+                                </button>
+                            </div>
+                        )}
                     </div>
 
                     <div className="grid grid-cols-3 gap-3 text-center">
@@ -383,9 +540,14 @@ const HoSoPage: React.FC = () => {
                     {/* Góc Phụ Huynh - Beta mode: Không cần PIN */}
                     <VietSection title="👨‍👩‍👧 Góc Phụ Huynh">
                         <div className="space-y-4">
-                            {/* Donate Button - Nhẹ nhàng, tinh tế */}
-                            <DonateButton onClick={() => setShowDonateModal(true)} />
-
+                            {/* License Preview Button (for testing) */}
+                            <button
+                                onClick={() => setShowLicensePreview(true)}
+                                className="w-full bg-blue-200/80 text-blue-900 font-bold py-4 rounded-3xl shadow-viet-style-raised hover:scale-105 active:scale-95 active:shadow-viet-style-pressed transition-all border-2 border-blue-700/20"
+                            >
+                                🔍 Xem Trước Thông Báo License
+                            </button>
+                            
                             {/* Delete Data Button */}
                             <button
                                 onClick={() => setShowDeleteModal(true)}
@@ -458,11 +620,20 @@ const HoSoPage: React.FC = () => {
                 parentPin={user?.parentPin || ''}
             />
 
-            {/* Donate Modal */}
-            <DonateModal
-                isOpen={showDonateModal}
-                onClose={() => setShowDonateModal(false)}
-            />
+            {/* License Preview Modal */}
+            {showLicensePreview && (
+                <div className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-4 overflow-y-auto">
+                    <div className="relative w-full max-w-4xl bg-white rounded-3xl shadow-2xl max-h-[90vh] overflow-y-auto">
+                        <button
+                            onClick={() => setShowLicensePreview(false)}
+                            className="absolute top-4 right-4 bg-red-500 text-white font-bold w-10 h-10 rounded-full hover:scale-110 transition-all z-10 flex items-center justify-center"
+                        >
+                            ✕
+                        </button>
+                        <LicensePreview />
+                    </div>
+                </div>
+            )}
         </div>
     );
 };

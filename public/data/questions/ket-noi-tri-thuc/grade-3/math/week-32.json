@@ -1,0 +1,183 @@
+{
+  "week": 32,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 32 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "So sánh A và B biết: A = 36 490 × 2 và B = 25 860 : 5 × 7. Dấu thích hợp điền vào chỗ trống là:",
+          "options": [
+            "A > B",
+            "A < B",
+            "A = B",
+            "Không xác định"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tính A: 36 490 × 2 = 72 980. Tính B: 25 860 : 5 = 5 172, sau đó 5 172 × 7 = 36 204. So sánh: 72 980 > 36 204. Vậy A > B",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng có 13 872 hộp bánh cần giao. Buổi sáng, đã giao được 1/3 số hộp bánh. Hỏi cửa hàng đó còn lại bao nhiêu hộp bánh chưa giao?",
+          "options": [
+            "4 624 hộp bánh",
+            "3 468 hộp bánh",
+            "9 248 hộp bánh",
+            "10 404 hộp bánh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số hộp bánh đã giao: 13 872 : 3 = 4 624 hộp. Số hộp bánh còn lại: 13 872 - 4 624 = 9 248 hộp",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Điền số thích hợp vào chỗ trống: Một số chia cho 4 rồi lấy kết quả trừ đi 23 018 thì bằng 56. Số đó là:",
+          "options": [
+            "92 296",
+            "92 279",
+            "92 269",
+            "92 996"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Gọi số cần tìm là x. Ta có: x : 4 - 23 018 = 56 → x : 4 = 56 + 23 018 = 23 074 → x = 23 074 × 4 = 92 296",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Quan sát bảng số liệu sau và cho biết số học sinh lớp nào nhiều nhất: Lớp 3A1 có 40 học sinh, 3A2 có 39 học sinh, 3A3 có 38 học sinh, 3A4 có 41 học sinh.",
+          "options": [
+            "3A1",
+            "3A4",
+            "3A2",
+            "3A3"
+          ],
+          "correctAnswer": 1,
+          "explanation": "So sánh số học sinh: 3A1: 40, 3A2: 39, 3A3: 38, 3A4: 41. Lớp 3A4 có nhiều học sinh nhất (41 học sinh)",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Cân nặng của 4 bạn Mai, Hoàng, Dũng, Lân lần lượt là: 12 kg, 15 kg, 14 kg, 16 kg. Bạn nào có số cân nhẹ nhất?",
+          "options": [
+            "Hoàng",
+            "Dũng",
+            "Lân",
+            "Mai"
+          ],
+          "correctAnswer": 3,
+          "explanation": "So sánh cân nặng: Mai 12kg, Hoàng 15kg, Dũng 14kg, Lân 16kg. Mai có cân nặng nhẹ nhất (12 kg)",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Kết quả phép tính 33 123 × 6 là:",
+          "options": [
+            "198 728",
+            "198 738",
+            "198 848",
+            "198 748"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đặt tính: 33 123 × 6. Nhân từ phải sang trái: 3 × 6 = 18 (viết 8, nhớ 1), 2 × 6 + 1 = 13 (viết 3, nhớ 1), 1 × 6 + 1 = 7, 3 × 6 = 18 (viết 8, nhớ 1), 3 × 6 + 1 = 19. Kết quả: 198 738",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Tính nhẩm: 32 000 : 8 × 3 =",
+          "options": [
+            "11 000",
+            "13 000",
+            "12 000",
+            "10 000"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tính từ trái sang phải: 32 000 : 8 = 4 000, sau đó 4 000 × 3 = 12 000",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Sắp xếp kết quả các phép tính sau theo thứ tự từ lớn đến bé: 24 510 × 4 = 98 040; 79 514 : 2 = 39 757; 10 821 × 6 = 64 926. Phép tính có kết quả lớn nhất là:",
+          "options": [
+            "79 514 : 2",
+            "10 821 × 6",
+            "Cả ba bằng nhau",
+            "24 510 × 4"
+          ],
+          "correctAnswer": 3,
+          "explanation": "So sánh: 98 040 > 64 926 > 39 757. Phép tính 24 510 × 4 có kết quả lớn nhất (98 040)",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Người ta lắp các tấm kính vào cửa sổ. Biết rằng mỗi cửa sổ cần 6 tấm kính. Hỏi có 31 203 tấm kính thì lắp được nhiều nhất bao nhiêu cửa sổ như thế và còn thừa mấy tấm kính?",
+          "options": [
+            "5 200 cửa sổ, thừa 4 tấm",
+            "5 200 cửa sổ, thừa 3 tấm",
+            "5 200 cửa sổ, thừa 2 tấm",
+            "5 201 cửa sổ, thừa 3 tấm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "31 203 : 6 = 5 200 (dư 3). Vậy lắp được nhiều nhất 5 200 cửa sổ và còn thừa 3 tấm kính",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Bố Lan có một tấm nhựa hình vuông diện tích là 10 205 cm². Bố Lan muốn cắt tấm nhựa đó thành 5 tấm nhựa nhỏ hình vuông bằng nhau. Hỏi mỗi tấm nhựa nhỏ có diện tích là bao nhiêu?",
+          "options": [
+            "2 051 cm²",
+            "2 040 cm²",
+            "2 042 cm²",
+            "2 041 cm²"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Diện tích mỗi tấm nhựa nhỏ: 10 205 : 5 = 2 041 cm²",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Quan sát bảng thống kê số học sinh tham gia câu lạc bộ: Cờ vua 24 học sinh, Bóng đá 35 học sinh, Đàn 20 học sinh, Nhảy 32 học sinh. Câu lạc bộ nào có số lượng học sinh tham gia đông nhất?",
+          "options": [
+            "Cờ vua",
+            "Đàn",
+            "Bóng đá",
+            "Nhảy"
+          ],
+          "correctAnswer": 2,
+          "explanation": "So sánh số học sinh: Cờ vua 24, Bóng đá 35, Đàn 20, Nhảy 32. Câu lạc bộ Bóng đá có số học sinh tham gia đông nhất (35 học sinh)",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Trong hội chợ Xuân, lớp 3A bán các mặt hàng: Lì xì handmade thu được 95 000 đồng, Móc trang trí thu được 78 000 đồng, Vòng tay handmade thu được 85 000 đồng, Câu đối Tết thu được 55 000 đồng. Mặt hàng nào thu về số tiền nhiều nhất?",
+          "options": [
+            "Lì xì handmade",
+            "Móc trang trí",
+            "Vòng tay handmade",
+            "Câu đối Tết"
+          ],
+          "correctAnswer": 0,
+          "explanation": "So sánh số tiền: Lì xì handmade 95 000 đồng, Móc trang trí 78 000 đồng, Vòng tay handmade 85 000 đồng, Câu đối Tết 55 000 đồng. Mặt hàng Lì xì handmade thu về số tiền nhiều nhất (95 000 đồng)",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

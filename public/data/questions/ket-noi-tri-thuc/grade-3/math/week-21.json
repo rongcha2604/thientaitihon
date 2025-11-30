@@ -1,0 +1,183 @@
+{
+  "week": 21,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 21 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số lớn nhất trong các số: 9807; 7890; 8790; 9870 là:",
+          "options": [
+            "9807",
+            "9870",
+            "7890",
+            "8790"
+          ],
+          "correctAnswer": 1,
+          "explanation": "So sánh các số: 7890 < 8790 < 9807 < 9870. Vậy số lớn nhất là 9870",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 3628 - 1353 là:",
+          "options": [
+            "2265",
+            "2375",
+            "2365",
+            "2275"
+          ],
+          "correctAnswer": 3,
+          "explanation": "3628 - 1353 = 2275",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Số thứ nhất là 5389, số thứ nhất lớn hơn số thứ hai là 1294. Tổng của hai số đó là:",
+          "options": [
+            "9484",
+            "9494",
+            "9594",
+            "9584"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số thứ hai: 5389 - 1294 = 4095. Tổng: 5389 + 4095 = 9484",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Các tháng có đúng 30 ngày là:",
+          "options": [
+            "1, 3, 5, 7, 9",
+            "2, 4, 6, 8, 10, 12",
+            "4, 6, 9, 11",
+            "4, 6, 8, 9, 11"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Các tháng có đúng 30 ngày là: tháng 4, 6, 9, 11",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Nếu chủ nhật đầu tiên của tháng là ngày 4, thì chủ nhật tuần thứ 3 của tháng đó là ngày:",
+          "options": [
+            "18",
+            "17",
+            "16",
+            "15"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chủ nhật đầu tiên: ngày 4. Chủ nhật tuần 2: ngày 11. Chủ nhật tuần 3: ngày 18",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Quãng đường từ TP.Hồ Chí Minh đến TP.Hà Nội dài 1710km. Một ô tô từ TP. Hồ Chí Minh đi Hà Nội trong 3 ngày. Ngày thứ nhất ô tô đi được 720km. Ngày thứ hai ô tô đi được 675km. Hỏi ngày thứ ba ô tô còn phải đi quãng đường dài bao nhiêu ki-lô-mét nữa thì đến Hà Nội?",
+          "options": [
+            "325km",
+            "305km",
+            "335km",
+            "315km"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tổng quãng đường đã đi: 720 + 675 = 1395 km. Quãng đường còn lại: 1710 - 1395 = 315 km",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng tháng Một bán được 3080m vải, tháng Hai bán được ít hơn tháng Một là 1260m vải. Cả hai tháng cửa hàng đó bán được bao nhiêu mét vải?",
+          "options": [
+            "4800m",
+            "5000m",
+            "4900m",
+            "5100m"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tháng Hai: 3080 - 1260 = 1820 m. Tổng: 3080 + 1820 = 4900 m",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Gia đình Mai dự định đi dã ngoại vào thứ 7 hoặc chủ nhật trong khoảng ngày 12 đến ngày 25 của tháng 7. Nếu thứ 7 đầu tiên của tháng 7 là ngày 1, thì gia đình Mai có thể chọn những ngày nào?",
+          "options": [
+            "Ngày 14, 15, 21, 22",
+            "Ngày 15, 16, 22, 23",
+            "Ngày 13, 14, 20, 21",
+            "Ngày 16, 17, 23, 24"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thứ 7 đầu tiên là ngày 1, vậy thứ 7 tuần 3 là ngày 15, chủ nhật tuần 3 là ngày 16. Thứ 7 tuần 4 là ngày 22, chủ nhật tuần 4 là ngày 23. Vậy các ngày có thể chọn: 15, 16, 22, 23",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Gia đình Nga đi về quê chơi 1 tuần 2 ngày. Cả nhà về vào thứ 3 ngày 31 tháng này. Hỏi ngày cuối cùng gia đình Nga ở quê là ngày nào?",
+          "options": [
+            "Ngày 22, thứ 3",
+            "Ngày 23, thứ 4",
+            "Ngày 24, thứ 5",
+            "Ngày 25, thứ 6"
+          ],
+          "correctAnswer": 0,
+          "explanation": "1 tuần 2 ngày = 9 ngày. Nếu về vào thứ 3 ngày 31, thì ngày đầu tiên ở quê là thứ 3 ngày 23 (31 - 8 = 23). Ngày cuối cùng ở quê là thứ 3 ngày 22 (23 - 1 = 22). Hoặc tính ngược: 31 - 9 = 22, và 22 là thứ 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Cho 4 chữ số 0, 3, 4, 5. Số lớn nhất có 4 chữ số khác nhau được lập từ các chữ số trên là:",
+          "options": [
+            "5403",
+            "5340",
+            "5304",
+            "5430"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số lớn nhất có 4 chữ số khác nhau từ 0, 3, 4, 5 là 5430",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Cho 4 chữ số 0, 3, 4, 5. Số bé nhất có 4 chữ số khác nhau được lập từ các chữ số trên là:",
+          "options": [
+            "3054",
+            "3405",
+            "3045",
+            "3450"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số bé nhất có 4 chữ số khác nhau từ 0, 3, 4, 5 là 3045 (chữ số hàng nghìn không thể là 0)",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Số lớn nhất có 4 chữ số khác nhau mà tổng các chữ số bằng 28 là:",
+          "options": [
+            "9873",
+            "9874",
+            "9872",
+            "9871"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Để số lớn nhất có 4 chữ số khác nhau và tổng bằng 28, ta chọn các chữ số lớn nhất: 9 + 8 + 7 + 4 = 28. Vậy số đó là 9874",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

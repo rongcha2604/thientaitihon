@@ -1,0 +1,184 @@
+{
+  "week": 35,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 35 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 12 236 + 3 454 là:",
+          "options": [
+            "15 680",
+            "15 690",
+            "16 690",
+            "16 780"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đặt tính: 12 236 + 3 454. Cộng từ phải sang trái: 6 + 4 = 10 (viết 0, nhớ 1), 3 + 5 + 1 = 9, 2 + 4 = 6, 2 + 3 = 5, 1 giữ nguyên. Kết quả: 15 690",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Số cần điền vào bông hoa trong phép tính sau là: 🌼 - 5 500 = 44 500",
+          "options": [
+            "50 000",
+            "50 500",
+            "51 000",
+            "51 500"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Để tìm số bị trừ, ta lấy hiệu cộng với số trừ: 44 500 + 5 500 = 50 000",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Tìm số dư trong phép chia 12 518 : 5",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Chia 12 518 cho 5: 12 518 : 5 = 2 503 dư 3. Hoặc: số dư khi chia cho 5 bằng số dư của chữ số hàng đơn vị chia cho 5. 8 : 5 = 1 dư 3",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Lan mua 2 hộp bút màu hết 58 000 đồng. Vậy mua 3 hộp bút màu như thế hết số tiền là:",
+          "options": [
+            "87 000 đồng",
+            "78 000 đồng",
+            "29 000 đồng",
+            "76 000 đồng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Giá 1 hộp bút màu: 58 000 : 2 = 29 000 đồng. Giá 3 hộp bút màu: 29 000 × 3 = 87 000 đồng",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Một nhà máy dự định sản xuất 11 420 cái cốc. Nhà máy đã sản xuất được 1/5 số cốc đó. Hỏi nhà máy còn phải sản xuất bao nhiêu cái cốc nữa?",
+          "options": [
+            "9 130 cái cốc",
+            "9 300 cái cốc",
+            "1 036 cái cốc",
+            "9 136 cái cốc"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số cốc đã sản xuất: 11 420 : 5 = 2 284 cái. Số cốc còn phải sản xuất: 11 420 - 2 284 = 9 136 cái",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Có 48 cái cốc xếp đều vào 8 hộp. Hỏi có 20 736 cái cốc thì xếp được bao nhiêu hộp như thế?",
+          "options": [
+            "432 hộp",
+            "3 456 hộp",
+            "4 320 hộp",
+            "345 hộp"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số cốc trong mỗi hộp: 48 : 8 = 6 cái. Số hộp cần để xếp 20 736 cốc: 20 736 : 6 = 3 456 hộp",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 14 364 : 9 + 20 020 là:",
+          "options": [
+            "21 606",
+            "21 626",
+            "21 616",
+            "21 636"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Tính từ trái sang phải: 14 364 : 9 = 1 596. Sau đó: 1 596 + 20 020 = 21 616",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 45 890 - (4 813 × 6) là:",
+          "options": [
+            "17 012",
+            "17 022",
+            "17 112",
+            "17 102"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tính trong ngoặc trước: 4 813 × 6 = 28 878. Sau đó: 45 890 - 28 878 = 17 012",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính (10 356 × 5 - 780) : 6 là:",
+          "options": [
+            "8 500",
+            "8 600",
+            "8 400",
+            "8 700"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tính trong ngoặc: 10 356 × 5 = 51 780, sau đó 51 780 - 780 = 51 000. Cuối cùng: 51 000 : 6 = 8 500",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Kho vắc-xin Covid-19 có 80 000 liều, chuyến đầu chuyển về các tỉnh thành 12 346 liều, chuyến sau chuyển gấp 3 lần chuyến trước. Hỏi sau hai lần chuyển kho còn lại bao nhiêu liều vắc-xin?",
+          "options": [
+            "30 726 liều",
+            "30 616 liều",
+            "30 826 liều",
+            "30 516 liều"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Chuyến sau chuyển: 12 346 × 3 = 37 038 liều. Tổng hai chuyến: 12 346 + 37 038 = 49 384 liều. Số liều còn lại: 80 000 - 49 384 = 30 616 liều",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Phép tính nào sau đây có kết quả bằng 11 000?",
+          "options": [
+            "13 000 × 2",
+            "15 000 × 4",
+            "88 000 : 8",
+            "56 000 : 7"
+          ],
+          "correctAnswer": 2,
+          "explanation": "88 000 : 8 = 11 000. Các phép tính khác: 13 000 × 2 = 26 000, 15 000 × 4 = 60 000, 56 000 : 7 = 8 000",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Phép tính nào sau đây có kết quả lớn hơn 30 000?",
+          "options": [
+            "14 560 × 4",
+            "8 075 + 6 905",
+            "47 249 - 34 824 + 99",
+            "90 000 : 8"
+          ],
+          "correctAnswer": 3,
+          "explanation": "14 560 × 4 = 58 240 > 30 000. Các phép tính khác: 8 075 + 6 905 = 14 980 < 30 000, 47 249 - 34 824 + 99 = 12 524 < 30 000, 90 000 : 8 = 11 250 < 30 000",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,183 @@
+{
+  "week": 24,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 24 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Một số chia cho 7 rồi nhân với 3 thì được 3252. Số đó là:",
+          "options": [
+            "5608",
+            "5680",
+            "7588",
+            "5086"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Gọi số cần tìm là X. Ta có: (X : 7) × 3 = 3252. Suy ra X : 7 = 3252 : 3 = 1084. Vậy X = 1084 × 7 = 7588",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Một xí nghiệp đã may được 2479 cái áo. Xí nghiệp đó đã bán 427 cái áo. Số áo còn lại được xếp vào các hộp, mỗi hộp 8 cái áo. Hỏi xếp được bao nhiêu hộp và còn thừa mấy cái áo?",
+          "options": [
+            "256 hộp và thừa 5 cái áo",
+            "256 hộp và thừa 4 cái áo",
+            "257 hộp và thừa 1 cái áo",
+            "256 hộp và thừa 2 cái áo"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số áo còn lại: 2479 - 427 = 2052 cái. Số hộp và số áo thừa: 2052 : 8 = 256 dư 4. Vậy xếp được 256 hộp và thừa 4 cái áo",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Hình bên có bao nhiêu góc vuông? (Hình chữ nhật có đường thẳng chia đôi và hai đường chéo từ đỉnh trên xuống hai góc dưới)",
+          "options": [
+            "5 góc",
+            "6 góc",
+            "8 góc",
+            "7 góc"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình chữ nhật có 4 góc vuông ở 4 góc. Đường thẳng dọc chia đôi tạo thêm 2 góc vuông ở điểm giữa cạnh trên và 2 góc vuông ở điểm giữa cạnh dưới. Hai đường chéo tạo thêm các góc vuông. Tổng cộng có 8 góc vuông",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Để cắt tờ giấy dưới đây thành một hình vuông, cần cắt theo đoạn thẳng nào dưới đây? (Tờ giấy hình chữ nhật có góc dưới bên phải bị cong vào)",
+          "options": [
+            "Đoạn thẳng AB",
+            "Đoạn thẳng CD",
+            "Đoạn thẳng AD",
+            "Đoạn thẳng BC"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Để tạo thành hình vuông, cần cắt bỏ phần cong ở góc dưới bên phải. Vậy cần cắt theo đoạn thẳng CD",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Tô màu vào hình chữ nhật có trong các hình dưới đây. Hình nào có nhiều hình chữ nhật nhất?",
+          "options": [
+            "Hình 3 (hình tháp nhiều tầng)",
+            "Hình 1 (hình tàu hỏa)",
+            "Hình 2 (hình xe tải)",
+            "Hình 4 (hình tên lửa)"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình 3 (hình tháp nhiều tầng) được tạo thành hoàn toàn từ các hình chữ nhật: 3 hình chữ nhật ngang xếp chồng lên nhau và 1 hình chữ nhật đứng ở đáy",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Kết quả phép tính 3224 : 4 là:",
+          "options": [
+            "804",
+            "816",
+            "808",
+            "806"
+          ],
+          "correctAnswer": 3,
+          "explanation": "3224 : 4 = 806",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Kết quả phép tính 2207 × 3 là:",
+          "options": [
+            "6611",
+            "6621",
+            "6601",
+            "6631"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2207 × 3 = 6621",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Kết quả phép tính 5479 : 9 là:",
+          "options": [
+            "608 dư 7",
+            "607 dư 7",
+            "608 dư 5",
+            "609 dư 1"
+          ],
+          "correctAnswer": 0,
+          "explanation": "5479 : 9 = 608 dư 7",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Kết quả phép tính 1865 × 6 là:",
+          "options": [
+            "11180",
+            "11170",
+            "11200",
+            "11190"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1865 × 6 = 11190",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Có 1167 học sinh đăng kí đi tham quan. Biết số học sinh được chia thành 8 đoàn. Hỏi mỗi đoàn gồm bao nhiêu học sinh và còn bao nhiêu bạn chưa được xếp nhóm?",
+          "options": [
+            "Mỗi đoàn 146 học sinh, còn 7 bạn chưa xếp nhóm",
+            "Mỗi đoàn 145 học sinh, còn 5 bạn chưa xếp nhóm",
+            "Mỗi đoàn 145 học sinh, còn 7 bạn chưa xếp nhóm",
+            "Mỗi đoàn 146 học sinh, còn 5 bạn chưa xếp nhóm"
+          ],
+          "correctAnswer": 2,
+          "explanation": "1167 : 8 = 145 dư 7. Vậy mỗi đoàn có 145 học sinh và còn 7 bạn chưa được xếp nhóm",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Hình bên có bao nhiêu góc vuông? (Hình gồm một hình chữ nhật ở giữa và hai hình tam giác vuông ở hai bên)",
+          "options": [
+            "6 góc vuông",
+            "8 góc không vuông",
+            "4 góc vuông",
+            "4 góc không vuông"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Hình chữ nhật ở giữa có 4 góc vuông. Mỗi hình tam giác vuông ở hai bên có 1 góc vuông. Tổng cộng có 4 + 1 + 1 = 6 góc vuông",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Con đường đi từ nhà bạn Bi đến rạp chiếu phim hiện đang phải sửa chữa. Vì vậy, để có thể đến rạp phim, bạn Bi có thể đi theo 2 con đường khác được tô màu xanh ở hình dưới. Theo em, bạn Bi đi con đường nào sẽ đến rạp chiếu phim nhanh hơn? Biết MNPQ là hình chữ nhật, OMN là hình tam giác. (Đường M-O-N dài 26dm + 32dm, đường M-Q-P-N dài 11dm + 44dm + 11dm)",
+          "options": [
+            "Đường M-Q-P-N (66dm)",
+            "Cả hai đường dài bằng nhau",
+            "Không xác định được",
+            "Đường M-O-N (58dm)"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Đường M-O-N dài: 26 + 32 = 58 (dm). Đường M-Q-P-N dài: 11 + 44 + 11 = 66 (dm). Vì 58 < 66 nên đường M-O-N ngắn hơn, đi nhanh hơn",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "week": 31,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 31 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Kết quả phép tính 23 132 x 4 là:",
+          "options": [
+            "86 228",
+            "92 528",
+            "92 526",
+            "82 528"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Đặt tính: 23 132 x 4. Nhân từ phải sang trái: 2 x 4 = 8, 3 x 4 = 12 (viết 2, nhớ 1), 1 x 4 + 1 = 5, 3 x 4 = 12 (viết 2, nhớ 1), 2 x 4 + 1 = 9. Kết quả: 92 528",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Cho phép chia 41 087 : 3, số dư của phép chia đó là:",
+          "options": [
+            "1",
+            "3",
+            "2",
+            "4"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Để tìm số dư khi chia cho 3, ta tính tổng các chữ số: 4 + 1 + 0 + 8 + 7 = 20. Số dư của 20 : 3 = 6 dư 2. Vậy số dư là 2",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Một sân chơi hình vuông có độ dài mỗi cạnh bằng 20 180 mm. Chu vi của sân chơi đó là:",
+          "options": [
+            "80 720 mm",
+            "80 520 mm",
+            "80 420 mm",
+            "80 540 mm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Chu vi hình vuông = cạnh x 4. Chu vi = 20 180 x 4 = 80 720 mm",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng có 13 872 hộp bánh cần giao. Buổi sáng, đã giao được 1/3 số hộp bánh. Hỏi cửa hàng đó còn lại bao nhiêu hộp bánh chưa giao?",
+          "options": [
+            "4 624 hộp bánh",
+            "3 468 hộp bánh",
+            "10 404 hộp bánh",
+            "9 248 hộp bánh"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số hộp bánh đã giao: 13 872 : 3 = 4 624 hộp. Số hộp bánh còn lại: 13 872 - 4 624 = 9 248 hộp",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Tích của hai số là 750. Bạn Linh gấp thừa số thứ nhất lên 2 lần và giữ nguyên thừa số thứ hai rồi nhân hai số với nhau. Hỏi tích mới là bao nhiêu?",
+          "options": [
+            "72",
+            "1 500",
+            "720",
+            "150"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Nếu tích ban đầu là a x b = 750, và gấp thừa số thứ nhất lên 2 lần: (2 x a) x b = 2 x (a x b) = 2 x 750 = 1 500",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Kết quả phép tính 33 123 x 6 là:",
+          "options": [
+            "198 728",
+            "198 848",
+            "198 738",
+            "198 748"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Đặt tính: 33 123 x 6. Nhân từ phải sang trái: 3 x 6 = 18 (viết 8, nhớ 1), 2 x 6 + 1 = 13 (viết 3, nhớ 1), 1 x 6 + 1 = 7, 3 x 6 = 18 (viết 8, nhớ 1), 3 x 6 + 1 = 19. Kết quả: 198 738",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Tính nhẩm: 32 000 : 4 =",
+          "options": [
+            "7 000",
+            "9 000",
+            "6 000",
+            "8 000"
+          ],
+          "correctAnswer": 3,
+          "explanation": "32 000 : 4 = 8 000. Ta có thể tính: 32 nghìn : 4 = 8 nghìn",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Kết quả phép tính 21 420 : 5 là:",
+          "options": [
+            "4 384",
+            "4 184",
+            "4 284",
+            "4 484"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Đặt tính: 21 420 : 5 = 4 284. Ta có: 21 nghìn : 5 = 4 nghìn (dư 1 nghìn = 1000), 14 trăm : 5 = 2 trăm (dư 4 trăm = 400), 420 : 5 = 84. Vậy 21 420 : 5 = 4 284",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức 15 840 + 1 205 x 4 là:",
+          "options": [
+            "20 670",
+            "68 200",
+            "20 760",
+            "20 660"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tính phép nhân trước: 1 205 x 4 = 4 820. Sau đó: 15 840 + 4 820 = 20 660",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Giá trị của biểu thức (15 786 - 13 982) x 3 là:",
+          "options": [
+            "5 412",
+            "5 402",
+            "5 312",
+            "5 412"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tính trong ngoặc trước: 15 786 - 13 982 = 1 804. Sau đó: 1 804 x 3 = 5 412",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Trường em tổ chức đợt quyên góp vở cho trẻ em vùng cao. Khối 1,2 quyên góp được 24 286 quyển vở. Khối 3,4,5 quyên góp được gấp 3 lần số vở trên. Hỏi trường em quyên góp được tất cả bao nhiêu quyển vở?",
+          "options": [
+            "72 858 quyển",
+            "97 144 quyển",
+            "97 044 quyển",
+            "96 944 quyển"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Khối 3,4,5 quyên góp được: 24 286 x 3 = 72 858 quyển. Tổng số vở: 24 286 + 72 858 = 97 144 quyển",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Người ta đóng 12 520 chiếc bánh vào các hộp, mỗi hộp 6 chiếc bánh. Hỏi có thể đóng được nhiều nhất bao nhiêu hộp và còn thừa bao nhiêu chiếc bánh?",
+          "options": [
+            "2 086 hộp, thừa 4 chiếc",
+            "2 086 hộp, thừa 3 chiếc",
+            "2 087 hộp, thừa 4 chiếc",
+            "2 087 hộp, thừa 3 chiếc"
+          ],
+          "correctAnswer": 0,
+          "explanation": "12 520 : 6 = 2 086 (dư 4). Vậy có thể đóng được nhiều nhất 2 086 hộp và còn thừa 4 chiếc bánh",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "week": 15,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 15 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ:\n\n\"Về quê thăm ngoại\nĐầm sen nở ngát\nHương bay xa gần\nTiếng ếch râm ran\nGọi mưa đầu hạ\nNgoại cười móm mém\nYêu cháu biết bao...\"\n\nBạn nhỏ về quê thăm ai?",
+          "options": [
+            "Thăm ông nội",
+            "Thăm cô dì",
+            "Thăm bạn bè",
+            "Thăm bà ngoại"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong bài thơ có câu: \"Về quê thăm ngoại\" và \"Ngoại cười móm mém\" - bạn nhỏ về quê thăm bà ngoại.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ:\n\n\"Về quê thăm ngoại\nĐầm sen nở ngát\nHương bay xa gần\nTiếng ếch râm ran\nGọi mưa đầu hạ\nNgoại cười móm mém\nYêu cháu biết bao...\"\n\nLoài hoa nào được nhắc đến trong bài thơ?",
+          "options": [
+            "Hoa cúc",
+            "Hoa hồng",
+            "Hoa sen",
+            "Hoa mai"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong bài thơ có câu: \"Đầm sen nở ngát\" - loài hoa được nhắc đến là hoa sen.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ:\n\n\"Về quê thăm ngoại\nĐầm sen nở ngát\nHương bay xa gần\nTiếng ếch râm ran\nGọi mưa đầu hạ\nNgoại cười móm mém\nYêu cháu biết bao...\"\n\nTiếng ếch kêu báo hiệu điều gì?",
+          "options": [
+            "Mưa đầu hạ",
+            "Trời sắp sáng",
+            "Trời nắng to",
+            "Mùa thu đến"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong bài thơ có câu: \"Tiếng ếch râm ran / Gọi mưa đầu hạ\" - tiếng ếch kêu báo hiệu mưa đầu hạ (mưa đầu mùa hè).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn thơ:\n\n\"Về quê thăm ngoại\nĐầm sen nở ngát\nHương bay xa gần\nTiếng ếch râm ran\nGọi mưa đầu hạ\nNgoại cười móm mém\nYêu cháu biết bao...\"\n\nTừ ngữ miêu tả nụ cười của bà ngoại?",
+          "options": [
+            "Tươi tắn",
+            "Rạng rỡ",
+            "Móm mém",
+            "Ha hả"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong bài thơ có câu: \"Ngoại cười móm mém\" - từ ngữ miêu tả nụ cười của bà ngoại là \"móm mém\" (cười với hàm răng đã rụng, móm lại).",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Dòng nào gồm các từ chỉ tình cảm gia đình?",
+          "options": [
+            "Chăm chỉ, lười biếng, siêng năng",
+            "Hiếu thảo, kính yêu, nhường nhịn",
+            "Thông minh, dũng cảm, gan dạ",
+            "Xinh đẹp, dịu dàng, thướt tha"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Dòng \"Hiếu thảo, kính yêu, nhường nhịn\" gồm các từ chỉ tình cảm gia đình. Các dòng khác: \"Chăm chỉ, lười biếng, siêng năng\" là từ chỉ đức tính; \"Thông minh, dũng cảm, gan dạ\" là từ chỉ phẩm chất; \"Xinh đẹp, dịu dàng, thướt tha\" là từ chỉ vẻ bề ngoài.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Câu nào sử dụng đúng dấu hai chấm?",
+          "options": [
+            "Vườn nhà em có nhiều hoa: cúc, lan, hồng",
+            "Mẹ nói: con đi học đi",
+            "Em rất thích: ăn kem",
+            "Bố em là: bác sĩ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Câu \"Vườn nhà em có nhiều hoa: cúc, lan, hồng\" sử dụng đúng dấu hai chấm - dấu hai chấm dùng để liệt kê các loại hoa. Các câu khác dùng dấu hai chấm không đúng chức năng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Điền **l** hoặc **n**: \"...o lắng\"",
+          "options": [
+            "ng",
+            "l",
+            "m",
+            "n"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ đúng là \"Lo lắng\" (viết bằng \"l\") - nghĩa là băn khoăn, suy nghĩ về điều gì đó có thể xảy ra không tốt.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ nào viết **sai** chính tả?",
+          "options": [
+            "Lặng lẽ",
+            "Lo lắng",
+            "No nê",
+            "Nặng lề"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ viết sai là \"Nặng lề\" - đúng phải là \"Nặng nề\" (viết bằng \"n\"). Các từ khác đều viết đúng chính tả.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Câu \"Con trâu đen trũi.\" thuộc mẫu câu nào?",
+          "options": [
+            "Ai làm gì?",
+            "Ai là gì?",
+            "Con gì thế nào?",
+            "Con gì làm gì?"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Câu \"Con trâu đen trũi\" trả lời cho câu hỏi \"Con gì thế nào?\" - \"Con trâu\" (con gì) \"đen trũi\" (thế nào).",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Từ nào trái nghĩa với \"gần\"?",
+          "options": [
+            "Cạnh",
+            "Xa",
+            "Kề",
+            "Sát"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ trái nghĩa với \"gần\" là \"Xa\" - \"gần\" nghĩa là ở khoảng cách ngắn, còn \"xa\" nghĩa là ở khoảng cách dài.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Trong câu \"Mặt trời xuống biển như hòn lửa\", từ so sánh là:",
+          "options": [
+            "Mặt trời",
+            "Hòn lửa",
+            "Xuống",
+            "Như"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ so sánh là \"Như\" - đây là từ dùng để so sánh, nối \"Mặt trời xuống biển\" (sự vật được so sánh) với \"hòn lửa\" (sự vật dùng để so sánh).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Điền từ vào thành ngữ: \"Máu chảy ruột ......\"",
+          "options": [
+            "Mềm",
+            "Đau",
+            "Thắm",
+            "Nối"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Thành ngữ đúng là \"Máu chảy ruột mềm\" - nghĩa là khi người thân gặp khó khăn, đau khổ thì mình cũng cảm thấy đau lòng, thương xót.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

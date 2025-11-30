@@ -1,0 +1,183 @@
+{
+  "week": 4,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 4 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Mỗi khối gỗ lập phương có một chữ cái được gắn ở một mặt bất kì. Hỏi mỗi khối có mấy mặt không được gắn chữ?",
+          "options": [
+            "2 mặt",
+            "3 mặt",
+            "4 mặt",
+            "5 mặt"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Khối lập phương có 6 mặt. Nếu gắn chữ ở 1 mặt thì còn lại 6 - 1 = 5 mặt không được gắn chữ",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Mỗi mặt của khối hộp được lắp ráp bởi 5 thanh gỗ. Hỏi cần bao nhiêu thanh gỗ để lắp được khối hộp chữ nhật?",
+          "options": [
+            "30 thanh gỗ",
+            "20 thanh gỗ",
+            "25 thanh gỗ",
+            "35 thanh gỗ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Khối hộp chữ nhật có 12 cạnh. Mỗi cạnh là 1 thanh gỗ. Vậy cần 12 thanh gỗ. Nhưng nếu mỗi mặt cần 5 thanh và có 6 mặt, tổng là 30 thanh (tính cả các cạnh chung)",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Trong hình vẽ có một hình chữ nhật được chia thành 2 phần bằng một đường thẳng. Mỗi phần có một đường chéo. Hỏi hình vẽ có bao nhiêu hình tam giác?",
+          "options": [
+            "2 hình tam giác",
+            "3 hình tam giác",
+            "4 hình tam giác",
+            "5 hình tam giác"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình chữ nhật được chia thành 2 phần, mỗi phần có 1 đường chéo tạo thành 2 tam giác. Vậy tổng có 2 × 2 = 4 hình tam giác",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Hình vuông được chia thành 4 ô vuông nhỏ bằng nhau và có 2 đường chéo. Hỏi hình vẽ có bao nhiêu hình chữ nhật?",
+          "options": [
+            "8 hình chữ nhật",
+            "9 hình chữ nhật",
+            "10 hình chữ nhật",
+            "11 hình chữ nhật"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Hình vuông lớn có 4 ô vuông nhỏ, 2 hình chữ nhật ngang (mỗi hình gồm 2 ô), 2 hình chữ nhật dọc (mỗi hình gồm 2 ô), và 1 hình vuông lớn. Tổng: 4 + 2 + 2 + 1 = 9 hình chữ nhật",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Dãy hình: khối trụ, khối lập phương, khối cầu, khối hộp chữ nhật, khối trụ, khối lập phương, khối cầu, khối hộp chữ nhật, ... Hỏi hình tiếp theo là gì?",
+          "options": [
+            "Khối lập phương",
+            "Khối cầu",
+            "Khối hộp chữ nhật",
+            "Khối trụ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Dãy lặp lại theo chu kỳ 4: khối trụ, khối lập phương, khối cầu, khối hộp chữ nhật. Hình thứ 9 là hình đầu tiên của chu kỳ mới, tức là khối trụ",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Khối hộp chữ nhật có:",
+          "options": [
+            "6 mặt hình chữ nhật",
+            "6 mặt hình vuông",
+            "8 mặt hình chữ nhật",
+            "4 mặt hình chữ nhật"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Khối hộp chữ nhật có 6 mặt, tất cả đều là hình chữ nhật",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Mỗi chiếc ghế hình hộp chữ nhật cần 12 thanh sắt (mỗi cạnh là 1 thanh). Hỏi 2 chiếc ghế cần bao nhiêu thanh sắt?",
+          "options": [
+            "20 thanh sắt",
+            "22 thanh sắt",
+            "24 thanh sắt",
+            "26 thanh sắt"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Mỗi chiếc ghế cần 12 thanh sắt. 2 chiếc ghế cần: 12 × 2 = 24 thanh sắt",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Mỗi chiếc ghế hình hộp chữ nhật cần 2 tấm gỗ (1 tấm trên, 1 tấm dưới). Hỏi 5 chiếc ghế cần bao nhiêu tấm gỗ?",
+          "options": [
+            "8 tấm gỗ",
+            "10 tấm gỗ",
+            "12 tấm gỗ",
+            "15 tấm gỗ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Mỗi chiếc ghế cần 2 tấm gỗ. 5 chiếc ghế cần: 2 × 5 = 10 tấm gỗ",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Hình tứ giác có:",
+          "options": [
+            "3 đỉnh, 3 cạnh",
+            "5 đỉnh, 5 cạnh",
+            "4 đỉnh, 4 cạnh",
+            "6 đỉnh, 6 cạnh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Hình tứ giác có 4 đỉnh và 4 cạnh",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Chú kiến bò qua quãng đường gấp khúc ABCDEF với các đoạn: AB = 3cm, BC = 5cm, CD = 7cm, DE = 4cm, EF = 6cm. Hỏi chú kiến phải bò quãng đường dài bao nhiêu xăng-ti-mét?",
+          "options": [
+            "23 cm",
+            "25 cm",
+            "24 cm",
+            "26 cm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tổng độ dài quãng đường = AB + BC + CD + DE + EF = 3 + 5 + 7 + 4 + 6 = 25 cm",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Bạn Nam cùng ông nội đi chơi công viên lúc 7 giờ 15 phút và về nhà lúc 8 giờ 30 phút. Hỏi hai ông cháu đã đi chơi trong bao nhiêu phút?",
+          "options": [
+            "75 phút",
+            "70 phút",
+            "80 phút",
+            "85 phút"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 7 giờ 15 phút đến 8 giờ 30 phút = 1 giờ 15 phút = 60 + 15 = 75 phút",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Kiện hàng A có dạng khối hộp chữ nhật kích thước 4×3×3 (36 thùng nhỏ), mỗi thùng đựng 2 lít dầu. Kiện hàng B có dạng khối hộp chữ nhật kích thước 3×2×3 (18 thùng nhỏ), mỗi thùng đựng 2 lít dầu. Hỏi kiện hàng A có nhiều hơn kiện hàng B bao nhiêu lít dầu?",
+          "options": [
+            "34 lít",
+            "38 lít",
+            "40 lít",
+            "36 lít"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Kiện A: 36 thùng × 2 lít = 72 lít. Kiện B: 18 thùng × 2 lít = 36 lít. Kiện A nhiều hơn: 72 - 36 = 36 lít",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

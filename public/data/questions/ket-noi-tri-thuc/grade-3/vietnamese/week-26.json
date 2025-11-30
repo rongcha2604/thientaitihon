@@ -1,0 +1,183 @@
+{
+  "week": 26,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 26 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Hội đua voi ở Tây Nguyên thật tưng bừng. Hàng chục con voi to lớn đứng xếp hàng ngay ngắn. Khi có hiệu lệnh, đàn voi lao nhanh như tên bắn về phía đích. Bụi cuốn mù mịt. Tiếng cồng chiêng, tiếng hò reo vang dậy cả núi rừng. Những chú voi chiến thắng giơ vòi chào khán giả rất ngộ nghĩnh.\"\n\nHội đua voi diễn ra ở vùng nào?",
+          "options": [
+            "Tây Bắc",
+            "Tây Nguyên",
+            "Đồng bằng Bắc Bộ",
+            "Miền Tây Nam Bộ"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong đoạn văn có viết: \"Hội đua voi ở Tây Nguyên thật tưng bừng\" - hội đua voi diễn ra ở vùng Tây Nguyên.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Hội đua voi ở Tây Nguyên thật tưng bừng. Hàng chục con voi to lớn đứng xếp hàng ngay ngắn. Khi có hiệu lệnh, đàn voi lao nhanh như tên bắn về phía đích. Bụi cuốn mù mịt. Tiếng cồng chiêng, tiếng hò reo vang dậy cả núi rừng. Những chú voi chiến thắng giơ vòi chào khán giả rất ngộ nghĩnh.\"\n\nKhi có hiệu lệnh, đàn voi di chuyển như thế nào?",
+          "options": [
+            "Lao nhanh như tên bắn",
+            "Đi lững thững",
+            "Chạy vòng tròn",
+            "Đứng yên tại chỗ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong đoạn văn có viết: \"Khi có hiệu lệnh, đàn voi lao nhanh như tên bắn về phía đích\" - khi có hiệu lệnh, đàn voi di chuyển lao nhanh như tên bắn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Hội đua voi ở Tây Nguyên thật tưng bừng. Hàng chục con voi to lớn đứng xếp hàng ngay ngắn. Khi có hiệu lệnh, đàn voi lao nhanh như tên bắn về phía đích. Bụi cuốn mù mịt. Tiếng cồng chiêng, tiếng hò reo vang dậy cả núi rừng. Những chú voi chiến thắng giơ vòi chào khán giả rất ngộ nghĩnh.\"\n\nÂm thanh nào làm không khí thêm náo nhiệt?",
+          "options": [
+            "Tiếng sáo diều",
+            "Tiếng cồng chiêng, tiếng hò reo",
+            "Tiếng trống trường",
+            "Tiếng còi xe"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong đoạn văn có viết: \"Tiếng cồng chiêng, tiếng hò reo vang dậy cả núi rừng\" - âm thanh làm không khí thêm náo nhiệt là tiếng cồng chiêng, tiếng hò reo.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Hội đua voi ở Tây Nguyên thật tưng bừng. Hàng chục con voi to lớn đứng xếp hàng ngay ngắn. Khi có hiệu lệnh, đàn voi lao nhanh như tên bắn về phía đích. Bụi cuốn mù mịt. Tiếng cồng chiêng, tiếng hò reo vang dậy cả núi rừng. Những chú voi chiến thắng giơ vòi chào khán giả rất ngộ nghĩnh.\"\n\nNhững chú voi chiến thắng có hành động gì đáng yêu?",
+          "options": [
+            "Nằm xuống ngủ",
+            "Chạy vào rừng",
+            "Giơ vòi chào khán giả",
+            "Ăn mía"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong đoạn văn có viết: \"Những chú voi chiến thắng giơ vòi chào khán giả rất ngộ nghĩnh\" - những chú voi chiến thắng có hành động giơ vòi chào khán giả.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Từ nào dưới đây viết đúng chính tả?",
+          "options": [
+            "Xứ xở",
+            "Sứ sở",
+            "Sứ xở",
+            "Xứ sở"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng chính tả là \"Xứ sở\" (viết bằng \"x\" và \"s\") - nghĩa là đất nước, quê hương.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Câu nào có hình ảnh nhân hóa?",
+          "options": [
+            "Chú voi vẫy tai chào mọi người",
+            "Con voi rất to",
+            "Voi là loài vật thông minh",
+            "Ngà voi màu trắng"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Câu \"Chú voi vẫy tai chào mọi người\" có hình ảnh nhân hóa - gọi voi là \"Chú\" (từ dùng để gọi người) và tả hoạt động \"vẫy tai chào\" như hoạt động của con người.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Điền dấu phẩy vào vị trí thích hợp: \"Hoa cúc hoa lan hoa hồng đua nhau khoe sắc.\"",
+          "options": [
+            "Hoa cúc, hoa lan hoa hồng...",
+            "Hoa cúc hoa lan, hoa hồng...",
+            "Hoa cúc, hoa lan, hoa hồng...",
+            "Hoa, cúc hoa, lan hoa hồng..."
+          ],
+          "correctAnswer": 2,
+          "explanation": "Dấu phẩy đúng là: \"Hoa cúc, hoa lan, hoa hồng đua nhau khoe sắc\" - dấu phẩy ngăn cách các từ cùng loại trong dãy liệt kê (hoa cúc, hoa lan, hoa hồng).",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ nào trái nghĩa với \"chiến thắng\"?",
+          "options": [
+            "Thành công",
+            "Thất bại",
+            "Vinh quang",
+            "Huy hoàng"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ trái nghĩa với \"chiến thắng\" là \"Thất bại\" - \"chiến thắng\" nghĩa là giành được thắng lợi, còn \"thất bại\" nghĩa là bị thua, không đạt được mục đích.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "\"Vịnh Hạ Long\" là danh lam thắng cảnh thuộc tỉnh nào?",
+          "options": [
+            "Hải Phòng",
+            "Nghệ An",
+            "Quảng Ninh",
+            "Thanh Hóa"
+          ],
+          "correctAnswer": 2,
+          "explanation": "\"Vịnh Hạ Long\" là danh lam thắng cảnh thuộc tỉnh Quảng Ninh - đây là một trong những di sản thiên nhiên thế giới của Việt Nam.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Trong câu \"Những đám mây trắng xốp trôi nhẹ nhàng.\", từ chỉ đặc điểm là:",
+          "options": [
+            "Đám mây",
+            "Trôi",
+            "Những",
+            "Trắng xốp, nhẹ nhàng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ chỉ đặc điểm là \"Trắng xốp, nhẹ nhàng\" - đây là các từ miêu tả đặc điểm, tính chất của đám mây (màu sắc \"trắng xốp\" và cách trôi \"nhẹ nhàng\").",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Câu \"Lễ hội Chùa Hương kéo dài suốt ba tháng mùa xuân.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Sự việc thế nào? (Hoặc Cái gì thế nào?)",
+            "Ai làm gì?",
+            "Ai là gì?",
+            "Ở đâu?"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Câu \"Lễ hội Chùa Hương kéo dài suốt ba tháng mùa xuân\" trả lời cho câu hỏi \"Sự việc thế nào?\" (hoặc \"Cái gì thế nào?\") - \"Lễ hội Chùa Hương\" (cái gì) \"kéo dài suốt ba tháng mùa xuân\" (thế nào).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Điền **l** hoặc **n**: \"...on sông\"",
+          "options": [
+            "l",
+            "tr",
+            "ch",
+            "n"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là \"Non sông\" (viết bằng \"n\") - nghĩa là đất nước, Tổ quốc.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

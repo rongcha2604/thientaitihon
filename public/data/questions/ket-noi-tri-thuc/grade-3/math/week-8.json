@@ -1,0 +1,183 @@
+{
+  "week": 8,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 8 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Dấu thích hợp điền vào chỗ chấm là: 4 × 7 ......... 3 × 9",
+          "options": [
+            "<",
+            "=",
+            ">",
+            "≥"
+          ],
+          "correctAnswer": 2,
+          "explanation": "4 × 7 = 28, 3 × 9 = 27. Vì 28 > 27 nên 4 × 7 > 3 × 9",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Điền số thích hợp vào ô trống: [ ] × 2 = 800",
+          "options": [
+            "398",
+            "400",
+            "402",
+            "1600"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Gọi số cần tìm là x: x × 2 = 800, suy ra x = 800 : 2 = 400",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Phép tính nào có kết quả lớn nhất?",
+          "options": [
+            "600 : 2",
+            "800 : 4",
+            "800 : 2",
+            "200 × 3"
+          ],
+          "correctAnswer": 3,
+          "explanation": "600 : 2 = 300, 800 : 4 = 200, 200 × 3 = 600, 800 : 2 = 400. Kết quả lớn nhất là 600 (200 × 3)",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng nhập về 5 thùng kẹo, mỗi thùng chứa 40 hộp kẹo. Hỏi cửa hàng đã nhập về bao nhiêu hộp kẹo?",
+          "options": [
+            "200 hộp kẹo",
+            "20 hộp kẹo",
+            "35 hộp kẹo",
+            "45 hộp kẹo"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Tổng số hộp kẹo = Số thùng × Số hộp mỗi thùng = 5 × 40 = 200 hộp",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Mỗi bạn được cô giáo tặng 4 quyển vở. Biết số vở cô đã tặng là 40 quyển. Hỏi có bao nhiêu bạn được tặng vở?",
+          "options": [
+            "8 bạn",
+            "10 bạn",
+            "9 bạn",
+            "11 bạn"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số bạn được tặng vở = Tổng số vở : Số vở mỗi bạn = 40 : 4 = 10 bạn",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Mỗi chuồng có 4 con thỏ. Hỏi 12 con thỏ được nhốt vào mấy cái chuồng?",
+          "options": [
+            "2 chuồng",
+            "4 chuồng",
+            "3 chuồng",
+            "5 chuồng"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số chuồng cần = Tổng số thỏ : Số thỏ mỗi chuồng = 12 : 4 = 3 chuồng",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Bà nhờ Mai lấy đĩa để đựng cam mời khách. Biết mỗi đĩa bà định xếp 4 quả cam và bà có tất cả 24 quả cam. Hỏi Mai cần lấy bao nhiêu chiếc đĩa?",
+          "options": [
+            "5 đĩa",
+            "7 đĩa",
+            "8 đĩa",
+            "6 đĩa"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Số đĩa cần = Tổng số cam : Số cam mỗi đĩa = 24 : 4 = 6 đĩa",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Tom được bố giao đếm số bò của nông trại. Tom đếm được tất cả 36 cái chân bò. Hỏi nông trại có mấy con bò?",
+          "options": [
+            "8 con",
+            "10 con",
+            "9 con",
+            "12 con"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Mỗi con bò có 4 chân. Số con bò = Tổng số chân : Số chân mỗi con = 36 : 4 = 9 con",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "1/4 của một ngày là bao nhiêu giờ?",
+          "options": [
+            "3 giờ",
+            "4 giờ",
+            "8 giờ",
+            "6 giờ"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Một ngày có 24 giờ. 1/4 của 24 giờ = 24 : 4 = 6 giờ",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Các bạn cùng làm bài về nhà. Bạn Hồng làm xong trong 17 phút. Bạn Mai làm xong bài trong 1/3 giờ. Hỏi bạn nào làm bài xong nhanh hơn?",
+          "options": [
+            "Bạn Mai",
+            "Bạn Hồng",
+            "Hai bạn làm xong cùng một lúc",
+            "Không xác định được"
+          ],
+          "correctAnswer": 1,
+          "explanation": "1/3 giờ = 60 : 3 = 20 phút. Hồng làm trong 17 phút, Mai làm trong 20 phút. Vì 17 < 20 nên Hồng làm nhanh hơn",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Bốn bạn học sinh có 12 cái bút. Biết số bút của mỗi bạn bằng nhau. Hỏi mỗi bạn có bao nhiêu cái bút?",
+          "options": [
+            "3 cái bút",
+            "2 cái bút",
+            "4 cái bút",
+            "5 cái bút"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số bút mỗi bạn = Tổng số bút : Số bạn = 12 : 4 = 3 cái bút",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Trên bàn có 8 lọ hoa, mỗi lọ có 4 bông hoa. Vậy trên bàn có tất cả bao nhiêu bông hoa?",
+          "options": [
+            "28 bông hoa",
+            "30 bông hoa",
+            "36 bông hoa",
+            "32 bông hoa"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Tổng số bông hoa = Số lọ × Số hoa mỗi lọ = 8 × 4 = 32 bông hoa",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

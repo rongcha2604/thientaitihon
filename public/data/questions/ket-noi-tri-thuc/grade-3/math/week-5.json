@@ -1,0 +1,183 @@
+{
+  "week": 5,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 5 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Mẹ đi làm lúc 7 giờ 15 phút sáng và mẹ về nhà lúc 5 giờ 30 phút chiều. Hỏi mẹ ở cơ quan trong bao lâu?",
+          "options": [
+            "10 giờ 15 phút",
+            "2 giờ 15 phút",
+            "10 giờ 30 phút",
+            "17 giờ"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ 7 giờ 15 phút sáng đến 5 giờ 30 phút chiều (17 giờ 30 phút) = 17 giờ 30 phút - 7 giờ 15 phút = 10 giờ 15 phút",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Sau bữa cơm tất niên, Thảo và Uyên giúp mẹ rửa bát. Thảo rửa được 8 cái bát, Uyên rửa được nhiều hơn Thảo 3 cái bát. Hỏi cả hai chị em rửa được bao nhiêu cái bát?",
+          "options": [
+            "11 cái bát",
+            "14 cái bát",
+            "19 cái bát",
+            "5 cái bát"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Uyên rửa được: 8 + 3 = 11 cái bát. Cả hai chị em rửa được: 8 + 11 = 19 cái bát",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Bố làm việc từ 8 giờ sáng đến 16 giờ kém 10 phút. Hỏi bố làm việc trong bao nhiêu thời gian?",
+          "options": [
+            "8 giờ",
+            "7 giờ 50 phút",
+            "8 giờ 30 phút",
+            "8 giờ 10 phút"
+          ],
+          "correctAnswer": 1,
+          "explanation": "16 giờ kém 10 phút = 15 giờ 50 phút. Từ 8 giờ đến 15 giờ 50 phút = 15 giờ 50 phút - 8 giờ = 7 giờ 50 phút",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Mỗi ngày em học bài ở nhà 30 phút. Hỏi 1 tuần em học bài ở nhà bao nhiêu phút?",
+          "options": [
+            "150 phút",
+            "180 phút",
+            "200 phút",
+            "210 phút"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1 tuần có 7 ngày. Tổng số phút học bài: 30 × 7 = 210 phút",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Giá trị biểu thức: 45 + 40 : 5 là:",
+          "options": [
+            "53",
+            "17",
+            "8",
+            "9"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Thực hiện phép chia trước: 40 : 5 = 8. Sau đó cộng: 45 + 8 = 53",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Có 2 bao gạo. Bao thứ nhất nặng 8kg. Bao thứ hai nặng gấp 2 lần bao thứ nhất. Hỏi cả 2 bao nặng bao nhiêu kg?",
+          "options": [
+            "16 kg",
+            "18 kg",
+            "24 kg",
+            "20 kg"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Bao thứ hai nặng: 8 × 2 = 16 kg. Cả 2 bao nặng: 8 + 16 = 24 kg",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Giá trị biểu thức: 10 : 5 × 2 là:",
+          "options": [
+            "5",
+            "4",
+            "2",
+            "1"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thực hiện từ trái sang phải: 10 : 5 = 2, sau đó 2 × 2 = 4",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Giá trị biểu thức: 72 + 5 × 3 là:",
+          "options": [
+            "86",
+            "231",
+            "77",
+            "87"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Thực hiện phép nhân trước: 5 × 3 = 15. Sau đó cộng: 72 + 15 = 87",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Giá trị biểu thức: 2 × 8 + 70 là:",
+          "options": [
+            "86",
+            "78",
+            "80",
+            "88"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Thực hiện phép nhân trước: 2 × 8 = 16. Sau đó cộng: 16 + 70 = 86",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Giá trị biểu thức: 15 - 50 : 5 là:",
+          "options": [
+            "4",
+            "3",
+            "5",
+            "2"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Thực hiện phép chia trước: 50 : 5 = 10. Sau đó trừ: 15 - 10 = 5",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Lớp 3A có 20 học sinh, lớp 3B có 25 học sinh. Số học sinh hai lớp được chia vào 5 nhóm. Hỏi mỗi nhóm có bao nhiêu học sinh?",
+          "options": [
+            "8 học sinh",
+            "9 học sinh",
+            "10 học sinh",
+            "11 học sinh"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tổng số học sinh: 20 + 25 = 45 học sinh. Mỗi nhóm có: 45 : 5 = 9 học sinh",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng có 50 chiếc cốc xếp đều vào 5 hộp, mỗi hộp có 2 ngăn. Hỏi mỗi ngăn có bao nhiêu chiếc cốc?",
+          "options": [
+            "10 chiếc cốc",
+            "15 chiếc cốc",
+            "20 chiếc cốc",
+            "5 chiếc cốc"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Mỗi hộp có: 50 : 5 = 10 chiếc cốc. Mỗi ngăn có: 10 : 2 = 5 chiếc cốc",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "week": 18,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 18 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép chia 48 : 3 là:",
+          "options": [
+            "16",
+            "13",
+            "14",
+            "15"
+          ],
+          "correctAnswer": 0,
+          "explanation": "48 : 3 = 16",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Cho 81 : ..... = 3. Số thích hợp điền vào chỗ chấm là:",
+          "options": [
+            "25",
+            "27",
+            "17",
+            "16"
+          ],
+          "correctAnswer": 1,
+          "explanation": "81 : 27 = 3. Vậy số cần điền là 27",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Hoa có 45 cái kẹo. Hoa chia cho Hồng 1/3 số kẹo Hoa có. Hỏi Hồng được chia bao nhiêu cái kẹo?",
+          "options": [
+            "30 cái kẹo",
+            "16 cái kẹo",
+            "15 cái kẹo",
+            "20 cái kẹo"
+          ],
+          "correctAnswer": 2,
+          "explanation": "1/3 số kẹo = 45 : 3 = 15 cái kẹo",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "1/4 của một giờ bằng bao nhiêu phút?",
+          "options": [
+            "12 phút",
+            "30 phút",
+            "10 phút",
+            "15 phút"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1 giờ = 60 phút. 1/4 giờ = 60 : 4 = 15 phút",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Bố đi công tác 2 tuần lễ và 5 ngày. Hỏi bố đi công tác tất cả bao nhiêu ngày?",
+          "options": [
+            "7 ngày",
+            "19 ngày",
+            "14 ngày",
+            "10 ngày"
+          ],
+          "correctAnswer": 1,
+          "explanation": "2 tuần = 2 × 7 = 14 ngày. Tổng: 14 + 5 = 19 ngày",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Mai có số bông hoa bằng số bông hoa của Hà giảm đi 4 lần. Biết số hoa của Hà là 96 bông. Tìm số hoa của Mai.",
+          "options": [
+            "100 bông",
+            "42 bông",
+            "24 bông",
+            "92 bông"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Số hoa của Mai = 96 : 4 = 24 bông",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Cửa hàng có 580 kg khoai tây, cửa hàng đã bán đi 1/2 số khoai tây đó. Hỏi cửa hàng đã bán đi bao nhiêu ki-lô-gam khoai tây?",
+          "options": [
+            "240kg",
+            "260kg",
+            "300kg",
+            "290kg"
+          ],
+          "correctAnswer": 3,
+          "explanation": "1/2 số khoai tây = 580 : 2 = 290 kg",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Một lớp có 38 học sinh đi liên hoan bằng xe taxi. Biết mỗi xe chở được 4 học sinh. Hỏi cô giáo cần gọi bao nhiêu xe để chở hết cả lớp?",
+          "options": [
+            "10 xe",
+            "9 xe",
+            "8 xe",
+            "11 xe"
+          ],
+          "correctAnswer": 0,
+          "explanation": "38 : 4 = 9 dư 2. Vậy cần 10 xe để chở hết cả lớp (9 xe đầy và 1 xe chở 2 học sinh còn lại)",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Có 27 kg lạc đóng vào 6 túi như nhau. Hỏi mỗi túi chứa bao nhiêu ki-lô-gam lạc và còn thừa bao nhiêu ki-lô-gam lạc?",
+          "options": [
+            "Mỗi túi 5 kg, thừa 2 kg",
+            "Mỗi túi 4 kg, thừa 2 kg",
+            "Mỗi túi 3 kg, thừa 3 kg",
+            "Mỗi túi 4 kg, thừa 3 kg"
+          ],
+          "correctAnswer": 3,
+          "explanation": "27 : 6 = 4 dư 3. Vậy mỗi túi 4 kg, thừa 3 kg",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Có 120 học sinh xếp đều thành 8 hàng. Hỏi mỗi hàng có bao nhiêu học sinh?",
+          "options": [
+            "14 học sinh",
+            "16 học sinh",
+            "15 học sinh",
+            "13 học sinh"
+          ],
+          "correctAnswer": 2,
+          "explanation": "120 : 8 = 15 học sinh",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Có 259 cái bát xếp vào các hộp, mỗi hộp xếp được nhiều nhất 8 cái. Vậy cần ít nhất bao nhiêu cái hộp để đựng hết số bát đó?",
+          "options": [
+            "33 hộp",
+            "32 hộp",
+            "31 hộp",
+            "34 hộp"
+          ],
+          "correctAnswer": 0,
+          "explanation": "259 : 8 = 32 dư 3. Vậy cần ít nhất 33 hộp (32 hộp đầy và 1 hộp chứa 3 cái bát còn lại)",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Một cửa hàng có 945 cái quạt, người ta đã bán đi 1/8 số quạt đó. Hỏi cửa hàng còn lại bao nhiêu cái quạt?",
+          "options": [
+            "826 cái",
+            "827 cái",
+            "828 cái",
+            "829 cái"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số quạt đã bán: 945 : 8 = 118 dư 1 (hoặc 945 × 1/8 = 118,125, làm tròn là 118). Số quạt còn lại: 945 - 118 = 827 cái. Hoặc tính: 945 × 7/8 = 826,875 ≈ 827",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

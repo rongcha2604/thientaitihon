@@ -1,0 +1,183 @@
+{
+  "week": 20,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 20 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Chợ Tết quê em thật nhộn nhịp. Những cành đào phai lốm đốm nụ hồng, những chậu quất vàng ươm được bày bán dọc hai bên đường. Mọi người ai cũng hối hả mua sắm để chuẩn bị đón năm mới. Tiếng cười nói, tiếng chào mời râm ran cả một góc phố. Mùa xuân đã về thật rồi!\"\n\nĐoạn văn tả cảnh gì?",
+          "options": [
+            "Cảnh đi cấy",
+            "Cảnh trường học",
+            "Cảnh chợ Tết",
+            "Cảnh lễ hội đua thuyền"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong đoạn văn có viết: \"Chợ Tết quê em thật nhộn nhịp\" - đoạn văn tả cảnh chợ Tết.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Chợ Tết quê em thật nhộn nhịp. Những cành đào phai lốm đốm nụ hồng, những chậu quất vàng ươm được bày bán dọc hai bên đường. Mọi người ai cũng hối hả mua sắm để chuẩn bị đón năm mới. Tiếng cười nói, tiếng chào mời râm ran cả một góc phố. Mùa xuân đã về thật rồi!\"\n\nNhững loài cây nào được nhắc đến trong đoạn văn?",
+          "options": [
+            "Đào phai, quất vàng",
+            "Hoa mai, hoa cúc",
+            "Cây nêu, tràng pháo",
+            "Hoa hồng, hoa ly"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong đoạn văn có viết: \"Những cành đào phai lốm đốm nụ hồng, những chậu quất vàng ươm\" - những loài cây được nhắc đến là đào phai và quất vàng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Chợ Tết quê em thật nhộn nhịp. Những cành đào phai lốm đốm nụ hồng, những chậu quất vàng ươm được bày bán dọc hai bên đường. Mọi người ai cũng hối hả mua sắm để chuẩn bị đón năm mới. Tiếng cười nói, tiếng chào mời râm ran cả một góc phố. Mùa xuân đã về thật rồi!\"\n\nTừ \"hối hả\" gợi tả điều gì?",
+          "options": [
+            "Sự chậm chạp, từ tốn",
+            "Sự buồn bã",
+            "Sự yên tĩnh",
+            "Sự vội vã, khẩn trương"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ \"hối hả\" gợi tả sự vội vã, khẩn trương - nghĩa là làm việc một cách nhanh chóng, gấp gáp.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Chợ Tết quê em thật nhộn nhịp. Những cành đào phai lốm đốm nụ hồng, những chậu quất vàng ươm được bày bán dọc hai bên đường. Mọi người ai cũng hối hả mua sắm để chuẩn bị đón năm mới. Tiếng cười nói, tiếng chào mời râm ran cả một góc phố. Mùa xuân đã về thật rồi!\"\n\nCảm giác của tác giả khi thấy cảnh chợ Tết là gì?",
+          "options": [
+            "Thấy mệt mỏi vì ồn ào",
+            "Cảm nhận được mùa xuân đã về",
+            "Thấy lo lắng",
+            "Thấy nhớ nhà"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong đoạn văn có viết: \"Mùa xuân đã về thật rồi!\" - cảm giác của tác giả khi thấy cảnh chợ Tết là cảm nhận được mùa xuân đã về.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Câu nào dưới đây là câu khiến (câu cầu khiến)?",
+          "options": [
+            "Hoa đào đẹp quá!",
+            "Mẹ đang gói bánh chưng",
+            "Em hãy giúp mẹ dọn nhà nhé!",
+            "Hôm nay là 30 Tết"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Câu \"Em hãy giúp mẹ dọn nhà nhé!\" là câu khiến (câu cầu khiến) - có từ \"hãy\" và dấu chấm than, dùng để yêu cầu, đề nghị người khác làm việc gì đó. Các câu khác: \"Hoa đào đẹp quá!\" là câu cảm thán; \"Mẹ đang gói bánh chưng\" và \"Hôm nay là 30 Tết\" là câu kể.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Phép nhân hóa trong câu \"Nàng Xuân dịu dàng bước xuống trần gian.\" được thể hiện qua từ ngữ nào?",
+          "options": [
+            "Trần gian",
+            "Bước xuống",
+            "Mùa xuân",
+            "Nàng, dịu dàng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Phép nhân hóa trong câu \"Nàng Xuân dịu dàng bước xuống trần gian\" được thể hiện qua từ ngữ \"Nàng\" (gọi mùa xuân như gọi người) và \"dịu dàng\" (từ chỉ tính cách của con người), \"bước xuống\" (hoạt động của con người).",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Điền **l** hoặc **n**: \"Bánh chưng xanh bên dưa hấu đỏ / Cành mai vàng bên cành đào tươi / Tết ...ay sum họp trúc mai / Ông bà, cha mẹ thêm tuổi đời.\" (Thơ chúc Tết)",
+          "options": [
+            "n",
+            "l",
+            "ng",
+            "nh"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là \"Tết nay\" (viết bằng \"n\") - nghĩa là Tết năm nay, Tết này.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "Bánh trưng",
+            "Bánh chưng",
+            "Bánh trân",
+            "Bánh chân"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ đúng chính tả là \"Bánh chưng\" (viết bằng \"ch\") - nghĩa là loại bánh truyền thống của Việt Nam, làm từ gạo nếp, đỗ xanh, thịt lợn, gói bằng lá dong, thường được làm vào dịp Tết Nguyên Đán.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Thành ngữ \"Vui như ......\" điền từ gì?",
+          "options": [
+            "Hội",
+            "Xuân",
+            "Tết",
+            "Hoa"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Thành ngữ đúng là \"Vui như Tết\" - nghĩa là rất vui vẻ, hạnh phúc như không khí ngày Tết.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Dòng nào gồm các từ ngữ về chủ điểm Lễ hội?",
+          "options": [
+            "Học bài, thi cử, điểm mười",
+            "Lễ đài, dâng hương, rước kiệu",
+            "Cày cấy, gặt hái, phơi thóc",
+            "Xây dựng, thiết kế, thi công"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Dòng \"Lễ đài, dâng hương, rước kiệu\" gồm các từ ngữ về chủ điểm Lễ hội. Các dòng khác: \"Học bài, thi cử, điểm mười\" là về học tập; \"Cày cấy, gặt hái, phơi thóc\" là về nông nghiệp; \"Xây dựng, thiết kế, thi công\" là về xây dựng.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Câu \"Màn pháo hoa rực rỡ sắc màu.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Cái gì thế nào?",
+            "Ai làm gì?",
+            "Ai là gì?",
+            "Khi nào?"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Câu \"Màn pháo hoa rực rỡ sắc màu\" trả lời cho câu hỏi \"Cái gì thế nào?\" - \"Màn pháo hoa\" (cái gì) \"rực rỡ sắc màu\" (thế nào).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Dấu câu nào dùng để kết thúc câu cảm thán (bộc lộ cảm xúc)?",
+          "options": [
+            "Dấu chấm",
+            "Dấu chấm hỏi",
+            "Dấu hai chấm",
+            "Dấu chấm than"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Dấu chấm than (!) dùng để kết thúc câu cảm thán (bộc lộ cảm xúc) - ví dụ: \"Hoa đào đẹp quá!\" Các dấu khác: dấu chấm (.) kết thúc câu kể; dấu chấm hỏi (?) kết thúc câu hỏi; dấu hai chấm (:) báo hiệu lời nói trực tiếp hoặc liệt kê.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

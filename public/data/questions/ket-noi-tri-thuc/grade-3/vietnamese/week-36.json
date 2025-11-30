@@ -1,0 +1,183 @@
+{
+  "week": 36,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 36 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Kỳ nghỉ hè đã đến. Nam dự định sẽ về quê thăm ông bà nội. Ở quê, Nam sẽ được thả diều trên triền đê lộng gió, được theo ông ra vườn hái quả chín. Nam cũng chuẩn bị sẵn đồ bơi để chiều chiều được tắm mát dưới dòng sông quê hương. Nghĩ đến thôi, Nam đã thấy lòng rộn ràng niềm vui.\"\n\nNam dự định đi đâu trong kỳ nghỉ hè?",
+          "options": [
+            "Về quê thăm ông bà",
+            "Đi du lịch nước ngoài",
+            "Đi học thêm toán",
+            "Ở lại thành phố"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong đoạn văn có viết: \"Nam dự định sẽ về quê thăm ông bà nội\" - Nam dự định về quê thăm ông bà trong kỳ nghỉ hè.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Kỳ nghỉ hè đã đến. Nam dự định sẽ về quê thăm ông bà nội. Ở quê, Nam sẽ được thả diều trên triền đê lộng gió, được theo ông ra vườn hái quả chín. Nam cũng chuẩn bị sẵn đồ bơi để chiều chiều được tắm mát dưới dòng sông quê hương. Nghĩ đến thôi, Nam đã thấy lòng rộn ràng niềm vui.\"\n\nNam sẽ tham gia hoạt động thú vị nào trên triền đê?",
+          "options": [
+            "Đá bóng",
+            "Đọc sách",
+            "Nướng khoai",
+            "Thả diều"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong đoạn văn có viết: \"Nam sẽ được thả diều trên triền đê lộng gió\" - Nam sẽ tham gia hoạt động thả diều trên triền đê.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Kỳ nghỉ hè đã đến. Nam dự định sẽ về quê thăm ông bà nội. Ở quê, Nam sẽ được thả diều trên triền đê lộng gió, được theo ông ra vườn hái quả chín. Nam cũng chuẩn bị sẵn đồ bơi để chiều chiều được tắm mát dưới dòng sông quê hương. Nghĩ đến thôi, Nam đã thấy lòng rộn ràng niềm vui.\"\n\nCảm giác của Nam khi nghĩ về kỳ nghỉ hè?",
+          "options": [
+            "Lo lắng",
+            "Rộn ràng niềm vui",
+            "Sợ hãi",
+            "Buồn chán"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong đoạn văn có viết: \"Nghĩ đến thôi, Nam đã thấy lòng rộn ràng niềm vui\" - cảm giác của Nam khi nghĩ về kỳ nghỉ hè là rộn ràng niềm vui.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Kỳ nghỉ hè đã đến. Nam dự định sẽ về quê thăm ông bà nội. Ở quê, Nam sẽ được thả diều trên triền đê lộng gió, được theo ông ra vườn hái quả chín. Nam cũng chuẩn bị sẵn đồ bơi để chiều chiều được tắm mát dưới dòng sông quê hương. Nghĩ đến thôi, Nam đã thấy lòng rộn ràng niềm vui.\"\n\nNam chuẩn bị đồ bơi để làm gì?",
+          "options": [
+            "Để đi bể bơi thành phố",
+            "Để đi biển",
+            "Để tắm mát dưới dòng sông quê hương",
+            "Để tập bơi trong chậu"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong đoạn văn có viết: \"Nam cũng chuẩn bị sẵn đồ bơi để chiều chiều được tắm mát dưới dòng sông quê hương\" - Nam chuẩn bị đồ bơi để tắm mát dưới dòng sông quê hương.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "Ngỉ hè",
+            "Nghĩ hè",
+            "Ngĩ hè",
+            "Nghỉ hè"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng chính tả là \"Nghỉ hè\" (viết bằng \"nghỉ\" và \"hè\") - nghĩa là thời gian nghỉ ngơi vào mùa hè, sau khi kết thúc năm học.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Biện pháp nhân hóa trong câu \"Cánh diều no gió thì thầm với mây xanh.\" thể hiện qua từ nào?",
+          "options": [
+            "Cánh diều",
+            "Mây xanh",
+            "Thì thầm",
+            "No gió"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Biện pháp nhân hóa trong câu \"Cánh diều no gió thì thầm với mây xanh\" thể hiện qua từ \"Thì thầm\" - đây là hoạt động của con người (nói chuyện nhỏ nhẹ), được gán cho cánh diều.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Dấu phẩy trong câu \"Mùa hè, ve kêu râm ran.\" dùng để làm gì?",
+          "options": [
+            "Ngăn cách trạng ngữ chỉ thời gian với nòng cốt câu",
+            "Ngăn cách chủ ngữ và vị ngữ",
+            "Ngăn cách các từ cùng loại",
+            "Kết thúc câu"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Dấu phẩy trong câu \"Mùa hè, ve kêu râm ran\" dùng để ngăn cách trạng ngữ chỉ thời gian (\"Mùa hè\") với nòng cốt câu (\"ve kêu râm ran\").",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Bộ phận in đậm trong câu \"Ngày mai, em sẽ đi du lịch.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Ở đâu?",
+            "Khi nào?",
+            "Làm gì?",
+            "Ai?"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Bộ phận \"Ngày mai\" trong câu \"Ngày mai, em sẽ đi du lịch\" trả lời cho câu hỏi \"Khi nào?\" - đây là trạng ngữ chỉ thời gian.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Từ nào chỉ đặc điểm của mùa hè?",
+          "options": [
+            "Lạnh giá",
+            "Rét buốt",
+            "Oi ả",
+            "Ấm áp"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ chỉ đặc điểm của mùa hè là \"Oi ả\" - nghĩa là nóng nực, khó chịu, không có gió. Các từ khác: \"Lạnh giá\" và \"Rét buốt\" là đặc điểm của mùa đông; \"Ấm áp\" thường dùng cho mùa xuân.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Điền **tr** hoặc **ch**: \"...ơi đùa\"",
+          "options": [
+            "tr",
+            "x",
+            "s",
+            "ch"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là \"Chơi đùa\" (viết bằng \"ch\") - nghĩa là vui chơi, giải trí.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Thành ngữ \"Uống nước nhớ ......\"",
+          "options": [
+            "Sông",
+            "Nguồn",
+            "Suối",
+            "Biển"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thành ngữ đúng là \"Uống nước nhớ nguồn\" - nghĩa là khi được hưởng thành quả, phải nhớ đến công lao của những người đã tạo ra nó.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Câu \"Em rất yêu thích mùa hè.\" là kiểu câu gì?",
+          "options": [
+            "Câu kể (giới thiệu/bộc lộ suy nghĩ)",
+            "Câu hỏi",
+            "Câu khiến",
+            "Câu cảm"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Câu \"Em rất yêu thích mùa hè\" là câu kể (giới thiệu/bộc lộ suy nghĩ) - câu này dùng để kể lại, giới thiệu về suy nghĩ, cảm nhận của em về mùa hè.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

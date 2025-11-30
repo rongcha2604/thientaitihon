@@ -1,0 +1,183 @@
+{
+  "week": 3,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 3 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Bà ngoại của Lan đã già. Tóc bà bạc trắng như cước. Mắt bà đã mờ, chân đi lại chậm chạp. Nhưng bà rất yêu thương con cháu. Mỗi khi Lan sang chơi, bà thường để dành cho Lan những quả na chín ngọt lịm trong vườn.\"\n\nTóc của bà ngoại được so sánh với cái gì?",
+          "options": [
+            "Mây trắng",
+            "Tuyết",
+            "Bông gòn",
+            "Cước"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong đoạn văn có viết: \"Tóc bà bạc trắng như cước\" - tóc bà được so sánh với cước (sợi cước trắng).",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Bà ngoại của Lan đã già. Tóc bà bạc trắng như cước. Mắt bà đã mờ, chân đi lại chậm chạp. Nhưng bà rất yêu thương con cháu. Mỗi khi Lan sang chơi, bà thường để dành cho Lan những quả na chín ngọt lịm trong vườn.\"\n\nDáng đi của bà ngoại như thế nào?",
+          "options": [
+            "Chậm chạp",
+            "Nhanh nhẹn",
+            "Hoạt bát",
+            "Vội vã"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong đoạn văn có viết: \"chân đi lại chậm chạp\" - dáng đi của bà ngoại chậm chạp.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Bà ngoại của Lan đã già. Tóc bà bạc trắng như cước. Mắt bà đã mờ, chân đi lại chậm chạp. Nhưng bà rất yêu thương con cháu. Mỗi khi Lan sang chơi, bà thường để dành cho Lan những quả na chín ngọt lịm trong vườn.\"\n\nBà thường để dành cho Lan thứ gì?",
+          "options": [
+            "Kẹo bánh",
+            "Quả xoài",
+            "Quả na chín",
+            "Đồ chơi"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong đoạn văn có viết: \"bà thường để dành cho Lan những quả na chín ngọt lịm trong vườn\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Bà ngoại của Lan đã già. Tóc bà bạc trắng như cước. Mắt bà đã mờ, chân đi lại chậm chạp. Nhưng bà rất yêu thương con cháu. Mỗi khi Lan sang chơi, bà thường để dành cho Lan những quả na chín ngọt lịm trong vườn.\"\n\nQua đoạn văn, ta thấy tình cảm của bà đối với Lan như thế nào?",
+          "options": [
+            "Nghiêm khắc",
+            "Rất yêu thương",
+            "Lạnh lùng",
+            "Không quan tâm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong đoạn văn có viết: \"Nhưng bà rất yêu thương con cháu\" và \"bà thường để dành cho Lan những quả na chín\" - thể hiện tình cảm yêu thương của bà.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Câu nào dưới đây có hình ảnh so sánh?",
+          "options": [
+            "Mẹ là người em yêu nhất",
+            "Bố em đang đọc báo",
+            "Mặt trăng tròn như cái đĩa",
+            "Bé Lan rất ngoan"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Câu \"Mặt trăng tròn như cái đĩa\" có hình ảnh so sánh - so sánh mặt trăng với cái đĩa bằng từ \"như\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Từ nào là từ chỉ gộp những người trong gia đình?",
+          "options": [
+            "Ông trăng",
+            "Bà tiên",
+            "Chú bộ đội",
+            "Ông bà"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ \"Ông bà\" là từ chỉ gộp những người trong gia đình - đây là danh từ chỉ nhiều người thân trong gia đình. Các từ khác: \"Ông trăng\", \"Bà tiên\" là hình ảnh trong truyện cổ tích; \"Chú bộ đội\" chỉ một người.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Điền **tr** hoặc **ch**: \".....ăm chỉ\"",
+          "options": [
+            "ch",
+            "tr",
+            "x",
+            "s"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng là \"Chăm chỉ\" (viết bằng \"ch\") - nghĩa là siêng năng, cần cù. Theo quy tắc chính tả: \"ch\" đứng trước các nguyên âm a, o, ô, ơ, u, ư; \"tr\" đứng trước các nguyên âm e, ê, i.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ nào trái nghĩa với \"thương yêu\"?",
+          "options": [
+            "Yêu mến",
+            "Căm ghét",
+            "Quý trọng",
+            "Đùm bọc"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ trái nghĩa với \"thương yêu\" là \"Căm ghét\" - \"thương yêu\" nghĩa là có tình cảm tốt đẹp, còn \"căm ghét\" nghĩa là có tình cảm xấu, không ưa.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Câu \"Bố em đang tưới cây ngoài vườn.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Ai là gì?",
+            "Ai thế nào?",
+            "Ai làm gì?",
+            "Khi nào?"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Câu \"Bố em đang tưới cây ngoài vườn\" trả lời cho câu hỏi \"Ai làm gì?\" - \"Bố em\" (ai) \"đang tưới cây\" (làm gì).",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Trong các từ sau, từ nào viết đúng chính tả?",
+          "options": [
+            "Sum vầy",
+            "Xum vầy",
+            "Xum vầy",
+            "Xum vây"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng chính tả là \"Sum vầy\" (viết bằng \"s\") - nghĩa là tụ họp đông đủ, quây quần bên nhau.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Dòng nào dưới đây chỉ gồm các từ chỉ tình cảm?",
+          "options": [
+            "Yêu thương, chạy nhảy, vui đùa",
+            "Yêu thương, kính trọng, quý mến",
+            "Kính trọng, ông bà, cha mẹ",
+            "Quý mến, sách vở, học bài"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Dòng \"Yêu thương, kính trọng, quý mến\" gồm toàn các từ chỉ tình cảm. Các dòng khác có lẫn từ chỉ hoạt động (\"chạy nhảy\", \"vui đùa\", \"học bài\") hoặc từ chỉ sự vật (\"ông bà\", \"cha mẹ\", \"sách vở\").",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Bộ phận in đậm trong câu \"**Ông nội** là người kể chuyện hay nhất nhà.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Là gì?",
+            "Làm gì?",
+            "Thế nào?",
+            "Ai?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bộ phận \"Ông nội\" trong câu \"Ông nội là người kể chuyện hay nhất nhà\" trả lời cho câu hỏi \"Ai?\" - đây là chủ ngữ trong mẫu câu \"Ai là gì?\".",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

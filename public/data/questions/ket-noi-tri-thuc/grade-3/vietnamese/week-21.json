@@ -1,0 +1,183 @@
+{
+  "week": 21,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 21 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Ê-đi-xơn là một nhà bác học vĩ đại. Ông đã cống hiến cho loài người hơn một ngàn sáng chế. Nhờ có ông, nhân loại có đèn điện để thắp sáng, có xe điện để đi lại, có máy hát để nghe nhạc. Ông làm việc miệt mài không biết mệt mỏi. Khi được hỏi về bí quyết thành công, ông cười bảo: 'Thiên tài được tạo nên bởi 1% là trí thông minh, còn 99% là sự cần cù'.\"\n\nÊ-đi-xơn là ai?",
+          "options": [
+            "Một nhạc sĩ tài ba",
+            "Một vị vua",
+            "Một danh tướng",
+            "Một nhà bác học vĩ đại"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong đoạn văn có viết: \"Ê-đi-xơn là một nhà bác học vĩ đại\" - Ê-đi-xơn là một nhà bác học vĩ đại.",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Ê-đi-xơn là một nhà bác học vĩ đại. Ông đã cống hiến cho loài người hơn một ngàn sáng chế. Nhờ có ông, nhân loại có đèn điện để thắp sáng, có xe điện để đi lại, có máy hát để nghe nhạc. Ông làm việc miệt mài không biết mệt mỏi. Khi được hỏi về bí quyết thành công, ông cười bảo: 'Thiên tài được tạo nên bởi 1% là trí thông minh, còn 99% là sự cần cù'.\"\n\nÔng đã để lại cho loài người bao nhiêu sáng chế?",
+          "options": [
+            "Hơn một nghìn",
+            "Hơn một trăm",
+            "Hơn một vạn",
+            "Hơn một triệu"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong đoạn văn có viết: \"Ông đã cống hiến cho loài người hơn một ngàn sáng chế\" - ông đã để lại cho loài người hơn một nghìn sáng chế.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Ê-đi-xơn là một nhà bác học vĩ đại. Ông đã cống hiến cho loài người hơn một ngàn sáng chế. Nhờ có ông, nhân loại có đèn điện để thắp sáng, có xe điện để đi lại, có máy hát để nghe nhạc. Ông làm việc miệt mài không biết mệt mỏi. Khi được hỏi về bí quyết thành công, ông cười bảo: 'Thiên tài được tạo nên bởi 1% là trí thông minh, còn 99% là sự cần cù'.\"\n\nTheo Ê-đi-xơn, thiên tài được tạo nên chủ yếu nhờ điều gì?",
+          "options": [
+            "Sự may mắn",
+            "Trí thông minh bẩm sinh",
+            "Sự cần cù, chăm chỉ",
+            "Sự giúp đỡ của người khác"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong đoạn văn có viết: \"Thiên tài được tạo nên bởi 1% là trí thông minh, còn 99% là sự cần cù\" - theo Ê-đi-xơn, thiên tài được tạo nên chủ yếu nhờ sự cần cù, chăm chỉ (99%).",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Ê-đi-xơn là một nhà bác học vĩ đại. Ông đã cống hiến cho loài người hơn một ngàn sáng chế. Nhờ có ông, nhân loại có đèn điện để thắp sáng, có xe điện để đi lại, có máy hát để nghe nhạc. Ông làm việc miệt mài không biết mệt mỏi. Khi được hỏi về bí quyết thành công, ông cười bảo: 'Thiên tài được tạo nên bởi 1% là trí thông minh, còn 99% là sự cần cù'.\"\n\nTừ \"miệt mài\" nói lên thái độ làm việc như thế nào của ông?",
+          "options": [
+            "Làm việc qua loa cho xong",
+            "Làm việc lúc nhớ lúc quên",
+            "Làm việc một cách chậm chạp",
+            "Làm việc say mê, tập trung và kiên trì"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ \"miệt mài\" nói lên thái độ làm việc say mê, tập trung và kiên trì - nghĩa là làm việc một cách chăm chỉ, không mệt mỏi, không ngừng nghỉ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Dòng nào dưới đây gồm các từ chỉ người trí thức?",
+          "options": [
+            "Nông dân, thợ xây, thợ mộc",
+            "Công nhân, tài xế, người bán hàng",
+            "Bác sĩ, kỹ sư, giáo viên, nhà bác học",
+            "Bộ đội, công an, dân quân"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Dòng \"Bác sĩ, kỹ sư, giáo viên, nhà bác học\" gồm các từ chỉ người trí thức - những người có học vấn cao, làm công việc nghiên cứu, giảng dạy, chữa bệnh. Các dòng khác: \"Nông dân, thợ xây, thợ mộc\" là người lao động chân tay; \"Công nhân, tài xế, người bán hàng\" là người lao động; \"Bộ đội, công an, dân quân\" là người làm nhiệm vụ bảo vệ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Dấu phẩy trong câu: \"Bàn, ghế, bảng là đồ dùng học tập.\" có tác dụng gì?",
+          "options": [
+            "Ngăn cách các từ cùng loại",
+            "Ngăn cách trạng ngữ với bộ phận chính của câu",
+            "Ngăn cách các vế câu",
+            "Kết thúc câu"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Dấu phẩy trong câu \"Bàn, ghế, bảng là đồ dùng học tập\" có tác dụng ngăn cách các từ cùng loại trong dãy liệt kê (\"Bàn, ghế, bảng\").",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Điền **tr** hoặc **ch**: \"...í thức\"",
+          "options": [
+            "ch",
+            "x",
+            "s",
+            "tr"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là \"Trí thức\" (viết bằng \"tr\") - nghĩa là người có học vấn cao, có kiến thức chuyên sâu. Theo quy tắc chính tả: \"tr\" đứng trước các nguyên âm e, ê, i; \"ch\" đứng trước các nguyên âm a, o, ô, ơ, u, ư.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ nào viết **sai** chính tả?",
+          "options": [
+            "Sáng tạo",
+            "Xáng xuốt",
+            "San sẻ",
+            "Xuất sắc"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ viết sai là \"Xáng xuốt\" - đúng phải là \"Sáng suốt\" (viết bằng \"s\"). Các từ khác đều viết đúng chính tả.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Câu \"Chiếc máy hát là một phát minh kỳ diệu.\" thuộc mẫu câu nào?",
+          "options": [
+            "Ai làm gì?",
+            "Ai thế nào?",
+            "Ai là gì?",
+            "Cái gì làm gì?"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Câu \"Chiếc máy hát là một phát minh kỳ diệu\" trả lời cho câu hỏi \"Ai là gì?\" (hoặc \"Cái gì là gì?\") - \"Chiếc máy hát\" (cái gì) \"là một phát minh kỳ diệu\" (là gì).",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Từ nào trái nghĩa với từ \"thông minh\"?",
+          "options": [
+            "Nhanh trí",
+            "Ngốc nghếch",
+            "Sáng dạ",
+            "Tài giỏi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ trái nghĩa với \"thông minh\" là \"Ngốc nghếch\" - \"thông minh\" nghĩa là có trí tuệ, hiểu biết nhanh, còn \"ngốc nghếch\" nghĩa là kém thông minh, chậm hiểu.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Thành ngữ nào nói về sự kiên trì, bền bỉ?",
+          "options": [
+            "Có công mài sắt, có ngày nên kim",
+            "Máu chảy ruột mềm",
+            "Chị ngã em nâng",
+            "Uống nước nhớ nguồn"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Thành ngữ \"Có công mài sắt, có ngày nên kim\" nói về sự kiên trì, bền bỉ - nghĩa là nếu kiên trì, chăm chỉ thì sẽ đạt được thành công. Các thành ngữ khác: \"Máu chảy ruột mềm\" nói về tình cảm gia đình; \"Chị ngã em nâng\" nói về tình chị em; \"Uống nước nhớ nguồn\" nói về lòng biết ơn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Bộ phận in đậm trong câu \"Ê-đi-xơn nghiên cứu **trong phòng thí nghiệm**.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Khi nào?",
+            "Ở đâu?",
+            "Vì sao?",
+            "Để làm gì?"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Bộ phận \"trong phòng thí nghiệm\" trong câu \"Ê-đi-xơn nghiên cứu trong phòng thí nghiệm\" trả lời cho câu hỏi \"Ở đâu?\" - đây là trạng ngữ chỉ nơi chốn.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

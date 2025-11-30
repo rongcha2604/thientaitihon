@@ -1,0 +1,183 @@
+{
+  "week": 13,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 13 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Đêm trăng ở quê thật êm đềm. Vầng trăng tròn vành vạnh như cái đĩa bạc lơ lửng giữa biển trời mênh mông. Ánh trăng vàng trải nhẹ lên những mái nhà tranh, lên những vòm cây xào xạc gió. Lũy tre đầu làng rì rào như đang thì thầm trò chuyện. Thỉnh thoảng, tiếng côn trùng cất lên bản nhạc đêm du dương.\"\n\nVầng trăng trong đoạn văn được so sánh với hình ảnh nào?",
+          "options": [
+            "Quả bóng vàng",
+            "Chiếc đèn lồng",
+            "Con thuyền nhỏ",
+            "Cái đĩa bạc"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong đoạn văn có viết: \"Vầng trăng tròn vành vạnh như cái đĩa bạc\" - vầng trăng được so sánh với \"cái đĩa bạc\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Đêm trăng ở quê thật êm đềm. Vầng trăng tròn vành vạnh như cái đĩa bạc lơ lửng giữa biển trời mênh mông. Ánh trăng vàng trải nhẹ lên những mái nhà tranh, lên những vòm cây xào xạc gió. Lũy tre đầu làng rì rào như đang thì thầm trò chuyện. Thỉnh thoảng, tiếng côn trùng cất lên bản nhạc đêm du dương.\"\n\nÁnh trăng chiếu sáng lên những đâu?",
+          "options": [
+            "Mặt hồ và sân đình",
+            "Con đường đất và cánh đồng",
+            "Mái nhà tranh và vòm cây",
+            "Dòng sông và bến nước"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong đoạn văn có viết: \"Ánh trăng vàng trải nhẹ lên những mái nhà tranh, lên những vòm cây xào xạc gió\" - ánh trăng chiếu sáng lên mái nhà tranh và vòm cây.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Đêm trăng ở quê thật êm đềm. Vầng trăng tròn vành vạnh như cái đĩa bạc lơ lửng giữa biển trời mênh mông. Ánh trăng vàng trải nhẹ lên những mái nhà tranh, lên những vòm cây xào xạc gió. Lũy tre đầu làng rì rào như đang thì thầm trò chuyện. Thỉnh thoảng, tiếng côn trùng cất lên bản nhạc đêm du dương.\"\n\nÂm thanh của lũy tre được miêu tả như thế nào?",
+          "options": [
+            "Rì rào như đang thì thầm",
+            "Kêu cót két",
+            "Im phăng phắc",
+            "Ồn ào náo nhiệt"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong đoạn văn có viết: \"Lũy tre đầu làng rì rào như đang thì thầm trò chuyện\" - âm thanh của lũy tre được miêu tả là \"rì rào như đang thì thầm\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn:\n\n\"Đêm trăng ở quê thật êm đềm. Vầng trăng tròn vành vạnh như cái đĩa bạc lơ lửng giữa biển trời mênh mông. Ánh trăng vàng trải nhẹ lên những mái nhà tranh, lên những vòm cây xào xạc gió. Lũy tre đầu làng rì rào như đang thì thầm trò chuyện. Thỉnh thoảng, tiếng côn trùng cất lên bản nhạc đêm du dương.\"\n\nTừ ngữ nào miêu tả không khí đêm trăng ở quê?",
+          "options": [
+            "Náo nhiệt",
+            "Sôi động",
+            "Êm đềm",
+            "Tấp nập"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong đoạn văn có viết: \"Đêm trăng ở quê thật êm đềm\" - từ ngữ miêu tả không khí đêm trăng ở quê là \"êm đềm\" (yên tĩnh, thanh bình).",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Nhóm từ nào dưới đây chỉ gồm các sự vật ở nông thôn?",
+          "options": [
+            "Nhà cao tầng, rạp chiếu phim, siêu thị",
+            "Cây đa, giếng nước, sân đình",
+            "Xe buýt, đèn giao thông, vỉa hè",
+            "Công viên, bể bơi, khu vui chơi"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Nhóm \"Cây đa, giếng nước, sân đình\" gồm các sự vật ở nông thôn. Các nhóm khác: \"Nhà cao tầng, rạp chiếu phim, siêu thị\", \"Xe buýt, đèn giao thông, vỉa hè\", \"Công viên, bể bơi, khu vui chơi\" là sự vật ở thành phố.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Câu \"Những tòa nhà cao chọc trời.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Cái gì thế nào?",
+            "Ai làm gì?",
+            "Ai là gì?",
+            "Khi nào?"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Câu \"Những tòa nhà cao chọc trời\" trả lời cho câu hỏi \"Cái gì thế nào?\" - \"Những tòa nhà\" (cái gì) \"cao chọc trời\" (thế nào).",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Điền **tr** hoặc **ch**: \"Bức ...anh\"",
+          "options": [
+            "s",
+            "tr",
+            "x",
+            "ch"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ đúng là \"Bức tranh\" (viết bằng \"tr\") - nghĩa là bức vẽ, tác phẩm hội họa. Theo quy tắc chính tả: \"tr\" đứng trước các nguyên âm e, ê, i; \"ch\" đứng trước các nguyên âm a, o, ô, ơ, u, ư.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ nào viết **sai** chính tả?",
+          "options": [
+            "Giành giật",
+            "Dành dụm",
+            "Tranh giành",
+            "Dành dật"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ viết sai là \"Dành dật\" - đúng phải là \"Giành giật\" (viết bằng \"gi\"). Các từ khác đều viết đúng chính tả.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Từ trái nghĩa với \"thành phố\" là:",
+          "options": [
+            "Thị xã",
+            "Đô thị",
+            "Nông thôn",
+            "Thủ đô"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ trái nghĩa với \"thành phố\" là \"Nông thôn\" - \"thành phố\" nghĩa là khu vực đô thị, còn \"nông thôn\" nghĩa là khu vực nông nghiệp, làng quê.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Dấu phẩy trong câu: \"Lợn, gà, vịt đều là vật nuôi trong nhà.\" có tác dụng gì?",
+          "options": [
+            "Ngăn cách các vế câu",
+            "Ngăn cách các từ ngữ chỉ sự vật cùng loại (liệt kê)",
+            "Kết thúc câu",
+            "Báo hiệu lời nói trực tiếp"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Dấu phẩy trong câu \"Lợn, gà, vịt đều là vật nuôi trong nhà\" có tác dụng ngăn cách các từ ngữ chỉ sự vật cùng loại trong dãy liệt kê (\"Lợn, gà, vịt\").",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Câu nào dưới đây có hình ảnh so sánh về âm thanh?",
+          "options": [
+            "Tóc bà trắng như cước",
+            "Mặt trời đỏ như quả cầu lửa",
+            "Sân trường rộng như một cái công viên",
+            "Tiếng suối chảy như tiếng đàn cầm"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu \"Tiếng suối chảy như tiếng đàn cầm\" có hình ảnh so sánh về âm thanh - so sánh tiếng suối với tiếng đàn cầm. Các câu khác so sánh về hình dáng, màu sắc, kích thước.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Bộ phận in đậm trong câu \"Bác nông dân đang **gặt lúa**.\" trả lời cho câu hỏi gì?",
+          "options": [
+            "Làm gì?",
+            "Là gì?",
+            "Ở đâu?",
+            "Như thế nào?"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Bộ phận \"gặt lúa\" trong câu \"Bác nông dân đang gặt lúa\" trả lời cho câu hỏi \"Làm gì?\" - đây là vị ngữ chỉ hoạt động của chủ ngữ.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

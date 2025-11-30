@@ -1,0 +1,183 @@
+{
+  "week": 1,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 1 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn sau:\n\n\"Ngày khai trường đã đến. Sáng sớm, mẹ chở Lan đến trường trên chiếc xe máy màu đỏ. Bầu trời mùa thu cao và xanh thẳm. Những tia nắng vàng nhảy nhót trên vòm cây. Sân trường rợp cờ hoa và tiếng cười nói râm ran của các bạn học sinh.\"\n\nMẹ chở Lan đến trường bằng phương tiện gì?",
+          "options": [
+            "Xe đạp",
+            "Xe buýt",
+            "Ô tô",
+            "Xe máy"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Trong đoạn văn có viết: \"mẹ chở Lan đến trường trên chiếc xe máy màu đỏ\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn sau:\n\n\"Ngày khai trường đã đến. Sáng sớm, mẹ chở Lan đến trường trên chiếc xe máy màu đỏ. Bầu trời mùa thu cao và xanh thẳm. Những tia nắng vàng nhảy nhót trên vòm cây. Sân trường rợp cờ hoa và tiếng cười nói râm ran của các bạn học sinh.\"\n\nBầu trời mùa thu được miêu tả như thế nào?",
+          "options": [
+            "Cao và xanh thẳm",
+            "Xám xịt và nhiều mây",
+            "Đầy sương mù",
+            "Mưa tầm tã"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Trong đoạn văn có viết: \"Bầu trời mùa thu cao và xanh thẳm\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn sau:\n\n\"Ngày khai trường đã đến. Sáng sớm, mẹ chở Lan đến trường trên chiếc xe máy màu đỏ. Bầu trời mùa thu cao và xanh thẳm. Những tia nắng vàng nhảy nhót trên vòm cây. Sân trường rợp cờ hoa và tiếng cười nói râm ran của các bạn học sinh.\"\n\nNhững tia nắng vàng được miêu tả đang làm gì?",
+          "options": [
+            "Đang ngủ yên",
+            "Chiếu gay gắt",
+            "Nhảy nhót trên vòm cây",
+            "Trốn sau đám mây"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Trong đoạn văn có viết: \"Những tia nắng vàng nhảy nhót trên vòm cây\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc đoạn văn sau:\n\n\"Ngày khai trường đã đến. Sáng sớm, mẹ chở Lan đến trường trên chiếc xe máy màu đỏ. Bầu trời mùa thu cao và xanh thẳm. Những tia nắng vàng nhảy nhót trên vòm cây. Sân trường rợp cờ hoa và tiếng cười nói râm ran của các bạn học sinh.\"\n\nCảnh tượng sân trường ngày khai giảng như thế nào?",
+          "options": [
+            "Vắng vẻ, yên tĩnh",
+            "Rợp cờ hoa và tiếng cười nói râm ran",
+            "Ồn ào, hỗn loạn",
+            "Chỉ có tiếng trống trường"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong đoạn văn có viết: \"Sân trường rợp cờ hoa và tiếng cười nói râm ran của các bạn học sinh\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Từ nào dưới đây viết đúng chính tả?",
+          "options": [
+            "Nắng nót",
+            "Lắn nót",
+            "Nắn nót",
+            "Nắn lót"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ đúng chính tả là \"Nắn nót\" - nghĩa là làm cẩn thận, tỉ mỉ.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Câu \"Em là học sinh lớp 3A.\" thuộc mẫu câu nào?",
+          "options": [
+            "Ai làm gì?",
+            "Ai thế nào?",
+            "Cái gì làm gì?",
+            "Ai là gì?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu \"Em là học sinh lớp 3A\" trả lời cho câu hỏi \"Ai là gì?\" - đây là mẫu câu giới thiệu, định danh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Từ nào dưới đây là từ chỉ sự vật?",
+          "options": [
+            "Quyển sách",
+            "Đi học",
+            "Chăm chỉ",
+            "Giảng bài"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ chỉ sự vật là \"Quyển sách\" - đây là danh từ chỉ đồ vật. Các từ khác: \"Đi học\", \"Giảng bài\" là từ chỉ hoạt động; \"Chăm chỉ\" là từ chỉ đặc điểm.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Từ trái nghĩa với từ \"mới\" là từ nào?",
+          "options": [
+            "Đẹp",
+            "Cũ",
+            "Xấu",
+            "Tốt"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Từ trái nghĩa với \"mới\" là \"Cũ\" - \"mới\" nghĩa là vừa có, vừa xuất hiện; \"cũ\" nghĩa là đã có từ lâu, không còn mới nữa.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Điền từ thích hợp vào chỗ trống: \"Ăn vóc học ......\"",
+          "options": [
+            "Nhiều",
+            "Giỏi",
+            "Hay",
+            "Tốt"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Thành ngữ đúng là \"Ăn vóc học hay\" - nghĩa là ăn uống đầy đủ để có sức khỏe, học tập để có kiến thức.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Dòng nào sau đây gồm các từ chỉ đồ dùng học tập?",
+          "options": [
+            "Bút, tẩy, cặp sách, phấn",
+            "Bút, thước, sách, đi chơi",
+            "Bàn, ghế, bảng, ngủ",
+            "Vở, bút, mực, chạy nhảy"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Dòng \"Bút, tẩy, cặp sách, phấn\" gồm toàn các từ chỉ đồ dùng học tập. Các dòng khác có lẫn từ chỉ hoạt động như \"đi chơi\", \"ngủ\", \"chạy nhảy\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Chọn từ thích hợp điền vào chỗ trống: \"Lá lành đùm lá ......\"",
+          "options": [
+            "Nát",
+            "Rách",
+            "Héo",
+            "Khô"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Thành ngữ đúng là \"Lá lành đùm lá rách\" - nghĩa là người khỏe mạnh, may mắn giúp đỡ người yếu đuối, khó khăn.",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Bộ phận in đậm trong câu \"Mẹ em là **bác sĩ**.\" trả lời cho câu hỏi nào?",
+          "options": [
+            "Là ai?",
+            "Làm gì?",
+            "Như thế nào?",
+            "Là gì?"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Bộ phận \"bác sĩ\" trong câu \"Mẹ em là bác sĩ\" trả lời cho câu hỏi \"Là gì?\" - đây là vị ngữ trong mẫu câu \"Ai là gì?\".",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

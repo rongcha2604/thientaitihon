@@ -1,0 +1,183 @@
+{
+  "week": 1,
+  "subject": "math",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 1 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Số lớn nhất có ba chữ số khác nhau là:",
+          "options": [
+            "987",
+            "999",
+            "998",
+            "986"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số lớn nhất có ba chữ số khác nhau là 987 (các chữ số 9, 8, 7 đều khác nhau)",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Tổng của số lớn nhất có 3 chữ số khác nhau và số bé nhất có 2 chữ số khác nhau là:",
+          "options": [
+            "989",
+            "997",
+            "987",
+            "999"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số lớn nhất có 3 chữ số khác nhau là 987, số bé nhất có 2 chữ số khác nhau là 10. Tổng: 987 + 10 = 997",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Viết số tiếp theo vào dãy số: 234; 237; 240; ...",
+          "options": [
+            "243",
+            "241",
+            "242",
+            "239"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Dãy số tăng dần 3 đơn vị: 234 + 3 = 237, 237 + 3 = 240, 240 + 3 = 243",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Các số được xếp theo thứ tự từ lớn đến bé là:",
+          "options": [
+            "854; 640; 920; 310; 666",
+            "666; 640; 854; 310; 920",
+            "310; 640; 666; 854; 920",
+            "920; 854; 666; 640; 310"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Sắp xếp từ lớn đến bé: 920 > 854 > 666 > 640 > 310",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Hiệu của số chẵn lớn nhất có hai chữ số và số tròn chục nhỏ nhất là:",
+          "options": [
+            "89",
+            "88",
+            "90",
+            "87"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Số chẵn lớn nhất có hai chữ số là 98, số tròn chục nhỏ nhất là 10. Hiệu: 98 - 10 = 88",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Tổng của một số với số nhỏ nhất có ba chữ số là 120. Số đó là:",
+          "options": [
+            "20",
+            "19",
+            "21",
+            "18"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Số nhỏ nhất có ba chữ số là 100. Gọi số cần tìm là x: x + 100 = 120, suy ra x = 20",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "Cho các số vừa lớn hơn 900 vừa bé hơn 1000. Hiệu của số lớn nhất và số bé nhất trong các số đó là:",
+          "options": [
+            "99",
+            "100",
+            "97",
+            "98"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Các số lớn hơn 900 và bé hơn 1000 là từ 901 đến 999. Số lớn nhất là 999, số bé nhất là 901. Hiệu: 999 - 901 = 98",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 225 + 425 bằng với kết quả của phép tính nào sau đây?",
+          "options": [
+            "750 - 200",
+            "421 + 129",
+            "690 - 40",
+            "35 + 8 + 15"
+          ],
+          "correctAnswer": 2,
+          "explanation": "225 + 425 = 650. Kiểm tra: 690 - 40 = 650. Vậy đáp án đúng là c",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 750 - 200 bằng với kết quả của phép tính nào sau đây?",
+          "options": [
+            "225 + 425",
+            "26 + 14 + 18",
+            "35 + 8 + 15",
+            "421 + 129"
+          ],
+          "correctAnswer": 3,
+          "explanation": "750 - 200 = 550. Kiểm tra: 421 + 129 = 550. Vậy đáp án đúng là d",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Số \"Bảy trăm bảy mươi lăm\" được viết thành số là:",
+          "options": [
+            "757",
+            "705",
+            "775",
+            "750"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Bảy trăm = 700, bảy mươi = 70, lăm = 5. Vậy: 700 + 70 + 5 = 775",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Kết quả của phép tính 275 + 319 là:",
+          "options": [
+            "584",
+            "604",
+            "594",
+            "614"
+          ],
+          "correctAnswer": 2,
+          "explanation": "275 + 319 = 594",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Khu A và B có tất cả 560 hộ dân cư, trong đó khu A có 280 hộ. Hỏi khu B có bao nhiêu hộ dân cư?",
+          "options": [
+            "270",
+            "280",
+            "290",
+            "300"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Tổng số hộ: 560, Khu A: 280. Khu B: 560 - 280 = 280 hộ",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}

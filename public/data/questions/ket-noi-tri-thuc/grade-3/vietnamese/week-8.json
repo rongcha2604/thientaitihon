@@ -1,0 +1,183 @@
+{
+  "week": 8,
+  "subject": "vietnamese",
+  "grade": 3,
+  "bookSeries": "ket-noi-tri-thuc",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "ĐỀ THI TUẦN 8 - THỬ THÁCH 1 - LỚP 3",
+      "duration": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Đọc bài thơ:\n\n\"Quê hương là chùm khế ngọt\nCho con trèo hái mỗi ngày\nQuê hương là đường đi học\nCon về rợp bướm vàng bay...\" (Đỗ Trung Quân)\n\nQuê hương được so sánh với hình ảnh nào đầu tiên?",
+          "options": [
+            "Đường đi học",
+            "Chùm khế ngọt",
+            "Con diều biếc",
+            "Bướm vàng bay"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong bài thơ, câu đầu tiên: \"Quê hương là chùm khế ngọt\" - quê hương được so sánh với \"chùm khế ngọt\".",
+          "imageUrl": null
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "question": "Đọc bài thơ:\n\n\"Quê hương là chùm khế ngọt\nCho con trèo hái mỗi ngày\nQuê hương là đường đi học\nCon về rợp bướm vàng bay...\" (Đỗ Trung Quân)\n\nHình ảnh \"rợp bướm vàng bay\" gợi lên cảnh vật như thế nào?",
+          "options": [
+            "Buồn bã",
+            "Đáng sợ",
+            "Ồn ào",
+            "Đẹp đẽ, bình yên và thơ mộng"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Hình ảnh \"rợp bướm vàng bay\" gợi lên một khung cảnh đẹp đẽ, bình yên và thơ mộng - đây là hình ảnh đẹp, sinh động, tươi vui của quê hương.",
+          "imageUrl": null
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "question": "Đọc bài thơ:\n\n\"Quê hương là chùm khế ngọt\nCho con trèo hái mỗi ngày\nQuê hương là đường đi học\nCon về rợp bướm vàng bay...\" (Đỗ Trung Quân)\n\nBài thơ thể hiện tình cảm gì của tác giả?",
+          "options": [
+            "Nỗi nhớ nhà",
+            "Sự thích thú khi được ăn khế",
+            "Tình yêu quê hương tha thiết",
+            "Niềm vui khi đi học"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Bài thơ thể hiện tình yêu quê hương tha thiết qua các hình ảnh đẹp đẽ, gần gũi: chùm khế ngọt, đường đi học, bướm vàng bay - tất cả đều gắn liền với kỷ niệm tuổi thơ về quê hương.",
+          "imageUrl": null
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "question": "Đọc bài thơ:\n\n\"Quê hương là chùm khế ngọt\nCho con trèo hái mỗi ngày\nQuê hương là đường đi học\nCon về rợp bướm vàng bay...\" (Đỗ Trung Quân)\n\nDòng nào dưới đây liệt kê đúng các sự vật xuất hiện trong đoạn thơ?",
+          "options": [
+            "Quê hương, chùm khế, con, đường, bướm",
+            "Quê hương, ngọt, hái, bay",
+            "Chùm khế, đi học, trèo, hái",
+            "Bướm vàng, mỗi ngày, rợp"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Dòng \"Quê hương, chùm khế, con, đường, bướm\" liệt kê đúng các sự vật (danh từ) xuất hiện trong đoạn thơ. Các dòng khác có lẫn từ chỉ hoạt động (\"hái\", \"bay\", \"trèo\") hoặc từ chỉ đặc điểm (\"ngọt\").",
+          "imageUrl": null
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "question": "Nhóm từ nào chỉ gồm các từ chỉ đặc điểm?",
+          "options": [
+            "Đi, đứng, nằm, ngồi",
+            "Bàn, ghế, sách, bút",
+            "Xanh, đỏ, tím, vàng",
+            "Cha, mẹ, ông, bà"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Nhóm \"Xanh, đỏ, tím, vàng\" gồm toàn các từ chỉ đặc điểm (màu sắc). Các nhóm khác: \"Đi, đứng, nằm, ngồi\" là từ chỉ hoạt động; \"Bàn, ghế, sách, bút\" là từ chỉ sự vật; \"Cha, mẹ, ông, bà\" là từ chỉ người.",
+          "imageUrl": null
+        },
+        {
+          "id": "q6",
+          "type": "multiple-choice",
+          "question": "Câu nào dưới đây đặt đúng dấu phẩy?",
+          "options": [
+            "Xoài mít, ổi là những loại quả thơm ngon",
+            "Xoài, mít ổi là những loại quả thơm ngon",
+            "Xoài mít ổi, là những loại quả thơm ngon",
+            "Xoài, mít, ổi là những loại quả thơm ngon"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Câu đúng là: \"Xoài, mít, ổi là những loại quả thơm ngon\" - dấu phẩy được đặt giữa các từ trong dãy liệt kê để ngăn cách các thành phần cùng loại.",
+          "imageUrl": null
+        },
+        {
+          "id": "q7",
+          "type": "multiple-choice",
+          "question": "\"Măng non\" là từ dùng để chỉ ai?",
+          "options": [
+            "Người già",
+            "Thiếu nhi, trẻ em",
+            "Thanh niên",
+            "Bộ đội"
+          ],
+          "correctAnswer": 1,
+          "explanation": "\"Măng non\" là từ dùng để chỉ thiếu nhi, trẻ em - đây là hình ảnh ẩn dụ, so sánh trẻ em như măng non (măng tre non), tương lai của đất nước.",
+          "imageUrl": null
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "question": "Câu \"Chúng em là học sinh lớp 3.\" thuộc mẫu câu:",
+          "options": [
+            "Ai là gì?",
+            "Ai làm gì?",
+            "Ai thế nào?",
+            "Cái gì là gì?"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Câu \"Chúng em là học sinh lớp 3\" trả lời cho câu hỏi \"Ai là gì?\" - đây là mẫu câu giới thiệu, định danh.",
+          "imageUrl": null
+        },
+        {
+          "id": "q9",
+          "type": "multiple-choice",
+          "question": "Điền **tr** hoặc **ch**: \"...ung thực\"",
+          "options": [
+            "tr",
+            "x",
+            "s",
+            "ch"
+          ],
+          "correctAnswer": 3,
+          "explanation": "Từ đúng là \"Chung thực\" (viết bằng \"ch\") - nghĩa là thành thật, không dối trá. Theo quy tắc chính tả: \"ch\" đứng trước các nguyên âm a, o, ô, ơ, u, ư; \"tr\" đứng trước các nguyên âm e, ê, i.",
+          "imageUrl": null
+        },
+        {
+          "id": "q10",
+          "type": "multiple-choice",
+          "question": "Từ nào trái nghĩa với \"đoàn kết\"?",
+          "options": [
+            "Gắn bó",
+            "Hòa thuận",
+            "Chia rẽ",
+            "Yêu thương"
+          ],
+          "correctAnswer": 2,
+          "explanation": "Từ trái nghĩa với \"đoàn kết\" là \"Chia rẽ\" - \"đoàn kết\" nghĩa là gắn bó, cùng nhau, còn \"chia rẽ\" nghĩa là tách rời, không thống nhất.",
+          "imageUrl": null
+        },
+        {
+          "id": "q11",
+          "type": "multiple-choice",
+          "question": "Tìm sự vật được so sánh trong câu: \"Những hạt sương sớm long lanh như những viên pha lê.\"",
+          "options": [
+            "Sương sớm - Long lanh",
+            "Hạt sương - Viên pha lê",
+            "Hạt sương - Long lanh",
+            "Viên pha lê - Sớm"
+          ],
+          "correctAnswer": 1,
+          "explanation": "Trong câu \"Những hạt sương sớm long lanh như những viên pha lê\", hai sự vật được so sánh là \"Hạt sương\" (sự vật được so sánh) và \"Viên pha lê\" (sự vật dùng để so sánh).",
+          "imageUrl": null
+        },
+        {
+          "id": "q12",
+          "type": "multiple-choice",
+          "question": "Dòng nào viết đúng chính tả?",
+          "options": [
+            "Sắp xếp",
+            "Xắp xếp",
+            "Sắp sếp",
+            "Xắp sếp"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Từ đúng chính tả là \"Sắp xếp\" (viết bằng \"s\" và \"x\") - nghĩa là sắp đặt, bố trí theo thứ tự.",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
