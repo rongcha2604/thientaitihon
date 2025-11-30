@@ -1,0 +1,1301 @@
+{
+  "meta": {
+    "grade": 2,
+    "subject": "English",
+    "language": "en",
+    "created_date": "2025-11-04",
+    "level": "hard",
+    "curriculum": "Generated based on Grade 2 'Getting Acquainted' topics"
+  },
+  "topics": [
+    {
+      "id": "ENG2_HARD_ALL",
+      "name": "General English Acquaintance",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "ENG2HV001",
+          "question": "Point to the word: 'eye'",
+          "options": [
+            "eye",
+            "mother",
+            "dog",
+            "leg"
+          ],
+          "answer_index": 0,
+          "answer_text": "eye",
+          "explanation": "This is the word for 'eye'."
+        },
+        {
+          "id": "ENG2HV002",
+          "question": "Point to the word: 'happy'",
+          "options": [
+            "happy",
+            "bird",
+            "pencil",
+            "robot"
+          ],
+          "answer_index": 0,
+          "answer_text": "happy",
+          "explanation": "This is the word for 'happy'."
+        },
+        {
+          "id": "ENG2HV003",
+          "question": "Point to the word: 'ear'",
+          "options": [
+            "fish",
+            "small",
+            "ear",
+            "sister"
+          ],
+          "answer_index": 2,
+          "answer_text": "ear",
+          "explanation": "This is the word for 'ear'."
+        },
+        {
+          "id": "ENG2HV004",
+          "question": "Point to the word: 'cake'",
+          "options": [
+            "doll",
+            "cake",
+            "nine",
+            "two"
+          ],
+          "answer_index": 1,
+          "answer_text": "cake",
+          "explanation": "This is the word for 'cake'."
+        },
+        {
+          "id": "ENG2HV005",
+          "question": "Point to the word: 'stand up'",
+          "options": [
+            "bye",
+            "sit down",
+            "banana",
+            "stand up"
+          ],
+          "answer_index": 3,
+          "answer_text": "stand up",
+          "explanation": "This is the word for 'stand up'."
+        },
+        {
+          "id": "ENG2HV006",
+          "question": "Point to the word: 'milk'",
+          "options": [
+            "milk",
+            "green",
+            "sad",
+            "bag"
+          ],
+          "answer_index": 0,
+          "answer_text": "milk",
+          "explanation": "This is the word for 'milk'."
+        },
+        {
+          "id": "ENG2HV007",
+          "question": "Point to the word: 'head'",
+          "options": [
+            "banana",
+            "head",
+            "big",
+            "cake"
+          ],
+          "answer_index": 1,
+          "answer_text": "head",
+          "explanation": "This is the word for 'head'."
+        },
+        {
+          "id": "ENG2HG008",
+          "question": "Please, ___ ___.",
+          "answer_text": "stand up",
+          "options": [
+            "sit down",
+            "open your book",
+            "stand up"
+          ],
+          "answer_index": 2,
+          "explanation": "This is a 'simple_command' phrase."
+        },
+        {
+          "id": "ENG2HV009",
+          "question": "Point to the word: 'big'",
+          "options": [
+            "big",
+            "cat",
+            "sad",
+            "milk"
+          ],
+          "answer_index": 0,
+          "answer_text": "big",
+          "explanation": "This is the word for 'big'."
+        },
+        {
+          "id": "ENG2HV010",
+          "question": "Point to the word: 'head'",
+          "options": [
+            "small",
+            "leg",
+            "head",
+            "doll"
+          ],
+          "answer_index": 2,
+          "answer_text": "head",
+          "explanation": "This is the word for 'head'."
+        },
+        {
+          "id": "ENG2HV011",
+          "question": "Point to the word: 'apple'",
+          "options": [
+            "dog",
+            "apple",
+            "sit down",
+            "mother"
+          ],
+          "answer_index": 1,
+          "answer_text": "apple",
+          "explanation": "This is the word for 'apple'."
+        },
+        {
+          "id": "ENG2HV012",
+          "question": "Point to the word: 'milk'",
+          "options": [
+            "car",
+            "six",
+            "blue",
+            "milk"
+          ],
+          "answer_index": 3,
+          "answer_text": "milk",
+          "explanation": "This is the word for 'milk'."
+        },
+        {
+          "id": "ENG2HG013",
+          "question": "Please, ___ ___.",
+          "answer_text": "stand up",
+          "options": [
+            "open your book",
+            "sit down",
+            "stand up"
+          ],
+          "answer_index": 2,
+          "explanation": "This is a 'simple_command' phrase."
+        },
+        {
+          "id": "ENG2HV014",
+          "question": "Point to the word: 'open'",
+          "options": [
+            "open",
+            "banana",
+            "six",
+            "hand"
+          ],
+          "answer_index": 0,
+          "answer_text": "open",
+          "explanation": "This is the word for 'open'."
+        },
+        {
+          "id": "ENG2HV015",
+          "question": "Point to the word: 'small'",
+          "options": [
+            "nose",
+            "hand",
+            "yellow",
+            "small"
+          ],
+          "answer_index": 3,
+          "answer_text": "small",
+          "explanation": "This is the word for 'small'."
+        },
+        {
+          "id": "ENG2HV016",
+          "question": "Point to the word: 'sit down'",
+          "options": [
+            "nose",
+            "sit down",
+            "milk",
+            "banana"
+          ],
+          "answer_index": 1,
+          "answer_text": "sit down",
+          "explanation": "This is the word for 'sit down'."
+        },
+        {
+          "id": "ENG2HV017",
+          "question": "Point to the word: 'happy'",
+          "options": [
+            "seven",
+            "happy",
+            "bag",
+            "sad"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "This is the word for 'happy'."
+        },
+        {
+          "id": "ENG2HV018",
+          "question": "Point to the word: 'small'",
+          "options": [
+            "nose",
+            "small",
+            "banana",
+            "dog"
+          ],
+          "answer_index": 1,
+          "answer_text": "small",
+          "explanation": "This is the word for 'small'."
+        },
+        {
+          "id": "ENG2HV019",
+          "question": "Point to the word: 'ear'",
+          "options": [
+            "ten",
+            "ear",
+            "nine",
+            "three"
+          ],
+          "answer_index": 1,
+          "answer_text": "ear",
+          "explanation": "This is the word for 'ear'."
+        },
+        {
+          "id": "ENG2HV020",
+          "question": "Point to the word: 'leg'",
+          "options": [
+            "eye",
+            "leg",
+            "green",
+            "bag"
+          ],
+          "answer_index": 1,
+          "answer_text": "leg",
+          "explanation": "This is the word for 'leg'."
+        },
+        {
+          "id": "ENG2HG021",
+          "question": "I am ___.",
+          "answer_text": "happy",
+          "options": [
+            "big",
+            "sad",
+            "happy"
+          ],
+          "answer_index": 2,
+          "explanation": "This is a 'simple_feeling' phrase."
+        },
+        {
+          "id": "ENG2HV022",
+          "question": "Point to the word: 'big'",
+          "options": [
+            "big",
+            "cake",
+            "book",
+            "small"
+          ],
+          "answer_index": 0,
+          "answer_text": "big",
+          "explanation": "This is the word for 'big'."
+        },
+        {
+          "id": "ENG2HV023",
+          "question": "Point to the word: 'stand up'",
+          "options": [
+            "blue",
+            "father",
+            "pen",
+            "stand up"
+          ],
+          "answer_index": 3,
+          "answer_text": "stand up",
+          "explanation": "This is the word for 'stand up'."
+        },
+        {
+          "id": "ENG2HV024",
+          "question": "Point to the word: 'banana'",
+          "options": [
+            "five",
+            "banana",
+            "brother",
+            "head"
+          ],
+          "answer_index": 1,
+          "answer_text": "banana",
+          "explanation": "This is the word for 'banana'."
+        },
+        {
+          "id": "ENG2HG025",
+          "question": "I am ___.",
+          "answer_text": "happy",
+          "options": [
+            "big",
+            "sad",
+            "happy"
+          ],
+          "answer_index": 2,
+          "explanation": "This is a 'simple_feeling' phrase."
+        },
+        {
+          "id": "ENG2HV026",
+          "question": "Point to the word: 'banana'",
+          "options": [
+            "cake",
+            "small",
+            "banana",
+            "sad"
+          ],
+          "answer_index": 2,
+          "answer_text": "banana",
+          "explanation": "This is the word for 'banana'."
+        },
+        {
+          "id": "ENG2HV027",
+          "question": "Point to the word: 'open'",
+          "options": [
+            "pen",
+            "hello",
+            "open",
+            "bag"
+          ],
+          "answer_index": 2,
+          "answer_text": "open",
+          "explanation": "This is the word for 'open'."
+        },
+        {
+          "id": "ENG2HV028",
+          "question": "Point to the word: 'stand up'",
+          "options": [
+            "two",
+            "stand up",
+            "sad",
+            "ear"
+          ],
+          "answer_index": 1,
+          "answer_text": "stand up",
+          "explanation": "This is the word for 'stand up'."
+        },
+        {
+          "id": "ENG2HG029",
+          "question": "Please, ___ ___.",
+          "answer_text": "stand up",
+          "options": [
+            "open your book",
+            "stand up",
+            "sit down"
+          ],
+          "answer_index": 1,
+          "explanation": "This is a 'simple_command' phrase."
+        },
+        {
+          "id": "ENG2HV030",
+          "question": "Point to the word: 'close'",
+          "options": [
+            "bag",
+            "ruler",
+            "close",
+            "five"
+          ],
+          "answer_index": 2,
+          "answer_text": "close",
+          "explanation": "This is the word for 'close'."
+        },
+        {
+          "id": "ENG2HG031",
+          "question": "I am ___.",
+          "answer_text": "happy",
+          "options": [
+            "happy",
+            "big",
+            "sad"
+          ],
+          "answer_index": 0,
+          "explanation": "This is a 'simple_feeling' phrase."
+        },
+        {
+          "id": "ENG2HG032",
+          "question": "Please, ___ ___.",
+          "answer_text": "stand up",
+          "options": [
+            "open your book",
+            "stand up",
+            "sit down"
+          ],
+          "answer_index": 1,
+          "explanation": "This is a 'simple_command' phrase."
+        },
+        {
+          "id": "ENG2HV033",
+          "question": "Point to the word: 'nose'",
+          "options": [
+            "big",
+            "stand up",
+            "bag",
+            "nose"
+          ],
+          "answer_index": 3,
+          "answer_text": "nose",
+          "explanation": "This is the word for 'nose'."
+        },
+        {
+          "id": "ENG2HV034",
+          "question": "Point to the word: 'happy'",
+          "options": [
+            "six",
+            "head",
+            "big",
+            "happy"
+          ],
+          "answer_index": 3,
+          "answer_text": "happy",
+          "explanation": "This is the word for 'happy'."
+        },
+        {
+          "id": "ENG2HV035",
+          "question": "Point to the word: 'apple'",
+          "options": [
+            "blue",
+            "robot",
+            "apple",
+            "open"
+          ],
+          "answer_index": 2,
+          "answer_text": "apple",
+          "explanation": "This is the word for 'apple'."
+        },
+        {
+          "id": "ENG2HV036",
+          "question": "Point to the word: 'sad'",
+          "options": [
+            "pencil",
+            "bird",
+            "sad",
+            "sister"
+          ],
+          "answer_index": 2,
+          "answer_text": "sad",
+          "explanation": "This is the word for 'sad'."
+        },
+        {
+          "id": "ENG2HG037",
+          "question": "I am ___.",
+          "answer_text": "happy",
+          "options": [
+            "sad",
+            "big",
+            "happy"
+          ],
+          "answer_index": 2,
+          "explanation": "This is a 'simple_feeling' phrase."
+        },
+        {
+          "id": "ENG2HV038",
+          "question": "Point to the word: 'milk'",
+          "options": [
+            "blue",
+            "six",
+            "milk",
+            "goodbye"
+          ],
+          "answer_index": 2,
+          "answer_text": "milk",
+          "explanation": "This is the word for 'milk'."
+        },
+        {
+          "id": "ENG2HG039",
+          "question": "Please, ___ ___.",
+          "answer_text": "stand up",
+          "options": [
+            "stand up",
+            "open your book",
+            "sit down"
+          ],
+          "answer_index": 0,
+          "explanation": "This is a 'simple_command' phrase."
+        },
+        {
+          "id": "ENG2HV040",
+          "question": "Point to the word: 'stand up'",
+          "options": [
+            "banana",
+            "milk",
+            "stand up",
+            "seven"
+          ],
+          "answer_index": 2,
+          "answer_text": "stand up",
+          "explanation": "This is the word for 'stand up'."
+        },
+        {
+          "id": "ENG2HV041",
+          "question": "Point to the word: 'nose'",
+          "options": [
+            "sit down",
+            "nose",
+            "leg",
+            "sad"
+          ],
+          "answer_index": 1,
+          "answer_text": "nose",
+          "explanation": "This is the word for 'nose'."
+        },
+        {
+          "id": "ENG2HV042",
+          "question": "Point to the word: 'leg'",
+          "options": [
+            "leg",
+            "hello",
+            "banana",
+            "sit down"
+          ],
+          "answer_index": 0,
+          "answer_text": "leg",
+          "explanation": "This is the word for 'leg'."
+        },
+        {
+          "id": "ENG2HV043",
+          "question": "Point to the word: 'big'",
+          "options": [
+            "big",
+            "hand",
+            "sister",
+            "ear"
+          ],
+          "answer_index": 0,
+          "answer_text": "big",
+          "explanation": "This is the word for 'big'."
+        },
+        {
+          "id": "ENG2HV044",
+          "question": "Point to the word: 'sad'",
+          "options": [
+            "stand up",
+            "goodbye",
+            "red",
+            "sad"
+          ],
+          "answer_index": 3,
+          "answer_text": "sad",
+          "explanation": "This is the word for 'sad'."
+        },
+        {
+          "id": "ENG2HV045",
+          "question": "Point to the word: 'sad'",
+          "options": [
+            "yellow",
+            "sad",
+            "seven",
+            "nose"
+          ],
+          "answer_index": 1,
+          "answer_text": "sad",
+          "explanation": "This is the word for 'sad'."
+        },
+        {
+          "id": "ENG2HV046",
+          "question": "Point to the word: 'sit down'",
+          "options": [
+            "open",
+            "red",
+            "sit down",
+            "five"
+          ],
+          "answer_index": 2,
+          "answer_text": "sit down",
+          "explanation": "This is the word for 'sit down'."
+        },
+        {
+          "id": "ENG2HV047",
+          "question": "Point to the word: 'apple'",
+          "options": [
+            "seven",
+            "apple",
+            "big",
+            "small"
+          ],
+          "answer_index": 1,
+          "answer_text": "apple",
+          "explanation": "This is the word for 'apple'."
+        },
+        {
+          "id": "ENG2HV048",
+          "question": "Point to the word: 'banana'",
+          "options": [
+            "apple",
+            "pen",
+            "sit down",
+            "banana"
+          ],
+          "answer_index": 3,
+          "answer_text": "banana",
+          "explanation": "This is the word for 'banana'."
+        },
+        {
+          "id": "ENG2HV049",
+          "question": "Point to the word: 'open'",
+          "options": [
+            "hi",
+            "yellow",
+            "book",
+            "open"
+          ],
+          "answer_index": 3,
+          "answer_text": "open",
+          "explanation": "This is the word for 'open'."
+        },
+        {
+          "id": "ENG2HG050",
+          "question": "Please, ___ ___.",
+          "answer_text": "stand up",
+          "options": [
+            "sit down",
+            "stand up",
+            "open your book"
+          ],
+          "answer_index": 1,
+          "explanation": "This is a 'simple_command' phrase."
+        },
+        {
+          "id": "ENG2HV051",
+          "question": "Point to the word: 'banana'",
+          "options": [
+            "banana",
+            "bird",
+            "bye",
+            "goodbye"
+          ],
+          "answer_index": 0,
+          "answer_text": "banana",
+          "explanation": "This is the word for 'banana'."
+        },
+        {
+          "id": "ENG2HV052",
+          "question": "Point to the word: 'small'",
+          "options": [
+            "small",
+            "big",
+            "sister",
+            "bye"
+          ],
+          "answer_index": 0,
+          "answer_text": "small",
+          "explanation": "This is the word for 'small'."
+        },
+        {
+          "id": "ENG2HG053",
+          "question": "Please, ___ ___.",
+          "answer_text": "stand up",
+          "options": [
+            "stand up",
+            "sit down",
+            "open your book"
+          ],
+          "answer_index": 0,
+          "explanation": "This is a 'simple_command' phrase."
+        },
+        {
+          "id": "ENG2HV054",
+          "question": "Point to the word: 'leg'",
+          "options": [
+            "open",
+            "leg",
+            "doll",
+            "seven"
+          ],
+          "answer_index": 1,
+          "answer_text": "leg",
+          "explanation": "This is the word for 'leg'."
+        },
+        {
+          "id": "ENG2HG055",
+          "question": "I am ___.",
+          "answer_text": "happy",
+          "options": [
+            "big",
+            "happy",
+            "sad"
+          ],
+          "answer_index": 1,
+          "explanation": "This is a 'simple_feeling' phrase."
+        },
+        {
+          "id": "ENG2HV056",
+          "question": "Point to the word: 'happy'",
+          "options": [
+            "stand up",
+            "happy",
+            "three",
+            "four"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "This is the word for 'happy'."
+        },
+        {
+          "id": "ENG2HV057",
+          "question": "Point to the word: 'happy'",
+          "options": [
+            "pen",
+            "happy",
+            "cat",
+            "cake"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "This is the word for 'happy'."
+        },
+        {
+          "id": "ENG2HV058",
+          "question": "Point to the word: 'open'",
+          "options": [
+            "six",
+            "blue",
+            "apple",
+            "open"
+          ],
+          "answer_index": 3,
+          "answer_text": "open",
+          "explanation": "This is the word for 'open'."
+        },
+        {
+          "id": "ENG2HV059",
+          "question": "Point to the word: 'sad'",
+          "options": [
+            "hand",
+            "green",
+            "sad",
+            "book"
+          ],
+          "answer_index": 2,
+          "answer_text": "sad",
+          "explanation": "This is the word for 'sad'."
+        },
+        {
+          "id": "ENG2HV060",
+          "question": "Point to the word: 'banana'",
+          "options": [
+            "banana",
+            "sad",
+            "bye",
+            "apple"
+          ],
+          "answer_index": 0,
+          "answer_text": "banana",
+          "explanation": "This is the word for 'banana'."
+        },
+        {
+          "id": "ENG2HV061",
+          "question": "Point to the word: 'small'",
+          "options": [
+            "small",
+            "hand",
+            "pen",
+            "one"
+          ],
+          "answer_index": 0,
+          "answer_text": "small",
+          "explanation": "This is the word for 'small'."
+        },
+        {
+          "id": "ENG2HV062",
+          "question": "Point to the word: 'apple'",
+          "options": [
+            "apple",
+            "green",
+            "hello",
+            "seven"
+          ],
+          "answer_index": 0,
+          "answer_text": "apple",
+          "explanation": "This is the word for 'apple'."
+        },
+        {
+          "id": "ENG2HG063",
+          "question": "I am ___.",
+          "answer_text": "happy",
+          "options": [
+            "happy",
+            "sad",
+            "big"
+          ],
+          "answer_index": 0,
+          "explanation": "This is a 'simple_feeling' phrase."
+        },
+        {
+          "id": "ENG2HV064",
+          "question": "Point to the word: 'happy'",
+          "options": [
+            "pencil",
+            "happy",
+            "two",
+            "six"
+          ],
+          "answer_index": 1,
+          "answer_text": "happy",
+          "explanation": "This is the word for 'happy'."
+        },
+        {
+          "id": "ENG2HV065",
+          "question": "Point to the word: 'happy'",
+          "options": [
+            "fish",
+            "seven",
+            "dog",
+            "happy"
+          ],
+          "answer_index": 3,
+          "answer_text": "happy",
+          "explanation": "This is the word for 'happy'."
+        },
+        {
+          "id": "ENG2HV066",
+          "question": "Point to the word: 'cake'",
+          "options": [
+            "hello",
+            "hand",
+            "cake",
+            "ear"
+          ],
+          "answer_index": 2,
+          "answer_text": "cake",
+          "explanation": "This is the word for 'cake'."
+        },
+        {
+          "id": "ENG2HV067",
+          "question": "Point to the word: 'head'",
+          "options": [
+            "head",
+            "sit down",
+            "ten",
+            "six"
+          ],
+          "answer_index": 0,
+          "answer_text": "head",
+          "explanation": "This is the word for 'head'."
+        },
+        {
+          "id": "ENG2HV068",
+          "question": "Point to the word: 'stand up'",
+          "options": [
+            "fish",
+            "stand up",
+            "brother",
+            "bird"
+          ],
+          "answer_index": 1,
+          "answer_text": "stand up",
+          "explanation": "This is the word for 'stand up'."
+        },
+        {
+          "id": "ENG2HV069",
+          "question": "Point to the word: 'head'",
+          "options": [
+            "fish",
+            "cat",
+            "head",
+            "hi"
+          ],
+          "answer_index": 2,
+          "answer_text": "head",
+          "explanation": "This is the word for 'head'."
+        },
+        {
+          "id": "ENG2HG070",
+          "question": "I am ___.",
+          "answer_text": "happy",
+          "options": [
+            "happy",
+            "sad",
+            "big"
+          ],
+          "answer_index": 0,
+          "explanation": "This is a 'simple_feeling' phrase."
+        },
+        {
+          "id": "ENG2HV071",
+          "question": "Point to the word: 'big'",
+          "options": [
+            "cat",
+            "big",
+            "robot",
+            "nine"
+          ],
+          "answer_index": 1,
+          "answer_text": "big",
+          "explanation": "This is the word for 'big'."
+        },
+        {
+          "id": "ENG2HV072",
+          "question": "Point to the word: 'eye'",
+          "options": [
+            "bye",
+            "doll",
+            "eye",
+            "open"
+          ],
+          "answer_index": 2,
+          "answer_text": "eye",
+          "explanation": "This is the word for 'eye'."
+        },
+        {
+          "id": "ENG2HV073",
+          "question": "Point to the word: 'sad'",
+          "options": [
+            "pen",
+            "open",
+            "bye",
+            "sad"
+          ],
+          "answer_index": 3,
+          "answer_text": "sad",
+          "explanation": "This is the word for 'sad'."
+        },
+        {
+          "id": "ENG2HV074",
+          "question": "Point to the word: 'big'",
+          "options": [
+            "big",
+            "sit down",
+            "doll",
+            "apple"
+          ],
+          "answer_index": 0,
+          "answer_text": "big",
+          "explanation": "This is the word for 'big'."
+        },
+        {
+          "id": "ENG2HV075",
+          "question": "Point to the word: 'milk'",
+          "options": [
+            "fish",
+            "apple",
+            "milk",
+            "cat"
+          ],
+          "answer_index": 2,
+          "answer_text": "milk",
+          "explanation": "This is the word for 'milk'."
+        },
+        {
+          "id": "ENG2HV076",
+          "question": "Point to the word: 'close'",
+          "options": [
+            "pen",
+            "close",
+            "eight",
+            "dog"
+          ],
+          "answer_index": 1,
+          "answer_text": "close",
+          "explanation": "This is the word for 'close'."
+        },
+        {
+          "id": "ENG2HV077",
+          "question": "Point to the word: 'milk'",
+          "options": [
+            "ball",
+            "leg",
+            "milk",
+            "head"
+          ],
+          "answer_index": 2,
+          "answer_text": "milk",
+          "explanation": "This is the word for 'milk'."
+        },
+        {
+          "id": "ENG2HG078",
+          "question": "Please, ___ ___.",
+          "answer_text": "stand up",
+          "options": [
+            "sit down",
+            "stand up",
+            "open your book"
+          ],
+          "answer_index": 1,
+          "explanation": "This is a 'simple_command' phrase."
+        },
+        {
+          "id": "ENG2HV079",
+          "question": "Point to the word: 'milk'",
+          "options": [
+            "sister",
+            "eight",
+            "cake",
+            "milk"
+          ],
+          "answer_index": 3,
+          "answer_text": "milk",
+          "explanation": "This is the word for 'milk'."
+        },
+        {
+          "id": "ENG2HG080",
+          "question": "Please, ___ ___.",
+          "answer_text": "stand up",
+          "options": [
+            "open your book",
+            "stand up",
+            "sit down"
+          ],
+          "answer_index": 1,
+          "explanation": "This is a 'simple_command' phrase."
+        },
+        {
+          "id": "ENG2HV081",
+          "question": "Point to the word: 'banana'",
+          "options": [
+            "blue",
+            "banana",
+            "eight",
+            "close"
+          ],
+          "answer_index": 1,
+          "answer_text": "banana",
+          "explanation": "This is the word for 'banana'."
+        },
+        {
+          "id": "ENG2HV082",
+          "question": "Point to the word: 'big'",
+          "options": [
+            "goodbye",
+            "big",
+            "ruler",
+            "bag"
+          ],
+          "answer_index": 1,
+          "answer_text": "big",
+          "explanation": "This is the word for 'big'."
+        },
+        {
+          "id": "ENG2HV083",
+          "question": "Point to the word: 'small'",
+          "options": [
+            "car",
+            "yellow",
+            "small",
+            "six"
+          ],
+          "answer_index": 2,
+          "answer_text": "small",
+          "explanation": "This is the word for 'small'."
+        },
+        {
+          "id": "ENG2HG084",
+          "question": "Please, ___ ___.",
+          "answer_text": "stand up",
+          "options": [
+            "stand up",
+            "open your book",
+            "sit down"
+          ],
+          "answer_index": 0,
+          "explanation": "This is a 'simple_command' phrase."
+        },
+        {
+          "id": "ENG2HV085",
+          "question": "Point to the word: 'big'",
+          "options": [
+            "big",
+            "apple",
+            "six",
+            "red"
+          ],
+          "answer_index": 0,
+          "answer_text": "big",
+          "explanation": "This is the word for 'big'."
+        },
+        {
+          "id": "ENG2HV086",
+          "question": "Point to the word: 'head'",
+          "options": [
+            "open",
+            "sad",
+            "head",
+            "seven"
+          ],
+          "answer_index": 2,
+          "answer_text": "head",
+          "explanation": "This is the word for 'head'."
+        },
+        {
+          "id": "ENG2HV087",
+          "question": "Point to the word: 'apple'",
+          "options": [
+            "apple",
+            "head",
+            "open",
+            "blue"
+          ],
+          "answer_index": 0,
+          "answer_text": "apple",
+          "explanation": "This is the word for 'apple'."
+        },
+        {
+          "id": "ENG2HV088",
+          "question": "Point to the word: 'big'",
+          "options": [
+            "goodbye",
+            "pen",
+            "big",
+            "doll"
+          ],
+          "answer_index": 2,
+          "answer_text": "big",
+          "explanation": "This is the word for 'big'."
+        },
+        {
+          "id": "ENG2HV089",
+          "question": "Point to the word: 'milk'",
+          "options": [
+            "bag",
+            "blue",
+            "one",
+            "milk"
+          ],
+          "answer_index": 3,
+          "answer_text": "milk",
+          "explanation": "This is the word for 'milk'."
+        },
+        {
+          "id": "ENG2HV090",
+          "question": "Point to the word: 'cake'",
+          "options": [
+            "cake",
+            "hand",
+            "ball",
+            "yellow"
+          ],
+          "answer_index": 0,
+          "answer_text": "cake",
+          "explanation": "This is the word for 'cake'."
+        },
+        {
+          "id": "ENG2HV091",
+          "question": "Point to the word: 'ear'",
+          "options": [
+            "ear",
+            "fish",
+            "robot",
+            "yellow"
+          ],
+          "answer_index": 0,
+          "answer_text": "ear",
+          "explanation": "This is the word for 'ear'."
+        },
+        {
+          "id": "ENG2HG092",
+          "question": "I am ___.",
+          "answer_text": "happy",
+          "options": [
+            "sad",
+            "happy",
+            "big"
+          ],
+          "answer_index": 1,
+          "explanation": "This is a 'simple_feeling' phrase."
+        },
+        {
+          "id": "ENG2HV093",
+          "question": "Point to the word: 'sit down'",
+          "options": [
+            "hello",
+            "sit down",
+            "ball",
+            "head"
+          ],
+          "answer_index": 1,
+          "answer_text": "sit down",
+          "explanation": "This is the word for 'sit down'."
+        },
+        {
+          "id": "ENG2HV094",
+          "question": "Point to the word: 'stand up'",
+          "options": [
+            "yellow",
+            "hello",
+            "stand up",
+            "robot"
+          ],
+          "answer_index": 2,
+          "answer_text": "stand up",
+          "explanation": "This is the word for 'stand up'."
+        },
+        {
+          "id": "ENG2HV095",
+          "question": "Point to the word: 'apple'",
+          "options": [
+            "milk",
+            "apple",
+            "seven",
+            "dog"
+          ],
+          "answer_index": 1,
+          "answer_text": "apple",
+          "explanation": "This is the word for 'apple'."
+        },
+        {
+          "id": "ENG2HV096",
+          "question": "Point to the word: 'cake'",
+          "options": [
+            "green",
+            "cake",
+            "big",
+            "book"
+          ],
+          "answer_index": 1,
+          "answer_text": "cake",
+          "explanation": "This is the word for 'cake'."
+        },
+        {
+          "id": "ENG2HV097",
+          "question": "Point to the word: 'banana'",
+          "options": [
+            "close",
+            "fish",
+            "sit down",
+            "banana"
+          ],
+          "answer_index": 3,
+          "answer_text": "banana",
+          "explanation": "This is the word for 'banana'."
+        },
+        {
+          "id": "ENG2HV098",
+          "question": "Point to the word: 'stand up'",
+          "options": [
+            "milk",
+            "stand up",
+            "five",
+            "two"
+          ],
+          "answer_index": 1,
+          "answer_text": "stand up",
+          "explanation": "This is the word for 'stand up'."
+        },
+        {
+          "id": "ENG2HV099",
+          "question": "Point to the word: 'close'",
+          "options": [
+            "stand up",
+            "close",
+            "six",
+            "sit down"
+          ],
+          "answer_index": 1,
+          "answer_text": "close",
+          "explanation": "This is the word for 'close'."
+        },
+        {
+          "id": "ENG2HV100",
+          "question": "Point to the word: 'close'",
+          "options": [
+            "big",
+            "ear",
+            "close",
+            "bird"
+          ],
+          "answer_index": 2,
+          "answer_text": "close",
+          "explanation": "This is the word for 'close'."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "grade": 3,
+    "subject": "Tiếng Việt",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "hard",
+    "curriculum": "Chân trời sáng tạo"
+  },
+  "topics": [
+    {
+      "id": "VIE3_HARD_01",
+      "name": "Chủ đề: Luyện từ và câu (Nâng cao)",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "V3H01Q01",
+          "question": "Thành ngữ, tục ngữ nào nói về tinh thần đoàn kết?",
+          "options": [
+            "Uống nước nhớ nguồn",
+            "Lá lành đùm lá rách",
+            "Đi một ngày đàng, học một sàng khôn",
+            "Giấy rách phải giữ lấy lề"
+          ],
+          "answer_index": 1,
+          "answer_text": "Lá lành đùm lá rách"
+        },
+        {
+          "id": "V3H01Q02",
+          "question": "Từ 'xuân' trong câu nào được dùng với nghĩa chuyển? 'Tuổi xuân của bà đã qua.'",
+          "options": [
+            "Mùa xuân, cây cối đâm chồi nảy lộc.",
+            "Nhà nhà đón xuân.",
+            "Tuổi xuân của bà đã qua.",
+            "Hội chợ xuân rất đông vui."
+          ],
+          "answer_index": 2,
+          "answer_text": "Tuổi xuân của bà đã qua."
+        },
+        {
+          "id": "V3H01Q03",
+          "question": "Trong các câu sau, câu nào là câu ghép?",
+          "options": [
+            "Trời mưa to.",
+            "Vì trời mưa to nên đường trơn.",
+            "Mẹ em là giáo viên.",
+            "Bông hoa này rất đẹp."
+          ],
+          "answer_index": 1,
+          "answer_text": "Vì trời mưa to nên đường trơn."
+        },
+        {
+          "id": "V3H01Q04",
+          "question": "Biện pháp so sánh trong câu thơ 'Tiếng suối trong như tiếng hát xa' giúp em cảm nhận được điều gì?",
+          "options": [
+            "Tiếng suối rất to.",
+            "Tiếng suối rất đáng sợ.",
+            "Âm thanh của tiếng suối trong trẻo, du dương như tiếng hát.",
+            "Không có tiếng suối nào cả."
+          ],
+          "answer_index": 2,
+          "answer_text": "Âm thanh của tiếng suối trong trẻo, du dương như tiếng hát."
+        },
+        {
+          "id": "V3H01Q05",
+          "question": "Tìm một từ có thể thay thế cho từ 'quê hương' trong câu: 'Em rất yêu quê hương của mình.'",
+          "options": [
+            "tổ quốc",
+            "đất nước",
+            "non sông",
+            "quê cha đất tổ"
+          ],
+          "answer_index": 3,
+          "answer_text": "quê cha đất tổ"
+        },
+        {
+          "id": "V3H01Q06",
+          "question": "Xác định chủ ngữ trong câu: 'Dưới ánh trăng, dòng sông lấp lánh như một dải lụa.'",
+          "options": [
+            "Dưới ánh trăng",
+            "dòng sông",
+            "lấp lánh",
+            "dải lụa"
+          ],
+          "answer_index": 1,
+          "answer_text": "dòng sông"
+        },
+        {
+          "id": "V3H01Q07",
+          "question": "Câu 'Hãy giữ gìn môi trường sạch đẹp!' thuộc kiểu câu gì và dùng để làm gì?",
+          "options": [
+            "Câu kể, để tả.",
+            "Câu hỏi, để hỏi.",
+            "Câu cảm, để bộc lộ cảm xúc.",
+            "Câu khiến, để nêu yêu cầu, đề nghị."
+          ],
+          "answer_index": 3,
+          "answer_text": "Câu khiến, để nêu yêu cầu, đề nghị."
+        },
+        {
+          "id": "V3H01Q08",
+          "question": "Từ 'vàng' trong câu nào có nghĩa khác với các từ còn lại?",
+          "options": [
+            "Lúa chín vàng.",
+            "Nắng vàng.",
+            "Tấm lòng vàng.",
+            "Chiếc lá vàng."
+          ],
+          "answer_index": 2,
+          "answer_text": "Tấm lòng vàng."
+        }
+      ]
+    },
+    {
+      "id": "VIE3_HARD_02",
+      "name": "Chủ đề: Cảm thụ văn học và Tập làm văn",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "V3H02Q01",
+          "question": "Nhân vật Dế Mèn trong truyện 'Dế Mèn phiêu lưu ký' của nhà văn Tô Hoài lúc đầu có đức tính xấu nào cần phải thay đổi?",
+          "options": [
+            "Kiêu căng, hung hăng",
+            "Khiêm tốn, hiền lành",
+            "Nhút nhát, yếu đuối",
+            "Thật thà, dũng cảm"
+          ],
+          "answer_index": 0,
+          "answer_text": "Kiêu căng, hung hăng"
+        },
+        {
+          "id": "V3H02Q02",
+          "question": "Để viết một đoạn văn tả cảnh biển, em sẽ không chọn chi tiết nào?",
+          "options": [
+            "Sóng biển vỗ rì rào.",
+            "Bầu trời trong xanh.",
+            "Những chiếc xe cộ tấp nập trên đường phố.",
+            "Bãi cát trắng mịn."
+          ],
+          "answer_index": 2,
+          "answer_text": "Những chiếc xe cộ tấp nập trên đường phố."
+        },
+        {
+          "id": "V3H02Q03",
+          "question": "Khi nhận được thư của một người bạn ở xa, em sẽ viết thư trả lời với nội dung chính là gì?",
+          "options": [
+            "Khoe khoang về bản thân.",
+            "Hỏi thăm sức khỏe bạn, kể cho bạn nghe về tình hình của mình và hỏi về bạn.",
+            "Chỉ kể về chuyện của mình.",
+            "Chê bai bạn."
+          ],
+          "answer_index": 1,
+          "answer_text": "Hỏi thăm sức khỏe bạn, kể cho bạn nghe về tình hình của mình và hỏi về bạn."
+        },
+        {
+          "id": "V3H02Q04",
+          "question": "Câu chuyện 'Sơn Tinh, Thủy Tinh' giải thích hiện tượng tự nhiên nào?",
+          "options": [
+            "Hiện tượng ngày và đêm.",
+            "Hiện tượng mưa, lũ lụt hằng năm.",
+            "Hiện tượng cầu vồng.",
+            "Hiện tượng động đất."
+          ],
+          "answer_index": 1,
+          "answer_text": "Hiện tượng mưa, lũ lụt hằng năm."
+        },
+        {
+          "id": "V3H02Q05",
+          "question": "Mở đầu một bức thư gửi cho bà, cách viết nào thể hiện sự kính trọng, lễ phép?",
+          "options": [
+            "Này bà,",
+            "Bà ơi,",
+            "Bà kính yêu của cháu!",
+            "Gửi bà,"
+          ],
+          "answer_index": 2,
+          "answer_text": "Bà kính yêu của cháu!"
+        },
+        {
+          "id": "V3H02Q06",
+          "question": "Hình ảnh 'áo chàm' trong câu thơ 'Áo chàm đưa buổi phân li' của Tố Hữu tượng trưng cho điều gì?",
+          "options": [
+            "Màu áo của người lính.",
+            "Tấm lòng của người dân Việt Bắc mộc mạc, nghĩa tình.",
+            "Màu của bầu trời.",
+            "Một loại thuốc nhuộm."
+          ],
+          "answer_index": 1,
+          "answer_text": "Tấm lòng của người dân Việt Bắc mộc mạc, nghĩa tình."
+        },
+        {
+          "id": "V3H02Q07",
+          "question": "Trong bài thơ 'Lượm' của Tố Hữu, chú bé Lượm được miêu tả là một người như thế nào?",
+          "options": [
+            "Nhút nhát, sợ sệt",
+            "Ham chơi, lười biếng",
+            "Dũng cảm, yêu đời, hoàn thành tốt nhiệm vụ",
+            "Kiêu căng, tự phụ"
+          ],
+          "answer_index": 2,
+          "answer_text": "Dũng cảm, yêu đời, hoàn thành tốt nhiệm vụ"
+        },
+        {
+          "id": "V3H02Q08",
+          "question": "Để kể về một ngày hội ở quê em, em sẽ sắp xếp các ý theo trình tự nào?",
+          "options": [
+            "Kết thúc, thân bài, mở bài.",
+            "Thân bài, mở bài, kết thúc.",
+            "Mở bài, kết thúc, thân bài.",
+            "Mở bài, thân bài, kết thúc."
+          ],
+          "answer_index": 3,
+          "answer_text": "Mở bài, thân bài, kết thúc."
+        },
+        {
+          "id": "V3H02Q09",
+          "question": "Câu chuyện 'Hai Bà Trưng' thể hiện truyền thống quý báu nào của dân tộc ta?",
+          "options": [
+            "Yêu nước, chống giặc ngoại xâm.",
+            "Cần cù lao động.",
+            "Tôn sư trọng đạo.",
+            "Hiếu thảo với cha mẹ."
+          ],
+          "answer_index": 0,
+          "answer_text": "Yêu nước, chống giặc ngoại xâm."
+        },
+        {
+          "id": "V3H02Q10",
+          "question": "Ý nghĩa của câu chuyện 'Cây tre trăm đốt' là gì?",
+          "options": [
+            "Ở hiền gặp lành, kẻ ác sẽ bị trừng trị.",
+            "Phải biết chăm sóc cây cối.",
+            "Không nên tin lời người khác.",
+            "Sức mạnh của tình bạn."
+          ],
+          "answer_index": 0,
+          "answer_text": "Ở hiền gặp lành, kẻ ác sẽ bị trừng trị."
+        },
+        {
+          "id": "V3H02Q11",
+          "question": "Khi viết giấy mời, phần nào không thể thiếu?",
+          "options": [
+            "Mục đích, thời gian, địa điểm, người mời.",
+            "Chỉ cần ghi tên người mời.",
+            "Chỉ cần ghi thời gian.",
+            "Trang trí thật đẹp."
+          ],
+          "answer_index": 0,
+          "answer_text": "Mục đích, thời gian, địa điểm, người mời."
+        },
+        {
+          "id": "V3H02Q12",
+          "question": "Chọn câu văn có hình ảnh so sánh hay nhất để tả bầu trời.",
+          "options": [
+            "Bầu trời hôm nay rất xanh.",
+            "Bầu trời cao vời vợi.",
+            "Bầu trời như một tấm thảm xanh khổng lồ.",
+            "Em thích nhìn bầu trời."
+          ],
+          "answer_index": 2,
+          "answer_text": "Bầu trời như một tấm thảm xanh khổng lồ."
+        }
+      ]
+    }
+  ]
+}

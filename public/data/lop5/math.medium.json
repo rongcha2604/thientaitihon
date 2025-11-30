@@ -1,0 +1,1240 @@
+{
+  "meta": {
+    "grade": 5,
+    "subject": "Toán",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "medium",
+    "curriculum": "Chương trình mới"
+  },
+  "topics": [
+    {
+      "id": "MATH5_MEDIUM_01",
+      "name": "Chủ đề 1: Ôn tập và bổ sung về phân số",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M5M01Q01",
+          "question": "Tính giá trị biểu thức: 1/2 + 1/3 x 3/4",
+          "options": [
+            "5/8",
+            "9/12",
+            "3/4",
+            "1/2"
+          ],
+          "answer_index": 2,
+          "answer_text": "3/4"
+        },
+        {
+          "id": "M5M01Q02",
+          "question": "Một cửa hàng có 50kg gạo. Buổi sáng bán được 1/5 số gạo. Buổi chiều bán được 1/4 số gạo còn lại. Hỏi cửa hàng còn lại bao nhiêu kg gạo?",
+          "options": [
+            "30kg",
+            "10kg",
+            "40kg",
+            "25kg"
+          ],
+          "answer_index": 0,
+          "answer_text": "30kg"
+        },
+        {
+          "id": "M5M01Q03",
+          "question": "Tìm một phân số ở giữa 2/5 và 3/5.",
+          "options": [
+            "1/2",
+            "4/10",
+            "1/5",
+            "5/10"
+          ],
+          "answer_index": 0,
+          "answer_text": "1/2"
+        },
+        {
+          "id": "M5M01Q04",
+          "question": "Chuyển 5 2/3 thành phân số.",
+          "options": [
+            "10/3",
+            "17/3",
+            "15/3",
+            "7/3"
+          ],
+          "answer_index": 1,
+          "answer_text": "17/3"
+        },
+        {
+          "id": "M5M01Q05",
+          "question": "So sánh hai phân số 5/6 và 7/8",
+          "options": [
+            "5/6 > 7/8",
+            "5/6 = 7/8",
+            "5/6 < 7/8",
+            "Không so sánh được"
+          ],
+          "answer_index": 2,
+          "answer_text": "5/6 < 7/8"
+        },
+        {
+          "id": "M5M01Q06",
+          "question": "Kết quả của phép tính (3/4 - 1/3) : 1/6 là:",
+          "options": [
+            "5/12",
+            "5/2",
+            "1/72",
+            "2/5"
+          ],
+          "answer_index": 1,
+          "answer_text": "5/2"
+        },
+        {
+          "id": "M5M01Q07",
+          "question": "Một tấm vải dài 20m. Người ta đã dùng 2/5 tấm vải để may quần áo. Diện tích vải còn lại là bao nhiêu mét?",
+          "options": [
+            "8m",
+            "10m",
+            "12m",
+            "15m"
+          ],
+          "answer_index": 2,
+          "answer_text": "12m"
+        },
+        {
+          "id": "M5M01Q08",
+          "question": "Tìm x, biết 2/3 * x = 5/9",
+          "options": [
+            "5/6",
+            "10/27",
+            "6/5",
+            "27/10"
+          ],
+          "answer_index": 0,
+          "answer_text": "5/6"
+        },
+        {
+          "id": "M5M01Q09",
+          "question": "Tổng của hai số là 60. Số thứ nhất bằng 2/3 số thứ hai. Tìm số thứ nhất.",
+          "options": [
+            "24",
+            "36",
+            "20",
+            "40"
+          ],
+          "answer_index": 0,
+          "answer_text": "24"
+        },
+        {
+          "id": "M5M01Q10",
+          "question": "Hiệu của hai số là 25. Tỉ số của hai số là 3/8. Tìm số bé.",
+          "options": [
+            "10",
+            "15",
+            "20",
+            "5"
+          ],
+          "answer_index": 1,
+          "answer_text": "15"
+        },
+        {
+          "id": "M5M01Q11",
+          "question": "Phân số nào sau đây lớn hơn 1/2? 2/5, 3/7, 4/9, 5/8",
+          "options": [
+            "2/5",
+            "3/7",
+            "4/9",
+            "5/8"
+          ],
+          "answer_index": 3,
+          "answer_text": "5/8"
+        },
+        {
+          "id": "M5M01Q12",
+          "question": "Một ô tô đi 100km thì tiêu thụ hết 8 lít xăng. Nếu ô tô đi 250km thì tiêu thụ hết bao nhiêu lít xăng?",
+          "options": [
+            "16 lít",
+            "18 lít",
+            "20 lít",
+            "24 lít"
+          ],
+          "answer_index": 2,
+          "answer_text": "20 lít"
+        },
+        {
+          "id": "M5M01Q13",
+          "question": "Tính: 1 + 1/3 + 1/9",
+          "options": [
+            "13/9",
+            "5/9",
+            "11/9",
+            "1"
+          ],
+          "answer_index": 0,
+          "answer_text": "13/9"
+        },
+        {
+          "id": "M5M01Q14",
+          "question": "Viết các phân số 1/2, 2/3, 3/4 theo thứ tự từ bé đến lớn.",
+          "options": [
+            "1/2, 2/3, 3/4",
+            "2/3, 1/2, 3/4",
+            "3/4, 2/3, 1/2",
+            "1/2, 3/4, 2/3"
+          ],
+          "answer_index": 0,
+          "answer_text": "1/2, 2/3, 3/4"
+        },
+        {
+          "id": "M5M01Q15",
+          "question": "Một vòi nước chảy vào bể. Giờ đầu chảy được 1/3 bể, giờ thứ hai chảy được 1/4 bể. Hỏi sau hai giờ vòi đó chảy được mấy phần bể?",
+          "options": [
+            "2/7",
+            "1/12",
+            "7/12",
+            "1/7"
+          ],
+          "answer_index": 2,
+          "answer_text": "7/12"
+        },
+        {
+          "id": "M5M01Q16",
+          "question": "Tìm y: y : 1/5 = 10",
+          "options": [
+            "50",
+            "2",
+            "1/50",
+            "1/2"
+          ],
+          "answer_index": 1,
+          "answer_text": "2"
+        },
+        {
+          "id": "M5M01Q17",
+          "question": "Một hình chữ nhật có chiều dài 3/4 m và chiều rộng 1/2 m. Chu vi của hình chữ nhật đó là:",
+          "options": [
+            "5/4 m",
+            "5/2 m",
+            "3/8 m",
+            "1 m"
+          ],
+          "answer_index": 1,
+          "answer_text": "5/2 m"
+        },
+        {
+          "id": "M5M01Q18",
+          "question": "Một hình chữ nhật có chiều dài 3/4 m và chiều rộng 1/2 m. Diện tích của hình chữ nhật đó là:",
+          "options": [
+            "5/4 m²",
+            "3/8 m²",
+            "5/2 m²",
+            "1 m²"
+          ],
+          "answer_index": 1,
+          "answer_text": "3/8 m²"
+        },
+        {
+          "id": "M5M01Q19",
+          "question": "Tính giá trị của 2/5 của 15",
+          "options": [
+            "6",
+            "7.5",
+            "5",
+            "10"
+          ],
+          "answer_index": 0,
+          "answer_text": "6"
+        },
+        {
+          "id": "M5M01Q20",
+          "question": "Lớp 5A có 40 học sinh, trong đó số học sinh nữ chiếm 3/8. Số học sinh nam của lớp là:",
+          "options": [
+            "15",
+            "20",
+            "25",
+            "30"
+          ],
+          "answer_index": 2,
+          "answer_text": "25"
+        },
+        {
+          "id": "M5M01Q21",
+          "question": "Tính 3/4 : 2",
+          "options": [
+            "3/2",
+            "3/8",
+            "6/4",
+            "1/2"
+          ],
+          "answer_index": 1,
+          "answer_text": "3/8"
+        },
+        {
+          "id": "M5M01Q22",
+          "question": "Số nào có thể điền vào chỗ chấm: 1/3 < .../6 < 1/2",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "Không có"
+          ],
+          "answer_index": 3,
+          "answer_text": "Không có"
+        },
+        {
+          "id": "M5M01Q23",
+          "question": "Biết 3/4 số học sinh của một lớp là 27 bạn. Hỏi lớp đó có bao nhiêu học sinh?",
+          "options": [
+            "30",
+            "32",
+            "36",
+            "40"
+          ],
+          "answer_index": 2,
+          "answer_text": "36"
+        },
+        {
+          "id": "M5M01Q24",
+          "question": "Một người bán 120 quả trứng, trong đó số trứng gà bằng 2/3 số trứng vịt. Số trứng gà là:",
+          "options": [
+            "48",
+            "72",
+            "40",
+            "80"
+          ],
+          "answer_index": 0,
+          "answer_text": "48"
+        },
+        {
+          "id": "M5M01Q25",
+          "question": "Tính: (1 - 1/2) x (1 - 1/3) x (1 - 1/4)",
+          "options": [
+            "1/4",
+            "1/2",
+            "3/4",
+            "1"
+          ],
+          "answer_index": 0,
+          "answer_text": "1/4"
+        }
+      ]
+    },
+    {
+      "id": "MATH5_MEDIUM_02",
+      "name": "Chủ đề 2: Số thập phân và các phép tính",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M5M02Q01",
+          "question": "Tính giá trị biểu thức: 12,5 x 1,7 - 12,5 x 0,7",
+          "options": [
+            "1,25",
+            "12,5",
+            "125",
+            "0"
+          ],
+          "answer_index": 1,
+          "answer_text": "12,5"
+        },
+        {
+          "id": "M5M02Q02",
+          "question": "Một can dầu chứa 20 lít. Người ta lấy ra 3,5 lít, sau đó lấy ra tiếp 2,75 lít. Trong can còn lại bao nhiêu lít dầu?",
+          "options": [
+            "13,75 lít",
+            "14,75 lít",
+            "14,25 lít",
+            "13,25 lít"
+          ],
+          "answer_index": 0,
+          "answer_text": "13,75 lít"
+        },
+        {
+          "id": "M5M02Q03",
+          "question": "Tìm số tự nhiên x, biết 2,5 < x < 3,1",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer_index": 1,
+          "answer_text": "3"
+        },
+        {
+          "id": "M5M02Q04",
+          "question": "Tìm 25% của 80.",
+          "options": [
+            "10",
+            "20",
+            "25",
+            "40"
+          ],
+          "answer_index": 1,
+          "answer_text": "20"
+        },
+        {
+          "id": "M5M02Q05",
+          "question": "Một mảnh đất hình chữ nhật có chiều dài 25,5m, chiều rộng kém chiều dài 4m. Tính chu vi mảnh đất.",
+          "options": [
+            "94m",
+            "47m",
+            "90m",
+            "51m"
+          ],
+          "answer_index": 0,
+          "answer_text": "94m"
+        },
+        {
+          "id": "M5M02Q06",
+          "question": "Kết quả của phép tính 24,6 : 1,2 là:",
+          "options": [
+            "2,05",
+            "20,5",
+            "205",
+            "0,205"
+          ],
+          "answer_index": 1,
+          "answer_text": "20,5"
+        },
+        {
+          "id": "M5M02Q07",
+          "question": "May một bộ quần áo hết 2,8m vải. Hỏi có 40m vải thì may được nhiều nhất bao nhiêu bộ quần áo và còn thừa mấy mét vải?",
+          "options": [
+            "14 bộ, thừa 0,8m",
+            "14 bộ, thừa 0,08m",
+            "14 bộ, thừa 8m",
+            "15 bộ, không thừa"
+          ],
+          "answer_index": 0,
+          "answer_text": "14 bộ, thừa 0,8m"
+        },
+        {
+          "id": "M5M02Q08",
+          "question": "Tìm x, biết x : 0,5 = 12,4",
+          "options": [
+            "24,8",
+            "6,2",
+            "11,9",
+            "12,9"
+          ],
+          "answer_index": 1,
+          "answer_text": "6,2"
+        },
+        {
+          "id": "M5M02Q09",
+          "question": "Một cửa hàng ngày đầu bán được 120,5 kg đường. Ngày thứ hai bán nhiều hơn ngày đầu 10,8 kg. Cả hai ngày cửa hàng bán được bao nhiêu kg đường?",
+          "options": [
+            "131,3 kg",
+            "251,8 kg",
+            "241 kg",
+            "261,8 kg"
+          ],
+          "answer_index": 1,
+          "answer_text": "251,8 kg"
+        },
+        {
+          "id": "M5M02Q10",
+          "question": "Tìm số A, biết rằng 20% của A là 50.",
+          "options": [
+            "10",
+            "100",
+            "250",
+            "500"
+          ],
+          "answer_index": 2,
+          "answer_text": "250"
+        },
+        {
+          "id": "M5M02Q11",
+          "question": "Tính bằng cách thuận tiện nhất: 4,5 x 5,5 + 4,5 x 4,5",
+          "options": [
+            "45",
+            "4,5",
+            "10",
+            "40,5"
+          ],
+          "answer_index": 0,
+          "answer_text": "45"
+        },
+        {
+          "id": "M5M02Q12",
+          "question": "Tìm một số biết rằng nếu nhân số đó với 4 rồi trừ đi 5,6 thì được 10.",
+          "options": [
+            "3,9",
+            "15,6",
+            "1,1",
+            "6,2"
+          ],
+          "answer_index": 0,
+          "answer_text": "3,9"
+        },
+        {
+          "id": "M5M02Q13",
+          "question": "Giá một chiếc bút là 4500 đồng. Nếu giảm giá 10% thì giá mới của chiếc bút là bao nhiêu?",
+          "options": [
+            "4000 đồng",
+            "4050 đồng",
+            "450 đồng",
+            "4950 đồng"
+          ],
+          "answer_index": 1,
+          "answer_text": "4050 đồng"
+        },
+        {
+          "id": "M5M02Q14",
+          "question": "Tìm hai số có tổng là 12,5 và hiệu là 2,5.",
+          "options": [
+            "7 và 5,5",
+            "8 và 4,5",
+            "7,5 và 5",
+            "7,5 và 4,5"
+          ],
+          "answer_index": 2,
+          "answer_text": "7,5 và 5"
+        },
+        {
+          "id": "M5M02Q15",
+          "question": "Giá trị của biểu thức 15,3 : (1 + 0,25 x 16) là:",
+          "options": [
+            "3,06",
+            "3,6",
+            "1,53",
+            "2,55"
+          ],
+          "answer_index": 0,
+          "answer_text": "3,06"
+        },
+        {
+          "id": "M5M02Q16",
+          "question": "Chuyển 2 km 5m thành số thập phân với đơn vị km.",
+          "options": [
+            "2,5 km",
+            "2,05 km",
+            "2,005 km",
+            "2005 km"
+          ],
+          "answer_index": 2,
+          "answer_text": "2,005 km"
+        },
+        {
+          "id": "M5M02Q17",
+          "question": "Tổng của 10 số tự nhiên liên tiếp từ 1 đến 10 là bao nhiêu?",
+          "options": [
+            "50",
+            "55",
+            "60",
+            "100"
+          ],
+          "answer_index": 1,
+          "answer_text": "55"
+        },
+        {
+          "id": "M5M02Q18",
+          "question": "Một người gửi tiết kiệm 10.000.000 đồng với lãi suất 0,5% một tháng. Sau một tháng, cả vốn lẫn lãi người đó nhận được là:",
+          "options": [
+            "10.500.000 đồng",
+            "10.050.000 đồng",
+            "10.005.000 đồng",
+            "15.000.000 đồng"
+          ],
+          "answer_index": 1,
+          "answer_text": "10.050.000 đồng"
+        },
+        {
+          "id": "M5M02Q19",
+          "question": "Tìm số dư của phép chia 21,6 : 5 nếu chỉ lấy đến hai chữ số ở phần thập phân của thương.",
+          "options": [
+            "1",
+            "0,1",
+            "0,01",
+            "0"
+          ],
+          "answer_index": 3,
+          "answer_text": "0"
+        },
+        {
+          "id": "M5M02Q20",
+          "question": "Trung bình cộng của các số: 1,2; 2,3; 3,4 là:",
+          "options": [
+            "2,3",
+            "6,9",
+            "3,45",
+            "2,2"
+          ],
+          "answer_index": 0,
+          "answer_text": "2,3"
+        },
+        {
+          "id": "M5M02Q21",
+          "question": "Tìm 1% của 500",
+          "options": [
+            "0,5",
+            "50",
+            "5",
+            "500"
+          ],
+          "answer_index": 2,
+          "answer_text": "5"
+        },
+        {
+          "id": "M5M02Q22",
+          "question": "Một sản phẩm có giá 200.000 đồng. Sau khi giảm giá 15%, giá mới là:",
+          "options": [
+            "185.000 đồng",
+            "170.000 đồng",
+            "30.000 đồng",
+            "215.000 đồng"
+          ],
+          "answer_index": 1,
+          "answer_text": "170.000 đồng"
+        },
+        {
+          "id": "M5M02Q23",
+          "question": "Tìm x, biết 7,5 - x = 1,2 x 3",
+          "options": [
+            "3,6",
+            "11,1",
+            "3,9",
+            "4,9"
+          ],
+          "answer_index": 2,
+          "answer_text": "3,9"
+        },
+        {
+          "id": "M5M02Q24",
+          "question": "Viết số thập phân gồm: hai mươi lăm đơn vị, sáu phần mười, tám phần nghìn",
+          "options": [
+            "25,68",
+            "25,068",
+            "25,608",
+            "25,680"
+          ],
+          "answer_index": 2,
+          "answer_text": "25,608"
+        },
+        {
+          "id": "M5M02Q25",
+          "question": "Mua 5kg đường hết 95.000 đồng. Hỏi mua 3,5kg đường cùng loại hết bao nhiêu tiền?",
+          "options": [
+            "66.500 đồng",
+            "19.000 đồng",
+            "57.000 đồng",
+            "76.000 đồng"
+          ],
+          "answer_index": 0,
+          "answer_text": "66.500 đồng"
+        }
+      ]
+    },
+    {
+      "id": "MATH5_MEDIUM_03",
+      "name": "Chủ đề 3: Hình học",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M5M03Q01",
+          "question": "Một hình tam giác có diện tích 60cm² và chiều cao 10cm. Tính độ dài đáy của tam giác.",
+          "options": [
+            "6cm",
+            "12cm",
+            "30cm",
+            "5cm"
+          ],
+          "answer_index": 1,
+          "answer_text": "12cm"
+        },
+        {
+          "id": "M5M03Q02",
+          "question": "Một hình thang có trung bình cộng hai đáy là 15cm và chiều cao là 8cm. Diện tích hình thang đó là:",
+          "options": [
+            "60cm²",
+            "120cm²",
+            "23cm²",
+            "240cm²"
+          ],
+          "answer_index": 1,
+          "answer_text": "120cm²"
+        },
+        {
+          "id": "M5M03Q03",
+          "question": "Một bánh xe hình tròn có bán kính 0,25m. Khi bánh xe lăn trên mặt đất 10 vòng thì được một quãng đường dài bao nhiêu mét?",
+          "options": [
+            "7,85m",
+            "15,7m",
+            "1,57m",
+            "78,5m"
+          ],
+          "answer_index": 1,
+          "answer_text": "15,7m"
+        },
+        {
+          "id": "M5M03Q04",
+          "question": "Diện tích xung quanh của hình hộp chữ nhật có chiều dài 5dm, chiều rộng 3dm và chiều cao 4dm là:",
+          "options": [
+            "60dm²",
+            "32dm²",
+            "64dm²",
+            "92dm²"
+          ],
+          "answer_index": 2,
+          "answer_text": "64dm²"
+        },
+        {
+          "id": "M5M03Q05",
+          "question": "Diện tích toàn phần của hình lập phương có cạnh 5cm là:",
+          "options": [
+            "100cm²",
+            "125cm²",
+            "150cm²",
+            "25cm²"
+          ],
+          "answer_index": 2,
+          "answer_text": "150cm²"
+        },
+        {
+          "id": "M5M03Q06",
+          "question": "Một bể cá hình hộp chữ nhật có chiều dài 1,2m, chiều rộng 0,5m và chiều cao 0,8m. Thể tích bể cá là:",
+          "options": [
+            "0,48m³",
+            "4,8m³",
+            "48m³",
+            "480m³"
+          ],
+          "answer_index": 0,
+          "answer_text": "0,48m³"
+        },
+        {
+          "id": "M5M03Q07",
+          "question": "Một sân vận động hình chữ nhật có chu vi 400m, chiều dài hơn chiều rộng 40m. Tính diện tích sân vận động.",
+          "options": [
+            "12000m²",
+            "8000m²",
+            "9600m²",
+            "16000m²"
+          ],
+          "answer_index": 2,
+          "answer_text": "9600m²"
+        },
+        {
+          "id": "M5M03Q08",
+          "question": "Diện tích một hình tròn là 28,26cm². Tính bán kính của hình tròn đó.",
+          "options": [
+            "3cm",
+            "9cm",
+            "4,5cm",
+            "6cm"
+          ],
+          "answer_index": 0,
+          "answer_text": "3cm"
+        },
+        {
+          "id": "M5M03Q09",
+          "question": "Người ta sơn toàn bộ mặt ngoài của một cái thùng hình lập phương không có nắp, cạnh 1,5m. Diện tích cần sơn là:",
+          "options": [
+            "9m²",
+            "13,5m²",
+            "11,25m²",
+            "2,25m²"
+          ],
+          "answer_index": 2,
+          "answer_text": "11,25m²"
+        },
+        {
+          "id": "M5M03Q10",
+          "question": "Một hình thang có diện tích 150cm², chiều cao 10cm. Tổng độ dài hai đáy của hình thang là:",
+          "options": [
+            "15cm",
+            "30cm",
+            "20cm",
+            "25cm"
+          ],
+          "answer_index": 1,
+          "answer_text": "30cm"
+        },
+        {
+          "id": "M5M03Q11",
+          "question": "Một tam giác vuông có hai cạnh góc vuông là 6cm và 8cm. Diện tích tam giác đó là:",
+          "options": [
+            "48cm²",
+            "14cm²",
+            "24cm²",
+            "28cm²"
+          ],
+          "answer_index": 2,
+          "answer_text": "24cm²"
+        },
+        {
+          "id": "M5M03Q12",
+          "question": "Chu vi của một hình chữ nhật là 48cm. Chiều dài gấp 3 lần chiều rộng. Diện tích hình chữ nhật đó là:",
+          "options": [
+            "108cm²",
+            "144cm²",
+            "96cm²",
+            "24cm²"
+          ],
+          "answer_index": 0,
+          "answer_text": "108cm²"
+        },
+        {
+          "id": "M5M03Q13",
+          "question": "Thể tích của một hình hộp chữ nhật có chiều dài 2m, chiều rộng 1,5m và chiều cao 1m là:",
+          "options": [
+            "3m³",
+            "4,5m³",
+            "2,5m³",
+            "30m³"
+          ],
+          "answer_index": 0,
+          "answer_text": "3m³"
+        },
+        {
+          "id": "M5M03Q14",
+          "question": "Diện tích hình tròn có đường kính d=10cm là:",
+          "options": [
+            "314cm²",
+            "31,4cm²",
+            "78,5cm²",
+            "15,7cm²"
+          ],
+          "answer_index": 2,
+          "answer_text": "78,5cm²"
+        },
+        {
+          "id": "M5M03Q15",
+          "question": "Diện tích xung quanh của hình lập phương có cạnh 4cm là:",
+          "options": [
+            "16cm²",
+            "64cm²",
+            "96cm²",
+            "32cm²"
+          ],
+          "answer_index": 1,
+          "answer_text": "64cm²"
+        },
+        {
+          "id": "M5M03Q16",
+          "question": "Một mảnh đất hình thang có đáy lớn 30m, đáy bé 20m và chiều cao bằng trung bình cộng hai đáy. Diện tích mảnh đất là:",
+          "options": [
+            "1250m²",
+            "625m²",
+            "500m²",
+            "250m²"
+          ],
+          "answer_index": 1,
+          "answer_text": "625m²"
+        },
+        {
+          "id": "M5M03Q17",
+          "question": "Nếu tăng cạnh của một hình lập phương lên 2 lần thì thể tích của nó tăng lên mấy lần?",
+          "options": [
+            "2 lần",
+            "4 lần",
+            "6 lần",
+            "8 lần"
+          ],
+          "answer_index": 3,
+          "answer_text": "8 lần"
+        },
+        {
+          "id": "M5M03Q18",
+          "question": "Một cái hồ hình tròn có chu vi 62,8m. Diện tích cái hồ là:",
+          "options": [
+            "314m²",
+            "1256m²",
+            "100m²",
+            "628m²"
+          ],
+          "answer_index": 0,
+          "answer_text": "314m²"
+        },
+        {
+          "id": "M5M03Q19",
+          "question": "Một hình tam giác có diện tích bằng diện tích một hình vuông cạnh 6cm. Biết chiều cao tam giác là 9cm, tính đáy tam giác.",
+          "options": [
+            "4cm",
+            "8cm",
+            "12cm",
+            "36cm"
+          ],
+          "answer_index": 1,
+          "answer_text": "8cm"
+        },
+        {
+          "id": "M5M03Q20",
+          "question": "Một bể nước hình hộp chữ nhật có thể tích là 1,8m³. Đáy bể có chiều dài 1,5m và chiều rộng 0,8m. Tính chiều cao của bể.",
+          "options": [
+            "1,2m",
+            "1m",
+            "1,5m",
+            "2m"
+          ],
+          "answer_index": 2,
+          "answer_text": "1,5m"
+        },
+        {
+          "id": "M5M03Q21",
+          "question": "Nếu gấp đôi bán kính của một hình tròn thì diện tích của nó tăng lên mấy lần?",
+          "options": [
+            "2 lần",
+            "3 lần",
+            "4 lần",
+            "Pi lần"
+          ],
+          "answer_index": 2,
+          "answer_text": "4 lần"
+        },
+        {
+          "id": "M5M03Q22",
+          "question": "Một cái sân hình chữ nhật có chiều dài 20m, chiều rộng 12m. Người ta lát gạch hình vuông cạnh 4dm. Cần bao nhiêu viên gạch để lát kín sân?",
+          "options": [
+            "150 viên",
+            "1500 viên",
+            "600 viên",
+            "6000 viên"
+          ],
+          "answer_index": 1,
+          "answer_text": "1500 viên"
+        },
+        {
+          "id": "M5M03Q23",
+          "question": "Diện tích phần tô màu của hình vuông cạnh 10cm có chứa một hình tròn nội tiếp là bao nhiêu? (Lấy π=3,14)",
+          "options": [
+            "100cm²",
+            "78,5cm²",
+            "21,5cm²",
+            "31,4cm²"
+          ],
+          "answer_index": 2,
+          "answer_text": "21,5cm²"
+        },
+        {
+          "id": "M5M03Q24",
+          "question": "Một hình hộp chữ nhật có diện tích xung quanh là 100cm², chiều cao 5cm. Chu vi đáy của hình hộp là:",
+          "options": [
+            "10cm",
+            "20cm",
+            "25cm",
+            "50cm"
+          ],
+          "answer_index": 1,
+          "answer_text": "20cm"
+        },
+        {
+          "id": "M5M03Q25",
+          "question": "Một tam giác đều có cạnh 6cm. Chu vi của nó là:",
+          "options": [
+            "12cm",
+            "18cm",
+            "24cm",
+            "36cm"
+          ],
+          "answer_index": 1,
+          "answer_text": "18cm"
+        }
+      ]
+    },
+    {
+      "id": "MATH5_MEDIUM_04",
+      "name": "Chủ đề 4: Số đo thời gian và toán chuyển động",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M5M04Q01",
+          "question": "Một ô tô khởi hành từ A lúc 7 giờ 15 phút và đến B lúc 9 giờ 45 phút. Quãng đường AB dài 120km. Tính vận tốc của ô tô.",
+          "options": [
+            "40 km/giờ",
+            "48 km/giờ",
+            "50 km/giờ",
+            "60 km/giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "48 km/giờ"
+        },
+        {
+          "id": "M5M04Q02",
+          "question": "Lúc 6 giờ, một xe máy đi từ A đến B với vận tốc 30 km/giờ. Cùng lúc đó, một ô tô đi từ B về A với vận tốc 45 km/giờ. Quãng đường AB dài 150km. Hỏi hai xe gặp nhau lúc mấy giờ?",
+          "options": [
+            "7 giờ",
+            "7 giờ 30 phút",
+            "8 giờ",
+            "8 giờ 30 phút"
+          ],
+          "answer_index": 2,
+          "answer_text": "8 giờ"
+        },
+        {
+          "id": "M5M04Q03",
+          "question": "Một người đi xe đạp quãng đường 18km với vận tốc 12 km/giờ. Người đó khởi hành lúc 8 giờ. Hỏi người đó đến nơi lúc mấy giờ?",
+          "options": [
+            "9 giờ",
+            "9 giờ 30 phút",
+            "10 giờ",
+            "8 giờ 30 phút"
+          ],
+          "answer_index": 1,
+          "answer_text": "9 giờ 30 phút"
+        },
+        {
+          "id": "M5M04Q04",
+          "question": "Một ca nô đi xuôi dòng từ A đến B hết 2 giờ và đi ngược dòng từ B về A hết 3 giờ. Biết vận tốc dòng nước là 5 km/giờ. Tính vận tốc thực của ca nô.",
+          "options": [
+            "20 km/giờ",
+            "25 km/giờ",
+            "30 km/giờ",
+            "15 km/giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "25 km/giờ"
+        },
+        {
+          "id": "M5M04Q05",
+          "question": "Tính: 2 ngày 8 giờ + 3 ngày 18 giờ",
+          "options": [
+            "5 ngày 26 giờ",
+            "6 ngày 2 giờ",
+            "5 ngày 10 giờ",
+            "6 ngày"
+          ],
+          "answer_index": 1,
+          "answer_text": "6 ngày 2 giờ"
+        },
+        {
+          "id": "M5M04Q06",
+          "question": "Một đoàn tàu dài 120m chạy qua một cây cầu dài 180m với vận tốc 25 m/giây. Hỏi từ lúc đầu tàu lên cầu đến lúc toa cuối cùng qua khỏi cầu mất bao lâu?",
+          "options": [
+            "12 giây",
+            "7,2 giây",
+            "4,8 giây",
+            "10 giây"
+          ],
+          "answer_index": 0,
+          "answer_text": "12 giây"
+        },
+        {
+          "id": "M5M04Q07",
+          "question": "An đi học từ nhà lúc 6 giờ 30 phút và đến trường lúc 7 giờ kém 10 phút. Hỏi An đi từ nhà đến trường hết bao nhiêu thời gian?",
+          "options": [
+            "20 phút",
+            "30 phút",
+            "40 phút",
+            "50 phút"
+          ],
+          "answer_index": 0,
+          "answer_text": "20 phút"
+        },
+        {
+          "id": "M5M04Q08",
+          "question": "Một vận động viên chạy 400m hết 1 phút 20 giây. Vận tốc chạy của vận động viên đó là bao nhiêu m/giây?",
+          "options": [
+            "4 m/giây",
+            "5 m/giây",
+            "6 m/giây",
+            "3 m/giây"
+          ],
+          "answer_index": 1,
+          "answer_text": "5 m/giây"
+        },
+        {
+          "id": "M5M04Q09",
+          "question": "Một ô tô dự định đi quãng đường 300km. Ô tô đi với vận tốc 60 km/giờ và đã đi được 2,5 giờ. Hỏi ô tô còn phải đi tiếp quãng đường dài bao nhiêu?",
+          "options": [
+            "150 km",
+            "120 km",
+            "180 km",
+            "240 km"
+          ],
+          "answer_index": 0,
+          "answer_text": "150 km"
+        },
+        {
+          "id": "M5M04Q10",
+          "question": "Một người đi từ A đến B. Nửa quãng đường đầu người đó đi với vận tốc 15 km/giờ, nửa quãng đường sau đi với vận tốc 10 km/giờ. Vận tốc trung bình trên cả quãng đường là:",
+          "options": [
+            "12,5 km/giờ",
+            "12 km/giờ",
+            "13 km/giờ",
+            "13,5 km/giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "12 km/giờ"
+        },
+        {
+          "id": "M5M04Q11",
+          "question": "Tính: 4 năm 3 tháng - 2 năm 8 tháng",
+          "options": [
+            "2 năm 5 tháng",
+            "1 năm 5 tháng",
+            "1 năm 7 tháng",
+            "2 năm 7 tháng"
+          ],
+          "answer_index": 2,
+          "answer_text": "1 năm 7 tháng"
+        },
+        {
+          "id": "M5M04Q12",
+          "question": "Một con ốc sên bò lên một cái cây cao 10m. Ban ngày nó bò lên được 3m, ban đêm nó lại tụt xuống 2m. Hỏi sau bao nhiêu ngày con ốc sên bò lên đến đỉnh cây?",
+          "options": [
+            "10 ngày",
+            "9 ngày",
+            "8 ngày",
+            "7 ngày"
+          ],
+          "answer_index": 2,
+          "answer_text": "8 ngày"
+        },
+        {
+          "id": "M5M04Q13",
+          "question": "Hai người cùng làm một công việc. Người thứ nhất làm một mình thì sau 3 giờ xong. Người thứ hai làm một mình thì sau 6 giờ xong. Hỏi cả hai người cùng làm thì sau bao lâu sẽ xong?",
+          "options": [
+            "2 giờ",
+            "3 giờ",
+            "4,5 giờ",
+            "9 giờ"
+          ],
+          "answer_index": 0,
+          "answer_text": "2 giờ"
+        },
+        {
+          "id": "M5M04Q14",
+          "question": "Một xe lửa đi qua một cái cột điện hết 8 giây. Biết xe lửa dài 120m. Vận tốc của xe lửa là:",
+          "options": [
+            "15 km/giờ",
+            "54 km/giờ",
+            "15 m/giây",
+            "12 m/giây"
+          ],
+          "answer_index": 1,
+          "answer_text": "54 km/giờ"
+        },
+        {
+          "id": "M5M04Q15",
+          "question": "Bây giờ là 9 giờ. Hỏi sau ít nhất bao lâu nữa thì kim giờ và kim phút sẽ trùng nhau?",
+          "options": [
+            "Khoảng 49 phút",
+            "Khoảng 54 phút",
+            "1 giờ",
+            "Khoảng 60 phút"
+          ],
+          "answer_index": 0,
+          "answer_text": "Khoảng 49 phút"
+        },
+        {
+          "id": "M5M04Q16",
+          "question": "Đổi 2,25 giờ ra giờ và phút.",
+          "options": [
+            "2 giờ 25 phút",
+            "2 giờ 15 phút",
+            "2 giờ 5 phút",
+            "2 giờ 45 phút"
+          ],
+          "answer_index": 1,
+          "answer_text": "2 giờ 15 phút"
+        },
+        {
+          "id": "M5M04Q17",
+          "question": "Một người đi từ A đến B với vận tốc 4km/h và quay về từ B đến A với vận tốc 6km/h. Vận tốc trung bình của cả đi và về là:",
+          "options": [
+            "5 km/h",
+            "4,8 km/h",
+            "5,2 km/h",
+            "5,5 km/h"
+          ],
+          "answer_index": 1,
+          "answer_text": "4,8 km/h"
+        },
+        {
+          "id": "M5M04Q18",
+          "question": "Một ô tô đi 100km với vận tốc 50km/h. Ô tô nghỉ 15 phút rồi quay về với vận tốc 40km/h. Tổng thời gian cả đi, về và nghỉ là:",
+          "options": [
+            "4 giờ 30 phút",
+            "4 giờ 45 phút",
+            "5 giờ",
+            "4 giờ 15 phút"
+          ],
+          "answer_index": 1,
+          "answer_text": "4 giờ 45 phút"
+        },
+        {
+          "id": "M5M04Q19",
+          "question": "Tính: (3 giờ 20 phút) x 3",
+          "options": [
+            "9 giờ",
+            "9 giờ 20 phút",
+            "10 giờ",
+            "9 giờ 60 phút"
+          ],
+          "answer_index": 2,
+          "answer_text": "10 giờ"
+        },
+        {
+          "id": "M5M04Q20",
+          "question": "Lúc 8 giờ, một người đi xe đạp từ A đến B cách A 10km. Người đó đến B lúc 9 giờ 15 phút. Vận tốc của người đi xe đạp là:",
+          "options": [
+            "8 km/h",
+            "10 km/h",
+            "12 km/h",
+            "7,5 km/h"
+          ],
+          "answer_index": 0,
+          "answer_text": "8 km/h"
+        },
+        {
+          "id": "M5M04Q21",
+          "question": "An đi từ nhà đến trường hết 0,4 giờ. Bình đi từ nhà đến trường hết 25 phút. Ai đi nhanh hơn?",
+          "options": [
+            "An",
+            "Bình",
+            "Bằng nhau",
+            "Không xác định"
+          ],
+          "answer_index": 0,
+          "answer_text": "An"
+        },
+        {
+          "id": "M5M04Q22",
+          "question": "Một vòi nước chảy đầy một cái bể trong 3 giờ. Hỏi trong 1 giờ 30 phút vòi chảy được mấy phần bể?",
+          "options": [
+            "1/3 bể",
+            "1/2 bể",
+            "2/3 bể",
+            "1/4 bể"
+          ],
+          "answer_index": 1,
+          "answer_text": "1/2 bể"
+        },
+        {
+          "id": "M5M04Q23",
+          "question": "Một chiếc đồng hồ cứ 1 giờ lại chạy nhanh 2 giây. Hỏi sau một ngày nó chạy nhanh bao nhiêu giây?",
+          "options": [
+            "24 giây",
+            "36 giây",
+            "48 giây",
+            "60 giây"
+          ],
+          "answer_index": 2,
+          "answer_text": "48 giây"
+        },
+        {
+          "id": "M5M04Q24",
+          "question": "Một xe máy đi với vận tốc 36 km/giờ. Quãng đường xe máy đi được trong 45 phút là:",
+          "options": [
+            "27 km",
+            "36 km",
+            "45 km",
+            "18 km"
+          ],
+          "answer_index": 0,
+          "answer_text": "27 km"
+        },
+        {
+          "id": "M5M04Q25",
+          "question": "Hai thành phố A và B cách nhau 225 km. Một ô tô đi từ A đến B với vận tốc 50 km/giờ. Một xe máy đi từ B về A với vận tốc 40 km/giờ. Nếu khởi hành cùng lúc, chúng sẽ gặp nhau cách A bao nhiêu km?",
+          "options": [
+            "100 km",
+            "125 km",
+            "150 km",
+            "112,5 km"
+          ],
+          "answer_index": 1,
+          "answer_text": "125 km"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "grade": 4,
+    "subject": "Toán",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "hard",
+    "curriculum": "Chương trình mới"
+  },
+  "topics": [
+    {
+      "id": "MATH4_HARD_01",
+      "name": "Chủ đề 1: Số tự nhiên và Phân số (Nâng cao)",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M4H01Q01",
+          "question": "Tìm một số biết rằng nếu lấy số đó nhân với 4 rồi trừ đi 45 thì được kết quả bằng khi lấy số đó chia cho 4 rồi cộng với 45.",
+          "options": [
+            "24",
+            "16",
+            "20",
+            "28"
+          ],
+          "answer_index": 0,
+          "answer_text": "24"
+        },
+        {
+          "id": "M4H01Q02",
+          "question": "Cho phân số 7/8. Hỏi phải cùng thêm vào tử số và mẫu số bao nhiêu đơn vị để được phân số mới bằng 8/9?",
+          "options": [
+            "3",
+            "1",
+            "2",
+            "Không có số nào"
+          ],
+          "answer_index": 1,
+          "answer_text": "1"
+        },
+        {
+          "id": "M4H01Q03",
+          "question": "Tính tổng của 50 số lẻ liên tiếp bắt đầu từ 1.",
+          "options": [
+            "2500",
+            "5000",
+            "2550",
+            "5050"
+          ],
+          "answer_index": 0,
+          "answer_text": "2500"
+        },
+        {
+          "id": "M4H01Q04",
+          "question": "Tìm một phân số biết rằng nếu chuyển 5 đơn vị từ mẫu số lên tử số thì ta được phân số bằng 1, còn nếu chuyển 1 đơn vị từ tử số xuống mẫu số thì ta được phân số bằng 1/2.",
+          "options": [
+            "9/19",
+            "13/23",
+            "11/21",
+            "7/17"
+          ],
+          "answer_index": 3,
+          "answer_text": "7/17"
+        },
+        {
+          "id": "M4H01Q05",
+          "question": "Có bao nhiêu số có 3 chữ số mà mỗi số đều chia hết cho 3?",
+          "options": [
+            "300 số",
+            "150 số",
+            "299 số",
+            "301 số"
+          ],
+          "answer_index": 0,
+          "answer_text": "300 số"
+        },
+        {
+          "id": "M4H01Q06",
+          "question": "Một cuốn sách có 120 trang. An đọc ngày đầu được 1/3 số trang. Ngày thứ hai đọc được 1/2 số trang còn lại. Hỏi An còn bao nhiêu trang chưa đọc?",
+          "options": [
+            "80 trang",
+            "60 trang",
+            "20 trang",
+            "40 trang"
+          ],
+          "answer_index": 3,
+          "answer_text": "40 trang"
+        },
+        {
+          "id": "M4H01Q07",
+          "question": "Tính giá trị biểu thức: (1 - 1/2) x (1 - 1/3) x (1 - 1/4) x ... x (1 - 1/10)",
+          "options": [
+            "1/2",
+            "9/10",
+            "1/5",
+            "1/10"
+          ],
+          "answer_index": 3,
+          "answer_text": "1/10"
+        },
+        {
+          "id": "M4H01Q08",
+          "question": "Tìm số bé nhất có 4 chữ số khác nhau mà tổng các chữ số của nó bằng 20.",
+          "options": [
+            "1298",
+            "1379",
+            "1289",
+            "1469"
+          ],
+          "answer_index": 2,
+          "answer_text": "1289"
+        },
+        {
+          "id": "M4H01Q09",
+          "question": "Để đánh số trang một cuốn sách từ 1 đến 150, cần dùng bao nhiêu chữ số?",
+          "options": [
+            "342 chữ số",
+            "252 chữ số",
+            "339 chữ số",
+            "300 chữ số"
+          ],
+          "answer_index": 0,
+          "answer_text": "342 chữ số"
+        },
+        {
+          "id": "M4H01Q10",
+          "question": "Cho A = 1/2 + 1/4 + 1/8 + 1/16 + 1/32. Giá trị của A là:",
+          "options": [
+            "1",
+            "15/16",
+            "63/64",
+            "31/32"
+          ],
+          "answer_index": 3,
+          "answer_text": "31/32"
+        }
+      ]
+    },
+    {
+      "id": "MATH4_HARD_02",
+      "name": "Chủ đề 2: Giải toán có lời văn (Nâng cao)",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M4H02Q01",
+          "question": "Tuổi của An hiện nay bằng 1/4 tuổi của bố. 5 năm nữa, tổng số tuổi của hai bố con là 55 tuổi. Hỏi hiện nay An bao nhiêu tuổi?",
+          "options": [
+            "8 tuổi",
+            "9 tuổi",
+            "11 tuổi",
+            "10 tuổi"
+          ],
+          "answer_index": 1,
+          "answer_text": "9 tuổi"
+        },
+        {
+          "id": "M4H02Q02",
+          "question": "Tìm hai số có tổng là 2015, biết rằng nếu giữ nguyên số lớn và gấp số bé lên 4 lần thì ta được tổng mới là 3434.",
+          "options": [
+            "Số bé: 470, Số lớn: 1545",
+            "Số bé: 480, Số lớn: 1535",
+            "Số bé: 463, Số lớn: 1552",
+            "Số bé: 473, Số lớn: 1542"
+          ],
+          "answer_index": 3,
+          "answer_text": "Số bé: 473, Số lớn: 1542"
+        },
+        {
+          "id": "M4H02Q03",
+          "question": "Một người bán cam, lần đầu bán được 1/3 số cam. Lần thứ hai bán được 3/5 số cam còn lại. Sau hai lần bán, người đó còn lại 40 quả. Hỏi lúc đầu người đó có bao nhiêu quả cam?",
+          "options": [
+            "120 quả",
+            "150 quả",
+            "180 quả",
+            "200 quả"
+          ],
+          "answer_index": 1,
+          "answer_text": "150 quả"
+        },
+        {
+          "id": "M4H02Q04",
+          "question": "Trung bình cộng của 3 số là 50. Tìm số thứ ba, biết rằng nó bằng trung bình cộng của hai số đầu.",
+          "options": [
+            "75",
+            "50",
+            "25",
+            "100"
+          ],
+          "answer_index": 1,
+          "answer_text": "50"
+        },
+        {
+          "id": "M4H02Q05",
+          "question": "An và Bình có tổng cộng 120 viên bi. Nếu An cho Bình 20 viên thì số bi của hai bạn bằng nhau. Hỏi lúc đầu An có bao nhiêu viên bi?",
+          "options": [
+            "40 viên",
+            "60 viên",
+            "100 viên",
+            "80 viên"
+          ],
+          "answer_index": 3,
+          "answer_text": "80 viên"
+        },
+        {
+          "id": "M4H02Q06",
+          "question": "Có 10 xe tải nhỏ, mỗi xe chở được 25 tạ hàng và 5 xe tải lớn, mỗi xe chở được 45 tạ hàng. Hỏi trung bình mỗi xe chở được bao nhiêu tạ hàng?",
+          "options": [
+            "31.67 tạ",
+            "30 tạ",
+            "32 tạ",
+            "35 tạ"
+          ],
+          "answer_index": 0,
+          "answer_text": "31.67 tạ"
+        },
+        {
+          "id": "M4H02Q07",
+          "question": "Hai kho chứa 450 tấn thóc. Nếu chuyển 30 tấn từ kho A sang kho B thì số thóc ở hai kho bằng nhau. Hỏi ban đầu kho A chứa bao nhiêu tấn thóc?",
+          "options": [
+            "225 tấn",
+            "285 tấn",
+            "195 tấn",
+            "255 tấn"
+          ],
+          "answer_index": 3,
+          "answer_text": "255 tấn"
+        },
+        {
+          "id": "M4H02Q08",
+          "question": "Lớp 4A có 32 học sinh. Hôm nay có 2 bạn nữ nghỉ học nên số bạn nam bằng số bạn nữ. Hỏi lớp 4A có bao nhiêu học sinh nam?",
+          "options": [
+            "14 học sinh",
+            "16 học sinh",
+            "15 học sinh",
+            "17 học sinh"
+          ],
+          "answer_index": 2,
+          "answer_text": "15 học sinh"
+        },
+        {
+          "id": "M4H02Q09",
+          "question": "Một người đi từ A đến B. Nửa quãng đường đầu người đó đi với vận tốc 30 km/giờ, nửa quãng đường sau đi với vận tốc 20 km/giờ. Vận tốc trung bình trên cả quãng đường là:",
+          "options": [
+            "24 km/giờ",
+            "25 km/giờ",
+            "22 km/giờ",
+            "26 km/giờ"
+          ],
+          "answer_index": 0,
+          "answer_text": "24 km/giờ"
+        },
+        {
+          "id": "M4H02Q10",
+          "question": "Hiệu của hai số là 85. Tỉ số của hai số đó là 3/2. Tìm hai số đó.",
+          "options": [
+            "255 và 170",
+            "170 và 85",
+            "250 và 165",
+            "245 và 160"
+          ],
+          "answer_index": 0,
+          "answer_text": "255 và 170"
+        }
+      ]
+    },
+    {
+      "id": "MATH4_HARD_03",
+      "name": "Chủ đề 3: Hình học (Nâng cao)",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M4H03Q01",
+          "question": "Một khu vườn hình chữ nhật có chu vi 240m. Nếu giảm chiều dài đi 10m và tăng chiều rộng thêm 10m thì nó trở thành hình vuông. Tính diện tích khu vườn ban đầu.",
+          "options": [
+            "3400 m²",
+            "3600 m²",
+            "3200 m²",
+            "3500 m²"
+          ],
+          "answer_index": 3,
+          "answer_text": "3500 m²"
+        },
+        {
+          "id": "M4H03Q02",
+          "question": "Một hình chữ nhật có chiều dài gấp 3 lần chiều rộng. Nếu tăng chiều rộng thêm 5m thì diện tích tăng thêm 150m². Tính diện tích hình chữ nhật ban đầu.",
+          "options": [
+            "750 m²",
+            "600 m²",
+            "900 m²",
+            "300 m²"
+          ],
+          "answer_index": 3,
+          "answer_text": "300 m²"
+        },
+        {
+          "id": "M4H03Q03",
+          "question": "Người ta ngăn một khu đất hình chữ nhật thành 2 mảnh, một mảnh hình vuông và một mảnh hình chữ nhật. Chu vi ban đầu hơn chu vi mảnh đất hình vuông là 28m. Diện tích ban đầu hơn diện tích hình vuông là 224m². Tính diện tích ban đầu.",
+          "options": [
+            "672 m²",
+            "392 m²",
+            "448 m²",
+            "224 m²"
+          ],
+          "answer_index": 0,
+          "answer_text": "672 m²"
+        },
+        {
+          "id": "M4H03Q04",
+          "question": "Một hình bình hành có diện tích 432 cm². Độ dài đáy gấp 3 lần chiều cao tương ứng. Tính chiều cao của hình bình hành.",
+          "options": [
+            "12 cm",
+            "9 cm",
+            "36 cm",
+            "18 cm"
+          ],
+          "answer_index": 0,
+          "answer_text": "12 cm"
+        },
+        {
+          "id": "M4H03Q05",
+          "question": "Chu vi một hình chữ nhật bằng 28m. Nếu tăng chiều dài 2m và giảm chiều rộng 1m thì diện tích tăng thêm 5m². Tính diện tích hình chữ nhật ban đầu.",
+          "options": [
+            "40 m²",
+            "48 m²",
+            "45 m²",
+            "50 m²"
+          ],
+          "answer_index": 1,
+          "answer_text": "48 m²"
+        }
+      ]
+    }
+  ]
+}

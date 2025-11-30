@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "grade": 1,
+    "subject": "Tiếng Việt",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "custom",
+    "curriculum": "CTGDPT 2018 – Chuẩn 2025"
+  },
+  "topics": [
+    {
+      "id": "VIE1EC1",
+      "name": "Bài tập tự tạo",
+      "questions": [
+        {
+          "id": "VIE1EC1Q01",
+          "question": "Trong từ 'ba', âm đầu là gì?",
+          "options": [
+            "b",
+            "a",
+            "c",
+            "d"
+          ],
+          "answer_index": 0,
+          "answer_text": "b",
+          "explanation": "Từ 'ba' có âm đầu là 'b'."
+        },
+        {
+          "id": "VIE1EC1Q02",
+          "question": "Vần trong từ 'nhà' là gì?",
+          "options": [
+            "nh",
+            "a",
+            "ha",
+            "nha"
+          ],
+          "answer_index": 1,
+          "answer_text": "a",
+          "explanation": "Từ 'nhà' có vần là 'a'."
+        },
+        {
+          "id": "VIE1EC1Q03",
+          "question": "Chọn từ viết đúng.",
+          "options": [
+            "con trâu",
+            "con châu",
+            "con crau",
+            "con chau"
+          ],
+          "answer_index": 0,
+          "answer_text": "con trâu",
+          "explanation": "Từ 'con trâu' được viết đúng chính tả."
+        }
+      ]
+    }
+  ]
+}
+
+

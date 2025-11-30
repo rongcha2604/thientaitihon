@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "grade": 3,
+    "subject": "Toán",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "medium",
+    "curriculum": "Chân trời sáng tạo"
+  },
+  "topics": [
+    {
+      "id": "MATH3_MEDIUM_01",
+      "name": "Chủ đề 1: Ôn tập và bổ sung",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M3M01Q01",
+          "question": "Số lớn nhất trong các số 879, 978, 789, 987 là:",
+          "options": [
+            "879",
+            "978",
+            "789",
+            "987"
+          ],
+          "answer_index": 3,
+          "answer_text": "987"
+        },
+        {
+          "id": "M3M01Q02",
+          "question": "Bây giờ là 8 giờ. 45 phút nữa là mấy giờ?",
+          "options": [
+            "8 giờ 30 phút",
+            "9 giờ",
+            "8 giờ 45 phút",
+            "9 giờ 15 phút"
+          ],
+          "answer_index": 2,
+          "answer_text": "8 giờ 45 phút"
+        }
+      ]
+    },
+    {
+      "id": "MATH3_MEDIUM_02",
+      "name": "Chủ đề 2: Phép nhân, phép chia",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M3M02Q01",
+          "question": "Một phần ba của 27 là bao nhiêu?",
+          "options": [
+            "3",
+            "6",
+            "9",
+            "12"
+          ],
+          "answer_index": 2,
+          "answer_text": "9"
+        },
+        {
+          "id": "M3M02Q02",
+          "question": "Kết quả của phép chia 47 : 5 là:",
+          "options": [
+            "9 (dư 1)",
+            "8 (dư 7)",
+            "9 (dư 2)",
+            "8 (dư 3)"
+          ],
+          "answer_index": 2,
+          "answer_text": "9 (dư 2)"
+        }
+      ]
+    },
+    {
+      "id": "MATH3_MEDIUM_03",
+      "name": "Chủ đề 3: Các số đến 100 000",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M3M03Q01",
+          "question": "Làm tròn số 8765 đến hàng trăm được số nào?",
+          "options": [
+            "8700",
+            "8800",
+            "8770",
+            "9000"
+          ],
+          "answer_index": 1,
+          "answer_text": "8800"
+        }
+      ]
+    },
+    {
+      "id": "MATH3_MEDIUM_04",
+      "name": "Chủ đề 4: Hình học và Đo lường",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "M3M04Q01",
+          "question": "Tính chu vi hình vuông có cạnh dài 5 cm.",
+          "options": [
+            "10 cm",
+            "15 cm",
+            "20 cm",
+            "25 cm"
+          ],
+          "answer_index": 2,
+          "answer_text": "20 cm"
+        },
+        {
+          "id": "M3M04Q02",
+          "question": "Tính diện tích hình chữ nhật có chiều dài 8m và chiều rộng 4m.",
+          "options": [
+            "12 m²",
+            "24 m²",
+            "32 m²",
+            "36 m²"
+          ],
+          "answer_index": 2,
+          "answer_text": "32 m²"
+        }
+      ]
+    }
+  ]
+}

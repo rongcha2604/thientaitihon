@@ -1,0 +1,1284 @@
+{
+  "meta": {
+    "grade": 3,
+    "subject": "English",
+    "language": "en",
+    "created_date": "2025-11-04",
+    "level": "medium",
+    "curriculum": "Generated based on common Grade 3 topics (CTGDPT 2018)"
+  },
+  "topics": [
+    {
+      "id": "ENG3_MEDIUM_ALL",
+      "name": "General English Practice",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "ENG3MG001",
+          "question": "It is __ apple.",
+          "options": [
+            "the",
+            "an",
+            "a"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "This question tests 'article a an'."
+        },
+        {
+          "id": "ENG3MG002",
+          "question": "She ___ apples.",
+          "options": [
+            "likes",
+            "like",
+            "liking"
+          ],
+          "answer_index": 0,
+          "answer_text": "likes",
+          "explanation": "This question tests 'present simple verb'."
+        },
+        {
+          "id": "ENG3MV003",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "pencil",
+            "six",
+            "draw",
+            "eye"
+          ],
+          "answer_index": 3,
+          "answer_text": "eye",
+          "explanation": "'eye' is a body parts."
+        },
+        {
+          "id": "ENG3MG004",
+          "question": "I __ a student.",
+          "options": [
+            "is",
+            "are",
+            "be",
+            "am"
+          ],
+          "answer_index": 3,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MV005",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "robot",
+            "house",
+            "rice",
+            "black"
+          ],
+          "answer_index": 0,
+          "answer_text": "robot",
+          "explanation": "'robot' is a toys."
+        },
+        {
+          "id": "ENG3MV006",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "grandma",
+            "sing",
+            "water",
+            "doll"
+          ],
+          "answer_index": 3,
+          "answer_text": "doll",
+          "explanation": "'doll' is a toys."
+        },
+        {
+          "id": "ENG3MV007",
+          "question": "Which one is a 'family'?",
+          "options": [
+            "ruler",
+            "ten",
+            "mother",
+            "jump"
+          ],
+          "answer_index": 2,
+          "answer_text": "mother",
+          "explanation": "'mother' is a family."
+        },
+        {
+          "id": "ENG3MV008",
+          "question": "Which one is a 'family'?",
+          "options": [
+            "teddy bear",
+            "grandpa",
+            "five",
+            "pencil"
+          ],
+          "answer_index": 1,
+          "answer_text": "grandpa",
+          "explanation": "'grandpa' is a family."
+        },
+        {
+          "id": "ENG3MV009",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "two",
+            "zoo",
+            "happy",
+            "eye"
+          ],
+          "answer_index": 3,
+          "answer_text": "eye",
+          "explanation": "'eye' is a body parts."
+        },
+        {
+          "id": "ENG3MV010",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "pencil",
+            "cat",
+            "car",
+            "one"
+          ],
+          "answer_index": 2,
+          "answer_text": "car",
+          "explanation": "'car' is a toys."
+        },
+        {
+          "id": "ENG3MG011",
+          "question": "I __ a student.",
+          "options": [
+            "be",
+            "are",
+            "am",
+            "is"
+          ],
+          "answer_index": 2,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MG012",
+          "question": "I __ a student.",
+          "options": [
+            "be",
+            "is",
+            "are",
+            "am"
+          ],
+          "answer_index": 3,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MG013",
+          "question": "It is __ apple.",
+          "options": [
+            "an",
+            "a",
+            "the"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "This question tests 'article a an'."
+        },
+        {
+          "id": "ENG3MG014",
+          "question": "I __ a student.",
+          "options": [
+            "is",
+            "are",
+            "be",
+            "am"
+          ],
+          "answer_index": 3,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MV015",
+          "question": "Which one is a 'food drinks'?",
+          "options": [
+            "cake",
+            "fish",
+            "two",
+            "car"
+          ],
+          "answer_index": 0,
+          "answer_text": "cake",
+          "explanation": "'cake' is a food drinks."
+        },
+        {
+          "id": "ENG3MV016",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "robot",
+            "two",
+            "four",
+            "teddy bear"
+          ],
+          "answer_index": 3,
+          "answer_text": "teddy bear",
+          "explanation": "'teddy bear' is a toys."
+        },
+        {
+          "id": "ENG3MG017",
+          "question": "She ___ apples.",
+          "options": [
+            "like",
+            "liking",
+            "likes"
+          ],
+          "answer_index": 2,
+          "answer_text": "likes",
+          "explanation": "This question tests 'present simple verb'."
+        },
+        {
+          "id": "ENG3MG018",
+          "question": "She ___ apples.",
+          "options": [
+            "likes",
+            "liking",
+            "like"
+          ],
+          "answer_index": 0,
+          "answer_text": "likes",
+          "explanation": "This question tests 'present simple verb'."
+        },
+        {
+          "id": "ENG3MG019",
+          "question": "I __ a student.",
+          "options": [
+            "be",
+            "are",
+            "is",
+            "am"
+          ],
+          "answer_index": 3,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MG020",
+          "question": "She ___ apples.",
+          "options": [
+            "liking",
+            "likes",
+            "like"
+          ],
+          "answer_index": 1,
+          "answer_text": "likes",
+          "explanation": "This question tests 'present simple verb'."
+        },
+        {
+          "id": "ENG3MG021",
+          "question": "The cat is __ the box.",
+          "options": [
+            "in",
+            "at",
+            "on"
+          ],
+          "answer_index": 0,
+          "answer_text": "in",
+          "explanation": "This question tests 'preposition in on'."
+        },
+        {
+          "id": "ENG3MG022",
+          "question": "I __ a student.",
+          "options": [
+            "is",
+            "am",
+            "be",
+            "are"
+          ],
+          "answer_index": 1,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MV023",
+          "question": "Which one is a 'food drinks'?",
+          "options": [
+            "rainy",
+            "fish",
+            "ruler",
+            "cake"
+          ],
+          "answer_index": 3,
+          "answer_text": "cake",
+          "explanation": "'cake' is a food drinks."
+        },
+        {
+          "id": "ENG3MG024",
+          "question": "The cat is __ the box.",
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "answer_index": 0,
+          "answer_text": "in",
+          "explanation": "This question tests 'preposition in on'."
+        },
+        {
+          "id": "ENG3MV025",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "windy",
+            "sister",
+            "sad",
+            "robot"
+          ],
+          "answer_index": 3,
+          "answer_text": "robot",
+          "explanation": "'robot' is a toys."
+        },
+        {
+          "id": "ENG3MV026",
+          "question": "Which one is a 'family'?",
+          "options": [
+            "grandma",
+            "five",
+            "cloudy",
+            "grandpa"
+          ],
+          "answer_index": 0,
+          "answer_text": "grandma",
+          "explanation": "'grandma' is a family."
+        },
+        {
+          "id": "ENG3MV027",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "foot",
+            "old",
+            "milk",
+            "two"
+          ],
+          "answer_index": 0,
+          "answer_text": "foot",
+          "explanation": "'foot' is a body parts."
+        },
+        {
+          "id": "ENG3MG028",
+          "question": "I __ a student.",
+          "options": [
+            "be",
+            "am",
+            "is",
+            "are"
+          ],
+          "answer_index": 1,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MV029",
+          "question": "Which one is a 'food drinks'?",
+          "options": [
+            "water",
+            "ten",
+            "sister",
+            "rice"
+          ],
+          "answer_index": 0,
+          "answer_text": "water",
+          "explanation": "'water' is a food drinks."
+        },
+        {
+          "id": "ENG3MG030",
+          "question": "It is __ apple.",
+          "options": [
+            "an",
+            "the",
+            "a"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "This question tests 'article a an'."
+        },
+        {
+          "id": "ENG3MG031",
+          "question": "I __ a student.",
+          "options": [
+            "am",
+            "are",
+            "is",
+            "be"
+          ],
+          "answer_index": 0,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MG032",
+          "question": "It is __ apple.",
+          "options": [
+            "an",
+            "the",
+            "a"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "This question tests 'article a an'."
+        },
+        {
+          "id": "ENG3MG033",
+          "question": "It is __ apple.",
+          "options": [
+            "the",
+            "a",
+            "an"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "This question tests 'article a an'."
+        },
+        {
+          "id": "ENG3MV034",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "pen",
+            "nose",
+            "duck",
+            "eight"
+          ],
+          "answer_index": 1,
+          "answer_text": "nose",
+          "explanation": "'nose' is a body parts."
+        },
+        {
+          "id": "ENG3MG035",
+          "question": "I __ a student.",
+          "options": [
+            "is",
+            "be",
+            "am",
+            "are"
+          ],
+          "answer_index": 2,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MG036",
+          "question": "The cat is __ the box.",
+          "options": [
+            "on",
+            "in",
+            "at"
+          ],
+          "answer_index": 1,
+          "answer_text": "in",
+          "explanation": "This question tests 'preposition in on'."
+        },
+        {
+          "id": "ENG3MG037",
+          "question": "It is __ apple.",
+          "options": [
+            "a",
+            "an",
+            "the"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "This question tests 'article a an'."
+        },
+        {
+          "id": "ENG3MV038",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "head",
+            "ball",
+            "robot",
+            "blue"
+          ],
+          "answer_index": 0,
+          "answer_text": "head",
+          "explanation": "'head' is a body parts."
+        },
+        {
+          "id": "ENG3MV039",
+          "question": "Which one is a 'family'?",
+          "options": [
+            "three",
+            "young",
+            "brother",
+            "read"
+          ],
+          "answer_index": 2,
+          "answer_text": "brother",
+          "explanation": "'brother' is a family."
+        },
+        {
+          "id": "ENG3MV040",
+          "question": "Which one is a 'food drinks'?",
+          "options": [
+            "grandpa",
+            "old",
+            "rice",
+            "brother"
+          ],
+          "answer_index": 2,
+          "answer_text": "rice",
+          "explanation": "'rice' is a food drinks."
+        },
+        {
+          "id": "ENG3MV041",
+          "question": "Which one is a 'food drinks'?",
+          "options": [
+            "cake",
+            "eraser",
+            "cat",
+            "three"
+          ],
+          "answer_index": 0,
+          "answer_text": "cake",
+          "explanation": "'cake' is a food drinks."
+        },
+        {
+          "id": "ENG3MV042",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "teddy bear",
+            "arm",
+            "windy",
+            "ten"
+          ],
+          "answer_index": 0,
+          "answer_text": "teddy bear",
+          "explanation": "'teddy bear' is a toys."
+        },
+        {
+          "id": "ENG3MG043",
+          "question": "The cat is __ the box.",
+          "options": [
+            "on",
+            "in",
+            "at"
+          ],
+          "answer_index": 1,
+          "answer_text": "in",
+          "explanation": "This question tests 'preposition in on'."
+        },
+        {
+          "id": "ENG3MG044",
+          "question": "I __ a student.",
+          "options": [
+            "are",
+            "is",
+            "be",
+            "am"
+          ],
+          "answer_index": 3,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MV045",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "fish",
+            "park",
+            "hand",
+            "father"
+          ],
+          "answer_index": 2,
+          "answer_text": "hand",
+          "explanation": "'hand' is a body parts."
+        },
+        {
+          "id": "ENG3MV046",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "hand",
+            "leg",
+            "draw",
+            "run"
+          ],
+          "answer_index": 1,
+          "answer_text": "leg",
+          "explanation": "'leg' is a body parts."
+        },
+        {
+          "id": "ENG3MV047",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "arm",
+            "leg",
+            "rice",
+            "rainy"
+          ],
+          "answer_index": 1,
+          "answer_text": "leg",
+          "explanation": "'leg' is a body parts."
+        },
+        {
+          "id": "ENG3MG048",
+          "question": "The cat is __ the box.",
+          "options": [
+            "at",
+            "in",
+            "on"
+          ],
+          "answer_index": 1,
+          "answer_text": "in",
+          "explanation": "This question tests 'preposition in on'."
+        },
+        {
+          "id": "ENG3MV049",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "brother",
+            "ball",
+            "yellow",
+            "one"
+          ],
+          "answer_index": 1,
+          "answer_text": "ball",
+          "explanation": "'ball' is a toys."
+        },
+        {
+          "id": "ENG3MV050",
+          "question": "Which one is a 'family'?",
+          "options": [
+            "leg",
+            "jump",
+            "grandma",
+            "hand"
+          ],
+          "answer_index": 2,
+          "answer_text": "grandma",
+          "explanation": "'grandma' is a family."
+        },
+        {
+          "id": "ENG3MG051",
+          "question": "I __ a student.",
+          "options": [
+            "are",
+            "be",
+            "am",
+            "is"
+          ],
+          "answer_index": 2,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MV052",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "fish",
+            "two",
+            "teddy bear",
+            "bird"
+          ],
+          "answer_index": 2,
+          "answer_text": "teddy bear",
+          "explanation": "'teddy bear' is a toys."
+        },
+        {
+          "id": "ENG3MV053",
+          "question": "Which one is a 'family'?",
+          "options": [
+            "grandpa",
+            "rice",
+            "four",
+            "bird"
+          ],
+          "answer_index": 0,
+          "answer_text": "grandpa",
+          "explanation": "'grandpa' is a family."
+        },
+        {
+          "id": "ENG3MV054",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "sing",
+            "foot",
+            "hand",
+            "leg"
+          ],
+          "answer_index": 1,
+          "answer_text": "foot",
+          "explanation": "'foot' is a body parts."
+        },
+        {
+          "id": "ENG3MV055",
+          "question": "Which one is a 'family'?",
+          "options": [
+            "grandma",
+            "one",
+            "robot",
+            "school"
+          ],
+          "answer_index": 0,
+          "answer_text": "grandma",
+          "explanation": "'grandma' is a family."
+        },
+        {
+          "id": "ENG3MG056",
+          "question": "The cat is __ the box.",
+          "options": [
+            "at",
+            "in",
+            "on"
+          ],
+          "answer_index": 1,
+          "answer_text": "in",
+          "explanation": "This question tests 'preposition in on'."
+        },
+        {
+          "id": "ENG3MG057",
+          "question": "The cat is __ the box.",
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "answer_index": 0,
+          "answer_text": "in",
+          "explanation": "This question tests 'preposition in on'."
+        },
+        {
+          "id": "ENG3MG058",
+          "question": "The cat is __ the box.",
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "answer_index": 0,
+          "answer_text": "in",
+          "explanation": "This question tests 'preposition in on'."
+        },
+        {
+          "id": "ENG3MV059",
+          "question": "Which one is a 'family'?",
+          "options": [
+            "mother",
+            "grandpa",
+            "sing",
+            "young"
+          ],
+          "answer_index": 0,
+          "answer_text": "mother",
+          "explanation": "'mother' is a family."
+        },
+        {
+          "id": "ENG3MV060",
+          "question": "Which one is a 'family'?",
+          "options": [
+            "grandpa",
+            "hand",
+            "water",
+            "ten"
+          ],
+          "answer_index": 0,
+          "answer_text": "grandpa",
+          "explanation": "'grandpa' is a family."
+        },
+        {
+          "id": "ENG3MG061",
+          "question": "It is __ apple.",
+          "options": [
+            "the",
+            "a",
+            "an"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "This question tests 'article a an'."
+        },
+        {
+          "id": "ENG3MG062",
+          "question": "She ___ apples.",
+          "options": [
+            "liking",
+            "like",
+            "likes"
+          ],
+          "answer_index": 2,
+          "answer_text": "likes",
+          "explanation": "This question tests 'present simple verb'."
+        },
+        {
+          "id": "ENG3MG063",
+          "question": "It is __ apple.",
+          "options": [
+            "a",
+            "an",
+            "the"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "This question tests 'article a an'."
+        },
+        {
+          "id": "ENG3MV064",
+          "question": "Which one is a 'food drinks'?",
+          "options": [
+            "eight",
+            "leg",
+            "banana",
+            "cloudy"
+          ],
+          "answer_index": 2,
+          "answer_text": "banana",
+          "explanation": "'banana' is a food drinks."
+        },
+        {
+          "id": "ENG3MG065",
+          "question": "I __ a student.",
+          "options": [
+            "is",
+            "be",
+            "are",
+            "am"
+          ],
+          "answer_index": 3,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MV066",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "white",
+            "teddy bear",
+            "eraser",
+            "water"
+          ],
+          "answer_index": 1,
+          "answer_text": "teddy bear",
+          "explanation": "'teddy bear' is a toys."
+        },
+        {
+          "id": "ENG3MV067",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "mother",
+            "doll",
+            "hand",
+            "sad"
+          ],
+          "answer_index": 1,
+          "answer_text": "doll",
+          "explanation": "'doll' is a toys."
+        },
+        {
+          "id": "ENG3MG068",
+          "question": "She ___ apples.",
+          "options": [
+            "like",
+            "likes",
+            "liking"
+          ],
+          "answer_index": 1,
+          "answer_text": "likes",
+          "explanation": "This question tests 'present simple verb'."
+        },
+        {
+          "id": "ENG3MV069",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "jump",
+            "nose",
+            "doll",
+            "car"
+          ],
+          "answer_index": 3,
+          "answer_text": "car",
+          "explanation": "'car' is a toys."
+        },
+        {
+          "id": "ENG3MV070",
+          "question": "Which one is a 'family'?",
+          "options": [
+            "father",
+            "brother",
+            "cat",
+            "swim"
+          ],
+          "answer_index": 1,
+          "answer_text": "brother",
+          "explanation": "'brother' is a family."
+        },
+        {
+          "id": "ENG3MG071",
+          "question": "I __ a student.",
+          "options": [
+            "is",
+            "are",
+            "be",
+            "am"
+          ],
+          "answer_index": 3,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MG072",
+          "question": "The cat is __ the box.",
+          "options": [
+            "on",
+            "at",
+            "in"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "This question tests 'preposition in on'."
+        },
+        {
+          "id": "ENG3MV073",
+          "question": "Which one is a 'family'?",
+          "options": [
+            "head",
+            "arm",
+            "mother",
+            "old"
+          ],
+          "answer_index": 2,
+          "answer_text": "mother",
+          "explanation": "'mother' is a family."
+        },
+        {
+          "id": "ENG3MG074",
+          "question": "I __ a student.",
+          "options": [
+            "be",
+            "am",
+            "are",
+            "is"
+          ],
+          "answer_index": 1,
+          "answer_text": "am",
+          "explanation": "This question tests 'present simple be'."
+        },
+        {
+          "id": "ENG3MG075",
+          "question": "She ___ apples.",
+          "options": [
+            "likes",
+            "like",
+            "liking"
+          ],
+          "answer_index": 0,
+          "answer_text": "likes",
+          "explanation": "This question tests 'present simple verb'."
+        },
+        {
+          "id": "ENG3MG076",
+          "question": "It is __ apple.",
+          "options": [
+            "a",
+            "an",
+            "the"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "This question tests 'article a an'."
+        },
+        {
+          "id": "ENG3MV077",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "car",
+            "pencil",
+            "doll",
+            "grandma"
+          ],
+          "answer_index": 2,
+          "answer_text": "doll",
+          "explanation": "'doll' is a toys."
+        },
+        {
+          "id": "ENG3MG078",
+          "question": "She ___ apples.",
+          "options": [
+            "like",
+            "likes",
+            "liking"
+          ],
+          "answer_index": 1,
+          "answer_text": "likes",
+          "explanation": "This question tests 'present simple verb'."
+        },
+        {
+          "id": "ENG3MV079",
+          "question": "Which one is a 'food drinks'?",
+          "options": [
+            "cake",
+            "brother",
+            "write",
+            "teddy bear"
+          ],
+          "answer_index": 0,
+          "answer_text": "cake",
+          "explanation": "'cake' is a food drinks."
+        },
+        {
+          "id": "ENG3MV080",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "hand",
+            "water",
+            "windy",
+            "car"
+          ],
+          "answer_index": 3,
+          "answer_text": "car",
+          "explanation": "'car' is a toys."
+        },
+        {
+          "id": "ENG3MG081",
+          "question": "The cat is __ the box.",
+          "options": [
+            "at",
+            "on",
+            "in"
+          ],
+          "answer_index": 2,
+          "answer_text": "in",
+          "explanation": "This question tests 'preposition in on'."
+        },
+        {
+          "id": "ENG3MV082",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "cake",
+            "grandpa",
+            "robot",
+            "cloudy"
+          ],
+          "answer_index": 2,
+          "answer_text": "robot",
+          "explanation": "'robot' is a toys."
+        },
+        {
+          "id": "ENG3MG083",
+          "question": "The cat is __ the box.",
+          "options": [
+            "at",
+            "in",
+            "on"
+          ],
+          "answer_index": 1,
+          "answer_text": "in",
+          "explanation": "This question tests 'preposition in on'."
+        },
+        {
+          "id": "ENG3MG084",
+          "question": "It is __ apple.",
+          "options": [
+            "a",
+            "an",
+            "the"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "This question tests 'article a an'."
+        },
+        {
+          "id": "ENG3MV085",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "doll",
+            "eight",
+            "draw",
+            "teddy bear"
+          ],
+          "answer_index": 0,
+          "answer_text": "doll",
+          "explanation": "'doll' is a toys."
+        },
+        {
+          "id": "ENG3MG086",
+          "question": "It is __ apple.",
+          "options": [
+            "a",
+            "an",
+            "the"
+          ],
+          "answer_index": 1,
+          "answer_text": "an",
+          "explanation": "This question tests 'article a an'."
+        },
+        {
+          "id": "ENG3MG087",
+          "question": "The cat is __ the box.",
+          "options": [
+            "in",
+            "at",
+            "on"
+          ],
+          "answer_index": 0,
+          "answer_text": "in",
+          "explanation": "This question tests 'preposition in on'."
+        },
+        {
+          "id": "ENG3MV088",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "eye",
+            "cake",
+            "green",
+            "father"
+          ],
+          "answer_index": 0,
+          "answer_text": "eye",
+          "explanation": "'eye' is a body parts."
+        },
+        {
+          "id": "ENG3MV089",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "arm",
+            "draw",
+            "school",
+            "pencil"
+          ],
+          "answer_index": 0,
+          "answer_text": "arm",
+          "explanation": "'arm' is a body parts."
+        },
+        {
+          "id": "ENG3MG090",
+          "question": "It is __ apple.",
+          "options": [
+            "a",
+            "the",
+            "an"
+          ],
+          "answer_index": 2,
+          "answer_text": "an",
+          "explanation": "This question tests 'article a an'."
+        },
+        {
+          "id": "ENG3MV091",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "run",
+            "swim",
+            "doll",
+            "teddy bear"
+          ],
+          "answer_index": 2,
+          "answer_text": "doll",
+          "explanation": "'doll' is a toys."
+        },
+        {
+          "id": "ENG3MV092",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "ten",
+            "school",
+            "robot",
+            "three"
+          ],
+          "answer_index": 2,
+          "answer_text": "robot",
+          "explanation": "'robot' is a toys."
+        },
+        {
+          "id": "ENG3MV093",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "head",
+            "read",
+            "green",
+            "nine"
+          ],
+          "answer_index": 0,
+          "answer_text": "head",
+          "explanation": "'head' is a body parts."
+        },
+        {
+          "id": "ENG3MG094",
+          "question": "It is __ apple.",
+          "options": [
+            "an",
+            "the",
+            "a"
+          ],
+          "answer_index": 0,
+          "answer_text": "an",
+          "explanation": "This question tests 'article a an'."
+        },
+        {
+          "id": "ENG3MG095",
+          "question": "She ___ apples.",
+          "options": [
+            "likes",
+            "liking",
+            "like"
+          ],
+          "answer_index": 0,
+          "answer_text": "likes",
+          "explanation": "This question tests 'present simple verb'."
+        },
+        {
+          "id": "ENG3MV096",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "eye",
+            "robot",
+            "young",
+            "leg"
+          ],
+          "answer_index": 0,
+          "answer_text": "eye",
+          "explanation": "'eye' is a body parts."
+        },
+        {
+          "id": "ENG3MV097",
+          "question": "Which one is a 'body parts'?",
+          "options": [
+            "read",
+            "ball",
+            "milk",
+            "foot"
+          ],
+          "answer_index": 3,
+          "answer_text": "foot",
+          "explanation": "'foot' is a body parts."
+        },
+        {
+          "id": "ENG3MV098",
+          "question": "Which one is a 'toys'?",
+          "options": [
+            "grandpa",
+            "yellow",
+            "arm",
+            "robot"
+          ],
+          "answer_index": 3,
+          "answer_text": "robot",
+          "explanation": "'robot' is a toys."
+        },
+        {
+          "id": "ENG3MV099",
+          "question": "Which one is a 'food drinks'?",
+          "options": [
+            "four",
+            "doll",
+            "small",
+            "apple"
+          ],
+          "answer_index": 3,
+          "answer_text": "apple",
+          "explanation": "'apple' is a food drinks."
+        },
+        {
+          "id": "ENG3MG100",
+          "question": "She ___ apples.",
+          "options": [
+            "likes",
+            "like",
+            "liking"
+          ],
+          "answer_index": 0,
+          "answer_text": "likes",
+          "explanation": "This question tests 'present simple verb'."
+        }
+      ]
+    }
+  ]
+}

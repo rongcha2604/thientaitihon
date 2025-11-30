@@ -1,0 +1,400 @@
+{
+  "meta": {
+    "grade": 3,
+    "subject": "Tiếng Việt",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "easy",
+    "curriculum": "Chân trời sáng tạo"
+  },
+  "topics": [
+    {
+      "id": "VIE3_EASY_01",
+      "name": "Chủ đề 1: Mái trường mến yêu",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V3E01Q01",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "sân chường",
+            "sân trường",
+            "sân trừng",
+            "sân trương"
+          ],
+          "answer_index": 1,
+          "answer_text": "sân trường"
+        },
+        {
+          "id": "V3E01Q02",
+          "question": "Điền vào chỗ trống: 'Cô giáo đang ... bài.'",
+          "options": [
+            "giảng",
+            "hát",
+            "múa",
+            "chạy"
+          ],
+          "answer_index": 0,
+          "answer_text": "giảng"
+        },
+        {
+          "id": "V3E01Q03",
+          "question": "Trong câu 'Ngôi trường của em rất đẹp.', từ chỉ đặc điểm là:",
+          "options": [
+            "ngôi trường",
+            "của em",
+            "rất",
+            "đẹp"
+          ],
+          "answer_index": 3,
+          "answer_text": "đẹp"
+        },
+        {
+          "id": "V3E01Q04",
+          "question": "Từ nào sau đây là từ chỉ hoạt động?",
+          "options": [
+            "cây bút",
+            "quyển vở",
+            "đọc sách",
+            "xinh đẹp"
+          ],
+          "answer_index": 2,
+          "answer_text": "đọc sách"
+        }
+      ]
+    },
+    {
+      "id": "VIE3_EASY_02",
+      "name": "Chủ đề 3: Bạn bè của em",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V3E02Q01",
+          "question": "Từ nào sau đây chỉ đức tính tốt của người bạn?",
+          "options": [
+            "đoàn kết",
+            "ghen tị",
+            "ích kỷ",
+            "lười biếng"
+          ],
+          "answer_index": 0,
+          "answer_text": "đoàn kết"
+        },
+        {
+          "id": "V3E02Q02",
+          "question": "Câu 'Chúng em cùng nhau học nhóm.' thuộc kiểu câu nào?",
+          "options": [
+            "Câu hỏi",
+            "Câu kể",
+            "Câu cảm",
+            "Câu khiến"
+          ],
+          "answer_index": 1,
+          "answer_text": "Câu kể"
+        },
+        {
+          "id": "V3E02Q03",
+          "question": "Từ 'thân thiết' đồng nghĩa với từ nào?",
+          "options": [
+            "xa lạ",
+            "gần gũi",
+            "căm ghét",
+            "bình thường"
+          ],
+          "answer_index": 1,
+          "answer_text": "gần gũi"
+        }
+      ]
+    },
+    {
+      "id": "VIE3_EASY_03",
+      "name": "Chủ đề 5: Những miền quê yêu dấu",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V3E03Q01",
+          "question": "Từ nào chỉ cảnh vật ở miền quê?",
+          "options": [
+            "nhà cao tầng",
+            "cánh đồng",
+            "siêu thị",
+            "đèn giao thông"
+          ],
+          "answer_index": 1,
+          "answer_text": "cánh đồng"
+        },
+        {
+          "id": "V3E03Q02",
+          "question": "Trong câu 'Dòng sông quê em trong xanh.', từ chỉ màu sắc là:",
+          "options": [
+            "dòng sông",
+            "quê em",
+            "trong",
+            "xanh"
+          ],
+          "answer_index": 3,
+          "answer_text": "xanh"
+        },
+        {
+          "id": "V3E03Q03",
+          "question": "Từ nào không phải là từ chỉ con vật ở nông thôn?",
+          "options": [
+            "con trâu",
+            "con gà",
+            "con cá sấu",
+            "con chó"
+          ],
+          "answer_index": 2,
+          "answer_text": "con cá sấu"
+        }
+      ]
+    },
+    {
+      "id": "VIE3_EASY_04",
+      "name": "Chủ đề 6: Bài ca Trái Đất",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V3E04Q01",
+          "question": "Hành động nào góp phần bảo vệ môi trường?",
+          "options": [
+            "vứt rác bừa bãi",
+            "trồng cây",
+            "bẻ cành cây",
+            "xả nước bẩn"
+          ],
+          "answer_index": 1,
+          "answer_text": "trồng cây"
+        },
+        {
+          "id": "V3E04Q02",
+          "question": "Trái Đất là ... của chúng ta.",
+          "options": [
+            "kẻ thù",
+            "ngôi nhà chung",
+            "đồ chơi",
+            "sân bóng"
+          ],
+          "answer_index": 1,
+          "answer_text": "ngôi nhà chung"
+        },
+        {
+          "id": "V3E04Q03",
+          "question": "Từ trái nghĩa với 'sạch sẽ' là:",
+          "options": [
+            "gọn gàng",
+            "tinh tươm",
+            "ngăn nắp",
+            "bẩn thỉu"
+          ],
+          "answer_index": 3,
+          "answer_text": "bẩn thỉu"
+        }
+      ]
+    },
+    {
+      "id": "VIE3_EASY_05",
+      "name": "Chủ đề 13: Đất nước ngàn năm",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V3E05Q01",
+          "question": "Vua Hùng được xem là vị vua nào của nước ta?",
+          "options": [
+            "Vua cuối cùng",
+            "Tổ tiên, vị vua đầu tiên",
+            "Vua nước láng giềng",
+            "Không phải vua"
+          ],
+          "answer_index": 1,
+          "answer_text": "Tổ tiên, vị vua đầu tiên"
+        },
+        {
+          "id": "V3E05Q02",
+          "question": "Thủ đô Hà Nội có địa danh nổi tiếng nào?",
+          "options": [
+            "Chợ Bến Thành",
+            "Cầu Rồng",
+            "Hồ Gươm",
+            "Bãi biển Mỹ Khê"
+          ],
+          "answer_index": 2,
+          "answer_text": "Hồ Gươm"
+        },
+        {
+          "id": "V3E05Q03",
+          "question": "Quốc khánh của nước Việt Nam là ngày nào?",
+          "options": [
+            "Ngày 30/4",
+            "Ngày 1/5",
+            "Ngày 2/9",
+            "Ngày 1/6"
+          ],
+          "answer_index": 2,
+          "answer_text": "Ngày 2/9"
+        }
+      ]
+    },
+    {
+      "id": "VIE3_EASY_06",
+      "name": "Luyện từ và câu",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V3E06Q01",
+          "question": "Từ nào viết sai chính tả?",
+          "options": [
+            "lịch sự",
+            "cái nón",
+            "dòng sông",
+            "quả trín"
+          ],
+          "answer_index": 3,
+          "answer_text": "quả trín"
+        },
+        {
+          "id": "V3E06Q02",
+          "question": "Chọn từ đúng điền vào chỗ trống: 'Bông hoa này rất ...'",
+          "options": [
+            "thơm",
+            "mặn",
+            "đắng",
+            "chua"
+          ],
+          "answer_index": 0,
+          "answer_text": "thơm"
+        },
+        {
+          "id": "V3E06Q03",
+          "question": "Dấu chấm thường được đặt ở đâu trong câu kể?",
+          "options": [
+            "Giữa câu",
+            "Cuối câu",
+            "Đầu câu",
+            "Bất kỳ đâu"
+          ],
+          "answer_index": 1,
+          "answer_text": "Cuối câu"
+        },
+        {
+          "id": "V3E06Q04",
+          "question": "Từ 'siêng năng' đồng nghĩa với từ nào?",
+          "options": [
+            "lười biếng",
+            "chăm chỉ",
+            "nghịch ngợm",
+            "ham chơi"
+          ],
+          "answer_index": 1,
+          "answer_text": "chăm chỉ"
+        },
+        {
+          "id": "V3E06Q05",
+          "question": "Sắp xếp các từ thành câu: 'rất, Lan, thông minh, bạn'",
+          "options": [
+            "Rất thông minh bạn Lan.",
+            "Bạn Lan rất thông minh.",
+            "Thông minh bạn Lan rất.",
+            "Bạn rất Lan thông minh."
+          ],
+          "answer_index": 1,
+          "answer_text": "Bạn Lan rất thông minh."
+        },
+        {
+          "id": "V3E06Q06",
+          "question": "Từ nào là từ chỉ sự vật?",
+          "options": [
+            "nhanh",
+            "chạy",
+            "cái bàn",
+            "vàng"
+          ],
+          "answer_index": 2,
+          "answer_text": "cái bàn"
+        },
+        {
+          "id": "V3E06Q07",
+          "question": "Câu 'Ai là lớp trưởng của bạn?' là loại câu gì?",
+          "options": [
+            "Câu hỏi",
+            "Câu kể",
+            "Câu cảm",
+            "Câu khiến"
+          ],
+          "answer_index": 0,
+          "answer_text": "Câu hỏi"
+        },
+        {
+          "id": "V3E06Q08",
+          "question": "Từ nào viết đúng: 'con ...eo'?",
+          "options": [
+            "ch",
+            "tr"
+          ],
+          "answer_index": 1,
+          "answer_text": "tr"
+        },
+        {
+          "id": "V3E06Q09",
+          "question": "Từ trái nghĩa với 'yên tĩnh' là:",
+          "options": [
+            "ồn ào",
+            "lặng lẽ",
+            "im ắng",
+            "vắng vẻ"
+          ],
+          "answer_index": 0,
+          "answer_text": "ồn ào"
+        },
+        {
+          "id": "V3E06Q10",
+          "question": "Điền từ: 'Mẹ em ... cơm.'",
+          "options": [
+            "đọc",
+            "nấu",
+            "xem",
+            "nghe"
+          ],
+          "answer_index": 1,
+          "answer_text": "nấu"
+        },
+        {
+          "id": "V3E06Q11",
+          "question": "Từ 'hiền lành' là từ chỉ gì?",
+          "options": [
+            "Chỉ hoạt động",
+            "Chỉ sự vật",
+            "Chỉ đặc điểm",
+            "Chỉ thời gian"
+          ],
+          "answer_index": 2,
+          "answer_text": "Chỉ đặc điểm"
+        },
+        {
+          "id": "V3E06Q12",
+          "question": "Từ nào chỉ một mùa trong năm?",
+          "options": [
+            "mùa hè",
+            "mùa màng",
+            "mùa thi",
+            "mùa gặt"
+          ],
+          "answer_index": 0,
+          "answer_text": "mùa hè"
+        },
+        {
+          "id": "V3E06Q13",
+          "question": "Câu nào sau đây viết hoa đúng?",
+          "options": [
+            "em đi học.",
+            "Em đi học.",
+            "em đi Học.",
+            "Em Đi học."
+          ],
+          "answer_index": 1,
+          "answer_text": "Em đi học."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1319 @@
+{
+  "meta": {
+    "grade": 4,
+    "subject": "English",
+    "language": "en",
+    "created_date": "2025-11-04",
+    "level": "medium",
+    "curriculum": "Generated based on common Grade 4 topics"
+  },
+  "topics": [
+    {
+      "id": "ENG4_MEDIUM_ALL",
+      "name": "General English Practice",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "ENG4MG001",
+          "question": "She ___ to school every day.",
+          "options": [
+            "going",
+            "go",
+            "went",
+            "goes"
+          ],
+          "answer_index": 3,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MV002",
+          "question": "Which word is a type of daily activities?",
+          "options": [
+            "June",
+            "get up",
+            "dog",
+            "ten"
+          ],
+          "answer_index": 1,
+          "answer_text": "get up",
+          "explanation": "'get up' is a daily activities."
+        },
+        {
+          "id": "ENG4MG003",
+          "question": "The book is __ the table.",
+          "options": [
+            "under",
+            "in",
+            "on",
+            "at"
+          ],
+          "answer_index": 2,
+          "answer_text": "on",
+          "explanation": "This question tests the 'preposition_place' grammar point."
+        },
+        {
+          "id": "ENG4MV004",
+          "question": "Which word is a type of places?",
+          "options": [
+            "grandpa",
+            "Science",
+            "May",
+            "bookshop"
+          ],
+          "answer_index": 3,
+          "answer_text": "bookshop",
+          "explanation": "'bookshop' is a places."
+        },
+        {
+          "id": "ENG4MG005",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "climb",
+            "run",
+            "swim",
+            "fly"
+          ],
+          "answer_index": 3,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MV006",
+          "question": "Which word is a type of places?",
+          "options": [
+            "school",
+            "banana",
+            "reading books",
+            "park"
+          ],
+          "answer_index": 0,
+          "answer_text": "school",
+          "explanation": "'school' is a places."
+        },
+        {
+          "id": "ENG4MV007",
+          "question": "Which word is a type of daily activities?",
+          "options": [
+            "three",
+            "father",
+            "October",
+            "go home"
+          ],
+          "answer_index": 3,
+          "answer_text": "go home",
+          "explanation": "'go home' is a daily activities."
+        },
+        {
+          "id": "ENG4MV008",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "Science",
+            "long",
+            "white",
+            "listening to music"
+          ],
+          "answer_index": 0,
+          "answer_text": "Science",
+          "explanation": "'Science' is a subjects."
+        },
+        {
+          "id": "ENG4MG009",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "run",
+            "swim",
+            "fly",
+            "climb"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MG010",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "climb",
+            "swim",
+            "fly",
+            "run"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MV011",
+          "question": "Which word is a type of places?",
+          "options": [
+            "rice",
+            "pen",
+            "May",
+            "park"
+          ],
+          "answer_index": 3,
+          "answer_text": "park",
+          "explanation": "'park' is a places."
+        },
+        {
+          "id": "ENG4MV012",
+          "question": "Which word is a type of jobs?",
+          "options": [
+            "driver",
+            "pink",
+            "eraser",
+            "ruler"
+          ],
+          "answer_index": 0,
+          "answer_text": "driver",
+          "explanation": "'driver' is a jobs."
+        },
+        {
+          "id": "ENG4MV013",
+          "question": "Which word is a type of jobs?",
+          "options": [
+            "monkey",
+            "mother",
+            "teacher",
+            "bird"
+          ],
+          "answer_index": 2,
+          "answer_text": "teacher",
+          "explanation": "'teacher' is a jobs."
+        },
+        {
+          "id": "ENG4MG014",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "run",
+            "climb",
+            "fly",
+            "swim"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MG015",
+          "question": "She ___ to school every day.",
+          "options": [
+            "going",
+            "went",
+            "go",
+            "goes"
+          ],
+          "answer_index": 3,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MG016",
+          "question": "She ___ to school every day.",
+          "options": [
+            "going",
+            "went",
+            "go",
+            "goes"
+          ],
+          "answer_index": 3,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MV017",
+          "question": "Which word is a type of daily activities?",
+          "options": [
+            "February",
+            "ten",
+            "go to bed",
+            "have lunch"
+          ],
+          "answer_index": 2,
+          "answer_text": "go to bed",
+          "explanation": "'go to bed' is a daily activities."
+        },
+        {
+          "id": "ENG4MG018",
+          "question": "She ___ to school every day.",
+          "options": [
+            "go",
+            "goes",
+            "going",
+            "went"
+          ],
+          "answer_index": 1,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MV019",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "Vietnamese",
+            "orange",
+            "May",
+            "watching TV"
+          ],
+          "answer_index": 0,
+          "answer_text": "Vietnamese",
+          "explanation": "'Vietnamese' is a subjects."
+        },
+        {
+          "id": "ENG4MG020",
+          "question": "She ___ to school every day.",
+          "options": [
+            "going",
+            "goes",
+            "went",
+            "go"
+          ],
+          "answer_index": 1,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MG021",
+          "question": "The book is __ the table.",
+          "options": [
+            "at",
+            "in",
+            "on",
+            "under"
+          ],
+          "answer_index": 2,
+          "answer_text": "on",
+          "explanation": "This question tests the 'preposition_place' grammar point."
+        },
+        {
+          "id": "ENG4MV022",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "water",
+            "sister",
+            "Vietnamese",
+            "dog"
+          ],
+          "answer_index": 2,
+          "answer_text": "Vietnamese",
+          "explanation": "'Vietnamese' is a subjects."
+        },
+        {
+          "id": "ENG4MV023",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "old",
+            "English",
+            "three",
+            "orange"
+          ],
+          "answer_index": 1,
+          "answer_text": "English",
+          "explanation": "'English' is a subjects."
+        },
+        {
+          "id": "ENG4MV024",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "one",
+            "four",
+            "Music",
+            "listening to music"
+          ],
+          "answer_index": 2,
+          "answer_text": "Music",
+          "explanation": "'Music' is a subjects."
+        },
+        {
+          "id": "ENG4MV025",
+          "question": "Which word is a type of daily activities?",
+          "options": [
+            "student",
+            "go home",
+            "swimming",
+            "apple"
+          ],
+          "answer_index": 1,
+          "answer_text": "go home",
+          "explanation": "'go home' is a daily activities."
+        },
+        {
+          "id": "ENG4MV026",
+          "question": "Which word is a type of places?",
+          "options": [
+            "school",
+            "banana",
+            "have dinner",
+            "pencil"
+          ],
+          "answer_index": 0,
+          "answer_text": "school",
+          "explanation": "'school' is a places."
+        },
+        {
+          "id": "ENG4MG027",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "swim",
+            "climb",
+            "fly",
+            "run"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MV028",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "English",
+            "driver",
+            "banana",
+            "big"
+          ],
+          "answer_index": 0,
+          "answer_text": "English",
+          "explanation": "'English' is a subjects."
+        },
+        {
+          "id": "ENG4MV029",
+          "question": "Which word is a type of daily activities?",
+          "options": [
+            "January",
+            "banana",
+            "driver",
+            "get up"
+          ],
+          "answer_index": 3,
+          "answer_text": "get up",
+          "explanation": "'get up' is a daily activities."
+        },
+        {
+          "id": "ENG4MG030",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "fly",
+            "climb",
+            "run",
+            "swim"
+          ],
+          "answer_index": 0,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MG031",
+          "question": "The book is __ the table.",
+          "options": [
+            "at",
+            "on",
+            "under",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "on",
+          "explanation": "This question tests the 'preposition_place' grammar point."
+        },
+        {
+          "id": "ENG4MV032",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "one",
+            "English",
+            "Vietnamese",
+            "teacher"
+          ],
+          "answer_index": 2,
+          "answer_text": "Vietnamese",
+          "explanation": "'Vietnamese' is a subjects."
+        },
+        {
+          "id": "ENG4MG033",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "climb",
+            "fly",
+            "run",
+            "swim"
+          ],
+          "answer_index": 1,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MG034",
+          "question": "She ___ to school every day.",
+          "options": [
+            "going",
+            "went",
+            "go",
+            "goes"
+          ],
+          "answer_index": 3,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MV035",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "June",
+            "eraser",
+            "house",
+            "Art"
+          ],
+          "answer_index": 3,
+          "answer_text": "Art",
+          "explanation": "'Art' is a subjects."
+        },
+        {
+          "id": "ENG4MG036",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "climb",
+            "run",
+            "swim",
+            "fly"
+          ],
+          "answer_index": 3,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MG037",
+          "question": "She ___ to school every day.",
+          "options": [
+            "goes",
+            "go",
+            "going",
+            "went"
+          ],
+          "answer_index": 0,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MG038",
+          "question": "The book is __ the table.",
+          "options": [
+            "at",
+            "under",
+            "on",
+            "in"
+          ],
+          "answer_index": 2,
+          "answer_text": "on",
+          "explanation": "This question tests the 'preposition_place' grammar point."
+        },
+        {
+          "id": "ENG4MV039",
+          "question": "Which word is a type of jobs?",
+          "options": [
+            "listening to music",
+            "June",
+            "go to bed",
+            "student"
+          ],
+          "answer_index": 3,
+          "answer_text": "student",
+          "explanation": "'student' is a jobs."
+        },
+        {
+          "id": "ENG4MV040",
+          "question": "Which word is a type of jobs?",
+          "options": [
+            "green",
+            "October",
+            "doctor",
+            "long"
+          ],
+          "answer_index": 2,
+          "answer_text": "doctor",
+          "explanation": "'doctor' is a jobs."
+        },
+        {
+          "id": "ENG4MG041",
+          "question": "The book is __ the table.",
+          "options": [
+            "under",
+            "at",
+            "in",
+            "on"
+          ],
+          "answer_index": 3,
+          "answer_text": "on",
+          "explanation": "This question tests the 'preposition_place' grammar point."
+        },
+        {
+          "id": "ENG4MG042",
+          "question": "She ___ to school every day.",
+          "options": [
+            "goes",
+            "go",
+            "went",
+            "going"
+          ],
+          "answer_index": 0,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MV043",
+          "question": "Which word is a type of places?",
+          "options": [
+            "February",
+            "supermarket",
+            "young",
+            "Music"
+          ],
+          "answer_index": 1,
+          "answer_text": "supermarket",
+          "explanation": "'supermarket' is a places."
+        },
+        {
+          "id": "ENG4MV044",
+          "question": "Which word is a type of daily activities?",
+          "options": [
+            "go home",
+            "Maths",
+            "dog",
+            "one"
+          ],
+          "answer_index": 0,
+          "answer_text": "go home",
+          "explanation": "'go home' is a daily activities."
+        },
+        {
+          "id": "ENG4MV045",
+          "question": "Which word is a type of daily activities?",
+          "options": [
+            "playing football",
+            "listening to music",
+            "go to school",
+            "pen"
+          ],
+          "answer_index": 2,
+          "answer_text": "go to school",
+          "explanation": "'go to school' is a daily activities."
+        },
+        {
+          "id": "ENG4MG046",
+          "question": "She ___ to school every day.",
+          "options": [
+            "goes",
+            "go",
+            "going",
+            "went"
+          ],
+          "answer_index": 0,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MV047",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "September",
+            "Science",
+            "water",
+            "August"
+          ],
+          "answer_index": 1,
+          "answer_text": "Science",
+          "explanation": "'Science' is a subjects."
+        },
+        {
+          "id": "ENG4MG048",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "fly",
+            "run",
+            "swim",
+            "climb"
+          ],
+          "answer_index": 0,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MV049",
+          "question": "Which word is a type of daily activities?",
+          "options": [
+            "grandpa",
+            "get up",
+            "playing football",
+            "six"
+          ],
+          "answer_index": 1,
+          "answer_text": "get up",
+          "explanation": "'get up' is a daily activities."
+        },
+        {
+          "id": "ENG4MV050",
+          "question": "Which word is a type of jobs?",
+          "options": [
+            "student",
+            "March",
+            "beautiful",
+            "pink"
+          ],
+          "answer_index": 0,
+          "answer_text": "student",
+          "explanation": "'student' is a jobs."
+        },
+        {
+          "id": "ENG4MV051",
+          "question": "Which word is a type of jobs?",
+          "options": [
+            "Art",
+            "nurse",
+            "water",
+            "school"
+          ],
+          "answer_index": 1,
+          "answer_text": "nurse",
+          "explanation": "'nurse' is a jobs."
+        },
+        {
+          "id": "ENG4MV052",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "two",
+            "English",
+            "old",
+            "Vietnamese"
+          ],
+          "answer_index": 1,
+          "answer_text": "English",
+          "explanation": "'English' is a subjects."
+        },
+        {
+          "id": "ENG4MG053",
+          "question": "The book is __ the table.",
+          "options": [
+            "under",
+            "on",
+            "at",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "on",
+          "explanation": "This question tests the 'preposition_place' grammar point."
+        },
+        {
+          "id": "ENG4MG054",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "swim",
+            "climb",
+            "fly",
+            "run"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MV055",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "nine",
+            "sister",
+            "go to school",
+            "Science"
+          ],
+          "answer_index": 3,
+          "answer_text": "Science",
+          "explanation": "'Science' is a subjects."
+        },
+        {
+          "id": "ENG4MG056",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "run",
+            "swim",
+            "fly",
+            "climb"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MG057",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "run",
+            "climb",
+            "swim",
+            "fly"
+          ],
+          "answer_index": 3,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MV058",
+          "question": "Which word is a type of places?",
+          "options": [
+            "April",
+            "bookshop",
+            "Maths",
+            "small"
+          ],
+          "answer_index": 1,
+          "answer_text": "bookshop",
+          "explanation": "'bookshop' is a places."
+        },
+        {
+          "id": "ENG4MG059",
+          "question": "She ___ to school every day.",
+          "options": [
+            "goes",
+            "going",
+            "go",
+            "went"
+          ],
+          "answer_index": 0,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MV060",
+          "question": "Which word is a type of jobs?",
+          "options": [
+            "bookshop",
+            "water",
+            "rice",
+            "student"
+          ],
+          "answer_index": 3,
+          "answer_text": "student",
+          "explanation": "'student' is a jobs."
+        },
+        {
+          "id": "ENG4MV061",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "English",
+            "green",
+            "watching TV",
+            "water"
+          ],
+          "answer_index": 0,
+          "answer_text": "English",
+          "explanation": "'English' is a subjects."
+        },
+        {
+          "id": "ENG4MV062",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "father",
+            "Science",
+            "eight",
+            "grandma"
+          ],
+          "answer_index": 1,
+          "answer_text": "Science",
+          "explanation": "'Science' is a subjects."
+        },
+        {
+          "id": "ENG4MV063",
+          "question": "Which word is a type of places?",
+          "options": [
+            "supermarket",
+            "pencil",
+            "bag",
+            "Music"
+          ],
+          "answer_index": 0,
+          "answer_text": "supermarket",
+          "explanation": "'supermarket' is a places."
+        },
+        {
+          "id": "ENG4MV064",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "tall",
+            "Music",
+            "doctor",
+            "English"
+          ],
+          "answer_index": 1,
+          "answer_text": "Music",
+          "explanation": "'Music' is a subjects."
+        },
+        {
+          "id": "ENG4MG065",
+          "question": "The book is __ the table.",
+          "options": [
+            "on",
+            "under",
+            "at",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "on",
+          "explanation": "This question tests the 'preposition_place' grammar point."
+        },
+        {
+          "id": "ENG4MV066",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "July",
+            "pink",
+            "Vietnamese",
+            "big"
+          ],
+          "answer_index": 2,
+          "answer_text": "Vietnamese",
+          "explanation": "'Vietnamese' is a subjects."
+        },
+        {
+          "id": "ENG4MG067",
+          "question": "The book is __ the table.",
+          "options": [
+            "under",
+            "on",
+            "in",
+            "at"
+          ],
+          "answer_index": 1,
+          "answer_text": "on",
+          "explanation": "This question tests the 'preposition_place' grammar point."
+        },
+        {
+          "id": "ENG4MV068",
+          "question": "Which word is a type of daily activities?",
+          "options": [
+            "green",
+            "go to school",
+            "go home",
+            "April"
+          ],
+          "answer_index": 1,
+          "answer_text": "go to school",
+          "explanation": "'go to school' is a daily activities."
+        },
+        {
+          "id": "ENG4MG069",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "climb",
+            "run",
+            "swim",
+            "fly"
+          ],
+          "answer_index": 3,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MG070",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "climb",
+            "swim",
+            "fly",
+            "run"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MG071",
+          "question": "The book is __ the table.",
+          "options": [
+            "on",
+            "at",
+            "in",
+            "under"
+          ],
+          "answer_index": 0,
+          "answer_text": "on",
+          "explanation": "This question tests the 'preposition_place' grammar point."
+        },
+        {
+          "id": "ENG4MG072",
+          "question": "She ___ to school every day.",
+          "options": [
+            "go",
+            "goes",
+            "went",
+            "going"
+          ],
+          "answer_index": 1,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MG073",
+          "question": "She ___ to school every day.",
+          "options": [
+            "go",
+            "goes",
+            "went",
+            "going"
+          ],
+          "answer_index": 1,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MV074",
+          "question": "Which word is a type of places?",
+          "options": [
+            "bag",
+            "zoo",
+            "December",
+            "water"
+          ],
+          "answer_index": 1,
+          "answer_text": "zoo",
+          "explanation": "'zoo' is a places."
+        },
+        {
+          "id": "ENG4MV075",
+          "question": "Which word is a type of daily activities?",
+          "options": [
+            "go home",
+            "December",
+            "new",
+            "singing"
+          ],
+          "answer_index": 0,
+          "answer_text": "go home",
+          "explanation": "'go home' is a daily activities."
+        },
+        {
+          "id": "ENG4MG076",
+          "question": "The book is __ the table.",
+          "options": [
+            "in",
+            "at",
+            "under",
+            "on"
+          ],
+          "answer_index": 3,
+          "answer_text": "on",
+          "explanation": "This question tests the 'preposition_place' grammar point."
+        },
+        {
+          "id": "ENG4MG077",
+          "question": "The book is __ the table.",
+          "options": [
+            "in",
+            "at",
+            "under",
+            "on"
+          ],
+          "answer_index": 3,
+          "answer_text": "on",
+          "explanation": "This question tests the 'preposition_place' grammar point."
+        },
+        {
+          "id": "ENG4MV078",
+          "question": "Which word is a type of places?",
+          "options": [
+            "rice",
+            "house",
+            "bookshop",
+            "go to bed"
+          ],
+          "answer_index": 1,
+          "answer_text": "house",
+          "explanation": "'house' is a places."
+        },
+        {
+          "id": "ENG4MV079",
+          "question": "Which word is a type of daily activities?",
+          "options": [
+            "go to bed",
+            "house",
+            "banana",
+            "English"
+          ],
+          "answer_index": 0,
+          "answer_text": "go to bed",
+          "explanation": "'go to bed' is a daily activities."
+        },
+        {
+          "id": "ENG4MV080",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "black",
+            "bird",
+            "orange",
+            "Maths"
+          ],
+          "answer_index": 3,
+          "answer_text": "Maths",
+          "explanation": "'Maths' is a subjects."
+        },
+        {
+          "id": "ENG4MG081",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "fly",
+            "climb",
+            "swim",
+            "run"
+          ],
+          "answer_index": 0,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MG082",
+          "question": "She ___ to school every day.",
+          "options": [
+            "goes",
+            "going",
+            "go",
+            "went"
+          ],
+          "answer_index": 0,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MG083",
+          "question": "She ___ to school every day.",
+          "options": [
+            "goes",
+            "going",
+            "went",
+            "go"
+          ],
+          "answer_index": 0,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MV084",
+          "question": "Which word is a type of daily activities?",
+          "options": [
+            "March",
+            "green",
+            "book",
+            "have lunch"
+          ],
+          "answer_index": 3,
+          "answer_text": "have lunch",
+          "explanation": "'have lunch' is a daily activities."
+        },
+        {
+          "id": "ENG4MG085",
+          "question": "She ___ to school every day.",
+          "options": [
+            "go",
+            "goes",
+            "going",
+            "went"
+          ],
+          "answer_index": 1,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MV086",
+          "question": "Which word is a type of places?",
+          "options": [
+            "reading books",
+            "school",
+            "January",
+            "July"
+          ],
+          "answer_index": 1,
+          "answer_text": "school",
+          "explanation": "'school' is a places."
+        },
+        {
+          "id": "ENG4MG087",
+          "question": "She ___ to school every day.",
+          "options": [
+            "go",
+            "going",
+            "goes",
+            "went"
+          ],
+          "answer_index": 2,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MV088",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "August",
+            "playing football",
+            "Art",
+            "monkey"
+          ],
+          "answer_index": 2,
+          "answer_text": "Art",
+          "explanation": "'Art' is a subjects."
+        },
+        {
+          "id": "ENG4MV089",
+          "question": "Which word is a type of jobs?",
+          "options": [
+            "go to bed",
+            "pen",
+            "nine",
+            "nurse"
+          ],
+          "answer_index": 3,
+          "answer_text": "nurse",
+          "explanation": "'nurse' is a jobs."
+        },
+        {
+          "id": "ENG4MG090",
+          "question": "She ___ to school every day.",
+          "options": [
+            "going",
+            "goes",
+            "went",
+            "go"
+          ],
+          "answer_index": 1,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MV091",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "Maths",
+            "have lunch",
+            "three",
+            "supermarket"
+          ],
+          "answer_index": 0,
+          "answer_text": "Maths",
+          "explanation": "'Maths' is a subjects."
+        },
+        {
+          "id": "ENG4MV092",
+          "question": "Which word is a type of places?",
+          "options": [
+            "student",
+            "school",
+            "four",
+            "grandma"
+          ],
+          "answer_index": 1,
+          "answer_text": "school",
+          "explanation": "'school' is a places."
+        },
+        {
+          "id": "ENG4MV093",
+          "question": "Which word is a type of places?",
+          "options": [
+            "father",
+            "old",
+            "house",
+            "school"
+          ],
+          "answer_index": 2,
+          "answer_text": "house",
+          "explanation": "'house' is a places."
+        },
+        {
+          "id": "ENG4MV094",
+          "question": "Which word is a type of jobs?",
+          "options": [
+            "small",
+            "singer",
+            "driver",
+            "dog"
+          ],
+          "answer_index": 1,
+          "answer_text": "singer",
+          "explanation": "'singer' is a jobs."
+        },
+        {
+          "id": "ENG4MG095",
+          "question": "She ___ to school every day.",
+          "options": [
+            "go",
+            "went",
+            "goes",
+            "going"
+          ],
+          "answer_index": 2,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        },
+        {
+          "id": "ENG4MG096",
+          "question": "The book is __ the table.",
+          "options": [
+            "under",
+            "in",
+            "at",
+            "on"
+          ],
+          "answer_index": 3,
+          "answer_text": "on",
+          "explanation": "This question tests the 'preposition_place' grammar point."
+        },
+        {
+          "id": "ENG4MG097",
+          "question": "A bird can __, but a fish can't.",
+          "options": [
+            "climb",
+            "swim",
+            "fly",
+            "run"
+          ],
+          "answer_index": 2,
+          "answer_text": "fly",
+          "explanation": "This question tests the 'can_cannot' grammar point."
+        },
+        {
+          "id": "ENG4MV098",
+          "question": "Which word is a type of jobs?",
+          "options": [
+            "banana",
+            "cake",
+            "go to school",
+            "driver"
+          ],
+          "answer_index": 3,
+          "answer_text": "driver",
+          "explanation": "'driver' is a jobs."
+        },
+        {
+          "id": "ENG4MV099",
+          "question": "Which word is a type of subjects?",
+          "options": [
+            "Vietnamese",
+            "long",
+            "singer",
+            "Art"
+          ],
+          "answer_index": 0,
+          "answer_text": "Vietnamese",
+          "explanation": "'Vietnamese' is a subjects."
+        },
+        {
+          "id": "ENG4MG100",
+          "question": "She ___ to school every day.",
+          "options": [
+            "go",
+            "goes",
+            "going",
+            "went"
+          ],
+          "answer_index": 1,
+          "answer_text": "goes",
+          "explanation": "This question tests the 'present_simple' grammar point."
+        }
+      ]
+    }
+  ]
+}

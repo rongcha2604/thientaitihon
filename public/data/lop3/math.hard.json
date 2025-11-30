@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "grade": 3,
+    "subject": "Toán",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "hard",
+    "curriculum": "Chân trời sáng tạo"
+  },
+  "topics": [
+    {
+      "id": "MATH3_HARD_01",
+      "name": "Chủ đề 1: Giải toán có lời văn (1-2 bước)",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M3H01Q01",
+          "question": "Lớp 3A có 35 học sinh, lớp 3B có nhiều hơn lớp 3A 3 học sinh. Hỏi cả hai lớp có bao nhiêu học sinh?",
+          "options": [
+            "73 học sinh",
+            "70 học sinh",
+            "67 học sinh",
+            "76 học sinh"
+          ],
+          "answer_index": 0,
+          "answer_text": "73 học sinh"
+        },
+        {
+          "id": "M3H01Q02",
+          "question": "An mua 2 quyển vở, mỗi quyển giá 7000 đồng. An đưa cô bán hàng 20000 đồng. Hỏi An được trả lại bao nhiêu tiền?",
+          "options": [
+            "5000 đồng",
+            "6000 đồng",
+            "7000 đồng",
+            "8000 đồng"
+          ],
+          "answer_index": 1,
+          "answer_text": "6000 đồng"
+        }
+      ]
+    },
+    {
+      "id": "MATH3_HARD_02",
+      "name": "Chủ đề 2: Bài toán logic và suy luận",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M3H02Q01",
+          "question": "Có 5 thùng dầu, mỗi thùng chứa 20 lít. Người ta đã bán đi 30 lít. Hỏi còn lại bao nhiêu lít dầu?",
+          "options": [
+            "100 lít",
+            "30 lít",
+            "70 lít",
+            "60 lít"
+          ],
+          "answer_index": 2,
+          "answer_text": "70 lít"
+        },
+        {
+          "id": "M3H02Q02",
+          "question": "Một đội công nhân phải sửa một đoạn đường dài 120m. Ngày đầu họ sửa được 1/3 đoạn đường. Hỏi còn lại bao nhiêu mét đường chưa sửa?",
+          "options": [
+            "40 m",
+            "60 m",
+            "80 m",
+            "90 m"
+          ],
+          "answer_index": 2,
+          "answer_text": "80 m"
+        }
+      ]
+    },
+    {
+      "id": "MATH3_HARD_03",
+      "name": "Chủ đề 3: Hình học và Đo lường nâng cao",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "M3H03Q01",
+          "question": "Một mảnh vườn hình chữ nhật có chiều dài 20m, chiều rộng bằng một nửa chiều dài. Tính chu vi mảnh vườn đó.",
+          "options": [
+            "30 m",
+            "40 m",
+            "50 m",
+            "60 m"
+          ],
+          "answer_index": 3,
+          "answer_text": "60 m"
+        }
+      ]
+    }
+  ]
+}

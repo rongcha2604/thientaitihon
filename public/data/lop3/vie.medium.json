@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "grade": 3,
+    "subject": "Tiếng Việt",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "medium",
+    "curriculum": "Chân trời sáng tạo"
+  },
+  "topics": [
+    {
+      "id": "VIE3_MEDIUM_01",
+      "name": "Chủ đề 2: Đi học vui sao",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "V3M01Q01",
+          "question": "Trong câu 'Em đặt sách vào cặp.', bộ phận trả lời câu hỏi 'làm gì?' là:",
+          "options": [
+            "Em",
+            "đặt sách vào cặp",
+            "sách",
+            "vào cặp"
+          ],
+          "answer_index": 1,
+          "answer_text": "đặt sách vào cặp"
+        },
+        {
+          "id": "V3M01Q02",
+          "question": "Từ nào sau đây có chứa tiếng bắt đầu bằng 'tr'?",
+          "options": [
+            "cái chiếu",
+            "bức tranh",
+            "quả chanh",
+            "chú chó"
+          ],
+          "answer_index": 1,
+          "answer_text": "bức tranh"
+        },
+        {
+          "id": "V3M01Q03",
+          "question": "Câu 'Bạn có thể cho mình mượn bút được không?' thuộc kiểu câu gì?",
+          "options": [
+            "Câu kể",
+            "Câu cảm",
+            "Câu hỏi",
+            "Câu cầu khiến"
+          ],
+          "answer_index": 3,
+          "answer_text": "Câu cầu khiến"
+        }
+      ]
+    },
+    {
+      "id": "VIE3_MEDIUM_02",
+      "name": "Chủ đề 4: Cộng đồng gắn bó",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "V3M02Q01",
+          "question": "Dấu phẩy trong câu 'Trong vườn, hoa hồng, hoa huệ, hoa lan đang khoe sắc.' có tác dụng gì?",
+          "options": [
+            "Kết thúc câu",
+            "Ngăn cách trạng ngữ với bộ phận chính của câu và các sự vật được liệt kê",
+            "Thể hiện cảm xúc",
+            "Bắt đầu lời nói nhân vật"
+          ],
+          "answer_index": 1,
+          "answer_text": "Ngăn cách trạng ngữ với bộ phận chính của câu và các sự vật được liệt kê"
+        },
+        {
+          "id": "V3M02Q02",
+          "question": "Từ nào không cùng nhóm với các từ: 'làng xóm, phố phường, thôn bản'?",
+          "options": [
+            "gia đình",
+            "làng xóm",
+            "phố phường",
+            "thôn bản"
+          ],
+          "answer_index": 0,
+          "answer_text": "gia đình"
+        },
+        {
+          "id": "V3M02Q03",
+          "question": "Biện pháp nghệ thuật nào được sử dụng trong câu: 'Ông mặt trời mặc áo giáp đen ra trận'?",
+          "options": [
+            "Nhân hóa",
+            "So sánh",
+            "Điệp từ",
+            "Nói quá"
+          ],
+          "answer_index": 0,
+          "answer_text": "Nhân hóa"
+        }
+      ]
+    },
+    {
+      "id": "VIE3_MEDIUM_03",
+      "name": "Chủ đề 7: Cảnh đẹp quê hương",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "V3M03Q01",
+          "question": "Trong các từ sau, từ nào là từ láy: 'long lanh, dòng sông, cây cối, mặt đất'?",
+          "options": [
+            "dòng sông",
+            "long lanh",
+            "cây cối",
+            "mặt đất"
+          ],
+          "answer_index": 1,
+          "answer_text": "long lanh"
+        },
+        {
+          "id": "V3M03Q02",
+          "question": "Bộ phận gạch chân trong câu 'Cánh đồng lúa chín <u>vàng óng</u>.' trả lời cho câu hỏi nào?",
+          "options": [
+            "Làm gì?",
+            "Là gì?",
+            "Như thế nào?",
+            "Khi nào?"
+          ],
+          "answer_index": 2,
+          "answer_text": "Như thế nào?"
+        },
+        {
+          "id": "V3M03Q03",
+          "question": "Từ 'trong vắt' thường được dùng để miêu tả sự vật nào?",
+          "options": [
+            "Nước suối",
+            "Bầu trời đêm",
+            "Bóng tối",
+            "Đất đai"
+          ],
+          "answer_index": 0,
+          "answer_text": "Nước suối"
+        }
+      ]
+    },
+    {
+      "id": "VIE3_MEDIUM_04",
+      "name": "Chủ đề 9: Những người bạn nhỏ",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "V3M04Q01",
+          "question": "Câu 'Chú chó nhà em rất khôn.' có những từ chỉ đặc điểm nào?",
+          "options": [
+            "chú chó, nhà em",
+            "chú chó, khôn",
+            "rất, khôn",
+            "khôn"
+          ],
+          "answer_index": 3,
+          "answer_text": "khôn"
+        },
+        {
+          "id": "V3M04Q02",
+          "question": "Từ 'trung thành' thường được dùng để nói về đức tính của con vật nào?",
+          "options": [
+            "Con mèo",
+            "Con lợn",
+            "Con chó",
+            "Con gà"
+          ],
+          "answer_index": 2,
+          "answer_text": "Con chó"
+        },
+        {
+          "id": "V3M04Q03",
+          "question": "Sắp xếp các câu sau để tạo thành đoạn văn: (1) Nó có bộ lông màu vàng mượt. (2) Nhà em có nuôi một chú mèo. (3) Em rất yêu quý chú mèo đó.",
+          "options": [
+            "(1)-(2)-(3)",
+            "(3)-(2)-(1)",
+            "(2)-(1)-(3)",
+            "(2)-(3)-(1)"
+          ],
+          "answer_index": 2,
+          "answer_text": "(2)-(1)-(3)"
+        }
+      ]
+    },
+    {
+      "id": "VIE3_MEDIUM_05",
+      "name": "Chủ đề 11: Sáng tạo là niềm vui",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "V3M05Q01",
+          "question": "Nhà bác học Thomas Edison đã phát minh ra cái gì?",
+          "options": [
+            "Điện thoại",
+            "Bóng đèn điện",
+            "Máy bay",
+            "Ô tô"
+          ],
+          "answer_index": 1,
+          "answer_text": "Bóng đèn điện"
+        },
+        {
+          "id": "V3M05Q02",
+          "question": "Từ 'phát minh' thuộc nhóm từ nào?",
+          "options": [
+            "Từ chỉ đặc điểm",
+            "Từ chỉ sự vật",
+            "Từ chỉ hoạt động",
+            "Từ chỉ tình cảm"
+          ],
+          "answer_index": 2,
+          "answer_text": "Từ chỉ hoạt động"
+        },
+        {
+          "id": "V3M05Q03",
+          "question": "Câu 'Sáng tạo mang lại nhiều điều thú vị cho cuộc sống.' khuyên chúng ta điều gì?",
+          "options": [
+            "Nên lười biếng",
+            "Không cần suy nghĩ",
+            "Nên luôn tìm tòi, khám phá cái mới",
+            "Chỉ nên làm theo những gì có sẵn"
+          ],
+          "answer_index": 2,
+          "answer_text": "Nên luôn tìm tòi, khám phá cái mới"
+        }
+      ]
+    },
+    {
+      "id": "VIE3_MEDIUM_06",
+      "name": "Luyện từ và câu (Tổng hợp)",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "V3M06Q01",
+          "question": "Tìm từ có nghĩa trái ngược với 'dũng cảm'.",
+          "options": [
+            "gan dạ",
+            "anh hùng",
+            "can đảm",
+            "nhút nhát"
+          ],
+          "answer_index": 3,
+          "answer_text": "nhút nhát"
+        },
+        {
+          "id": "V3M06Q02",
+          "question": "Dấu hai chấm trong câu 'Bà hỏi: \"Cháu đã ăn cơm chưa?\"' dùng để làm gì?",
+          "options": [
+            "Kết thúc câu",
+            "Báo hiệu lời nói trực tiếp của nhân vật",
+            "Liệt kê",
+            "Ngắt câu"
+          ],
+          "answer_index": 1,
+          "answer_text": "Báo hiệu lời nói trực tiếp của nhân vật"
+        },
+        {
+          "id": "V3M06Q03",
+          "question": "Trong các từ sau, từ nào viết sai chính tả: 'xinh xắn, xao xuyến, sơ xuất, suất sắc'?",
+          "options": [
+            "xinh xắn",
+            "suất sắc",
+            "xao xuyến",
+            "sơ xuất"
+          ],
+          "answer_index": 1,
+          "answer_text": "suất sắc"
+        },
+        {
+          "id": "V3M06Q04",
+          "question": "Câu 'Cây bàng cao và to.' được cấu tạo theo mẫu câu nào?",
+          "options": [
+            "Ai là gì?",
+            "Ai làm gì?",
+            "Ai thế nào?",
+            "Ai ở đâu?"
+          ],
+          "answer_index": 2,
+          "answer_text": "Ai thế nào?"
+        },
+        {
+          "id": "V3M06Q05",
+          "question": "Từ 'ăn' trong câu nào được dùng với nghĩa gốc: 'Tàu ăn hàng ở cảng.'?",
+          "options": [
+            "Tàu ăn hàng ở cảng.",
+            "Sơn ăn ảnh.",
+            "Cả lớp ăn ý với nhau.",
+            "Em bé đang ăn cơm."
+          ],
+          "answer_index": 3,
+          "answer_text": "Em bé đang ăn cơm."
+        },
+        {
+          "id": "V3M06Q06",
+          "question": "Tìm từ chỉ hoạt động của trí óc.",
+          "options": [
+            "suy nghĩ",
+            "chạy nhảy",
+            "nhìn",
+            "nghe"
+          ],
+          "answer_index": 0,
+          "answer_text": "suy nghĩ"
+        },
+        {
+          "id": "V3M06Q07",
+          "question": "Đặt câu hỏi cho bộ phận gạch chân: 'Em học bài <u>để hiểu biết hơn</u>.'",
+          "options": [
+            "Em học bài để làm gì?",
+            "Em học bài như thế nào?",
+            "Em học bài ở đâu?",
+            "Ai học bài?"
+          ],
+          "answer_index": 0,
+          "answer_text": "Em học bài để làm gì?"
+        },
+        {
+          "id": "V3M06Q08",
+          "question": "Từ nào sau đây là từ ghép?",
+          "options": [
+            "sạch sẽ",
+            "nhà cửa",
+            "chăm chỉ",
+            "vui vẻ"
+          ],
+          "answer_index": 1,
+          "answer_text": "nhà cửa"
+        },
+        {
+          "id": "V3M06Q09",
+          "question": "Trong câu 'Vì trời mưa to, đường rất trơn.', bộ phận nào chỉ nguyên nhân?",
+          "options": [
+            "Vì trời mưa to",
+            "đường rất trơn",
+            "rất trơn",
+            "trời mưa to"
+          ],
+          "answer_index": 0,
+          "answer_text": "Vì trời mưa to"
+        },
+        {
+          "id": "V3M06Q10",
+          "question": "Đâu là từ chỉ màu sắc của biển?",
+          "options": [
+            "Xanh biếc",
+            "Đỏ thắm",
+            "Vàng rực",
+            "Tím ngắt"
+          ],
+          "answer_index": 0,
+          "answer_text": "Xanh biếc"
+        },
+        {
+          "id": "V3M06Q11",
+          "question": "Câu nào sau đây sử dụng dấu chấm than đúng?",
+          "options": [
+            "Trời đẹp quá!",
+            "Bạn tên là gì.",
+            "Em đang học bài?",
+            "Mẹ em là giáo viên!"
+          ],
+          "answer_index": 0,
+          "answer_text": "Trời đẹp quá!"
+        },
+        {
+          "id": "V3M06Q12",
+          "question": "Từ 'chân' trong câu nào được dùng với nghĩa chuyển?",
+          "options": [
+            "Em bé bị đau chân.",
+            "Bàn có bốn chân.",
+            "Vận động viên có đôi chân khỏe mạnh.",
+            "Bác sĩ rửa chân cho bệnh nhân."
+          ],
+          "answer_index": 1,
+          "answer_text": "Bàn có bốn chân."
+        }
+      ]
+    }
+  ]
+}

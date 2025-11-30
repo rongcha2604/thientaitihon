@@ -1,0 +1,513 @@
+{
+  "meta": {
+    "grade": 5,
+    "subject": "Tiếng Việt",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "hard",
+    "curriculum": "Chương trình mới"
+  },
+  "topics": [
+    {
+      "id": "VIE5_HARD_01",
+      "name": "Chủ đề 1: Luyện từ và câu (Nâng cao)",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "V5H01Q01",
+          "question": "Trong câu 'Cái kẹo này ngọt quá!', từ 'ngọt' được dùng theo nghĩa gốc. Câu nào sau đây từ 'ngọt' được dùng theo nghĩa chuyển?",
+          "options": [
+            "Chè này ngọt khé.",
+            "Cô ấy có một giọng nói ngọt ngào.",
+            "Cam sành rất ngọt.",
+            "Bài hát có giai điệu du dương, ngọt lịm."
+          ],
+          "answer_index": 1,
+          "answer_text": "Cô ấy có một giọng nói ngọt ngào."
+        },
+        {
+          "id": "V5H01Q02",
+          "question": "Câu 'Mặc dù nhà xa nhưng bạn Lan không bao giờ đi học muộn.' là câu ghép có các vế câu biểu thị quan hệ gì?",
+          "options": [
+            "Nguyên nhân - Kết quả",
+            "Điều kiện - Kết quả",
+            "Tương phản, đối lập",
+            "Tăng tiến"
+          ],
+          "answer_index": 2,
+          "answer_text": "Tương phản, đối lập"
+        },
+        {
+          "id": "V5H01Q03",
+          "question": "Thành ngữ nào sau đây nói về sự đoàn kết?",
+          "options": [
+            "Nước đổ đầu vịt",
+            "Chung lưng đấu cật",
+            "Thẳng như ruột ngựa",
+            "Lên thác xuống ghềnh"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chung lưng đấu cật"
+        },
+        {
+          "id": "V5H01Q04",
+          "question": "Từ 'mắt' trong câu nào dưới đây được dùng với nghĩa chuyển theo phương thức ẩn dụ?",
+          "options": [
+            "Đôi mắt của bé tròn xoe.",
+            "Quả na mở mắt.",
+            "Em bị đau mắt.",
+            "Mắt lưới này quá to."
+          ],
+          "answer_index": 1,
+          "answer_text": "Quả na mở mắt."
+        },
+        {
+          "id": "V5H01Q05",
+          "question": "Xác định các cặp quan hệ từ trong câu ghép sau: 'Hễ ai hỏi đến thì nó lại nói rằng nó không biết.'",
+          "options": [
+            "Hễ...thì; rằng",
+            "Hễ...thì",
+            "Hễ...rằng",
+            "thì...rằng"
+          ],
+          "answer_index": 1,
+          "answer_text": "Hễ...thì"
+        },
+        {
+          "id": "V5H01Q06",
+          "question": "Câu tục ngữ 'Một con ngựa đau cả tàu bỏ cỏ' khuyên chúng ta điều gì?",
+          "options": [
+            "Phải chăm sóc ngựa cẩn thận",
+            "Phải biết đoàn kết, yêu thương, chia sẻ với nhau",
+            "Không nên để ngựa bị đau",
+            "Ngựa rất quan trọng với nhà nông"
+          ],
+          "answer_index": 1,
+          "answer_text": "Phải biết đoàn kết, yêu thương, chia sẻ với nhau"
+        },
+        {
+          "id": "V5H01Q07",
+          "question": "Câu nào sau đây không phải là câu ghép?",
+          "options": [
+            "Gió thổi mạnh và mưa rơi tầm tã.",
+            "Trời càng về khuya, không gian càng tĩnh mịch.",
+            "Mẹ đi làm, em ở nhà trông em bé.",
+            "Dưới ánh trăng, dòng sông trông như một dải lụa."
+          ],
+          "answer_index": 3,
+          "answer_text": "Dưới ánh trăng, dòng sông trông như một dải lụa."
+        },
+        {
+          "id": "V5H01Q08",
+          "question": "Từ 'ăn' trong câu nào có nghĩa là 'chịu đựng một cái gì đó không hay tác động đến'?",
+          "options": [
+            "Cả nhà đang ăn cơm.",
+            "Tàu ăn hàng ở cảng.",
+            "Nó bị ăn một cái tát.",
+            "Sơn không ăn rỉ."
+          ],
+          "answer_index": 2,
+          "answer_text": "Nó bị ăn một cái tát."
+        },
+        {
+          "id": "V5H01Q09",
+          "question": "Thành ngữ 'Bốn biển một nhà' có nghĩa là gì?",
+          "options": [
+            "Mọi người ở khắp nơi đều đoàn kết như anh em một nhà.",
+            "Một ngôi nhà có bốn cái biển.",
+            "Xây nhà ở cạnh biển.",
+            "Nhà nào cũng giống nhau."
+          ],
+          "answer_index": 0,
+          "answer_text": "Mọi người ở khắp nơi đều đoàn kết như anh em một nhà."
+        },
+        {
+          "id": "V5H01Q10",
+          "question": "Tìm vế câu chỉ kết quả trong câu ghép sau: 'Do chủ quan, chúng ta đã thua trận này.'",
+          "options": [
+            "Do chủ quan",
+            "chúng ta",
+            "đã thua trận này",
+            "chúng ta đã thua trận này"
+          ],
+          "answer_index": 3,
+          "answer_text": "chúng ta đã thua trận này"
+        },
+        {
+          "id": "V5H01Q11",
+          "question": "Dòng nào có từ 'chạy' được dùng với nghĩa gốc?",
+          "options": [
+            "Nhà máy chạy hết công suất.",
+            "Đồng hồ chạy đúng giờ.",
+            "Vận động viên đang chạy trên đường đua.",
+            "Anh ấy chạy ăn từng bữa."
+          ],
+          "answer_index": 2,
+          "answer_text": "Vận động viên đang chạy trên đường đua."
+        },
+        {
+          "id": "V5H01Q12",
+          "question": "Câu 'Càng lên cao, không khí càng loãng.' có các vế câu biểu thị quan hệ gì?",
+          "options": [
+            "Tăng tiến",
+            "Tương phản",
+            "Nguyên nhân - Kết quả",
+            "Điều kiện - Kết quả"
+          ],
+          "answer_index": 0,
+          "answer_text": "Tăng tiến"
+        },
+        {
+          "id": "V5H01Q13",
+          "question": "Thành ngữ, tục ngữ nào nói về kinh nghiệm sản xuất?",
+          "options": [
+            "Chuồn chuồn bay thấp thì mưa, bay cao thì nắng, bay vừa thì râm.",
+            "Uống nước nhớ nguồn.",
+            "Đi một ngày đàng, học một sàng khôn.",
+            "Gần mực thì đen, gần đèn thì rạng."
+          ],
+          "answer_index": 0,
+          "answer_text": "Chuồn chuồn bay thấp thì mưa, bay cao thì nắng, bay vừa thì râm."
+        },
+        {
+          "id": "V5H01Q14",
+          "question": "Phân tích cấu trúc của câu sau: 'Khi mặt trời lên, sương tan dần và tiếng chim bắt đầu ríu rít.'",
+          "options": [
+            "Là câu đơn có trạng ngữ.",
+            "Là câu ghép có 2 vế.",
+            "Là câu ghép có 3 vế.",
+            "Là câu đặc biệt."
+          ],
+          "answer_index": 2,
+          "answer_text": "Là câu ghép có 3 vế."
+        },
+        {
+          "id": "V5H01Q15",
+          "question": "Từ 'non' trong câu 'Tay nghề của cậu ấy còn non lắm.' được hiểu theo nghĩa nào?",
+          "options": [
+            "Chưa chín",
+            "Ít tuổi",
+            "Yếu, chưa có nhiều kinh nghiệm",
+            "Màu xanh nhạt"
+          ],
+          "answer_index": 2,
+          "answer_text": "Yếu, chưa có nhiều kinh nghiệm"
+        }
+      ]
+    },
+    {
+      "id": "VIE5_HARD_02",
+      "name": "Chủ đề 2: Cảm thụ văn học",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "V5H02Q01",
+          "question": "Trong hai câu thơ 'Cày đồng đang buổi ban trưa / Mồ hôi thánh thót như mưa ruộng cày', biện pháp nghệ thuật so sánh có tác dụng gì?",
+          "options": [
+            "Làm cho hình ảnh trở nên đẹp hơn.",
+            "Nhấn mạnh sự vất vả, khó nhọc của người nông dân.",
+            "Cho thấy trời đang mưa.",
+            "Tả cảnh người nông dân đang làm việc."
+          ],
+          "answer_index": 1,
+          "answer_text": "Nhấn mạnh sự vất vả, khó nhọc của người nông dân."
+        },
+        {
+          "id": "V5H02Q02",
+          "question": "Hình ảnh 'đầu bạc' và 'lòng son' trong câu thơ 'Tuổi cao chí khí càng cao / Múa gươm, Lệ Thủy, lòng son chẳng già' (Tố Hữu) sử dụng biện pháp nghệ thuật gì?",
+          "options": [
+            "So sánh",
+            "Nhân hóa",
+            "Đối lập (tương phản)",
+            "Ẩn dụ"
+          ],
+          "answer_index": 2,
+          "answer_text": "Đối lập (tương phản)"
+        },
+        {
+          "id": "V5H02Q03",
+          "question": "Câu văn 'Tiếng suối trong như tiếng hát xa' (Hồ Chí Minh) gợi ra một không gian như thế nào?",
+          "options": [
+            "Ồn ào, náo nhiệt",
+            "Tĩnh lặng, thơ mộng",
+            "Buồn bã, hiu quạnh",
+            "Đáng sợ, hoang vu"
+          ],
+          "answer_index": 1,
+          "answer_text": "Tĩnh lặng, thơ mộng"
+        },
+        {
+          "id": "V5H02Q04",
+          "question": "Biện pháp tu từ nào được sử dụng trong câu 'Xe ta bon bon trên dặm đường'?",
+          "options": [
+            "Nhân hóa",
+            "So sánh",
+            "Từ láy tượng thanh",
+            "Hoán dụ"
+          ],
+          "answer_index": 2,
+          "answer_text": "Từ láy tượng thanh"
+        },
+        {
+          "id": "V5H02Q05",
+          "question": "Đọc đoạn thơ: 'Anh đội viên nhìn Bác / Càng nhìn lại càng thương / Người Cha mái tóc bạc / Đốt lửa cho anh nằm'. Hình ảnh 'Người Cha' ở đây chỉ ai và thể hiện tình cảm gì?",
+          "options": [
+            "Chỉ người cha ruột, thể hiện tình cha con.",
+            "Chỉ Bác Hồ, thể hiện sự yêu thương, kính trọng như cha của anh đội viên.",
+            "Chỉ một người cha bất kì.",
+            "Chỉ một vị lãnh đạo."
+          ],
+          "answer_index": 1,
+          "answer_text": "Chỉ Bác Hồ, thể hiện sự yêu thương, kính trọng như cha của anh đội viên."
+        },
+        {
+          "id": "V5H02Q06",
+          "question": "Tác dụng của biện pháp điệp ngữ trong câu 'Tre giữ làng, giữ nước, giữ mái nhà tranh, giữ đồng lúa chín.' là gì?",
+          "options": [
+            "Nhấn mạnh sự gắn bó, vai trò to lớn của cây tre đối với cuộc sống của người Việt Nam.",
+            "Làm cho câu văn hay hơn.",
+            "Liệt kê các công dụng của tre.",
+            "Cho thấy tre có ở khắp nơi."
+          ],
+          "answer_index": 0,
+          "answer_text": "Nhấn mạnh sự gắn bó, vai trò to lớn của cây tre đối với cuộc sống của người Việt Nam."
+        },
+        {
+          "id": "V5H02Q07",
+          "question": "Trong bài thơ 'Hạt gạo làng ta', hình ảnh 'có vị phù sa', 'có hương sen thơm', 'có lời mẹ hát' nói lên điều gì về hạt gạo?",
+          "options": [
+            "Hạt gạo có nhiều vị khác nhau.",
+            "Hạt gạo được làm từ những gì tinh túy nhất của đất trời và con người.",
+            "Hạt gạo rất thơm.",
+            "Hạt gạo là do mẹ làm ra."
+          ],
+          "answer_index": 1,
+          "answer_text": "Hạt gạo được làm từ những gì tinh túy nhất của đất trời và con người."
+        },
+        {
+          "id": "V5H02Q08",
+          "question": "Câu 'Gậy tre, chông tre chống lại sắt thép của quân thù.' sử dụng biện pháp nghệ thuật gì?",
+          "options": [
+            "So sánh và Nhân hóa",
+            "Ẩn dụ và Hoán dụ",
+            "Nhân hóa và Hoán dụ",
+            "Đối lập và Nhân hóa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Đối lập và Nhân hóa"
+        },
+        {
+          "id": "V5H02Q09",
+          "question": "Trong bài 'Tiếng rao đêm', chi tiết tiếng rao của anh thương binh 'ai bánh giò không...' vào lúc đêm khuya vắng vẻ có ý nghĩa gì?",
+          "options": [
+            "Cho thấy anh bán hàng rất to tiếng.",
+            "Gợi tả cuộc sống mưu sinh vất vả, lam lũ nhưng lương thiện.",
+            "Làm cho câu chuyện thêm đáng sợ.",
+            "Chỉ là một chi tiết bình thường."
+          ],
+          "answer_index": 1,
+          "answer_text": "Gợi tả cuộc sống mưu sinh vất vả, lam lũ nhưng lương thiện."
+        },
+        {
+          "id": "V5H02Q10",
+          "question": "Hình ảnh 'áo nâu' và 'áo xanh' trong bài thơ 'Màu áo chú bộ đội' tượng trưng cho điều gì?",
+          "options": [
+            "Màu sắc quần áo",
+            "Màu của đất và màu của lá cây, thể hiện sự hòa mình, gắn bó với thiên nhiên, đất nước.",
+            "Sở thích về màu sắc.",
+            "Sự nghèo khó."
+          ],
+          "answer_index": 1,
+          "answer_text": "Màu của đất và màu của lá cây, thể hiện sự hòa mình, gắn bó với thiên nhiên, đất nước."
+        },
+        {
+          "id": "V5H02Q11",
+          "question": "Kết thúc truyện 'Những con sếu bằng giấy' có làm em suy nghĩ về điều gì?",
+          "options": [
+            "Sự tàn khốc của chiến tranh và khát vọng hòa bình của trẻ em.",
+            "Cách gấp sếu bằng giấy.",
+            "Bệnh tật là không thể tránh khỏi.",
+            "Tình bạn đẹp đẽ."
+          ],
+          "answer_index": 0,
+          "answer_text": "Sự tàn khốc của chiến tranh và khát vọng hòa bình của trẻ em."
+        },
+        {
+          "id": "V5H02Q12",
+          "question": "Vì sao tác giả lại ví 'Công cha như núi Thái Sơn / Nghĩa mẹ như nước trong nguồn chảy ra'?",
+          "options": [
+            "Vì núi rất cao và nước nguồn rất trong.",
+            "Để nhấn mạnh công lao to lớn, vô tận của cha mẹ.",
+            "Vì đó là hai hình ảnh đẹp nhất của thiên nhiên.",
+            "Để câu ca dao dễ thuộc."
+          ],
+          "answer_index": 1,
+          "answer_text": "Để nhấn mạnh công lao to lớn, vô tận của cha mẹ."
+        },
+        {
+          "id": "V5H02Q13",
+          "question": "Trong bài 'Bài ca về trái đất', việc so sánh trái đất với 'quả bóng xanh' và 'trái chín' có ý nghĩa gì?",
+          "options": [
+            "Gợi lên hình ảnh trái đất đẹp đẽ, mong manh, cần được bảo vệ, nâng niu.",
+            "Cho thấy trái đất có hình tròn.",
+            "Cho thấy trái đất có nhiều màu sắc.",
+            "Chỉ là cách nói cho hay."
+          ],
+          "answer_index": 0,
+          "answer_text": "Gợi lên hình ảnh trái đất đẹp đẽ, mong manh, cần được bảo vệ, nâng niu."
+        },
+        {
+          "id": "V5H02Q14",
+          "question": "Chi tiết 'tiếng đàn' của Thạch Sanh có những công dụng thần kì nào?",
+          "options": [
+            "Làm quân giặc phải đầu hàng.",
+            "Chữa khỏi bệnh cho công chúa.",
+            "Vạch mặt Lí Thông.",
+            "Tất cả các ý trên."
+          ],
+          "answer_index": 3,
+          "answer_text": "Tất cả các ý trên."
+        },
+        {
+          "id": "V5H02Q15",
+          "question": "Hình ảnh người bà trong bài 'Bếp lửa' của Bằng Việt hiện lên như thế nào?",
+          "options": [
+            "Là người giàu có, quyền quý.",
+            "Là hiện thân của tình yêu thương, sự tần tảo và là cội nguồn của mọi kí ức tuổi thơ.",
+            "Là một người nghiêm khắc.",
+            "Là một người xa lạ."
+          ],
+          "answer_index": 1,
+          "answer_text": "Là hiện thân của tình yêu thương, sự tần tảo và là cội nguồn của mọi kí ức tuổi thơ."
+        }
+      ]
+    },
+    {
+      "id": "VIE5_HARD_03",
+      "name": "Chủ đề 3: Viết văn (Nâng cao)",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "V5H03Q01",
+          "question": "Để mở bài cho bài văn tả cảnh một buổi sáng trên quê hương, cách mở bài nào sau đây là gián tiếp?",
+          "options": [
+            "Quê em có rất nhiều cảnh đẹp, nhưng em thích nhất là cảnh buổi sáng.",
+            "Từ một kỉ niệm tuổi thơ bên cánh đồng, em nhớ mãi những buổi bình minh trong lành trên quê mẹ.",
+            "Em sẽ tả cảnh buổi sáng trên quê hương em.",
+            "Buổi sáng trên quê em rất đẹp."
+          ],
+          "answer_index": 1,
+          "answer_text": "Từ một kỉ niệm tuổi thơ bên cánh đồng, em nhớ mãi những buổi bình minh trong lành trên quê mẹ."
+        },
+        {
+          "id": "V5H03Q02",
+          "question": "Khi tả một người bạn thân, em nên chọn chi tiết ngoại hình nào để thể hiện bạn là người thông minh, lanh lợi?",
+          "options": [
+            "Mái tóc đen nhánh.",
+            "Dáng người cao ráo.",
+            "Đôi mắt sáng, tinh anh.",
+            "Làn da trắng hồng."
+          ],
+          "answer_index": 2,
+          "answer_text": "Đôi mắt sáng, tinh anh."
+        },
+        {
+          "id": "V5H03Q03",
+          "question": "Để kết bài cho bài văn tả cơn mưa rào, cách kết bài mở rộng nào sau đây là hay nhất?",
+          "options": [
+            "Cơn mưa đã tạnh.",
+            "Em rất thích những cơn mưa rào mùa hạ.",
+            "Cơn mưa đi qua, để lại không khí trong lành và những suy nghĩ trong em về sự kì diệu của thiên nhiên, về nỗi vất vả của mẹ cha.",
+            "Sau cơn mưa, mọi vật đều tươi tốt."
+          ],
+          "answer_index": 2,
+          "answer_text": "Cơn mưa đi qua, để lại không khí trong lành và những suy nghĩ trong em về sự kì diệu của thiên nhiên, về nỗi vất vả của mẹ cha."
+        },
+        {
+          "id": "V5H03Q04",
+          "question": "Trong văn kể chuyện, việc thay đổi trình tự thời gian (kể chuyện không theo thứ tự) có tác dụng gì?",
+          "options": [
+            "Làm câu chuyện khó hiểu hơn.",
+            "Tạo sự bất ngờ, hấp dẫn, lôi cuốn người đọc.",
+            "Làm cho cốt truyện dài ra.",
+            "Đó là một lỗi sai khi kể chuyện."
+          ],
+          "answer_index": 1,
+          "answer_text": "Tạo sự bất ngờ, hấp dẫn, lôi cuốn người đọc."
+        },
+        {
+          "id": "V5H03Q05",
+          "question": "Khi viết thư thăm hỏi một chú bộ đội ở đảo xa, nội dung nào thể hiện rõ nhất tình cảm và sự quan tâm của người viết?",
+          "options": [
+            "Kể về thành tích học tập của mình.",
+            "Hỏi thăm sức khỏe, công việc và bày tỏ lòng biết ơn, tự hào.",
+            "Chỉ hỏi thăm sức khỏe chung chung.",
+            "Yêu cầu chú gửi quà về."
+          ],
+          "answer_index": 1,
+          "answer_text": "Hỏi thăm sức khỏe, công việc và bày tỏ lòng biết ơn, tự hào."
+        },
+        {
+          "id": "V5H03Q06",
+          "question": "Để bài văn tả người có chiều sâu, ngoài ngoại hình và hành động, người viết cần chú ý đến yếu tố nào?",
+          "options": [
+            "Tả cả thế giới nội tâm (suy nghĩ, tình cảm) của nhân vật.",
+            "Tả thật nhiều về quần áo.",
+            "Kể hết tất cả các hành động từ sáng đến tối.",
+            "So sánh người đó với người khác."
+          ],
+          "answer_index": 0,
+          "answer_text": "Tả cả thế giới nội tâm (suy nghĩ, tình cảm) của nhân vật."
+        },
+        {
+          "id": "V5H03Q07",
+          "question": "Mục đích chính của việc lập dàn ý trước khi viết bài tập làm văn là gì?",
+          "options": [
+            "Để bài văn dài hơn.",
+            "Để đảm bảo bài viết có bố cục rõ ràng, đủ ý, không lạc đề.",
+            "Để nộp cho cô giáo xem trước.",
+            "Vì đó là yêu cầu bắt buộc."
+          ],
+          "answer_index": 1,
+          "answer_text": "Để đảm bảo bài viết có bố cục rõ ràng, đủ ý, không lạc đề."
+        },
+        {
+          "id": "V5H03Q08",
+          "question": "Trong bài văn tả một loài cây, việc xen kẽ tả các mùa trong năm có tác dụng gì?",
+          "options": [
+            "Làm bài văn lộn xộn.",
+            "Cho thấy sự thay đổi của cây theo thời gian, làm bài văn sinh động, sâu sắc.",
+            "Làm bài văn dài hơn.",
+            "Không có tác dụng gì đặc biệt."
+          ],
+          "answer_index": 1,
+          "answer_text": "Cho thấy sự thay đổi của cây theo thời gian, làm bài văn sinh động, sâu sắc."
+        },
+        {
+          "id": "V5H03Q09",
+          "question": "Khi viết đơn xin tham gia một câu lạc bộ, phần nào quan trọng nhất để thuyết phục người duyệt đơn?",
+          "options": [
+            "Chữ viết phải thật đẹp.",
+            "Nêu được lí do, nguyện vọng và khả năng của bản thân phù hợp với câu lạc bộ.",
+            "Ghi đúng tên, lớp.",
+            "Trang trí lá đơn thật đẹp."
+          ],
+          "answer_index": 1,
+          "answer_text": "Nêu được lí do, nguyện vọng và khả năng của bản thân phù hợp với câu lạc bộ."
+        },
+        {
+          "id": "V5H03Q10",
+          "question": "Yếu tố nào giúp phân biệt một bài văn tả cảnh và một bài văn kể chuyện?",
+          "options": [
+            "Văn tả cảnh tập trung vào tái hiện cảnh vật, còn văn kể chuyện tập trung vào chuỗi sự việc và nhân vật.",
+            "Văn tả cảnh luôn ngắn hơn.",
+            "Văn kể chuyện luôn có yếu tố kì ảo.",
+            "Không có sự khác biệt rõ rệt."
+          ],
+          "answer_index": 0,
+          "answer_text": "Văn tả cảnh tập trung vào tái hiện cảnh vật, còn văn kể chuyện tập trung vào chuỗi sự việc và nhân vật."
+        }
+      ]
+    }
+  ]
+}

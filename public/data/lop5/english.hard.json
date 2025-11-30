@@ -1,0 +1,1240 @@
+{
+  "meta": {
+    "grade": 5,
+    "subject": "English",
+    "language": "en",
+    "created_date": "2025-11-04",
+    "level": "hard",
+    "curriculum": "New Program"
+  },
+  "topics": [
+    {
+      "id": "ENG5_HARD_01",
+      "name": "Topic 1: Future Tenses & Complex Sentences",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5H01Q01",
+          "question": "I think it ____ tomorrow.",
+          "options": [
+            "will rain",
+            "rains",
+            "rained",
+            "is raining"
+          ],
+          "answer_index": 0,
+          "answer_text": "will rain"
+        },
+        {
+          "id": "E5H01Q02",
+          "question": "If you study hard, you ____ the exam.",
+          "options": [
+            "will pass",
+            "pass",
+            "passed",
+            "are passing"
+          ],
+          "answer_index": 0,
+          "answer_text": "will pass"
+        },
+        {
+          "id": "E5H01Q03",
+          "question": "Look at the dark clouds! It ____ rain.",
+          "options": [
+            "will",
+            "is going to",
+            "is",
+            "rains"
+          ],
+          "answer_index": 1,
+          "answer_text": "is going to"
+        },
+        {
+          "id": "E5H01Q04",
+          "question": "She is the girl ____ helped me yesterday.",
+          "options": [
+            "which",
+            "who",
+            "what",
+            "where"
+          ],
+          "answer_index": 1,
+          "answer_text": "who"
+        },
+        {
+          "id": "E5H01Q05",
+          "question": "This is the book ____ I told you about.",
+          "options": [
+            "which",
+            "who",
+            "whose",
+            "what"
+          ],
+          "answer_index": 0,
+          "answer_text": "which"
+        },
+        {
+          "id": "E5H01Q06",
+          "question": "He ____ to London next week for a conference.",
+          "options": [
+            "is flying",
+            "flies",
+            "flew",
+            "will be fly"
+          ],
+          "answer_index": 0,
+          "answer_text": "is flying"
+        },
+        {
+          "id": "E5H01Q07",
+          "question": "I'm not sure, but I ____ probably be there.",
+          "options": [
+            "will",
+            "am going to",
+            "am",
+            "do"
+          ],
+          "answer_index": 0,
+          "answer_text": "will"
+        },
+        {
+          "id": "E5H01Q08",
+          "question": "Unless you hurry, you ____ the bus.",
+          "options": [
+            "will miss",
+            "miss",
+            "missed",
+            "are missing"
+          ],
+          "answer_index": 0,
+          "answer_text": "will miss"
+        },
+        {
+          "id": "E5H01Q09",
+          "question": "The man ____ son is a doctor is my neighbor.",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "that"
+          ],
+          "answer_index": 2,
+          "answer_text": "whose"
+        },
+        {
+          "id": "E5H01Q10",
+          "question": "What are you going to do this evening? - I ____ a movie.",
+          "options": [
+            "am going to watch",
+            "watch",
+            "will watch",
+            "watched"
+          ],
+          "answer_index": 0,
+          "answer_text": "am going to watch"
+        },
+        {
+          "id": "E5H01Q11",
+          "question": "If it ____, we will stay at home.",
+          "options": [
+            "rain",
+            "rains",
+            "will rain",
+            "is raining"
+          ],
+          "answer_index": 1,
+          "answer_text": "rains"
+        },
+        {
+          "id": "E5H01Q12",
+          "question": "The computer ____ he bought last week is very modern.",
+          "options": [
+            "that",
+            "who",
+            "whose",
+            "what"
+          ],
+          "answer_index": 0,
+          "answer_text": "that"
+        },
+        {
+          "id": "E5H01Q13",
+          "question": "They have decided that they ____ a new house.",
+          "options": [
+            "will buy",
+            "are going to buy",
+            "buy",
+            "bought"
+          ],
+          "answer_index": 1,
+          "answer_text": "are going to buy"
+        },
+        {
+          "id": "E5H01Q14",
+          "question": "She promised she ____ me.",
+          "options": [
+            "will help",
+            "helps",
+            "is helping",
+            "helped"
+          ],
+          "answer_index": 0,
+          "answer_text": "will help"
+        },
+        {
+          "id": "E5H01Q15",
+          "question": "This is the restaurant ____ we had dinner last night.",
+          "options": [
+            "that",
+            "which",
+            "where",
+            "who"
+          ],
+          "answer_index": 2,
+          "answer_text": "where"
+        },
+        {
+          "id": "E5H01Q16",
+          "question": "Be careful! You ____ fall.",
+          "options": [
+            "will",
+            "are going to",
+            "do",
+            "are"
+          ],
+          "answer_index": 1,
+          "answer_text": "are going to"
+        },
+        {
+          "id": "E5H01Q17",
+          "question": "The woman ____ is talking to Tom is my aunt.",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "where"
+          ],
+          "answer_index": 0,
+          "answer_text": "who"
+        },
+        {
+          "id": "E5H01Q18",
+          "question": "I will call you as soon as I ____.",
+          "options": [
+            "will arrive",
+            "arrive",
+            "arrived",
+            "am arriving"
+          ],
+          "answer_index": 1,
+          "answer_text": "arrive"
+        },
+        {
+          "id": "E5H01Q19",
+          "question": "The reason ____ he was late is that he missed the bus.",
+          "options": [
+            "because",
+            "why",
+            "that",
+            "which"
+          ],
+          "answer_index": 1,
+          "answer_text": "why"
+        },
+        {
+          "id": "E5H01Q20",
+          "question": "Perhaps we ____ visit them next month.",
+          "options": [
+            "will",
+            "are going to",
+            "do",
+            "are"
+          ],
+          "answer_index": 0,
+          "answer_text": "will"
+        },
+        {
+          "id": "E5H01Q21",
+          "question": "If I have enough money, I ____ a new laptop.",
+          "options": [
+            "will buy",
+            "buy",
+            "bought",
+            "am buying"
+          ],
+          "answer_index": 0,
+          "answer_text": "will buy"
+        },
+        {
+          "id": "E5H01Q22",
+          "question": "Do you know the boy ____ is sitting over there?",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "what"
+          ],
+          "answer_index": 0,
+          "answer_text": "who"
+        },
+        {
+          "id": "E5H01Q23",
+          "question": "I'm saving money because I ____ travel to Japan.",
+          "options": [
+            "will",
+            "am going to",
+            "do",
+            "am"
+          ],
+          "answer_index": 1,
+          "answer_text": "am going to"
+        },
+        {
+          "id": "E5H01Q24",
+          "question": "She will be very happy if you ____ to her party.",
+          "options": [
+            "come",
+            "will come",
+            "came",
+            "are coming"
+          ],
+          "answer_index": 0,
+          "answer_text": "come"
+        },
+        {
+          "id": "E5H01Q25",
+          "question": "This is the park ____ I often played when I was a child.",
+          "options": [
+            "that",
+            "which",
+            "where",
+            "who"
+          ],
+          "answer_index": 2,
+          "answer_text": "where"
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_02",
+      "name": "Topic 2: Vocabulary & Phrasal Verbs",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5H02Q01",
+          "question": "You should ____ your coat because it's cold outside.",
+          "options": [
+            "put on",
+            "put off",
+            "take on",
+            "take off"
+          ],
+          "answer_index": 0,
+          "answer_text": "put on"
+        },
+        {
+          "id": "E5H02Q02",
+          "question": "The story was so funny that I couldn't stop ____.",
+          "options": [
+            "laughing",
+            "crying",
+            "shouting",
+            "sleeping"
+          ],
+          "answer_index": 0,
+          "answer_text": "laughing"
+        },
+        {
+          "id": "E5H02Q03",
+          "question": "Can you ____ the light? It's too dark in here.",
+          "options": [
+            "turn on",
+            "turn off",
+            "look for",
+            "give up"
+          ],
+          "answer_index": 0,
+          "answer_text": "turn on"
+        },
+        {
+          "id": "E5H02Q04",
+          "question": "He is very ____. He always helps other people.",
+          "options": [
+            "kind",
+            "lazy",
+            "selfish",
+            "rude"
+          ],
+          "answer_index": 0,
+          "answer_text": "kind"
+        },
+        {
+          "id": "E5H02Q05",
+          "question": "I'm ____ my keys. Have you seen them?",
+          "options": [
+            "looking for",
+            "looking at",
+            "looking after",
+            "looking up"
+          ],
+          "answer_index": 0,
+          "answer_text": "looking for"
+        },
+        {
+          "id": "E5H02Q06",
+          "question": "Don't ____! You can do it if you try harder.",
+          "options": [
+            "give up",
+            "get up",
+            "look up",
+            "wake up"
+          ],
+          "answer_index": 0,
+          "answer_text": "give up"
+        },
+        {
+          "id": "E5H02Q07",
+          "question": "She is ____ of spiders. She screams when she sees one.",
+          "options": [
+            "afraid",
+            "fond",
+            "proud",
+            "tired"
+          ],
+          "answer_index": 0,
+          "answer_text": "afraid"
+        },
+        {
+          "id": "E5H02Q08",
+          "question": "Could you please ____ the TV? It's too loud.",
+          "options": [
+            "turn down",
+            "turn up",
+            "turn on",
+            "turn off"
+          ],
+          "answer_index": 0,
+          "answer_text": "turn down"
+        },
+        {
+          "id": "E5H02Q09",
+          "question": "He is a very ____ person. He always tells the truth.",
+          "options": [
+            "honest",
+            "dishonest",
+            "clever",
+            "stupid"
+          ],
+          "answer_index": 0,
+          "answer_text": "honest"
+        },
+        {
+          "id": "E5H02Q10",
+          "question": "I need to ____ the meaning of this word in the dictionary.",
+          "options": [
+            "look up",
+            "look for",
+            "look at",
+            "look after"
+          ],
+          "answer_index": 0,
+          "answer_text": "look up"
+        },
+        {
+          "id": "E5H02Q11",
+          "question": "The opposite of 'polite' is ____.",
+          "options": [
+            "rude",
+            "kind",
+            "friendly",
+            "happy"
+          ],
+          "answer_index": 0,
+          "answer_text": "rude"
+        },
+        {
+          "id": "E5H02Q12",
+          "question": "My grandmother ____ my little sister when my parents are at work.",
+          "options": [
+            "looks after",
+            "looks for",
+            "looks at",
+            "looks up"
+          ],
+          "answer_index": 0,
+          "answer_text": "looks after"
+        },
+        {
+          "id": "E5H02Q13",
+          "question": "She is very ____. She always works hard.",
+          "options": [
+            "diligent",
+            "lazy",
+            "careless",
+            "naughty"
+          ],
+          "answer_index": 0,
+          "answer_text": "diligent"
+        },
+        {
+          "id": "E5H02Q14",
+          "question": "It's hot. You should ____ your jacket.",
+          "options": [
+            "put on",
+            "put off",
+            "take on",
+            "take off"
+          ],
+          "answer_index": 3,
+          "answer_text": "take off"
+        },
+        {
+          "id": "E5H02Q15",
+          "question": "A person who writes books is an ____.",
+          "options": [
+            "author",
+            "artist",
+            "actor",
+            "architect"
+          ],
+          "answer_index": 0,
+          "answer_text": "author"
+        },
+        {
+          "id": "E5H02Q16",
+          "question": "We ____ the train and traveled to the countryside.",
+          "options": [
+            "got on",
+            "got off",
+            "got up",
+            "got away"
+          ],
+          "answer_index": 0,
+          "answer_text": "got on"
+        },
+        {
+          "id": "E5H02Q17",
+          "question": "He is very ____. He always thinks about himself.",
+          "options": [
+            "selfish",
+            "generous",
+            "kind",
+            "helpful"
+          ],
+          "answer_index": 0,
+          "answer_text": "selfish"
+        },
+        {
+          "id": "E5H02Q18",
+          "question": "Please ____ this form and give it to the receptionist.",
+          "options": [
+            "fill in",
+            "fill up",
+            "look for",
+            "look at"
+          ],
+          "answer_index": 0,
+          "answer_text": "fill in"
+        },
+        {
+          "id": "E5H02Q19",
+          "question": "A place where you can watch plays is a ____.",
+          "options": [
+            "theatre",
+            "cinema",
+            "museum",
+            "stadium"
+          ],
+          "answer_index": 0,
+          "answer_text": "theatre"
+        },
+        {
+          "id": "E5H02Q20",
+          "question": "The firemen were able to ____ the fire quickly.",
+          "options": [
+            "put out",
+            "put on",
+            "put up",
+            "put off"
+          ],
+          "answer_index": 0,
+          "answer_text": "put out"
+        },
+        {
+          "id": "E5H02Q21",
+          "question": "He is a ____ person. He is not afraid of anything.",
+          "options": [
+            "brave",
+            "cowardly",
+            "shy",
+            "weak"
+          ],
+          "answer_index": 0,
+          "answer_text": "brave"
+        },
+        {
+          "id": "E5H02Q22",
+          "question": "I don't know the answer, so I'll have to ____.",
+          "options": [
+            "guess",
+            "know",
+            "understand",
+            "explain"
+          ],
+          "answer_index": 0,
+          "answer_text": "guess"
+        },
+        {
+          "id": "E5H02Q23",
+          "question": "The plane will ____ in ten minutes.",
+          "options": [
+            "take off",
+            "take on",
+            "land off",
+            "land on"
+          ],
+          "answer_index": 0,
+          "answer_text": "take off"
+        },
+        {
+          "id": "E5H02Q24",
+          "question": "She is ____. She can carry heavy things.",
+          "options": [
+            "strong",
+            "weak",
+            "thin",
+            "fat"
+          ],
+          "answer_index": 0,
+          "answer_text": "strong"
+        },
+        {
+          "id": "E5H02Q25",
+          "question": "Let's ____ the party until next week.",
+          "options": [
+            "put off",
+            "put on",
+            "put out",
+            "put up"
+          ],
+          "answer_index": 0,
+          "answer_text": "put off"
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_03",
+      "name": "Topic 3: Mixed Grammar & Structures",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5H03Q01",
+          "question": "Have you ever ____ to England?",
+          "options": [
+            "been",
+            "be",
+            "was",
+            "went"
+          ],
+          "answer_index": 0,
+          "answer_text": "been"
+        },
+        {
+          "id": "E5H03Q02",
+          "question": "The homework was ____ difficult for me to do.",
+          "options": [
+            "too",
+            "so",
+            "very",
+            "enough"
+          ],
+          "answer_index": 0,
+          "answer_text": "too"
+        },
+        {
+          "id": "E5H03Q03",
+          "question": "She enjoys ____ to music in her free time.",
+          "options": [
+            "listen",
+            "listening",
+            "to listen",
+            "listened"
+          ],
+          "answer_index": 1,
+          "answer_text": "listening"
+        },
+        {
+          "id": "E5H03Q04",
+          "question": "There isn't ____ milk left in the bottle.",
+          "options": [
+            "some",
+            "any",
+            "much",
+            "many"
+          ],
+          "answer_index": 1,
+          "answer_text": "any"
+        },
+        {
+          "id": "E5H03Q05",
+          "question": "He is interested ____ learning about different cultures.",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "with"
+          ],
+          "answer_index": 0,
+          "answer_text": "in"
+        },
+        {
+          "id": "E5H03Q06",
+          "question": "Would you mind ____ the window?",
+          "options": [
+            "close",
+            "to close",
+            "closing",
+            "closed"
+          ],
+          "answer_index": 2,
+          "answer_text": "closing"
+        },
+        {
+          "id": "E5H03Q07",
+          "question": "This is the ____ cake I have ever tasted.",
+          "options": [
+            "delicious",
+            "more delicious",
+            "most delicious",
+            "deliciouser"
+          ],
+          "answer_index": 2,
+          "answer_text": "most delicious"
+        },
+        {
+          "id": "E5H03Q08",
+          "question": "She has been a teacher ____ ten years.",
+          "options": [
+            "since",
+            "for",
+            "ago",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "for"
+        },
+        {
+          "id": "E5H03Q09",
+          "question": "He told me that he ____ the movie the day before.",
+          "options": [
+            "saw",
+            "had seen",
+            "sees",
+            "will see"
+          ],
+          "answer_index": 1,
+          "answer_text": "had seen"
+        },
+        {
+          "id": "E5H03Q10",
+          "question": "You should avoid ____ too much fast food.",
+          "options": [
+            "eat",
+            "to eat",
+            "eating",
+            "eaten"
+          ],
+          "answer_index": 2,
+          "answer_text": "eating"
+        },
+        {
+          "id": "E5H03Q11",
+          "question": "If I ____ you, I would apologize to her.",
+          "options": [
+            "am",
+            "is",
+            "was",
+            "were"
+          ],
+          "answer_index": 3,
+          "answer_text": "were"
+        },
+        {
+          "id": "E5H03Q12",
+          "question": "This book is not interesting ____ for me to read.",
+          "options": [
+            "too",
+            "so",
+            "very",
+            "enough"
+          ],
+          "answer_index": 3,
+          "answer_text": "enough"
+        },
+        {
+          "id": "E5H03Q13",
+          "question": "I haven't seen him ____ last Monday.",
+          "options": [
+            "since",
+            "for",
+            "from",
+            "on"
+          ],
+          "answer_index": 0,
+          "answer_text": "since"
+        },
+        {
+          "id": "E5H03Q14",
+          "question": "The test was ____ easy that everyone got a high score.",
+          "options": [
+            "too",
+            "so",
+            "very",
+            "enough"
+          ],
+          "answer_index": 1,
+          "answer_text": "so"
+        },
+        {
+          "id": "E5H03Q15",
+          "question": "He is used to ____ up early in the morning.",
+          "options": [
+            "get",
+            "to get",
+            "getting",
+            "got"
+          ],
+          "answer_index": 2,
+          "answer_text": "getting"
+        },
+        {
+          "id": "E5H03Q16",
+          "question": "I prefer reading books ____ watching TV.",
+          "options": [
+            "than",
+            "to",
+            "over",
+            "from"
+          ],
+          "answer_index": 1,
+          "answer_text": "to"
+        },
+        {
+          "id": "E5H03Q17",
+          "question": "The problem was solved ____ using a new method.",
+          "options": [
+            "by",
+            "with",
+            "for",
+            "in"
+          ],
+          "answer_index": 0,
+          "answer_text": "by"
+        },
+        {
+          "id": "E5H03Q18",
+          "question": "She is proud ____ her son's achievements.",
+          "options": [
+            "of",
+            "in",
+            "at",
+            "with"
+          ],
+          "answer_index": 0,
+          "answer_text": "of"
+        },
+        {
+          "id": "E5H03Q19",
+          "question": "He suggested ____ to the beach for a change.",
+          "options": [
+            "go",
+            "to go",
+            "going",
+            "went"
+          ],
+          "answer_index": 2,
+          "answer_text": "going"
+        },
+        {
+          "id": "E5H03Q20",
+          "question": "____ it was raining, they went for a walk.",
+          "options": [
+            "Because",
+            "Although",
+            "So",
+            "But"
+          ],
+          "answer_index": 1,
+          "answer_text": "Although"
+        },
+        {
+          "id": "E5H03Q21",
+          "question": "I look forward to ____ from you soon.",
+          "options": [
+            "hear",
+            "to hear",
+            "hearing",
+            "heard"
+          ],
+          "answer_index": 2,
+          "answer_text": "hearing"
+        },
+        {
+          "id": "E5H03Q22",
+          "question": "The building was built ____ the 19th century.",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "since"
+          ],
+          "answer_index": 0,
+          "answer_text": "in"
+        },
+        {
+          "id": "E5H03Q23",
+          "question": "He works ____ a waiter in a restaurant.",
+          "options": [
+            "like",
+            "as",
+            "for",
+            "in"
+          ],
+          "answer_index": 1,
+          "answer_text": "as"
+        },
+        {
+          "id": "E5H03Q24",
+          "question": "She is good ____ playing the piano.",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "with"
+          ],
+          "answer_index": 2,
+          "answer_text": "at"
+        },
+        {
+          "id": "E5H03Q25",
+          "question": "The room was ____ of people.",
+          "options": [
+            "full",
+            "filled",
+            "crowded",
+            "packed"
+          ],
+          "answer_index": 0,
+          "answer_text": "full"
+        }
+      ]
+    },
+    {
+      "id": "ENG5_HARD_04",
+      "name": "Topic 4: Reading Comprehension (Advanced)",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "id": "E5H04Q01",
+          "question": "Read the text: 'The Amazon rainforest is the largest tropical rainforest in the world, covering an area of 5.5 million square kilometers. It is home to an incredible variety of plants and animals, many of which are not found anywhere else on Earth. The rainforest plays a crucial role in regulating the Earth's climate.' What is the main idea of the text?",
+          "options": [
+            "The size of the Amazon rainforest.",
+            "The animals in the Amazon rainforest.",
+            "The importance and characteristics of the Amazon rainforest.",
+            "The climate of the Amazon rainforest."
+          ],
+          "answer_index": 2,
+          "answer_text": "The importance and characteristics of the Amazon rainforest."
+        },
+        {
+          "id": "E5H04Q02",
+          "question": "Read the text from Q1. The word 'variety' is closest in meaning to ____.",
+          "options": [
+            "number",
+            "type",
+            "diversity",
+            "size"
+          ],
+          "answer_index": 2,
+          "answer_text": "diversity"
+        },
+        {
+          "id": "E5H04Q03",
+          "question": "Read the text from Q1. What does 'crucial role' mean?",
+          "options": [
+            "An unimportant part.",
+            "A very important part.",
+            "A small part.",
+            "A temporary part."
+          ],
+          "answer_index": 1,
+          "answer_text": "A very important part."
+        },
+        {
+          "id": "E5H04Q04",
+          "question": "Read the text from Q1. According to the text, why is the Amazon rainforest important for our planet?",
+          "options": [
+            "Because it is very large.",
+            "Because it has many unique animals.",
+            "Because it helps control the Earth's climate.",
+            "Because it is in South America."
+          ],
+          "answer_index": 2,
+          "answer_text": "Because it helps control the Earth's climate."
+        },
+        {
+          "id": "E5H04Q05",
+          "question": "Read the text from Q1. What can be inferred from the text?",
+          "options": [
+            "All animals in the Amazon can be found in other places.",
+            "The Amazon rainforest is not important for the climate.",
+            "Protecting the Amazon rainforest is important for the planet.",
+            "The Amazon rainforest is getting smaller."
+          ],
+          "answer_index": 2,
+          "answer_text": "Protecting the Amazon rainforest is important for the planet."
+        },
+        {
+          "id": "E5H04Q06",
+          "question": "Read the text: 'Solar energy is energy from the sun. It is a renewable source of energy, which means it will not run out. People use solar panels to convert sunlight into electricity. This electricity can be used to power homes and businesses. Using solar energy is a clean way to produce power because it does not create pollution.' What is solar energy?",
+          "options": [
+            "Energy from the moon.",
+            "Energy from the wind.",
+            "Energy from the sun.",
+            "Energy from water."
+          ],
+          "answer_index": 2,
+          "answer_text": "Energy from the sun."
+        },
+        {
+          "id": "E5H04Q07",
+          "question": "Read the text from Q6. What does 'renewable' mean?",
+          "options": [
+            "It will run out soon.",
+            "It is very expensive.",
+            "It will not run out.",
+            "It is difficult to use."
+          ],
+          "answer_index": 2,
+          "answer_text": "It will not run out."
+        },
+        {
+          "id": "E5H04Q08",
+          "question": "Read the text from Q6. How do people capture solar energy?",
+          "options": [
+            "Using windmills.",
+            "Using solar panels.",
+            "Using water dams.",
+            "Using large nets."
+          ],
+          "answer_index": 1,
+          "answer_text": "Using solar panels."
+        },
+        {
+          "id": "E5H04Q09",
+          "question": "Read the text from Q6. Why is solar energy considered 'clean'?",
+          "options": [
+            "Because it is very cheap.",
+            "Because it is easy to find.",
+            "Because it comes from the sun.",
+            "Because it does not produce pollution."
+          ],
+          "answer_index": 3,
+          "answer_text": "Because it does not produce pollution."
+        },
+        {
+          "id": "E5H04Q10",
+          "question": "Read the text from Q6. The main purpose of the text is to ____.",
+          "options": [
+            "persuade people to use solar energy.",
+            "explain what solar energy is and its benefits.",
+            "compare solar energy with other types of energy.",
+            "describe how solar panels work."
+          ],
+          "answer_index": 1,
+          "answer_text": "explain what solar energy is and its benefits."
+        },
+        {
+          "id": "E5H04Q11",
+          "question": "Read the text: 'The internet has changed our lives in many ways. We can use it to find information, communicate with friends and family, shop online, and entertain ourselves. However, spending too much time online can be harmful. It's important to have a balance between online and offline activities.' What is the text mainly about?",
+          "options": [
+            "The history of the internet.",
+            "How to shop online.",
+            "The pros and cons of the internet.",
+            "How to communicate online."
+          ],
+          "answer_index": 2,
+          "answer_text": "The pros and cons of the internet."
+        },
+        {
+          "id": "E5H04Q12",
+          "question": "Read the text from Q11. Which of the following is NOT mentioned as a use of the internet?",
+          "options": [
+            "Finding information.",
+            "Communicating with friends.",
+            "Exercising.",
+            "Shopping online."
+          ],
+          "answer_index": 2,
+          "answer_text": "Exercising."
+        },
+        {
+          "id": "E5H04Q13",
+          "question": "Read the text from Q11. The word 'harmful' is the opposite of ____.",
+          "options": [
+            "beneficial",
+            "dangerous",
+            "difficult",
+            "interesting"
+          ],
+          "answer_index": 0,
+          "answer_text": "beneficial"
+        },
+        {
+          "id": "E5H04Q14",
+          "question": "Read the text from Q11. What is the author's advice?",
+          "options": [
+            "We should not use the internet.",
+            "We should spend all our time online.",
+            "We should balance online and offline time.",
+            "We should only use the internet for shopping."
+          ],
+          "answer_index": 2,
+          "answer_text": "We should balance online and offline time."
+        },
+        {
+          "id": "E5H04Q15",
+          "question": "Read the text from Q11. The word 'communicate' means ____.",
+          "options": [
+            "to share information with others.",
+            "to buy things.",
+            "to find something.",
+            "to have fun."
+          ],
+          "answer_index": 0,
+          "answer_text": "to share information with others."
+        },
+        {
+          "id": "E5H04Q16",
+          "question": "Read the text: 'Recycling is the process of converting waste materials into new materials and objects. It is an important way to reduce pollution and conserve natural resources. Common recyclable materials include paper, glass, plastic, and metal. By recycling, we can help protect the environment for the future.' What is recycling?",
+          "options": [
+            "Throwing away waste.",
+            "Burning waste materials.",
+            "Converting waste into new things.",
+            "Burying waste in the ground."
+          ],
+          "answer_index": 2,
+          "answer_text": "Converting waste into new things."
+        },
+        {
+          "id": "E5H04Q17",
+          "question": "Read the text from Q16. Which of the following is NOT a common recyclable material?",
+          "options": [
+            "Paper",
+            "Glass",
+            "Food waste",
+            "Plastic"
+          ],
+          "answer_index": 2,
+          "answer_text": "Food waste"
+        },
+        {
+          "id": "E5H04Q18",
+          "question": "Read the text from Q16. The word 'conserve' means to ____.",
+          "options": [
+            "waste",
+            "use up",
+            "protect and save",
+            "destroy"
+          ],
+          "answer_index": 2,
+          "answer_text": "protect and save"
+        },
+        {
+          "id": "E5H04Q19",
+          "question": "Read the text from Q16. What is the main benefit of recycling mentioned in the text?",
+          "options": [
+            "It is an easy process.",
+            "It creates new jobs.",
+            "It helps protect the environment.",
+            "It makes waste disappear."
+          ],
+          "answer_index": 2,
+          "answer_text": "It helps protect the environment."
+        },
+        {
+          "id": "E5H04Q20",
+          "question": "Read the text from Q16. The tone of the text is ____.",
+          "options": [
+            "informative",
+            "humorous",
+            "critical",
+            "sad"
+          ],
+          "answer_index": 0,
+          "answer_text": "informative"
+        },
+        {
+          "id": "E5H04Q21",
+          "question": "Read the text: 'The Great Wall of China is one of the most impressive man-made structures in the world. It was built over many centuries to protect China from invasions. The wall is more than 21,000 kilometers long and is a popular tourist attraction today.' Why was the Great Wall of China built?",
+          "options": [
+            "For tourism.",
+            "To be a long road.",
+            "To protect the country.",
+            "As a place for emperors to live."
+          ],
+          "answer_index": 2,
+          "answer_text": "To protect the country."
+        },
+        {
+          "id": "E5H04Q22",
+          "question": "Read the text from Q21. The word 'impressive' means ____.",
+          "options": [
+            "causing admiration",
+            "very old",
+            "very long",
+            "not interesting"
+          ],
+          "answer_index": 0,
+          "answer_text": "causing admiration"
+        },
+        {
+          "id": "E5H04Q23",
+          "question": "Read the text from Q21. What is the Great Wall's length?",
+          "options": [
+            "Less than 21,000 km.",
+            "Exactly 21,000 km.",
+            "More than 21,000 km.",
+            "About 2,100 km."
+          ],
+          "answer_index": 2,
+          "answer_text": "More than 21,000 km."
+        },
+        {
+          "id": "E5H04Q24",
+          "question": "Read the text from Q21. 'Man-made' means ____.",
+          "options": [
+            "made by nature",
+            "made by people",
+            "very strong",
+            "beautiful"
+          ],
+          "answer_index": 1,
+          "answer_text": "made by people"
+        },
+        {
+          "id": "E5H04Q25",
+          "question": "Read the text from Q21. What is the Great Wall today?",
+          "options": [
+            "A military base.",
+            "A royal palace.",
+            "A popular place for tourists.",
+            "A busy highway."
+          ],
+          "answer_index": 2,
+          "answer_text": "A popular place for tourists."
+        }
+      ]
+    }
+  ]
+}

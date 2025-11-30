@@ -1,0 +1,620 @@
+{
+  "meta": {
+    "grade": 5,
+    "subject": "Tiếng Việt",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "easy",
+    "curriculum": "Chương trình mới"
+  },
+  "topics": [
+    {
+      "id": "VIE5_EASY_01",
+      "name": "Chủ đề 1: Luyện từ và câu (Từ loại, Từ đồng nghĩa - trái nghĩa)",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V5E01Q01",
+          "question": "Từ nào dưới đây là từ đồng nghĩa với từ 'siêng năng'?",
+          "options": [
+            "chăm chỉ",
+            "lười biếng",
+            "thông minh",
+            "nhanh nhẹn"
+          ],
+          "answer_index": 0,
+          "answer_text": "chăm chỉ"
+        },
+        {
+          "id": "V5E01Q02",
+          "question": "Từ nào là từ trái nghĩa với từ 'dũng cảm'?",
+          "options": [
+            "gan dạ",
+            "anh hùng",
+            "nhút nhát",
+            "quả cảm"
+          ],
+          "answer_index": 2,
+          "answer_text": "nhút nhát"
+        },
+        {
+          "id": "V5E01Q03",
+          "question": "Trong câu 'Bé Mai rất chăm chỉ học bài.', từ 'chăm chỉ' thuộc từ loại nào?",
+          "options": [
+            "Danh từ",
+            "Động từ",
+            "Tính từ",
+            "Trạng từ"
+          ],
+          "answer_index": 2,
+          "answer_text": "Tính từ"
+        },
+        {
+          "id": "V5E01Q04",
+          "question": "Tìm từ đồng nghĩa với từ 'hòa bình'.",
+          "options": [
+            "bình yên",
+            "chiến tranh",
+            "xung đột",
+            "ồn ào"
+          ],
+          "answer_index": 0,
+          "answer_text": "bình yên"
+        },
+        {
+          "id": "V5E01Q05",
+          "question": "Từ nào sau đây không phải là danh từ?",
+          "options": [
+            "cái bàn",
+            "ngôi trường",
+            "quyển sách",
+            "chạy"
+          ],
+          "answer_index": 3,
+          "answer_text": "chạy"
+        },
+        {
+          "id": "V5E01Q06",
+          "question": "Từ trái nghĩa với 'đoàn kết' là gì?",
+          "options": [
+            "gắn bó",
+            "chia rẽ",
+            "chung sức",
+            "đồng lòng"
+          ],
+          "answer_index": 1,
+          "answer_text": "chia rẽ"
+        },
+        {
+          "id": "V5E01Q07",
+          "question": "Dòng nào dưới đây chỉ gồm các động từ?",
+          "options": [
+            "hát, múa, vui vẻ",
+            "đi, đứng, chạy, nhảy",
+            "bông hoa, cây cối, dòng sông",
+            "xinh đẹp, hiền lành, thông minh"
+          ],
+          "answer_index": 1,
+          "answer_text": "đi, đứng, chạy, nhảy"
+        },
+        {
+          "id": "V5E01Q08",
+          "question": "Từ 'gan dạ' đồng nghĩa với từ nào?",
+          "options": [
+            "sợ hãi",
+            "yếu ớt",
+            "can đảm",
+            "buồn bã"
+          ],
+          "answer_index": 2,
+          "answer_text": "can đảm"
+        },
+        {
+          "id": "V5E01Q09",
+          "question": "Từ 'rộng rãi' trái nghĩa với từ nào?",
+          "options": [
+            "bao la",
+            "mênh mông",
+            "chật hẹp",
+            "thênh thang"
+          ],
+          "answer_index": 2,
+          "answer_text": "chật hẹp"
+        },
+        {
+          "id": "V5E01Q10",
+          "question": "Trong các từ sau, từ nào là từ chỉ hoạt động?",
+          "options": [
+            "cái bút",
+            "đọc sách",
+            "xinh xắn",
+            "bầu trời"
+          ],
+          "answer_index": 1,
+          "answer_text": "đọc sách"
+        },
+        {
+          "id": "V5E01Q11",
+          "question": "Từ đồng nghĩa với 'già' là gì?",
+          "options": [
+            "lớn tuổi",
+            "trẻ",
+            "nhỏ",
+            "xinh"
+          ],
+          "answer_index": 0,
+          "answer_text": "lớn tuổi"
+        },
+        {
+          "id": "V5E01Q12",
+          "question": "Chọn từ trái nghĩa với 'yên tĩnh'.",
+          "options": [
+            "im lặng",
+            "náo nhiệt",
+            "vắng vẻ",
+            "tĩnh mịch"
+          ],
+          "answer_index": 1,
+          "answer_text": "náo nhiệt"
+        },
+        {
+          "id": "V5E01Q13",
+          "question": "Câu 'Mẹ em là giáo viên.' có từ nào là danh từ chỉ người?",
+          "options": [
+            "Mẹ",
+            "là",
+            "giáo viên",
+            "cả Mẹ và giáo viên"
+          ],
+          "answer_index": 3,
+          "answer_text": "cả Mẹ và giáo viên"
+        },
+        {
+          "id": "V5E01Q14",
+          "question": "Từ 'lấp lánh' là loại từ gì?",
+          "options": [
+            "Từ láy",
+            "Từ ghép",
+            "Danh từ",
+            "Động từ"
+          ],
+          "answer_index": 0,
+          "answer_text": "Từ láy"
+        },
+        {
+          "id": "V5E01Q15",
+          "question": "Tìm từ không cùng nhóm với các từ còn lại: xanh biếc, xanh lơ, xanh ngắt, xanh tươi.",
+          "options": [
+            "xanh biếc",
+            "xanh lơ",
+            "xanh ngắt",
+            "xanh tươi"
+          ],
+          "answer_index": 3,
+          "answer_text": "xanh tươi"
+        }
+      ]
+    },
+    {
+      "id": "VIE5_EASY_02",
+      "name": "Chủ đề 2: Chính tả và Cấu tạo câu",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V5E02Q01",
+          "question": "Điền 'l' hoặc 'n' vào chỗ trống: Em bé đang tập ...ói.",
+          "options": [
+            "l",
+            "n"
+          ],
+          "answer_index": 1,
+          "answer_text": "n"
+        },
+        {
+          "id": "V5E02Q02",
+          "question": "Từ nào sau đây viết đúng chính tả?",
+          "options": [
+            "gieo neo",
+            "deo neo",
+            "reo neo",
+            "leo neo"
+          ],
+          "answer_index": 0,
+          "answer_text": "gieo neo"
+        },
+        {
+          "id": "V5E02Q03",
+          "question": "Câu 'Trời mưa to.' thuộc mẫu câu nào?",
+          "options": [
+            "Ai là gì?",
+            "Ai làm gì?",
+            "Ai thế nào?",
+            "Khi nào?"
+          ],
+          "answer_index": 2,
+          "answer_text": "Ai thế nào?"
+        },
+        {
+          "id": "V5E02Q04",
+          "question": "Điền 's' hoặc 'x' vào chỗ trống: Dòng sông ...anh biếc.",
+          "options": [
+            "s",
+            "x"
+          ],
+          "answer_index": 1,
+          "answer_text": "x"
+        },
+        {
+          "id": "V5E02Q05",
+          "question": "Tìm từ viết sai chính tả trong các từ sau:",
+          "options": [
+            "sáng lạng",
+            "xán lạn",
+            "sán lạn",
+            "sángạn"
+          ],
+          "answer_index": 0,
+          "answer_text": "sáng lạng"
+        },
+        {
+          "id": "V5E02Q06",
+          "question": "Chủ ngữ trong câu 'Những bông hoa đang khoe sắc.' là gì?",
+          "options": [
+            "Những bông hoa",
+            "đang khoe sắc",
+            "bông hoa",
+            "khoe sắc"
+          ],
+          "answer_index": 0,
+          "answer_text": "Những bông hoa"
+        },
+        {
+          "id": "V5E02Q07",
+          "question": "Điền 'tr' hoặc 'ch' vào chỗ trống: Bức ...anh rất đẹp.",
+          "options": [
+            "tr",
+            "ch"
+          ],
+          "answer_index": 0,
+          "answer_text": "tr"
+        },
+        {
+          "id": "V5E02Q08",
+          "question": "Vị ngữ trong câu 'Bạn Lan học rất giỏi.' là gì?",
+          "options": [
+            "Bạn Lan",
+            "học rất giỏi",
+            "rất giỏi",
+            "học"
+          ],
+          "answer_index": 1,
+          "answer_text": "học rất giỏi"
+        },
+        {
+          "id": "V5E02Q09",
+          "question": "Từ nào viết đúng: 'cây tre' hay 'cây che'?",
+          "options": [
+            "cây tre",
+            "cây che"
+          ],
+          "answer_index": 0,
+          "answer_text": "cây tre"
+        },
+        {
+          "id": "V5E02Q10",
+          "question": "Dấu câu nào dùng để kết thúc một câu kể?",
+          "options": [
+            "Dấu chấm",
+            "Dấu phẩy",
+            "Dấu chấm hỏi",
+            "Dấu chấm than"
+          ],
+          "answer_index": 0,
+          "answer_text": "Dấu chấm"
+        },
+        {
+          "id": "V5E02Q11",
+          "question": "Chọn từ đúng để điền vào chỗ trống: '... mặt gửi vàng'",
+          "options": [
+            "Chọn",
+            "Trọn"
+          ],
+          "answer_index": 0,
+          "answer_text": "Chọn"
+        },
+        {
+          "id": "V5E02Q12",
+          "question": "Câu 'Vì chăm học, bạn ấy đã đạt kết quả cao.' có bộ phận nào là trạng ngữ?",
+          "options": [
+            "Vì chăm học",
+            "bạn ấy",
+            "đã đạt kết quả cao",
+            "kết quả cao"
+          ],
+          "answer_index": 0,
+          "answer_text": "Vì chăm học"
+        },
+        {
+          "id": "V5E02Q13",
+          "question": "Từ 'xinh xắn' được viết đúng chính tả chưa?",
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answer_index": 0,
+          "answer_text": "Đúng"
+        },
+        {
+          "id": "V5E02Q14",
+          "question": "Trong câu 'Hôm qua, em đi học.', bộ phận nào chỉ thời gian?",
+          "options": [
+            "Hôm qua",
+            "em",
+            "đi học",
+            "em đi học"
+          ],
+          "answer_index": 0,
+          "answer_text": "Hôm qua"
+        },
+        {
+          "id": "V5E02Q15",
+          "question": "Điền 'd', 'gi' hoặc 'r' vào chỗ trống: Em ...ành dụm tiền mua quà tặng mẹ.",
+          "options": [
+            "d",
+            "gi",
+            "r"
+          ],
+          "answer_index": 0,
+          "answer_text": "d"
+        }
+      ]
+    },
+    {
+      "id": "VIE5_EASY_03",
+      "name": "Chủ đề 3: Đọc hiểu văn bản",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V5E03Q01",
+          "question": "Đọc đoạn văn sau và trả lời: 'Mùa xuân, cây gạo gọi đến bao nhiêu là chim. Từ xa nhìn lại, cây gạo sừng sững như một tháp đèn khổng lồ.' Cây gạo được so sánh với cái gì?",
+          "options": [
+            "ngọn đuốc",
+            "ngọn núi",
+            "tháp đèn khổng lồ",
+            "ngôi nhà"
+          ],
+          "answer_index": 2,
+          "answer_text": "tháp đèn khổng lồ"
+        },
+        {
+          "id": "V5E03Q02",
+          "question": "Đọc câu thơ 'Quê hương là chùm khế ngọt'. Tác giả so sánh quê hương với hình ảnh nào?",
+          "options": [
+            "dòng sông",
+            "con đò",
+            "chùm khế ngọt",
+            "cánh diều"
+          ],
+          "answer_index": 2,
+          "answer_text": "chùm khế ngọt"
+        },
+        {
+          "id": "V5E03Q03",
+          "question": "Nội dung chính của câu chuyện 'Sự tích Hồ Gươm' là gì?",
+          "options": [
+            "Giải thích tên gọi Hồ Gươm",
+            "Ca ngợi cuộc kháng chiến chống quân Minh",
+            "Kể về vua Lê Lợi",
+            "Tất cả các ý trên"
+          ],
+          "answer_index": 3,
+          "answer_text": "Tất cả các ý trên"
+        },
+        {
+          "id": "V5E03Q04",
+          "question": "Trong bài thơ 'Lượm' của Tố Hữu, chú bé Lượm làm nhiệm vụ gì?",
+          "options": [
+            "Chăn trâu",
+            "Làm liên lạc",
+            "Trồng lúa",
+            "Đi học"
+          ],
+          "answer_index": 1,
+          "answer_text": "Làm liên lạc"
+        },
+        {
+          "id": "V5E03Q05",
+          "question": "Đọc đoạn văn sau: 'Ve kêu râm ran. Nắng hè gay gắt.' Đoạn văn tả mùa nào trong năm?",
+          "options": [
+            "Mùa xuân",
+            "Mùa hè",
+            "Mùa thu",
+            "Mùa đông"
+          ],
+          "answer_index": 1,
+          "answer_text": "Mùa hè"
+        },
+        {
+          "id": "V5E03Q06",
+          "question": "Trong câu chuyện 'Cây tre trăm đốt', anh Khoai đã làm gì để các đốt tre dính lại với nhau?",
+          "options": [
+            "Dùng keo dán",
+            "Hô câu thần chú 'Khắc nhập'",
+            "Buộc bằng dây",
+            "Nhờ Bụt giúp"
+          ],
+          "answer_index": 1,
+          "answer_text": "Hô câu thần chú 'Khắc nhập'"
+        },
+        {
+          "id": "V5E03Q07",
+          "question": "Nhân vật Dế Mèn trong truyện 'Dế Mèn phiêu lưu kí' có tính cách nổi bật nào lúc đầu?",
+          "options": [
+            "Khiêm tốn",
+            "Kiêu căng, hống hách",
+            "Nhút nhát",
+            "Hiền lành"
+          ],
+          "answer_index": 1,
+          "answer_text": "Kiêu căng, hống hách"
+        },
+        {
+          "id": "V5E03Q08",
+          "question": "Bài thơ 'Tre Việt Nam' của Nguyễn Duy ca ngợi phẩm chất gì của cây tre?",
+          "options": [
+            "Mềm dẻo",
+            "Đoàn kết, kiên cường",
+            "Yếu ớt",
+            "Dễ gãy"
+          ],
+          "answer_index": 1,
+          "answer_text": "Đoàn kết, kiên cường"
+        },
+        {
+          "id": "V5E03Q09",
+          "question": "Trong truyện 'Sơn Tinh, Thủy Tinh', ai là người đã chiến thắng để cưới được Mị Nương?",
+          "options": [
+            "Sơn Tinh",
+            "Thủy Tinh",
+            "Cả hai",
+            "Không ai cả"
+          ],
+          "answer_index": 0,
+          "answer_text": "Sơn Tinh"
+        },
+        {
+          "id": "V5E03Q10",
+          "question": "Câu tục ngữ 'Uống nước nhớ nguồn' khuyên chúng ta điều gì?",
+          "options": [
+            "Phải uống nhiều nước",
+            "Phải biết tiết kiệm nước",
+            "Phải biết ơn người đã giúp đỡ mình",
+            "Phải tìm đến nguồn nước sạch"
+          ],
+          "answer_index": 2,
+          "answer_text": "Phải biết ơn người đã giúp đỡ mình"
+        },
+        {
+          "id": "V5E03Q11",
+          "question": "Đọc đoạn văn: 'Sáng sớm, sương long lanh trên những chiếc lá.' Hình ảnh 'sương long lanh' gợi tả điều gì?",
+          "options": [
+            "Sự khô héo",
+            "Sự trong trẻo, tinh khôi",
+            "Sự u ám",
+            "Sự nóng nực"
+          ],
+          "answer_index": 1,
+          "answer_text": "Sự trong trẻo, tinh khôi"
+        },
+        {
+          "id": "V5E03Q12",
+          "question": "Truyện cổ tích 'Thạch Sanh' ca ngợi điều gì?",
+          "options": [
+            "Sức mạnh của tiền bạc",
+            "Sức mạnh của cái thiện, của chính nghĩa",
+            "Sức mạnh của quyền lực",
+            "Sự may mắn"
+          ],
+          "answer_index": 1,
+          "answer_text": "Sức mạnh của cái thiện, của chính nghĩa"
+        },
+        {
+          "id": "V5E03Q13",
+          "question": "Câu 'Mặt trời đỏ như quả cầu lửa' sử dụng biện pháp nghệ thuật gì?",
+          "options": [
+            "So sánh",
+            "Nhân hóa",
+            "Ẩn dụ",
+            "Hoán dụ"
+          ],
+          "answer_index": 0,
+          "answer_text": "So sánh"
+        },
+        {
+          "id": "V5E03Q14",
+          "question": "Trong bài 'Hạt gạo làng ta', hạt gạo được làm nên từ những gì?",
+          "options": [
+            "Công sức của người nông dân",
+            "Nắng, mưa, sấm, chớp",
+            "Mồ hôi, công sức, tình cảm của con người",
+            "Chỉ cần gieo mạ là có"
+          ],
+          "answer_index": 2,
+          "answer_text": "Mồ hôi, công sức, tình cảm của con người"
+        },
+        {
+          "id": "V5E03Q15",
+          "question": "Ý nghĩa của câu 'Lá lành đùm lá rách' là gì?",
+          "options": [
+            "Dùng lá lành để gói lá rách",
+            "Khuyên người ta yêu thương, đùm bọc lẫn nhau",
+            "Vứt bỏ lá rách",
+            "Chỉ quan tâm đến bản thân"
+          ],
+          "answer_index": 1,
+          "answer_text": "Khuyên người ta yêu thương, đùm bọc lẫn nhau"
+        },
+        {
+          "id": "V5E03Q16",
+          "question": "Đọc khổ thơ: 'Việt Nam đất nước ta ơi / Mênh mông biển lúa đâu trời đẹp hơn'. Hai câu thơ thể hiện tình cảm gì của tác giả?",
+          "options": [
+            "Buồn bã",
+            "Tự hào, yêu mến quê hương",
+            "Thất vọng",
+            "Sợ hãi"
+          ],
+          "answer_index": 1,
+          "answer_text": "Tự hào, yêu mến quê hương"
+        },
+        {
+          "id": "V5E03Q17",
+          "question": "Nhân vật chị Dậu trong tác phẩm 'Tắt đèn' của Ngô Tất Tố là người phụ nữ như thế nào?",
+          "options": [
+            "Giàu có, sung sướng",
+            "Yếu đuối, cam chịu",
+            "Mạnh mẽ, yêu thương chồng con",
+            "Độc ác, tàn nhẫn"
+          ],
+          "answer_index": 2,
+          "answer_text": "Mạnh mẽ, yêu thương chồng con"
+        },
+        {
+          "id": "V5E03Q18",
+          "question": "Đoạn văn tả cảnh thường có những yếu tố nào?",
+          "options": [
+            "Thời gian, không gian, hình ảnh, âm thanh",
+            "Chỉ có nhân vật",
+            "Chỉ có lời thoại",
+            "Chỉ có hành động"
+          ],
+          "answer_index": 0,
+          "answer_text": "Thời gian, không gian, hình ảnh, âm thanh"
+        },
+        {
+          "id": "V5E03Q19",
+          "question": "Câu 'Chú gà trống gáy vang ò ó o...' sử dụng biện pháp tu từ gì?",
+          "options": [
+            "So sánh",
+            "Nhân hóa",
+            "Điệp ngữ",
+            "Ẩn dụ"
+          ],
+          "answer_index": 1,
+          "answer_text": "Nhân hóa"
+        },
+        {
+          "id": "V5E03Q20",
+          "question": "Truyền thuyết 'Thánh Gióng' thể hiện điều gì?",
+          "options": [
+            "Tinh thần yêu nước, chống giặc ngoại xâm của dân tộc ta",
+            "Sức mạnh của một cá nhân",
+            "Sự giúp đỡ của thần linh",
+            "Nguồn gốc của tre đằng ngà"
+          ],
+          "answer_index": 0,
+          "answer_text": "Tinh thần yêu nước, chống giặc ngoại xâm của dân tộc ta"
+        }
+      ]
+    }
+  ]
+}

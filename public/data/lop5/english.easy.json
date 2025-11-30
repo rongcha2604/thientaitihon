@@ -1,0 +1,1240 @@
+{
+  "meta": {
+    "grade": 5,
+    "subject": "English",
+    "language": "en",
+    "created_date": "2025-11-04",
+    "level": "easy",
+    "curriculum": "New Program"
+  },
+  "topics": [
+    {
+      "id": "ENG5_EASY_01",
+      "name": "Topic 1: Vocabulary & Basic Structures",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "E5E01Q01",
+          "question": "What is your name?",
+          "options": [
+            "I'm fine, thank you.",
+            "My name is Lan.",
+            "I'm ten years old.",
+            "I live in Hanoi."
+          ],
+          "answer_index": 1,
+          "answer_text": "My name is Lan."
+        },
+        {
+          "id": "E5E01Q02",
+          "question": "How old are you?",
+          "options": [
+            "I am ten years old.",
+            "I like pizza.",
+            "I have a brother.",
+            "My favorite color is blue."
+          ],
+          "answer_index": 0,
+          "answer_text": "I am ten years old."
+        },
+        {
+          "id": "E5E01Q03",
+          "question": "Where are you from?",
+          "options": [
+            "I am from Vietnam.",
+            "I am a student.",
+            "I can swim.",
+            "I go to school by bus."
+          ],
+          "answer_index": 0,
+          "answer_text": "I am from Vietnam."
+        },
+        {
+          "id": "E5E01Q04",
+          "question": "What is this? - It's a ____.",
+          "options": [
+            "book",
+            "run",
+            "happy",
+            "on"
+          ],
+          "answer_index": 0,
+          "answer_text": "book"
+        },
+        {
+          "id": "E5E01Q05",
+          "question": "A person who teaches students is a ____.",
+          "options": [
+            "doctor",
+            "teacher",
+            "farmer",
+            "singer"
+          ],
+          "answer_index": 1,
+          "answer_text": "teacher"
+        },
+        {
+          "id": "E5E01Q06",
+          "question": "The opposite of 'big' is ____.",
+          "options": [
+            "small",
+            "tall",
+            "long",
+            "fat"
+          ],
+          "answer_index": 0,
+          "answer_text": "small"
+        },
+        {
+          "id": "E5E01Q07",
+          "question": "We use our eyes to ____.",
+          "options": [
+            "see",
+            "hear",
+            "smell",
+            "taste"
+          ],
+          "answer_index": 0,
+          "answer_text": "see"
+        },
+        {
+          "id": "E5E01Q08",
+          "question": "A cat says ____.",
+          "options": [
+            "meow",
+            "woof",
+            "oink",
+            "moo"
+          ],
+          "answer_index": 0,
+          "answer_text": "meow"
+        },
+        {
+          "id": "E5E01Q09",
+          "question": "What color is the sun?",
+          "options": [
+            "Blue",
+            "Green",
+            "Yellow",
+            "Red"
+          ],
+          "answer_index": 2,
+          "answer_text": "Yellow"
+        },
+        {
+          "id": "E5E01Q10",
+          "question": "How many days are there in a week?",
+          "options": [
+            "Five",
+            "Six",
+            "Seven",
+            "Eight"
+          ],
+          "answer_index": 2,
+          "answer_text": "Seven"
+        },
+        {
+          "id": "E5E01Q11",
+          "question": "Which animal can fly?",
+          "options": [
+            "A dog",
+            "A fish",
+            "A bird",
+            "A cat"
+          ],
+          "answer_index": 2,
+          "answer_text": "A bird"
+        },
+        {
+          "id": "E5E01Q12",
+          "question": "What do you do in the evening?",
+          "options": [
+            "I have breakfast.",
+            "I go to school.",
+            "I watch TV.",
+            "I have lunch."
+          ],
+          "answer_index": 2,
+          "answer_text": "I watch TV."
+        },
+        {
+          "id": "E5E01Q13",
+          "question": "My father's son is my ____.",
+          "options": [
+            "sister",
+            "brother",
+            "mother",
+            "aunt"
+          ],
+          "answer_index": 1,
+          "answer_text": "brother"
+        },
+        {
+          "id": "E5E01Q14",
+          "question": "A ____ is a place where we can borrow books.",
+          "options": [
+            "library",
+            "supermarket",
+            "hospital",
+            "park"
+          ],
+          "answer_index": 0,
+          "answer_text": "library"
+        },
+        {
+          "id": "E5E01Q15",
+          "question": "What's the weather like today? - It's ____.",
+          "options": [
+            "sunny",
+            "run",
+            "book",
+            "happy"
+          ],
+          "answer_index": 0,
+          "answer_text": "sunny"
+        },
+        {
+          "id": "E5E01Q16",
+          "question": "I have a new ____. I can ride it to school.",
+          "options": [
+            "car",
+            "bike",
+            "boat",
+            "plane"
+          ],
+          "answer_index": 1,
+          "answer_text": "bike"
+        },
+        {
+          "id": "E5E01Q17",
+          "question": "The color of an apple is often ____.",
+          "options": [
+            "blue",
+            "purple",
+            "black",
+            "red"
+          ],
+          "answer_index": 3,
+          "answer_text": "red"
+        },
+        {
+          "id": "E5E01Q18",
+          "question": "We write with a ____.",
+          "options": [
+            "pen",
+            "ruler",
+            "eraser",
+            "book"
+          ],
+          "answer_index": 0,
+          "answer_text": "pen"
+        },
+        {
+          "id": "E5E01Q19",
+          "question": "The capital of Vietnam is ____.",
+          "options": [
+            "Ho Chi Minh City",
+            "Da Nang",
+            "Hanoi",
+            "Hue"
+          ],
+          "answer_index": 2,
+          "answer_text": "Hanoi"
+        },
+        {
+          "id": "E5E01Q20",
+          "question": "What do you like to drink?",
+          "options": [
+            "I like milk.",
+            "I like chicken.",
+            "I like rice.",
+            "I like bread."
+          ],
+          "answer_index": 0,
+          "answer_text": "I like milk."
+        },
+        {
+          "id": "E5E01Q21",
+          "question": "An animal that lives in water is a ____.",
+          "options": [
+            "fish",
+            "bird",
+            "monkey",
+            "lion"
+          ],
+          "answer_index": 0,
+          "answer_text": "fish"
+        },
+        {
+          "id": "E5E01Q22",
+          "question": "The number after nine is ____.",
+          "options": [
+            "eight",
+            "seven",
+            "ten",
+            "six"
+          ],
+          "answer_index": 2,
+          "answer_text": "ten"
+        },
+        {
+          "id": "E5E01Q23",
+          "question": "My mother's sister is my ____.",
+          "options": [
+            "uncle",
+            "aunt",
+            "cousin",
+            "brother"
+          ],
+          "answer_index": 1,
+          "answer_text": "aunt"
+        },
+        {
+          "id": "E5E01Q24",
+          "question": "What is your favorite subject?",
+          "options": [
+            "I like Math.",
+            "I like apples.",
+            "I am at school.",
+            "It is a book."
+          ],
+          "answer_index": 0,
+          "answer_text": "I like Math."
+        },
+        {
+          "id": "E5E01Q25",
+          "question": "A ____ helps sick people.",
+          "options": [
+            "doctor",
+            "teacher",
+            "police officer",
+            "farmer"
+          ],
+          "answer_index": 0,
+          "answer_text": "doctor"
+        }
+      ]
+    },
+    {
+      "id": "ENG5_EASY_02",
+      "name": "Topic 2: Present Simple & Prepositions",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "E5E02Q01",
+          "question": "She ____ to school every day.",
+          "options": [
+            "go",
+            "goes",
+            "is going",
+            "went"
+          ],
+          "answer_index": 1,
+          "answer_text": "goes"
+        },
+        {
+          "id": "E5E02Q02",
+          "question": "The book is ____ the table.",
+          "options": [
+            "on",
+            "in",
+            "at",
+            "under"
+          ],
+          "answer_index": 0,
+          "answer_text": "on"
+        },
+        {
+          "id": "E5E02Q03",
+          "question": "They ____ football on Sundays.",
+          "options": [
+            "plays",
+            "is playing",
+            "play",
+            "played"
+          ],
+          "answer_index": 2,
+          "answer_text": "play"
+        },
+        {
+          "id": "E5E02Q04",
+          "question": "He ____ like coffee.",
+          "options": [
+            "don't",
+            "doesn't",
+            "isn't",
+            "aren't"
+          ],
+          "answer_index": 1,
+          "answer_text": "doesn't"
+        },
+        {
+          "id": "E5E02Q05",
+          "question": "I live ____ a big city.",
+          "options": [
+            "at",
+            "on",
+            "in",
+            "with"
+          ],
+          "answer_index": 2,
+          "answer_text": "in"
+        },
+        {
+          "id": "E5E02Q06",
+          "question": "The cat is sleeping ____ the chair.",
+          "options": [
+            "under",
+            "on",
+            "at",
+            "to"
+          ],
+          "answer_index": 0,
+          "answer_text": "under"
+        },
+        {
+          "id": "E5E02Q07",
+          "question": "We ____ English at school.",
+          "options": [
+            "study",
+            "studies",
+            "is studying",
+            "studied"
+          ],
+          "answer_index": 0,
+          "answer_text": "study"
+        },
+        {
+          "id": "E5E02Q08",
+          "question": "My birthday is ____ June.",
+          "options": [
+            "on",
+            "in",
+            "at",
+            "from"
+          ],
+          "answer_index": 1,
+          "answer_text": "in"
+        },
+        {
+          "id": "E5E02Q09",
+          "question": "____ you like ice cream?",
+          "options": [
+            "Do",
+            "Does",
+            "Are",
+            "Is"
+          ],
+          "answer_index": 0,
+          "answer_text": "Do"
+        },
+        {
+          "id": "E5E02Q10",
+          "question": "The school is ____ the park.",
+          "options": [
+            "between",
+            "next to",
+            "in",
+            "on"
+          ],
+          "answer_index": 1,
+          "answer_text": "next to"
+        },
+        {
+          "id": "E5E02Q11",
+          "question": "He often ____ his homework in the afternoon.",
+          "options": [
+            "do",
+            "does",
+            "is doing",
+            "did"
+          ],
+          "answer_index": 1,
+          "answer_text": "does"
+        },
+        {
+          "id": "E5E02Q12",
+          "question": "The meeting is ____ 9 AM.",
+          "options": [
+            "at",
+            "on",
+            "in",
+            "for"
+          ],
+          "answer_index": 0,
+          "answer_text": "at"
+        },
+        {
+          "id": "E5E02Q13",
+          "question": "My parents ____ in a hospital.",
+          "options": [
+            "work",
+            "works",
+            "is working",
+            "worked"
+          ],
+          "answer_index": 0,
+          "answer_text": "work"
+        },
+        {
+          "id": "E5E02Q14",
+          "question": "The children are playing ____ the garden.",
+          "options": [
+            "on",
+            "at",
+            "in",
+            "under"
+          ],
+          "answer_index": 2,
+          "answer_text": "in"
+        },
+        {
+          "id": "E5E02Q15",
+          "question": "What time ____ you get up?",
+          "options": [
+            "do",
+            "does",
+            "are",
+            "is"
+          ],
+          "answer_index": 0,
+          "answer_text": "do"
+        },
+        {
+          "id": "E5E02Q16",
+          "question": "He is sitting ____ his friend.",
+          "options": [
+            "next to",
+            "in",
+            "on",
+            "at"
+          ],
+          "answer_index": 0,
+          "answer_text": "next to"
+        },
+        {
+          "id": "E5E02Q17",
+          "question": "The sun ____ in the east.",
+          "options": [
+            "rise",
+            "rises",
+            "is rising",
+            "rose"
+          ],
+          "answer_index": 1,
+          "answer_text": "rises"
+        },
+        {
+          "id": "E5E02Q18",
+          "question": "She put the keys ____ her bag.",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "under"
+          ],
+          "answer_index": 0,
+          "answer_text": "in"
+        },
+        {
+          "id": "E5E02Q19",
+          "question": "I usually go to bed ____ 10 o'clock.",
+          "options": [
+            "on",
+            "in",
+            "at",
+            "by"
+          ],
+          "answer_index": 2,
+          "answer_text": "at"
+        },
+        {
+          "id": "E5E02Q20",
+          "question": "____ your father a doctor?",
+          "options": [
+            "Is",
+            "Are",
+            "Do",
+            "Does"
+          ],
+          "answer_index": 0,
+          "answer_text": "Is"
+        },
+        {
+          "id": "E5E02Q21",
+          "question": "The picture is hanging ____ the wall.",
+          "options": [
+            "on",
+            "in",
+            "at",
+            "above"
+          ],
+          "answer_index": 0,
+          "answer_text": "on"
+        },
+        {
+          "id": "E5E02Q22",
+          "question": "Monkeys ____ in trees.",
+          "options": [
+            "live",
+            "lives",
+            "is living",
+            "lived"
+          ],
+          "answer_index": 0,
+          "answer_text": "live"
+        },
+        {
+          "id": "E5E02Q23",
+          "question": "He comes to visit us ____ Christmas.",
+          "options": [
+            "on",
+            "in",
+            "at",
+            "by"
+          ],
+          "answer_index": 2,
+          "answer_text": "at"
+        },
+        {
+          "id": "E5E02Q24",
+          "question": "I ____ have any pets.",
+          "options": [
+            "don't",
+            "doesn't",
+            "am not",
+            "not"
+          ],
+          "answer_index": 0,
+          "answer_text": "don't"
+        },
+        {
+          "id": "E5E02Q25",
+          "question": "We go on holiday ____ summer.",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "for"
+          ],
+          "answer_index": 0,
+          "answer_text": "in"
+        }
+      ]
+    },
+    {
+      "id": "ENG5_EASY_03",
+      "name": "Topic 3: Can/Can't & Wh-Questions",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "E5E03Q01",
+          "question": "I ____ swim, but I can't fly.",
+          "options": [
+            "can",
+            "can't",
+            "am",
+            "is"
+          ],
+          "answer_index": 0,
+          "answer_text": "can"
+        },
+        {
+          "id": "E5E03Q02",
+          "question": "____ is your favorite food?",
+          "options": [
+            "What",
+            "Where",
+            "When",
+            "Who"
+          ],
+          "answer_index": 0,
+          "answer_text": "What"
+        },
+        {
+          "id": "E5E03Q03",
+          "question": "A bird can ____, but a fish can't.",
+          "options": [
+            "fly",
+            "swim",
+            "run",
+            "climb"
+          ],
+          "answer_index": 0,
+          "answer_text": "fly"
+        },
+        {
+          "id": "E5E03Q04",
+          "question": "____ do you live?",
+          "options": [
+            "What",
+            "Where",
+            "When",
+            "Who"
+          ],
+          "answer_index": 1,
+          "answer_text": "Where"
+        },
+        {
+          "id": "E5E03Q05",
+          "question": "He ____ play the guitar very well.",
+          "options": [
+            "can",
+            "is",
+            "do",
+            "have"
+          ],
+          "answer_index": 0,
+          "answer_text": "can"
+        },
+        {
+          "id": "E5E03Q06",
+          "question": "____ is your birthday?",
+          "options": [
+            "What",
+            "Where",
+            "When",
+            "Who"
+          ],
+          "answer_index": 2,
+          "answer_text": "When"
+        },
+        {
+          "id": "E5E03Q07",
+          "question": "They ____ speak English.",
+          "options": [
+            "can't",
+            "don't",
+            "aren't",
+            "isn't"
+          ],
+          "answer_index": 0,
+          "answer_text": "can't"
+        },
+        {
+          "id": "E5E03Q08",
+          "question": "____ is that man? - He is my father.",
+          "options": [
+            "What",
+            "Where",
+            "When",
+            "Who"
+          ],
+          "answer_index": 3,
+          "answer_text": "Who"
+        },
+        {
+          "id": "E5E03Q09",
+          "question": "____ can you run fast? - Yes, I can.",
+          "options": [
+            "Can",
+            "Do",
+            "Are",
+            "Is"
+          ],
+          "answer_index": 0,
+          "answer_text": "Can"
+        },
+        {
+          "id": "E5E03Q10",
+          "question": "____ do you go to school? - At 7 o'clock.",
+          "options": [
+            "What time",
+            "What",
+            "Where",
+            "Who"
+          ],
+          "answer_index": 0,
+          "answer_text": "What time"
+        },
+        {
+          "id": "E5E03Q11",
+          "question": "Sorry, I ____ hear you.",
+          "options": [
+            "can",
+            "can't",
+            "do",
+            "am"
+          ],
+          "answer_index": 1,
+          "answer_text": "can't"
+        },
+        {
+          "id": "E5E03Q12",
+          "question": "____ are you crying? - Because I am sad.",
+          "options": [
+            "What",
+            "Where",
+            "Why",
+            "Who"
+          ],
+          "answer_index": 2,
+          "answer_text": "Why"
+        },
+        {
+          "id": "E5E03Q13",
+          "question": "She can ____ a bike.",
+          "options": [
+            "ride",
+            "drive",
+            "fly",
+            "swim"
+          ],
+          "answer_index": 0,
+          "answer_text": "ride"
+        },
+        {
+          "id": "E5E03Q14",
+          "question": "____ is this book? - It's mine.",
+          "options": [
+            "Whose",
+            "Who",
+            "What",
+            "Where"
+          ],
+          "answer_index": 0,
+          "answer_text": "Whose"
+        },
+        {
+          "id": "E5E03Q15",
+          "question": "We ____ go to the party tonight.",
+          "options": [
+            "can",
+            "is",
+            "do",
+            "have"
+          ],
+          "answer_index": 0,
+          "answer_text": "can"
+        },
+        {
+          "id": "E5E03Q16",
+          "question": "____ do you usually do on weekends?",
+          "options": [
+            "What",
+            "Where",
+            "When",
+            "Who"
+          ],
+          "answer_index": 0,
+          "answer_text": "What"
+        },
+        {
+          "id": "E5E03Q17",
+          "question": "A fish can ____.",
+          "options": [
+            "swim",
+            "fly",
+            "run",
+            "sing"
+          ],
+          "answer_index": 0,
+          "answer_text": "swim"
+        },
+        {
+          "id": "E5E03Q18",
+          "question": "____ tall are you?",
+          "options": [
+            "How",
+            "What",
+            "Where",
+            "Who"
+          ],
+          "answer_index": 0,
+          "answer_text": "How"
+        },
+        {
+          "id": "E5E03Q19",
+          "question": "Lions ____ climb trees, but they can run fast.",
+          "options": [
+            "can",
+            "can't",
+            "do",
+            "are"
+          ],
+          "answer_index": 0,
+          "answer_text": "can"
+        },
+        {
+          "id": "E5E03Q20",
+          "question": "____ is he from? - He is from Japan.",
+          "options": [
+            "What",
+            "Where",
+            "When",
+            "Why"
+          ],
+          "answer_index": 1,
+          "answer_text": "Where"
+        },
+        {
+          "id": "E5E03Q21",
+          "question": "My little brother ____ walk yet.",
+          "options": [
+            "can",
+            "can't",
+            "is",
+            "do"
+          ],
+          "answer_index": 1,
+          "answer_text": "can't"
+        },
+        {
+          "id": "E5E03Q22",
+          "question": "____ is your English teacher?",
+          "options": [
+            "What",
+            "Where",
+            "When",
+            "Who"
+          ],
+          "answer_index": 3,
+          "answer_text": "Who"
+        },
+        {
+          "id": "E5E03Q23",
+          "question": "Can you help me? - Yes, I ____.",
+          "options": [
+            "can",
+            "can't",
+            "do",
+            "am"
+          ],
+          "answer_index": 0,
+          "answer_text": "can"
+        },
+        {
+          "id": "E5E03Q24",
+          "question": "____ books are on the table? - Three books.",
+          "options": [
+            "How many",
+            "How much",
+            "What",
+            "Where"
+          ],
+          "answer_index": 0,
+          "answer_text": "How many"
+        },
+        {
+          "id": "E5E03Q25",
+          "question": "She ____ play chess, but she can play the piano.",
+          "options": [
+            "can",
+            "can't",
+            "is",
+            "does"
+          ],
+          "answer_index": 1,
+          "answer_text": "can't"
+        }
+      ]
+    },
+    {
+      "id": "ENG5_EASY_04",
+      "name": "Topic 4: Plurals & There is/There are",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "E5E04Q01",
+          "question": "There ____ a book on the desk.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "answer_index": 0,
+          "answer_text": "is"
+        },
+        {
+          "id": "E5E04Q02",
+          "question": "There are many ____ in the classroom.",
+          "options": [
+            "student",
+            "students",
+            "a student",
+            "studentes"
+          ],
+          "answer_index": 1,
+          "answer_text": "students"
+        },
+        {
+          "id": "E5E04Q03",
+          "question": "____ there a cat under the table?",
+          "options": [
+            "Is",
+            "Are",
+            "Do",
+            "Does"
+          ],
+          "answer_index": 0,
+          "answer_text": "Is"
+        },
+        {
+          "id": "E5E04Q04",
+          "question": "I have two ____.",
+          "options": [
+            "sister",
+            "sisters",
+            "a sister",
+            "sisteres"
+          ],
+          "answer_index": 1,
+          "answer_text": "sisters"
+        },
+        {
+          "id": "E5E04Q05",
+          "question": "There ____ some apples in the basket.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "answer_index": 1,
+          "answer_text": "are"
+        },
+        {
+          "id": "E5E04Q06",
+          "question": "He has three ____.",
+          "options": [
+            "watch",
+            "watches",
+            "a watch",
+            "watchs"
+          ],
+          "answer_index": 1,
+          "answer_text": "watches"
+        },
+        {
+          "id": "E5E04Q07",
+          "question": "____ there any milk in the fridge?",
+          "options": [
+            "Is",
+            "Are",
+            "Do",
+            "Does"
+          ],
+          "answer_index": 0,
+          "answer_text": "Is"
+        },
+        {
+          "id": "E5E04Q08",
+          "question": "These are my ____.",
+          "options": [
+            "foot",
+            "foots",
+            "feet",
+            "feets"
+          ],
+          "answer_index": 2,
+          "answer_text": "feet"
+        },
+        {
+          "id": "E5E04Q09",
+          "question": "There ____ a big tree in front of my house.",
+          "options": [
+            "is",
+            "are",
+            "has",
+            "have"
+          ],
+          "answer_index": 0,
+          "answer_text": "is"
+        },
+        {
+          "id": "E5E04Q10",
+          "question": "There are five ____ on the farm.",
+          "options": [
+            "sheep",
+            "sheeps",
+            "a sheep",
+            "sheepes"
+          ],
+          "answer_index": 0,
+          "answer_text": "sheep"
+        },
+        {
+          "id": "E5E04Q11",
+          "question": "____ there any children in the park?",
+          "options": [
+            "Is",
+            "Are",
+            "Was",
+            "Were"
+          ],
+          "answer_index": 1,
+          "answer_text": "Are"
+        },
+        {
+          "id": "E5E04Q12",
+          "question": "A dentist looks after our ____.",
+          "options": [
+            "tooth",
+            "teeth",
+            "tooths",
+            "teethes"
+          ],
+          "answer_index": 1,
+          "answer_text": "teeth"
+        },
+        {
+          "id": "E5E04Q13",
+          "question": "There isn't ____ sugar in my coffee.",
+          "options": [
+            "some",
+            "any",
+            "a",
+            "an"
+          ],
+          "answer_index": 1,
+          "answer_text": "any"
+        },
+        {
+          "id": "E5E04Q14",
+          "question": "There are ten ____ in the picture.",
+          "options": [
+            "person",
+            "persons",
+            "people",
+            "peoples"
+          ],
+          "answer_index": 2,
+          "answer_text": "people"
+        },
+        {
+          "id": "E5E04Q15",
+          "question": "How many ____ are there in your family?",
+          "options": [
+            "child",
+            "childs",
+            "children",
+            "childrens"
+          ],
+          "answer_index": 2,
+          "answer_text": "children"
+        },
+        {
+          "id": "E5E04Q16",
+          "question": "There ____ no chairs in the room.",
+          "options": [
+            "is",
+            "are",
+            "am",
+            "be"
+          ],
+          "answer_index": 1,
+          "answer_text": "are"
+        },
+        {
+          "id": "E5E04Q17",
+          "question": "She bought two ____ of bread.",
+          "options": [
+            "loaf",
+            "loafs",
+            "loave",
+            "loaves"
+          ],
+          "answer_index": 3,
+          "answer_text": "loaves"
+        },
+        {
+          "id": "E5E04Q18",
+          "question": "There is ____ orange on the plate.",
+          "options": [
+            "a",
+            "an",
+            "some",
+            "any"
+          ],
+          "answer_index": 1,
+          "answer_text": "an"
+        },
+        {
+          "id": "E5E04Q19",
+          "question": "Look at those ____! They are so cute.",
+          "options": [
+            "goose",
+            "gooses",
+            "geese",
+            "geeses"
+          ],
+          "answer_index": 2,
+          "answer_text": "geese"
+        },
+        {
+          "id": "E5E04Q20",
+          "question": "There aren't ____ pictures on the wall.",
+          "options": [
+            "a",
+            "an",
+            "some",
+            "any"
+          ],
+          "answer_index": 3,
+          "answer_text": "any"
+        },
+        {
+          "id": "E5E04Q21",
+          "question": "A police officer often catches ____.",
+          "options": [
+            "thief",
+            "thiefs",
+            "thieve",
+            "thieves"
+          ],
+          "answer_index": 3,
+          "answer_text": "thieves"
+        },
+        {
+          "id": "E5E04Q22",
+          "question": "There ____ a lot of traffic in the morning.",
+          "options": [
+            "is",
+            "are",
+            "be",
+            "has"
+          ],
+          "answer_index": 0,
+          "answer_text": "is"
+        },
+        {
+          "id": "E5E04Q23",
+          "question": "How many ____ are there in the box?",
+          "options": [
+            "mouse",
+            "mouses",
+            "mice",
+            "mices"
+          ],
+          "answer_index": 2,
+          "answer_text": "mice"
+        },
+        {
+          "id": "E5E04Q24",
+          "question": "There is a beautiful ____ in the vase.",
+          "options": [
+            "flower",
+            "flowers",
+            "a flowers",
+            "floweres"
+          ],
+          "answer_index": 0,
+          "answer_text": "flower"
+        },
+        {
+          "id": "E5E04Q25",
+          "question": "My mother has many beautiful ____.",
+          "options": [
+            "scarf",
+            "scarfs",
+            "scarves",
+            "scarve"
+          ],
+          "answer_index": 2,
+          "answer_text": "scarves"
+        }
+      ]
+    }
+  ]
+}

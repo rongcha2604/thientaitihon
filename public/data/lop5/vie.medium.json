@@ -1,0 +1,513 @@
+{
+  "meta": {
+    "grade": 5,
+    "subject": "Tiếng Việt",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "medium",
+    "curriculum": "Chương trình mới"
+  },
+  "topics": [
+    {
+      "id": "VIE5_MEDIUM_01",
+      "name": "Chủ đề 1: Luyện từ và câu (Từ nhiều nghĩa, Câu ghép)",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "V5M01Q01",
+          "question": "Trong các câu sau, từ 'đầu' ở câu nào được dùng với nghĩa gốc?",
+          "options": [
+            "Em bé có cái đầu tròn xoe.",
+            "Nước từ đầu nguồn chảy về.",
+            "Bạn ấy đứng đầu lớp.",
+            "Làng em ở đầu sông."
+          ],
+          "answer_index": 0,
+          "answer_text": "Em bé có cái đầu tròn xoe."
+        },
+        {
+          "id": "V5M01Q02",
+          "question": "Câu 'Trời mưa to và gió thổi mạnh.' là loại câu gì?",
+          "options": [
+            "Câu đơn",
+            "Câu ghép",
+            "Câu đặc biệt",
+            "Câu rút gọn"
+          ],
+          "answer_index": 1,
+          "answer_text": "Câu ghép"
+        },
+        {
+          "id": "V5M01Q03",
+          "question": "Từ 'chín' trong câu 'Lúa ngoài đồng đã chín vàng.' và 'Em bé có nụ cười rất chín chắn.' có quan hệ với nhau như thế nào?",
+          "options": [
+            "Từ đồng nghĩa",
+            "Từ trái nghĩa",
+            "Từ đồng âm",
+            "Từ nhiều nghĩa"
+          ],
+          "answer_index": 3,
+          "answer_text": "Từ nhiều nghĩa"
+        },
+        {
+          "id": "V5M01Q04",
+          "question": "Hai vế của câu ghép 'Vì bạn Lan chăm chỉ nên bạn ấy đạt điểm cao.' được nối với nhau bằng cách nào?",
+          "options": [
+            "Nối trực tiếp (không dùng từ nối)",
+            "Nối bằng một quan hệ từ",
+            "Nối bằng một cặp quan hệ từ",
+            "Nối bằng một cặp từ hô ứng"
+          ],
+          "answer_index": 2,
+          "answer_text": "Nối bằng một cặp quan hệ từ"
+        },
+        {
+          "id": "V5M01Q05",
+          "question": "Trong các từ sau, từ nào không phải là từ láy: 'long lanh', 'lao xao', 'tươi tốt', ' rì rào'?",
+          "options": [
+            "long lanh",
+            "lao xao",
+            "tươi tốt",
+            "rì rào"
+          ],
+          "answer_index": 2,
+          "answer_text": "tươi tốt"
+        },
+        {
+          "id": "V5M01Q06",
+          "question": "Xác định chủ ngữ, vị ngữ trong vế câu thứ nhất của câu ghép: 'Nắng vừa nhạt, sương đã buông xuống mặt biển.'",
+          "options": [
+            "CN: Nắng, VN: vừa nhạt",
+            "CN: Nắng, VN: vừa nhạt, sương",
+            "CN: sương, VN: đã buông xuống mặt biển",
+            "CN: Nắng vừa nhạt, VN: sương đã buông"
+          ],
+          "answer_index": 0,
+          "answer_text": "CN: Nắng, VN: vừa nhạt"
+        },
+        {
+          "id": "V5M01Q07",
+          "question": "Từ 'xuân' trong 'Mùa xuân là Tết trồng cây' và 'Tuổi xuân' là hai từ:",
+          "options": [
+            "Đồng nghĩa",
+            "Trái nghĩa",
+            "Nhiều nghĩa",
+            "Đồng âm"
+          ],
+          "answer_index": 2,
+          "answer_text": "Nhiều nghĩa"
+        },
+        {
+          "id": "V5M01Q08",
+          "question": "Câu ghép 'Nếu trời mưa thì chúng em sẽ nghỉ học.' biểu thị quan hệ gì?",
+          "options": [
+            "Nguyên nhân - Kết quả",
+            "Điều kiện (giả thiết) - Kết quả",
+            "Tăng tiến",
+            "Tương phản"
+          ],
+          "answer_index": 1,
+          "answer_text": "Điều kiện (giả thiết) - Kết quả"
+        },
+        {
+          "id": "V5M01Q09",
+          "question": "Tìm từ có tiếng 'đồng' không cùng nghĩa với các từ còn lại: đồng hương, đồng đội, cánh đồng, đồng chí.",
+          "options": [
+            "đồng hương",
+            "đồng đội",
+            "cánh đồng",
+            "đồng chí"
+          ],
+          "answer_index": 2,
+          "answer_text": "cánh đồng"
+        },
+        {
+          "id": "V5M01Q10",
+          "question": "Cặp quan hệ từ nào thể hiện mối quan hệ tương phản?",
+          "options": [
+            "Vì...nên",
+            "Nếu...thì",
+            "Tuy...nhưng",
+            "Không những...mà"
+          ],
+          "answer_index": 2,
+          "answer_text": "Tuy...nhưng"
+        },
+        {
+          "id": "V5M01Q11",
+          "question": "Từ 'cân' trong 'cái cân' và 'cân đường' là:",
+          "options": [
+            "Từ đồng âm",
+            "Từ nhiều nghĩa",
+            "Từ đồng nghĩa",
+            "Từ trái nghĩa"
+          ],
+          "answer_index": 0,
+          "answer_text": "Từ đồng âm"
+        },
+        {
+          "id": "V5M01Q12",
+          "question": "Thêm một vế câu vào chỗ trống để tạo thành câu ghép: 'Chẳng những bạn Hùng học giỏi, ...'",
+          "options": [
+            "nên bạn được cô yêu.",
+            "mà bạn còn hát rất hay.",
+            "và bạn ấy rất ngoan.",
+            "vì bạn chăm học."
+          ],
+          "answer_index": 1,
+          "answer_text": "mà bạn còn hát rất hay."
+        },
+        {
+          "id": "V5M01Q13",
+          "question": "Dòng nào sau đây chỉ gồm các từ láy?",
+          "options": [
+            "xinh xắn, thật thà, chăm chỉ",
+            "long lanh, lấp lánh, lung linh",
+            "sách vở, bàn ghế, quần áo",
+            "núi non, sông ngòi, đất nước"
+          ],
+          "answer_index": 1,
+          "answer_text": "long lanh, lấp lánh, lung linh"
+        },
+        {
+          "id": "V5M01Q14",
+          "question": "Câu nào dưới đây là câu ghép?",
+          "options": [
+            "Mỗi khi hè về, hoa phượng lại nở đỏ rực.",
+            "Sáng nay, em đi học và chiều nay em đi chơi.",
+            "Chú mèo mướp nhà em rất thông minh.",
+            "Dòng sông quê em hiền hòa, êm ả."
+          ],
+          "answer_index": 1,
+          "answer_text": "Sáng nay, em đi học và chiều nay em đi chơi."
+        },
+        {
+          "id": "V5M01Q15",
+          "question": "Từ 'bay' trong 'đàn cò bay lả' và 'chiếc áo đã bay màu' là hai từ:",
+          "options": [
+            "Đồng nghĩa",
+            "Nhiều nghĩa",
+            "Đồng âm",
+            "Trái nghĩa"
+          ],
+          "answer_index": 1,
+          "answer_text": "Nhiều nghĩa"
+        }
+      ]
+    },
+    {
+      "id": "VIE5_MEDIUM_02",
+      "name": "Chủ đề 2: Tập làm văn",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "V5M02Q01",
+          "question": "Trong bài văn tả cảnh, phần mở bài thường có nhiệm vụ gì?",
+          "options": [
+            "Tả chi tiết từng bộ phận của cảnh",
+            "Nêu cảm nghĩ về cảnh vật",
+            "Giới thiệu bao quát về cảnh sẽ tả",
+            "Kể một câu chuyện về cảnh vật"
+          ],
+          "answer_index": 2,
+          "answer_text": "Giới thiệu bao quát về cảnh sẽ tả"
+        },
+        {
+          "id": "V5M02Q02",
+          "question": "Để tả một cơn mưa, em sẽ chọn trình tự miêu tả nào là hợp lí nhất?",
+          "options": [
+            "Lúc trời sắp mưa, trong cơn mưa, sau cơn mưa.",
+            "Tả bầu trời, tả mặt đất, tả cây cối.",
+            "Tả mưa to rồi đến mưa nhỏ dần.",
+            "Tả cảnh vật trước và sau khi mưa."
+          ],
+          "answer_index": 0,
+          "answer_text": "Lúc trời sắp mưa, trong cơn mưa, sau cơn mưa."
+        },
+        {
+          "id": "V5M02Q03",
+          "question": "Khi tả người, chi tiết nào là quan trọng nhất để làm nổi bật tính cách nhân vật?",
+          "options": [
+            "Màu tóc",
+            "Quần áo",
+            "Hành động, lời nói",
+            "Chiều cao"
+          ],
+          "answer_index": 2,
+          "answer_text": "Hành động, lời nói"
+        },
+        {
+          "id": "V5M02Q04",
+          "question": "Câu nào dưới đây sử dụng biện pháp nhân hóa để tả cảnh vật?",
+          "options": [
+            "Dòng sông chảy hiền hòa.",
+            "Mặt trời đỏ như quả cầu lửa.",
+            "Ông mặt trời mỉm cười chào ngày mới.",
+            "Những ngôi sao lấp lánh trên trời."
+          ],
+          "answer_index": 2,
+          "answer_text": "Ông mặt trời mỉm cười chào ngày mới."
+        },
+        {
+          "id": "V5M02Q05",
+          "question": "Phần kết bài của một bài văn tả người thường làm gì?",
+          "options": [
+            "Tả chi tiết ngoại hình",
+            "Nêu ấn tượng hoặc tình cảm của người viết đối với người được tả",
+            "Kể lại một kỉ niệm",
+            "Giới thiệu tên, tuổi"
+          ],
+          "answer_index": 1,
+          "answer_text": "Nêu ấn tượng hoặc tình cảm của người viết đối với người được tả"
+        },
+        {
+          "id": "V5M02Q06",
+          "question": "Dàn ý của một bài văn tả cảnh gồm mấy phần?",
+          "options": [
+            "1 phần",
+            "2 phần",
+            "3 phần",
+            "4 phần"
+          ],
+          "answer_index": 2,
+          "answer_text": "3 phần"
+        },
+        {
+          "id": "V5M02Q07",
+          "question": "Khi làm biên bản một cuộc họp, phần nào không thể thiếu?",
+          "options": [
+            "Cảm xúc của người viết",
+            "Thời gian, địa điểm, thành phần tham dự, nội dung, kết luận",
+            "Lời hứa của các thành viên",
+            "Trang trí biên bản"
+          ],
+          "answer_index": 1,
+          "answer_text": "Thời gian, địa điểm, thành phần tham dự, nội dung, kết luận"
+        },
+        {
+          "id": "V5M02Q08",
+          "question": "Để bài văn tả cảnh sinh động hơn, ta nên sử dụng giác quan nào?",
+          "options": [
+            "Chỉ dùng thị giác (mắt nhìn)",
+            "Chỉ dùng thính giác (tai nghe)",
+            "Chỉ dùng xúc giác (cảm nhận)",
+            "Kết hợp nhiều giác quan"
+          ],
+          "answer_index": 3,
+          "answer_text": "Kết hợp nhiều giác quan"
+        },
+        {
+          "id": "V5M02Q09",
+          "question": "Sắp xếp các câu sau theo trình tự hợp lí để tạo thành một đoạn văn tả cảnh hoàng hôn: (1) Mặt trời từ từ lặn xuống sau dãy núi. (2) Ráng chiều đỏ rực cả một góc trời. (3) Vài cánh chim vội vã bay về tổ. (4) Không gian trở nên yên tĩnh lạ thường.",
+          "options": [
+            "1-2-3-4",
+            "2-1-3-4",
+            "1-3-2-4",
+            "4-1-2-3"
+          ],
+          "answer_index": 0,
+          "answer_text": "1-2-3-4"
+        },
+        {
+          "id": "V5M02Q10",
+          "question": "Khi tả một em bé đang tuổi tập nói, tập đi, em sẽ tập trung vào những chi tiết nào?",
+          "options": [
+            "Vẻ bụ bẫm, đáng yêu và những hành động ngộ nghĩnh",
+            "Suy nghĩ, ước mơ của em bé",
+            "Thành tích học tập",
+            "Quần áo em bé mặc"
+          ],
+          "answer_index": 0,
+          "answer_text": "Vẻ bụ bẫm, đáng yêu và những hành động ngộ nghĩnh"
+        },
+        {
+          "id": "V5M02Q11",
+          "question": "Câu văn 'Những hàng cây đứng im phăng phắc' tả cảnh vật vào lúc nào?",
+          "options": [
+            "Trời có gió to",
+            "Trời sắp mưa",
+            "Trời lặng gió",
+            "Trời nắng gắt"
+          ],
+          "answer_index": 2,
+          "answer_text": "Trời lặng gió"
+        },
+        {
+          "id": "V5M02Q12",
+          "question": "Loại văn bản nào dùng để ghi lại nội dung, diễn biến, kết quả của một sự việc, một cuộc họp?",
+          "options": [
+            "Thư",
+            "Biên bản",
+            "Đơn",
+            "Báo cáo"
+          ],
+          "answer_index": 1,
+          "answer_text": "Biên bản"
+        },
+        {
+          "id": "V5M02Q13",
+          "question": "Trong văn kể chuyện, yếu tố nào là quan trọng nhất?",
+          "options": [
+            "Cốt truyện và nhân vật",
+            "Lời văn hay",
+            "Cảnh vật",
+            "Thời gian"
+          ],
+          "answer_index": 0,
+          "answer_text": "Cốt truyện và nhân vật"
+        },
+        {
+          "id": "V5M02Q14",
+          "question": "Câu 'Cánh đồng lúa chín vàng óng, trải dài như một tấm thảm' sử dụng biện pháp nghệ thuật gì?",
+          "options": [
+            "Nhân hóa",
+            "So sánh",
+            "Điệp ngữ",
+            "Cả nhân hóa và so sánh"
+          ],
+          "answer_index": 1,
+          "answer_text": "So sánh"
+        },
+        {
+          "id": "V5M02Q15",
+          "question": "Để viết một lá thư cho người thân ở xa, phần đầu thư em cần viết gì?",
+          "options": [
+            "Hỏi thăm sức khỏe",
+            "Kể chuyện của mình",
+            "Địa điểm, thời gian viết thư và lời xưng hô",
+            "Lời chúc cuối thư"
+          ],
+          "answer_index": 2,
+          "answer_text": "Địa điểm, thời gian viết thư và lời xưng hô"
+        }
+      ]
+    },
+    {
+      "id": "VIE5_MEDIUM_03",
+      "name": "Chủ đề 3: Đọc hiểu và Kể chuyện",
+      "difficulty": "medium",
+      "questions": [
+        {
+          "id": "V5M03Q01",
+          "question": "Đọc đoạn trích sau: '...Bà như quả ngọt chín rồi / Càng thêm tuổi tác, càng tươi lòng vàng.' (Võ Thanh An). Hai câu thơ nói lên điều gì về người bà?",
+          "options": [
+            "Bà có tấm lòng nhân hậu, đáng quý.",
+            "Bà đã rất già yếu.",
+            "Bà thích ăn quả ngọt.",
+            "Bà có làn da vàng."
+          ],
+          "answer_index": 0,
+          "answer_text": "Bà có tấm lòng nhân hậu, đáng quý."
+        },
+        {
+          "id": "V5M03Q02",
+          "question": "Trong bài 'Một chuyên gia máy xúc', vì sao anh A-lếch-xây và những người bạn đồng nghiệp lại tỏ ra không vui khi máy xúc của họ làm việc?",
+          "options": [
+            "Vì họ không thích công việc.",
+            "Vì họ thấy tiếc nuối vẻ đẹp thiên nhiên bị mất đi.",
+            "Vì máy xúc bị hỏng.",
+            "Vì họ phải làm việc vất vả."
+          ],
+          "answer_index": 1,
+          "answer_text": "Vì họ thấy tiếc nuối vẻ đẹp thiên nhiên bị mất đi."
+        },
+        {
+          "id": "V5M03Q03",
+          "question": "Câu chuyện 'Người đi săn và con vượn' khuyên chúng ta điều gì?",
+          "options": [
+            "Không nên đi săn thú rừng.",
+            "Phải bảo vệ động vật hoang dã.",
+            "Hãy yêu thương và không làm hại các loài vật.",
+            "Tất cả các ý trên."
+          ],
+          "answer_index": 3,
+          "answer_text": "Tất cả các ý trên."
+        },
+        {
+          "id": "V5M03Q04",
+          "question": "Nhân vật ông bụt trong truyện cổ tích thường đại diện cho điều gì?",
+          "options": [
+            "Cái ác, sự tàn nhẫn",
+            "Cái thiện, sự giúp đỡ",
+            "Sự giàu có, quyền lực",
+            "Sự ngốc nghếch"
+          ],
+          "answer_index": 1,
+          "answer_text": "Cái thiện, sự giúp đỡ"
+        },
+        {
+          "id": "V5M03Q05",
+          "question": "Khi kể lại một câu chuyện đã đọc theo lời của một nhân vật, em cần lưu ý điều gì nhất?",
+          "options": [
+            "Phải dùng đúng ngôi xưng 'tôi' hoặc 'em', 'mình'...",
+            "Phải kể đúng y nguyên từng chữ trong truyện.",
+            "Chỉ kể những đoạn có nhân vật đó xuất hiện.",
+            "Có thể thêm vào những chi tiết không có trong truyện."
+          ],
+          "answer_index": 0,
+          "answer_text": "Phải dùng đúng ngôi xưng 'tôi' hoặc 'em', 'mình'..."
+        },
+        {
+          "id": "V5M03Q06",
+          "question": "Trong bài 'Những con sếu bằng giấy', bạn nhỏ Xa-xa-cô đã hy vọng điều gì khi gấp những con sếu giấy?",
+          "options": [
+            "Mong được đi chơi",
+            "Mong khỏi bệnh",
+            "Mong có nhiều đồ chơi",
+            "Mong được gặp bạn bè"
+          ],
+          "answer_index": 1,
+          "answer_text": "Mong khỏi bệnh"
+        },
+        {
+          "id": "V5M03Q07",
+          "question": "Câu tục ngữ 'Có công mài sắt, có ngày nên kim' nói về đức tính gì?",
+          "options": [
+            "Siêng năng",
+            "Thông minh",
+            "Kiên trì, nhẫn nại",
+            "Dũng cảm"
+          ],
+          "answer_index": 2,
+          "answer_text": "Kiên trì, nhẫn nại"
+        },
+        {
+          "id": "V5M03Q08",
+          "question": "Ý nghĩa của câu chuyện 'Pa-xtơ và em bé' là gì?",
+          "options": [
+            "Ca ngợi tài năng và tấm lòng nhân hậu, yêu thương con người của bác sĩ Pa-xtơ.",
+            "Kể về một em bé bị chó dại cắn.",
+            "Nói về sự nguy hiểm của bệnh dại.",
+            "Giới thiệu về nước Pháp."
+          ],
+          "answer_index": 0,
+          "answer_text": "Ca ngợi tài năng và tấm lòng nhân hậu, yêu thương con người của bác sĩ Pa-xtơ."
+        },
+        {
+          "id": "V5M03Q09",
+          "question": "Khi kể chuyện, để câu chuyện hấp dẫn hơn, người kể có thể làm gì?",
+          "options": [
+            "Thay đổi giọng điệu phù hợp với từng nhân vật, tình huống.",
+            "Kể thật nhanh để kết thúc sớm.",
+            "Chỉ dùng một giọng đều đều.",
+            "Không nhìn vào người nghe."
+          ],
+          "answer_index": 0,
+          "answer_text": "Thay đổi giọng điệu phù hợp với từng nhân vật, tình huống."
+        },
+        {
+          "id": "V5M03Q10",
+          "question": "Vì sao trong truyện 'Chuỗi ngọc lam', cô bé lại muốn mua chuỗi ngọc lam để tặng chị?",
+          "options": [
+            "Vì cô bé nghĩ chuỗi ngọc đó có màu giống mắt chị.",
+            "Vì đó là chuỗi ngọc đắt tiền nhất.",
+            "Vì chị cô bé yêu cầu.",
+            "Vì cô bé có rất nhiều tiền."
+          ],
+          "answer_index": 0,
+          "answer_text": "Vì cô bé nghĩ chuỗi ngọc đó có màu giống mắt chị."
+        }
+      ]
+    }
+  ]
+}

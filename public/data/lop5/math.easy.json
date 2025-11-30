@@ -1,0 +1,1240 @@
+{
+  "meta": {
+    "grade": 5,
+    "subject": "Toán",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "easy",
+    "curriculum": "Chương trình mới"
+  },
+  "topics": [
+    {
+      "id": "MATH5_EASY_01",
+      "name": "Chủ đề 1: Ôn tập và bổ sung về phân số",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "M5E01Q01",
+          "question": "Phân số 'bảy phần mười' được viết là:",
+          "options": [
+            "7/100",
+            "10/7",
+            "7/10",
+            "7/1000"
+          ],
+          "answer_index": 2,
+          "answer_text": "7/10"
+        },
+        {
+          "id": "M5E01Q02",
+          "question": "Trong các phân số sau, phân số nào là phân số thập phân? 3/7, 4/10, 5/12, 1/3",
+          "options": [
+            "5/12",
+            "3/7",
+            "1/3",
+            "4/10"
+          ],
+          "answer_index": 3,
+          "answer_text": "4/10"
+        },
+        {
+          "id": "M5E01Q03",
+          "question": "Chuyển hỗn số 2 1/4 thành phân số:",
+          "options": [
+            "9/4",
+            "7/4",
+            "21/4",
+            "8/4"
+          ],
+          "answer_index": 0,
+          "answer_text": "9/4"
+        },
+        {
+          "id": "M5E01Q04",
+          "question": "Kết quả của phép cộng 1/5 + 2/5 là:",
+          "options": [
+            "3/10",
+            "2/25",
+            "3/5",
+            "2/5"
+          ],
+          "answer_index": 2,
+          "answer_text": "3/5"
+        },
+        {
+          "id": "M5E01Q05",
+          "question": "Kết quả của phép trừ 4/7 - 1/7 là:",
+          "options": [
+            "3/0",
+            "3/14",
+            "5/7",
+            "3/7"
+          ],
+          "answer_index": 3,
+          "answer_text": "3/7"
+        },
+        {
+          "id": "M5E01Q06",
+          "question": "Kết quả của phép nhân 1/2 x 3/4 là:",
+          "options": [
+            "4/6",
+            "3/8",
+            "3/6",
+            "4/8"
+          ],
+          "answer_index": 1,
+          "answer_text": "3/8"
+        },
+        {
+          "id": "M5E01Q07",
+          "question": "Kết quả của phép chia 2/3 : 1/4 là:",
+          "options": [
+            "2/12",
+            "8/3",
+            "3/8",
+            "1/6"
+          ],
+          "answer_index": 1,
+          "answer_text": "8/3"
+        },
+        {
+          "id": "M5E01Q08",
+          "question": "Tìm x, biết x + 1/4 = 3/4",
+          "options": [
+            "2/4",
+            "4/4",
+            "1/2",
+            "4/8"
+          ],
+          "answer_index": 2,
+          "answer_text": "1/2"
+        },
+        {
+          "id": "M5E01Q09",
+          "question": "Một lớp học có 30 học sinh, trong đó có 2/3 là học sinh nữ. Hỏi lớp có bao nhiêu học sinh nữ?",
+          "options": [
+            "15",
+            "10",
+            "20",
+            "25"
+          ],
+          "answer_index": 2,
+          "answer_text": "20"
+        },
+        {
+          "id": "M5E01Q10",
+          "question": "Điền dấu (>, <, =) thích hợp vào chỗ trống: 5/9 ... 7/9",
+          "options": [
+            ">",
+            "=",
+            "<",
+            "Không so sánh được"
+          ],
+          "answer_index": 2,
+          "answer_text": "<"
+        },
+        {
+          "id": "M5E01Q11",
+          "question": "Rút gọn phân số 12/18",
+          "options": [
+            "6/9",
+            "4/6",
+            "2/3",
+            "3/4"
+          ],
+          "answer_index": 2,
+          "answer_text": "2/3"
+        },
+        {
+          "id": "M5E01Q12",
+          "question": "Quy đồng mẫu số hai phân số 1/3 và 1/4 được:",
+          "options": [
+            "4/12 và 3/12",
+            "2/6 và 3/6",
+            "3/12 và 4/12",
+            "1/12 và 1/12"
+          ],
+          "answer_index": 0,
+          "answer_text": "4/12 và 3/12"
+        },
+        {
+          "id": "M5E01Q13",
+          "question": "Chuyển phân số 15/4 thành hỗn số:",
+          "options": [
+            "3 3/4",
+            "4 1/4",
+            "3 1/4",
+            "2 7/4"
+          ],
+          "answer_index": 0,
+          "answer_text": "3 3/4"
+        },
+        {
+          "id": "M5E01Q14",
+          "question": "Phân số đảo ngược của phân số 5/8 là:",
+          "options": [
+            "8/5",
+            "5/8",
+            "1",
+            "0"
+          ],
+          "answer_index": 0,
+          "answer_text": "8/5"
+        },
+        {
+          "id": "M5E01Q15",
+          "question": "Tính: 3 x 1/2",
+          "options": [
+            "1/6",
+            "3/2",
+            "2/3",
+            "3/1"
+          ],
+          "answer_index": 1,
+          "answer_text": "3/2"
+        },
+        {
+          "id": "M5E01Q16",
+          "question": "Tính: 4 : 1/3",
+          "options": [
+            "12",
+            "4/3",
+            "3/4",
+            "1/12"
+          ],
+          "answer_index": 0,
+          "answer_text": "12"
+        },
+        {
+          "id": "M5E01Q17",
+          "question": "So sánh 8/8 và 1",
+          "options": [
+            "8/8 > 1",
+            "8/8 = 1",
+            "8/8 < 1",
+            "Không so sánh được"
+          ],
+          "answer_index": 1,
+          "answer_text": "8/8 = 1"
+        },
+        {
+          "id": "M5E01Q18",
+          "question": "Một mảnh vườn hình chữ nhật có diện tích 100m², trong đó 3/5 diện tích trồng hoa. Diện tích trồng hoa là:",
+          "options": [
+            "50m²",
+            "60m²",
+            "40m²",
+            "75m²"
+          ],
+          "answer_index": 1,
+          "answer_text": "60m²"
+        },
+        {
+          "id": "M5E01Q19",
+          "question": "Tìm một phân số bằng 3/5 và có mẫu số là 20",
+          "options": [
+            "15/20",
+            "12/20",
+            "9/20",
+            "18/20"
+          ],
+          "answer_index": 1,
+          "answer_text": "12/20"
+        },
+        {
+          "id": "M5E01Q20",
+          "question": "Kết quả của 2 - 1/3 là:",
+          "options": [
+            "1/3",
+            "5/3",
+            "6/3",
+            "1"
+          ],
+          "answer_index": 1,
+          "answer_text": "5/3"
+        },
+        {
+          "id": "M5E01Q21",
+          "question": "Một nửa của 1/2 là bao nhiêu?",
+          "options": [
+            "1",
+            "1/4",
+            "2",
+            "1/8"
+          ],
+          "answer_index": 1,
+          "answer_text": "1/4"
+        },
+        {
+          "id": "M5E01Q22",
+          "question": "Trong một giỏ có 12 quả táo và 8 quả cam. Tỉ số của số quả táo so với tổng số quả là:",
+          "options": [
+            "12/8",
+            "8/12",
+            "12/20",
+            "8/20"
+          ],
+          "answer_index": 2,
+          "answer_text": "12/20"
+        },
+        {
+          "id": "M5E01Q23",
+          "question": "1m bằng bao nhiêu phần của 1km?",
+          "options": [
+            "1/10",
+            "1/1000",
+            "1/100",
+            "10/1"
+          ],
+          "answer_index": 1,
+          "answer_text": "1/1000"
+        },
+        {
+          "id": "M5E01Q24",
+          "question": "Tính: 1/2 + 1/4",
+          "options": [
+            "1/6",
+            "2/6",
+            "3/4",
+            "2/4"
+          ],
+          "answer_index": 2,
+          "answer_text": "3/4"
+        },
+        {
+          "id": "M5E01Q25",
+          "question": "Điền số thích hợp vào chỗ trống: 3/4 = ?/8",
+          "options": [
+            "5",
+            "7",
+            "6",
+            "4"
+          ],
+          "answer_index": 2,
+          "answer_text": "6"
+        }
+      ]
+    },
+    {
+      "id": "MATH5_EASY_02",
+      "name": "Chủ đề 2: Số thập phân và các phép tính",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "M5E02Q01",
+          "question": "Số thập phân 'năm phẩy hai mươi ba' được viết là:",
+          "options": [
+            "5,023",
+            "5,23",
+            "52,3",
+            "523"
+          ],
+          "answer_index": 1,
+          "answer_text": "5,23"
+        },
+        {
+          "id": "M5E02Q02",
+          "question": "Trong số thập phân 12,345, chữ số 4 thuộc hàng nào?",
+          "options": [
+            "Hàng phần mười",
+            "Hàng phần trăm",
+            "Hàng phần nghìn",
+            "Hàng đơn vị"
+          ],
+          "answer_index": 1,
+          "answer_text": "Hàng phần trăm"
+        },
+        {
+          "id": "M5E02Q03",
+          "question": "Chuyển phân số thập phân 7/10 thành số thập phân:",
+          "options": [
+            "7,0",
+            "0,07",
+            "70",
+            "0,7"
+          ],
+          "answer_index": 3,
+          "answer_text": "0,7"
+        },
+        {
+          "id": "M5E02Q04",
+          "question": "Kết quả của phép tính 3,5 + 2,1 là:",
+          "options": [
+            "5,6",
+            "5,5",
+            "3,7",
+            "5,06"
+          ],
+          "answer_index": 0,
+          "answer_text": "5,6"
+        },
+        {
+          "id": "M5E02Q05",
+          "question": "Kết quả của phép tính 8,7 - 2,5 là:",
+          "options": [
+            "6,1",
+            "6,2",
+            "6,02",
+            "7,2"
+          ],
+          "answer_index": 1,
+          "answer_text": "6,2"
+        },
+        {
+          "id": "M5E02Q06",
+          "question": "Viết số thích hợp vào chỗ chấm: 3m 5cm = ... m",
+          "options": [
+            "3,5",
+            "3,05",
+            "3,005",
+            "35"
+          ],
+          "answer_index": 1,
+          "answer_text": "3,05"
+        },
+        {
+          "id": "M5E02Q07",
+          "question": "Số lớn nhất trong các số sau là: 4,56; 4,65; 4,5; 4,06",
+          "options": [
+            "4,56",
+            "4,5",
+            "4,06",
+            "4,65"
+          ],
+          "answer_index": 3,
+          "answer_text": "4,65"
+        },
+        {
+          "id": "M5E02Q08",
+          "question": "Kết quả của phép tính 2,5 x 10 là:",
+          "options": [
+            "0,25",
+            "250",
+            "25",
+            "2,50"
+          ],
+          "answer_index": 2,
+          "answer_text": "25"
+        },
+        {
+          "id": "M5E02Q09",
+          "question": "Kết quả của phép tính 34,5 : 100 là:",
+          "options": [
+            "3450",
+            "3,45",
+            "0,345",
+            "345"
+          ],
+          "answer_index": 2,
+          "answer_text": "0,345"
+        },
+        {
+          "id": "M5E02Q10",
+          "question": "Chữ số 9 trong số 12,95 có giá trị là:",
+          "options": [
+            "9",
+            "9/10",
+            "9/100",
+            "90"
+          ],
+          "answer_index": 1,
+          "answer_text": "9/10"
+        },
+        {
+          "id": "M5E02Q11",
+          "question": "Viết số 0,5 dưới dạng phân số thập phân:",
+          "options": [
+            "5/10",
+            "5/100",
+            "1/2",
+            "50/10"
+          ],
+          "answer_index": 0,
+          "answer_text": "5/10"
+        },
+        {
+          "id": "M5E02Q12",
+          "question": "So sánh 8,1 và 8,09",
+          "options": [
+            "8,1 < 8,09",
+            "8,1 = 8,09",
+            "8,1 > 8,09",
+            "Không thể so sánh"
+          ],
+          "answer_index": 2,
+          "answer_text": "8,1 > 8,09"
+        },
+        {
+          "id": "M5E02Q13",
+          "question": "Tìm x, biết x - 1,2 = 3,4",
+          "options": [
+            "2,2",
+            "4,6",
+            "4,2",
+            "5,6"
+          ],
+          "answer_index": 1,
+          "answer_text": "4,6"
+        },
+        {
+          "id": "M5E02Q14",
+          "question": "Một thanh sắt dài 2,5m. 10 thanh sắt như vậy dài bao nhiêu mét?",
+          "options": [
+            "25m",
+            "0,25m",
+            "250m",
+            "2,51m"
+          ],
+          "answer_index": 0,
+          "answer_text": "25m"
+        },
+        {
+          "id": "M5E02Q15",
+          "question": "Làm tròn số 3,1415 đến hàng phần trăm:",
+          "options": [
+            "3,1",
+            "3,14",
+            "3,142",
+            "3,15"
+          ],
+          "answer_index": 1,
+          "answer_text": "3,14"
+        },
+        {
+          "id": "M5E02Q16",
+          "question": "Kết quả của phép tính 4,2 x 100 là:",
+          "options": [
+            "42",
+            "0,042",
+            "420",
+            "4200"
+          ],
+          "answer_index": 2,
+          "answer_text": "420"
+        },
+        {
+          "id": "M5E02Q17",
+          "question": "5kg 25g = ? kg",
+          "options": [
+            "5,25 kg",
+            "5,025 kg",
+            "52,5 kg",
+            "5025 kg"
+          ],
+          "answer_index": 1,
+          "answer_text": "5,025 kg"
+        },
+        {
+          "id": "M5E02Q18",
+          "question": "Mua 12 quyển vở hết 24000 đồng. Mua 1 quyển vở hết bao nhiêu tiền?",
+          "options": [
+            "2400 đồng",
+            "1200 đồng",
+            "2000 đồng",
+            "3000 đồng"
+          ],
+          "answer_index": 2,
+          "answer_text": "2000 đồng"
+        },
+        {
+          "id": "M5E02Q19",
+          "question": "Kết quả của phép tính 15 : 4 là:",
+          "options": [
+            "3,75",
+            "3,5",
+            "3,25",
+            "4,75"
+          ],
+          "answer_index": 0,
+          "answer_text": "3,75"
+        },
+        {
+          "id": "M5E02Q20",
+          "question": "Số thập phân gồm 'Không đơn vị, một phần trăm' được viết là:",
+          "options": [
+            "0,1",
+            "0,001",
+            "1,0",
+            "0,01"
+          ],
+          "answer_index": 3,
+          "answer_text": "0,01"
+        },
+        {
+          "id": "M5E02Q21",
+          "question": "Tính 1 - 0,5",
+          "options": [
+            "0,5",
+            "1,5",
+            "0,05",
+            "5"
+          ],
+          "answer_index": 0,
+          "answer_text": "0,5"
+        },
+        {
+          "id": "M5E02Q22",
+          "question": "Số bé nhất trong các số sau là: 0,1; 0,01; 0,11; 1,0",
+          "options": [
+            "0,1",
+            "0,01",
+            "0,11",
+            "1,0"
+          ],
+          "answer_index": 1,
+          "answer_text": "0,01"
+        },
+        {
+          "id": "M5E02Q23",
+          "question": "25% của 100 là bao nhiêu?",
+          "options": [
+            "0,25",
+            "2,5",
+            "50",
+            "25"
+          ],
+          "answer_index": 3,
+          "answer_text": "25"
+        },
+        {
+          "id": "M5E02Q24",
+          "question": "Viết 3/4 dưới dạng số thập phân:",
+          "options": [
+            "0,25",
+            "3,4",
+            "0,75",
+            "0,34"
+          ],
+          "answer_index": 2,
+          "answer_text": "0,75"
+        },
+        {
+          "id": "M5E02Q25",
+          "question": "Kết quả của phép tính 2,5 x 4 là:",
+          "options": [
+            "8",
+            "10",
+            "100",
+            "1,0"
+          ],
+          "answer_index": 1,
+          "answer_text": "10"
+        }
+      ]
+    },
+    {
+      "id": "MATH5_EASY_03",
+      "name": "Chủ đề 3: Hình học",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "M5E03Q01",
+          "question": "Hình tam giác có mấy cạnh?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer_index": 1,
+          "answer_text": "3"
+        },
+        {
+          "id": "M5E03Q02",
+          "question": "Công thức tính diện tích hình tam giác có đáy a và chiều cao h là:",
+          "options": [
+            "a x h",
+            "a + h",
+            "(a x h) : 2",
+            "a : h"
+          ],
+          "answer_index": 2,
+          "answer_text": "(a x h) : 2"
+        },
+        {
+          "id": "M5E03Q03",
+          "question": "Hình thang có đặc điểm gì?",
+          "options": [
+            "Có hai cặp cạnh đối song song",
+            "Có một cặp cạnh đối song song",
+            "Các cạnh bằng nhau",
+            "Các góc bằng nhau"
+          ],
+          "answer_index": 1,
+          "answer_text": "Có một cặp cạnh đối song song"
+        },
+        {
+          "id": "M5E03Q04",
+          "question": "Công thức tính diện tích hình thang có đáy lớn a, đáy bé b và chiều cao h là:",
+          "options": [
+            "(a + b) x h",
+            "(a + b) : 2 x h",
+            "(a + b) x h : 2",
+            "a x b x h"
+          ],
+          "answer_index": 2,
+          "answer_text": "(a + b) x h : 2"
+        },
+        {
+          "id": "M5E03Q05",
+          "question": "Hình tròn có tâm O và bán kính r. Đường kính d của hình tròn đó là:",
+          "options": [
+            "d = r x r",
+            "d = r : 2",
+            "d = r x 2",
+            "d = r + 2"
+          ],
+          "answer_index": 2,
+          "answer_text": "d = r x 2"
+        },
+        {
+          "id": "M5E03Q06",
+          "question": "Công thức tính chu vi hình tròn có bán kính r là:",
+          "options": [
+            "r x 2 x 3,14",
+            "r x r x 3,14",
+            "r x 3,14",
+            "d x d x 3,14"
+          ],
+          "answer_index": 0,
+          "answer_text": "r x 2 x 3,14"
+        },
+        {
+          "id": "M5E03Q07",
+          "question": "Công thức tính diện tích hình tròn có bán kính r là:",
+          "options": [
+            "r x 2 x 3,14",
+            "r x r x 3,14",
+            "d x 3,14",
+            "r + r + 3,14"
+          ],
+          "answer_index": 1,
+          "answer_text": "r x r x 3,14"
+        },
+        {
+          "id": "M5E03Q08",
+          "question": "Hình hộp chữ nhật có mấy mặt?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "answer_index": 2,
+          "answer_text": "6"
+        },
+        {
+          "id": "M5E03Q09",
+          "question": "Hình lập phương có đặc điểm gì?",
+          "options": [
+            "Các mặt là hình chữ nhật",
+            "Có 8 mặt",
+            "Các mặt là các hình vuông bằng nhau",
+            "Chỉ có 4 cạnh"
+          ],
+          "answer_index": 2,
+          "answer_text": "Các mặt là các hình vuông bằng nhau"
+        },
+        {
+          "id": "M5E03Q10",
+          "question": "Đơn vị đo thể tích là:",
+          "options": [
+            "m",
+            "m²",
+            "m³",
+            "kg"
+          ],
+          "answer_index": 2,
+          "answer_text": "m³"
+        },
+        {
+          "id": "M5E03Q11",
+          "question": "Tính diện tích hình tam giác có đáy 10cm và chiều cao 5cm.",
+          "options": [
+            "50cm²",
+            "100cm²",
+            "15cm²",
+            "25cm²"
+          ],
+          "answer_index": 3,
+          "answer_text": "25cm²"
+        },
+        {
+          "id": "M5E03Q12",
+          "question": "Một hình tròn có đường kính 10cm. Bán kính của nó là:",
+          "options": [
+            "10cm",
+            "20cm",
+            "5cm",
+            "2,5cm"
+          ],
+          "answer_index": 2,
+          "answer_text": "5cm"
+        },
+        {
+          "id": "M5E03Q13",
+          "question": "Tính chu vi hình tròn có bán kính 2cm.",
+          "options": [
+            "6,28cm",
+            "12,56cm",
+            "3,14cm",
+            "4cm"
+          ],
+          "answer_index": 1,
+          "answer_text": "12,56cm"
+        },
+        {
+          "id": "M5E03Q14",
+          "question": "Hình hộp chữ nhật có mấy đỉnh?",
+          "options": [
+            "6",
+            "8",
+            "10",
+            "12"
+          ],
+          "answer_index": 1,
+          "answer_text": "8"
+        },
+        {
+          "id": "M5E03Q15",
+          "question": "Hình hộp chữ nhật có mấy cạnh?",
+          "options": [
+            "6",
+            "8",
+            "12",
+            "10"
+          ],
+          "answer_index": 2,
+          "answer_text": "12"
+        },
+        {
+          "id": "M5E03Q16",
+          "question": "Tính diện tích hình tròn có bán kính 1cm.",
+          "options": [
+            "3,14cm²",
+            "6,28cm²",
+            "1cm²",
+            "31,4cm²"
+          ],
+          "answer_index": 0,
+          "answer_text": "3,14cm²"
+        },
+        {
+          "id": "M5E03Q17",
+          "question": "Công thức tính diện tích xung quanh hình hộp chữ nhật là:",
+          "options": [
+            "Tổng diện tích 6 mặt",
+            "Chu vi đáy nhân chiều cao",
+            "Diện tích đáy nhân chiều cao",
+            "Chiều dài x chiều rộng"
+          ],
+          "answer_index": 1,
+          "answer_text": "Chu vi đáy nhân chiều cao"
+        },
+        {
+          "id": "M5E03Q18",
+          "question": "Công thức tính thể tích hình lập phương có cạnh a là:",
+          "options": [
+            "a x a",
+            "a x 4",
+            "a x 6",
+            "a x a x a"
+          ],
+          "answer_index": 3,
+          "answer_text": "a x a x a"
+        },
+        {
+          "id": "M5E03Q19",
+          "question": "Tính thể tích hình lập phương có cạnh 2cm.",
+          "options": [
+            "4cm³",
+            "6cm³",
+            "8cm³",
+            "12cm³"
+          ],
+          "answer_index": 2,
+          "answer_text": "8cm³"
+        },
+        {
+          "id": "M5E03Q20",
+          "question": "Một hình thang có đáy lớn 15cm, đáy bé 10cm, chiều cao 8cm. Diện tích hình thang là:",
+          "options": [
+            "100cm²",
+            "200cm²",
+            "120cm²",
+            "25cm²"
+          ],
+          "answer_index": 0,
+          "answer_text": "100cm²"
+        },
+        {
+          "id": "M5E03Q21",
+          "question": "Tổng số đo các góc trong một hình tam giác là:",
+          "options": [
+            "90°",
+            "360°",
+            "180°",
+            "100°"
+          ],
+          "answer_index": 2,
+          "answer_text": "180°"
+        },
+        {
+          "id": "M5E03Q22",
+          "question": "Một hình tròn có chu vi là 31,4cm. Bán kính của nó là:",
+          "options": [
+            "10cm",
+            "3,14cm",
+            "5cm",
+            "15,7cm"
+          ],
+          "answer_index": 2,
+          "answer_text": "5cm"
+        },
+        {
+          "id": "M5E03Q23",
+          "question": "Hình gì có 2 cặp cạnh đối song song và 4 góc vuông?",
+          "options": [
+            "Hình bình hành",
+            "Hình chữ nhật",
+            "Hình thoi",
+            "Hình thang"
+          ],
+          "answer_index": 1,
+          "answer_text": "Hình chữ nhật"
+        },
+        {
+          "id": "M5E03Q24",
+          "question": "Số Pi (π) có giá trị xấp xỉ là:",
+          "options": [
+            "3,41",
+            "3,14",
+            "1,34",
+            "4,13"
+          ],
+          "answer_index": 1,
+          "answer_text": "3,14"
+        },
+        {
+          "id": "M5E03Q25",
+          "question": "Tính diện tích toàn phần của hình lập phương có cạnh 1cm.",
+          "options": [
+            "1cm²",
+            "4cm²",
+            "6cm²",
+            "8cm²"
+          ],
+          "answer_index": 2,
+          "answer_text": "6cm²"
+        }
+      ]
+    },
+    {
+      "id": "MATH5_EASY_04",
+      "name": "Chủ đề 4: Số đo thời gian và toán chuyển động",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "M5E04Q01",
+          "question": "1 giờ có bao nhiêu phút?",
+          "options": [
+            "30 phút",
+            "100 phút",
+            "60 phút",
+            "90 phút"
+          ],
+          "answer_index": 2,
+          "answer_text": "60 phút"
+        },
+        {
+          "id": "M5E04Q02",
+          "question": "1 phút có bao nhiêu giây?",
+          "options": [
+            "60 giây",
+            "30 giây",
+            "100 giây",
+            "120 giây"
+          ],
+          "answer_index": 0,
+          "answer_text": "60 giây"
+        },
+        {
+          "id": "M5E04Q03",
+          "question": "Đổi 2 giờ 30 phút ra phút.",
+          "options": [
+            "90 phút",
+            "120 phút",
+            "230 phút",
+            "150 phút"
+          ],
+          "answer_index": 3,
+          "answer_text": "150 phút"
+        },
+        {
+          "id": "M5E04Q04",
+          "question": "Một ô tô đi với vận tốc 40 km/giờ. Quãng đường ô tô đi được trong 2 giờ là:",
+          "options": [
+            "20 km",
+            "40 km",
+            "60 km",
+            "80 km"
+          ],
+          "answer_index": 3,
+          "answer_text": "80 km"
+        },
+        {
+          "id": "M5E04Q05",
+          "question": "Công thức tính quãng đường (s) khi biết vận tốc (v) và thời gian (t) là:",
+          "options": [
+            "s = v : t",
+            "s = v x t",
+            "s = t : v",
+            "s = v + t"
+          ],
+          "answer_index": 1,
+          "answer_text": "s = v x t"
+        },
+        {
+          "id": "M5E04Q06",
+          "question": "Công thức tính vận tốc (v) khi biết quãng đường (s) và thời gian (t) là:",
+          "options": [
+            "v = s x t",
+            "v = t : s",
+            "v = s : t",
+            "v = s - t"
+          ],
+          "answer_index": 2,
+          "answer_text": "v = s : t"
+        },
+        {
+          "id": "M5E04Q07",
+          "question": "Công thức tính thời gian (t) khi biết quãng đường (s) và vận tốc (v) là:",
+          "options": [
+            "t = s : v",
+            "t = s x v",
+            "t = v : s",
+            "t = v + s"
+          ],
+          "answer_index": 0,
+          "answer_text": "t = s : v"
+        },
+        {
+          "id": "M5E04Q08",
+          "question": "Một người đi bộ quãng đường 6km trong 2 giờ. Vận tốc của người đó là:",
+          "options": [
+            "12 km/giờ",
+            "3 km/giờ",
+            "4 km/giờ",
+            "8 km/giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "3 km/giờ"
+        },
+        {
+          "id": "M5E04Q09",
+          "question": "Một xe máy đi quãng đường 100km với vận tốc 50 km/giờ. Thời gian đi của xe máy là:",
+          "options": [
+            "1 giờ",
+            "2 giờ",
+            "3 giờ",
+            "4 giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "2 giờ"
+        },
+        {
+          "id": "M5E04Q10",
+          "question": "1,5 giờ bằng bao nhiêu phút?",
+          "options": [
+            "60 phút",
+            "150 phút",
+            "90 phút",
+            "100 phút"
+          ],
+          "answer_index": 2,
+          "answer_text": "90 phút"
+        },
+        {
+          "id": "M5E04Q11",
+          "question": "Đổi 120 giây ra phút.",
+          "options": [
+            "1 phút",
+            "2 phút",
+            "3 phút",
+            "1,2 phút"
+          ],
+          "answer_index": 1,
+          "answer_text": "2 phút"
+        },
+        {
+          "id": "M5E04Q12",
+          "question": "Một tàu hỏa khởi hành lúc 7 giờ sáng và đến nơi lúc 9 giờ 30 phút sáng. Thời gian tàu đi là:",
+          "options": [
+            "2 giờ",
+            "3 giờ",
+            "2 giờ 30 phút",
+            "1 giờ 30 phút"
+          ],
+          "answer_index": 2,
+          "answer_text": "2 giờ 30 phút"
+        },
+        {
+          "id": "M5E04Q13",
+          "question": "Đơn vị đo vận tốc thường là:",
+          "options": [
+            "km",
+            "giờ",
+            "km/giờ",
+            "km x giờ"
+          ],
+          "answer_index": 2,
+          "answer_text": "km/giờ"
+        },
+        {
+          "id": "M5E04Q14",
+          "question": "0,5 giờ bằng bao nhiêu phút?",
+          "options": [
+            "50 phút",
+            "20 phút",
+            "30 phút",
+            "5 phút"
+          ],
+          "answer_index": 2,
+          "answer_text": "30 phút"
+        },
+        {
+          "id": "M5E04Q15",
+          "question": "Một người đi xe đạp trong 30 phút được quãng đường 5km. Vận tốc của người đó là:",
+          "options": [
+            "10 km/giờ",
+            "5 km/giờ",
+            "15 km/giờ",
+            "2,5 km/giờ"
+          ],
+          "answer_index": 0,
+          "answer_text": "10 km/giờ"
+        },
+        {
+          "id": "M5E04Q16",
+          "question": "Đổi 36 km/giờ ra m/giây.",
+          "options": [
+            "10 m/giây",
+            "36 m/giây",
+            "100 m/giây",
+            "360 m/giây"
+          ],
+          "answer_index": 0,
+          "answer_text": "10 m/giây"
+        },
+        {
+          "id": "M5E04Q17",
+          "question": "Một máy bay bay với vận tốc 800 km/giờ. Quãng đường máy bay bay được trong 15 phút là:",
+          "options": [
+            "12000 km",
+            "400 km",
+            "800 km",
+            "200 km"
+          ],
+          "answer_index": 3,
+          "answer_text": "200 km"
+        },
+        {
+          "id": "M5E04Q18",
+          "question": "Hai ô tô khởi hành cùng lúc từ hai điểm A và B cách nhau 180km và đi ngược chiều nhau. Vận tốc xe từ A là 40km/h, xe từ B là 50km/h. Hỏi sau bao lâu chúng gặp nhau?",
+          "options": [
+            "1 giờ",
+            "2 giờ",
+            "3 giờ",
+            "4 giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "2 giờ"
+        },
+        {
+          "id": "M5E04Q19",
+          "question": "Tính: 3 giờ 15 phút + 1 giờ 45 phút",
+          "options": [
+            "4 giờ",
+            "4 giờ 30 phút",
+            "5 giờ",
+            "5 giờ 15 phút"
+          ],
+          "answer_index": 2,
+          "answer_text": "5 giờ"
+        },
+        {
+          "id": "M5E04Q20",
+          "question": "Tính: 5 phút 20 giây - 2 phút 30 giây",
+          "options": [
+            "3 phút 10 giây",
+            "2 phút 50 giây",
+            "3 phút 50 giây",
+            "2 phút 10 giây"
+          ],
+          "answer_index": 1,
+          "answer_text": "2 phút 50 giây"
+        },
+        {
+          "id": "M5E04Q21",
+          "question": "Một ngày có bao nhiêu giờ?",
+          "options": [
+            "12 giờ",
+            "24 giờ",
+            "36 giờ",
+            "48 giờ"
+          ],
+          "answer_index": 1,
+          "answer_text": "24 giờ"
+        },
+        {
+          "id": "M5E04Q22",
+          "question": "Một tuần có mấy ngày?",
+          "options": [
+            "5 ngày",
+            "6 ngày",
+            "7 ngày",
+            "8 ngày"
+          ],
+          "answer_index": 2,
+          "answer_text": "7 ngày"
+        },
+        {
+          "id": "M5E04Q23",
+          "question": "Một năm (không nhuận) có bao nhiêu ngày?",
+          "options": [
+            "360 ngày",
+            "365 ngày",
+            "366 ngày",
+            "370 ngày"
+          ],
+          "answer_index": 1,
+          "answer_text": "365 ngày"
+        },
+        {
+          "id": "M5E04Q24",
+          "question": "Vận tốc ánh sáng là khoảng 300.000 km/giây. Đây là vận tốc rất:",
+          "options": [
+            "Chậm",
+            "Nhanh",
+            "Bình thường",
+            "Không xác định"
+          ],
+          "answer_index": 1,
+          "answer_text": "Nhanh"
+        },
+        {
+          "id": "M5E04Q25",
+          "question": "Nếu bạn đi bộ 1km hết 15 phút, để đi 4km bạn cần bao nhiêu thời gian?",
+          "options": [
+            "30 phút",
+            "45 phút",
+            "1 giờ",
+            "1 giờ 15 phút"
+          ],
+          "answer_index": 2,
+          "answer_text": "1 giờ"
+        }
+      ]
+    }
+  ]
+}

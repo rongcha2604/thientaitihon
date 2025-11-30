@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "grade": 2,
+    "subject": "Tiếng Việt",
+    "language": "vi",
+    "created_date": "2025-11-04",
+    "level": "easy",
+    "curriculum": "Chân trời sáng tạo"
+  },
+  "topics": [
+    {
+      "id": "VIE2_EASY_01",
+      "name": "Chủ đề 1: Em đã lớn hơn",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V2E01Q01",
+          "question": "Từ nào viết đúng chính tả?",
+          "options": [
+            "trường học",
+            "chường học",
+            "tràng học",
+            "chàng học"
+          ],
+          "answer_index": 0,
+          "answer_text": "trường học"
+        },
+        {
+          "id": "V2E01Q02",
+          "question": "Điền vào chỗ trống: 'Em ... sách.'",
+          "options": [
+            "ngủ",
+            "đá",
+            "đọc",
+            "chạy"
+          ],
+          "answer_index": 2,
+          "answer_text": "đọc"
+        },
+        {
+          "id": "V2E01Q03",
+          "question": "Từ nào viết sai chính tả?",
+          "options": [
+            "cái kẹo",
+            "con cò",
+            "quyển xách",
+            "ngôi nhà"
+          ],
+          "answer_index": 2,
+          "answer_text": "quyển xách"
+        },
+        {
+          "id": "V2E01Q04",
+          "question": "Sắp xếp các từ sau thành câu: 'đi, em, học'",
+          "options": [
+            "Học em đi.",
+            "Em đi học.",
+            "Đi em học.",
+            "Em học đi."
+          ],
+          "answer_index": 1,
+          "answer_text": "Em đi học."
+        }
+      ]
+    },
+    {
+      "id": "VIE2_EASY_02",
+      "name": "Chủ đề 2: Mỗi người một vẻ",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V2E02Q01",
+          "question": "Từ nào sau đây chỉ đặc điểm?",
+          "options": [
+            "cái bàn",
+            "xinh xắn",
+            "quyển vở",
+            "chạy nhảy"
+          ],
+          "answer_index": 1,
+          "answer_text": "xinh xắn"
+        },
+        {
+          "id": "V2E02Q02",
+          "question": "Trong câu 'Mái tóc của bạn Lan rất dài.', từ chỉ đặc điểm là:",
+          "options": [
+            "mái tóc",
+            "bạn Lan",
+            "rất",
+            "dài"
+          ],
+          "answer_index": 3,
+          "answer_text": "dài"
+        },
+        {
+          "id": "V2E02Q03",
+          "question": "Từ nào chỉ màu sắc?",
+          "options": [
+            "cao",
+            "thấp",
+            "xanh",
+            "gầy"
+          ],
+          "answer_index": 2,
+          "answer_text": "xanh"
+        },
+        {
+          "id": "V2E02Q04",
+          "question": "Chọn từ phù hợp điền vào chỗ trống: 'Bạn Hà rất ...'",
+          "options": [
+            "hát",
+            "thông minh",
+            "múa",
+            "vẽ"
+          ],
+          "answer_index": 1,
+          "answer_text": "thông minh"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_EASY_03",
+      "name": "Chủ đề 3: Bạn bè của em",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V2E03Q01",
+          "question": "Câu 'Chúng em cùng nhau chơi đuổi bắt.' thuộc kiểu câu nào?",
+          "options": [
+            "Câu hỏi",
+            "Câu kể",
+            "Câu cảm",
+            "Câu khiến"
+          ],
+          "answer_index": 1,
+          "answer_text": "Câu kể"
+        },
+        {
+          "id": "V2E03Q02",
+          "question": "Từ nào chỉ hoạt động của học sinh?",
+          "options": [
+            "đọc bài",
+            "hiền lành",
+            "cái bàn",
+            "xinh đẹp"
+          ],
+          "answer_index": 0,
+          "answer_text": "đọc bài"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_EASY_04",
+      "name": "Chủ đề 4: Ông bà yêu quý",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V2E04Q01",
+          "question": "Từ nào sau đây chỉ người thân trong gia đình?",
+          "options": [
+            "cô giáo",
+            "bạn bè",
+            "ông bà",
+            "bác sĩ"
+          ],
+          "answer_index": 2,
+          "answer_text": "ông bà"
+        },
+        {
+          "id": "V2E04Q02",
+          "question": "Điền vào chỗ trống: 'Ông em đang ... báo.'",
+          "options": [
+            "nhảy",
+            "đọc",
+            "vẽ",
+            "bơi"
+          ],
+          "answer_index": 1,
+          "answer_text": "đọc"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_EASY_05",
+      "name": "Chủ đề 5: Bố mẹ thương yêu",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V2E05Q01",
+          "question": "Điền từ còn thiếu vào câu: 'Mẹ em là ...'",
+          "options": [
+            "giáo viên",
+            "cái cây",
+            "con đường",
+            "bầu trời"
+          ],
+          "answer_index": 0,
+          "answer_text": "giáo viên"
+        },
+        {
+          "id": "V2E05Q02",
+          "question": "Từ nào chỉ tình cảm gia đình?",
+          "options": [
+            "yêu thương",
+            "cây cối",
+            "nhà cửa",
+            "sách vở"
+          ],
+          "answer_index": 0,
+          "answer_text": "yêu thương"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_EASY_06",
+      "name": "Chủ đề 6: Ngôi nhà thứ hai",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V2E06Q01",
+          "question": "'Ngôi nhà thứ hai' trong các bài học thường chỉ nơi nào?",
+          "options": [
+            "Công viên",
+            "Trường học",
+            "Bệnh viện",
+            "Siêu thị"
+          ],
+          "answer_index": 1,
+          "answer_text": "Trường học"
+        },
+        {
+          "id": "V2E06Q02",
+          "question": "Từ nào chỉ đồ vật trong lớp học?",
+          "options": [
+            "cái bảng",
+            "cái cây",
+            "con chó",
+            "bông hoa"
+          ],
+          "answer_index": 0,
+          "answer_text": "cái bảng"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_EASY_07",
+      "name": "Chủ đề 7: Cùng em sáng tạo",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V2E07Q01",
+          "question": "Từ nào chỉ hoạt động sáng tạo?",
+          "options": [
+            "ngủ",
+            "ăn",
+            "vẽ tranh",
+            "đi bộ"
+          ],
+          "answer_index": 2,
+          "answer_text": "vẽ tranh"
+        },
+        {
+          "id": "V2E07Q02",
+          "question": "Để cắt giấy, em dùng cái gì?",
+          "options": [
+            "cái kéo",
+            "cái thìa",
+            "cái bát",
+            "cái ly"
+          ],
+          "answer_index": 0,
+          "answer_text": "cái kéo"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_EASY_08",
+      "name": "Chủ đề 11: Mùa xuân của em",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V2E08Q01",
+          "question": "Loài hoa nào thường nở vào mùa xuân ở miền Bắc Việt Nam?",
+          "options": [
+            "hoa sữa",
+            "hoa phượng",
+            "hoa đào",
+            "hoa bằng lăng"
+          ],
+          "answer_index": 2,
+          "answer_text": "hoa đào"
+        },
+        {
+          "id": "V2E08Q02",
+          "question": "Vào dịp Tết Nguyên Đán, người lớn thường ... cho trẻ em.",
+          "options": [
+            "la mắng",
+            "bắt nạt",
+            "tặng quà",
+            "mừng tuổi (lì xì)"
+          ],
+          "answer_index": 3,
+          "answer_text": "mừng tuổi (lì xì)"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_EASY_09",
+      "name": "Chủ đề 9: Nơi chốn thân quen",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V2E09Q01",
+          "question": "Từ nào sau đây chỉ một nơi chốn?",
+          "options": [
+            "vui vẻ",
+            "cánh đồng",
+            "xinh đẹp",
+            "chạy"
+          ],
+          "answer_index": 1,
+          "answer_text": "cánh đồng"
+        },
+        {
+          "id": "V2E09Q02",
+          "question": "Trong câu 'Quê em có dòng sông xanh biếc.', từ chỉ màu sắc là:",
+          "options": [
+            "dòng sông",
+            "quê em",
+            "xanh biếc",
+            "có"
+          ],
+          "answer_index": 2,
+          "answer_text": "xanh biếc"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_EASY_10",
+      "name": "Chủ đề 14: Việt Nam mến yêu",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V2E10Q01",
+          "question": "Thủ đô của nước Việt Nam là gì?",
+          "options": [
+            "Hà Nội",
+            "Đà Nẵng",
+            "Cần Thơ",
+            "Hải Phòng"
+          ],
+          "answer_index": 0,
+          "answer_text": "Hà Nội"
+        },
+        {
+          "id": "V2E10Q02",
+          "question": "Lá cờ của Việt Nam có màu gì?",
+          "options": [
+            "Xanh và trắng",
+            "Đỏ và vàng",
+            "Đen và trắng",
+            "Vàng và xanh"
+          ],
+          "answer_index": 1,
+          "answer_text": "Đỏ và vàng"
+        },
+        {
+          "id": "V2E10Q03",
+          "question": "Điền từ: '... là Bác Hồ Chí Minh.'",
+          "options": [
+            "Ai yêu nhi đồng bằng Bác Hồ Chí Minh",
+            "Kính yêu Bác Hồ Chí Minh",
+            "Nhớ ơn Bác Hồ Chí Minh",
+            "Bác Hồ Chí Minh vĩ đại"
+          ],
+          "answer_index": 0,
+          "answer_text": "Ai yêu nhi đồng bằng Bác Hồ Chí Minh"
+        }
+      ]
+    },
+    {
+      "id": "VIE2_EASY_11",
+      "name": "Chủ đề 12: Bài ca Trái Đất",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "id": "V2E11Q01",
+          "question": "Để bảo vệ môi trường, chúng ta nên làm gì?",
+          "options": [
+            "Vứt rác bừa bãi",
+            "Trồng nhiều cây xanh",
+            "Bẻ cành cây",
+            "Sử dụng nhiều túi ni lông"
+          ],
+          "answer_index": 1,
+          "answer_text": "Trồng nhiều cây xanh"
+        },
+        {
+          "id": "V2E11Q02",
+          "question": "Từ nào chỉ hành động có hại cho môi trường?",
+          "options": [
+            "tưới cây",
+            "nhặt rác",
+            "xả rác",
+            "trồng hoa"
+          ],
+          "answer_index": 2,
+          "answer_text": "xả rác"
+        },
+        {
+          "id": "V2E11Q03",
+          "question": "Trái Đất còn được gọi là gì?",
+          "options": [
+            "Hành tinh xanh",
+            "Mặt trăng",
+            "Mặt trời",
+            "Ngôi sao"
+          ],
+          "answer_index": 0,
+          "answer_text": "Hành tinh xanh"
+        },
+        {
+          "id": "V2E11Q04",
+          "question": "Từ trái nghĩa với 'sạch sẽ' là:",
+          "options": [
+            "ngăn nắp",
+            "gọn gàng",
+            "bẩn thỉu",
+            "tinh tươm"
+          ],
+          "answer_index": 2,
+          "answer_text": "bẩn thỉu"
+        },
+        {
+          "id": "V2E11Q05",
+          "question": "Câu nào thể hiện ý thức bảo vệ của chung?",
+          "options": [
+            "Hái hoa trong công viên.",
+            "Vẽ bậy lên tường.",
+            "Không khắc tên lên cây.",
+            "Vứt rác ra sân trường."
+          ],
+          "answer_index": 2,
+          "answer_text": "Không khắc tên lên cây."
+        }
+      ]
+    }
+  ]
+}
